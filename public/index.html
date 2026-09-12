@@ -115,6 +115,13 @@
     margin: 0 0 16px;
     text-wrap: balance;
   }
+  .hero-headline a{
+    color: inherit;
+    text-decoration: none;
+  }
+  .hero-headline a:hover{
+    text-decoration: underline;
+  }
   .hero-sub{
     font-size: 1.05rem;
     color: rgba(255,255,255,0.88);
@@ -265,6 +272,12 @@
     font-size:0.88rem;
     font-weight:600;
     line-height:1.2;
+    display:inline-block;
+    text-decoration:none;
+    cursor:pointer;
+  }
+  .chip:hover{
+    border-color:var(--accent);
   }
   .chip.lead{
     background:var(--accent);
@@ -441,6 +454,20 @@
   let selectedKey = key(today.getFullYear(), today.getMonth()+1, today.getDate());
 
   function key(y,m,d){ return `${y}-${m}-${d}`; }
+
+  function slugify(name){
+    let s = name.toLowerCase();
+    s = s.replace(/&/g, "and");
+    s = s.replace(/['’]/g, "");
+    s = s.replace(/[^a-z0-9]+/g, "-");
+    s = s.replace(/^-+|-+$/g, "");
+    s = s.replace(/-+/g, "-");
+    return s;
+  }
+  function holidayUrl(name){ return `/holiday/${slugify(name)}/`; }
+  function escapeHtml(s){
+    return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
   function isTodayKey(k){ return key(today.getFullYear(), today.getMonth()+1, today.getDate()) === k; }
 
   function render(){
@@ -461,7 +488,7 @@
       const lead = events[0];
       hero.style.backgroundImage = `url("${HERO_IMAGES[getCategory(lead)]}")`;
       document.getElementById("heroEyebrow").textContent = isTodayKey(k) ? "Today's leading celebration" : "Leading celebration this day";
-      document.getElementById("heroHeadline").textContent = lead;
+      document.getElementById("heroHeadline").innerHTML = `<a href="${holidayUrl(lead)}">${escapeHtml(lead)}</a>`;
       const restCount = events.length - 1;
       document.getElementById("heroSub").textContent = restCount > 0
         ? `Plus ${restCount} more ${restCount === 1 ? "celebration" : "celebrations"} on ${dateObj.toLocaleDateString(undefined,{month:'long', day:'numeric'})}.`
@@ -489,8 +516,9 @@
     if(events && events.length){
       document.getElementById("listSub").textContent = `${events.length} ${events.length === 1 ? "celebration" : "celebrations"} on the calendar.`;
       events.forEach((ev, i)=>{
-        const c = document.createElement("span");
+        const c = document.createElement("a");
         c.className = "chip" + (i === 0 ? " lead" : "");
+        c.href = holidayUrl(ev);
         c.textContent = ev;
         chipsEl.appendChild(c);
       });
