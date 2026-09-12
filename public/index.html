@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Today Celebrates</title>
+<style>
+  :root{
+    --bg: #faf7f2;
+    --card: #ffffff;
+    --ink: #24211c;
+    --muted: #6b665c;
+    --accent: #e8552f;
+    --accent-soft: #fde9e1;
+    --line: #e9e3d8;
+    --today-ring: #e8552f;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg: #17140f;
+      --card: #211d17;
+      --ink: #f3efe6;
+      --muted: #a89f8f;
+      --accent: #ff7a52;
+      --accent-soft: #3a241b;
+      --line: #34302a;
+      --today-ring: #ff7a52;
+    }
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding-block: 32px 64px;
+  }
+  .wrap{
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  header{
+    text-align:center;
+    margin-bottom: 28px;
+  }
+  .logo{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    font-size: 1.6rem;
+    font-weight:800;
+    letter-spacing:-0.02em;
+  }
+  .logo .dot{
+    width:12px;height:12px;border-radius:50%;
+    background:var(--accent);
+    display:inline-block;
+  }
+  header p{
+    color:var(--muted);
+    margin: 6px 0 0;
+    font-size: 0.95rem;
+  }
+
+  .hero{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:20px;
+    padding: 28px;
+    margin-bottom: 28px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  }
+  .hero-date{
+    font-size: 0.85rem;
+    text-transform:uppercase;
+    letter-spacing: 0.08em;
+    color:var(--accent);
+    font-weight:700;
+    margin-bottom:4px;
+  }
+  .hero-title{
+    font-size: 1.5rem;
+    font-weight:800;
+    margin: 0 0 16px;
+  }
+  .chips{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+  .chip{
+    background:var(--accent-soft);
+    color:var(--ink);
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-size:0.9rem;
+    font-weight:600;
+    line-height:1.2;
+  }
+  .empty-note{
+    color:var(--muted);
+    font-size:0.9rem;
+  }
+
+  .cal-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:20px;
+    padding: 20px;
+  }
+  .cal-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom: 14px;
+  }
+  .cal-header h2{
+    font-size:1.1rem;
+    margin:0;
+    font-weight:700;
+  }
+  .cal-nav{
+    display:flex;
+    gap:8px;
+  }
+  .cal-nav button{
+    border:1px solid var(--line);
+    background:transparent;
+    color:var(--ink);
+    width:32px;height:32px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:1rem;
+  }
+  .cal-nav button:hover{
+    background:var(--accent-soft);
+  }
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap:6px;
+  }
+  .dow{
+    text-align:center;
+    font-size:0.72rem;
+    color:var(--muted);
+    font-weight:700;
+    text-transform:uppercase;
+    padding-bottom:4px;
+  }
+  .day{
+    aspect-ratio: 1;
+    border-radius:12px;
+    border:1px solid transparent;
+    background: transparent;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-size:0.9rem;
+    color:var(--ink);
+    position:relative;
+    min-height: 40px;
+  }
+  .day:hover{
+    background:var(--accent-soft);
+  }
+  .day.empty{
+    cursor:default;
+    visibility:hidden;
+  }
+  .day.has-data::after{
+    content:"";
+    width:5px;height:5px;
+    border-radius:50%;
+    background:var(--accent);
+    position:absolute;
+    bottom:6px;
+  }
+  .day.today{
+    border-color: var(--today-ring);
+    font-weight:800;
+  }
+  .day.selected{
+    background:var(--accent);
+    color:#fff;
+  }
+  .day.selected::after{
+    background:#fff;
+  }
+
+  footer{
+    text-align:center;
+    color:var(--muted);
+    font-size:0.8rem;
+    margin-top: 28px;
+  }
+  footer a{ color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo"><span class="dot"></span>Today Celebrates</div>
+    <p>A little reason to celebrate every day.</p>
+  </header>
+
+  <div class="hero" id="hero">
+    <div class="hero-date" id="heroDate">—</div>
+    <div class="hero-title" id="heroTitle">—</div>
+    <div class="chips" id="heroChips"></div>
+  </div>
+
+  <div class="cal-card">
+    <div class="cal-header">
+      <h2 id="calLabel">—</h2>
+      <div class="cal-nav">
+        <button id="prevBtn" aria-label="Previous month">‹</button>
+        <button id="todayBtn" aria-label="Jump to today">•</button>
+        <button id="nextBtn" aria-label="Next month">›</button>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div>
+
+  <footer>
+    Demo dataset — September 2026 populated from National Day Calendar. Other months coming soon.
+  </footer>
+
+</div>
+
+<script>
+  // ---- Data: { "YYYY-M-D": ["Event 1", "Event 2", ...] } ----
+  const DATA = {
+    "2026-9-1": ["National Chicken Boy Day","National Forgiveness Day","National No Rhyme (nor Reason) Day","National Burnt Ends Day","National Hotel Employee Day","National Acne Positivity Day","World Letter Writing Day"],
+    "2026-9-2": ["National V-J Day","National Blueberry Popsicle Day","World Coconut Day"],
+    "2026-9-3": ["National Welsh Rarebit Day","U.S. Bowling League Day"],
+    "2026-9-4": ["National Wildlife Day","National Lazy Mom's Day","National Food Bank Day","National Spice Blend Day","National Macadamia Nut Day","National Chianti Day","National Newspaper Carrier Day","National College Colors Day","World Sexual Health Day"],
+    "2026-9-5": ["National Play Outside Day","National Cheese Pizza Day","National Be Late For Something Day","National Hummingbird Day","National Tailgating Day","International Day of Charity","World Samosa Day","International Bacon Day"],
+    "2026-9-6": ["National Read A Book Day","National Pastor's Spouses Day","National Coffee Ice Cream Day"],
+    "2026-9-7": ["National Beer Lover's Day","Labor Day","National Grandma Moses Day","National Salami Day","National Neither Snow Nor Rain Day","National Grateful Patient Day","National New Hampshire Day","National Acorn Squash Day"],
+    "2026-9-8": ["Star Trek Day","National Ants On A Log Day","National Pediatric Hematology/Oncology Nurses Day","World Ampersand Day","National Another Look Unlimited Day"],
+    "2026-9-9": ["National Teddy Bear Day","National Wiener Schnitzel Day","Care Bears Share Your Care Day","National Grilled Chicken Day"],
+    "2026-9-10": ["National TV Dinner Day","National Swap Ideas Day","National School Picture Day"],
+    "2026-9-11": ["Patriot Day — National Day of Service & Remembrance","National Hot Cross Bun Day","National Make Your Bed Day"],
+    "2026-9-12": ["National Day of Encouragement","National Video Games Day","National Chocolate Milkshake Day","National Hug & High 5 Day","National Just One Human Family Day","National Report Medicare Fraud Day"],
+    "2026-9-13": ["National Grandparents Day","National Bald Is Beautiful Day","Positive Thinking Day","Uncle Sam Day","National Peanut Day","National Pet Memorial Day","National Hug Your Hound Day","Day of the Programmer","National Celiac Disease Awareness Day","National Kids Take Over the Kitchen Day"],
+    "2026-9-14": ["National Boss/Employee Exchange Day","National Sober Day","National Cream-Filled Donut Day","National Live Creative Day","National Parents Day Off","National Eat A Hoagie Day","National Virginia Day"],
+    "2026-9-15": ["National IT Professionals Day","National Double Cheeseburger Day","National Cheese Toast Day","National Online Learning Day","National Linguine Day","National Neonatal Nurses Day","National Tackle Kids Cancer Day","National Creme De Menthe Day","National Felt Hat Day","National Voter Registration Day","International Dot Day","World Afro Day","International Day of Democracy"],
+    "2026-9-16": ["National Guacamole Day","National Play-Doh Day","Mayflower Day","National Working Parents Day","National Stepfamily Day","National Cinnamon Raisin Bread Day","International Day for the Preservation of the Ozone Layer"],
+    "2026-9-17": ["National Pawpaw Day","Constitution Day and Citizenship Day","National Monte Cristo Day","National Apple Dumpling Day","National Professional House Cleaners Day"],
+    "2026-9-18": ["National Cheeseburger Day","Air Force Birthday","National POW/MIA Recognition Day","National Tradesmen Day","National HIV/AIDS and Aging Awareness Day","World Water Monitoring Day","World Bamboo Day"],
+    "2026-9-19": ["Talk Like A Pirate Day","National Love Your Lunch Day","National Butterscotch Pudding Day","National Dance Day","National Cleanup Day","Responsible Dog Ownership Day","National Gymnastics Day","Puppy Mill Awareness Day","Boys' and Girls' Club Day for Kids"],
+    "2026-9-20": ["Wife Appreciation Day","Pepperoni Pizza Day","National Care For Kids Day","National Fried Rice Day","National String Cheese Day","National Punch Day"],
+    "2026-9-21": ["National Chai Day","National New York Day","National Pecan Cookie Day","Earth, Wind & Fire Day","World Gratitude Day","World Alzheimer's Day","International Day of Peace"],
+    "2026-9-22": ["National Ice Cream Cone Day","Autumnal Equinox","Hobbit Day","National States and Capitals Day","National Brown Butter Day","National Elephant Appreciation Day","National Girls' Night","National Centenarian's Day","National White Chocolate Day","National Online Recovery Day","Car Free Day","Dear Diary Day","National Legwear Day","American Business Women's Day"],
+    "2026-9-23": ["National Snack Stick Day","National Checkers Day and Dogs in Politics Day","National Great American Pot Pie Day","Teal Talk Day","Innergize Day","Restless Legs Awareness Day","Celebrate Bisexuality Day","International Day of Sign Languages"],
+    "2026-9-24": ["National Punctuation Day","National Cherries Jubilee Day","Schwenkfelder Thanksgiving"],
+    "2026-9-25": ["National Daughters Day","National Comic Book Day","National Quesadilla Day","National Open the Magic Day","National Lobster Day","National One-Hit Wonder Day","Math Storytelling Day","National Research Administrator Day","National Tune-Up Day","National Gay Men's HIV/AIDS Awareness Day"],
+    "2026-9-26": ["National Pancake Day","National Johnny Appleseed Day","National Dumpling Day","National Brave Day","National Singles Day","National Compliance Officer Day","National Situational Awareness Day","National Shamu the Whale Day","National Ghost Hunting Day","National Family Health and Fitness Day USA","National Hunting and Fishing Day","Save Your Photos Day","National Public Lands Day","National Seat Check Saturday"],
+    "2026-9-27": ["National Chocolate Milk Day","Gold Star Mother's and Family Day","National Day of Forgiveness","National Crush a Can Day","National Scarf Day","National Corned Beef Hash Day","International Daughters Day"],
+    "2026-9-28": ["National Drink Beer Day","National Family Day","National Good Neighbor Day","National Strawberry Cream Pie Day","National North Carolina Day","National Prop Trading Day","International Poke Day","International Day for Universal Access to Information","World Rabies Day"],
+    "2026-9-29": ["National Coffee Day","National VFW Day","Urban National Wildlife Refuge Day","National Silent E Day","World Heart Day"],
+    "2026-9-30": ["Orange Shirt Day","National Love People Day","National Chewing Gum Day","World Dense Breast Day","National Women's Health and Fitness Day","National AI in Work Day","National Hot Mulled Cider Day","National Mud Pack Day","International Translation Day","International Podcast Day","World School Milk Day"]
+  };
+
+  const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  const DOWS = ["S","M","T","W","T","F","S"];
+
+  const today = new Date();
+  let viewYear = today.getFullYear();
+  let viewMonth = today.getMonth(); // 0-indexed
+  let selectedKey = key(today.getFullYear(), today.getMonth()+1, today.getDate());
+
+  function key(y,m,d){ return `${y}-${m}-${d}`; }
+
+  function render(){
+    renderCalendar();
+    renderHero(selectedKey);
+  }
+
+  function renderHero(k){
+    const [y,m,d] = k.split("-").map(Number);
+    const dateObj = new Date(y, m-1, d);
+    const isToday = key(today.getFullYear(), today.getMonth()+1, today.getDate()) === k;
+    document.getElementById("heroDate").textContent = dateObj.toLocaleDateString(undefined, { weekday:'long', month:'long', day:'numeric', year:'numeric' });
+    document.getElementById("heroTitle").textContent = isToday ? "Today's celebrations" : "Celebrations on this day";
+    const events = DATA[k];
+    const chipsEl = document.getElementById("heroChips");
+    chipsEl.innerHTML = "";
+    if(events && events.length){
+      events.forEach(ev=>{
+        const c = document.createElement("span");
+        c.className = "chip";
+        c.textContent = ev;
+        chipsEl.appendChild(c);
+      });
+    } else {
+      const p = document.createElement("div");
+      p.className = "empty-note";
+      p.textContent = "No data loaded for this day yet — this demo currently covers September 2026.";
+      chipsEl.appendChild(p);
+    }
+  }
+
+  function renderCalendar(){
+    document.getElementById("calLabel").textContent = `${MONTHS[viewMonth]} ${viewYear}`;
+    const grid = document.getElementById("grid");
+    grid.innerHTML = "";
+    DOWS.forEach(d=>{
+      const el = document.createElement("div");
+      el.className = "dow";
+      el.textContent = d;
+      grid.appendChild(el);
+    });
+
+    const firstDow = new Date(viewYear, viewMonth, 1).getDay();
+    const daysInMonth = new Date(viewYear, viewMonth+1, 0).getDate();
+
+    for(let i=0;i<firstDow;i++){
+      const el = document.createElement("div");
+      el.className = "day empty";
+      grid.appendChild(el);
+    }
+
+    for(let d=1; d<=daysInMonth; d++){
+      const k = key(viewYear, viewMonth+1, d);
+      const el = document.createElement("button");
+      el.className = "day";
+      el.textContent = d;
+      if(DATA[k]) el.classList.add("has-data");
+      if(key(today.getFullYear(), today.getMonth()+1, today.getDate()) === k) el.classList.add("today");
+      if(k === selectedKey) el.classList.add("selected");
+      el.addEventListener("click", ()=>{
+        selectedKey = k;
+        render();
+      });
+      grid.appendChild(el);
+    }
+  }
+
+  document.getElementById("prevBtn").addEventListener("click", ()=>{
+    viewMonth--;
+    if(viewMonth < 0){ viewMonth = 11; viewYear--; }
+    renderCalendar();
+  });
+  document.getElementById("nextBtn").addEventListener("click", ()=>{
+    viewMonth++;
+    if(viewMonth > 11){ viewMonth = 0; viewYear++; }
+    renderCalendar();
+  });
+  document.getElementById("todayBtn").addEventListener("click", ()=>{
+    viewYear = today.getFullYear();
+    viewMonth = today.getMonth();
+    selectedKey = key(today.getFullYear(), today.getMonth()+1, today.getDate());
+    render();
+  });
+
+  render();
+</script>
+</body>
+</html>
