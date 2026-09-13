@@ -55,12 +55,62 @@ the diff size before committing to it. The report's `occurrences` map
 gives the computed date for every slug, which is worth spot-checking
 after adding a new floating rule or extending the equinox lookup table.
 
-## Refreshing from Notion
+## `export_from_notion.py`
 
-To regenerate `holidays.json` from Notion directly (rather than the
-site-scrape bootstrap this file used the first time): pull every
-published row's `Holiday`, `Category`, `Description`, `Recurrence`, and
-`Date` fields, slugify the name the same way `public/index.html`'s
-client-side `slugify()` does (lowercase, `&`→`and`, strip apostrophes,
-non-alphanumerics→hyphens), and preserve each holiday's existing
-`display_order` unless you have a real reason to change it.
+Pulls every `Published` row from the "Today Celebrates — Holidays" Notion
+database and writes `holidays.json` in the exact shape `generate.py`
+expects — this is the piece that replaces the Phase 3 site-scrape
+bootstrap now that Notion is the actual source of truth going forward.
+
+```
+NOTION_TOKEN=secret_xxx python3 scripts/export_from_notion.py scripts/holidays.json
+```
+
+Requires a Notion **internal integration token** with access to the
+database (one-time setup, see below). For each published row it reads
+`Holiday`, `Date`, `Category`, `Description`, `Recurrence`, and `Order`
+(used as `display_order` — falls back to sorting last if a row has no
+Order set, so it's worth eyeballing that Order is actually populated
+across the database if per-day ordering matters to you). Floating
+holidays' actual date rules (nth-weekday-of-month, the Autumnal Equinox
+lookup table, etc.) live in this script's `FLOATING_RULES` dict, not in
+Notion — Notion only has an Annual/Floating switch, not "which rule."
+Adding a new Floating holiday means adding its rule here by hand.
+
+Rows missing a required field (Category, Description, a valid Recurrence,
+etc.) are skipped with a warning printed to stderr rather than failing
+the whole run — one bad row shouldn't take down the daily site update.
+As a safety net against a Notion outage or auth failure silently
+returning an empty/partial result, the script refuses to write
+`holidays.json` if the resulting holiday count would be zero, or would
+drop by more than 20% from the previous run's count.
+
+## Phase 4: daily automation
+
+`.github/workflows/daily-regenerate.yml` runs `export_from_notion.py` →
+`generate.py` → commits and pushes to `main` once a day (~08:00 UTC,
+early morning US Eastern), reusing the existing Cloudflare Workers Build
+auto-deploy on push. Also runnable on demand from the repo's Actions tab
+(`workflow_dispatch`).
+
+**One-time setup Jay needs to do** (neither of these can be done from a
+Claude session — both require signing in as the account owner):
+
+1. **Create a Notion integration:** go to
+   [notion.so/my-integrations](https://www.notion.so/my-integrations) →
+   "New integration" → give it a name (e.g. "Today Celebrates site sync")
+   → under the workspace this database lives in → copy the "Internal
+   Integration Secret" it gives you (starts with `secret_` or `ntn_`).
+2. **Share the database with it:** open the "Today Celebrates — Holidays"
+   database in Notion → `...` menu (or "Connections") → Connect to →
+   select the integration you just created. Without this step the
+   integration can authenticate but the query will return zero rows.
+3. **Add it as a GitHub secret:** in the `NetWurkai/todaycelebrates` repo
+   on GitHub → Settings → Secrets and variables → Actions → "New
+   repository secret" → name it exactly `NOTION_TOKEN` → paste the
+   integration secret from step 1.
+
+After that, trigger the workflow once manually (Actions tab → "Daily site
+regeneration" → "Run workflow") to confirm it runs clean before trusting
+the schedule — check the run's logs for the generation report and any
+`WARNING:` lines from the export step.
