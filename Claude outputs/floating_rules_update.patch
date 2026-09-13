@@ -1,0 +1,511 @@
+diff --git a/scripts/export_from_notion.py b/scripts/export_from_notion.py
+index 8308569..f1a607e 100644
+--- a/scripts/export_from_notion.py
++++ b/scripts/export_from_notion.py
+@@ -33,6 +33,7 @@ NOTION_VERSION = "2022-06-28"
+ API_BASE = "https://api.notion.com/v1"
+ 
+ FLOATING_RULES = {
++    # ---- pre-existing rules (Sep-Oct batch) ----
+     "labor-day": {"rule": "nth_weekday", "month": 9, "weekday": 0, "n": 1},                  # 1st Monday of September
+     "national-grandparents-day": {"rule": "after_labor_day_sunday"},                          # 1st Sunday after Labor Day
+     "columbus-day": {"rule": "nth_weekday", "month": 10, "weekday": 0, "n": 2},               # 2nd Monday of October
+@@ -50,6 +51,284 @@ FLOATING_RULES = {
+             "2034": "09-22", "2035": "09-23", "2036": "09-22",
+         },
+     },
++
++    # ---- November ----
++    "daylight-saving-time-ends": {"rule": "nth_weekday", "month": 11, "weekday": 6, "n": 1},   # 1st Sunday of November
++    "u-s-general-election-day": {"rule": "us_election_day"},                                    # Tuesday after 1st Monday of November
++    "great-american-smokeout": {"rule": "nth_weekday", "month": 11, "weekday": 3, "n": 3},       # 3rd Thursday of November (= Thu before Thanksgiving)
++    "beaujolais-nouveau-day": {"rule": "nth_weekday", "month": 11, "weekday": 3, "n": 3},         # 3rd Thursday of November (French AOC release-date rule)
++    "thanksgiving-day": {"rule": "nth_weekday", "month": 11, "weekday": 3, "n": 4},               # 4th Thursday of November
++    "national-adoption-day": {"rule": "offset_from_slug", "slug": "thanksgiving-day", "days": -5},  # Saturday before Thanksgiving
++    "tie-one-on-day": {"rule": "offset_from_slug", "slug": "thanksgiving-day", "days": -1},       # Wednesday before Thanksgiving
++    "buy-nothing-day": {"rule": "offset_from_slug", "slug": "thanksgiving-day", "days": 1},       # Friday after Thanksgiving
++    "black-friday": {"rule": "offset_from_slug", "slug": "thanksgiving-day", "days": 1},
++    "national-leftovers-day": {"rule": "offset_from_slug", "slug": "thanksgiving-day", "days": 1},
++    "small-business-saturday": {"rule": "offset_from_slug", "slug": "thanksgiving-day", "days": 2},
++    "small-brewery-sunday": {"rule": "offset_from_slug", "slug": "thanksgiving-day", "days": 3},
++    "secondhand-sunday": {"rule": "offset_from_slug", "slug": "thanksgiving-day", "days": 3},
++    "cyber-monday": {"rule": "offset_from_slug", "slug": "thanksgiving-day", "days": 4},
++    "givingtuesday": {"rule": "offset_from_slug", "slug": "thanksgiving-day", "days": 5},
++    "advent-sunday": {"rule": "nearest_weekday_to_date", "weekday": 6, "month": 11, "day": 30},   # Sunday closest to Nov 30
++    "stir-up-sunday": {"rule": "offset_from_slug", "slug": "advent-sunday", "days": -7},          # last Sunday before Advent
++
++    # ---- December ----
++    "green-monday": {"rule": "nth_weekday", "month": 12, "weekday": 0, "n": 2},                   # 2nd Monday of December
++    "super-saturday": {"rule": "last_weekday_before_date", "weekday": 5, "month": 12, "day": 25}, # last Saturday before Christmas ("Panic Saturday")
++    "national-wreaths-across-america-day": {"rule": "nth_weekday", "month": 12, "weekday": 5, "n": 3},  # 3rd Saturday of December
++    "yule": {
++        "rule": "lookup_table",
++        # December solstice, US Eastern date (astropixels.com). All 11 confirmed
++        # years land on Dec 21 with no borderline UTC/EST conversion cases.
++        "table": {
++            "2026": "12-21", "2027": "12-21", "2028": "12-21", "2029": "12-21",
++            "2030": "12-21", "2031": "12-21", "2032": "12-21", "2033": "12-21",
++            "2034": "12-21", "2035": "12-21", "2036": "12-21",
++        },
++    },
++    "first-day-of-winter": {
++        "rule": "lookup_table",
++        "table": {
++            "2026": "12-21", "2027": "12-21", "2028": "12-21", "2029": "12-21",
++            "2030": "12-21", "2031": "12-21", "2032": "12-21", "2033": "12-21",
++            "2034": "12-21", "2035": "12-21", "2036": "12-21",
++        },
++    },
++    "the-start-of-hanukkah": {
++        "rule": "lookup_table",
++        # First day/candle, from Hebcal.com (authoritative Hebrew-calendar calc).
++        "table": {
++            "2026": "12-04", "2027": "12-24", "2028": "12-12", "2029": "12-01",
++            "2030": "12-20", "2031": "12-09", "2032": "11-27", "2033": "12-16",
++            "2034": "12-06", "2035": "12-25", "2036": "12-13",
++        },
++    },
++
++    # ---- January ----
++    "blue-monday": {"rule": "nth_weekday", "month": 1, "weekday": 0, "n": 3},                     # 3rd Monday of January
++    "national-day-of-service": {"rule": "nth_weekday", "month": 1, "weekday": 0, "n": 3},         # same day as MLK Day
++    "martin-luther-king-jr-day": {"rule": "nth_weekday", "month": 1, "weekday": 0, "n": 3},       # 3rd Monday of January
++    "tu-bishvat": {
++        "rule": "lookup_table",
++        "table": {
++            "2026": "02-02", "2027": "01-23", "2028": "02-12", "2029": "01-31",
++            "2030": "01-19", "2031": "02-08", "2032": "01-28", "2033": "01-15",
++            "2034": "02-04", "2035": "01-25", "2036": "02-13",
++        },
++    },
++
++    # ---- February ----
++    "chinese-new-year": {
++        "rule": "lookup_table",
++        # Lunar New Year. 2027 confirmed as Feb 6 (not Feb 7) via 3 independent
++        # sources (qppstudio, chinahighlights, travelchinaguide) plus the new-moon
++        # instant itself (Feb 6, 2027 23:56 China Standard Time).
++        "table": {
++            "2026": "02-17", "2027": "02-06", "2028": "01-26", "2029": "02-13",
++            "2030": "02-03", "2031": "01-23", "2032": "02-11", "2033": "01-31",
++            "2034": "02-19", "2035": "02-08", "2036": "01-28",
++        },
++    },
++    "the-start-of-ramadan": {
++        "rule": "lookup_table",
++        # 1 Ramadan, Umm al-Qura tabular calendar (qppstudio.net, cross-checked
++        # against Muhammadiyah's independently-calculated calendar for 2026).
++        # NOTE: because the Islamic year (~354 days) drifts against the Gregorian
++        # year, TWO Ramadan-starts fall within Gregorian 2030 (Jan 5 and ~Dec 26);
++        # this table only captures one per row. Re-verify closely before 2030-2031
++        # generation runs -- the "year+1" rollover in next_occurrence() may need
++        # the Dec 2030 date added by hand when that time comes.
++        "table": {
++            "2026": "02-18", "2027": "02-08", "2028": "01-28", "2029": "01-16",
++            "2030": "01-05", "2031": "12-15", "2032": "12-04", "2033": "11-23",
++            "2034": "11-12", "2035": "11-01", "2036": "10-20",
++        },
++    },
++    "mardi-gras": {"rule": "easter_offset", "days": -47},
++    "ash-wednesday": {"rule": "easter_offset", "days": -46},
++    "presidents-day": {"rule": "nth_weekday", "month": 2, "weekday": 0, "n": 3},                  # 3rd Monday of February
++    "national-womans-heart-day": {"rule": "nth_weekday", "month": 2, "weekday": 4, "n": 1},       # 1st Friday of February
++    # NOTE: the row's stored Notion date (2027-02-19) appears to be a mix-up with
++    # National Caregivers Day's date -- National Woman's Heart Day / National Wear
++    # Red Day is the 1st Friday of February (Feb 5, 2027), confirmed via
++    # nationaltoday.com. Doesn't affect the live site (Floating rows' Notion dates
++    # are cosmetic only) but the Notion row is worth a look.
++    "national-caregivers-day": {"rule": "nth_weekday", "month": 2, "weekday": 4, "n": 3},         # 3rd Friday of February
++
++    # ---- March ----
++    "eid-al-fitr": {
++        "rule": "lookup_table",
++        # 1 Shawwal, Umm al-Qura tabular calendar (qppstudio.net).
++        # NOTE: 2033 has two Eid al-Fitr occurrences in one Gregorian year
++        # (Jan 2 and ~Dec 23) for the same reason as Ramadan above -- re-verify
++        # before 2033-2034 generation runs.
++        "table": {
++            "2026": "03-20", "2027": "03-09", "2028": "02-26", "2029": "02-14",
++            "2030": "02-04", "2031": "01-24", "2032": "01-14", "2033": "01-02",
++            "2034": "12-12", "2035": "12-01", "2036": "11-19",
++        },
++    },
++    "the-start-of-daylight-saving-time": {"rule": "nth_weekday", "month": 3, "weekday": 6, "n": 2},  # 2nd Sunday of March
++    "companies-that-care-day": {"rule": "nth_weekday", "month": 3, "weekday": 3, "n": 3},          # 3rd Thursday of March
++    "oranges-and-lemons-day": {"rule": "nth_weekday", "month": 3, "weekday": 3, "n": 3},           # 3rd Thursday of March (per nationaltoday.com's stated rule)
++    "absolutely-incredible-kid-day": {"rule": "nth_weekday", "month": 3, "weekday": 3, "n": 3},    # 3rd Thursday of March
++    "the-first-day-of-spring": {
++        "rule": "lookup_table",
++        # March equinox, US Eastern date (astropixels.com UTC instants, hand-
++        # converted for DST). 2028/2032/2036 land on Mar 19 Eastern even though
++        # the equinox is UTC Mar 20, because DST has already started by then.
++        "table": {
++            "2026": "03-20", "2027": "03-20", "2028": "03-19", "2029": "03-20",
++            "2030": "03-20", "2031": "03-20", "2032": "03-19", "2033": "03-20",
++            "2034": "03-20", "2035": "03-20", "2036": "03-19",
++        },
++    },
++    "ostara": {
++        "rule": "lookup_table",
++        "table": {
++            "2026": "03-20", "2027": "03-20", "2028": "03-19", "2029": "03-20",
++            "2030": "03-20", "2031": "03-20", "2032": "03-19", "2033": "03-20",
++            "2034": "03-20", "2035": "03-20", "2036": "03-19",
++        },
++    },
++    "world-sleep-day": {"rule": "last_weekday_before_slug", "weekday": 4, "slug": "the-first-day-of-spring"},  # Friday before the equinox
++    "naw-ruz": {
++        "rule": "lookup_table",
++        # Baha'i New Year -- NOT simply equinox + a fixed offset; it's the
++        # Baha'i sunset-to-sunset day containing the equinox as determined at
++        # Tehran (2014 Universal House of Justice ruling). Cross-checked
++        # against the Baha'i National Spiritual Assembly of Canada's 2026
++        # announcement and nationaltoday.com's 2027 date.
++        "table": {
++            "2026": "03-21", "2027": "03-21", "2028": "03-21", "2029": "03-20",
++            "2030": "03-20", "2031": "03-21", "2032": "03-20", "2033": "03-20",
++            "2034": "03-20", "2035": "03-21", "2036": "03-20",
++        },
++    },
++    "palm-sunday": {"rule": "easter_offset", "days": -7},
++    "purim": {
++        "rule": "lookup_table",
++        "table": {
++            "2026": "03-03", "2027": "03-23", "2028": "03-12", "2029": "03-01",
++            "2030": "03-19", "2031": "03-09", "2032": "02-26", "2033": "03-15",
++            "2034": "03-05", "2035": "03-25", "2036": "03-13",
++        },
++    },
++    "holy-tuesday": {"rule": "easter_offset", "days": -5},
++    "american-diabetes-association-alert-day": {"rule": "nth_weekday", "month": 3, "weekday": 1, "n": 4},  # 4th Tuesday of March (ADA's own rule)
++    "good-wednesday": {"rule": "easter_offset", "days": -4},
++    "maundy-thursday": {"rule": "easter_offset", "days": -3},
++    "good-friday": {"rule": "easter_offset", "days": -2},
++    "holy-saturday": {"rule": "easter_offset", "days": -1},
++    "earth-hour": {"rule": "last_weekday", "month": 3, "weekday": 5},                              # last Saturday of March
++    "easter-sunday": {"rule": "easter_offset", "days": 0},
++    "dyngus-day": {"rule": "easter_offset", "days": 1},
++    "easter-monday": {"rule": "easter_offset", "days": 1},
++
++    # ---- April ----
++    "national-walk-to-work-day": {"rule": "nth_weekday", "month": 4, "weekday": 4, "n": 1},        # 1st Friday of April
++    "hospital-admitting-clerks-day": {"rule": "nth_weekday", "month": 4, "weekday": 4, "n": 1},
++    "student-government-day": {"rule": "nth_weekday", "month": 4, "weekday": 4, "n": 1},
++    "passover": {
++        "rule": "lookup_table",
++        # First day (15 Nisan), from Hebcal.com.
++        "table": {
++            "2026": "04-02", "2027": "04-22", "2028": "04-11", "2029": "03-31",
++            "2030": "04-18", "2031": "04-08", "2032": "03-27", "2033": "04-14",
++            "2034": "04-04", "2035": "04-24", "2036": "04-12",
++        },
++    },
++    "education-and-sharing-day": {"rule": "offset_from_slug", "slug": "passover", "days": -4},     # 11 Nisan (Lubavitcher Rebbe's birthday), always 4 days before Passover within the same Hebrew month
++    "boston-marathon-day": {"rule": "nth_weekday", "month": 4, "weekday": 0, "n": 3},               # 3rd Monday of April (MA/ME Patriots' Day, by law since 1969)
++    "patriots-day": {"rule": "nth_weekday", "month": 4, "weekday": 0, "n": 3},
++    "administrative-professionals-day": {"rule": "last_weekday_offset", "month": 4, "weekday": 5, "offset_days": -3},  # Wednesday of the last full (Sun-Sat) week in April
++    "national-teach-your-children-to-save-day": {
++        "rule": "lookup_table",
++        # No reliable formula found -- the ABA sets this administratively each
++        # year within Financial Literacy Month and the date has NOT followed a
++        # consistent weekday or fixed-date rule historically (2021=Apr21 Wed,
++        # 2026=Apr23 Thu per ABA's own release, 2027=Apr27 Tue per
++        # nationaltoday.com). Only add a year here after checking aba.com's
++        # press release for that year -- don't extrapolate a pattern.
++        "table": {
++            "2026": "04-23", "2027": "04-27",
++        },
++    },
++
++    # ---- May ----
++    "mothers-day": {"rule": "nth_weekday", "month": 5, "weekday": 6, "n": 2},                      # 2nd Sunday of May
++    "preakness-stakes": {
++        "rule": "lookup_table",
++        # Historically 3rd Saturday of May, but the Maryland Jockey Club moved
++        # the 2027 race to Sun May 23 (more spacing after the Derby) without
++        # committing to a permanent new formula -- confirm each year via
++        # official MJC/Laurel Park announcements before adding it here.
++        "table": {
++            "2026": "05-16", "2027": "05-23",
++        },
++    },
++    "armed-forces-day": {"rule": "nth_weekday", "month": 5, "weekday": 5, "n": 3},                 # 3rd Saturday of May
++    "pentecost": {"rule": "easter_offset", "days": 49},
++    "stepmothers-day": {"rule": "offset_from_slug", "slug": "mothers-day", "days": 7},              # Sunday after Mother's Day
++    "memorial-day": {"rule": "last_weekday", "month": 5, "weekday": 0},                             # last Monday of May
++
++    # ---- June ----
++    "belmont-stakes": {
++        "rule": "lookup_table",
++        # No fixed formula -- NYRA sets the date administratively each year and
++        # the venue has been in flux (Saratoga in 2024-2026 while Belmont Park
++        # was rebuilt; back at Belmont Park for 2027's Jun 5 date). Confirm each
++        # year via NYRA's official announcement before adding it here.
++        "table": {
++            "2026": "06-06", "2027": "06-05",
++        },
++    },
++    "islamic-new-year": {
++        "rule": "lookup_table",
++        # 1 Muharram, Umm al-Qura tabular calendar (qppstudio.net). No
++        # double-occurrence years in this range.
++        "table": {
++            "2026": "06-16", "2027": "06-06", "2028": "05-25", "2029": "05-14",
++            "2030": "05-03", "2031": "04-23", "2032": "04-11", "2033": "04-01",
++            "2034": "03-21", "2035": "03-11", "2036": "02-28",
++        },
++    },
++    "fathers-day": {"rule": "nth_weekday", "month": 6, "weekday": 6, "n": 3},                      # 3rd Sunday of June
++    "the-first-day-of-summer": {
++        "rule": "lookup_table",
++        # June solstice, US Eastern date (astropixels.com UTC instants, hand-
++        # converted for EDT -- always in effect by late June).
++        "table": {
++            "2026": "06-21", "2027": "06-21", "2028": "06-20", "2029": "06-20",
++            "2030": "06-21", "2031": "06-21", "2032": "06-20", "2033": "06-20",
++            "2034": "06-21", "2035": "06-21", "2036": "06-20",
++        },
++    },
++
++    # ---- July ----
++    "international-cherry-pit-spitting-day": {"rule": "nth_weekday", "month": 7, "weekday": 5, "n": 1},  # 1st Saturday of July
++    "international-day-of-cooperatives": {"rule": "nth_weekday", "month": 7, "weekday": 5, "n": 1},       # 1st Saturday of July (UN's own stated rule)
++    "national-build-a-scarecrow-day": {"rule": "nth_weekday", "month": 7, "weekday": 6, "n": 1},          # 1st Sunday of July (consistently applied across novelty-calendar sites despite the odd autumn-themed subject)
++
++    # ---- August ----
++    "american-family-day": {"rule": "nth_weekday", "month": 8, "weekday": 6, "n": 1},              # 1st Sunday of August
++    "sisters-day": {"rule": "nth_weekday", "month": 8, "weekday": 6, "n": 1},
++    "friendship-day": {"rule": "nth_weekday", "month": 8, "weekday": 6, "n": 1},
++    "national-night-out": {"rule": "nth_weekday", "month": 8, "weekday": 1, "n": 1},                # 1st Tuesday of August (some states observe 1st Tue of October instead)
++    "friday-the-13th": {"rule": "next_friday_13"},                                                  # special-cased in next_occurrence(); can't be resolved "for a year"
++    "national-medical-dosimetrist-day": {"rule": "nth_weekday", "month": 8, "weekday": 2, "n": 3},  # 3rd Wednesday of August (inferred from aggregator dates, no primary-source rule found)
++    "international-homeless-animals-day": {"rule": "nth_weekday", "month": 8, "weekday": 5, "n": 3},  # 3rd Saturday of August
++    "break-the-monotony-day": {"rule": "nth_weekday", "month": 8, "weekday": 5, "n": 3},            # 3rd Saturday of August (inferred, no primary source found)
++    "international-geocaching-day": {"rule": "nth_weekday", "month": 8, "weekday": 5, "n": 3},      # 3rd Saturday of August
++
++    # ---- lunar/lunisolar holidays without a slug-offset shortcut ----
++    "diwali": {
++        "rule": "lookup_table",
++        "table": {
++            "2026": "11-08", "2027": "10-29", "2028": "10-17", "2029": "11-05",
++            "2030": "10-26", "2031": "11-14", "2032": "11-02", "2033": "10-22",
++            "2034": "11-10", "2035": "10-30", "2036": "10-18",
++        },
++    },
+ }
+ 
+ 
+diff --git a/scripts/generate.py b/scripts/generate.py
+index 41b9495..7ecf097 100644
+--- a/scripts/generate.py
++++ b/scripts/generate.py
+@@ -13,10 +13,13 @@ Recurrence model:
+   - "Annual" holidays have a fixed (month, day). Each generation run picks
+     the NEXT occurrence of that (month, day) on or after `today`, rolling
+     into next year if this year's date has already passed.
+-  - "Floating" holidays are computed per-year via a rule (nth-weekday-of-
+-    month, "Sunday after Labor Day", or an explicit lookup table for
+-    astronomical events like the autumnal equinox), then the same
+-    next-occurrence-on-or-after-today logic is applied.
++  - "Floating" holidays are computed per-year via a rule -- nth-weekday-of-
++    month, last-weekday-of-month, an Easter offset, a fixed almanac/calendar
++    lookup table (for astronomical or lunar/lunisolar events), or an offset
++    relative to another holiday's date in this same dataset (e.g. Black
++    Friday = Thanksgiving + 1 day) -- then the same next-occurrence-on-or-
++    after-today logic is applied. See compute_floating_date() for the full
++    list of rule kinds.
+ 
+ This means the site always shows each holiday's next upcoming occurrence
+ under its one permanent URL — no year in the slug, no duplicate pages per
+@@ -61,7 +64,78 @@ def labor_day(year):
+     return nth_weekday_of_month(year, 9, 0, 1)  # 1st Monday of September
+ 
+ 
+-def compute_floating_date(rule, year):
++def last_weekday_of_month(year, month, weekday):
++    """weekday: 0=Monday ... 6=Sunday. The LAST occurrence of that weekday in the month."""
++    days_in_month = calendar.monthrange(year, month)[1]
++    last = datetime.date(year, month, days_in_month)
++    offset = (last.weekday() - weekday) % 7
++    return last - datetime.timedelta(days=offset)
++
++
++def nearest_weekday_to(year, month, day, weekday):
++    """The occurrence of `weekday` nearest to the fixed calendar date (year, month, day).
++    Searches +/- 3 days, which always finds exactly one match since weekdays cycle
++    every 7 days. Used for holidays defined as e.g. "the Sunday closest to Nov 30"."""
++    anchor = datetime.date(year, month, day)
++    for delta in (0, 1, -1, 2, -2, 3, -3):
++        candidate = anchor + datetime.timedelta(days=delta)
++        if candidate.weekday() == weekday:
++            return candidate
++    raise RuntimeError(f"nearest_weekday_to: no match found near {anchor}")  # unreachable
++
++
++def last_weekday_on_or_before(date, weekday):
++    """The most recent occurrence of `weekday` on or before `date`."""
++    offset = (date.weekday() - weekday) % 7
++    return date - datetime.timedelta(days=offset)
++
++
++def last_weekday_before(date, weekday):
++    """The most recent occurrence of `weekday` strictly before `date`."""
++    return last_weekday_on_or_before(date - datetime.timedelta(days=1), weekday)
++
++
++def us_election_day(year):
++    """US General Election Day: the Tuesday after the first Monday in November."""
++    first_monday = nth_weekday_of_month(year, 11, 0, 1)
++    return first_monday + datetime.timedelta(days=1)
++
++
++def easter_sunday(year):
++    """Western/Gregorian Easter Sunday, via the Anonymous Gregorian algorithm
++    (Computus). Deterministic — no lookup table needed, valid for any Gregorian
++    year. See https://en.wikipedia.org/wiki/Date_of_Easter#Anonymous_Gregorian_algorithm"""
++    a = year % 19
++    b = year // 100
++    c = year % 100
++    d = b // 4
++    e = b % 4
++    f = (b + 8) // 25
++    g = (b - f + 1) // 3
++    h = (19 * a + b - d - g + 15) % 30
++    i = c // 4
++    k = c % 4
++    l = (32 + 2 * e + 2 * i - h - k) % 7
++    m = (a + 11 * h + 22 * l) // 451
++    month = (h + l - 7 * m + 114) // 31
++    day = ((h + l - 7 * m + 114) % 31) + 1
++    return datetime.date(year, month, day)
++
++
++def next_friday_the_13th(after_date):
++    """The first Friday the 13th on or after `after_date`. A calendar year can
++    have zero to three of these, so — unlike every other rule here — this
++    can't be computed "for a given year" and is special-cased in
++    next_occurrence() instead of going through compute_floating_date()."""
++    candidate = after_date
++    for _ in range(400):  # generous bound; a match is always within a few months
++        if candidate.day == 13 and candidate.weekday() == 4:
++            return candidate
++        candidate += datetime.timedelta(days=1)
++    raise RuntimeError("could not find next Friday the 13th within 400 days")
++
++
++def compute_floating_date(rule, year, by_slug=None, memo=None, in_progress=None):
+     kind = rule["rule"]
+     if kind == "nth_weekday":
+         return nth_weekday_of_month(year, rule["month"], rule["weekday"], rule["n"])
+@@ -74,16 +148,76 @@ def compute_floating_date(rule, year):
+         key = str(year)  # JSON round-trips int keys as strings
+         if key not in table:
+             raise ValueError(
+-                f"autumnal-equinox (or similar astronomical event) has no confirmed date "
+-                f"for {year} in the lookup table — add one after checking an almanac, "
+-                f"don't guess."
++                f"a lunar/lunisolar/astronomical holiday has no confirmed date "
++                f"for {year} in its lookup table — add one after checking an almanac "
++                f"or authoritative calendar source, don't guess."
+             )
+         mm, dd = table[key].split("-")
+         return datetime.date(year, int(mm), int(dd))
++    if kind == "last_weekday":
++        return last_weekday_of_month(year, rule["month"], rule["weekday"])
++    if kind == "last_weekday_offset":
++        base = last_weekday_of_month(year, rule["month"], rule["weekday"])
++        return base + datetime.timedelta(days=rule["offset_days"])
++    if kind == "easter_offset":
++        return easter_sunday(year) + datetime.timedelta(days=rule["days"])
++    if kind == "us_election_day":
++        return us_election_day(year)
++    if kind == "nearest_weekday_to_date":
++        return nearest_weekday_to(year, rule["month"], rule["day"], rule["weekday"])
++    if kind == "last_weekday_before_date":
++        anchor = datetime.date(year, rule["month"], rule["day"])
++        return last_weekday_before(anchor, rule["weekday"])
++    if kind == "offset_from_slug":
++        if by_slug is None or memo is None:
++            raise ValueError("offset_from_slug rule requires by_slug/memo context")
++        ref = by_slug.get(rule["slug"])
++        if ref is None:
++            raise ValueError(f"offset_from_slug: unknown reference slug {rule['slug']!r}")
++        ref_date = holiday_date_for_year(ref, year, by_slug, memo, in_progress)
++        return ref_date + datetime.timedelta(days=rule["days"])
++    if kind == "last_weekday_before_slug":
++        if by_slug is None or memo is None:
++            raise ValueError("last_weekday_before_slug rule requires by_slug/memo context")
++        ref = by_slug.get(rule["slug"])
++        if ref is None:
++            raise ValueError(f"last_weekday_before_slug: unknown reference slug {rule['slug']!r}")
++        ref_date = holiday_date_for_year(ref, year, by_slug, memo, in_progress)
++        return last_weekday_on_or_before(ref_date, rule["weekday"])
+     raise ValueError(f"unknown floating rule kind: {kind}")
+ 
+ 
+-def next_occurrence(holiday, today):
++def holiday_date_for_year(holiday, year, by_slug, memo, in_progress=None):
++    """Resolve a holiday's date for one specific calendar year (not "next
++    occurrence" — an exact year). Needed because some floating rules
++    (offset_from_slug, last_weekday_before_slug) are defined relative to
++    another holiday in the dataset and must recursively resolve that
++    holiday's date for the same year first. Memoized on (slug, year); guards
++    against a rule cycle (A defined relative to B defined relative to A)."""
++    slug = holiday["slug"]
++    key = (slug, year)
++    if key in memo:
++        return memo[key]
++    if in_progress is None:
++        in_progress = set()
++    if key in in_progress:
++        raise RuntimeError(f"circular floating-rule reference involving {slug!r} for {year}")
++    in_progress.add(key)
++    try:
++        if holiday["recurrence"] == "Annual":
++            result = datetime.date(year, holiday["month"], holiday["day"])
++        elif holiday["recurrence"] == "Floating":
++            rule = holiday["floating_rule"]
++            result = compute_floating_date(rule, year, by_slug=by_slug, memo=memo, in_progress=in_progress)
++        else:
++            raise ValueError(f"unknown recurrence type: {holiday['recurrence']!r} for {slug}")
++    finally:
++        in_progress.discard(key)
++    memo[key] = result
++    return result
++
++
++def next_occurrence(holiday, today, by_slug=None, memo=None):
+     """Return the date.date of this holiday's next occurrence on/after `today`."""
+     if holiday["recurrence"] == "Annual":
+         month, day = holiday["month"], holiday["day"]
+@@ -98,8 +232,16 @@ def next_occurrence(holiday, today):
+         raise RuntimeError(f"could not find next occurrence for {holiday['slug']}")
+     elif holiday["recurrence"] == "Floating":
+         rule = holiday["floating_rule"]
++        if rule["rule"] == "next_friday_13":
++            # Can produce 0-3 hits per calendar year, so it can't be resolved
++            # "for a given year" like every other rule — scan forward directly.
++            return next_friday_the_13th(today)
++        if by_slug is None:
++            by_slug = {}
++        if memo is None:
++            memo = {}
+         for year in (today.year, today.year + 1):
+-            candidate = compute_floating_date(rule, year)
++            candidate = holiday_date_for_year(holiday, year, by_slug, memo)
+             if candidate >= today:
+                 return candidate
+         raise RuntimeError(f"could not find next floating occurrence for {holiday['slug']}")
+@@ -212,9 +354,11 @@ def render_page(holiday, occ_date):
+ 
+ def generate(holidays, today, site_dir, dry_run=False):
+     """Returns a report dict describing what changed."""
++    by_slug = {h["slug"]: h for h in holidays}
++    memo = {}  # (slug, year) -> date.date, shared across all holidays this run
+     occurrences = {}  # slug -> date.date
+     for h in holidays:
+-        occurrences[h["slug"]] = next_occurrence(h, today)
++        occurrences[h["slug"]] = next_occurrence(h, today, by_slug, memo)
+ 
+     # ---- month data files: only for months that actually have content ----
+     by_month = {}  # "YYYY-MM" -> { "YYYY-M-D": [(order, name), ...] }
