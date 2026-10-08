@@ -1,0 +1,123 @@
+/* ---------------------------------------------------------------------------
+   Display ad slots — standard IAB units in conventional positions.
+
+   Two rules govern everything here:
+
+   1. ZERO COST UNTIL MONETIZED. The slot markup ships on every page, but no
+      space is reserved and nothing is visible until a provider is configured
+      (see /ads/slots.js). Only then does slots.js add .ads-enabled to <html>,
+      which is what switches on every dimension below. So the site carries the
+      slots today at no layout or performance cost, and turning ads on later
+      needs no page regeneration.
+
+   2. NO LAYOUT SHIFT. When ads ARE enabled, each slot reserves its unit's
+      exact height before the creative arrives. Ads are the most common cause
+      of Cumulative Layout Shift, and this site was deliberately built for
+      speed — an ad that shoves the content down on arrival undoes that.
+
+   Units: 728x90 leaderboard (desktop) / 320x50 banner (mobile),
+          300x250 medium rectangle, 300x600 half page (wide screens only).
+--------------------------------------------------------------------------- */
+
+.ad-slot,
+.ad-rail {
+  /* Collapsed and invisible until a provider is configured. */
+  display: none;
+}
+
+html.ads-enabled .ad-slot {
+  display: block;
+  margin: 28px auto;
+  text-align: center;
+  /* Never let a misbehaving creative widen the page. */
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Centre whatever the provider injects, whether it's an inline iframe or a
+   block-level div -- text-align alone doesn't centre a fixed-width block. */
+html.ads-enabled .ad-mount {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+html.ads-enabled .ad-label {
+  display: block;
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #a39a8c;
+  margin-bottom: 6px;
+  line-height: 1;
+}
+
+/* ---- 728x90 leaderboard, 320x50 on small screens ---- */
+html.ads-enabled .ad-leaderboard {
+  min-height: 90px;
+}
+@media (max-width: 767px) {
+  html.ads-enabled .ad-leaderboard {
+    min-height: 50px;
+  }
+}
+
+/* ---- 300x250 medium rectangle ---- */
+html.ads-enabled .ad-rect {
+  min-height: 250px;
+}
+
+/* When the "Advertisement" label is shown it occupies real space, so the
+   reservation has to grow by exactly its height -- otherwise the slot
+   over-reserves while unlabelled, or shifts when the label appears.
+   slots.js adds .ads-labelled only when the provider wants labels. */
+html.ads-labelled .ad-leaderboard {
+  min-height: 106px;
+}
+@media (max-width: 767px) {
+  html.ads-labelled .ad-leaderboard {
+    min-height: 66px;
+  }
+}
+html.ads-labelled .ad-rect {
+  min-height: 266px;
+}
+
+/* ---- 300x600 half page: only where there is genuinely room beside the
+       760px reading column. Below 1200px .page-grid stays display:block, so
+       the content column is byte-for-byte the layout it is today. ---- */
+.page-grid {
+  display: block;
+}
+@media (min-width: 1200px) {
+  html.ads-enabled .page-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 760px) 300px;
+    justify-content: center;
+    gap: 40px;
+    align-items: start;
+  }
+  html.ads-enabled .page-grid > main {
+    margin: 0;
+  }
+  html.ads-enabled .ad-rail {
+    display: block;
+    position: sticky;
+    top: 24px;
+    width: 300px;
+    min-height: 600px;
+    padding-top: 32px;
+    text-align: center;
+  }
+  html.ads-labelled .ad-rail {
+    min-height: 616px;
+  }
+}
+
+/* A creative that reports no fill collapses rather than leaving a hole. */
+html.ads-enabled .ad-slot[data-ad-empty="1"],
+html.ads-enabled .ad-rail[data-ad-empty="1"] {
+  min-height: 0;
+  margin: 0;
+  display: none;
+}

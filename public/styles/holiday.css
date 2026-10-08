@@ -29,3 +29,27 @@
   .also{ margin-top:36px; padding-top:24px; border-top:1px solid #eadfd0; font-size:.95rem; color:#555; }
   .back-link{ display:inline-block; margin-top:28px; font-weight:600; }
   footer{ text-align:center; padding:28px 24px; color:#8a8175; font-size:.85rem; border-top:1px solid #eadfd0; }
+
+  /* ---- /day/YYYY-MM-DD/ pages ---- */
+  .day-list{ list-style:none; margin:24px 0 0; padding:0; }
+  .day-list li{
+    padding:14px 0; border-bottom:1px solid #f0e7da;
+    display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;
+  }
+  .day-list li:first-child{ border-top:1px solid #f0e7da; }
+  .day-list a{ font-weight:600; font-size:1.05rem; text-decoration:none; }
+  .day-list a:hover{ text-decoration:underline; }
+  .day-list .lead-tag{
+    font-size:.68rem; text-transform:uppercase; letter-spacing:.08em;
+    background:#f1e6d8; color:#8a5a34; padding:3px 8px; border-radius:999px;
+  }
+  .day-list .cat{ font-size:.82rem; color:#8a8175; text-transform:lowercase; }
+  .moveable-note{
+    margin-top:28px; padding:16px 18px; background:#f6efe4;
+    border-radius:10px; font-size:.95rem; color:#5d5349;
+  }
+  .moveable-note p{ margin:0 0 8px; }
+  .moveable-note p:last-child{ margin-bottom:0; }
+  .day-nav{ margin-top:32px; display:flex; justify-content:space-between; gap:16px; font-size:.95rem; }
+  .day-nav a{ font-weight:600; text-decoration:none; }
+  .day-nav a:hover{ text-decoration:underline; }

@@ -3,3 +3,10 @@ node_modules/
 .dev.vars
 __pycache__/
 *.pyc
+
+# Scratch folder the Claude desktop app drops delivered files into — not
+# part of the site or the build.
+Claude outputs/
+
+# macOS Finder metadata
+.DS_Store

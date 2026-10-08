@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="<!--TC:HTML_CLASS-->">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,15 +12,28 @@
 
   gtag('config', 'G-WNN6PH0QNC');
 </script>
-<title>Today Celebrates</title>
+<!--TC-ONLY
+  SOURCE TEMPLATE — edit this file, not public/index.html.
+
+  generate.py renders this into public/index.html on every run, replacing each
+  TC: marker with today's real content, so crawlers (and anyone with JS off)
+  get the actual holiday names in the HTML. The interactive calendar further
+  down still re-renders the same content client-side once it loads; the baked
+  markup is what the page is before that happens, and it must match.
+
+  This block is stripped from the generated output.
+-->
+<!--TC:GENERATED_NOTE-->
+<title><!--TC:TITLE--></title>
 <link rel="canonical" href="https://todaycelebrates.com/">
-<meta name="description" content="A daily calendar of national, international, and world holidays and observances.">
+<meta name="description" content="<!--TC:DESCRIPTION-->">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
 <meta name="theme-color" content="#ff6b45" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#ff8a63" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="/styles/ads.css">
 <style>
   :root{
     --bg: #f6f4f0;
@@ -305,6 +318,11 @@
     color:var(--muted);
     font-size:0.9rem;
   }
+  .day-permalink{
+    margin: 18px 0 0;
+    font-size: 0.9rem;
+  }
+  .day-permalink a{ color: var(--accent); font-weight:600; }
 
   footer{
     text-align:center;
@@ -316,23 +334,28 @@
 </head>
 <body>
 
-  <section class="hero" id="hero">
+  <section class="hero" id="hero"
+           style="background-image:url('<!--TC:HERO_IMAGE-->')"
+           data-bg="<!--TC:HERO_IMAGE-->"
+           data-bg-key="<!--TC:TODAY_KEY-->">
     <div class="hero-topbar">
       <div class="logo"><span class="dot"></span>Today Celebrates</div>
-      <div class="hero-date-badge" id="heroDateBadge">—</div>
+      <div class="hero-date-badge" id="heroDateBadge"><!--TC:HERO_BADGE--></div>
     </div>
     <div class="hero-content">
-      <div class="hero-eyebrow" id="heroEyebrow">Leading celebration</div>
-      <h1 class="hero-headline" id="heroHeadline">—</h1>
-      <p class="hero-sub" id="heroSub"></p>
+      <div class="hero-eyebrow" id="heroEyebrow"><!--TC:HERO_EYEBROW--></div>
+      <h1 class="hero-headline" id="heroHeadline"><!--TC:HERO_HEADLINE--></h1>
+      <p class="hero-sub" id="heroSub"><!--TC:HERO_SUB--></p>
       <button class="hero-more" id="heroMoreBtn" type="button">See all today's celebrations ↓</button>
     </div>
   </section>
 
   <div class="content-wrap">
+    <div class="ad-slot ad-leaderboard" data-ad-slot="leaderboard" data-ad-eager="1"></div>
+
     <div class="cal-card">
       <div class="cal-header">
-        <h2 id="calLabel">—</h2>
+        <h2 id="calLabel"><!--TC:CAL_LABEL--></h2>
         <div class="cal-nav">
           <button id="prevBtn" aria-label="Previous month">‹</button>
           <button id="todayBtn" aria-label="Jump to today">•</button>
@@ -343,15 +366,21 @@
     </div>
 
     <div class="list-section" id="listSection">
-      <h3 id="listTitle">—</h3>
-      <p class="list-sub" id="listSub"></p>
-      <div class="chips" id="fullChips"></div>
+      <h3 id="listTitle"><!--TC:LIST_TITLE--></h3>
+      <p class="list-sub" id="listSub"><!--TC:LIST_SUB--></p>
+      <div class="chips" id="fullChips"><!--TC:CHIPS--></div>
+      <p class="day-permalink"><!--TC:DAY_LINK--></p>
     </div>
+
+    <div class="ad-slot ad-rect" data-ad-slot="footer"></div>
   </div>
 
   <footer>
     Today Celebrates — a daily calendar of national &amp; international holidays.
   </footer>
+
+  <script src="/ads/house.js" defer></script>
+  <script src="/ads/slots.js" defer></script>
 
 <script>
   // ---- Data: { "YYYY-M-D": ["Event 1", "Event 2", ...] } ----
@@ -456,7 +485,12 @@
     const hero = document.getElementById("hero");
     if(events && events.length){
       const lead = events[0];
-      hero.style.backgroundImage = `url("${HERO_IMAGES[getCategory(lead)]}")`;
+      // generate.py bakes in the hero image for the day it rendered, picked from
+      // the holiday's real Notion category rather than the keyword guess below.
+      // Prefer it when we're still showing that same day, so the baked image
+      // isn't swapped for a different one the moment this script runs.
+      const bakedBg = (hero.dataset.bgKey === k && hero.dataset.bg) ? hero.dataset.bg : null;
+      hero.style.backgroundImage = `url("${bakedBg || HERO_IMAGES[getCategory(lead)]}")`;
       document.getElementById("heroEyebrow").textContent = isTodayKey(k) ? "Today's leading celebration" : "Leading celebration this day";
       document.getElementById("heroHeadline").innerHTML = `<a href="${holidayUrl(lead)}">${escapeHtml(lead)}</a>`;
       const restCount = events.length - 1;
