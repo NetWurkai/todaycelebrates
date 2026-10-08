@@ -37,6 +37,13 @@
 /ads/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
+# HTML5 ad creative runs in an opaque-origin sandboxed iframe, which makes its
+# own font files cross-origin. Without this the banners fall back to system
+# fonts. Images and CSS in the creative are unaffected.
+/ads/*/shared/fonts/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
+  Access-Control-Allow-Origin: *
+
 /images/*
   Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
 

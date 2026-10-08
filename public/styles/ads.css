@@ -62,6 +62,25 @@ html.ads-enabled .ad-leaderboard {
   }
 }
 
+/* Creatives are wider than the reading column's inner width: a 728px banner
+   against 712px on desktop, and on a 320px phone a 300px rectangle against
+   272px. Rather than clip them, every in-flow slot reclaims its container's
+   horizontal padding, so the room available is the full column width at any
+   viewport. max-width must be lifted too, or it caps the box straight back to
+   the inner width. The creative stays centred inside the widened slot. */
+html.ads-enabled main > .ad-slot,
+html.ads-enabled .content-wrap > .ad-slot {
+  max-width: none;
+}
+html.ads-enabled main > .ad-slot {
+  margin-left: -24px;
+  margin-right: -24px;
+}
+html.ads-enabled .content-wrap > .ad-slot {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
 /* ---- 300x250 medium rectangle ---- */
 html.ads-enabled .ad-rect {
   min-height: 250px;

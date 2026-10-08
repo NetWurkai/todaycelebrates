@@ -1,19 +1,28 @@
 /* ===========================================================================
    HOUSE ADS — the only file you need to edit to change what runs in the slots.
 
-   No ad network involved. Each slot draws from the list below; if a slot has
-   more than one creative, one is picked at random on each page view.
+   No ad network. Each slot draws from the list below; if a slot has more than
+   one creative, one is picked at random per page view.
 
-   TO SWAP IN A REAL BANNER
-   ------------------------
-   1. Drop the image into public/images/ads/  (PNG, JPG, SVG or GIF)
-   2. Edit the matching entry below: set "img", "width", "height", "href" and
-      "alt". Width and height must be the creative's real pixel size — they're
-      what stops the page jumping as the image loads.
-   3. Set SHOW_LABEL to true once these are real ads rather than placeholders.
+   TWO KINDS OF CREATIVE
+   ---------------------
+   HTML5 banner (type: "html")   an ad folder with its own index.html, served
+                                 in an iframe. Handles its own click-through
+                                 via the clickTag inside that index.html.
+   Image        (no type)        a plain image, optionally wrapped in a link.
 
-   Nothing else changes: no templates, no regeneration, no deploy step beyond
-   committing the file.
+   TO CHANGE WHAT RUNS
+   -------------------
+   HTML5: drop the unzipped banner folder into public/ads/<campaign>/<size>/
+          and point "src" at it. Set the click-through by editing the clickTag
+          line near the top of that banner's own index.html.
+   Image: drop the file into public/images/ads/ and set "img" + "href".
+
+   Either way: width and height must be the creative's real pixel size. They're
+   what stops the page jumping as it loads.
+
+   Nothing else changes — no template edits, no regenerating the site's ~2,800
+   pages, no deploy step beyond committing the file.
 
    Slots and their standard sizes:
      leaderboard  728x90   (320x50 on phones, via the "mobile" key)
@@ -21,56 +30,56 @@
      footer       300x250
      rail         300x600  (only shows on screens 1200px and wider)
 
-   Leave a slot's list empty — []  — and that slot collapses to nothing
-   instead of showing a placeholder.
+   Leave a slot's list empty — []  — and that slot collapses to nothing.
    =========================================================================== */
 
 var HOUSE_ADS = {
   leaderboard: [
     {
-      img: "/images/ads/placeholder-728x90.svg",
+      type: "html",
+      src: "/ads/podiq/728x90/",
       width: 728,
       height: 90,
-      alt: "Ad space",
-      // href: "https://example.com/your-landing-page",
-      mobile: { img: "/images/ads/placeholder-320x50.svg", width: 320, height: 50 }
+      alt: "PodIQ — launch your podcast",
+      mobile: { type: "html", src: "/ads/podiq/320x50/", width: 320, height: 50 }
     }
   ],
 
   incontent: [
     {
-      img: "/images/ads/placeholder-300x250.svg",
+      type: "html",
+      src: "/ads/podiq/300x250/",
       width: 300,
       height: 250,
-      alt: "Ad space"
-      // href: "https://example.com/your-landing-page",
+      alt: "PodIQ — launch your podcast"
     }
   ],
 
   footer: [
     {
-      img: "/images/ads/placeholder-300x250.svg",
+      type: "html",
+      src: "/ads/podiq/300x250/",
       width: 300,
       height: 250,
-      alt: "Ad space"
-      // href: "https://example.com/your-landing-page",
+      alt: "PodIQ — launch your podcast"
     }
   ],
 
   rail: [
     {
-      img: "/images/ads/placeholder-300x600.svg",
+      type: "html",
+      src: "/ads/podiq/300x600/",
       width: 300,
       height: 600,
-      alt: "Ad space"
-      // href: "https://example.com/your-landing-page",
+      alt: "PodIQ — launch your podcast"
     }
   ]
 };
 
-// Show the small "Advertisement" label above each slot. Off while these are
-// placeholders (labelling a grey placeholder as an ad is just confusing);
-// turn it on when real paid creative runs.
+// Show the small "Advertisement" label above each slot. These are house ads
+// for Jay's own product rather than sold inventory, so it's off; turn it on
+// (together with ADS_LABELLED in generate.py) when third-party paid creative
+// runs.
 var SHOW_LABEL = false;
 
 /* --------------------------------------------------------------------------
@@ -89,33 +98,55 @@ window.TC_ADS = {
 
     var ad = list.length === 1 ? list[0] : list[Math.floor(Math.random() * list.length)];
 
-    // Phones get the small creative when one is supplied, so the image served
-    // matches the height the stylesheet reserved.
+    // Phones get the small creative when one is supplied, so what's served
+    // matches the height the stylesheet reserved. 768px is also where ads.css
+    // stops widening the leaderboard slot to fit a 728px banner.
     var creative = (window.innerWidth < 768 && ad.mobile) ? ad.mobile : ad;
-    if (!creative || !creative.img) return slot.setFilled(false);
+    if (!creative) return slot.setFilled(false);
 
-    var img = document.createElement("img");
-    img.src = creative.img;
-    img.width = creative.width;
-    img.height = creative.height;
-    img.alt = ad.alt || "";
-    img.decoding = "async";
-    // The leaderboard is above the fold and already gated by slots.js; the rest
-    // only render once near the viewport, so native lazy loading is redundant
-    // for them but harmless and helps if a creative is heavy.
-    img.loading = slot.element.getAttribute("data-ad-eager") === "1" ? "eager" : "lazy";
-    img.style.cssText = "max-width:100%;height:auto;display:block;border:0";
+    var eager = slot.element.getAttribute("data-ad-eager") === "1";
+    var node;
 
-    if (ad.href) {
+    if (creative.type === "html") {
+      if (!creative.src) return slot.setFilled(false);
+      node = document.createElement("iframe");
+      node.src = creative.src;
+      node.title = ad.alt || "Advertisement";
+      node.setAttribute("scrolling", "no");
+      node.setAttribute("frameborder", "0");
+      // Opaque-origin sandbox: the creative can run its own script and open
+      // its click-through, but cannot reach this page's DOM, cookies or
+      // storage. Fonts inside it are then cross-origin, which is why
+      // public/_headers sends Access-Control-Allow-Origin for /ads/*/shared/fonts/.
+      node.setAttribute(
+        "sandbox",
+        "allow-scripts allow-popups allow-popups-to-escape-sandbox"
+      );
+    } else {
+      if (!creative.img) return slot.setFilled(false);
+      node = document.createElement("img");
+      node.src = creative.img;
+      node.alt = ad.alt || "";
+      node.decoding = "async";
+    }
+
+    node.width = creative.width;
+    node.height = creative.height;
+    node.loading = eager ? "eager" : "lazy";
+    node.style.cssText = "display:block;border:0;max-width:100%";
+
+    // An image creative can carry its own link; an HTML5 banner does its own
+    // click handling via clickTag, so never wrap one in an anchor.
+    if (creative.type !== "html" && ad.href) {
       var a = document.createElement("a");
       a.href = ad.href;
       // rel="sponsored" is what search engines expect on a paid placement.
       a.rel = "sponsored noopener";
       if (ad.newTab !== false) a.target = "_blank";
-      a.appendChild(img);
+      a.appendChild(node);
       mount.appendChild(a);
     } else {
-      mount.appendChild(img);
+      mount.appendChild(node);
     }
   }
 };

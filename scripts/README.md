@@ -271,24 +271,81 @@ the 760px reading column. Below that `.page-grid` stays `display:block`, so the
 content column is pixel-identical to what it was before ads existed — verified
 in Chromium at 1000px, ads on and off.
 
+### What's running now
+
+PodIQ house banners, HTML5 creative, one folder per size under
+`public/ads/podiq/`:
+
+| Slot | Creative |
+| --- | --- |
+| `leaderboard` | `/ads/podiq/728x90/`, with `/ads/podiq/320x50/` below 768px |
+| `incontent` | `/ads/podiq/300x250/` |
+| `footer` | `/ads/podiq/300x250/` |
+| `rail` | `/ads/podiq/300x600/` |
+
+The supplied set also includes 160x600 and 970x250, which no slot currently
+uses. The original per-size zips are the master copies — keep them, they're
+what an ad server or DSP wants.
+
+**Shared assets.** Each size shipped self-contained, which meant four copies of
+the same fonts and logo — 73% of the asset weight was duplicates, and a desktop
+page showing three different sizes would download the same 24KB font three
+times over. The repo copies are rewritten to point at `/ads/podiq/shared/`
+instead, so one download serves every slot on the page. If you re-export the
+banners, redo that rewrite (it's just `fonts/` → `../shared/fonts/` and the two
+PNG paths in each `index.html`).
+
+**Click-through** lives in each banner's own `index.html`, in the `clickTag`
+variable near the top. It is not set in `house.js`.
+
 ### Changing what runs
 
-**Edit `public/ads/house.js`. That is the only file involved.** It holds one
-entry per slot: image path, pixel dimensions, link and alt text. Drop a new
-image into `public/images/ads/`, point the entry at it, commit. No template
-edits, no regeneration of the site's ~2,800 pages, no deploy step.
+**Edit `public/ads/house.js`. That is the only file involved.** It takes two
+kinds of creative:
 
-- List more than one creative in a slot and one is picked at random per page view.
-- Set a slot's list to `[]` and that position collapses to nothing.
-- Omit `href` and the creative renders unlinked (which is what the placeholders do).
-- A creative with an `href` gets `rel="sponsored noopener"`, which is what search
-  engines expect on a paid placement.
-- Phones get the `mobile` variant when one is supplied, so the image served
+- **HTML5 banner** — `type: "html"` plus `src` pointing at the folder. Served
+  in an iframe; it does its own click handling via its clickTag, so it never
+  gets wrapped in a link.
+- **Image** — `img` plus an optional `href`. Wrapped in a link with
+  `rel="sponsored noopener"` when `href` is set, which is what search engines
+  expect on a paid placement.
+
+Either way `width` and `height` must be the creative's real pixel size — those
+are what stop the page jumping as it loads. Drop a new banner folder into
+`public/ads/<campaign>/<size>/` (or an image into `public/images/ads/`), point
+the entry at it, commit. No template edits, no regeneration of ~2,800 pages.
+
+- More than one creative in a slot and one is picked at random per page view.
+- A slot set to `[]` collapses to nothing.
+- `mobile` supplies a small variant served below 768px, so what's delivered
   matches the height the stylesheet reserved.
 
-Set `SHOW_LABEL = true` in that file **and** `ADS_LABELLED = True` in
-`generate.py` once real paid creative runs rather than placeholders — labelling
-a grey placeholder as an advertisement is just confusing.
+Set `SHOW_LABEL = true` here **and** `ADS_LABELLED = True` in `generate.py`
+when third-party paid creative runs. It's off for house ads.
+
+### Why HTML5 creative is sandboxed
+
+The iframes carry `sandbox="allow-scripts allow-popups
+allow-popups-to-escape-sandbox"`. The creative can run its own animation and
+open its click-through, but cannot reach this page's DOM, cookies or storage —
+worth having even for first-party creative, and essential if third-party
+creative ever runs here.
+
+The cost is that the iframe gets an opaque origin, which makes its own font
+files cross-origin. `public/_headers` therefore sends
+`Access-Control-Allow-Origin: *` for `/ads/*/shared/fonts/*`. **This is load
+bearing** — verified by serving the same pages without it, where every custom
+face fails with a CORS error and the banners drop to system fonts. Remove the
+header and the creative silently degrades.
+
+### Why the slots bleed into the column padding
+
+Creatives are wider than the reading column's inner width: 728px against
+712px on desktop, and on a 320px phone a 300px rectangle against 272px. Each
+in-flow slot therefore reclaims its container's horizontal padding, and has its
+`max-width` lifted (otherwise that caps the box straight back and clips the
+banner). Verified from 1440px down to 320px: every creative renders at full
+size with no horizontal page overflow.
 
 ### Why the on/off switch lives in generate.py
 

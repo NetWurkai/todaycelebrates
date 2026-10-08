@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="ad.size" content="width=300,height=250">
+<title>PodIQ 300x250</title>
+<style>
+@font-face{font-family:Inter;font-weight:700;font-display:block;src:url(../shared/fonts/inter-700.woff2) format("woff2")}
+@font-face{font-family:"Plus Jakarta Sans";font-weight:500;font-display:block;src:url(../shared/fonts/jakarta-500.woff2) format("woff2")}
+html,body{margin:0;padding:0;background:transparent}
+#ad{width:300px;height:250px;cursor:pointer;overflow:hidden}
+.wave{clip-path:inset(0 100% 0 0);animation:reveal 1.1s .3s cubic-bezier(.3,.7,.2,1) forwards}
+.cta{animation:pop .5s 1.2s both}
+@keyframes reveal{to{clip-path:inset(0 0 0 0)}}
+@keyframes pop{from{opacity:.0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.wave,.cta{animation:none;clip-path:none}}
+</style>
+<script>var clickTag = "https://podiq.ai";</script>
+</head><body>
+<div id="ad" role="link" aria-label="PodIQ: Launch your podcast">
+<div style="position: relative; width: 300px; height: 250px; box-sizing: border-box; background: #1E1B4B; border: 1px solid #26235A; overflow: hidden; font-family: 'Plus Jakarta Sans', system-ui, sans-serif">
+<img src="../shared/mark.png" alt="" aria-hidden="true" style="position: absolute; right: -40px; bottom: -70px; height: 250px; width: auto; opacity: 0.06">
+<div style="position: relative; height: 100%; box-sizing: border-box; padding: 22px; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start">
+<img src="../shared/logo.png" alt="PodIQ" style="width: 120px; height: auto; display: block">
+<div style="font-family: Inter, system-ui, sans-serif; font-weight: 700; font-size: 24px; line-height: 1.12; letter-spacing: -0.01em; color: #FFFFFF">Podcast production at the speed of thought.</div>
+<span class="cta" style="display: inline-block; background: #A59EFF; color: #1E1B4B; font-family: Inter, system-ui, sans-serif; font-weight: 700; font-size: 14px; line-height: 1; padding: 13px 24px; border-radius: 999px; white-space: nowrap">Launch your podcast</span>
+</div>
+</div>
+</div>
+<script>document.getElementById("ad").addEventListener("click",function(){window.open(window.clickTag,"_blank")});</script>
+</body></html>
