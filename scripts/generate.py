@@ -43,6 +43,7 @@ import json
 import os
 import re
 import sys
+from urllib.parse import quote
 
 MONTH_NAMES = ["", "January", "February", "March", "April", "May", "June",
                "July", "August", "September", "October", "November", "December"]
@@ -391,69 +392,259 @@ def next_occurrence(holiday, today, by_slug=None, memo=None):
 # Rendering
 # ---------------------------------------------------------------------------
 
-PAGE_TEMPLATE = """<!doctype html>
-<html lang="en" class="{html_class}">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNN6PH0QNC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
+# ---------------------------------------------------------------------------
+# Site chrome and shared markup (the "Almanac" design)
+#
+# The <head> boilerplate, header, footer and script tags live as partials under
+# scripts/templates/partials/. They are filled here and handed to every page
+# template as ordinary markers (HEAD_COMMON, SITE_HEADER, SITE_FOOTER,
+# SITE_SCRIPTS), so changing the navigation is a one-file edit.
+#
+# obs_row() and calendar_html() produce markup that the home page's inline
+# script ALSO produces when a visitor picks another day or month. The two have
+# to stay identical -- see the note at the top of templates/index.html.
+# ---------------------------------------------------------------------------
 
-  gtag('config', 'G-WNN6PH0QNC');
-</script>
-<title>{name} — {date_long} | Today Celebrates</title>
-<meta name="description" content="{description}">
-<link rel="canonical" href="{url}">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="manifest" href="/manifest.webmanifest">
-<meta name="theme-color" content="#ff6b45" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#ff8a63" media="(prefers-color-scheme: dark)">
-<meta property="og:type" content="article">
-<meta property="og:title" content="{name} — {date_long}">
-<meta property="og:description" content="{description}">
-<meta property="og:image" content="{image}">
-<meta property="og:url" content="{url}">
-<meta property="og:site_name" content="Today Celebrates">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{name} — {date_long}">
-<meta name="twitter:description" content="{description}">
-<meta name="twitter:image" content="{image}">
-<link rel="stylesheet" href="/styles/holiday.css">
-<link rel="stylesheet" href="/styles/ads.css">
-<script type="application/ld+json">{ld_json}</script>{extra_ld}
-</head>
-<body>
-  <div class="topbar"><a href="/">Today Celebrates</a></div>
-  <div class="hero" style="background-image:url('{image}')">
-    <div class="hero-inner">
-      <div class="hero-date">{date_long}</div>
-      <h1>{name}</h1>
-    </div>
-  </div>
-  <div class="page-grid">
-  <main>
-    <div class="ad-slot ad-leaderboard" data-ad-slot="leaderboard" data-ad-eager="1"></div>
-    <span class="category-tag">{category_title}</span>
-    <p class="desc">{description}</p>
-    <div class="ad-slot ad-rect" data-ad-slot="incontent"></div>{longform}
-    <a class="back-link" href="{day_link}">&larr; See everything else {date_short} celebrates</a>
-    <div class="also">Know a holiday we're missing, or think this date has more going on? Today Celebrates tracks daily national, international, and world observances all year.</div>
-    <div class="ad-slot ad-rect" data-ad-slot="footer"></div>
-  </main>
-  <aside class="ad-rail" data-ad-slot="rail"></aside>
-  </div>
-  <footer>Today Celebrates — a daily calendar of national &amp; international holidays.</footer>
-  <script src="/ads/house.js" defer></script>
-  <script src="/ads/slots.js" defer></script>
-</body>
-</html>
-"""
+# Category key -> (display title, pill colour class). The pill classes are
+# defined in public/styles/site.css (lil / sun / cor / mnt). Unknown categories
+# fall back to a capitalised title and the lilac pill.
+CATEGORY_STYLE = {
+    "celebration": ("Celebration", "lil"),
+    "community": ("Community", "lil"),
+    "kids": ("Kids & Family", "lil"),
+    "music": ("Music", "lil"),
+    "food": ("Food", "sun"),
+    "coffee": ("Coffee", "sun"),
+    "books": ("Books", "sun"),
+    "beer": ("Beer", "cor"),
+    "halloween": ("Halloween", "cor"),
+    "sports": ("Sports", "cor"),
+    "dog": ("Dogs", "cor"),
+    "health": ("Health", "mnt"),
+    "nature": ("Nature", "mnt"),
+    "tech": ("Tech", "mnt"),
+}
+
+NAV_KEYS = ("TODAY", "CALENDAR", "CATEGORIES", "ABOUT")
+_partial_cache = {}
+
+
+def cat_title(category):
+    if category in CATEGORY_STYLE:
+        return CATEGORY_STYLE[category][0]
+    return category.upper() if category == "lgbt" else category.capitalize()
+
+
+def cat_pill_class(category):
+    return CATEGORY_STYLE.get(category, ("", "lil"))[1]
+
+
+def cat_pill(category, link=False):
+    title = esc_attr(cat_title(category))
+    cls = cat_pill_class(category)
+    if link:
+        return f'<a class="pill {cls}" href="/category/{category}/">{title}</a>'
+    return f'<span class="pill {cls}">{title}</span>'
+
+
+def category_json():
+    """CATEGORY_STYLE for the home page's inline script (one source of truth)."""
+    return json.dumps(
+        {k: [v[0], v[1]] for k, v in CATEGORY_STYLE.items()},
+        ensure_ascii=False, separators=(",", ":"),
+    )
+
+
+def load_partial(templates_dir, name):
+    key = (templates_dir, name)
+    if key not in _partial_cache:
+        _partial_cache[key] = load_template(os.path.join(templates_dir, "partials"), name)
+    return _partial_cache[key]
+
+
+def chrome_for(templates_dir, active=None):
+    """Shared page furniture as template-marker values.
+
+    `active` names the nav tab to mark current (one of NAV_KEYS), or None for
+    pages that belong to no tab (an individual holiday page, say). Nothing in
+    here depends on today's date, which is what keeps the permanent /day/ pages
+    byte-identical from run to run.
+    """
+    if active is not None and active not in NAV_KEYS:
+        raise ValueError(f"unknown nav tab {active!r}")
+    nav = {
+        f"NAV_{k}": (' aria-current="page"' if k == active else "") for k in NAV_KEYS
+    }
+    header = fill(load_partial(templates_dir, "header.html"), {
+        "ICONS": load_partial(templates_dir, "icons.html").rstrip("\n"),
+        **nav,
+    })
+    return {
+        "HEAD_COMMON": load_partial(templates_dir, "head.html").rstrip("\n"),
+        "SITE_HEADER": header.rstrip("\n"),
+        "SITE_FOOTER": load_partial(templates_dir, "footer.html").rstrip("\n"),
+        "SITE_SCRIPTS": load_partial(templates_dir, "scripts.html").rstrip("\n"),
+    }
+
+
+def icon(name, size=17):
+    return f'<svg width="{size}" height="{size}" aria-hidden="true"><use href="#i-{name}"/></svg>'
+
+
+def row_button(action, label, icon_name, extra=""):
+    return (
+        f'<button type="button" class="ib{extra}" data-a="{action}" '
+        f'aria-label="{esc_attr(label)}">{icon(icon_name)}</button>'
+    )
+
+
+def obs_row(h, index, iso_date):
+    """One observance as a table row: number, name, category pill, actions.
+
+    `index` is 0-based; the first row of a day is the leading celebration.
+    The data-* attributes are what /js/site.js reads for Share, Copy link and
+    Add to calendar, so no per-row script or URL-building is needed.
+    """
+    name, slug = h["name"], h["slug"]
+    yearly = "1" if h["recurrence"] == "Annual" else "0"
+    hot = ' class="hot"' if index == 0 else ""
+    lead = '<span class="lbl">Lead</span>' if index == 0 else ""
+    actions = (
+        row_button("copy", f"Copy link to {name}", "link")
+        + row_button("ics", f"Add {name} to calendar", "cal")
+        + row_button("share", f"Share {name}", "share", " sh")
+    )
+    return (
+        f'<tr data-u="/holiday/{slug}/" data-n="{esc_attr(name)}" data-d="{iso_date}" '
+        f'data-y="{yearly}"{hot}>'
+        f'<td class="n mono">{index + 1:02d}</td>'
+        f'<td class="nm"><a href="/holiday/{slug}/">{esc_attr(name)}</a>{lead}</td>'
+        f'<td class="cat">{cat_pill(h["category"])}</td>'
+        f'<td class="act">{actions}</td></tr>'
+    )
+
+
+OBS_THEAD = (
+    '<thead><tr><th scope="col">#</th><th scope="col">Observance</th>'
+    '<th scope="col">Category</th><th scope="col"><span class="sr">Actions</span></th>'
+    '</tr></thead>'
+)
+
+
+def share_links(path, text):
+    """Plain-<a> share intents: they work with JavaScript off."""
+    full = SITE_BASE_URL + path
+    u = quote(full, safe="")
+    t = quote(text, safe="")
+    both = quote(f"{text} {full}", safe="")
+    ext = 'target="_blank" rel="noopener noreferrer"'
+    return (
+        f'<a href="mailto:?subject={t}&amp;body={both}" aria-label="Share by email">Email</a>'
+        f'<a href="sms:?&amp;body={both}" aria-label="Share by text message">Text</a>'
+        f'<a href="https://www.facebook.com/sharer/sharer.php?u={u}" {ext} '
+        f'aria-label="Share on Facebook (opens in a new tab)">Facebook</a>'
+        f'<a href="https://twitter.com/intent/tweet?text={t}&amp;url={u}" {ext} '
+        f'aria-label="Share on X (opens in a new tab)">X</a>'
+        f'<a href="https://wa.me/?text={both}" {ext} '
+        f'aria-label="Share on WhatsApp (opens in a new tab)">WhatsApp</a>'
+    )
+
+
+def day_text(date, is_today):
+    sep = " " if is_today else ", "
+    return f"{WEEKDAY_NAMES[date.weekday()]}{sep}{MONTH_NAMES[date.month]} {date.day}"
+
+
+def calendar_html(year, month, today, selected, has_days):
+    """The month grid for the home page's calendar box (Sunday-first)."""
+    first = (datetime.date(year, month, 1).weekday() + 1) % 7
+    ndays = calendar.monthrange(year, month)[1]
+    out = "".join(f'<span class="w">{w}</span>' for w in "SMTWTFS")
+    out += "<span></span>" * first
+    for d in range(1, ndays + 1):
+        dt = datetime.date(year, month, d)
+        cls = "d" + (" has" if d in has_days else "")
+        cls += " t" if dt == today else ""
+        cls += " sel" if dt == selected else ""
+        pressed = ' aria-pressed="true"' if dt == selected else ""
+        current = ' aria-current="date"' if dt == today else ""
+        out += (
+            f'<button type="button" class="{cls}" data-k="{year}-{month}-{d}" '
+            f'aria-label="{MONTH_NAMES[month]} {d}"{pressed}{current}>{d}</button>'
+        )
+    return out
+
+
+def month_jump_html(current_month):
+    parts = []
+    for m in range(1, 13):
+        cls = ' class="t"' if m == current_month else ""
+        parts.append(f'<button type="button"{cls}>{MONTH_ABBR[m]}</button>')
+    return "".join(parts)
+
+
+def coming_up_html(today, day_index, limit=4, horizon=45):
+    """The leading observance of each of the next few days that have one."""
+    rows = []
+    for offset in range(1, horizon + 1):
+        d = today + datetime.timedelta(days=offset)
+        items = day_index.get(d)
+        if not items:
+            continue
+        h = items[0]
+        when = "Tomorrow" if offset == 1 else f"In {offset} days"
+        rows.append(
+            f'<a href="/holiday/{h["slug"]}/"><span class="d mono">'
+            f'{MONTH_ABBR[d.month]} {d.day}</span><span><b>{esc_attr(h["name"])}</b>'
+            f'<small>{when}</small></span></a>'
+        )
+        if len(rows) == limit:
+            break
+    return "".join(rows)
+
+
+def also_on_html(date, items, exclude_slug, day_published):
+    """Sidebar of the other observances on a holiday's date."""
+    others = [(i, h) for i, h in enumerate(items, 1) if h["slug"] != exclude_slug]
+    if not others:
+        return ""
+    lis = "".join(
+        f'<li><a href="/holiday/{h["slug"]}/"><span>{esc_attr(h["name"])}</span>'
+        f'<span class="mono">{i:02d}</span></a></li>'
+        for i, h in others[:10]
+    )
+    more = ""
+    if day_published:
+        more = (
+            f'<p><a class="back-link" href="{day_path(date)}">'
+            f'All {len(items)} on {esc_attr(month_day(date))} &rarr;</a></p>'
+        )
+    return f'<h2>Also on {esc_attr(month_day(date))}</h2><ul class="list-side">{lis}</ul>{more}'
+
+
+def category_side_html(category_counts, current=None):
+    lis = []
+    for c, n in sorted(category_counts.items(), key=lambda kv: cat_title(kv[0])):
+        here = ' aria-current="page"' if c == current else ""
+        lis.append(
+            f'<li><a href="/category/{c}/"{here}><span>{esc_attr(cat_title(c))}</span>'
+            f'<span class="mono">{n}</span></a></li>'
+        )
+    return f'<h2>Categories</h2><ul class="list-side">{"".join(lis)}</ul>'
+
+
+def write_if_changed(path, content, dry_run=False):
+    """Write `content` to `path`; returns (changed, created)."""
+    old = None
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            old = f.read()
+    changed = old != content
+    if changed and not dry_run:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+    return changed, old is None
 
 
 def esc_attr(s):
@@ -727,12 +918,13 @@ def render_longform(holiday, occ_date, by_slug, memo):
     dates = next_five_occurrences(holiday, occ_date, by_slug, memo)
     out.append('      <section class="tc-dates">')
     out.append(f"        <h2>When is {md_inline(name)}?</h2>")
-    out.append('        <table class="dates-table">')
+    out.append('        <table class="dates">')
     out.append("          <thead><tr><th>Year</th><th>Date</th><th>Day</th></tr></thead>")
     out.append("          <tbody>")
-    for d in dates:
+    for n, d in enumerate(dates):
+        now_cls = ' class="now"' if n == 0 else ""
         out.append(
-            f"            <tr><td>{d.year}</td>"
+            f"            <tr{now_cls}><td>{d.year}</td>"
             f"<td>{MONTH_NAMES[d.month]} {d.day}</td>"
             f"<td>{WEEKDAY_NAMES[d.weekday()]}</td></tr>"
         )
@@ -771,16 +963,24 @@ def faq_ld_json(faq_pairs):
     return f'\n<script type="application/ld+json">{payload}</script>'
 
 
-def render_page(holiday, occ_date, day_link="/", by_slug=None, memo=None):
+def render_page(holiday, occ_date, day_link, by_slug, memo, template, chrome,
+                same_day=(), day_published=False):
+    """Render one /holiday/<slug>/ page.
+
+    `same_day` is every observance on this holiday's date (for the "Also on"
+    sidebar); `day_published` says whether that date has a /day/ page to link.
+    """
     slug = holiday["slug"]
     name = holiday["name"]
     category = holiday["category"]
     description = holiday["description"]
-    url = f"{SITE_BASE_URL}/holiday/{slug}/"
-    image = f"/images/hero/{category}.jpg"
+    path = f"/holiday/{slug}/"
+    url = f"{SITE_BASE_URL}{path}"
+    image = f"{SITE_BASE_URL}/images/hero/{category}.jpg"
     iso_date = occ_date.isoformat()
     date_long = f"{MONTH_NAMES[occ_date.month]} {occ_date.day}, {occ_date.year}"
     date_short = f"{MONTH_NAMES[occ_date.month]} {occ_date.day}"
+    annual = holiday["recurrence"] == "Annual"
 
     ld = {
         "@context": "https://schema.org",
@@ -804,20 +1004,39 @@ def render_page(holiday, occ_date, day_link="/", by_slug=None, memo=None):
         memo if memo is not None else {},
     )
 
-    return PAGE_TEMPLATE.format(
-        name=esc_attr(name),
-        date_long=date_long,
-        date_short=date_short,
-        description=esc_attr(description),
-        url=url,
-        image=image,
-        category_title=category.capitalize() if category != "lgbt" else category.upper(),
-        ld_json=ld_json,
-        day_link=day_link,
-        html_class=html_class(),
-        extra_ld=faq_ld_json(faq_pairs),
-        longform=longform,
-    )
+    if annual:
+        if holiday.get("month") == 2 and holiday.get("day") == 29:
+            recurs = "Every February 29 (leap years only)"
+        else:
+            recurs = f"Every year on {date_short}"
+    else:
+        recurs = "The date changes each year. This page always shows the next one."
+
+    share_text = f"{name} — {date_long}"
+
+    return fill(template, {
+        "HTML_CLASS": html_class(),
+        "NAME": esc_attr(name),
+        "DATE_LONG": date_long,
+        "DATE_SHORT": date_short,
+        "DATE_WEEKDAY": weekday_long_date(occ_date),
+        "ISO_DATE": iso_date,
+        "YEARLY": "1" if annual else "0",
+        "DESCRIPTION": esc_attr(description),
+        "URL": url,
+        "PATH": path,
+        "IMAGE_ABS": image,
+        "LD_JSON": ld_json,
+        "EXTRA_LD": faq_ld_json(faq_pairs),
+        "DAY_LINK": day_link,
+        "LONGFORM": longform,
+        "RECURS": esc_attr(recurs),
+        "CATEGORY_PILL": cat_pill(category, link=True),
+        "SHARE_TEXT": esc_attr(share_text),
+        "SHARE_LINKS": share_links(path, share_text),
+        "ALSO_ON": also_on_html(occ_date, same_day, slug, day_published),
+        **chrome,
+    })
 
 
 # ---------------------------------------------------------------------------
@@ -918,34 +1137,55 @@ def moveable_note_html(date, items, by_slug, memo):
     return f'<div class="moveable-note">{body}</div>'
 
 
-def render_day_page(date, items, prev_date, next_date, template, by_slug, memo):
+def week_list_html(date, day_index, published_days):
+    """The days either side of this one that have a permanent page."""
+    out = []
+    for offset in range(-3, 4):
+        d = date + datetime.timedelta(days=offset)
+        if d != date and d not in published_days:
+            continue
+        label = f"{WEEKDAY_NAMES[d.weekday()][:3]} {d.day}"
+        if d == date:
+            out.append(
+                f'<a class="t" href="{day_path(d)}" aria-current="date">'
+                f'<span class="d mono">{label}</span><b>This page</b></a>'
+            )
+        else:
+            n = len(day_index.get(d, []))
+            out.append(
+                f'<a href="{day_path(d)}"><span class="d mono">{label}</span>'
+                f'<b>{n} {plural(n, "observance")}</b></a>'
+            )
+    return "".join(out)
+
+
+def render_day_page(date, items, prev_date, next_date, template, by_slug, memo,
+                    chrome, day_index, published_days):
     """Render one permanent /day/YYYY-MM-DD/ page."""
     n = len(items)
     lead = items[0]
     hero_rel = f"/images/hero/{lead['category']}.jpg"
-    url = f"{SITE_BASE_URL}{day_path(date)}"
+    path = day_path(date)
+    url = f"{SITE_BASE_URL}{path}"
+    iso = date.isoformat()
 
-    rows = []
-    for i, h in enumerate(items):
-        lead_tag = '<span class="lead-tag">Leading</span>' if i == 0 else ""
-        rows.append(
-            f'<li><a href="/holiday/{h["slug"]}/">{esc_attr(h["name"])}</a>'
-            f'<span class="cat">{esc_attr(h["category"])}</span>{lead_tag}</li>'
-        )
+    rows = [obs_row(h, i, iso) for i, h in enumerate(items)]
 
     # A rectangle partway down a long list is the conventional (and
-    # highest-viewability) in-content position for a list page. Split the list
-    # rather than putting an ad inside an <li>, and resume the numbering with
-    # start= so the ad doesn't renumber the observances.
+    # highest-viewability) in-content position for a list page. Split the
+    # table rather than putting an ad inside a <tr>; the second table has no
+    # header row of its own, only a screen-reader caption, and the numbering
+    # carries on from the first.
     if len(rows) >= 8:
         split = 5
         list_block = (
-            f'<ol class="day-list">{"".join(rows[:split])}</ol>'
+            f'<table class="obs">{OBS_THEAD}<tbody>{"".join(rows[:split])}</tbody></table>'
             f'<div class="ad-slot ad-rect" data-ad-slot="incontent"></div>'
-            f'<ol class="day-list" start="{split + 1}">{"".join(rows[split:])}</ol>'
+            f'<table class="obs"><caption class="sr">Observances, continued</caption>'
+            f'<tbody>{"".join(rows[split:])}</tbody></table>'
         )
     else:
-        list_block = f'<ol class="day-list">{"".join(rows)}</ol>'
+        list_block = f'<table class="obs">{OBS_THEAD}<tbody>{"".join(rows)}</tbody></table>'
 
     preview = join_names([h["name"] for h in items[:3]])
     description = (
@@ -972,6 +1212,18 @@ def render_day_page(date, items, prev_date, next_date, template, by_slug, memo):
     }
     ld_json = json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")
 
+    stepper = ""
+    if prev_date:
+        stepper += (
+            f'<a class="btn" href="{day_path(prev_date)}" '
+            f'aria-label="Previous day: {esc_attr(long_date(prev_date))}">&lsaquo;</a>'
+        )
+    if next_date:
+        stepper += (
+            f'<a class="btn" href="{day_path(next_date)}" '
+            f'aria-label="Next day: {esc_attr(long_date(next_date))}">&rsaquo;</a>'
+        )
+
     nav = []
     nav.append(
         f'<a href="{day_path(prev_date)}">&larr; {esc_attr(long_date(prev_date))}</a>'
@@ -982,20 +1234,25 @@ def render_day_page(date, items, prev_date, next_date, template, by_slug, memo):
         if next_date else "<span></span>"
     )
 
+    share_title = f"Everything {long_date(date)} celebrates"
+    share_text = (
+        f"{n} {plural(n, 'holiday')} and observances on {weekday_long_date(date)}"
+    )
+
     return fill(template, {
         "TITLE": esc_attr(
             f"{weekday_long_date(date)}: {n} {plural(n, 'Holiday')} & Observances "
             f"| Today Celebrates"
         ),
-        "OG_TITLE": esc_attr(f"Everything {long_date(date)} celebrates"),
+        "OG_TITLE": esc_attr(share_title),
         "DESCRIPTION": esc_attr(description),
         "URL": url,
-        "HERO_IMAGE": hero_rel,
+        "PATH": path,
         # og:image/twitter:image want an absolute URL -- several scrapers won't
         # resolve a site-relative one.
         "HERO_IMAGE_ABS": f"{SITE_BASE_URL}{hero_rel}",
         "WEEKDAY_LINE": esc_attr(weekday_long_date(date)).upper(),
-        "HEADLINE": esc_attr(f"Everything {long_date(date)} celebrates"),
+        "HEADLINE": esc_attr(share_title),
         "INTRO": (
             f"{n} national, international, and world {plural(n, 'observance')} "
             f"{plural(n, 'is', 'are')} on the calendar for "
@@ -1003,91 +1260,143 @@ def render_day_page(date, items, prev_date, next_date, template, by_slug, memo):
         ),
         "LIST_BLOCK": list_block,
         "MOVEABLE_NOTE": moveable_note_html(date, items, by_slug, memo),
-        "DAY_NAV": "".join(nav),
+        "DAY_NAV": stepper,
+        "DAY_PN": "".join(nav),
         "HTML_CLASS": html_class(),
         "DATE_PLAIN": esc_attr(long_date(date)),
         "LD_JSON": ld_json,
+        "SHARE_TITLE": esc_attr(share_title),
+        "SHARE_TEXT": esc_attr(share_text),
+        "SHARE_LINKS": share_links(path, share_title),
+        "WEEK_LIST": week_list_html(date, day_index, published_days),
+        **chrome,
     })
 
 
-def render_home(date, items, template, has_day_page):
+def render_home(date, items, template, chrome, has_day_page, month_days,
+                coming_up, day_from, day_to):
     """Render public/index.html with the generator's "today" baked in.
 
-    The baked markup must match what index.html's own renderHero/renderList
-    produce for the same day, because that script re-renders these same elements
-    as soon as it loads. Matching means no flash of changing content; the point
-    of baking it is that a crawler (or a visitor with JS blocked) sees the real
-    holiday names instead of empty placeholders.
+    The baked markup must match what index.html's own inline script produces
+    for the same day (obs_row, calendar_html and the headings above), because
+    that script takes over as soon as the visitor picks another day. Matching
+    means no flash of changing content; the point of baking it is that a
+    crawler (or a visitor with JS blocked) sees the real holiday names instead
+    of empty placeholders.
     """
     n = len(items)
+    iso = date.isoformat()
     day_link = (
         f'<a href="{day_path(date)}">Permanent page for {esc_attr(long_date(date))} &rarr;</a>'
         if has_day_page else ""
     )
+    base = day_text(date, True)
 
-    if not items:
-        # Mirrors the script's own empty state.
-        return fill(template, {
-            # Literal em dash, not &mdash; -- these strings go through
-            # esc_attr(), which would turn the entity's & into &amp; and print
-            # it verbatim on the page.
-            "HTML_CLASS": html_class(),
-            "GENERATED_NOTE": GENERATED_NOTE,
-            "TITLE": esc_attr(f"Today Celebrates — {long_date(date)}"),
-            "DESCRIPTION": esc_attr(
-                "A daily calendar of national, international, and world holidays "
-                "and observances."
-            ),
-            "TODAY_KEY": js_day_key(date),
-            "HERO_IMAGE": "/images/hero/celebration.jpg",
-            "HERO_BADGE": esc_attr(short_badge_date(date)),
-            "HERO_EYEBROW": "No data yet",
-            "HERO_HEADLINE": esc_attr(weekday_month_day(date)),
-            "HERO_SUB": "No holidays logged for this day yet.",
-            "CAL_LABEL": esc_attr(f"{MONTH_NAMES[date.month]} {date.year}"),
-            "LIST_TITLE": esc_attr(f"Everything {weekday_month_day(date)} celebrates"),
-            "LIST_SUB": "",
-            "CHIPS": '<div class="empty-note">No holidays logged for this day yet.</div>',
-            "DAY_LINK": day_link,
-        })
-
-    lead = items[0]
-    rest = n - 1
-    chips = "".join(
-        f'<a class="chip{" lead" if i == 0 else ""}" '
-        f'href="/holiday/{h["slug"]}/">{esc_attr(h["name"])}</a>'
-        for i, h in enumerate(items)
-    )
-    hero_sub = (
-        f"Plus {rest} more {plural(rest, 'celebration')} on {esc_attr(month_day(date))}."
-        if rest > 0
-        else f"The only celebration on the calendar for {esc_attr(month_day(date))}."
-    )
-    preview = join_names([h["name"] for h in items[:3]])
+    if items:
+        lead = items[0]
+        title = f"What Holiday Is Today? — {long_date(date)} | Today Celebrates"
+        preview = join_names([h["name"] for h in items[:3]])
+        description = (
+            f"{n} {plural(n, 'holiday')} and observances today, "
+            f"{weekday_long_date(date)}: {preview}. A daily calendar of national, "
+            f"international, and world holidays."
+        )
+        image = f"/images/hero/{lead['category']}.jpg"
+    else:
+        lead = None
+        # Literal em dash, not &mdash; -- esc_attr() would turn the entity's &
+        # into &amp; and print it verbatim.
+        title = f"Today Celebrates — {long_date(date)}"
+        description = (
+            "A daily calendar of national, international, and world holidays "
+            "and observances."
+        )
+        image = "/images/hero/celebration.jpg"
 
     return fill(template, {
         "HTML_CLASS": html_class(),
         "GENERATED_NOTE": GENERATED_NOTE,
-        "TITLE": esc_attr(
-            f"What Holiday Is Today? — {long_date(date)} | Today Celebrates"
-        ),
-        "DESCRIPTION": esc_attr(
-            f"{n} {plural(n, 'holiday')} and observances today, "
-            f"{weekday_long_date(date)}: {preview}. A daily calendar of national, "
-            f"international, and world holidays."
-        ),
+        "TITLE": esc_attr(title),
+        "DESCRIPTION": esc_attr(description),
+        "IMAGE_ABS": f"{SITE_BASE_URL}{image}",
         "TODAY_KEY": js_day_key(date),
-        "HERO_IMAGE": f"/images/hero/{lead['category']}.jpg",
-        "HERO_BADGE": esc_attr(short_badge_date(date)),
-        "HERO_EYEBROW": "Today's leading celebration",
-        "HERO_HEADLINE": f'<a href="/holiday/{lead["slug"]}/">{esc_attr(lead["name"])}</a>',
-        "HERO_SUB": hero_sub,
-        "CAL_LABEL": esc_attr(f"{MONTH_NAMES[date.month]} {date.year}"),
-        "LIST_TITLE": esc_attr(f"Everything {weekday_month_day(date)} celebrates"),
-        "LIST_SUB": f"{n} {plural(n, 'celebration')} on the calendar.",
-        "CHIPS": chips,
+        "DAY_FROM": day_from,
+        "DAY_TO": day_to,
+        "H1_TEXT": esc_attr(f"Today, {base}"),
+        "COUNT_TEXT": f"{n} {plural(n, 'observance')}" if n else "",
+        "LEAD_HIDDEN": "" if lead else " hidden",
+        "LEAD_NAME": esc_attr(lead["name"]) if lead else "",
+        "LEAD_HREF": f"/holiday/{lead['slug']}/" if lead else "/",
+        "LEAD_SHARE_URL": "/",
+        "LEAD_SHARE_TITLE": esc_attr(f"What holiday is today? {base}"),
+        "LEAD_SHARE_LABEL": "Share today",
+        "TABLE_HIDDEN": "" if lead else " hidden",
+        "EMPTY_HIDDEN": " hidden" if lead else "",
+        "ROWS": "".join(obs_row(h, i, iso) for i, h in enumerate(items)),
         "DAY_LINK": day_link,
+        "CAL_LABEL": f"{MONTH_ABBR[date.month]} {date.year}",
+        "CAL_GRID": calendar_html(date.year, date.month, date, date, month_days),
+        "MONTH_JUMP": month_jump_html(date.month),
+        "COMING_UP": coming_up,
+        "CAT_JSON": category_json(),
+        **chrome,
     })
+
+
+def render_simple_page(template, chrome, *, title, description, path, headline,
+                       body, side="", crumbs=""):
+    """/about/, /categories/ and /category/<slug>/."""
+    return fill(template, {
+        "HTML_CLASS": html_class(),
+        "TITLE": esc_attr(title),
+        "DESCRIPTION": esc_attr(description),
+        "URL": f"{SITE_BASE_URL}{path}",
+        "IMAGE_ABS": f"{SITE_BASE_URL}/images/hero/celebration.jpg",
+        "HEADLINE": esc_attr(headline),
+        "BODY": body,
+        "SIDE": side,
+        "CRUMBS": crumbs,
+        **chrome,
+    })
+
+
+def crumbs_html(*trail):
+    """trail: (label, href_or_None) pairs after the leading Today link."""
+    parts = ['<a href="/">Today</a>']
+    for label, href in trail:
+        parts.append('<span aria-hidden="true">/</span>')
+        parts.append(
+            f'<a href="{href}">{esc_attr(label)}</a>' if href
+            else f'<span aria-current="page">{esc_attr(label)}</span>'
+        )
+    return f'<nav class="crumbs" aria-label="Breadcrumb">{"".join(parts)}</nav>'
+
+
+def render_about_body(total, category_count):
+    return (
+        '<div class="plain">'
+        f"<p>Today Celebrates is a daily calendar of national, international and "
+        f"world holidays and observances: {total:,} of them across {category_count} "
+        f"categories, each with a page of its own.</p>"
+        "<h2>How the site is organised</h2>"
+        '<p><a href="/">Today</a> shows what is being celebrated right now. Every '
+        "date of the coming year has a permanent page listing everything that falls "
+        "on it, and every observance has one page that always shows its next date. "
+        '<a href="/categories/">Categories</a> lets you browse by theme, and the '
+        "search box finds any observance by name.</p>"
+        "<h2>Fixed and moving dates</h2>"
+        "<p>Most observances fall on the same date every year. Some are set by a "
+        "rule instead, such as the second Monday of a month or a number of days "
+        "after Easter, so their date moves. Those pages show the next upcoming "
+        "date, worked out from the rule rather than typed in by hand.</p>"
+        "<h2>Share and save</h2>"
+        "<p>Every page has Share and Copy link buttons, plus links to send it by "
+        "email, text, Facebook, X or WhatsApp. Each observance page also has an Add "
+        "to calendar button: it downloads a calendar file you can open in Apple "
+        "Calendar, Google Calendar or Outlook, and observances with a fixed date "
+        "repeat every year.</p>"
+        "</div>"
+    )
 
 
 def read_sitemap_lastmods(path):
@@ -1131,28 +1440,34 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
             # everything else regenerates normally. main() warns loudly.
             unresolved.append({"slug": h["slug"], "name": h["name"], "error": str(e)})
 
-    # ---- month data files: only for months that actually have content ----
-    by_month = {}  # "YYYY-MM" -> { "YYYY-M-D": [(order, name), ...] }
-    for h in holidays:
-        if h["slug"] not in occurrences:
-            continue  # unresolved: can't place it on a calendar day
-        occ = occurrences[h["slug"]]
-        mk = f"{occ.year:04d}-{occ.month:02d}"
-        dk = f"{occ.year}-{occ.month}-{occ.day}"
-        # Preserve each holiday's original display position within its day
-        # (captured from the live site at Phase 3 build time) rather than
-        # re-sorting alphabetically, so unaffected days stay byte-identical
-        # and the deliberate Notion ordering survives regeneration.
-        by_month.setdefault(mk, {}).setdefault(dk, []).append(
-            (h.get("display_order", 999), h["name"])
-        )
+    # ---- the day index: every date -> the holidays observed on it ----
+    # The index runs from min(archive start, today) so "today" is always in it
+    # even when generating for a date before the archive opened, but only dates
+    # from DAY_ARCHIVE_START onward get published as pages. Month data files,
+    # /day/ pages, "also on this date" lists and the home page all read from
+    # this one structure, so the calendar and the archive can never disagree.
+    day_end = max(occurrences.values()) if occurrences else today
+    day_index, day_index_skipped = build_day_index(
+        holidays, by_slug, memo, min(DAY_ARCHIVE_START, today), day_end
+    )
+    day_dates = [d for d in sorted(day_index) if d >= DAY_ARCHIVE_START]
+    published_days = set(day_dates)
 
-    for mk, days in by_month.items():
-        for dk in days:
-            days[dk].sort(key=lambda pair: pair[0])
-            days[dk] = [name for _, name in days[dk]]
+    chromes = {k: chrome_for(templates_dir, k) for k in (None,) + NAV_KEYS}
 
-    data_dir = os.path.join(site_dir, "data")
+    # ---- month data files (v2): [name, slug, category, yearly] per day ----
+    # Written to data/v2/ rather than over the old data/YYYY-MM.json: pages the
+    # previous design left in browser and CDN caches still read the old files,
+    # and a changed shape under the same URL would break them until they expire.
+    by_month = {}  # "YYYY-MM" -> { "YYYY-M-D": [[name, slug, category, yearly], ...] }
+    for d in sorted(day_index):
+        mk = f"{d.year:04d}-{d.month:02d}"
+        by_month.setdefault(mk, {})[f"{d.year}-{d.month}-{d.day}"] = [
+            [h["name"], h["slug"], h["category"], 1 if h["recurrence"] == "Annual" else 0]
+            for h in day_index[d]
+        ]
+
+    data_dir = os.path.join(site_dir, "data", "v2")
     existing_month_files = set()
     if os.path.isdir(data_dir):
         existing_month_files = {f[:-5] for f in os.listdir(data_dir) if f.endswith(".json")}
@@ -1174,23 +1489,29 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
 
     stale_month_files = existing_month_files - set(by_month.keys())
 
-    # ---- /day/YYYY-MM-DD/ permanent dated pages ----
-    # The index runs from min(archive start, today) so "today" is always in it
-    # even when generating for a date before the archive opened, but only dates
-    # from DAY_ARCHIVE_START onward get published as pages.
-    day_end = max(occurrences.values()) if occurrences else today
-    day_index, day_index_skipped = build_day_index(
-        holidays, by_slug, memo, min(DAY_ARCHIVE_START, today), day_end
-    )
-    day_dates = [d for d in sorted(day_index) if d >= DAY_ARCHIVE_START]
+    # ---- search index: [name, slug] for every page that exists ----
+    def has_page(h):
+        return h["slug"] in occurrences or os.path.exists(
+            os.path.join(site_dir, "holiday", h["slug"], "index.html")
+        )
 
+    search_index = [[h["name"], h["slug"]]
+                    for h in sorted(holidays, key=lambda h: h["slug"]) if has_page(h)]
+    search_changed, _ = write_if_changed(
+        os.path.join(site_dir, "data", "search.json"),
+        json.dumps(search_index, ensure_ascii=False, separators=(",", ":")),
+        dry_run,
+    )
+
+    # ---- /day/YYYY-MM-DD/ permanent dated pages ----
     day_template = load_template(templates_dir, "day.html")
     day_diffs = {"created": [], "changed": [], "unchanged": 0}
     for i, d in enumerate(day_dates):
         prev_d = day_dates[i - 1] if i > 0 else None
         next_d = day_dates[i + 1] if i + 1 < len(day_dates) else None
         new_html = render_day_page(
-            d, day_index[d], prev_d, next_d, day_template, by_slug, memo
+            d, day_index[d], prev_d, next_d, day_template, by_slug, memo,
+            chromes["CALENDAR"], day_index, published_days,
         )
         page_dir = os.path.join(site_dir, "day", d.isoformat())
         page_path = os.path.join(page_dir, "index.html")
@@ -1206,9 +1527,8 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
             with open(page_path, "w", encoding="utf-8") as f:
                 f.write(new_html)
 
-    published_days = set(day_dates)
-
     # ---- per-holiday pages ----
+    holiday_template = load_template(templates_dir, "holiday.html")
     page_diffs = {"changed": [], "unchanged": [], "created": [], "skipped": []}
     for h in holidays:
         slug = h["slug"]
@@ -1224,7 +1544,10 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
         # "what else is on this date". Falls back to / if that day isn't
         # published (a date before the archive opened).
         day_link = day_path(occ) if occ in published_days else "/"
-        new_html = render_page(h, occ, day_link, by_slug, memo)
+        new_html = render_page(
+            h, occ, day_link, by_slug, memo, holiday_template, chromes[None],
+            same_day=day_index.get(occ, []), day_published=occ in published_days,
+        )
         page_dir = os.path.join(site_dir, "holiday", slug)
         page_path = os.path.join(page_dir, "index.html")
         old_html = None
@@ -1243,11 +1566,17 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
 
     # ---- homepage: today's content baked into the HTML ----
     home_items = day_index.get(today, [])
+    month_days = {d.day for d in day_index if (d.year, d.month) == (today.year, today.month)}
     home_html = render_home(
         today,
         home_items,
         load_template(templates_dir, "index.html"),
+        chromes["TODAY"],
         has_day_page=today in published_days,
+        month_days=month_days,
+        coming_up=coming_up_html(today, day_index),
+        day_from=day_dates[0].isoformat() if day_dates else "",
+        day_to=day_dates[-1].isoformat() if day_dates else "",
     )
     home_path = os.path.join(site_dir, "index.html")
     old_home = open(home_path, encoding="utf-8").read() if os.path.exists(home_path) else None
@@ -1255,6 +1584,85 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
     if not dry_run:
         with open(home_path, "w", encoding="utf-8") as f:
             f.write(home_html)
+
+    # ---- /about/, /categories/ and /category/<slug>/ ----
+    page_template = load_template(templates_dir, "page.html")
+    by_category = {}
+    for h in holidays:
+        if has_page(h):
+            by_category.setdefault(h["category"], []).append(h)
+    category_counts = {c: len(v) for c, v in by_category.items()}
+    simple_pages = {}  # site path -> html
+
+    simple_pages["/about/"] = render_simple_page(
+        page_template, chromes["ABOUT"],
+        title="About Today Celebrates | Today Celebrates",
+        description=(
+            "Today Celebrates is a daily calendar of national, international and "
+            "world holidays and observances, with a page for every one."
+        ),
+        path="/about/", headline="About Today Celebrates",
+        body=render_about_body(len(search_index), len(category_counts)),
+        side=category_side_html(category_counts),
+        crumbs=crumbs_html(("About", None)),
+    )
+
+    cat_cards = "".join(
+        f'<li><a href="/category/{c}/"><span>{esc_attr(cat_title(c))}</span>'
+        f'<span class="mono">{n}</span></a></li>'
+        for c, n in sorted(category_counts.items(), key=lambda kv: cat_title(kv[0]))
+    )
+    simple_pages["/categories/"] = render_simple_page(
+        page_template, chromes["CATEGORIES"],
+        title="Holiday Categories | Today Celebrates",
+        description=(
+            f"Browse {len(search_index):,} holidays and observances by category: "
+            f"food, community, nature, health, music and more."
+        ),
+        path="/categories/", headline="Browse by category",
+        body=(
+            '<p class="intro">Every observance on the calendar, grouped by theme.</p>'
+            f'<ul class="cats">{cat_cards}</ul>'
+        ),
+        side="",
+        crumbs=crumbs_html(("Categories", None)),
+    )
+
+    for c, members in by_category.items():
+        lis = []
+        for h in sorted(members, key=lambda h: h["name"].lower()):
+            occ = occurrences.get(h["slug"])
+            when = (f'<span class="mono">{MONTH_ABBR[occ.month]} {occ.day}</span>'
+                    if occ else "")
+            lis.append(
+                f'<li><a href="/holiday/{h["slug"]}/"><span>{esc_attr(h["name"])}</span>'
+                f"{when}</a></li>"
+            )
+        title = cat_title(c)
+        simple_pages[f"/category/{c}/"] = render_simple_page(
+            page_template, chromes["CATEGORIES"],
+            title=f"{title} Holidays and Observances | Today Celebrates",
+            description=(
+                f"{len(members)} {title.lower()} holidays and observances, with the "
+                f"date each one next falls on."
+            ),
+            path=f"/category/{c}/", headline=f"{title} holidays and observances",
+            body=(
+                f'<p class="intro">{len(members)} observances in this category, A to Z, '
+                f"with the date each one next falls on.</p>"
+                f'<ul class="cat-list">{"".join(lis)}</ul>'
+            ),
+            side=category_side_html(category_counts, current=c),
+            crumbs=crumbs_html(("Categories", "/categories/"), (title, None)),
+        )
+
+    simple_changed = set()
+    for path, html in simple_pages.items():
+        changed, _created = write_if_changed(
+            os.path.join(site_dir, path.strip("/"), "index.html"), html, dry_run
+        )
+        if changed:
+            simple_changed.add(path)
 
     # ---- sitemap.xml ----
     # lastmod must say when a page's content actually changed, not when the
@@ -1302,6 +1710,13 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
             f'  <url><loc>{loc}</loc>'
             f'<lastmod>{lastmod_for(loc, slug in touched)}</lastmod></url>'
         )
+    for path in sorted(simple_pages):
+        loc = f"{SITE_BASE_URL}{path}"
+        urls.append(
+            f'  <url><loc>{loc}</loc>'
+            f'<lastmod>{lastmod_for(loc, path in simple_changed)}</lastmod></url>'
+        )
+
     sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                + "\n".join(urls) + "\n</urlset>\n")
@@ -1323,6 +1738,10 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
         "pages_skipped": sorted(page_diffs["skipped"]),
         "unresolved_holidays": sorted(unresolved, key=lambda u: u["slug"]),
         "home_changed": home_changed,
+        "search_index_entries": len(search_index),
+        "search_index_changed": search_changed,
+        "simple_pages_total": len(simple_pages),
+        "simple_pages_changed": sorted(simple_changed),
         "day_pages_total": len(day_dates),
         "day_pages_created": day_diffs["created"],
         "day_pages_changed": day_diffs["changed"],

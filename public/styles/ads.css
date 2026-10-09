@@ -16,7 +16,7 @@
       speed — an ad that shoves the content down on arrival undoes that.
 
    Units: 728x90 leaderboard (desktop) / 320x50 banner (mobile),
-          300x250 medium rectangle, 300x600 half page (wide screens only).
+          300x250 medium rectangle, 300x600 half page (sidebar, 900px+).
 --------------------------------------------------------------------------- */
 
 .ad-slot,
@@ -62,23 +62,23 @@ html.ads-enabled .ad-leaderboard {
   }
 }
 
-/* Creatives are wider than the reading column's inner width: a 728px banner
-   against 712px on desktop, and on a 320px phone a 300px rectangle against
-   272px. Rather than clip them, every in-flow slot reclaims its container's
-   horizontal padding, so the room available is the full column width at any
-   viewport. max-width must be lifted too, or it caps the box straight back to
-   the inner width. The creative stays centred inside the widened slot. */
-html.ads-enabled main > .ad-slot,
-html.ads-enabled .content-wrap > .ad-slot {
+/* Creatives are wider than the content's inner width: a 728px banner against
+   the page gutters, and on a 320px phone a 300px rectangle against 288px.
+   Rather than clip them, the top banner reclaims the page's side gutter, and on
+   phones so does every in-column slot. max-width must be lifted too, or it caps
+   the box straight back to the inner width. The creative stays centred inside
+   the widened slot. --gutter is set in site.css (24px, 16px on phones). */
+html.ads-enabled .wrap > .ad-slot {
   max-width: none;
+  margin-left: calc(var(--gutter, 24px) * -1);
+  margin-right: calc(var(--gutter, 24px) * -1);
 }
-html.ads-enabled main > .ad-slot {
-  margin-left: -24px;
-  margin-right: -24px;
-}
-html.ads-enabled .content-wrap > .ad-slot {
-  margin-left: -20px;
-  margin-right: -20px;
+@media (max-width: 760px) {
+  html.ads-enabled main > .ad-slot {
+    max-width: none;
+    margin-left: calc(var(--gutter, 16px) * -1);
+    margin-right: calc(var(--gutter, 16px) * -1);
+  }
 }
 
 /* ---- 300x250 medium rectangle ---- */
@@ -102,30 +102,17 @@ html.ads-labelled .ad-rect {
   min-height: 266px;
 }
 
-/* ---- 300x600 half page: only where there is genuinely room beside the
-       760px reading column. Below 1200px .page-grid stays display:block, so
-       the content column is byte-for-byte the layout it is today. ---- */
-.page-grid {
-  display: block;
-}
-@media (min-width: 1200px) {
-  html.ads-enabled .page-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 760px) 300px;
-    justify-content: center;
-    gap: 40px;
-    align-items: start;
-  }
-  html.ads-enabled .page-grid > main {
-    margin: 0;
-  }
+/* ---- 300x600 half page: the sidebar slot. It only exists where the layout
+       has a sidebar column (900px and wider -- see .layout in site.css), and
+       sticks below the header while the page scrolls past it. ---- */
+@media (min-width: 900px) {
   html.ads-enabled .ad-rail {
     display: block;
     position: sticky;
-    top: 24px;
+    top: calc(var(--head-h, 0px) + 16px);
     width: 300px;
     min-height: 600px;
-    padding-top: 32px;
+    margin-top: 24px;
     text-align: center;
   }
   html.ads-labelled .ad-rail {

@@ -4,6 +4,15 @@
 /day/*
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
+/category/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/categories/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/about/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
 /
   Cache-Control: public, max-age=300, stale-while-revalidate=3600
 
@@ -35,6 +44,9 @@
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
 /ads/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/js/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
 # HTML5 ad creative runs in an opaque-origin sandboxed iframe, which makes its

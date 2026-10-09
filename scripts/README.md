@@ -18,21 +18,60 @@ describe it as site-derived.)
 
 ## `templates/`
 
-Hand-editable source templates for the two generated page types that aren't
-built from `PAGE_TEMPLATE` inside `generate.py`:
+Hand-editable source templates. Edit these, never the generated files in
+`public/` — they are overwritten on every run.
 
-- **`templates/index.html`** → renders to `public/index.html`. **Edit the
-  template, never `public/index.html`** — the latter is overwritten on every
-  run, and carries a comment saying so.
-- **`templates/day.html`** → renders to `public/day/YYYY-MM-DD/index.html`.
+| Template | Renders to |
+| --- | --- |
+| `index.html` | `public/index.html` (home: today's table, calendar, "coming up") |
+| `holiday.html` | `public/holiday/<slug>/index.html` (was `PAGE_TEMPLATE` in `generate.py`) |
+| `day.html` | `public/day/YYYY-MM-DD/index.html` |
+| `page.html` | `/about/`, `/categories/`, `/category/<slug>/` |
+| `partials/head.html` | shared `<head>` boilerplate: analytics, icons, stylesheets |
+| `partials/header.html` | global header and navigation (`/styles/site.css` styles it) |
+| `partials/footer.html` | footer and the "link copied" toast |
+| `partials/icons.html` | the SVG icon sprite the buttons reference |
+| `partials/scripts.html` | the script tags every page ends with |
 
-Both use `<!--TC:KEY-->` markers, substituted by `fill()`. That's deliberate
-rather than `str.format()`: these files are full of CSS and JS braces, and
-escaping every one would be a reliable source of bugs (`PAGE_TEMPLATE` *does*
-use `.format()`, which is exactly why its inline analytics snippet needs
-doubled braces). An unfilled marker raises instead of shipping a stray HTML
-comment to the live site, and `<!--TC-ONLY ... -->` blocks are maintainer notes
-stripped from the output.
+Every page template pulls the partials in through `<!--TC:HEAD_COMMON-->`,
+`SITE_HEADER`, `SITE_FOOTER` and `SITE_SCRIPTS`, so a navigation or footer
+change is a one-file edit. The partials must never contain today's date: that is
+what keeps the permanent `/day/` pages byte-identical from run to run.
+
+All templates use `<!--TC:KEY-->` markers, substituted by `fill()`. That's
+deliberate rather than `str.format()`: these files are full of CSS and JS
+braces, and escaping every one would be a reliable source of bugs. An unfilled
+marker raises instead of shipping a stray HTML comment to the live site, and
+`<!--TC-ONLY ... -->` blocks are maintainer notes stripped from the output.
+
+**Home page parity rule.** The home page ships today's list and calendar baked
+into the HTML (so there is no layout shift and crawlers see real names), and its
+inline script rebuilds the same markup when a visitor picks another day or
+month. `obs_row()` and `calendar_html()` in `generate.py` and `obsRow()` /
+`renderCalendar()` in `index.html` must stay identical; change one, change both.
+
+## Site styling and behaviour
+
+- `public/styles/site.css` — the whole design ("Almanac"): colour tokens in
+  `:root`, header, tables, pills, buttons, layout. System fonts only. Colour is
+  used as fill, never as thin text on white (contrast).
+- `public/styles/ads.css` — ad slot sizes and reservations (unchanged rules,
+  adapted to the new layout: the sidebar `rail` slot shows from 900px up).
+- `public/js/site.js` — share (Web Share API, falling back to copy), copy link,
+  add-to-calendar (an `.ics` built in the browser), search and jump-to-date.
+  No dependencies; nothing in it changes layout on load.
+- `public/styles/holiday.css` — no longer referenced by any page; safe to delete.
+- Category pill colours and titles live in `CATEGORY_STYLE` in `generate.py`.
+
+## Generated data
+
+- `public/data/v2/YYYY-MM.json` — per-month calendar data, built from the same
+  index as the `/day/` pages: `{ "2026-10-9": [[name, slug, category, yearly]] }`.
+  The older `public/data/YYYY-MM.json` files are no longer written; they stay
+  only so pages cached from before the redesign keep working and can be deleted
+  a few days after launch.
+- `public/data/search.json` — `[[name, slug], ...]` for the header search,
+  fetched the first time the search box is focused.
 
 ## URL model — what owns what
 
@@ -43,6 +82,7 @@ Two layers, deliberately separated so they don't compete for the same queries:
 | `/` | **Today.** Always the current date, with today's real holiday names rendered into the HTML at build time, plus the interactive calendar. | Evergreen; content changes daily |
 | `/day/YYYY-MM-DD/` | **One specific date.** Permanent dated record, with the weekday, the observance list, and the year-specific note about which entries moved. | Permanent once published |
 | `/holiday/<slug>/` | **One observance.** Always shows its *next* occurrence. | Evergreen; one URL forever |
+| `/category/<slug>/`, `/categories/`, `/about/` | Browse-by-theme lists and the About page. | Evergreen |
 
 Each page self-canonicalises. `/` is not canonicalised to today's dated page or
 vice versa — they're different pages with different jobs, and collapsing them
@@ -52,7 +92,7 @@ archive being indexed at all.
 Why the homepage is built at generate time: it used to render entirely
 client-side, so the HTML a crawler received had a `—` where the date belonged
 and empty containers where the holidays belonged. The baked markup must match
-what `index.html`'s own `renderHero`/`renderList` produce for the same day,
+what `index.html`'s own `renderDay`/`renderCalendar` produce for the same day,
 since that script re-renders the same elements the moment it loads — if you
 change one side, change the other.
 
@@ -79,7 +119,7 @@ are already published and indexed.
 ## `generate.py`
 
 Pure function: `holidays.json` + a site's `public/` directory + a "today"
-date → regenerated `public/data/YYYY-MM.json` month files, regenerated
+date → regenerated `public/data/v2/YYYY-MM.json` month files, regenerated
 `public/holiday/<slug>/index.html` pages, `public/day/YYYY-MM-DD/index.html`
 dated pages, `public/index.html`, and a regenerated `sitemap.xml`.
 No Notion dependency, no network calls — safe to run repeatedly and to

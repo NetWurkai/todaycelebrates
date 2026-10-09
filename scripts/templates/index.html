@@ -1,599 +1,223 @@
 <!DOCTYPE html>
 <html lang="en" class="<!--TC:HTML_CLASS-->">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNN6PH0QNC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WNN6PH0QNC');
-</script>
 <!--TC-ONLY
   SOURCE TEMPLATE — edit this file, not public/index.html.
 
   generate.py renders this into public/index.html on every run, replacing each
   TC: marker with today's real content, so crawlers (and anyone with JS off)
-  get the actual holiday names in the HTML. The interactive calendar further
-  down still re-renders the same content client-side once it loads; the baked
-  markup is what the page is before that happens, and it must match.
+  get the actual holiday names in the HTML. The interactive calendar below
+  still re-renders the same content client-side once it loads; the baked
+  markup is what the page is before that happens, and it must match. If you
+  change the row, calendar or heading markup here, change obs_row() /
+  calendar_html() in generate.py to match (and vice versa).
+
+  Shared chrome (head, header, footer, scripts) lives in templates/partials/.
 
   This block is stripped from the generated output.
 -->
 <!--TC:GENERATED_NOTE-->
+<!--TC:HEAD_COMMON-->
 <title><!--TC:TITLE--></title>
 <link rel="canonical" href="https://todaycelebrates.com/">
 <meta name="description" content="<!--TC:DESCRIPTION-->">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="manifest" href="/manifest.webmanifest">
-<meta name="theme-color" content="#ff6b45" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#ff8a63" media="(prefers-color-scheme: dark)">
-<link rel="stylesheet" href="/styles/ads.css">
-<style>
-  :root{
-    --bg: #f6f4f0;
-    --card: #ffffff;
-    --ink: #1c1a17;
-    --muted: #6b665c;
-    --accent: #ff6b45;
-    --accent-ink: #7a2c12;
-    --accent-soft: #ffe9df;
-    --teal: #1fb6a4;
-    --line: #ece7dd;
-    --today-ring: #ff6b45;
-  }
-  @media (prefers-color-scheme: dark){
-    :root{
-      --bg: #121110;
-      --card: #1c1a17;
-      --ink: #f4f1ea;
-      --muted: #a9a296;
-      --accent: #ff8a63;
-      --accent-ink: #ffe3d6;
-      --accent-soft: #3a241c;
-      --teal: #35d6c1;
-      --line: #34302a;
-      --today-ring: #ff8a63;
-    }
-  }
-  *{box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
-  body{
-    margin:0;
-    background:var(--bg);
-    color:var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  }
-
-  /* ---------- Hero ---------- */
-  .hero{
-    position:relative;
-    min-height: 88vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-end;
-    background-size:cover;
-    background-position:center;
-    overflow:hidden;
-    padding: 24px 24px 120px;
-    color:#fff;
-    transition: background-image 0.4s ease;
-  }
-  .hero::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:
-      linear-gradient(180deg, rgba(10,8,6,0.55) 0%, rgba(10,8,6,0.25) 30%, rgba(10,8,6,0.75) 78%, rgba(10,8,6,0.95) 100%),
-      radial-gradient(120% 90% at 50% 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.35) 100%);
-  }
-  .hero-topbar{
-    position:relative;
-    z-index:2;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    margin-bottom:auto;
-  }
-  .logo{
-    display:inline-flex;
-    align-items:center;
-    gap:9px;
-    font-size: 1.15rem;
-    font-weight:800;
-    letter-spacing:-0.01em;
-  }
-  .logo .dot{
-    width:10px;height:10px;border-radius:50%;
-    background:var(--accent);
-    display:inline-block;
-  }
-  .hero-date-badge{
-    font-size:0.78rem;
-    font-weight:700;
-    letter-spacing:0.06em;
-    text-transform:uppercase;
-    background:rgba(255,255,255,0.14);
-    border:1px solid rgba(255,255,255,0.3);
-    backdrop-filter: blur(6px);
-    padding:7px 14px;
-    border-radius:999px;
-  }
-  .hero-content{
-    position:relative;
-    z-index:2;
-    max-width: 780px;
-  }
-  .hero-eyebrow{
-    font-size:0.82rem;
-    text-transform:uppercase;
-    letter-spacing:0.12em;
-    font-weight:800;
-    color:var(--accent);
-    margin-bottom:12px;
-  }
-  .hero-headline{
-    font-size: clamp(2.1rem, 5.6vw, 4rem);
-    font-weight:900;
-    line-height:1.04;
-    letter-spacing:-0.02em;
-    margin: 0 0 16px;
-    text-wrap: balance;
-  }
-  .hero-headline a{
-    color: inherit;
-    text-decoration: none;
-  }
-  .hero-headline a:hover{
-    text-decoration: underline;
-  }
-  .hero-sub{
-    font-size: 1.05rem;
-    color: rgba(255,255,255,0.88);
-    margin: 0 0 22px;
-    max-width: 60ch;
-  }
-  .hero-more{
-    display:inline-flex;
-    align-items:center;
-    gap:8px;
-    background:transparent;
-    border:1px solid rgba(255,255,255,0.5);
-    color:#fff;
-    font-size:0.88rem;
-    font-weight:700;
-    padding:10px 18px;
-    border-radius:999px;
-    cursor:pointer;
-  }
-  .hero-more:hover{
-    background:rgba(255,255,255,0.12);
-  }
-
-  /* ---------- Calendar card ---------- */
-  .content-wrap{
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 0 20px 60px;
-  }
-  .cal-card{
-    background:var(--card);
-    border:1px solid var(--line);
-    border-radius:24px;
-    padding: 22px;
-    margin-top: -78px;
-    position:relative;
-    z-index:3;
-    box-shadow: 0 20px 45px rgba(0,0,0,0.18);
-  }
-  .cal-header{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    margin-bottom: 16px;
-  }
-  .cal-header h2{
-    font-size:1.05rem;
-    margin:0;
-    font-weight:800;
-  }
-  .cal-nav{
-    display:flex;
-    gap:8px;
-  }
-  .cal-nav button{
-    border:1px solid var(--line);
-    background:transparent;
-    color:var(--ink);
-    width:32px;height:32px;
-    border-radius:10px;
-    cursor:pointer;
-    font-size:1rem;
-  }
-  .cal-nav button:hover{
-    background:var(--accent-soft);
-  }
-  .grid{
-    display:grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap:4px;
-  }
-  .dow{
-    text-align:center;
-    font-size:0.7rem;
-    color:var(--muted);
-    font-weight:700;
-    text-transform:uppercase;
-    padding-bottom:6px;
-  }
-  .day{
-    aspect-ratio: 1;
-    border-radius:12px;
-    border:1px solid transparent;
-    background: transparent;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    cursor:pointer;
-    font-size:0.88rem;
-    color:var(--ink);
-    position:relative;
-    min-height: 38px;
-    font-family:inherit;
-  }
-  .day:hover{
-    background:var(--accent-soft);
-  }
-  .day.empty{
-    cursor:default;
-    visibility:hidden;
-  }
-  .day.has-data::after{
-    content:"";
-    width:5px;height:5px;
-    border-radius:50%;
-    background:var(--accent);
-    position:absolute;
-    bottom:5px;
-  }
-  .day.today{
-    border-color: var(--today-ring);
-    font-weight:800;
-  }
-  .day.selected{
-    background:var(--accent);
-    color:#fff;
-  }
-  .day.selected::after{
-    background:#fff;
-  }
-
-  /* ---------- Today's full list ---------- */
-  .list-section{
-    margin-top: 34px;
-  }
-  .list-section h3{
-    font-size:1rem;
-    font-weight:800;
-    margin: 0 0 4px;
-  }
-  .list-section .list-sub{
-    color:var(--muted);
-    font-size:0.88rem;
-    margin: 0 0 16px;
-  }
-  .chips{
-    display:flex;
-    flex-wrap:wrap;
-    gap:8px;
-  }
-  .chip{
-    background:var(--card);
-    border:1px solid var(--line);
-    color:var(--ink);
-    border-radius: 999px;
-    padding: 9px 15px;
-    font-size:0.88rem;
-    font-weight:600;
-    line-height:1.2;
-    display:inline-block;
-    text-decoration:none;
-    cursor:pointer;
-  }
-  .chip:hover{
-    border-color:var(--accent);
-  }
-  .chip.lead{
-    background:var(--accent);
-    border-color:var(--accent);
-    color:#fff;
-  }
-  .empty-note{
-    color:var(--muted);
-    font-size:0.9rem;
-  }
-  .day-permalink{
-    margin: 18px 0 0;
-    font-size: 0.9rem;
-  }
-  .day-permalink a{ color: var(--accent); font-weight:600; }
-
-  footer{
-    text-align:center;
-    color:var(--muted);
-    font-size:0.8rem;
-    padding: 8px 20px 40px;
-  }
-</style>
+<meta property="og:type" content="website">
+<meta property="og:title" content="<!--TC:TITLE-->">
+<meta property="og:description" content="<!--TC:DESCRIPTION-->">
+<meta property="og:image" content="<!--TC:IMAGE_ABS-->">
+<meta property="og:url" content="https://todaycelebrates.com/">
+<meta property="og:site_name" content="Today Celebrates">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<!--TC:TITLE-->">
+<meta name="twitter:description" content="<!--TC:DESCRIPTION-->">
+<meta name="twitter:image" content="<!--TC:IMAGE_ABS-->">
 </head>
 <body>
-
-  <section class="hero" id="hero"
-           style="background-image:url('<!--TC:HERO_IMAGE-->')"
-           data-bg="<!--TC:HERO_IMAGE-->"
-           data-bg-key="<!--TC:TODAY_KEY-->">
-    <div class="hero-topbar">
-      <div class="logo"><span class="dot"></span>Today Celebrates</div>
-      <div class="hero-date-badge" id="heroDateBadge"><!--TC:HERO_BADGE--></div>
-    </div>
-    <div class="hero-content">
-      <div class="hero-eyebrow" id="heroEyebrow"><!--TC:HERO_EYEBROW--></div>
-      <h1 class="hero-headline" id="heroHeadline"><!--TC:HERO_HEADLINE--></h1>
-      <p class="hero-sub" id="heroSub"><!--TC:HERO_SUB--></p>
-      <button class="hero-more" id="heroMoreBtn" type="button">See all today's celebrations ↓</button>
-    </div>
-  </section>
-
-  <div class="content-wrap">
-    <div class="ad-slot ad-leaderboard" data-ad-slot="leaderboard" data-ad-eager="1"></div>
-
-    <div class="cal-card">
-      <div class="cal-header">
-        <h2 id="calLabel"><!--TC:CAL_LABEL--></h2>
-        <div class="cal-nav">
-          <button id="prevBtn" aria-label="Previous month">‹</button>
-          <button id="todayBtn" aria-label="Jump to today">•</button>
-          <button id="nextBtn" aria-label="Next month">›</button>
-        </div>
+<!--TC:SITE_HEADER-->
+<div class="wrap">
+  <div class="ad-slot ad-leaderboard" data-ad-slot="leaderboard" data-ad-eager="1"></div>
+  <div class="layout">
+    <main id="main" data-day-from="<!--TC:DAY_FROM-->" data-day-to="<!--TC:DAY_TO-->" data-today="<!--TC:TODAY_KEY-->">
+      <div class="pagehead"><h1 id="listTitle"><!--TC:H1_TEXT--></h1><span class="count mono" id="listCount"><!--TC:COUNT_TEXT--></span></div>
+      <div class="lead" id="leadBox" data-u="<!--TC:LEAD_SHARE_URL-->" data-n="<!--TC:LEAD_SHARE_TITLE-->"<!--TC:LEAD_HIDDEN-->>
+        <div><small>Leading celebration</small><b id="leadName"><!--TC:LEAD_NAME--></b></div>
+        <div class="acts"><a class="btn pri" id="leadOpen" href="<!--TC:LEAD_HREF-->">Open</a><button type="button" class="btn" data-a="share"><svg width="16" height="16" aria-hidden="true"><use href="#i-share"/></svg><span id="leadShareLabel"><!--TC:LEAD_SHARE_LABEL--></span></button></div>
       </div>
-      <div class="grid" id="grid"></div>
-    </div>
+      <table class="obs" id="obsTable"<!--TC:TABLE_HIDDEN-->>
+        <thead><tr><th scope="col">#</th><th scope="col">Observance</th><th scope="col">Category</th><th scope="col"><span class="sr">Actions</span></th></tr></thead>
+        <tbody id="obsBody"><!--TC:ROWS--></tbody>
+      </table>
+      <p class="empty-note" id="emptyNote"<!--TC:EMPTY_HIDDEN-->>No holidays logged for this day yet.</p>
+      <p class="day-permalink" id="dayLink"><!--TC:DAY_LINK--></p>
+      <div class="ad-slot ad-rect" data-ad-slot="footer"></div>
+    </main>
 
-    <div class="list-section" id="listSection">
-      <h3 id="listTitle"><!--TC:LIST_TITLE--></h3>
-      <p class="list-sub" id="listSub"><!--TC:LIST_SUB--></p>
-      <div class="chips" id="fullChips"><!--TC:CHIPS--></div>
-      <p class="day-permalink"><!--TC:DAY_LINK--></p>
-    </div>
+    <aside class="left" id="calendar" aria-label="Calendar">
+      <div class="box">
+        <div class="ch"><button type="button" id="prevBtn" aria-label="Previous month">&lsaquo;</button><strong class="mono" id="calLabel"><!--TC:CAL_LABEL--></strong><button type="button" id="nextBtn" aria-label="Next month">&rsaquo;</button></div>
+        <div class="g mono" id="grid"><!--TC:CAL_GRID--></div>
+      </div>
+      <h2>Jump to month</h2>
+      <div class="mo" id="monthJump"><!--TC:MONTH_JUMP--></div>
+    </aside>
 
-    <div class="ad-slot ad-rect" data-ad-slot="footer"></div>
+    <aside class="right" aria-label="Coming up">
+      <div class="up"><h2>Coming up</h2><!--TC:COMING_UP--></div>
+      <div class="ad-rail" data-ad-slot="rail"></div>
+    </aside>
   </div>
-
-  <footer>
-    Today Celebrates — a daily calendar of national &amp; international holidays.
-  </footer>
-
-  <script src="/ads/house.js" defer></script>
-  <script src="/ads/slots.js" defer></script>
+</div>
+<!--TC:SITE_FOOTER-->
+<!--TC:SITE_SCRIPTS-->
 
 <script>
-  // ---- Data: { "YYYY-M-D": ["Event 1", "Event 2", ...] } ----
-  // Index 0 in each list is treated as the day's "leading" celebration for the hero.
+(function () {
+  "use strict";
+  // The page ships with today's list, calendar and heading already in the HTML.
+  // This script only takes over when the visitor picks another day or month,
+  // or when their own clock says it is a different day than the one that was
+  // baked. Its markup MUST stay identical to obs_row() / calendar_html() in
+  // scripts/generate.py.
+  var CATS = <!--TC:CAT_JSON-->;
+  var MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  var WEEKDAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-  // ---- Hero background art, matched to the leading celebration by keyword ----
-  const HERO_IMAGES = {
-    coffee:      "/images/hero/coffee.jpg",
-    beer:        "/images/hero/beer.jpg",
-    food:        "/images/hero/food.jpg",
-    dog:         "/images/hero/dog.jpg",
-    community:   "/images/hero/community.jpg",
-    books:       "/images/hero/books.jpg",
-    kids:        "/images/hero/kids.jpg",
-    nature:      "/images/hero/nature.jpg",
-    tech:        "/images/hero/tech.jpg",
-    music:       "/images/hero/music.jpg",
-    sports:      "/images/hero/sports.jpg",
-    health:      "/images/hero/health.jpg",
-    halloween:   "/images/hero/halloween.jpg",
-    celebration: "/images/hero/celebration.jpg"
-  };
+  var root = document.getElementById("main");
+  var DAY_FROM = root.dataset.dayFrom, DAY_TO = root.dataset.dayTo;
+  var cache = {};
+  var now = new Date();
+  var todayKey = key(now.getFullYear(), now.getMonth() + 1, now.getDate());
+  var viewYear = now.getFullYear(), viewMonth = now.getMonth();
+  var selectedKey = todayKey;
 
-  const monthCache = {};
-  function monthKey(year, month1){ return `${year}-${String(month1).padStart(2,"0")}`; }
-  function loadMonth(year, month1){
-    const mk = monthKey(year, month1);
-    if (monthCache[mk]) return Promise.resolve(monthCache[mk]);
-    return fetch(`/data/${mk}.json`)
-      .then(r => r.ok ? r.json() : {})
-      .catch(() => ({}))
-      .then(data => { monthCache[mk] = data; return data; });
+  function key(y, m, d) { return y + "-" + m + "-" + d; }
+  function pad2(n) { return (n < 10 ? "0" : "") + n; }
+  function iso(k) { var p = k.split("-").map(Number); return p[0] + "-" + pad2(p[1]) + "-" + pad2(p[2]); }
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function mkey(y, m1) { return y + "-" + pad2(m1); }
+
+  function load(y, m1) {
+    var mk = mkey(y, m1);
+    if (cache[mk]) return Promise.resolve(cache[mk]);
+    return fetch("/data/v2/" + mk + ".json")
+      .then(function (r) { return r.ok ? r.json() : {}; })
+      .catch(function () { return {}; })
+      .then(function (d) { cache[mk] = d; return d; });
   }
-  function dataFor(k){
-    const [y, m] = k.split("-").map(Number);
-    const month = monthCache[monthKey(y, m)];
+  function dataFor(k) {
+    var p = k.split("-").map(Number);
+    var month = cache[mkey(p[0], p[1])];
     return month ? month[k] : undefined;
   }
 
-  const CATEGORY_KEYWORDS = [
-    ["coffee", ["coffee"]],
-    ["beer", ["beer"]],
-    ["halloween", ["halloween","pumpkin","candy corn","trick or treat","frankenstein","haunted","mischief night","black cat","ghost hunting","psychic powers","carve a pumpkin","howl at the moon"]],
-    ["food", ["pizza","cheeseburger","burger","hoagie","taco","quesadilla","bacon","pie","donut","doughnut","pancake","waffle","cheese","chocolate","candy","cookie","dumpling","wiener","schnitzel","salami","rice","corned beef","lobster","samosa","popsicle","cider","milkshake","guacamole","snack stick","squash","acorn","macadamia","chianti","spice blend","ice cream","linguine","rarebit","hash","grilled chicken","tv dinner","cherries","pasta","meatloaf","nut"]],
-    ["dog", ["dog","hound","puppy","canine","pet memorial"]],
-    ["community", ["teddy bear","care bears","share your care","human family","gratitude","forgiveness","cleanup","volunteer","peace","unity","encouragement","kindness","neighbor","singles","compliance officer","situational awareness","brave day","non-violence"]],
-    ["books", ["book","reading","library","punctuation","letter writing","storytelling","diary","comic"]],
-    ["kids", ["kids","school","parent","grandparent","grandma","family","child","stepfamily","daughter","working parents","teacher"]],
-    ["nature", ["beach","wildlife","hummingbird","elephant","nature","outside","tailgating","car free","equinox","hobbit","rhino","ozone","bamboo","refuge","public lands","legwear","centenarian","girls' night","animal"]],
-    ["tech", ["video game","gaming","it professional","computer","tech","online learning","ampersand","dot day","ai in work","online recovery","silent e"]],
-    ["music", ["music","dance","chai"]],
-    ["sports", ["gymnastics","hunting","fishing","bowling","checkers","legwear","seat check"]],
-    ["health", ["nurse","hiv","aids","cancer","health","awareness","sober","restless legs","narcolepsy","alzheimer","celiac","breast","fitness","recognition day"]]
-  ];
-
-  function getCategory(name){
-    const lower = name.toLowerCase();
-    for(const [cat, words] of CATEGORY_KEYWORDS){
-      if(words.some(w => lower.includes(w))) return cat;
-    }
-    return "celebration";
+  function btn(a, label, icon, extra) {
+    return '<button type="button" class="ib' + (extra || "") + '" data-a="' + a + '" aria-label="' + esc(label) + '">' +
+           '<svg width="17" height="17" aria-hidden="true"><use href="#' + icon + '"/></svg></button>';
+  }
+  function obsRow(it, i, isoDate) {
+    var n = it[0], s = it[1], c = CATS[it[2]] || [it[2], "lil"];
+    return '<tr data-u="/holiday/' + s + '/" data-n="' + esc(n) + '" data-d="' + isoDate + '" data-y="' + it[3] + '"' + (i === 0 ? ' class="hot"' : "") + '>' +
+      '<td class="n mono">' + pad2(i + 1) + '</td>' +
+      '<td class="nm"><a href="/holiday/' + s + '/">' + esc(n) + '</a>' + (i === 0 ? '<span class="lbl">Lead</span>' : "") + '</td>' +
+      '<td class="cat"><span class="pill ' + c[1] + '">' + esc(c[0]) + '</span></td>' +
+      '<td class="act">' + btn("copy", "Copy link to " + n, "i-link") + btn("ics", "Add " + n + " to calendar", "i-cal") + btn("share", "Share " + n, "i-share", " sh") + '</td></tr>';
   }
 
-  const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-  const DOWS = ["S","M","T","W","T","F","S"];
+  function renderDay(k) {
+    var p = k.split("-").map(Number);
+    var dt = new Date(p[0], p[1] - 1, p[2]);
+    var dayText = WEEKDAYS[dt.getDay()] + (k === todayKey ? " " : ", ") + MONTHS[p[1] - 1] + " " + p[2];
+    var events = dataFor(k) || [];
+    var isoDate = iso(k);
+    document.getElementById("listTitle").textContent = (k === todayKey ? "Today, " : "") + dayText;
+    document.getElementById("listCount").textContent = events.length ? events.length + (events.length === 1 ? " observance" : " observances") : "";
 
-  const today = new Date();
-  let viewYear = today.getFullYear();
-  let viewMonth = today.getMonth(); // 0-indexed
-  let selectedKey = key(today.getFullYear(), today.getMonth()+1, today.getDate());
-
-  function key(y,m,d){ return `${y}-${m}-${d}`; }
-
-  function slugify(name){
-    let s = name.toLowerCase();
-    s = s.replace(/&/g, "and");
-    s = s.replace(/['’]/g, "");
-    s = s.replace(/[^a-z0-9]+/g, "-");
-    s = s.replace(/^-+|-+$/g, "");
-    s = s.replace(/-+/g, "-");
-    return s;
-  }
-  function holidayUrl(name){ return `/holiday/${slugify(name)}/`; }
-  function escapeHtml(s){
-    return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-  }
-  function isTodayKey(k){ return key(today.getFullYear(), today.getMonth()+1, today.getDate()) === k; }
-
-  function render(){
-    renderCalendar();
-    renderHero(selectedKey);
-    renderList(selectedKey);
-  }
-
-  function renderHero(k){
-    const [y,m,d] = k.split("-").map(Number);
-    const dateObj = new Date(y, m-1, d);
-    const events = dataFor(k);
-
-    document.getElementById("heroDateBadge").textContent = dateObj.toLocaleDateString(undefined, { month:'short', day:'numeric', year:'numeric' });
-
-    const hero = document.getElementById("hero");
-    if(events && events.length){
-      const lead = events[0];
-      // generate.py bakes in the hero image for the day it rendered, picked from
-      // the holiday's real Notion category rather than the keyword guess below.
-      // Prefer it when we're still showing that same day, so the baked image
-      // isn't swapped for a different one the moment this script runs.
-      const bakedBg = (hero.dataset.bgKey === k && hero.dataset.bg) ? hero.dataset.bg : null;
-      hero.style.backgroundImage = `url("${bakedBg || HERO_IMAGES[getCategory(lead)]}")`;
-      document.getElementById("heroEyebrow").textContent = isTodayKey(k) ? "Today's leading celebration" : "Leading celebration this day";
-      document.getElementById("heroHeadline").innerHTML = `<a href="${holidayUrl(lead)}">${escapeHtml(lead)}</a>`;
-      const restCount = events.length - 1;
-      document.getElementById("heroSub").textContent = restCount > 0
-        ? `Plus ${restCount} more ${restCount === 1 ? "celebration" : "celebrations"} on ${dateObj.toLocaleDateString(undefined,{month:'long', day:'numeric'})}.`
-        : `The only celebration on the calendar for ${dateObj.toLocaleDateString(undefined,{month:'long', day:'numeric'})}.`;
-      document.getElementById("heroMoreBtn").style.display = restCount > 0 ? "inline-flex" : "none";
+    var lead = document.getElementById("leadBox"), table = document.getElementById("obsTable"), empty = document.getElementById("emptyNote");
+    if (events.length) {
+      var l = events[0];
+      lead.hidden = false; table.hidden = false; empty.hidden = true;
+      document.getElementById("leadName").textContent = l[0];
+      document.getElementById("leadOpen").href = "/holiday/" + l[1] + "/";
+      var inRange = isoDate >= DAY_FROM && isoDate <= DAY_TO;
+      lead.dataset.u = k === todayKey ? "/" : (inRange ? "/day/" + isoDate + "/" : "/#" + k);
+      lead.dataset.n = k === todayKey ? "What holiday is today? " + dayText : "Holidays on " + dayText;
+      document.getElementById("leadShareLabel").textContent = k === todayKey ? "Share today" : "Share this day";
+      document.getElementById("obsBody").innerHTML = events.map(function (it, i) { return obsRow(it, i, isoDate); }).join("");
     } else {
-      hero.style.backgroundImage = `url("${HERO_IMAGES.celebration}")`;
-      document.getElementById("heroEyebrow").textContent = "No data yet";
-      document.getElementById("heroHeadline").textContent = dateObj.toLocaleDateString(undefined, { weekday:'long', month:'long', day:'numeric' });
-      document.getElementById("heroSub").textContent = "No holidays logged for this day yet.";
-      document.getElementById("heroMoreBtn").style.display = "none";
+      lead.hidden = true; table.hidden = true; empty.hidden = false;
+      document.getElementById("obsBody").innerHTML = "";
     }
+    var link = document.getElementById("dayLink");
+    link.innerHTML = (isoDate >= DAY_FROM && isoDate <= DAY_TO && events.length)
+      ? '<a href="/day/' + isoDate + '/">Permanent page for ' + MONTHS[p[1] - 1] + " " + p[2] + ", " + p[0] + " →</a>" : "";
   }
 
-  function renderList(k){
-    const [y,m,d] = k.split("-").map(Number);
-    const dateObj = new Date(y, m-1, d);
-    const events = dataFor(k);
-    const dateLabel = dateObj.toLocaleDateString(undefined, { weekday:'long', month:'long', day:'numeric' });
+  function renderCalendar() {
+    document.getElementById("calLabel").textContent = MON[viewMonth] + " " + viewYear;
+    var first = new Date(viewYear, viewMonth, 1).getDay();
+    var days = new Date(viewYear, viewMonth + 1, 0).getDate();
+    var data = cache[mkey(viewYear, viewMonth + 1)] || {};
+    var h = "";
+    "SMTWTFS".split("").forEach(function (w) { h += '<span class="w">' + w + "</span>"; });
+    for (var i = 0; i < first; i++) h += "<span></span>";
+    for (var d = 1; d <= days; d++) {
+      var k = key(viewYear, viewMonth + 1, d);
+      h += '<button type="button" class="d' + (data[k] ? " has" : "") + (k === todayKey ? " t" : "") + (k === selectedKey ? " sel" : "") +
+           '" data-k="' + k + '" aria-label="' + MONTHS[viewMonth] + " " + d + '"' + (k === selectedKey ? ' aria-pressed="true"' : "") + (k === todayKey ? ' aria-current="date"' : "") + ">" + d + "</button>";
+    }
+    document.getElementById("grid").innerHTML = h;
+    var mj = document.querySelectorAll("#monthJump button");
+    for (var m = 0; m < mj.length; m++) mj[m].classList.toggle("t", m === viewMonth);
+  }
 
-    document.getElementById("listTitle").textContent = `Everything ${dateLabel} celebrates`;
-    const chipsEl = document.getElementById("fullChips");
-    chipsEl.innerHTML = "";
+  function show(k, openMonth) {
+    var p = k.split("-").map(Number);
+    selectedKey = k;
+    if (openMonth) { viewYear = p[0]; viewMonth = p[1] - 1; }
+    Promise.all([load(p[0], p[1]), load(viewYear, viewMonth + 1)]).then(function () { renderDay(k); renderCalendar(); });
+  }
+  function gotoMonth(y, m0) {
+    viewYear = y; viewMonth = m0;
+    load(y, m0 + 1).then(renderCalendar);
+  }
 
-    if(events && events.length){
-      document.getElementById("listSub").textContent = `${events.length} ${events.length === 1 ? "celebration" : "celebrations"} on the calendar.`;
-      events.forEach((ev, i)=>{
-        const c = document.createElement("a");
-        c.className = "chip" + (i === 0 ? " lead" : "");
-        c.href = holidayUrl(ev);
-        c.textContent = ev;
-        chipsEl.appendChild(c);
-      });
+  document.getElementById("grid").addEventListener("click", function (ev) {
+    var b = ev.target.closest("button[data-k]");
+    if (b) show(b.dataset.k, false);
+  });
+  document.getElementById("prevBtn").addEventListener("click", function () {
+    var m = viewMonth - 1, y = viewYear; if (m < 0) { m = 11; y--; } gotoMonth(y, m);
+  });
+  document.getElementById("nextBtn").addEventListener("click", function () {
+    var m = viewMonth + 1, y = viewYear; if (m > 11) { m = 0; y++; } gotoMonth(y, m);
+  });
+  document.getElementById("monthJump").addEventListener("click", function (ev) {
+    var b = ev.target.closest("button"); if (!b) return;
+    var m = Array.prototype.indexOf.call(b.parentNode.children, b);
+    // Month files cover the next twelve months, so a month already past this
+    // year means next year's.
+    gotoMonth(m >= now.getMonth() ? now.getFullYear() : now.getFullYear() + 1, m);
+  });
+
+  function fromHash() {
+    var m = /^#(\d{4})-(\d{1,2})-(\d{1,2})$/.exec(location.hash);
+    if (!m) return false;
+    show(key(+m[1], +m[2], +m[3]), true);
+    return true;
+  }
+  window.addEventListener("hashchange", fromHash);
+
+  if (!fromHash()) {
+    if (todayKey === root.dataset.today) {
+      // The baked page already is today: leave the DOM alone (no re-render,
+      // so nothing can shift) and just warm the month data for later clicks.
+      load(viewYear, viewMonth + 1);
     } else {
-      document.getElementById("listSub").textContent = "";
-      const p = document.createElement("div");
-      p.className = "empty-note";
-      p.textContent = "No holidays logged for this day yet.";
-      chipsEl.appendChild(p);
+      show(todayKey, true);
     }
   }
-
-  function renderCalendar(){
-    document.getElementById("calLabel").textContent = `${MONTHS[viewMonth]} ${viewYear}`;
-    const grid = document.getElementById("grid");
-    grid.innerHTML = "";
-    DOWS.forEach(d=>{
-      const el = document.createElement("div");
-      el.className = "dow";
-      el.textContent = d;
-      grid.appendChild(el);
-    });
-
-    const firstDow = new Date(viewYear, viewMonth, 1).getDay();
-    const daysInMonth = new Date(viewYear, viewMonth+1, 0).getDate();
-    const viewedMonthData = monthCache[monthKey(viewYear, viewMonth+1)] || {};
-
-    for(let i=0;i<firstDow;i++){
-      const el = document.createElement("div");
-      el.className = "day empty";
-      grid.appendChild(el);
-    }
-
-    for(let d=1; d<=daysInMonth; d++){
-      const k = key(viewYear, viewMonth+1, d);
-      const el = document.createElement("button");
-      el.type = "button";
-      el.className = "day";
-      el.textContent = d;
-      if(viewedMonthData[k]) el.classList.add("has-data");
-      if(isTodayKey(k)) el.classList.add("today");
-      if(k === selectedKey) el.classList.add("selected");
-      el.addEventListener("click", ()=>{
-        selectedKey = k;
-        render();
-      });
-      grid.appendChild(el);
-    }
-  }
-
-  document.getElementById("prevBtn").addEventListener("click", ()=>{
-    viewMonth--;
-    if(viewMonth < 0){ viewMonth = 11; viewYear--; }
-    loadMonth(viewYear, viewMonth+1).then(renderCalendar);
-  });
-  document.getElementById("nextBtn").addEventListener("click", ()=>{
-    viewMonth++;
-    if(viewMonth > 11){ viewMonth = 0; viewYear++; }
-    loadMonth(viewYear, viewMonth+1).then(renderCalendar);
-  });
-  document.getElementById("todayBtn").addEventListener("click", ()=>{
-    viewYear = today.getFullYear();
-    viewMonth = today.getMonth();
-    selectedKey = key(today.getFullYear(), today.getMonth()+1, today.getDate());
-    loadMonth(viewYear, viewMonth+1).then(render);
-  });
-  document.getElementById("heroMoreBtn").addEventListener("click", ()=>{
-    document.getElementById("listSection").scrollIntoView({ behavior:"smooth", block:"start" });
-  });
-
-  loadMonth(viewYear, viewMonth+1).then(render);
+})();
 </script>
 </body>
 </html>

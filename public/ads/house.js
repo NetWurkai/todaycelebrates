@@ -28,7 +28,7 @@
      leaderboard  728x90   (320x50 on phones, via the "mobile" key)
      incontent    300x250
      footer       300x250
-     rail         300x600  (only shows on screens 1200px and wider)
+     rail         300x600  (the sidebar; only shows on screens 900px and wider)
 
    Leave a slot's list empty — []  — and that slot collapses to nothing.
    =========================================================================== */

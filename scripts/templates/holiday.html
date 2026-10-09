@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" class="<!--TC:HTML_CLASS-->">
+<head>
+<!--TC-ONLY
+  SOURCE TEMPLATE for public/holiday/<slug>/index.html (was PAGE_TEMPLATE in
+  generate.py). Shared chrome comes from partials/ -- edit those once.
+-->
+<!--TC:HEAD_COMMON-->
+<title><!--TC:NAME--> — <!--TC:DATE_LONG--> | Today Celebrates</title>
+<meta name="description" content="<!--TC:DESCRIPTION-->">
+<link rel="canonical" href="<!--TC:URL-->">
+<meta property="og:type" content="article">
+<meta property="og:title" content="<!--TC:NAME--> — <!--TC:DATE_LONG-->">
+<meta property="og:description" content="<!--TC:DESCRIPTION-->">
+<meta property="og:image" content="<!--TC:IMAGE_ABS-->">
+<meta property="og:url" content="<!--TC:URL-->">
+<meta property="og:site_name" content="Today Celebrates">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<!--TC:NAME--> — <!--TC:DATE_LONG-->">
+<meta name="twitter:description" content="<!--TC:DESCRIPTION-->">
+<meta name="twitter:image" content="<!--TC:IMAGE_ABS-->">
+<script type="application/ld+json"><!--TC:LD_JSON--></script><!--TC:EXTRA_LD-->
+</head>
+<body>
+<!--TC:SITE_HEADER-->
+<div class="wrap">
+  <div class="ad-slot ad-leaderboard" data-ad-slot="leaderboard" data-ad-eager="1"></div>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Today</a><span aria-hidden="true">/</span><a href="<!--TC:DAY_LINK-->"><!--TC:DATE_SHORT--></a><span aria-hidden="true">/</span><span aria-current="page"><!--TC:NAME--></span></nav>
+  <div class="layout two">
+    <main id="main">
+      <h1 class="title"><!--TC:NAME--></h1>
+      <div class="tool" data-u="<!--TC:PATH-->" data-n="<!--TC:NAME-->" data-d="<!--TC:ISO_DATE-->" data-y="<!--TC:YEARLY-->" data-t="<!--TC:SHARE_TEXT-->">
+        <button type="button" class="btn pri" data-a="share"><svg width="16" height="16" aria-hidden="true"><use href="#i-share"/></svg>Share</button>
+        <button type="button" class="btn" data-a="copy"><svg width="16" height="16" aria-hidden="true"><use href="#i-link"/></svg>Copy link</button>
+        <button type="button" class="btn" data-a="ics"><svg width="16" height="16" aria-hidden="true"><use href="#i-cal"/></svg>Add to calendar</button>
+        <div class="soc"><span>Send via</span><!--TC:SHARE_LINKS--></div>
+      </div>
+      <dl class="spec">
+        <dt>Date</dt><dd class="mono"><time datetime="<!--TC:ISO_DATE-->"><!--TC:DATE_WEEKDAY--></time></dd>
+        <dt>Recurs</dt><dd><!--TC:RECURS--></dd>
+        <dt>Category</dt><dd><!--TC:CATEGORY_PILL--></dd>
+      </dl>
+      <p class="desc"><!--TC:DESCRIPTION--></p>
+      <div class="ad-slot ad-rect" data-ad-slot="incontent"></div><!--TC:LONGFORM-->
+      <a class="back-link" href="<!--TC:DAY_LINK-->">&larr; See everything else <!--TC:DATE_SHORT--> celebrates</a>
+      <div class="also">Know a holiday we're missing, or think this date has more going on? Today Celebrates tracks daily national, international, and world observances all year.</div>
+      <div class="ad-slot ad-rect" data-ad-slot="footer"></div>
+    </main>
+    <aside class="right" aria-label="Also on this date">
+      <!--TC:ALSO_ON-->
+      <div class="ad-rail" data-ad-slot="rail"></div>
+    </aside>
+  </div>
+</div>
+<!--TC:SITE_FOOTER-->
+<!--TC:SITE_SCRIPTS-->
+</body>
+</html>
