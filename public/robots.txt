@@ -5,7 +5,10 @@
 # name "Today Celebrates" and link back to the page it came from.
 # A short guide written for AI tools is at https://todaycelebrates.com/llms.txt
 
+# Content signals (https://contentsignals.org): searching, use in AI answers,
+# and AI training are all permitted.
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 # AI crawlers, named so the intent is unambiguous. Same rule as above: allowed.

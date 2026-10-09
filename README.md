@@ -109,7 +109,7 @@ second run changes nothing, and check the pages in a browser.
 - **Ads are house ads** for Jay's own products; there is no ad network.
   `public/ads/house.js` is the only file that decides what runs.
 - **Analytics** is Google Analytics 4, installed from the shared head partial.
-- **AI crawlers are welcome.** `robots.txt` allows them and asks for attribution
+- **AI crawlers are welcome, including for training.** `robots.txt` allows them, says so with a content-signal line, and asks for attribution
   and links back; `llms.txt` tells AI tools how to cite the site.
 
 ## The automated build-out

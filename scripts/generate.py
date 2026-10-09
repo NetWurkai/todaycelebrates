@@ -697,6 +697,7 @@ def esc_href(url):
 # ---------------------------------------------------------------------------
 
 MD_LINK_RE = re.compile(r"\[([^\]\n]+)\]\((https?://[^\s)]+)\)")
+MD_BARE_URL_RE = re.compile(r'(?<![">=\w/])(https?://[^\s<"]+?)(?=[.,;:!?)]*(?:\s|<|$))')
 MD_BOLD_RE = re.compile(r"\*\*([^*\n]+)\*\*")
 MD_ITALIC_RE = re.compile(r"(?<![*\w])\*([^*\n]+)\*(?!\w)")
 
@@ -709,6 +710,8 @@ def md_inline(text):
     out = MD_LINK_RE.sub(
         lambda m: f'<a href="{esc_href(m.group(2))}">{m.group(1)}</a>', out
     )
+    # A bare URL (Notion often hands these over unwrapped) becomes a link too.
+    out = MD_BARE_URL_RE.sub(lambda m: f'<a href="{m.group(1)}">{m.group(1)}</a>', out)
     out = MD_BOLD_RE.sub(r"<strong>\1</strong>", out)
     out = MD_ITALIC_RE.sub(r"<em>\1</em>", out)
     return out
@@ -753,6 +756,10 @@ def md_blocks(text):
         if line.startswith("- "):
             flush_para()
             items.append(line[2:].strip())
+            continue
+        if items and raw[:1].isspace():
+            # An indented line under a bullet continues that bullet.
+            items[-1] += " " + line
             continue
         flush_items()
         para.append(line)
@@ -870,11 +877,15 @@ def render_longform(holiday, occ_date, by_slug, memo):
     name = holiday["name"]
     out = ['    <div class="longform">']
 
-    timeline_items = [
-        line.strip()[2:].strip()
-        for line in timeline.splitlines()
-        if line.strip().startswith("- ")
-    ] if timeline else []
+    # One "- " bullet per entry, but an entry may be hard-wrapped across lines:
+    # any non-bullet line after a bullet continues it rather than being dropped.
+    timeline_items = []
+    for raw in (timeline.splitlines() if timeline else []):
+        line = raw.strip()
+        if line.startswith("- "):
+            timeline_items.append(line[2:].strip())
+        elif line and timeline_items:
+            timeline_items[-1] += " " + line
 
     def timeline_html():
         if not timeline_items:

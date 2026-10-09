@@ -126,13 +126,23 @@ reason wrong founding dates circulate.
 ### Voice
 Plain, specific, unhurried. Assume a curious adult, not a search engine. No
 exclamation marks, no "Did you know?", no second-person cheerleading. Where a
-holiday's history is contested or commercial in origin, say so — that candour is
+holiday's history is contested or commercial in origin, say so — that candor is
 the product.
 
+**Spelling: American English, always** (honor, neighborhood, digitized, color,
+center). Proper names keep their own spelling (e.g. *Encyclopædia Britannica*).
+
 ### Where drafts go
-Notion, in the long-form fields, with `Content Status = Draft` and `Published`
-left OFF. Nothing reaches the live site until Jay toggles it. Drafts accumulating
-unreviewed is the expected, safe state.
+Notion, in the long-form fields: `Opening`, `Body`, `Timeline`, `FAQ`, `Sources`,
+with `Content Status = Draft`. **Do not change `Published`.** Every existing
+row is already Published — it *is* the live page — so unticking it would remove
+the holiday from the site at the next export.
+
+The review gate is `Content Status`, enforced in `scripts/export_from_notion.py`:
+long-form fields and `Opening` reach the site only when a row is `Reviewed` or
+`Live`. A row left at `Draft` keeps publishing exactly as before. Nothing a
+content run writes reaches the live site until Jay moves the status. Drafts
+accumulating unreviewed is the expected, safe state.
 
 ---
 
@@ -251,9 +261,8 @@ Three per run, in order, top first. Mark each `[x]` when a draft is in Notion.
 Ties broken by date proximity, so pages go live before their occurrence.
 
 **Tier 1 — the holidays that carry the category**
-- [x] 1. Halloween — **draft already written**, in `docs/CONTENT_EXEMPLAR.md`.
-      Load it into Notion as the first content action once E1 lands.
-- [ ] 2. Thanksgiving Day
+- [x] 1. Halloween — written interactively, loaded into Notion, Live (2026-10-09).
+- [x] 2. Thanksgiving Day  *(written interactively with Jay, 2026-10-09; Live)*
 - [ ] 3. Christmas Day
 - [ ] 4. Valentine's Day
 - [ ] 5. New Year's Day
@@ -314,6 +323,16 @@ Ties broken by date proximity, so pages go live before their occurrence.
 - [ ] 54. World Mental Health Day
 - [ ] 55. National Coming Out Day
 
+**Tier 5 — everything else.** When Tiers 1–4 are ticked, keep going without
+being re-planned: take published rows whose `Body` is empty and whose
+`Content Status` is empty, ordered by **next occurrence** (soonest first, so pages
+are ready before their day). Skip a row another run has already touched. Many of
+these are "National ___ Day" observances with a thin or commercial origin — for
+those, ship the short honest page the sourcing rule allows (a sourced 300–500
+words, with "the origin of this observance is not well documented" where that
+is true) rather than padding to 600. The site has ~2,400 rows, so this tier is
+a multi-month job; the Friday digest reports the running count.
+
 Once E2 lands, add the newly created rows (Kwanzaa, Rosh Hashanah, Yom Kippur,
 National Pizza Day, Day of the Dead, Teacher Appreciation Day, Leap Day,
 the solstices and the vernal equinox) to Tier 1–2 by demand, ahead of Tier 4.
@@ -373,3 +392,4 @@ Newest last. One line per run: date, type, item, outcome. Keep it terse.
   whole site; generator exit 0, zero WARNINGs, idempotent on a second run; a synthetic
   populated row changed exactly 1 of 2,439 pages and rendered every section; 32 assertions
   pass. Nothing committed. Next run: E2.
+- 2026-10-09 · content (Jay + Claude, interactive) · Halloween and Thanksgiving Day written, American spelling, loaded into Notion as Live. Rule added: American English always (§4 Voice). **Gate added:** `export_from_notion.py` now carries `Body`/`Timeline`/`FAQ`/`Sources`/`Opening` only for rows at Content Status Reviewed or Live (uncommitted). New Notion field `Opening`. Content task prompt updated to match; Tier 5 rule added to §6.

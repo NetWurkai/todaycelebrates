@@ -30,6 +30,9 @@ import urllib.request
 NOTION_TOKEN = os.environ.get("NOTION_TOKEN")
 DATABASE_ID = "68fdbc80-5de5-4d9e-8ef6-52926b74f9c4"
 NOTION_VERSION = "2022-06-28"
+
+# Content Status values at which a row's long-form fields reach the site.
+LONGFORM_RELEASED_STATUSES = ("Reviewed", "Live")
 API_BASE = "https://api.notion.com/v1"
 
 FLOATING_RULES = {
@@ -424,28 +427,40 @@ def extract_holiday(page):
 
     # ---- long-form content fields (E1) ----
     #
-    # All five are optional, and an absent or empty one is left OUT of the
+    # All of these are optional, and an absent or empty one is left OUT of the
     # entry rather than written as "". That matters: it keeps holidays.json
     # byte-identical for every row that has no long-form content yet, which in
     # turn keeps its generated page byte-identical. See generate.py's
     # render_longform() for the Markdown subset these fields hold.
     #
-    # "Content Status" is carried through as editorial metadata only. The
-    # publish gate is still the "Published" checkbox above and nothing else --
-    # see docs/EXECUTION_PLAN.md section 4 ("Published left OFF").
-    for json_key, prop_name in (
-        ("body", "Body"),
-        ("timeline", "Timeline"),
-        ("faq", "FAQ"),
-        ("sources", "Sources"),
-    ):
-        value = plain_text(props.get(prop_name, {}).get("rich_text", [])).strip()
-        if value:
-            entry[json_key] = html.unescape(value)
-
+    # REVIEW GATE. "Published" is still the only gate on whether a *row*
+    # reaches the site. But the long-form fields (and the Opening, which
+    # replaces the Description) are only carried through once Jay has moved
+    # "Content Status" to Reviewed or Live. A row left at Draft keeps publishing
+    # with its existing short Description and nothing else, so the unattended
+    # content runs can write drafts into rows that are already live without
+    # any of that text reaching the site unreviewed.
     status_prop = props.get("Content Status", {}).get("select")
-    if status_prop and status_prop.get("name"):
-        entry["content_status"] = status_prop["name"]
+    content_status = status_prop.get("name") if status_prop else None
+    if content_status:
+        entry["content_status"] = content_status
+
+    if content_status in LONGFORM_RELEASED_STATUSES:
+        for json_key, prop_name in (
+            ("body", "Body"),
+            ("timeline", "Timeline"),
+            ("faq", "FAQ"),
+            ("sources", "Sources"),
+        ):
+            value = plain_text(props.get(prop_name, {}).get("rich_text", [])).strip()
+            if value:
+                entry[json_key] = html.unescape(value)
+
+        # "Opening" is the drafted replacement for the one-line Description.
+        # It only takes over once released, same as the rest.
+        opening = plain_text(props.get("Opening", {}).get("rich_text", [])).strip()
+        if opening:
+            entry["description"] = " ".join(html.unescape(opening).split())
 
     if recurrence == "Annual":
         y, m, d = date_start.split("-")
