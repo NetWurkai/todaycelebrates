@@ -21,6 +21,12 @@ Recurrence model:
     after-today logic is applied. See compute_floating_date() for the full
     list of rule kinds.
 
+Long-form content (E1): when a holiday row carries body / timeline / faq /
+sources text from Notion, the page additionally renders those sections, a
+five-year dates table computed from the rule engine, and FAQPage JSON-LD.
+A row without those fields renders byte-identically to the pre-E1 page.
+See render_longform() for the Markdown subset those fields use.
+
 This means the site always shows each holiday's next upcoming occurrence
 under its one permanent URL — no year in the slug, no duplicate pages per
 year. A holiday whose date has already passed this year quietly rolls
@@ -253,11 +259,18 @@ def next_friday_the_13th(after_date):
     can't be computed "for a given year" and is special-cased in
     next_occurrence() instead of going through compute_floating_date()."""
     candidate = after_date
-    for _ in range(400):  # generous bound; a match is always within a few months
+    # The longest gap between two Friday the 13ths is 14 months -- 427 days,
+    # the 1900-07-13 -> 1901-09-13 shape, which recurs (2027-08-13 ->
+    # 2028-10-13 is the next one). The bound here was 400, which is shorter
+    # than that: any run between 2027-08-14 and 2028-10-13 would have raised,
+    # and friday-the-13th would have dropped out of the calendar with a
+    # WARNING for fourteen months. 460 clears the real maximum with room to
+    # spare and still fails loud rather than looping forever.
+    for _ in range(460):
         if candidate.day == 13 and candidate.weekday() == 4:
             return candidate
         candidate += datetime.timedelta(days=1)
-    raise RuntimeError("could not find next Friday the 13th within 400 days")
+    raise RuntimeError("could not find next Friday the 13th within 460 days")
 
 
 def compute_floating_date(rule, year, by_slug=None, memo=None, in_progress=None):
@@ -413,7 +426,7 @@ PAGE_TEMPLATE = """<!doctype html>
 <meta name="twitter:image" content="{image}">
 <link rel="stylesheet" href="/styles/holiday.css">
 <link rel="stylesheet" href="/styles/ads.css">
-<script type="application/ld+json">{ld_json}</script>
+<script type="application/ld+json">{ld_json}</script>{extra_ld}
 </head>
 <body>
   <div class="topbar"><a href="/">Today Celebrates</a></div>
@@ -428,7 +441,7 @@ PAGE_TEMPLATE = """<!doctype html>
     <div class="ad-slot ad-leaderboard" data-ad-slot="leaderboard" data-ad-eager="1"></div>
     <span class="category-tag">{category_title}</span>
     <p class="desc">{description}</p>
-    <div class="ad-slot ad-rect" data-ad-slot="incontent"></div>
+    <div class="ad-slot ad-rect" data-ad-slot="incontent"></div>{longform}
     <a class="back-link" href="{day_link}">&larr; See everything else {date_short} celebrates</a>
     <div class="also">Know a holiday we're missing, or think this date has more going on? Today Celebrates tracks daily national, international, and world observances all year.</div>
     <div class="ad-slot ad-rect" data-ad-slot="footer"></div>
@@ -452,7 +465,313 @@ def esc_attr(s):
              .replace("'", "&#x27;"))
 
 
-def render_page(holiday, occ_date, day_link="/"):
+def esc_text(s):
+    """Escaping for text nodes: the three characters that must not appear raw.
+
+    Deliberately narrower than esc_attr() -- apostrophes and quotes are legal
+    in text content, and prose is full of them, so escaping them here would
+    fill every long-form page's source with &#x27;. esc_attr() is still used
+    for anything that lands inside an attribute.
+    """
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def esc_href(url):
+    """esc_text has already run on the URL, so only the quote characters that
+    would break out of the attribute are left to handle."""
+    return url.replace('"', "&quot;").replace("'", "&#x27;")
+
+
+# ---------------------------------------------------------------------------
+# Long-form content (E1)
+#
+# The Notion long-form fields (Body, Timeline, FAQ, Sources) hold plain text in
+# a deliberately tiny Markdown subset -- NOT general Markdown, and not HTML:
+#
+#   ### Heading          section heading inside Body (rendered as <h2>: the
+#                        page's <h1> is the holiday name in the hero)
+#   blank line           paragraph break; single newlines are soft wraps
+#   - item               list item
+#   **bold**  *italic*   inline emphasis
+#   [text](https://...)  link
+#
+# Everything is HTML-escaped before those five patterns are applied, so any
+# other markup in a Notion field ships as literal text rather than as live
+# HTML. Anything outside the subset is left alone rather than guessed at.
+#
+# A holiday with none of these fields populated renders exactly the page it
+# rendered before E1 -- byte for byte. That is the property the regression
+# check in docs/REVIEW.md verifies, and it is why every piece of this block
+# returns "" when its field is absent.
+# ---------------------------------------------------------------------------
+
+MD_LINK_RE = re.compile(r"\[([^\]\n]+)\]\((https?://[^\s)]+)\)")
+MD_BOLD_RE = re.compile(r"\*\*([^*\n]+)\*\*")
+MD_ITALIC_RE = re.compile(r"(?<![*\w])\*([^*\n]+)\*(?!\w)")
+
+
+def md_inline(text):
+    """Links, bold, italics. Escapes first; links before emphasis so that
+    emphasis inside a link label still works and a URL's own characters
+    cannot be mistaken for emphasis markers."""
+    out = esc_text(text)
+    out = MD_LINK_RE.sub(
+        lambda m: f'<a href="{esc_href(m.group(2))}">{m.group(1)}</a>', out
+    )
+    out = MD_BOLD_RE.sub(r"<strong>\1</strong>", out)
+    out = MD_ITALIC_RE.sub(r"<em>\1</em>", out)
+    return out
+
+
+def strip_md(text):
+    """Same subset, flattened to plain text -- for JSON-LD values, where
+    markup is noise at best and invalid at worst."""
+    out = MD_LINK_RE.sub(r"\1", text)
+    out = MD_BOLD_RE.sub(r"\1", out)
+    out = MD_ITALIC_RE.sub(r"\1", out)
+    return out.strip()
+
+
+def md_blocks(text):
+    """Parse the subset into a list of ('h2'|'p'|'ul', payload) blocks."""
+    blocks = []
+    para = []
+    items = []
+
+    def flush_para():
+        if para:
+            blocks.append(("p", " ".join(para)))
+            para.clear()
+
+    def flush_items():
+        if items:
+            blocks.append(("ul", list(items)))
+            items.clear()
+
+    for raw in text.splitlines():
+        line = raw.strip()
+        if not line:
+            flush_para()
+            flush_items()
+            continue
+        if line.startswith("###"):
+            flush_para()
+            flush_items()
+            blocks.append(("h2", line.lstrip("#").strip()))
+            continue
+        if line.startswith("- "):
+            flush_para()
+            items.append(line[2:].strip())
+            continue
+        flush_items()
+        para.append(line)
+    flush_para()
+    flush_items()
+    return blocks
+
+
+def render_md_blocks(blocks, indent="      "):
+    out = []
+    for kind, payload in blocks:
+        if kind == "h2":
+            out.append(f"{indent}<h2>{md_inline(payload)}</h2>")
+        elif kind == "p":
+            out.append(f"{indent}<p>{md_inline(payload)}</p>")
+        elif kind == "ul":
+            out.append(f"{indent}<ul>")
+            for item in payload:
+                out.append(f"{indent}  <li>{md_inline(item)}</li>")
+            out.append(f"{indent}</ul>")
+    return out
+
+
+def split_body_sections(body):
+    """Body into [(heading_or_None, [blocks])], split at each ### heading."""
+    sections = []
+    current = (None, [])
+    for kind, payload in md_blocks(body):
+        if kind == "h2":
+            if current[1] or current[0] is not None:
+                sections.append(current)
+            current = (payload, [])
+        else:
+            current[1].append((kind, payload))
+    if current[1] or current[0] is not None:
+        sections.append(current)
+    return sections
+
+
+def parse_faq(text):
+    """[(question, answer)] from **Question?** / answer line pairs.
+
+    A bolded line on its own is a question; everything until the next such
+    line is its answer. A stray answer with no question above it is dropped
+    rather than rendered headless.
+    """
+    pairs = []
+    question = None
+    answer = []
+    for raw in text.splitlines():
+        line = raw.strip()
+        bold_only = re.fullmatch(r"\*\*(.+)\*\*", line)
+        if bold_only:
+            if question:
+                pairs.append((question, " ".join(answer).strip()))
+            question = bold_only.group(1).strip()
+            answer = []
+        elif line:
+            answer.append(line)
+    if question:
+        pairs.append((question, " ".join(answer).strip()))
+    return [(q, a) for q, a in pairs if a]
+
+
+def next_five_occurrences(holiday, occ_date, by_slug, memo, count=5):
+    """This holiday's next `count` dates, starting with the one on the page.
+
+    Never raises: a rule that runs out of resolvable years (a lookup_table
+    past its last hand-confirmed year, say) just yields a shorter table. A
+    short table is honest; a guessed sixth row is not.
+    """
+    dates = [occ_date]
+    rule = (holiday.get("floating_rule") or {}).get("rule")
+
+    if rule == "next_friday_13":
+        # Not resolvable per-year: 0-3 per calendar year. Scan forward.
+        cursor = occ_date
+        while len(dates) < count:
+            cursor = next_friday_the_13th(cursor + datetime.timedelta(days=1))
+            dates.append(cursor)
+        return dates
+
+    year = occ_date.year + 1
+    # Generous ceiling: Feb 29 only lands every fourth year, so five rows of
+    # Leap Day need a 17-year reach.
+    horizon = occ_date.year + 40
+    while len(dates) < count and year <= horizon:
+        if holiday["recurrence"] == "Annual":
+            try:
+                dates.append(datetime.date(year, holiday["month"], holiday["day"]))
+            except ValueError:
+                pass  # Feb 29 in a non-leap year: that year simply has none
+        else:
+            try:
+                d = holiday_date_for_year(holiday, year, by_slug, memo)
+            except (ValueError, RuntimeError, KeyError):
+                break
+            if d not in dates:
+                dates.append(d)
+        year += 1
+    return dates
+
+
+def render_longform(holiday, occ_date, by_slug, memo):
+    """Returns (html, faq_pairs). ("", []) when the row has no long-form
+    content, which is what keeps pre-E1 pages byte-identical."""
+    body = (holiday.get("body") or "").strip()
+    timeline = (holiday.get("timeline") or "").strip()
+    faq_text = (holiday.get("faq") or "").strip()
+    sources = (holiday.get("sources") or "").strip()
+
+    if not (body or timeline or faq_text):
+        return "", []
+
+    name = holiday["name"]
+    out = ['    <div class="longform">']
+
+    timeline_items = [
+        line.strip()[2:].strip()
+        for line in timeline.splitlines()
+        if line.strip().startswith("- ")
+    ] if timeline else []
+
+    def timeline_html():
+        if not timeline_items:
+            return []
+        rows = ['      <section class="tc-timeline">', "        <h2>Timeline</h2>",
+                "        <ul>"]
+        for item in timeline_items:
+            rows.append(f"          <li>{md_inline(item)}</li>")
+        rows += ["        </ul>", "      </section>"]
+        return rows
+
+    # Body sections in their authored order, with the Timeline slotted in
+    # ahead of "How to observe" -- the order docs/EXECUTION_PLAN.md section 4
+    # specifies and docs/CONTENT_EXEMPLAR.md shows. If Body has no such
+    # heading the Timeline goes after the body instead.
+    timeline_done = False
+    for heading, blocks in split_body_sections(body):
+        if (heading or "").lower().startswith("how to observe") and not timeline_done:
+            out += timeline_html()
+            timeline_done = True
+        out.append('      <section class="tc-body">')
+        if heading:
+            out.append(f"        <h2>{md_inline(heading)}</h2>")
+        out += render_md_blocks(blocks, indent="        ")
+        out.append("      </section>")
+    if not timeline_done:
+        out += timeline_html()
+
+    faq_pairs = parse_faq(faq_text) if faq_text else []
+    if faq_pairs:
+        out.append('      <section class="tc-faq">')
+        out.append("        <h2>Frequently asked questions</h2>")
+        for question, answer in faq_pairs:
+            out.append('        <div class="faq-item">')
+            out.append(f"          <h3>{md_inline(question)}</h3>")
+            out.append(f"          <p>{md_inline(answer)}</p>")
+            out.append("        </div>")
+        out.append("      </section>")
+
+    # Dates table, straight off the rule engine -- never typed by hand.
+    dates = next_five_occurrences(holiday, occ_date, by_slug, memo)
+    out.append('      <section class="tc-dates">')
+    out.append(f"        <h2>When is {md_inline(name)}?</h2>")
+    out.append('        <table class="dates-table">')
+    out.append("          <thead><tr><th>Year</th><th>Date</th><th>Day</th></tr></thead>")
+    out.append("          <tbody>")
+    for d in dates:
+        out.append(
+            f"            <tr><td>{d.year}</td>"
+            f"<td>{MONTH_NAMES[d.month]} {d.day}</td>"
+            f"<td>{WEEKDAY_NAMES[d.weekday()]}</td></tr>"
+        )
+    out.append("          </tbody>")
+    out.append("        </table>")
+    out.append("      </section>")
+
+    if sources:
+        out.append('      <section class="tc-sources">')
+        out.append("        <h2>Sources</h2>")
+        out += render_md_blocks(md_blocks(sources), indent="        ")
+        out.append("      </section>")
+
+    out.append("    </div>")
+    return "\n" + "\n".join(out), faq_pairs
+
+
+def faq_ld_json(faq_pairs):
+    """FAQPage structured data, as its own script block so that a page without
+    an FAQ keeps the exact Event-only markup it had before E1."""
+    if not faq_pairs:
+        return ""
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": strip_md(question),
+                "acceptedAnswer": {"@type": "Answer", "text": strip_md(answer)},
+            }
+            for question, answer in faq_pairs
+        ],
+    }
+    payload = json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")
+    return f'\n<script type="application/ld+json">{payload}</script>'
+
+
+def render_page(holiday, occ_date, day_link="/", by_slug=None, memo=None):
     slug = holiday["slug"]
     name = holiday["name"]
     category = holiday["category"]
@@ -479,6 +798,12 @@ def render_page(holiday, occ_date, day_link="/"):
     }
     ld_json = json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")
 
+    longform, faq_pairs = render_longform(
+        holiday, occ_date,
+        by_slug if by_slug is not None else {},
+        memo if memo is not None else {},
+    )
+
     return PAGE_TEMPLATE.format(
         name=esc_attr(name),
         date_long=date_long,
@@ -490,6 +815,8 @@ def render_page(holiday, occ_date, day_link="/"):
         ld_json=ld_json,
         day_link=day_link,
         html_class=html_class(),
+        extra_ld=faq_ld_json(faq_pairs),
+        longform=longform,
     )
 
 
@@ -897,7 +1224,7 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
         # "what else is on this date". Falls back to / if that day isn't
         # published (a date before the archive opened).
         day_link = day_path(occ) if occ in published_days else "/"
-        new_html = render_page(h, occ, day_link)
+        new_html = render_page(h, occ, day_link, by_slug, memo)
         page_dir = os.path.join(site_dir, "holiday", slug)
         page_path = os.path.join(page_dir, "index.html")
         old_html = None

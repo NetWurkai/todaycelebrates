@@ -53,3 +53,33 @@
   .day-nav{ margin-top:32px; display:flex; justify-content:space-between; gap:16px; font-size:.95rem; }
   .day-nav a{ font-weight:600; text-decoration:none; }
   .day-nav a:hover{ text-decoration:underline; }
+
+  /* ---- long-form holiday content (E1) ----
+     Only present on pages whose Notion row has Body / Timeline / FAQ filled
+     in; a page without them emits none of this markup. */
+  .longform{ margin-top:34px; }
+  .longform section{ margin-top:34px; }
+  .longform section:first-child{ margin-top:0; }
+  .longform h2{
+    font-size:1.22rem; line-height:1.3; margin:0 0 .6em;
+    padding-top:22px; border-top:1px solid #eadfd0;
+  }
+  .longform section:first-child h2{ padding-top:0; border-top:0; }
+  .longform p{ margin:0 0 1em; }
+  .longform ul{ margin:0 0 1em; padding-left:1.25em; }
+  .longform li{ margin-bottom:.5em; }
+  .tc-timeline li strong{ color:#8a5a34; }
+  .tc-faq .faq-item{ margin-bottom:20px; }
+  .tc-faq h3{ font-size:1rem; margin:0 0 .35em; }
+  .tc-faq p{ margin:0; }
+  .dates-table{ border-collapse:collapse; width:100%; font-size:.95rem; }
+  .dates-table th, .dates-table td{
+    text-align:left; padding:9px 12px; border-bottom:1px solid #f0e7da;
+  }
+  .dates-table th{
+    font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; color:#8a8175;
+    border-bottom:1px solid #eadfd0;
+  }
+  .tc-sources{ font-size:.9rem; color:#5d5349; }
+  .tc-sources li{ margin-bottom:.75em; }
+  .tc-sources a{ word-break:break-word; }

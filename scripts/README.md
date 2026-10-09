@@ -380,3 +380,88 @@ the templates or the generator changes.
 
 Note: the site sends no Content-Security-Policy, so third-party ad scripts are
 not blocked today. If a CSP is ever added, any ad host needs allowing there.
+
+## Long-form holiday content (E1)
+
+A holiday page has two shapes. Without long-form content it is the short page
+it has always been: hero, category tag, the one-paragraph `Description`, and
+the back-link. With long-form content it additionally renders History, a
+Timeline, How to observe, an FAQ, a five-year dates table, and Sources.
+
+**A row with no long-form content renders byte-identically to the pre-E1
+page.** That is a hard requirement, not a nicety — it is what makes it safe to
+land the renderer before any content exists, and what keeps the daily
+regeneration from producing a 2,439-page diff. Every piece of
+`render_longform()` returns `""` when its field is absent, and the two template
+slots (`{longform}`, `{extra_ld}`) collapse to nothing.
+
+### The five Notion fields
+
+| Notion property | `holidays.json` key | Holds |
+|---|---|---|
+| `Body` (rich text) | `body` | History / origin and How to observe, as `###` sections |
+| `Timeline` (rich text) | `timeline` | 4–6 dated entries, one per line |
+| `FAQ` (rich text) | `faq` | 3–5 question/answer pairs |
+| `Sources` (rich text) | `sources` | One bullet per claim group, with URLs |
+| `Content Status` (select) | `content_status` | Draft / Reviewed / Live — editorial only |
+
+All five are optional. An absent or empty one is **left out of the JSON
+entirely** rather than written as `""`, so `holidays.json` stays byte-identical
+for rows that have no long-form content.
+
+`Content Status` is editorial metadata and nothing else. The publish gate is
+still the `Published` checkbox, exactly as before — a row with
+`Content Status = Live` and `Published` unchecked does not reach the site. See
+`docs/EXECUTION_PLAN.md` §4.
+
+There is also a pre-existing `Source` (text) property, unrelated and still
+unread by the exporter. It predates `Sources` and the two have not been
+reconciled — see `docs/REVIEW.md`.
+
+### The Markdown subset
+
+These fields hold plain text in a deliberately tiny subset. Not general
+Markdown, and **not** HTML:
+
+```
+### Heading          a section heading inside Body (rendered as <h2>, because
+                     the page's <h1> is the holiday name in the hero)
+blank line           paragraph break; single newlines are soft wraps
+- item               list item
+**bold**  *italic*   inline emphasis
+[text](https://...)  link
+```
+
+Everything is HTML-escaped *before* those patterns are applied, so anything
+else in a Notion field — a `<script>` tag, a stray `&` — ships as literal text
+rather than as live HTML. Content comes from Notion rather than from the repo,
+so the renderer treats it as data, not markup.
+
+Section order on the page follows `docs/EXECUTION_PLAN.md` §4: the Timeline is
+slotted in **ahead of** the `How to observe` heading inside `Body`. If `Body`
+has no such heading, the Timeline goes after the body instead.
+
+### Dates table
+
+`next_five_occurrences()` computes the next five dates straight off the same
+rule engine the rest of the site uses — never typed by hand. It never raises:
+a rule that runs out of resolvable years (a `lookup_table` past its last
+hand-confirmed year) simply yields a shorter table, and a fixed Feb 29 skips
+the years it doesn't land in. A four-row table is honest; a guessed fifth row
+is not.
+
+### FAQPage structured data
+
+When `FAQ` is populated the page emits a **second** `application/ld+json`
+block holding FAQPage, alongside the existing Event block rather than merged
+into it. Keeping them separate is what lets a page without an FAQ keep its
+exact pre-E1 head markup. Answers are flattened to plain text for the JSON-LD
+and kept as HTML on the page.
+
+### One fix that came out of this
+
+`next_friday_the_13th()` scanned forward 400 days. The longest real gap between
+two Friday the 13ths is 427 days (next instance: 2027-08-13 → 2028-10-13), so
+every daily regeneration between 2027-08-14 and 2028-10-13 would have failed to
+resolve `friday-the-13th`, dropping it out of the calendar with a WARNING for
+fourteen months. The bound is now 460.

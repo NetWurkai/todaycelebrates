@@ -422,6 +422,31 @@ def extract_holiday(page):
         "display_order": display_order,
     }
 
+    # ---- long-form content fields (E1) ----
+    #
+    # All five are optional, and an absent or empty one is left OUT of the
+    # entry rather than written as "". That matters: it keeps holidays.json
+    # byte-identical for every row that has no long-form content yet, which in
+    # turn keeps its generated page byte-identical. See generate.py's
+    # render_longform() for the Markdown subset these fields hold.
+    #
+    # "Content Status" is carried through as editorial metadata only. The
+    # publish gate is still the "Published" checkbox above and nothing else --
+    # see docs/EXECUTION_PLAN.md section 4 ("Published left OFF").
+    for json_key, prop_name in (
+        ("body", "Body"),
+        ("timeline", "Timeline"),
+        ("faq", "FAQ"),
+        ("sources", "Sources"),
+    ):
+        value = plain_text(props.get(prop_name, {}).get("rich_text", [])).strip()
+        if value:
+            entry[json_key] = html.unescape(value)
+
+    status_prop = props.get("Content Status", {}).get("select")
+    if status_prop and status_prop.get("name"):
+        entry["content_status"] = status_prop["name"]
+
     if recurrence == "Annual":
         y, m, d = date_start.split("-")
         entry["month"] = int(m)
@@ -464,6 +489,17 @@ def main():
                 f"{seen_slugs[entry['slug']]!r} -- keeping the first, skipping this one"
             )
             continue
+        # The sourcing rule (docs/EXECUTION_PLAN.md section 4): a claim
+        # without a source does not ship. Warn rather than skip -- the page
+        # still renders, but an unsourced long-form draft should never reach
+        # the live site unnoticed.
+        if (entry.get("body") or entry.get("timeline") or entry.get("faq")) \
+                and not entry.get("sources"):
+            warnings.append(
+                f"{entry['name']!r}: has long-form content but an empty Sources "
+                f"field -- no source, no claim. Fill Sources in Notion or cut the "
+                f"unsourced claims."
+            )
         seen_slugs[entry["slug"]] = entry["name"]
         holidays.append(entry)
 
