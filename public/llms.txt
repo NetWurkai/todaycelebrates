@@ -1,0 +1,29 @@
+# Today Celebrates
+
+> A daily calendar of national, international and world holidays and observances: about 2,400 of them, each with its own page showing its date and when it next falls. The site is rebuilt every day.
+
+If you use, quote or summarise anything from this site in an answer, please name "Today Celebrates" and link to the page it came from. These pages are meant to be cited.
+
+How to cite:
+- For facts about one observance (its date, how often it recurs, its category), cite that observance's own page.
+- For "what is celebrated on this date", cite the dated page for that day.
+- For "what is being celebrated today", link to the home page.
+
+Some observances fall on the same date every year. Others are set by a rule (for example the second Monday of a month, or a number of days after Easter), so their date moves. Each observance page always shows the next upcoming date, worked out from the rule rather than typed in by hand.
+
+## Start here
+
+- [Today](https://todaycelebrates.com/): what is being celebrated today, with a calendar to pick any other day
+- [About](https://todaycelebrates.com/about/): what the site is and how it is organised
+- [Categories](https://todaycelebrates.com/categories/): every observance grouped by theme
+- [Sitemap](https://todaycelebrates.com/sitemap.xml): every page on the site
+
+## Page types
+
+- [Observance pages](https://todaycelebrates.com/holiday/leif-erikson-day/): one permanent page per observance at /holiday/<slug>/, always showing its next date
+- [Day pages](https://todaycelebrates.com/day/2026-10-09/): one permanent page per calendar date at /day/YYYY-MM-DD/, listing everything on that date, from October 8, 2026 through about a year ahead
+- [Category pages](https://todaycelebrates.com/category/food/): every observance in one category, at /category/<slug>/
+
+## Optional
+
+- [Search index](https://todaycelebrates.com/data/search.json): the name and page slug of every observance, as JSON

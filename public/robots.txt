@@ -1,4 +1,27 @@
+# Today Celebrates — crawler policy
+#
+# Search engines and AI crawlers are welcome to read everything on this site.
+# If you quote, summarise or otherwise use our content in an answer, please
+# name "Today Celebrates" and link back to the page it came from.
+# A short guide written for AI tools is at https://todaycelebrates.com/llms.txt
+
 User-agent: *
+Allow: /
+
+# AI crawlers, named so the intent is unambiguous. Same rule as above: allowed.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Amazonbot
+User-agent: Meta-ExternalAgent
+User-agent: CCBot
 Allow: /
 
 Sitemap: https://todaycelebrates.com/sitemap.xml
