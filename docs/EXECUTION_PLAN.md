@@ -132,17 +132,42 @@ the product.
 **Spelling: American English, always** (honor, neighborhood, digitized, color,
 center). Proper names keep their own spelling (e.g. *Encyclopædia Britannica*).
 
-### Where drafts go
+### Where content goes — and that it publishes itself
 Notion, in the long-form fields: `Opening`, `Body`, `Timeline`, `FAQ`, `Sources`,
-with `Content Status = Draft`. **Do not change `Published`.** Every existing
+with **`Content Status = Live`**. **Do not change `Published`.** Every existing
 row is already Published — it *is* the live page — so unticking it would remove
 the holiday from the site at the next export.
 
-The review gate is `Content Status`, enforced in `scripts/export_from_notion.py`:
-long-form fields and `Opening` reach the site only when a row is `Reviewed` or
-`Live`. A row left at `Draft` keeps publishing exactly as before. Nothing a
-content run writes reaches the live site until Jay moves the status. Drafts
-accumulating unreviewed is the expected, safe state.
+**Changed 2026-10-10 (Jay, live): content runs publish directly.** They used to
+leave rows at `Draft` for Jay to release. He removed that gate to cut friction,
+so a content run's work reaches readers at the next regeneration with no human
+in between. Two things follow, and they are the whole bargain:
+
+1. **The sourcing rule below is now the only gate.** There is no second pair of
+   eyes. A claim without a source does not ship — that is not a style note, it
+   is the thing standing between this site and the aggregators it is trying to
+   beat.
+2. **Every content run sends a recap** naming each page it published, its live
+   URL, and anything worth a second look: a source conflict it resolved, its
+   least confident claim, a section it cut for lack of a source. That recap is
+   how Jay spot-checks after the fact, so it is not optional.
+
+The machinery is unchanged and still works the old way: `Content Status` is
+enforced in `scripts/export_from_notion.py`, which carries the long-form fields
+and `Opening` only at `Reviewed` or `Live`. **Setting a row back to `Draft` is
+the revert** — at the next regeneration the page returns to its short
+`Description` with nothing lost.
+
+### Field formatting that fails silently
+Notion stores bold and italics as rich-text *annotations*, and the exporter
+reads `plain_text`, which drops them: asterisks typed into a field never come
+back out. So **FAQ questions need no bolding** — a question is the first line
+of a blank-line-separated block — and **source links must be bare URLs**,
+because `[text](url)` loses its URL on the way out, which for a citation is the
+whole point gone. `###` headings and `- ` bullets are literal and survive.
+Until 2026-10-10 `parse_faq()` required bolded questions, so every FAQ ever
+written parsed to zero pairs and both the FAQ section and its FAQPage data
+were missing from the page with no warning. See `scripts/README.md`.
 
 ---
 
@@ -505,3 +530,4 @@ Newest last. One line per run: date, type, item, outcome. Keep it terse.
   still holds the five unanswered E2 decisions from last night's engineering run, and
   overwriting them would have destroyed them. Rule 6 may want narrowing to "the
   engineering run overwrites REVIEW.md; content runs append."
+- 2026-10-10 · interactive (Jay + Claude) · Christmas / Valentine's / New Year's set to **Live**. Found that `**bold**` never survives Notion — it is stored as a rich-text annotation and `plain_text` drops it — so `parse_faq()`'s bold requirement meant **every FAQ ever written parsed to zero pairs**: no FAQ section, no FAQPage, on all five long-form rows. `parse_faq()` now reads the first line of a blank-line block as the question; byte-identical output on the current dataset, 5 pairs parsed from the real Christmas FAQ, FAQPage emitted. **Draft gate removed at Jay's request**: content runs now write Content Status = Live and owe a push recap per run (§4 rewritten; content and digest task prompts updated). Uncommitted.

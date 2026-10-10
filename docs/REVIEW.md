@@ -269,3 +269,96 @@ pairs each with FAQPage JSON-LD emitted, so they are unaffected either way.
   a statistic. Flagging it because it is the only non-government, non-archival
   source across the three pages.
 - No aggregator was consulted or cited on any of the three.
+
+---
+
+# Addendum — 2026-10-10, interactive (Jay + Claude)
+
+**Three drafts released, and a bug found on the way that would have shipped
+them half-rendered.**
+
+Christmas Day, Valentine's Day and New Year's Day were moved to
+`Content Status = Live` at Jay's request, so the next regeneration publishes
+all three.
+
+## The bug: `**bold**` never survives Notion, so no FAQ has ever rendered
+
+The content run reported that Halloween's and Thanksgiving's FAQs don't render
+because "both rows use plain-text questions", and that the three new drafts
+"use the bolded form". Checking the stored text directly shows the drafts are
+in exactly the same state — **all five rows contain zero asterisks**:
+
+```
+Holiday            bold markers in FAQ   '###' headings in Body
+Christmas Day      0                     2
+Valentine's Day    0                     2
+New Year's Day     0                     2
+Halloween          0                     2
+Thanksgiving Day   0                     2
+```
+
+Writing `**x**` into a Notion field — by hand or through the API — makes Notion
+store a rich-text **annotation**, not those characters. `export_from_notion.py`
+reads `plain_text`, which drops annotations. So the asterisks cannot round-trip,
+and `parse_faq()`, which required `**bold**`, returned zero pairs for every FAQ
+ever written. The FAQ section and the FAQPage structured data — the one
+competitive feature E1 exists to add — were silently absent from every page.
+The content run's own assertions passed because they fed the parser its
+*intended* string rather than what Notion stored.
+
+`###` headings are literal characters, so History and How to observe were never
+affected; timeline entries key on the `- ` bullet, so they render too, minus
+bold years. Sources were written with the URL as the link text, so they survive
+as bare URLs and get auto-linked. **The FAQ was the only real casualty.**
+
+## Fix
+
+`parse_faq()` now takes the first line of a blank-line-separated block as the
+question — bolded or not — and still honors the bolded form where it is
+present. Blank-line separation is already what the field convention requires,
+so this reads the format as written rather than as hoped.
+
+```
+ M scripts/generate.py   parse_faq(): unbolded questions, +docstring explaining why
+ M scripts/README.md     "Emphasis and links do not survive the round trip"
+```
+
+Verified: parses the real (annotation-stripped) Christmas FAQ into **5 pairs**;
+the bolded form returns an identical result; a headless answer is still
+dropped; a question mark inside an answer does not split it. Generated against
+the current dataset the output is **byte-identical** to before the patch. A
+synthetic Live row with unbolded questions renders the FAQ section and emits a
+second `ld+json` block typed `FAQPage` with the right question count. Exit 0,
+no warnings.
+
+**This needs committing with the rest.** Without it, tonight's regeneration
+publishes three long-form pages with no FAQ and no FAQPage.
+
+## Still outstanding on those two rows
+
+`Opening` is empty on **Halloween** and **Thanksgiving Day**, so both keep the
+templated `Description` on the site. Unchanged tonight — it needs two short
+paragraphs written, not a code change.
+
+The `FAQ` property description in Notion still says to wrap questions in
+`**bold**`. Harmless now that the parser accepts both, but worth rewording.
+
+## Also changed in that session: the draft gate is gone
+
+Jay's call, to cut friction. Content runs now write `Content Status = Live`
+and publish at the next regeneration with no review step. Three things were
+rewired to match:
+
+- **§4 of this plan** — "Where drafts go" is now "Where content goes, and that
+  it publishes itself", with the bargain written down: the sourcing rule is the
+  only gate left, and every run owes a recap.
+- **The content task's prompt** (Mon/Wed/Fri, 01:47 ET) — writes `Live`, and a
+  new STEP 6 requires a push recap naming each page, its live URL, and the
+  claim it is least sure of. Also now carries the field-formatting rules, so
+  the next run doesn't reintroduce the FAQ bug.
+- **The Friday digest prompt** — counts pages published rather than drafts
+  awaiting review, and reports the spot-check items with more room, since they
+  are now the only backstop.
+
+The revert is unchanged and costs one field: set a row's `Content Status` back
+to `Draft` and the next regeneration restores its short page.

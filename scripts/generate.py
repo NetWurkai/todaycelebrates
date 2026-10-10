@@ -829,24 +829,42 @@ def split_body_sections(body):
 
 
 def parse_faq(text):
-    """[(question, answer)] from **Question?** / answer line pairs.
+    """[(question, answer)] from Question / answer line pairs.
 
-    A bolded line on its own is a question; everything until the next such
-    line is its answer. A stray answer with no question above it is dropped
-    rather than rendered headless.
+    A question is either a fully **bolded** line or the first line of a block
+    that ends in a question mark. Everything up to the next question is its
+    answer. A stray answer with no question above it is dropped rather than
+    rendered headless.
+
+    The unbolded form is not a convenience -- it is the only form that
+    actually arrives. The field convention says to bold the question, but
+    Notion stores that bold as a rich-text *annotation*, and
+    export_from_notion.py reads `plain_text`, which drops annotations: the
+    asterisks never survive the round trip. Keying on asterisks alone meant
+    every FAQ written so far parsed to zero pairs, so the FAQ section and its
+    FAQPage structured data silently vanished from the finished page -- on
+    Halloween and Thanksgiving Day among others. Blank-line separation
+    between pairs is what the field convention already requires, so a
+    question is exactly the line that opens a block.
     """
     pairs = []
     question = None
     answer = []
+    at_block_start = True
     for raw in text.splitlines():
         line = raw.strip()
+        if not line:
+            at_block_start = True
+            continue
         bold_only = re.fullmatch(r"\*\*(.+)\*\*", line)
-        if bold_only:
+        is_question = bool(bold_only) or (at_block_start and line.endswith("?"))
+        at_block_start = False
+        if is_question:
             if question:
                 pairs.append((question, " ".join(answer).strip()))
-            question = bold_only.group(1).strip()
+            question = (bold_only.group(1) if bold_only else line).strip()
             answer = []
-        elif line:
+        else:
             answer.append(line)
     if question:
         pairs.append((question, " ".join(answer).strip()))

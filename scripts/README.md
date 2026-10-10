@@ -517,6 +517,28 @@ else in a Notion field — a `<script>` tag, a stray `&` — ships as literal te
 rather than as live HTML. Content comes from Notion rather than from the repo,
 so the renderer treats it as data, not markup.
 
+**Emphasis and links do not survive the round trip — don't rely on them.**
+Typing `**bold**`, `*italic*` or `[text](url)` into a Notion field (by hand or
+through the API) makes Notion store *rich-text annotations*, not those
+characters. `export_from_notion.py` reads `plain_text`, which drops
+annotations, so what reaches `holidays.json` has no markers at all. Every
+long-form row written so far arrives this way. Practical consequences:
+
+- **FAQ questions need no bolding.** `parse_faq()` takes the first line of a
+  blank-line-separated block as the question (bolded or not). Before
+  2026-10-10 it required `**bold**`, so every FAQ written parsed to zero
+  pairs and both the FAQ section and the FAQPage structured data silently
+  vanished from the page — on Halloween and Thanksgiving Day among others.
+- **Write links as bare URLs**, which `md_inline()` auto-links. A
+  `[text](url)` link loses its URL entirely on the way out of Notion, which
+  for a `Sources` field means losing the citation.
+- Bold years in `Timeline` and italic titles in `Body` are cosmetic and simply
+  won't appear. Timeline entries still render: the parser keys on the `- `
+  bullet, not the bold.
+
+The markers are still honored when they *are* present, so a field edited
+directly in the repo or pasted as literal text behaves as the table says.
+
 Section order on the page follows `docs/EXECUTION_PLAN.md` §4: the Timeline is
 slotted in **ahead of** the `How to observe` heading inside `Body`. If `Body`
 has no such heading, the Timeline goes after the body instead.
