@@ -196,6 +196,35 @@ class while in there.
 **Done when:** each observance exists as a published Notion row with the correct
 recurrence and a sourced date; Donut Day is Floating; the generator picks them up.
 
+**STATUS: PARTLY DONE 2026-10-10** (code uncommitted; Notion rows live).
+Created, published, sourced, and verified to resolve: Kwanzaa, Rosh Hashanah,
+Yom Kippur, Day of the Dead, National Pizza Day, National Margarita Day,
+National Hugging Day, National Teacher Appreciation Day, National Teacher
+Appreciation Week, Oktoberfest (starts in Germany), Super Bowl Sunday.
+Donut Day is Floating (first Friday in June, per The Salvation Army), and
+National Ice Cream Day was fixed with it (third Sunday in July, per
+Proclamation 5219). `generate.py` gained an `nth_weekday_offset` rule kind and
+two `next_occurrence` fixes; `export_from_notion.py` gained eight rules.
+
+**What is left of E2 — all five are waiting on Jay, none is work to start
+unattended.** Details and options are in the 2026-10-10 `docs/REVIEW.md`:
+1. **Leap Day** — row exists, complete and sourced, `Published` left OFF:
+   publishing it moves the dated archive's forward horizon (derived from the
+   furthest next occurrence) from Oct 2027 to Feb 2028, ≈142 new `/day/` pages.
+2. **Tax Day** — overlaps the existing `Income Tax Pay Day` row, and the IRS
+   deadline shifts for weekends and DC Emancipation Day.
+3. **National French Fry Day** — July 13 vs the second Friday of July; the move
+   was made by an aggregator at a restaurant chain's request.
+4. **Winter / Summer Solstice and Vernal Equinox** — already present as
+   `First Day of Winter` / `Yule`, `The First Day of Summer`, and
+   `The First Day of Spring` / `Ostara`. Alias rows or renames, not a gap.
+5. **`Oktoberfest (ends in Germany)`** — wrong from 2027; needs a rule kind or
+   a lookup table for Munich's conditional Oct 3 extension.
+
+The audit E2 asks for is done as a screen: 24 candidate rows in
+`docs/FIDELITY_AUDIT.md`, two of them fixed. **Do not restart E2 from the top.**
+Once Jay has answered the five above, the next engineering run goes to E3.
+
 ### E3 — Perennial day pages + canonical model
 Three of four leading competitors use a year-less day URL; we only have dated
 ones. `/october-8/` is the page that ranks for the recurring query.
@@ -263,9 +292,9 @@ Ties broken by date proximity, so pages go live before their occurrence.
 **Tier 1 — the holidays that carry the category**
 - [x] 1. Halloween — written interactively, loaded into Notion, Live (2026-10-09).
 - [x] 2. Thanksgiving Day  *(written interactively with Jay, 2026-10-09; Live)*
-- [ ] 3. Christmas Day
-- [ ] 4. Valentine's Day
-- [ ] 5. New Year's Day
+- [x] 3. Christmas Day  *(drafted 2026-10-10, content run; Draft)*
+- [x] 4. Valentine's Day  *(drafted 2026-10-10, content run; Draft)*
+- [x] 5. New Year's Day  *(drafted 2026-10-10, content run; Draft)*
 - [ ] 6. Easter Sunday
 - [ ] 7. Mother's Day
 - [ ] 8. Father's Day
@@ -309,6 +338,20 @@ Ties broken by date proximity, so pages go live before their occurrence.
 - [ ] 42. Pi Day
 - [ ] 43. Friday the 13th
 
+**Tier 3b — from E2's coverage gaps (2026-10-10), ahead of Tier 4 by demand,
+as instructed below.** All eleven are published rows with a one-paragraph
+Description and no long-form content.
+- [ ] 23a. Kwanzaa
+- [ ] 23b. Rosh Hashanah
+- [ ] 23c. Yom Kippur
+- [ ] 23d. Day of the Dead
+- [ ] 23e. National Teacher Appreciation Day  *(and the Week row with it)*
+- [ ] 23f. Super Bowl Sunday
+- [ ] 23g. Oktoberfest (starts in Germany)  *(the "ends" row is a known bug — see §7)*
+- [ ] 23h. National Pizza Day
+- [ ] 23i. National Margarita Day
+- [ ] 23j. National Hugging Day
+
 **Tier 4 — high-volume "national day" queries**
 - [ ] 44. National Dog Day
 - [ ] 45. National Cat Day
@@ -345,11 +388,28 @@ yet, do not start content work — say so in the Run Log and stop.
 
 ## 7. Known issues, carried forward
 
-- **Holiday fidelity audit** deferred to end of year by Jay. Known: **World Sight
-  Day** is marked Annual but is genuinely the second Thursday of October —
-  correct for 2026 by coincidence, wrong from 2027. Donut Day is the same error
-  class (see E2). There are likely more.
-- **Three floating lookup tables expire in 2027.** See `scripts/README.md`.
+- **Holiday fidelity audit** deferred to end of year by Jay. **Worklist now
+  exists: `docs/FIDELITY_AUDIT.md`** — 24 candidate rows found by screening for
+  the signature (a weekday-ruled row's stored date lands on its named weekday
+  in exactly one year and drifts off the next), with the likely rule for each.
+  They are candidates, not verdicts; each needs a primary source before it is
+  changed. Donut Day and National Ice Cream Day were fixed on 2026-10-10.
+  **World Sight Day** (Annual, genuinely the 2nd Thursday of October) and
+  **Oktoberfest (ends in Germany)** (Annual Oct 4, genuinely the first Sunday
+  in October with a conditional Oct 3 extension — wrong from 2027) are both on
+  that list.
+- **Four floating lookup tables expire in 2027.** The three administratively-set
+  ones (teach-your-children-to-save, Preakness, Belmont) plus
+  **`super-bowl-sunday`, added 2026-10-10 and holding 2027 only — expires after
+  2027-02-14**. The NFL schedules the game each season; it has been the second
+  Sunday in February since 2022 but the league has not committed to that, so
+  only announced dates go in. See `scripts/README.md`.
+- **The dated archive's forward horizon is derived, not configured.**
+  `day_end = max(occurrences.values())` in `generate.py`, so a single row whose
+  next occurrence is more than a year out extends `/day/` coverage for the
+  whole site (publishing a Feb 29 row adds ≈142 dated pages). Worth knowing
+  before adding a long-cycle observance; it is why Leap Day is sitting
+  unpublished.
 - Three stale duplicate Notion rows (National Taco Day Oct 6, National
   Forgiveness Day Oct 7, International Newspaper Carrier Day Oct 10). Harmless —
   the generator only lists holidays that have a page.
@@ -393,3 +453,55 @@ Newest last. One line per run: date, type, item, outcome. Keep it terse.
   populated row changed exactly 1 of 2,439 pages and rendered every section; 32 assertions
   pass. Nothing committed. Next run: E2.
 - 2026-10-09 · content (Jay + Claude, interactive) · Halloween and Thanksgiving Day written, American spelling, loaded into Notion as Live. Rule added: American English always (§4 Voice). **Gate added:** `export_from_notion.py` now carries `Body`/`Timeline`/`FAQ`/`Sources`/`Opening` only for rows at Content Status Reviewed or Live (uncommitted). New Notion field `Opening`. Content task prompt updated to match; Tier 5 rule added to §6.
+- 2026-10-10 · engineering · **E2 partly done** · Notion: 11 missing observances created,
+  published and sourced (Kwanzaa, Rosh Hashanah, Yom Kippur, Day of the Dead, Pizza Day,
+  Margarita Day, Hugging Day, Teacher Appreciation Day + Week, Oktoberfest start, Super Bowl
+  Sunday); Donut Day switched to Floating (1st Friday in June, Salvation Army) and Ice Cream
+  Day with it (3rd Sunday in July, Proclamation 5219); Leap Day created but left unpublished
+  (publishing it extends the dated archive by ~142 pages — Jay's call). Code: `generate.py`
+  (+34/-3) new `nth_weekday_offset` kind, Annual `next_occurrence` now scans 9 years so Feb 29
+  resolves at all, Floating branch skips an unresolvable year so a table starting next year
+  works; `export_from_notion.py` (+55) eight sourced rules; `README.md` (+43);
+  new `docs/FIDELITY_AUDIT.md` with 24 audit candidates. Verified: patched vs pre-patch
+  generator byte-identical on the current dataset; forward run exit 0, zero WARNINGs,
+  11 pages created / 60 changed, idempotent. Nothing committed. 5 open decisions in
+  docs/REVIEW.md; next engineering run goes to E3 once they are answered.
+- 2026-10-10 · content · **Christmas Day, Valentine's Day, New Year's Day drafted** ·
+  Queue items 3-5, top-first, one matching row each (no ambiguity: Christmas Eve and
+  Orthodox Christmas Day are separate queue items, not duplicates). All five long-form
+  fields written per §4, Content Status = Draft, `Published` untouched (all three still
+  ticked), `Description` untouched. Word counts ~860 / ~830 / ~840. American spelling.
+  Sources: Library of Congress (4 collections/blogs), Britannica, OPM, mass.gov,
+  Royal Collection Trust, Smithsonian NMAH, British Library, Times Square Alliance,
+  Pasadena Tournament of Roses, NRF. No aggregator cited. **No section omitted for lack
+  of a source.** Verified: 23 assertions pass — the Content Status gate drops Draft
+  long-form and the Opening while carrying both at Live, and the renderer produces the
+  FAQ section, FAQPage JSON-LD, timeline, links and emphasis from exactly these field
+  shapes; generator run into a throwaway dir exits 0 with zero WARNINGs, 2,803 pages,
+  and the three pages render with no long-form and no FAQPage (gate confirmed
+  end to end). Nothing committed.
+  · **Found a live bug, not caused by this run: the FAQ fields on Halloween and
+  Thanksgiving Day do not render.** `parse_faq()` in `generate.py` only recognizes a
+  question when the line is wrapped in `**bold**`; both rows' questions are plain text,
+  so both parse to zero pairs and ship with no FAQ section and no FAQPage structured
+  data — the one SEO feature E1 was built to add. Both rows also have an **empty
+  `Opening`**, so both keep the templated `Description` on the site. Both are at
+  Content Status Live, so this is live-site behavior, not a draft problem. Today's three
+  drafts use the bolded form and were verified to parse. Fix is Jay's call: bold the
+  questions in the two rows, or loosen `parse_faq` to treat an unbolded line ending in
+  `?` as a question. Written up in `docs/REVIEW.md`.
+  · Claims I am least confident in, flagged for spot-check: the 1659 Massachusetts
+  Christmas ban's **repeal** date is *omitted* — mass.gov gives the statute and the
+  five-shilling fine but not the repeal, so the draft states only what is sourced;
+  **New Year's resolutions** have no sourced origin, so the FAQ says so outright rather
+  than repeating the Babylonian/Roman claim; the **NRF $29.1bn** figure is a retail
+  trade association's survey of stated intent, labeled as such in the draft rather than
+  presented as a statistic. One source conflict resolved: on the Christmas tree, the
+  common "Prince Albert introduced it" line is contradicted by the **Royal Collection
+  Trust**, which credits Queen Charlotte in the late 18th century; the draft follows
+  RCT as the more primary source (the royal household's own collection) and says
+  plainly that Albert popularized rather than introduced it.
+  · Note on hard rule 6: `docs/REVIEW.md` was **appended to, not overwritten** — it
+  still holds the five unanswered E2 decisions from last night's engineering run, and
+  overwriting them would have destroyed them. Rule 6 may want narrowing to "the
+  engineering run overwrites REVIEW.md; content runs append."

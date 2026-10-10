@@ -323,6 +323,61 @@ FLOATING_RULES = {
     "break-the-monotony-day": {"rule": "nth_weekday", "month": 8, "weekday": 5, "n": 3},            # 3rd Saturday of August (inferred, no primary source found)
     "international-geocaching-day": {"rule": "nth_weekday", "month": 8, "weekday": 5, "n": 3},      # 3rd Saturday of August
 
+    # ---- E2 coverage gaps, added 2026-10-10 ----
+    #
+    # Every date rule below is sourced, and the source URL is also recorded in
+    # each row's "Source" field in Notion. Dates were cross-checked against the
+    # organising body's own published dates before the rule was written here.
+
+    # Tuesday of the first full week of May. The first full (Sun-Sat) week of
+    # May begins on its first Sunday, so this is 1st Sunday + 2. Set by the NEA
+    # Representative Assembly in 1985 (mnea.org/TeacherDay, an NEA affiliate);
+    # produces NEA's own published May 5, 2026 (nea.org/TAW).
+    "national-teacher-appreciation-day": {"rule": "nth_weekday_offset", "month": 5, "weekday": 6, "n": 1, "offset_days": 2},
+    # Monday of the same week -- NEA publishes the week as May 4-8, 2026.
+    "national-teacher-appreciation-week": {"rule": "nth_weekday_offset", "month": 5, "weekday": 6, "n": 1, "offset_days": 1},
+    # First Friday in June. The Salvation Army created Donut Day in 1938 and
+    # states the rule itself (centralusa.salvationarmy.org/northern/donut-day/).
+    # Was stored as fixed June 4 -- right only when the first Friday is June 4.
+    "national-doughnut-day": {"rule": "nth_weekday", "month": 6, "weekday": 4, "n": 1},
+    # Third Sunday in July, per Presidential Proclamation 5219 (Reagan, 1984),
+    # via GPO: govinfo.gov/features/national-ice-cream-day. Was stored as fixed
+    # July 18 -- right only when the third Sunday is July 18.
+    "national-ice-cream-day": {"rule": "nth_weekday", "month": 7, "weekday": 6, "n": 3},
+    # Munich's Oktoberfest opens on the Saturday 15 days before the first
+    # Sunday in October. That is the period the city's own Oktoberfestverordnung
+    # (municipal regulation 130, section 2(1)) defines, and it reproduces the
+    # city's published dates: Sept 19 2026 and Sept 18 2027.
+    "oktoberfest-starts-in-germany": {"rule": "nth_weekday_offset", "month": 10, "weekday": 6, "n": 1, "offset_days": -15},
+    "rosh-hashanah": {
+        "rule": "lookup_table",
+        # 1 Tishrei (first day), from Hebcal.com -- the same source as the
+        # Hanukkah and Passover tables above.
+        "table": {
+            "2026": "09-12", "2027": "10-02", "2028": "09-21", "2029": "09-10",
+            "2030": "09-28", "2031": "09-18", "2032": "09-06", "2033": "09-24",
+            "2034": "09-14", "2035": "10-04", "2036": "09-22",
+        },
+    },
+    # 10 Tishrei: always exactly nine days after the first day of Rosh Hashanah,
+    # since both fall in the same Hebrew month. Checked against Hebcal for all
+    # eleven years in the table above -- identical in every one, so this needs
+    # no table of its own and cannot drift out of step with Rosh Hashanah.
+    "yom-kippur": {"rule": "offset_from_slug", "slug": "rosh-hashanah", "days": 9},
+    "super-bowl-sunday": {
+        "rule": "lookup_table",
+        # No formula: the NFL schedules the game each season. It has fallen on
+        # the second Sunday in February since 2022, but the league has not
+        # committed to that as a rule and has publicly discussed moving it if
+        # the season lengthens -- so only announced dates go in here.
+        # 2027 (Super Bowl LXI, SoFi Stadium) per NBC Los Angeles.
+        # EXPIRES AFTER 2027-02-14: add each later year once the NFL announces
+        # it. Don't extrapolate "second Sunday".
+        "table": {
+            "2027": "02-14",
+        },
+    },
+
     # ---- lunar/lunisolar holidays without a slug-offset shortcut ----
     "diwali": {
         "rule": "lookup_table",

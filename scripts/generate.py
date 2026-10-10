@@ -278,6 +278,15 @@ def compute_floating_date(rule, year, by_slug=None, memo=None, in_progress=None)
     kind = rule["rule"]
     if kind == "nth_weekday":
         return nth_weekday_of_month(year, rule["month"], rule["weekday"], rule["n"])
+    if kind == "nth_weekday_offset":
+        # Nth given weekday of a month, then a signed day offset. The mirror of
+        # last_weekday_offset, and what "weekday of the first full week" needs:
+        # the first full (Sun-Sat) week of a month begins on its first Sunday,
+        # so Tuesday of that week is 1st Sunday + 2. The offset may cross a
+        # month or year boundary on purpose (Oktoberfest opens 15 days before
+        # the first Sunday in October, which always lands in September).
+        base = nth_weekday_of_month(year, rule["month"], rule["weekday"], rule["n"])
+        return base + datetime.timedelta(days=rule["offset_days"])
     if kind == "after_labor_day_sunday":
         ld = labor_day(year)
         # first Sunday after Labor Day (Labor Day is always a Monday, so +6 days)
@@ -360,14 +369,19 @@ def next_occurrence(holiday, today, by_slug=None, memo=None):
     """Return the date.date of this holiday's next occurrence on/after `today`."""
     if holiday["recurrence"] == "Annual":
         month, day = holiday["month"], holiday["day"]
-        for year in (today.year, today.year + 1):
+        # Nine years, not two. Two is enough for every date that exists every
+        # year, but Feb 29 exists only in leap years: scanning only this year
+        # and next would raise for Leap Day in three years out of four, which
+        # main() catches as "unresolved" -- so the page would simply never be
+        # built. Nine covers the widest real gap between leap years (eight,
+        # across a non-leap century year such as 2100).
+        for year in range(today.year, today.year + 9):
             try:
                 candidate = datetime.date(year, month, day)
             except ValueError:
-                continue  # e.g. Feb 29 in a non-leap year, not expected in this dataset
+                continue  # Feb 29 in a non-leap year: that year has none
             if candidate >= today:
                 return candidate
-        # Shouldn't happen (year+1 always covers it), but fail loud rather than silent.
         raise RuntimeError(f"could not find next occurrence for {holiday['slug']}")
     elif holiday["recurrence"] == "Floating":
         rule = holiday["floating_rule"]
@@ -379,10 +393,25 @@ def next_occurrence(holiday, today, by_slug=None, memo=None):
             by_slug = {}
         if memo is None:
             memo = {}
+        last_error = None
         for year in (today.year, today.year + 1):
-            candidate = holiday_date_for_year(holiday, year, by_slug, memo)
+            try:
+                candidate = holiday_date_for_year(holiday, year, by_slug, memo)
+            except (ValueError, KeyError) as e:
+                # One unresolvable year must not hide a resolvable later one.
+                # A lookup_table whose first hand-confirmed year is *next* year
+                # -- which is what a newly added holiday looks like for the rest
+                # of the current year -- raised here and the holiday was
+                # reported as having no date at all, so no page was built for a
+                # date we actually know. Skip that year and try the next one.
+                # If no year resolves (the expired-table case) the error is
+                # re-raised below, so an expired table still fails loudly.
+                last_error = e
+                continue
             if candidate >= today:
                 return candidate
+        if last_error is not None:
+            raise last_error
         raise RuntimeError(f"could not find next floating occurrence for {holiday['slug']}")
     else:
         raise ValueError(f"unknown recurrence type: {holiday['recurrence']!r} for {holiday['slug']}")

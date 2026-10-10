@@ -169,6 +169,33 @@ also emits a `::warning::` workflow command, so a skipped holiday shows up as
 a visible annotation on the Actions run summary rather than only in the log —
 no workflow YAML changes needed to pick that up.
 
+### Which years `next_occurrence()` looks at
+
+For an **Annual** row it scans **nine** calendar years from today, not two.
+Two is enough for any date that exists every year, but Feb 29 exists only in
+leap years: with a two-year scan, Leap Day raised in three years out of four,
+`main()` caught that as "unresolved", and no page was built for a date we
+know perfectly well. Nine covers the widest real gap between leap years (eight,
+across a non-leap century year such as 2100).
+
+For a **Floating** row it still looks at this year and next, but a year whose
+rule can't resolve is now **skipped rather than fatal**. A `lookup_table` whose
+first hand-confirmed year is *next* year — which is what any newly added
+administratively-dated holiday looks like for the rest of the current year —
+used to raise on this year and be reported as having no date at all.
+`super-bowl-sunday` was exactly that case. If *no* year resolves, the error is
+re-raised, so an **expired** table still fails as loudly as before.
+
+### The dated archive's forward horizon is derived, not configured
+
+`day_end = max(occurrences.values())` — the `/day/` archive and the month data
+files run from `DAY_ARCHIVE_START` to **the furthest next occurrence in the
+whole dataset**. So one long-cycle row quietly moves the horizon for the entire
+site: publishing a Feb 29 row in October 2026 pushes it from Oct 2027 to Feb
+2028 and creates ~142 dated pages in one run. That is the same class of content
+decision as moving `DAY_ARCHIVE_START` backwards (above), so it is worth
+knowing before adding a row whose next occurrence is more than a year out.
+
 ### `sitemap.xml` and `lastmod`
 
 `lastmod` reflects when a page's content actually changed, not when the
@@ -204,7 +231,7 @@ not in Notion — Notion only has an Annual/Floating switch, not "which
 rule." Adding a new Floating holiday means adding its rule here by hand,
 or `export_from_notion.py` skips the row with a warning.
 
-### `FLOATING_RULES` — 94 entries, and which ones expire
+### `FLOATING_RULES` — 102 entries, and which ones expire
 
 Rule kinds (all computed in `generate.py`'s `compute_floating_date`):
 
@@ -212,6 +239,7 @@ Rule kinds (all computed in `generate.py`'s `compute_floating_date`):
 | --- | --- |
 | `nth_weekday` | Nth given weekday of a month (Thanksgiving = 4th Thursday of Nov) |
 | `last_weekday` | last given weekday of a month (Memorial Day, Earth Hour) |
+| `nth_weekday_offset` | Nth given weekday of a month, then a day offset. This is how "weekday of the first full week" is expressed: the first full (Sun–Sat) week of a month begins on its first Sunday, so National Teacher Appreciation Day is 1st Sunday of May + 2. The offset may cross a month boundary on purpose — Oktoberfest opens 15 days before the first Sunday in October, which always lands in September. |
 | `last_weekday_offset` | last given weekday, then a day offset (Administrative Professionals Day) |
 | `last_weekday_before_date` | last given weekday strictly before a fixed date (Super Saturday) |
 | `nearest_weekday_to_date` | given weekday nearest a fixed date (Advent Sunday ≈ Nov 30) |
@@ -228,9 +256,15 @@ check an almanac or the organizing body, then add the year.**
 
 Populated through **2036** (astronomical and lunar/lunisolar — equinoxes,
 solstices, Chinese New Year, Diwali, Hanukkah, Tu BiShvat, Purim, Passover,
-Ramadan, Eid al-Fitr, Islamic New Year, Naw-Rúz).
+Ramadan, Eid al-Fitr, Islamic New Year, Naw-Rúz, Rosh Hashanah).
 
-Populated only through **2027**, because these three have no formula at all
+`yom-kippur` deliberately has **no table of its own**: it is 10 Tishrei, always
+exactly nine days after the first day of Rosh Hashanah, so it is an
+`offset_from_slug` off `rosh-hashanah` (checked against Hebcal for all eleven
+years — identical in every one). One table to extend instead of two, and the
+two can never drift apart.
+
+Populated only through **2027**, because these have no formula at all
 — the date is set administratively each year and has to be looked up:
 
 - `national-teach-your-children-to-save-day` — the ABA sets it; **expires
@@ -240,6 +274,12 @@ Populated only through **2027**, because these three have no formula at all
   2027-05-23**
 - `belmont-stakes` — NYRA sets it each year, and the venue has been in flux;
   **expires after 2027-06-05**
+- `super-bowl-sunday` — the NFL schedules the game each season. It has fallen
+  on the second Sunday in February since 2022, but the league has not committed
+  to that as a rule and has publicly discussed moving it if the season
+  lengthens, so only announced dates go in the table. Holds **2027 only**
+  (Feb 14, Super Bowl LXI) and **expires after 2027-02-14**. Add each later
+  year from the NFL's own announcement; don't extrapolate "second Sunday"
 
 Once one of those dates passes, that holiday is skipped with a loud warning
 on every daily run (see `generate.py` above) until its table gains the next
