@@ -173,7 +173,9 @@ sub-blocks per date**. Built, verified, **not committed or pushed**.
   side on desktop, stacked on phone, no horizontal scroll.
 - Not measured: CLS and page weight on a real deploy (+1.9–4.6 KB per page).
 
-## Needs a decision
+## Decisions
+
+**Answered by Jay, 2026-10-11:** 1 and 2 (exclusion level, conviction filter): fine as built, no change. 3 (recently deceased under "Historic figures"): fine, label stays. 4 (dated pages change on refresh): fine. 5 (source policy): approved. The plan's sourcing rule now has a scoped exception for the born-on-this-day data (EXECUTION_PLAN.md §4); holiday content is unchanged.
 
 1. **Borderline figures left in** (the automatic filters cannot judge them). Add to
    `people_overrides.json` -> `exclude` if you want them gone: Mao Zedong, Kim Il Sung,

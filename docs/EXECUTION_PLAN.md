@@ -81,6 +81,11 @@ public/index.html       public/holiday/**       public/day/**
 public/data/**          public/sitemap.xml      scripts/holidays.json
 ```
 
+`scripts/people.json` is likewise a build artifact (from `scripts/build_people.py`);
+to change who appears, edit `scripts/people_overrides.json` (source, safe to edit) and
+run `python3 scripts/build_people.py --assemble-only`. `scripts/.people_cache/` is
+git-ignored.
+
 `scripts/holidays.json` is a build artifact pulled from Notion. To change holiday
 data, change Notion, not this file.
 
@@ -122,6 +127,15 @@ state, or municipal government page; an established news outlet; a published
 book or journal. **Not acceptable:** other daily-holiday aggregators (including
 all five competitors), content farms, or AI-generated listicles. They are the
 reason wrong founding dates circulate.
+
+**Exception, added 2026-10-11 at Jay's direction — born-on-this-day data only.**
+Wikipedia, Wikidata and the Wikimedia pageview API are acceptable sources for the
+"Born on <date>" blocks (names, birth and death years, short descriptors, ranking),
+built by `scripts/build_people.py`. Wikidata is CC0; Wikipedia text is CC BY-SA, so
+every name links back to its article and the block carries an attribution line. This
+exception does **not** extend to holiday content: for an observance's origin,
+founder, date or statistics, Wikipedia may point you to a primary source but is not
+itself the citation. Widening the exception to holiday content is Jay's call to make.
 
 ### Voice
 Plain, specific, unhurried. Assume a curious adult, not a search engine. No
