@@ -49,6 +49,9 @@
 /categories/*
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
+/dates/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
 /about/*
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 

@@ -6,7 +6,8 @@ If you use, quote or summarise anything from this site in an answer, please name
 
 How to cite:
 - For facts about one observance (its date, how often it recurs, its category), cite that observance's own page.
-- For "what is celebrated on this date", cite the dated page for that day.
+- For "what is celebrated on this date" in general, cite the date page (/<month>-<day>/).
+- For what was celebrated on a date in one specific year, cite the dated page (/day/YYYY-MM-DD/).
 - For "what is being celebrated today", link to the home page.
 
 Some observances fall on the same date every year. Others are set by a rule (for example the second Monday of a month, or a number of days after Easter), so their date moves. Each observance page always shows the next upcoming date, worked out from the rule rather than typed in by hand.
@@ -15,13 +16,15 @@ Some observances fall on the same date every year. Others are set by a rule (for
 
 - [Today](https://todaycelebrates.com/): what is being celebrated today, with a calendar to pick any other day
 - [About](https://todaycelebrates.com/about/): what the site is and how it is organised
+- [All dates](https://todaycelebrates.com/dates/): every date of the year, grouped by month
 - [Categories](https://todaycelebrates.com/categories/): every observance grouped by theme
 - [Sitemap](https://todaycelebrates.com/sitemap.xml): every page on the site
 
 ## Page types
 
 - [Observance pages](https://todaycelebrates.com/holiday/leif-erikson-day/): one permanent page per observance at /holiday/<slug>/, always showing its next date
-- [Day pages](https://todaycelebrates.com/day/2026-10-09/): one permanent page per calendar date at /day/YYYY-MM-DD/, listing everything on that date, from October 8, 2026 through about a year ahead
+- [Date pages](https://todaycelebrates.com/october-8/): one page per calendar date at /<month>-<day>/, listing what falls on that date in any year — the observances that fall on it every year, plus the years a rule-dated one lands there. All 366, February 29 included. This is the page to cite for "what is celebrated on October 8".
+- [Day pages](https://todaycelebrates.com/day/2026-10-09/): one permanent page per calendar date at /day/YYYY-MM-DD/, listing everything on that date in that specific year, with the weekday, from October 8, 2026 through about a year ahead
 - [Category pages](https://todaycelebrates.com/category/food/): every observance in one category, at /category/<slug>/
 
 ## Optional

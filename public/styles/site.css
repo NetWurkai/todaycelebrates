@@ -225,6 +225,7 @@ dl.spec dt{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:va
 .cat-list a{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;text-decoration:none;font-weight:600}
 .cat-list a:hover{color:var(--acc);text-decoration:underline}
 .cat-list .mono{color:var(--muted);font-weight:400;font-size:13px;white-space:nowrap}
+.cat-list .cat-list-off{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;font-weight:600;color:var(--muted)}
 
 /* ---- toast ---- */
 .toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,16px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:6px;font-weight:700;opacity:0;pointer-events:none;transition:opacity .15s,transform .15s;z-index:30}

@@ -78,12 +78,17 @@ DAY_ARCHIVE_START = datetime.date(2026, 10, 8)
 PERENNIAL_YEARS = 10
 
 # Whether to publish a page for a month-day that has nothing on it at all.
-# 26 month-days have no fixed-date observance and 8 have nothing in a ten-year
-# window (Jan 3, Jan 6, Jan 12, May 2, Jun 3, Jun 11, Jul 10, Aug 31 as of
-# 2026-10-11). True publishes all 366 so no date in the year 404s and the URL
-# stays guessable; False publishes only the dates that have something, and the
-# prev/next chain and the rail skip the rest. Flipping this is a content call,
-# not a code change.
+# A handful do: 25 month-days have no fixed-date observance, and 6 have nothing
+# at all in a ten-year window (Jan 3, Jan 6, Jan 12, Jun 11, Jul 10, Aug 31 on
+# 2026-10-11 -- it was 8 the day before, and the list keeps shrinking as rows
+# land, so don't treat it as fixed).
+#
+# True, decided by Jay 2026-10-11: publish all 366 so no date in the year 404s
+# and the URL stays guessable, and because the born-on-this-day blocks and the
+# coming celebrity/historic-figure dates fill these pages anyway. False
+# publishes only the dates that have something; the prev/next ring and the rail
+# skip the rest, and /dates/ lists them without a link. A content call either
+# way, not a code change.
 PERENNIAL_EMPTY_PAGES = True
 
 # "Born on this day": two sub-blocks per date -- historic figures and living
@@ -1174,7 +1179,24 @@ def render_page(holiday, occ_date, day_link, by_slug, memo, template, chrome,
         "IMAGE_ABS": image,
         "LD_JSON": ld_json,
         "EXTRA_LD": faq_ld_json(faq_pairs),
-        "DAY_LINK": day_link,
+        # E3 cross-links. The perennial page is the holiday's stable parent --
+        # the dated page's URL changes every year, which makes it a poor
+        # breadcrumb ancestor and a poor back-link for a page that lives
+        # forever at one URL. The specific dated page is still linked twice:
+        # from the Date row of the spec list, and from "All N on <date>" in the
+        # "Also on" sidebar.
+        "CRUMBS": crumbs_html(
+            ("Calendar", "/dates/"),
+            (date_short, perennial_path(occ_date.month, occ_date.day)),
+            (name, None),
+        ),
+        "DATE_SPEC": (
+            f'<a href="{day_link}"><time datetime="{iso_date}">'
+            f'{weekday_long_date(occ_date)}</time></a>'
+            if day_published else
+            f'<time datetime="{iso_date}">{weekday_long_date(occ_date)}</time>'
+        ),
+        "PERENNIAL_HREF": perennial_path(occ_date.month, occ_date.day),
         "LONGFORM": longform,
         "RECURS": esc_attr(recurs),
         "CATEGORY_PILL": cat_pill(category, link=True),
@@ -1654,6 +1676,72 @@ def perennial_years_html(label, dated):
     return f'<div class="note">{"".join(parts)}</div>'
 
 
+def dates_hub_html(perennial_index, month_days, published):
+    """/dates/ -- the hub for the 366 perennial pages. Returns (body, side).
+
+    Why this page exists: 366 pages reachable only from each other and from the
+    sitemap are technically not orphaned but practically invisible, and a site
+    with a nav item pointing at a homepage fragment (`/#calendar`) was spending
+    a sitewide link on something no crawler can follow. One hub, linked from the
+    header and the footer, puts every date one click from every page on the
+    site. The homepage calendar widget is unchanged and still linked from here.
+
+    `published` is the set of (month, day) keys that actually got a page, so
+    that with `PERENNIAL_EMPTY_PAGES` off the hub still shows the whole
+    calendar but renders the eight blank dates as plain text rather than as
+    links to pages that were never written.
+    """
+    months = []
+    side = []
+    for m in range(1, 13):
+        days = [k for k in month_days if k[0] == m]
+        items = []
+        total = 0
+        for key in days:
+            n = len(perennial_index[key]["annual"])
+            total += n
+            count = f"{n} {plural(n, 'observance')}" if n else "moveable dates only"
+            if not n and not perennial_index[key]["floating"]:
+                count = "nothing on record"
+            label = esc_attr(month_day_label(*key))
+            if key in published:
+                items.append(
+                    f'<li><a href="{perennial_path(*key)}">'
+                    f'<span>{label}</span>'
+                    f'<span class="mono">{count}</span></a></li>'
+                )
+            else:
+                items.append(
+                    f'<li><span class="cat-list-off"><span>{label}</span>'
+                    f'<span class="mono">{count}</span></span></li>'
+                )
+        months.append(
+            f'<h2 id="{MONTH_NAMES[m].lower()}">{MONTH_NAMES[m]}</h2>'
+            f'<ul class="cat-list">{"".join(items)}</ul>'
+        )
+        side.append(
+            f'<li><a href="#{MONTH_NAMES[m].lower()}"><span>{MONTH_NAMES[m]}</span>'
+            f'<span class="mono">{total}</span></a></li>'
+        )
+
+    body = (
+        '<div class="plain">'
+        '<p class="intro">Every date of the year has a page of its own, listing '
+        "what falls on it in any year. Dates set by a rule &mdash; the last Monday "
+        "of May, or a number of days after Easter &mdash; are named on the date "
+        "they land on, with the years they land there.</p>"
+        '<p class="intro">Looking for one particular year instead? Each date page '
+        'links to the dated record for that year. Or <a href="/#calendar">pick a '
+        'date on the calendar</a> on the home page.</p>'
+        + "".join(months)
+        + "</div>"
+    )
+    side_html = (
+        f'<h2>Months</h2><ul class="list-side">{"".join(side)}</ul>'
+    )
+    return body, side_html
+
+
 def render_perennial_page(key, bucket, prev_key, next_key, template, chrome,
                           month_days, perennial_index, dated, today, people=None):
     """Render one permanent /<month>-<day>/ page."""
@@ -1792,7 +1880,7 @@ def render_perennial_page(key, bucket, prev_key, next_key, template, chrome,
         "URL": url,
         "PATH": path,
         "HERO_IMAGE_ABS": f"{SITE_BASE_URL}{hero_rel}",
-        "CRUMBS": crumbs_html((label, None)),
+        "CRUMBS": crumbs_html(("Calendar", "/dates/"), (label, None)),
         "EYEBROW": esc_attr(f"EVERY {label}").upper(),
         "HEADLINE": esc_attr(share_title),
         "INTRO": intro,
@@ -2113,9 +2201,12 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             perennial_diffs["changed"].append(path)
         else:
             perennial_diffs["unchanged"] += 1
+    perennial_skipped_paths = set(perennial_diffs["skipped"])
+    perennial_published = {
+        k for k in perennial_mds if perennial_path(*k) not in perennial_skipped_paths
+    }
     perennial_paths = [
-        perennial_path(*k) for k in perennial_mds
-        if perennial_path(*k) not in set(perennial_diffs["skipped"])
+        perennial_path(*k) for k in perennial_mds if k in perennial_published
     ]
 
     # ---- per-holiday pages ----
@@ -2184,6 +2275,22 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             by_category.setdefault(h["category"], []).append(h)
     category_counts = {c: len(v) for c, v in by_category.items()}
     simple_pages = {}  # site path -> html
+
+    dates_body, dates_side = dates_hub_html(
+        perennial_index, perennial_mds, perennial_published
+    )
+    simple_pages["/dates/"] = render_simple_page(
+        page_template, chromes["CALENDAR"],
+        title="Holidays by Date: Every Day of the Year | Today Celebrates",
+        description=(
+            "Every date of the calendar, January 1 to December 31, with the "
+            "national, international and world observances that fall on each one."
+        ),
+        path="/dates/", headline="The calendar, date by date",
+        body=dates_body,
+        side=dates_side,
+        crumbs=crumbs_html(("Calendar", None)),
+    )
 
     simple_pages["/about/"] = render_simple_page(
         page_template, chromes["ABOUT"],

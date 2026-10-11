@@ -84,6 +84,7 @@ queries:
 | `/day/YYYY-MM-DD/` | **One specific date.** Permanent dated record, with the weekday, the observance list, and the year-specific note about which entries moved. | Permanent once published |
 | `/<month>-<day>/` | **One calendar date, any year** (`/october-8/`). The observances that fall on it *every* year, plus a note naming the years a rule-dated one lands there. The page for the recurring query. | Permanent; refreshed, not rewritten |
 | `/holiday/<slug>/` | **One observance.** Always shows its *next* occurrence. | Evergreen; one URL forever |
+| `/dates/` | **The hub for the 366.** Every date of the year grouped by month, with each date's fixed-date count. Linked from the header nav and the footer on every page. | Evergreen |
 | `/category/<slug>/`, `/categories/`, `/about/` | Browse-by-theme lists and the About page. | Evergreen |
 
 Each page self-canonicalises. `/` is not canonicalised to today's dated page or
@@ -222,12 +223,15 @@ in the report's `perennial_index_skipped` — the three administratively-dated
 rows are there today. That list is informational: unlike `unresolved_holidays`
 it is not a warning, because a rule not reaching 2035 is normal.
 
-**`PERENNIAL_EMPTY_PAGES`** (True) decides what happens to a date with nothing
-on it. 26 month-days have no fixed-date observance and 8 have nothing at all in
-the window (Jan 3, Jan 6, Jan 12, May 2, Jun 3, Jun 11, Jul 10, Aug 31 as of
-2026-10-11). True publishes all 366, so no date in the year 404s; False
-publishes only the dates that have something and the prev/next ring skips the
-rest. It is a content decision, not a code change.
+**`PERENNIAL_EMPTY_PAGES`** (True, **decided by Jay on 2026-10-11**) decides
+what happens to a date with nothing on it. 25 month-days have no fixed-date
+observance and 6 have nothing at all in the window (Jan 3, Jan 6, Jan 12,
+Jun 11, Jul 10, Aug 31 on 2026-10-11 — it was 8 the day before; the list
+shrinks as rows land, so it is not a fixed set). True publishes all 366, so no
+date in the year 404s and the URL stays guessable; False publishes only the
+dates that have something, the prev/next ring skips the rest, and `/dates/`
+lists them as plain text instead of links. It is a content decision, not a code
+change.
 
 **Navigation is a closed ring.** Prev/next and the "Nearby dates" rail wrap at
 December 31, so every one of the 366 is reachable from its neighbours no matter
@@ -245,6 +249,37 @@ from the calendar and the holiday data alone.
 **Cache headers.** These pages sit at the top level, so `public/_headers` has
 one rule per month (`/january-*` … `/december-*`) rather than a single splat,
 which would match the whole site.
+
+**Where they sit in the navigation** (decided 2026-10-11). The header's
+**Calendar** tab and the footer's Calendar link point at **`/dates/`**, not at
+`/#calendar` as they did before. Three reasons:
+
+1. A sitewide nav link pointing at a homepage fragment is spent on something no
+   crawler can follow and no second page can be reached through. Pointing it at
+   a real page puts all 366 one click from every page on the site, which is what
+   actually keeps them out of orphan territory — the prev/next ring alone makes
+   them reachable, not discoverable.
+2. `chrome_for("CALENDAR")` was already the chrome handed to `/day/` and
+   perennial pages, so those pages were marking a nav tab current for a URL they
+   had no fragment of. Now the tab and the pages agree.
+3. The homepage calendar widget is unchanged and still reachable: `/dates/`
+   carries the one link to `/#calendar`, and the homepage is the Today tab.
+
+The breadcrumb hierarchy follows from that, on both page types:
+`Today / Calendar / October 8` on a perennial page, and
+`Today / Calendar / October 8 / Halloween` on a holiday page.
+
+**Holiday pages link to the perennial page, not the dated one** (decided
+2026-10-11). A holiday page lives forever at one URL, so its parent should too —
+the dated page's URL changes every year, which makes it a poor breadcrumb
+ancestor and a poor back-link. So the breadcrumb's date crumb and the
+`&larr; See everything October 31 celebrates` back-link both point at
+`/october-31/`. The specific dated page did not lose its inbound links: it is
+linked from the **Date row of the spec list** (the `<time>` element is wrapped in
+a link to it, which is also the more honest place for it) and from
+*All N on October 31* in the "Also on" sidebar. Every holiday page carries at
+least one link to its dated page — there is an assertion for that, because the
+sidebar link is conditional and the spec row is not.
 
 ### The dated archive's forward horizon is derived, not configured
 

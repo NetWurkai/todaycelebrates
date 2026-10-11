@@ -72,12 +72,15 @@ question by guessing.
 ```
 scripts/*.py            scripts/templates/*     scripts/README.md
 public/styles/*.css     public/ads/*            public/_headers
-public/robots.txt       docs/*                  wrangler.jsonc
+public/robots.txt       public/llms.txt         docs/*
+wrangler.jsonc
 ```
 
 **Generated — never edit:**
 ```
 public/index.html       public/holiday/**       public/day/**
+public/<month>-<day>/** public/dates/**         public/about/**
+public/categories/**    public/category/**
 public/data/**          public/sitemap.xml      scripts/holidays.json
 ```
 
@@ -276,31 +279,38 @@ ones. `/october-8/` is the page that ranks for the recurring query.
 **Done when:** 366 perennial pages exist, canonicals are correct in both
 directions, no page is orphaned, sitemap is consistent, CLS stays 0.0000.
 
-**STATUS: PARTLY DONE 2026-10-11** (uncommitted). The 366 perennial
-`/<month>-<day>/` pages exist, February 29 included; both page types stay
-self-canonical and both stay in the sitemap (3,170 URLs); the cross-link runs
-both ways (dated page -> perennial in the note block, perennial -> its dated
-pages in the footer note); prev/next and the rail wrap as a closed 366-day ring,
-so nothing is orphaned (14,314 internal links resolve, minimum 10 inbound per
-page). New: `scripts/templates/perennial.html`, four functions and a generation
-block in `generate.py`, 12 cache rules in `public/_headers`, a README section.
-CLS was **not** measured — nothing was deployed; the page reuses `day.html`'s
-components and adds no CSS, so the argument is structural. Verified
-byte-identical for every holiday page, data file and the homepage against the
-pre-patch generator.
+**STATUS: PARTLY DONE 2026-10-11** (committed by Jay, then extended the same
+day). The 366 perennial `/<month>-<day>/` pages exist, February 29 included;
+both page types are self-canonical and both are in the sitemap; the cross-link
+runs both ways; prev/next and the rail wrap as a closed 366-day ring, so
+nothing is orphaned. Then, after Jay answered the three open questions:
+
+- **`/dates/` hub added** — all 366 grouped by month — and the header's
+  **Calendar** tab and the footer link now point at it instead of `/#calendar`,
+  so every date is one click from every page. A fifth nav tab was the
+  alternative and was rejected (the tab row is already tight at 760px).
+- **Holiday pages now link to the perennial page**: the breadcrumb's date crumb
+  and the back-link. The dated page keeps its links from the Date row of the
+  spec list and from *All N on <date>* in the sidebar — every holiday page
+  carries at least one, with an assertion for it.
+- **Breadcrumbs follow one hierarchy**: `Today / Calendar / October 8` and
+  `Today / Calendar / October 8 / Halloween`.
+
+**The three questions are answered — do not re-ask them:**
+1. **Empty-date pages: keep them** (Jay, 2026-10-11). Celebrity and historic
+   figure dates are being added, so these pages fill in. `PERENNIAL_EMPTY_PAGES`
+   stays True. The count has already fallen from 8 to 6 as rows landed.
+2. **Navigation: the `/dates/` hub, via the existing Calendar tab** — built.
+3. **Holiday pages link to perennial pages: yes** — built.
+
+CLS still **not** measured (nothing deployed) and the hub has not been seen at
+real phone width; both are worth a look on the live site, since E3's acceptance
+criteria name CLS.
 
 **What is left of E3:** the **`/holidays/<year>/` index pages** (fourth bullet,
-not started) — a different page type, and the natural hub for the 366, so it is
-its own reviewable change. Three questions for Jay are in the 2026-10-11
-`docs/REVIEW.md`: whether to keep the 8 empty-date pages
-(`PERENNIAL_EMPTY_PAGES`, one line either way), where perennial pages belong in
-the navigation, and whether holiday pages should link to them too (that one
-rewrites all 2,439 holiday pages). **Do not restart E3 from the top**; the next
-engineering run does the year index pages.
-
-**Expect a large one-time regeneration when this lands:** 366 new pages *and*
-all 348 dated pages, because the back-link sits in their shared note block —
-which also restamps their `lastmod` in the sitemap once.
+not started). `/dates/` is not that page — the hub indexes the 366 year-less
+pages; a year index lists one year's dated pages. **Do not restart E3 from the
+top**; the next engineering run does the year index pages.
 
 ### E4 — Observance type taxonomy
 Flat 7–14 item day lists give Thanksgiving and National Pumpkin Day the same
@@ -590,3 +600,18 @@ Newest last. One line per run: date, type, item, outcome. Keep it terse.
   blend); rendered as two sub-blocks on perennial (10) and dated (4) pages; not in Notion, not in
   JSON-LD. Verified: only the 714 perennial/dated pages differ from baseline, byte-identical with
   the block removed. Nothing committed. Decisions in docs/REVIEW.md addendum. Monthly manual refresh.
+- 2026-10-11 · interactive (Jay + Claude) · **E3's three open questions answered and built** ·
+  Keep the empty-date pages (`PERENNIAL_EMPTY_PAGES` stays True — celebrity/historic dates are
+  coming, and the count already fell 8 -> 6); new **`/dates/` hub** listing all 366 by month,
+  with the header's Calendar tab and the footer link repointed to it from `/#calendar` (a fifth
+  tab was rejected: the tab row is tight at 760px); **holiday pages now point at the perennial
+  page** from the breadcrumb and the back-link, with the dated page kept in the Date row of the
+  spec list and in the sidebar. Also: one CSS rule (`.cat-list-off`, only used if the empty-page
+  switch is ever turned off), `/dates/*` cache rule, `llms.txt` updated with the date-page type
+  and which URL to cite, §3 boundary now names `public/<month>-<day>/**` as generated and
+  `llms.txt` as source. Verified by reverse-transform against HEAD: undoing the nav substitution
+  (plus the crumb/Date-row/back-link changes on holiday pages) makes **all 3,184 changed pages
+  byte-identical** to the committed version — zero unexplained deltas; sitemap gained exactly
+  one URL; exit 0, zero WARNINGs, idempotent; 40 assertions pass including the
+  `PERENNIAL_EMPTY_PAGES=False` branch. CLS and phone-width rendering not measured. Uncommitted.
+  Next engineering run: E3's `/holidays/<year>/` index pages. E2's five decisions still open.
