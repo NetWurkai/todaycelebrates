@@ -262,6 +262,32 @@ ones. `/october-8/` is the page that ranks for the recurring query.
 **Done when:** 366 perennial pages exist, canonicals are correct in both
 directions, no page is orphaned, sitemap is consistent, CLS stays 0.0000.
 
+**STATUS: PARTLY DONE 2026-10-11** (uncommitted). The 366 perennial
+`/<month>-<day>/` pages exist, February 29 included; both page types stay
+self-canonical and both stay in the sitemap (3,170 URLs); the cross-link runs
+both ways (dated page -> perennial in the note block, perennial -> its dated
+pages in the footer note); prev/next and the rail wrap as a closed 366-day ring,
+so nothing is orphaned (14,314 internal links resolve, minimum 10 inbound per
+page). New: `scripts/templates/perennial.html`, four functions and a generation
+block in `generate.py`, 12 cache rules in `public/_headers`, a README section.
+CLS was **not** measured — nothing was deployed; the page reuses `day.html`'s
+components and adds no CSS, so the argument is structural. Verified
+byte-identical for every holiday page, data file and the homepage against the
+pre-patch generator.
+
+**What is left of E3:** the **`/holidays/<year>/` index pages** (fourth bullet,
+not started) — a different page type, and the natural hub for the 366, so it is
+its own reviewable change. Three questions for Jay are in the 2026-10-11
+`docs/REVIEW.md`: whether to keep the 8 empty-date pages
+(`PERENNIAL_EMPTY_PAGES`, one line either way), where perennial pages belong in
+the navigation, and whether holiday pages should link to them too (that one
+rewrites all 2,439 holiday pages). **Do not restart E3 from the top**; the next
+engineering run does the year index pages.
+
+**Expect a large one-time regeneration when this lands:** 366 new pages *and*
+all 348 dated pages, because the back-link sits in their shared note block —
+which also restamps their `lastmod` in the sitemap once.
+
 ### E4 — Observance type taxonomy
 Flat 7–14 item day lists give Thanksgiving and National Pumpkin Day the same
 visual weight, which tells the reader we don't know which matters.
@@ -531,3 +557,22 @@ Newest last. One line per run: date, type, item, outcome. Keep it terse.
   overwriting them would have destroyed them. Rule 6 may want narrowing to "the
   engineering run overwrites REVIEW.md; content runs append."
 - 2026-10-10 · interactive (Jay + Claude) · Christmas / Valentine's / New Year's set to **Live**. Found that `**bold**` never survives Notion — it is stored as a rich-text annotation and `plain_text` drops it — so `parse_faq()`'s bold requirement meant **every FAQ ever written parsed to zero pairs**: no FAQ section, no FAQPage, on all five long-form rows. `parse_faq()` now reads the first line of a blank-line block as the question; byte-identical output on the current dataset, 5 pairs parsed from the real Christmas FAQ, FAQPage emitted. **Draft gate removed at Jay's request**: content runs now write Content Status = Live and owe a push recap per run (§4 rewritten; content and digest task prompts updated). Uncommitted.
+- 2026-10-11 · engineering · **E3 partly done — perennial date pages** · tree was clean,
+  E2's five decisions still unanswered (not unattended work), so went to the next unblocked
+  item. 366 `/<month>-<day>/` pages generated from a wider index pass: fixed-date rows are the
+  page's list, rule-dated rows are a note naming the years they land there, year-specific
+  content stays on `/day/`. New `scripts/templates/perennial.html`; `generate.py` (+~310)
+  index/renderer/generation/sitemap/report; `day.html` (+1) back-link marker; `_headers` (+39)
+  one cache rule per month; `README.md` (+64); `/about/` wording. Verified: pre-patch vs patched
+  differ *only* by the 366 new pages, one added paragraph on 348 dated pages, the `/about/`
+  sentence and 366 sitemap URLs — every holiday page, data file and the homepage byte-identical;
+  exit 0, zero WARNINGs, idempotent on a second run; 366 pages parse with no unbalanced tags and
+  340 valid `ItemList` blocks; 14,314 internal links resolve, no orphans, canonicals self on both
+  types; 40 assertions pass including the `PERENNIAL_EMPTY_PAGES=False` branch. CLS not measured
+  (nothing deployed). Nothing committed. 3 new decisions + E2's 5 in docs/REVIEW.md; next
+  engineering run: E3's `/holidays/<year>/` index pages.
+- 2026-10-11 · interactive (Jay) · **Born on this day** · new pipeline `scripts/build_people.py`
+  -> `scripts/people.json` (366 dates, two lists: historic = sitelinks, living = sitelinks/pageviews
+  blend); rendered as two sub-blocks on perennial (10) and dated (4) pages; not in Notion, not in
+  JSON-LD. Verified: only the 714 perennial/dated pages differ from baseline, byte-identical with
+  the block removed. Nothing committed. Decisions in docs/REVIEW.md addendum. Monthly manual refresh.

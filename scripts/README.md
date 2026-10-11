@@ -75,19 +75,25 @@ month. `obs_row()` and `calendar_html()` in `generate.py` and `obsRow()` /
 
 ## URL model — what owns what
 
-Two layers, deliberately separated so they don't compete for the same queries:
+Three layers, deliberately separated so they don't compete for the same
+queries:
 
 | URL | Owns | Lifetime |
 | --- | --- | --- |
 | `/` | **Today.** Always the current date, with today's real holiday names rendered into the HTML at build time, plus the interactive calendar. | Evergreen; content changes daily |
 | `/day/YYYY-MM-DD/` | **One specific date.** Permanent dated record, with the weekday, the observance list, and the year-specific note about which entries moved. | Permanent once published |
+| `/<month>-<day>/` | **One calendar date, any year** (`/october-8/`). The observances that fall on it *every* year, plus a note naming the years a rule-dated one lands there. The page for the recurring query. | Permanent; refreshed, not rewritten |
 | `/holiday/<slug>/` | **One observance.** Always shows its *next* occurrence. | Evergreen; one URL forever |
 | `/category/<slug>/`, `/categories/`, `/about/` | Browse-by-theme lists and the About page. | Evergreen |
 
 Each page self-canonicalises. `/` is not canonicalised to today's dated page or
 vice versa — they're different pages with different jobs, and collapsing them
 would either stop `/` ranking for "what holiday is today" or stop the dated
-archive being indexed at all.
+archive being indexed at all. The same reasoning holds for `/october-8/` and
+`/day/2026-10-08/`: the perennial page is the one meant to rank for "October 8
+holidays", the dated page is the record of that one October 8, both are
+self-canonical, and both stay in the sitemap. Neither carries a cross-domain
+`rel=canonical` to the other.
 
 Why the homepage is built at generate time: it used to render entirely
 client-side, so the HTML a crawler received had a `—` where the date belonged
@@ -186,6 +192,60 @@ used to raise on this year and be reported as having no date at all.
 `super-bowl-sunday` was exactly that case. If *no* year resolves, the error is
 re-raised, so an **expired** table still fails as loudly as before.
 
+### Perennial date pages (`/october-8/`)
+
+One page per calendar date with no year in the URL, 366 of them, February 29
+included. Three of the four leading competitors have this URL and we did not;
+it is the page that answers "what is celebrated on October 8" rather than one
+year's version of that question.
+
+**What goes on it, and what deliberately does not.** `build_perennial_index()`
+splits a date's observances in two:
+
+- **fixed-date (`Annual`) rows** are on that date every year, so they are the
+  page's own content: the numbered table, the count in the title, the
+  `ItemList` structured data.
+- **rule-dated (`Floating`) rows** are *not* October 8 observances — they are
+  observances that fall on October 8 in 2027 and 2032. They appear in a note
+  that names those years, never in the table, and never in the count.
+
+The year-specific angle — the weekday, and where a moveable observance goes
+*next* year — stays on `/day/YYYY-MM-DD/`. That split is the only thing keeping
+the two page types from being near-duplicates, so don't move the floating rows
+into the table "for completeness": it would make the perennial page a copy of
+whichever year was generated, and make it wrong the following year.
+
+**`PERENNIAL_YEARS`** (10) is how many calendar years from the current one the
+wider index pass examines, and it only affects that note. A `lookup_table` rule
+that runs out of confirmed years simply contributes the years it has and lands
+in the report's `perennial_index_skipped` — the three administratively-dated
+rows are there today. That list is informational: unlike `unresolved_holidays`
+it is not a warning, because a rule not reaching 2035 is normal.
+
+**`PERENNIAL_EMPTY_PAGES`** (True) decides what happens to a date with nothing
+on it. 26 month-days have no fixed-date observance and 8 have nothing at all in
+the window (Jan 3, Jan 6, Jan 12, May 2, Jun 3, Jun 11, Jul 10, Aug 31 as of
+2026-10-11). True publishes all 366, so no date in the year 404s; False
+publishes only the dates that have something and the prev/next ring skips the
+rest. It is a content decision, not a code change.
+
+**Navigation is a closed ring.** Prev/next and the "Nearby dates" rail wrap at
+December 31, so every one of the 366 is reachable from its neighbours no matter
+which one a crawler lands on — that is what keeps a date with nothing on it from
+being orphaned. The cross-link to the dated pages is in the note at the foot of
+the content; the other half of it is `PERENNIAL_LINK` in `render_day_page()`.
+
+**The one value on these pages that moves.** Each table row carries the next
+date this month-day comes round, because that is what the "Add to calendar"
+button needs. So on the day after a date passes, that one page's rows roll to
+next year's ISO date: **exactly one perennial page changes per day**, which is
+the churn to expect in the daily commit. Everything else on the page is derived
+from the calendar and the holiday data alone.
+
+**Cache headers.** These pages sit at the top level, so `public/_headers` has
+one rule per month (`/january-*` … `/december-*`) rather than a single splat,
+which would match the whole site.
+
 ### The dated archive's forward horizon is derived, not configured
 
 `day_end = max(occurrences.values())` — the `/day/` archive and the month data
@@ -208,6 +268,81 @@ Don't "simplify" this back to stamping every URL with today — that was the
 original behavior, and it both rewrote all ~2,400 URLs in every daily
 commit (a 4,880-line diff a day) and told crawlers the entire site changed
 daily when roughly ten pages had.
+
+## Born on this day (`build_people.py` -> `people.json`)
+
+Every perennial page (`/october-10/`) and dated page (`/day/2026-10-10/`) carries
+a "Born on <date>" block with two separate sub-blocks:
+
+- **Historic figures** - deceased people, ranked by Wikipedia language-edition count
+  (sitelinks). That ranking is stable, so the list rarely changes.
+- **Celebrities & public figures** - living people, ranked by a blend:
+  `0.5*z(log sitelinks) + 0.5*z(log median daily pageviews, last 60 days)`, z-scores
+  taken across all 366 dates. Sitelinks alone surface old politicians; pageviews
+  alone surface whoever was in the news last week; the blend gives recognisable names.
+
+The perennial page shows up to 10 per list (`PEOPLE_PERENNIAL_LIMIT`), the dated
+page 4 (`PEOPLE_DAY_LIMIT`) plus a link to the perennial page. 12 are kept per list
+in the data.
+
+**Pipeline** (separate from the Notion pipeline; people never go through Notion):
+
+```
+Wikipedia "on this day" births ----+
+Wikidata (sitelinks, birth/death) -+--> scripts/build_people.py --> scripts/people.json --> generate.py
+MediaWiki pageviews (living) ------+          ^
+                                    scripts/people_overrides.json (hand-kept)
+```
+
+`people.json` is committed, so a normal `generate.py` run needs no network. The
+feature is simply off if the file is missing, and `generate.py` warns (and, in
+Actions, annotates) when the file is older than 45 days (`PEOPLE_STALE_DAYS`).
+
+**Refresh (about monthly, by hand - workflow files are protected, so it is not
+scheduled):**
+
+```
+python3 scripts/build_people.py            # full build, resumable; cache in scripts/.people_cache/ (git-ignored)
+python3 scripts/build_people.py --assemble-only   # after editing people_overrides.json only
+python3 scripts/build_people.py --dates 10-10     # one date; --refresh re-fetches it
+python3 scripts/build_people.py --fix-views       # re-fetch pageviews only, for dates flagged views_ok=false
+```
+
+A full build is ~366 dates and takes a few minutes on an ordinary connection.
+Shared cloud IPs get rate-limited by Wikimedia; the script honours `Retry-After`,
+and `--budget SECONDS` stops cleanly so a long build can be run in slices. Writes
+are atomic per date, so an interrupted run resumes where it stopped.
+
+**Rules the build applies** (all in `build_people.py`, constants at the top):
+
+- A person is kept only if Wikipedia and Wikidata agree on the month-day *and* the
+  Wikidata date has day precision. Julian-calendar dates after 1582 are dropped as
+  ambiguous; pre-1583 dates tolerate the Julian-to-Gregorian shift. Conflicts are
+  logged in `.people_cache/report.json`.
+- Minimum notability: 25 sitelinks (historic), 20 sitelinks and 150 median daily
+  views (living).
+- Anyone with a recorded criminal conviction on Wikidata (P1399) is dropped
+  (`EXCLUDE_CONVICTED`). This is blunt: it also drops fraud and tax convictions.
+- Occupation deny-list: serial killers (`DENY_OCCUPATIONS`, label-checked at run time).
+- `people_overrides.json` -> `exclude` removes a person by Wikipedia title or QID
+  (currently 11 people: Nazi leadership, Stalin, Mussolini, jihadist leaders, an
+  ICTY indictee); `include` adds one the build would not.
+- A person who lands on more than one date (e.g. a disputed birth date) is dropped
+  from all of them rather than guessed.
+- Descriptors come from Wikipedia's own one-line summary, trimmed to ~70 characters;
+  for living people only the lead clause is kept, because office-holder text goes
+  stale ("current president of ...").
+
+**Deliberately not done:** no `Event`/`Person` JSON-LD (a birthday is not an event
+people attend, and it would put 8,800 entities into structured data); nothing
+written to Notion; the homepage does not show people; people never appear in the
+sitemap or on `/holiday/` pages. Removing the `<!--TC:PEOPLE_BLOCK-->` marker or
+running with `--people /nonexistent` produces output byte-identical to before the
+feature.
+
+**Attribution:** each block ends with "Birth dates from Wikidata; names link to
+Wikipedia." Wikidata is CC0. Descriptor text is paraphrased from Wikipedia
+(CC BY-SA); it is short and every name links back to the article.
 
 ## `export_from_notion.py`
 

@@ -123,6 +123,19 @@ table.obs[hidden]{display:none}
 .empty-note[hidden]{display:none}
 .note{margin:20px 0;padding:12px 14px;background:var(--alt);border-left:4px solid var(--coral);color:var(--muted);max-width:46em}
 .note p{margin:0 0 8px}.note p:last-child{margin:0}
+/* Born on this day: two sub-blocks (historic / living), from scripts/people.json.
+   Static markup only -- no JS, no images -- so it adds no layout shift. */
+.born{margin:28px 0 8px}
+.born-cols{display:grid;grid-template-columns:1fr;gap:20px 32px}
+@media (min-width:700px){.born-cols{grid-template-columns:1fr 1fr}}
+.born h3{margin:0 0 4px;padding-bottom:6px;font-size:15px;border-bottom:2px solid var(--ink)}
+.born-list{list-style:none;margin:0;padding:0}
+.born-list li{display:grid;grid-template-columns:1fr auto;gap:0 12px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--line)}
+.born-list a{font-weight:700;text-decoration:none}
+.born-list a:hover{color:var(--acc);text-decoration:underline}
+.born-list .yrs{color:var(--muted);font-size:12px;white-space:nowrap}
+.born-list .desc{grid-column:1 / -1;color:var(--muted);font-size:13px}
+.born-more,.born-src{margin:10px 0 0;color:var(--muted);font-size:13px;max-width:46em}
 .intro{color:var(--muted);font-size:15px;margin:12px 0 16px;max-width:46em}
 .tool{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:14px 0;border-top:2px solid var(--ink);border-bottom:1px solid var(--line);margin:16px 0}
 .tool .btn:nth-of-type(2){background:var(--mint)}

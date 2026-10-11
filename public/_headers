@@ -4,6 +4,45 @@
 /day/*
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
+# Perennial date pages (/october-8/). One rule per month: these live at the
+# top level, so there is no shared prefix to splat without matching
+# everything else on the site.
+/january-*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/february-*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/march-*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/april-*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/may-*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/june-*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/july-*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/august-*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/september-*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/october-*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/november-*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/december-*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
 /category/*
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 

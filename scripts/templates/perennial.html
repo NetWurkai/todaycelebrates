@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" class="<!--TC:HTML_CLASS-->">
+<head>
+<!--TC-ONLY
+  SOURCE TEMPLATE for public/<month>-<day>/index.html -- the perennial date
+  page (E3): one page per calendar date with no year in the URL, e.g.
+  /october-8/. Shared chrome (head, header, footer, scripts) comes from
+  partials/ -- edit those once, not here.
+
+  Deliberately the same component set as day.html (pagehead, obs table, note,
+  tool, pn, wk rail) and the same three ad slots in the same order, so this
+  page type introduces no new layout and no new CLS surface.
+-->
+<!--TC:HEAD_COMMON-->
+<title><!--TC:TITLE--></title>
+<meta name="description" content="<!--TC:DESCRIPTION-->">
+<link rel="canonical" href="<!--TC:URL-->">
+<meta property="og:type" content="website">
+<meta property="og:title" content="<!--TC:OG_TITLE-->">
+<meta property="og:description" content="<!--TC:DESCRIPTION-->">
+<meta property="og:image" content="<!--TC:HERO_IMAGE_ABS-->">
+<meta property="og:url" content="<!--TC:URL-->">
+<meta property="og:site_name" content="Today Celebrates">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<!--TC:OG_TITLE-->">
+<meta name="twitter:description" content="<!--TC:DESCRIPTION-->">
+<meta name="twitter:image" content="<!--TC:HERO_IMAGE_ABS-->"><!--TC:LD_BLOCK-->
+</head>
+<body>
+<!--TC:SITE_HEADER-->
+<div class="wrap">
+  <div class="ad-slot ad-leaderboard" data-ad-slot="leaderboard" data-ad-eager="1"></div>
+  <!--TC:CRUMBS-->
+  <div class="layout two">
+    <main id="main">
+      <div class="pagehead">
+        <div>
+          <div class="eyebrow-line mono"><!--TC:EYEBROW--></div>
+          <h1><!--TC:HEADLINE--></h1>
+        </div>
+        <div class="stepper"><!--TC:DATE_NAV--></div>
+      </div>
+      <p class="intro"><!--TC:INTRO--></p>
+      <!--TC:LIST_BLOCK--><!--TC:MOVES_NOTE--><!--TC:PEOPLE_BLOCK--><!--TC:YEARS_NOTE-->
+      <div class="tool" data-u="<!--TC:PATH-->" data-n="<!--TC:SHARE_TITLE-->" data-t="<!--TC:SHARE_TEXT-->">
+        <strong>Share this date</strong>
+        <button type="button" class="btn pri" data-a="share"><svg width="16" height="16" aria-hidden="true"><use href="#i-share"/></svg>Share</button>
+        <button type="button" class="btn" data-a="copy"><svg width="16" height="16" aria-hidden="true"><use href="#i-link"/></svg>Copy link</button>
+        <div class="soc"><span>Send via</span><!--TC:SHARE_LINKS--></div>
+      </div>
+      <div class="pn"><!--TC:DATE_PN--></div>
+      <div class="ad-slot ad-rect" data-ad-slot="footer"></div>
+    </main>
+    <aside class="right" aria-label="Nearby dates">
+      <h2>Nearby dates</h2>
+      <div class="wk"><!--TC:NEARBY--></div>
+      <div class="ad-rail" data-ad-slot="rail"></div>
+    </aside>
+  </div>
+</div>
+<!--TC:SITE_FOOTER-->
+<!--TC:SITE_SCRIPTS-->
+</body>
+</html>

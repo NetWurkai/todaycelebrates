@@ -1,0 +1,17 @@
+{
+  "_readme": "Hand-kept corrections for scripts/build_people.py. 'exclude' keeps a person off the automatic lists: key is a Wikipedia title (as in the article URL, underscores) or a Wikidata QID, value is the reason. 'include' adds a person the build would not: {date: 'MM-DD', list: 'historic'|'living', name, title, y (birth year), d (death year or null), w (short descriptor), sl (Wikipedia language editions, used only to order the list)}. Edit this file, then run: python3 scripts/build_people.py --assemble-only",
+  "exclude": {
+    "Heinrich_Himmler": "architect of the Holocaust",
+    "Joseph_Goebbels": "Nazi propaganda minister",
+    "Eva_Braun": "Hitler's partner; excluded with the Nazi leadership",
+    "Joseph_Stalin": "responsible for the Great Purge and mass deportations and famines",
+    "Benito_Mussolini": "fascist dictator",
+    "Osama_bin_Laden": "al-Qaeda leader; September 11 attacks",
+    "Abu_Bakr_al-Baghdadi": "Islamic State leader",
+    "Ayman_al-Zawahiri": "al-Qaeda leader",
+    "Hassan_Nasrallah": "Hezbollah leader; designated a terrorist organization by the US and EU",
+    "Qasem_Soleimani": "IRGC commander; designated a terrorist by the US",
+    "Slobodan_Milošević": "indicted by the ICTY for war crimes; died before a verdict"
+  },
+  "include": []
+}

@@ -10,3 +10,6 @@ Claude outputs/
 
 # macOS Finder metadata
 .DS_Store
+
+# Per-date Wikipedia/Wikidata responses from scripts/build_people.py (resume cache)
+scripts/.people_cache/

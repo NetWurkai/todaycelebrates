@@ -63,6 +63,49 @@ SITE_BASE_URL = "https://todaycelebrates.com"
 # pages that are already published and indexed.
 DAY_ARCHIVE_START = datetime.date(2026, 10, 8)
 
+# Perennial date pages (E3): /<month>-<day>/, e.g. /october-8/ -- one page per
+# calendar date with no year in the URL. Three of the four leading competitors
+# have this URL and we did not; it is the page that answers the recurring
+# query ("what is celebrated on October 8") rather than one year's version of
+# it.
+#
+# PERENNIAL_YEARS is how many calendar years, starting with the current one,
+# are examined to work out which rule-dated ("Floating") observances can land
+# on a given month-day. It only affects the "lands here in some years" note:
+# the fixed-date list is year-independent. Ten years is enough for the weekday
+# rules to cycle; the lookup-table rules simply contribute the years they have
+# (see "FLOATING_RULES -- which ones expire" in scripts/README.md).
+PERENNIAL_YEARS = 10
+
+# Whether to publish a page for a month-day that has nothing on it at all.
+# 26 month-days have no fixed-date observance and 8 have nothing in a ten-year
+# window (Jan 3, Jan 6, Jan 12, May 2, Jun 3, Jun 11, Jul 10, Aug 31 as of
+# 2026-10-11). True publishes all 366 so no date in the year 404s and the URL
+# stays guessable; False publishes only the dates that have something, and the
+# prev/next chain and the rail skip the rest. Flipping this is a content call,
+# not a code change.
+PERENNIAL_EMPTY_PAGES = True
+
+# "Born on this day": two sub-blocks per date -- historic figures and living
+# celebrities/public figures -- read from scripts/people.json. That file is a
+# committed data file built by scripts/build_people.py (run by hand, about
+# monthly); this script never touches the network for it, so the daily workflow
+# is unaffected. If the file is missing the blocks simply do not render and
+# every page is byte-identical to a build without the feature.
+#
+# The full lists live on the perennial /<month>-<day>/ pages, which is where
+# they compound. The dated /day/ pages carry a short version that links to the
+# full one, so a date does not repeat the same twenty names on every year's page.
+DEFAULT_PEOPLE_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "people.json"
+)
+PEOPLE_PERENNIAL_LIMIT = 10  # names per sub-block on /october-10/
+PEOPLE_DAY_LIMIT = 4         # names per sub-block on /day/2026-10-10/
+# The living lists age: someone on them can die, and a page that lists a dead
+# person as a living celebrity is a credibility problem. main() warns once the
+# file is older than this, and the fix is to re-run scripts/build_people.py.
+PEOPLE_STALE_DAYS = 45
+
 DEFAULT_TEMPLATES_DIR = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "templates"
 )
@@ -157,6 +200,51 @@ def short_badge_date(d):
 
 def day_path(d):
     return f"/day/{d.isoformat()}/"
+
+
+def perennial_path(month, day):
+    """/october-8/ -- the year-less page for one calendar date.
+
+    Unpadded day on purpose: it is the form the competing sites use and the
+    form a person types.
+    """
+    return f"/{MONTH_NAMES[month].lower()}-{day}/"
+
+
+def month_day_label(month, day):
+    return f"{MONTH_NAMES[month]} {day}"
+
+
+def all_month_days():
+    """Every (month, day) in the calendar year, February 29 included: 366.
+
+    Derived from a leap year so the list is the same on every run -- the
+    perennial pages are permanent URLs and February 29 is a real date that
+    needs one even in a non-leap year.
+    """
+    out = []
+    for m in range(1, 13):
+        for d in range(1, calendar.monthrange(2024, m)[1] + 1):
+            out.append((m, d))
+    return out
+
+
+def next_md_occurrence(month, day, today):
+    """The next date this month-day falls on, on or after `today`.
+
+    Nine years of scan for the same reason next_occurrence() uses nine: it has
+    to reach the next leap year from any starting point (February 29 can be
+    eight years away across a non-leap century year). Returns None if it
+    cannot, which no real date does.
+    """
+    for year in range(today.year, today.year + 9):
+        try:
+            cand = datetime.date(year, month, day)
+        except ValueError:
+            continue
+        if cand >= today:
+            return cand
+    return None
 
 
 def js_day_key(d):
@@ -1217,8 +1305,103 @@ def week_list_html(date, day_index, published_days):
     return "".join(out)
 
 
+def load_people(path):
+    """scripts/people.json -> {"meta": {...}, "dates": {"MM-DD": {...}}}, or None.
+
+    Never raises: a missing or damaged file turns the feature off for this run
+    (with a warning for the damaged case) rather than failing the daily build.
+    """
+    if not path or not os.path.exists(path):
+        return None
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        if not isinstance(data.get("dates"), dict):
+            raise ValueError("no 'dates' object")
+        return data
+    except (OSError, ValueError, AttributeError) as e:
+        print(f"WARNING: {path} could not be read ({e}); the 'born on this "
+              f"day' blocks are off for this run.", file=sys.stderr)
+        return None
+
+
+def person_li_html(r):
+    """One person: name linked to Wikipedia, years, and a short descriptor."""
+    title = r.get("title") or r["name"].replace(" ", "_")
+    href = "https://en.wikipedia.org/wiki/" + quote(title, safe="()_,'.:!~*-")
+    if r.get("d") is None:
+        years = f"b.&nbsp;{r['y']}"
+    else:
+        years = f"{r['y']}&ndash;{r['d']}"
+    desc = r.get("w") or ""
+    return (
+        f'<li><a href="{esc_href(esc_text(href))}" rel="noopener">{esc_text(r["name"])}</a>'
+        f'<span class="yrs mono">{years}</span>'
+        + (f'<span class="desc">{esc_text(desc)}</span>' if desc else "")
+        + "</li>"
+    )
+
+
+def people_block_html(people, month, day, limit, full_page=False):
+    """The "Born on <date>" section: Historic figures and Celebrities, side by side.
+
+    Two sub-blocks because they answer different questions and age differently:
+    the historic list is deceased people ranked by global notability and never
+    changes; the living list is ranked by a notability/pageview blend and is the
+    one that needs the periodic refresh. Either sub-block is omitted when it has
+    no one; the whole section is omitted when neither does.
+
+    Years only, never an age: "born 1967" stays true on a page that is
+    regenerated for years, "turns 59" does not.
+
+    This section is deliberately plain HTML with no structured data: a birthday
+    is not an Event, and these names must stay out of the Event JSON-LD that is
+    reserved for genuine observances (see the credibility constraints in
+    docs/EXECUTION_PLAN.md, E6).
+    """
+    if not people:
+        return ""
+    entry = people["dates"].get(f"{month:02d}-{day:02d}")
+    if not entry:
+        return ""
+    historic = entry.get("historic", [])[:limit]
+    living = entry.get("living", [])[:limit]
+    if not historic and not living:
+        return ""
+
+    def column(heading, rows):
+        if not rows:
+            return ""
+        return (
+            f'<div><h3>{heading}</h3><ul class="born-list">'
+            + "".join(person_li_html(r) for r in rows)
+            + "</ul></div>"
+        )
+
+    label = month_day_label(month, day)
+    cols = (
+        column("Historic figures", historic)
+        + column("Celebrities &amp; public figures", living)
+    )
+    more = ""
+    if not full_page:
+        more = (
+            f'<p class="born-more"><a href="{perennial_path(month, day)}#born-h">'
+            f"Everyone born on {esc_text(label)} &rarr;</a></p>"
+        )
+    return (
+        f'<section class="born" aria-labelledby="born-h">'
+        f'<h2 class="eyebrow" id="born-h">Born on {esc_text(label)}</h2>'
+        f'<div class="born-cols">{cols}</div>{more}'
+        f'<p class="born-src">Birth dates from '
+        f'<a href="https://www.wikidata.org/" rel="noopener">Wikidata</a>; '
+        f"names link to Wikipedia.</p>"
+        f"</section>"
+    )
+
+
 def render_day_page(date, items, prev_date, next_date, template, by_slug, memo,
-                    chrome, day_index, published_days):
+                    chrome, day_index, published_days, people=None):
     """Render one permanent /day/YYYY-MM-DD/ page."""
     n = len(items)
     lead = items[0]
@@ -1318,6 +1501,9 @@ def render_day_page(date, items, prev_date, next_date, template, by_slug, memo,
         ),
         "LIST_BLOCK": list_block,
         "MOVEABLE_NOTE": moveable_note_html(date, items, by_slug, memo),
+        "PEOPLE_BLOCK": people_block_html(
+            people, date.month, date.day, PEOPLE_DAY_LIMIT
+        ),
         "DAY_NAV": stepper,
         "DAY_PN": "".join(nav),
         "HTML_CLASS": html_class(),
@@ -1327,6 +1513,303 @@ def render_day_page(date, items, prev_date, next_date, template, by_slug, memo,
         "SHARE_TEXT": esc_attr(share_text),
         "SHARE_LINKS": share_links(path, share_title),
         "WEEK_LIST": week_list_html(date, day_index, published_days),
+        # The dated -> perennial half of E3's cross-link. Derived from the date
+        # alone, so a past dated page still regenerates byte-identically.
+        "PERENNIAL_LINK": (
+            f'<p>For what falls on {esc_attr(month_day(date))} in any year, see '
+            f'<a href="{perennial_path(date.month, date.day)}">'
+            f'{esc_attr(month_day(date))} holidays and observances</a>.</p>'
+        ),
+        **chrome,
+    })
+
+
+def build_perennial_index(wide_index):
+    """(month, day) -> what falls on that calendar date, year-independently.
+
+    Built from a wide build_day_index() pass rather than from a single year,
+    because that is the only way to answer the question a year-less page asks:
+    *which* observances can land on October 8, and which of them land there
+    every single year.
+
+    Two buckets, and the split is the whole point of the page type:
+
+      annual   -- fixed-date observances. They are on this date every year, so
+                  they are the perennial page's own content.
+      floating -- rule-dated observances, each with the years inside the
+                  window in which the rule puts it on this date. "Memorial Day
+                  is May 25 in 2026 and 2032" is a fact about the calendar, not
+                  about a particular year, so it belongs here too -- but as a
+                  note, not as a list entry, since it is not true every year.
+
+    The year-specific angle (the weekday, and where a moveable observance goes
+    *next* year) stays on /day/YYYY-MM-DD/, which is what keeps the two page
+    types from being near-duplicates of each other.
+    """
+    buckets = {key: {"annual": {}, "floating": {}} for key in all_month_days()}
+    for date, items in wide_index.items():
+        bucket = buckets.get((date.month, date.day))
+        if bucket is None:  # cannot happen for a real date; cheap guard
+            continue
+        for h in items:
+            if h["recurrence"] == "Annual":
+                bucket["annual"][h["slug"]] = h
+            else:
+                bucket["floating"].setdefault(h["slug"], [h, []])[1].append(date.year)
+
+    index = {}
+    for key, bucket in buckets.items():
+        annual = sorted(
+            bucket["annual"].values(),
+            key=lambda h: (h.get("display_order", 999), h["name"]),
+        )
+        floating = sorted(
+            ((h, sorted(set(years))) for h, years in bucket["floating"].values()),
+            key=lambda pair: (pair[1][0], pair[0]["name"]),
+        )
+        index[key] = {"annual": annual, "floating": floating}
+    return index
+
+
+def perennial_nearby_html(key, month_days, perennial_index):
+    """The rail: three dates either side of this one, as a closed 366-day ring.
+
+    Wrapping at December 31 is deliberate -- it means every perennial page is
+    reachable from its neighbours no matter which one a crawler lands on, so
+    none of the 366 can be orphaned even for a date with nothing on it.
+    """
+    i = month_days.index(key)
+    out = []
+    for offset in range(-3, 4):
+        k = month_days[(i + offset) % len(month_days)]
+        label = f"{MONTH_ABBR[k[0]]} {k[1]}"
+        if k == key:
+            out.append(
+                f'<a class="t" href="{perennial_path(*k)}" aria-current="page">'
+                f'<span class="d mono">{label}</span><b>This page</b></a>'
+            )
+            continue
+        n = len(perennial_index[k]["annual"])
+        if n:
+            note = f'{n} every year'
+        elif perennial_index[k]["floating"]:
+            note = "Moveable dates only"
+        else:
+            note = "Nothing on record"
+        out.append(
+            f'<a href="{perennial_path(*k)}"><span class="d mono">{label}</span>'
+            f'<b>{note}</b></a>'
+        )
+    return "".join(out)
+
+
+def perennial_moves_html(label, floating):
+    """The "lands here in some years" note.
+
+    Each entry names the years inside the window, which is the honest form: a
+    rule-dated observance is not an October 8 observance, it is one that falls
+    on October 8 in 2026 and 2032. Naming the years is also what keeps this
+    page from claiming something the dated pages contradict.
+    """
+    if not floating:
+        return ""
+    lines = [
+        f"<p>These are set by a rule rather than a fixed date, so they only land "
+        f"on {esc_attr(label)} in some years.</p>"
+    ]
+    for h, years in floating:
+        yrs = join_names([str(y) for y in years])
+        lines.append(
+            f'<p><a href="/holiday/{h["slug"]}/">{esc_attr(h["name"])}</a> &mdash; '
+            f'{yrs}</p>'
+        )
+    return f'<div class="moveable-note">{"".join(lines)}</div>'
+
+
+def perennial_years_html(label, dated):
+    """Cross-link from the perennial page to the dated pages for the same date.
+
+    The other direction lives in render_day_page()'s PERENNIAL_LINK. Both
+    pages stay self-canonical and both stay in the sitemap: they answer
+    different questions, and collapsing either into the other would lose one of
+    them (see the URL model table in scripts/README.md).
+    """
+    parts = [
+        f"<p>This page covers {esc_attr(label)} in any year."
+    ]
+    if dated:
+        links = join_names([
+            f'<a href="{day_path(d)}">{esc_attr(long_date(d))}</a>' for d in dated
+        ])
+        parts[0] += (
+            f" For one year in particular &mdash; the weekday, and which moveable "
+            f"observances landed on it &mdash; see {links}.</p>"
+        )
+    else:
+        parts[0] += "</p>"
+    parts.append(
+        "<p>Today Celebrates tracks daily national, international and world "
+        "observances all year.</p>"
+    )
+    return f'<div class="note">{"".join(parts)}</div>'
+
+
+def render_perennial_page(key, bucket, prev_key, next_key, template, chrome,
+                          month_days, perennial_index, dated, today, people=None):
+    """Render one permanent /<month>-<day>/ page."""
+    month, day = key
+    label = month_day_label(month, day)
+    path = perennial_path(month, day)
+    url = f"{SITE_BASE_URL}{path}"
+    annual = bucket["annual"]
+    floating = bucket["floating"]
+    n = len(annual)
+    nf = len(floating)
+
+    # The ICS button on each row needs a concrete date, so rows carry the next
+    # time this month-day comes round. That is the one value on this page that
+    # moves: on the day after this date passes, these pages' rows roll to next
+    # year's ISO date, so exactly one perennial page changes per day. Everything
+    # else here is derived from the calendar and the holiday data alone.
+    occ = next_md_occurrence(month, day, today)
+    iso_date = occ.isoformat() if occ else ""
+
+    hero_rel = f"/images/hero/{annual[0]['category'] if annual else 'celebration'}.jpg"
+
+    if annual:
+        rows = [obs_row(h, i, iso_date) for i, h in enumerate(annual)]
+        # Same split as the dated pages: a rectangle partway down a long list,
+        # between two tables rather than inside a row.
+        if len(rows) >= 8:
+            split = 5
+            list_block = (
+                f'<table class="obs">{OBS_THEAD}<tbody>{"".join(rows[:split])}</tbody></table>'
+                f'<div class="ad-slot ad-rect" data-ad-slot="incontent"></div>'
+                f'<table class="obs"><caption class="sr">Observances, continued</caption>'
+                f'<tbody>{"".join(rows[split:])}</tbody></table>'
+            )
+        else:
+            list_block = f'<table class="obs">{OBS_THEAD}<tbody>{"".join(rows)}</tbody></table>'
+    else:
+        list_block = (
+            f'<p class="empty-note">No observance falls on {esc_attr(label)} '
+            f'every year.</p>'
+        )
+
+    if n:
+        preview = join_names([h["name"] for h in annual[:3]])
+        description = (
+            f"{n} national and international {plural(n, 'holiday')} and observances "
+            f"fall on {label} every year, including {preview}."
+        )
+        intro = (
+            f"{n} national, international, and world {plural(n, 'observance')} "
+            f"{plural(n, 'is', 'are')} on the calendar for {esc_attr(label)} "
+            f"every year"
+        )
+        intro += (
+            f", and {nf} more {plural(nf, 'lands', 'land')} on it in some years."
+            if nf else "."
+        )
+        title = (
+            f"{label}: {n} {plural(n, 'Holiday')} & Observances "
+            f"| Today Celebrates"
+        )
+    elif nf:
+        names = join_names([h["name"] for h, _ in floating[:3]])
+        description = (
+            f"No observance falls on {label} every year, but {names} can land on "
+            f"it depending on the year."
+        )
+        intro = (
+            f"Nothing falls on {esc_attr(label)} every year. "
+            f"{nf} rule-dated {plural(nf, 'observance')} "
+            f"{plural(nf, 'lands', 'land')} on it in some years."
+        )
+        title = f"{label}: Holidays and Observances | Today Celebrates"
+    else:
+        description = (
+            f"No national or international observance is on record for {label}. "
+            f"Today Celebrates keeps a page for every date of the year."
+        )
+        intro = (
+            f"No observance is on record for {esc_attr(label)}, in any year. "
+            f"The site keeps a page for every date of the calendar, so this one "
+            f"is here for when that changes."
+        )
+        title = f"{label}: No Observances on Record | Today Celebrates"
+
+    share_title = (
+        f"Everything {label} celebrates" if (n or nf)
+        else f"{label} on the calendar"
+    )
+    share_text = (
+        f"{n} {plural(n, 'holiday')} and observances on {label}, every year"
+        if n else f"What {label} celebrates"
+    )
+
+    ld_block = ""
+    if annual:
+        ld = {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": f"Holidays and observances on {label}",
+            "numberOfItems": n,
+            "itemListOrder": "https://schema.org/ItemListOrderAscending",
+            "url": url,
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": i + 1,
+                    "name": h["name"],
+                    "url": f"{SITE_BASE_URL}/holiday/{h['slug']}/",
+                }
+                for i, h in enumerate(annual)
+            ],
+        }
+        ld_json = json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")
+        ld_block = (
+            f'\n<script type="application/ld+json">{ld_json}</script>'
+        )
+
+    prev_label = month_day_label(*prev_key)
+    next_label = month_day_label(*next_key)
+    stepper = (
+        f'<a class="btn" href="{perennial_path(*prev_key)}" '
+        f'aria-label="Previous date: {esc_attr(prev_label)}">&lsaquo;</a>'
+        f'<a class="btn" href="{perennial_path(*next_key)}" '
+        f'aria-label="Next date: {esc_attr(next_label)}">&rsaquo;</a>'
+    )
+    pn = (
+        f'<a href="{perennial_path(*prev_key)}">&larr; {esc_attr(prev_label)}</a>'
+        f'<a href="{perennial_path(*next_key)}">{esc_attr(next_label)} &rarr;</a>'
+    )
+
+    return fill(template, {
+        "TITLE": esc_attr(title),
+        "OG_TITLE": esc_attr(share_title),
+        "DESCRIPTION": esc_attr(description),
+        "URL": url,
+        "PATH": path,
+        "HERO_IMAGE_ABS": f"{SITE_BASE_URL}{hero_rel}",
+        "CRUMBS": crumbs_html((label, None)),
+        "EYEBROW": esc_attr(f"EVERY {label}").upper(),
+        "HEADLINE": esc_attr(share_title),
+        "INTRO": intro,
+        "LIST_BLOCK": list_block,
+        "MOVES_NOTE": perennial_moves_html(label, floating),
+        "PEOPLE_BLOCK": people_block_html(
+            people, month, day, PEOPLE_PERENNIAL_LIMIT, full_page=True
+        ),
+        "YEARS_NOTE": perennial_years_html(label, dated),
+        "DATE_NAV": stepper,
+        "DATE_PN": pn,
+        "HTML_CLASS": html_class(),
+        "LD_BLOCK": ld_block,
+        "SHARE_TITLE": esc_attr(share_title),
+        "SHARE_TEXT": esc_attr(share_text),
+        "SHARE_LINKS": share_links(path, share_title),
+        "NEARBY": perennial_nearby_html(key, month_days, perennial_index),
         **chrome,
     })
 
@@ -1438,8 +1921,9 @@ def render_about_body(total, category_count):
         f"categories, each with a page of its own.</p>"
         "<h2>How the site is organised</h2>"
         '<p><a href="/">Today</a> shows what is being celebrated right now. Every '
-        "date of the coming year has a permanent page listing everything that falls "
-        "on it, and every observance has one page that always shows its next date. "
+        "date of the year has a page of its own listing everything that falls "
+        "on it, and every observance has one page that always shows its next "
+        "date. "
         '<a href="/categories/">Categories</a> lets you browse by theme, and the '
         "search box finds any observance by name.</p>"
         "<h2>Fixed and moving dates</h2>"
@@ -1476,8 +1960,12 @@ def read_sitemap_lastmods(path):
     return dict(pairs)
 
 
-def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
-    """Returns a report dict describing what changed."""
+def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
+             people=None):
+    """Returns a report dict describing what changed.
+
+    `people` is the parsed scripts/people.json (see load_people), or None to
+    render the date pages without the "born on this day" blocks."""
     templates_dir = templates_dir or DEFAULT_TEMPLATES_DIR
     by_slug = {h["slug"]: h for h in holidays}
     memo = {}  # (slug, year) -> date.date, shared across all holidays this run
@@ -1569,7 +2057,7 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
         next_d = day_dates[i + 1] if i + 1 < len(day_dates) else None
         new_html = render_day_page(
             d, day_index[d], prev_d, next_d, day_template, by_slug, memo,
-            chromes["CALENDAR"], day_index, published_days,
+            chromes["CALENDAR"], day_index, published_days, people=people,
         )
         page_dir = os.path.join(site_dir, "day", d.isoformat())
         page_path = os.path.join(page_dir, "index.html")
@@ -1584,6 +2072,51 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
             os.makedirs(page_dir, exist_ok=True)
             with open(page_path, "w", encoding="utf-8") as f:
                 f.write(new_html)
+
+    # ---- perennial /<month>-<day>/ pages (E3) ----
+    # A second, wider index pass: the year-less page has to know which
+    # rule-dated observances can land on a date across several years, which the
+    # archive's one-year window cannot answer. `memo` is shared with the pass
+    # above, so every date either pass already computed is free.
+    perennial_start = min(datetime.date(today.year, 1, 1), today)
+    perennial_end = datetime.date(today.year + PERENNIAL_YEARS - 1, 12, 31)
+    wide_index, perennial_skipped = build_day_index(
+        holidays, by_slug, memo, perennial_start, perennial_end
+    )
+    perennial_index = build_perennial_index(wide_index)
+    perennial_mds = all_month_days()
+    dated_by_md = {}
+    for d in day_dates:
+        dated_by_md.setdefault((d.month, d.day), []).append(d)
+
+    perennial_template = load_template(templates_dir, "perennial.html")
+    perennial_diffs = {"created": [], "changed": [], "unchanged": 0, "skipped": []}
+    for i, key in enumerate(perennial_mds):
+        bucket = perennial_index[key]
+        path = perennial_path(*key)
+        if not bucket["annual"] and not bucket["floating"] and not PERENNIAL_EMPTY_PAGES:
+            perennial_diffs["skipped"].append(path)
+            continue
+        prev_key = perennial_mds[(i - 1) % len(perennial_mds)]
+        next_key = perennial_mds[(i + 1) % len(perennial_mds)]
+        html = render_perennial_page(
+            key, bucket, prev_key, next_key, perennial_template, chromes["CALENDAR"],
+            perennial_mds, perennial_index, dated_by_md.get(key, []), today,
+            people=people,
+        )
+        changed, created = write_if_changed(
+            os.path.join(site_dir, path.strip("/"), "index.html"), html, dry_run
+        )
+        if created:
+            perennial_diffs["created"].append(path)
+        elif changed:
+            perennial_diffs["changed"].append(path)
+        else:
+            perennial_diffs["unchanged"] += 1
+    perennial_paths = [
+        perennial_path(*k) for k in perennial_mds
+        if perennial_path(*k) not in set(perennial_diffs["skipped"])
+    ]
 
     # ---- per-holiday pages ----
     holiday_template = load_template(templates_dir, "holiday.html")
@@ -1745,6 +2278,17 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
         f'<lastmod>{lastmod_for(home_loc, home_changed)}</lastmod></url>'
     ]
 
+    # Perennial date pages. Both these and the dated pages stay in the sitemap:
+    # they are self-canonical and answer different questions (see the URL model
+    # table in scripts/README.md).
+    touched_perennial = set(perennial_diffs["created"]) | set(perennial_diffs["changed"])
+    for path in perennial_paths:
+        loc = f"{SITE_BASE_URL}{path}"
+        urls.append(
+            f'  <url><loc>{loc}</loc>'
+            f'<lastmod>{lastmod_for(loc, path in touched_perennial)}</lastmod></url>'
+        )
+
     # Dated pages. Past ones are regenerated byte-identically, so they keep the
     # lastmod they were first published with -- which is the truth about them.
     touched_days = set(day_diffs["created"]) | set(day_diffs["changed"])
@@ -1805,6 +2349,14 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None):
         "day_pages_changed": day_diffs["changed"],
         "day_pages_unchanged_count": day_diffs["unchanged"],
         "day_index_skipped": day_index_skipped,
+        "perennial_pages_total": len(perennial_paths),
+        "perennial_pages_created": perennial_diffs["created"],
+        "perennial_pages_changed": perennial_diffs["changed"],
+        "perennial_pages_unchanged_count": perennial_diffs["unchanged"],
+        "perennial_pages_skipped": perennial_diffs["skipped"],
+        "perennial_index_skipped": perennial_skipped,
+        "people_dates": len(people["dates"]) if people else 0,
+        "people_generated": (people.get("meta") or {}).get("generated") if people else None,
         "sitemap_changed": sitemap_changed,
         "occurrences": {slug: d.isoformat() for slug, d in occurrences.items()},
     }
@@ -1820,13 +2372,36 @@ def main():
     ap.add_argument("--templates", default=DEFAULT_TEMPLATES_DIR,
                     help="directory holding index.html and day.html templates "
                          "(default: scripts/templates/ next to this script)")
+    ap.add_argument("--people", default=DEFAULT_PEOPLE_PATH,
+                    help="path to people.json, the born-on-this-day data built by "
+                         "build_people.py (default: scripts/people.json; the "
+                         "feature is simply off if the file is absent)")
     args = ap.parse_args()
 
     holidays = json.load(open(args.holidays, encoding="utf-8"))
     today = datetime.date.fromisoformat(args.today)
+    people = load_people(args.people)
 
     report = generate(holidays, today, args.site, dry_run=args.dry_run,
-                      templates_dir=args.templates)
+                      templates_dir=args.templates, people=people)
+
+    # people.json ages: the living lists go stale as people die. Surface it the
+    # same way unresolved holidays are surfaced -- stderr always, and a workflow
+    # annotation under Actions -- without failing the run.
+    if people:
+        generated = (people.get("meta") or {}).get("generated")
+        try:
+            age = (today - datetime.date.fromisoformat(generated)).days
+        except (TypeError, ValueError):
+            age = None
+        if age is None or age > PEOPLE_STALE_DAYS:
+            note = (f"scripts/people.json was generated {generated or 'on an unknown date'}"
+                    + (f" ({age} days ago)" if age is not None else "")
+                    + "; the living-people lists may be out of date. Re-run "
+                      "python3 scripts/build_people.py and commit the result.")
+            print(f"WARNING: {note}", file=sys.stderr)
+            if os.environ.get("GITHUB_ACTIONS") == "true":
+                print(f"::warning title=People data is stale::{note}")
 
     print(json.dumps(
         {k: v for k, v in report.items() if k != "occurrences"},

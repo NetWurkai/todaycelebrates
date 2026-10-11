@@ -1,364 +1,211 @@
-# Review — run of 2026-10-10 (overnight engineering)
+# Review — run of 2026-10-11 (overnight engineering)
 
-**Item: E2 — coverage gaps. Partly landed.** 11 of the 16 missing observances
-are in Notion and published, both fidelity bugs are fixed, five things need a
-decision from you. E2 stays open in §5 with a STATUS block listing the
-remainder, so the next run won't restart it.
+**Item: E3 — perennial day pages. The perennial pages are done; the
+`/holidays/<year>/` index pages are not.** E2's five open decisions were still
+unanswered, and none of them is work an unattended run should start, so this
+run went to the next unblocked item. They are restated at the bottom of this
+file — the full versions are in §5 of the plan and in git history
+(`git show HEAD:docs/REVIEW.md`).
 
-The repo diff is small. **Most of tonight's work is in Notion, which isn't in
-your diff** — see below.
+The site now has a year-less page for every calendar date: `/october-8/`,
+366 of them, February 29 included. That is the URL three of the four leading
+competitors rank with and we had nothing at.
 
 ## Files touched
 
 ```
- M scripts/export_from_notion.py  +55     eight new FLOATING_RULES entries, each sourced in a comment
- M scripts/generate.py            +34/-3  new nth_weekday_offset rule kind; two next_occurrence fixes
- M scripts/README.md              +43     documents all of the above
-?? docs/FIDELITY_AUDIT.md                 new: the audit's worklist (this file gets overwritten nightly)
+ M scripts/generate.py            +~310  perennial index, renderer, generation, sitemap, report
+?? scripts/templates/perennial.html       new: the page template (same components as day.html)
+ M scripts/templates/day.html     +1     one marker, for the dated -> perennial link
+ M public/_headers                +39    cache rules, one per month
+ M scripts/README.md              +64    URL model row + a section on how this works
  M docs/REVIEW.md, docs/EXECUTION_PLAN.md
 ```
 
-No generated file touched. `scripts/holidays.json`, `public/**` and
-`sitemap.xml` are untouched — the generator only ran into throwaway directories
-outside the repo.
+No generated file touched. `public/**` (other than `_headers`), `sitemap.xml`
+and `scripts/holidays.json` are untouched — the generator only ran into
+throwaway directories outside the repo.
 
-## Notion: 11 rows created, 2 fixed, 1 held back
+## What the new page says, and why that split matters
 
-Created with `Published` ticked and `Content Status` empty, so each ships its
-one-paragraph `Description` and nothing more (long-form drafting is §6's job):
+Each date's observances are split in two, and this is the whole design:
 
-| Row | Recurrence | Next | Date source |
-|---|---|---|---|
-| Kwanzaa | Annual Dec 26 | 2026-12-26 | Maulana Karenga's own site (founder) |
-| Rosh Hashanah | Floating, table to 2036 | 2027-10-02 | Hebcal |
-| Yom Kippur | Floating, Rosh Hashanah + 9 | 2027-10-11 | Hebcal |
-| Day of the Dead | Annual Nov 2 | 2026-11-02 | Smithsonian NMAH; UNESCO |
-| National Pizza Day | Annual Feb 9 | 2027-02-09 | TODAY (NBC) |
-| National Margarita Day | Annual Feb 22 | 2027-02-22 | TODAY (NBC) |
-| National Hugging Day | Annual Jan 21 | 2027-01-21 | nationalhuggingday.com (founder) |
-| National Teacher Appreciation Day | Floating, Tue of 1st full week of May | 2027-05-04 | NEA's 1985 rule, checked against NEA's published 2026 dates |
-| National Teacher Appreciation Week | Floating, Mon of that week | 2027-05-03 | same |
-| Oktoberfest (starts in Germany) | Floating, 15 days before 1st Sun in Oct | 2027-09-18 | Munich city regulation 130 §2, checked against the city's 2026/2027 dates |
-| Super Bowl Sunday | Floating, 2027 only | 2027-02-14 | NBC Los Angeles |
+- **Fixed-date rows are the page's content** — the numbered table, the count in
+  the title, the `ItemList` structured data. They are on that date every year,
+  which is exactly what a year-less URL should claim.
+- **Rule-dated rows are a note, not a list entry.** Memorial Day is not a
+  May 26 observance; it is one that falls on May 26 in 2031. So the note names
+  the years ("Columbus Day — 2027 and 2032") and those rows stay out of the
+  table and out of the count.
 
-Fixed — E2's named bug plus one more of the same class:
+The year-specific angle — the weekday, and where a moveable observance goes
+*next* year — stays on `/day/YYYY-MM-DD/`. That is the only thing keeping the
+two page types from reading as near-duplicates, which is the risk this item
+carries. Both pages are self-canonical and both stay in the sitemap, per E3.
 
-- **National Doughnut Day**: Annual June 4 → **first Friday in June**. The
-  Salvation Army created it in 1938 and states the rule itself.
-- **National Ice Cream Day**: Annual July 18 → **third Sunday in July**, per
-  Reagan's Proclamation 5219 (1984), via GPO.
+Three states, all three real on the current data:
 
-Both keep their current next occurrence — 2027-06-04 *is* the first Friday and
-2027-07-18 *is* the third Sunday, which is exactly how the bug hid — so no date
-on the site changes now; the fix is about 2028 onward. Their `Description`s did
-change, since both asserted the wrong fixed date in prose.
-
-Date citations went in **`Source`** (text), not `Sources`, matching what the
-code assumes. Last night's decision 1 is still open and `Source` was empty on
-every row until tonight, so it's cheap to move.
+| | Example | What it shows |
+|---|---|---|
+| Has fixed-date observances (340 dates) | `/october-11/` | 9 in the table, 3 more named with their years |
+| Rule-dated only (18 dates) | `/february-29/`, `/may-26/` | no table; "Nothing falls on this date every year", then the note |
+| Nothing at all (8 dates) | `/january-3/` | no table, no structured data, an honest empty state |
 
 ## What to check
 
-1. `git diff scripts/` — 131 added lines across three files. The only behavior
-   changes are in `generate.py`; the exporter diff is new dict entries.
-2. The eleven new pages after the Action regenerates: `/holiday/kwanzaa/`,
-   `/rosh-hashanah/`, `/yom-kippur/`, `/day-of-the-dead/`,
-   `/national-pizza-day/`, `/national-margarita-day/`, `/national-hugging-day/`,
-   `/national-teacher-appreciation-day/`,
-   `/national-teacher-appreciation-week/`, `/oktoberfest-starts-in-germany/`,
-   `/super-bowl-sunday/`.
-3. **Expect ~129 existing pages to change, not 11.** Adding an observance to a
-   date rewrites the "also on this date" list on every other page for that date
-   (Boxing Day, All Souls' Day, Valentine's Day…): 60 holiday pages, plus 5 new
-   and 64 changed `/day/` pages. That's the whole shape of it.
-4. **The new rows sit low on their days** — Kwanzaa is 5th on Dec 26, Day of
-   the Dead 8th on Nov 2. I gave each the next free `Order` instead of
-   reordering existing days, because per-day ranking is **E4's** job and that's
-   literally the problem E4 describes. One `Order` field per row if you want
-   them featured sooner. Floating rows got `Order 1`, since their neighbors
-   change every year.
-
-## One timing thing
-
-The daily Action exports from **Notion**, not from your working tree, so
-tomorrow's 08:00 UTC run picks up all eleven rows and both fixes **whether or
-not this diff is committed**. Without the diff the exporter has no rules for
-the five new Floating rows or for Doughnut Day and Ice Cream Day, and skips all
-seven with warnings — and those last two have live pages today, so they'd drop
-out of the calendar and sitemap (their HTML stays, so the URLs keep working)
-until the diff lands. Committing before 08:00 UTC avoids it. If you'd rather
-wait, set those two rows back to `Annual` in Notion and nothing degrades.
+1. **`git diff scripts/generate.py`** — the new code is four functions plus a
+   generation block; the only change to existing behavior is one added
+   paragraph in `render_day_page()`'s note block.
+2. **The empty-state decision is one line.** `PERENNIAL_EMPTY_PAGES = True` in
+   `generate.py` publishes all 366 so no date in the year 404s. `False`
+   publishes 358 and the prev/next ring skips the rest — verified working
+   either way. See *Needs a decision* below.
+3. **Expect a large one-time regeneration**, bigger than the page count
+   suggests: 366 new pages, **and all 348 dated pages change**, because the
+   cross-link back to the perennial page is in their shared note block. Those
+   348 then get today's `lastmod` in the sitemap, so the next Action commit
+   restamps them. That is true (their content did change), it happens once, and
+   it is the price of the cross-link E3 asks for. Holiday pages are untouched.
+4. **`/about/`** has a reworded sentence ("every date of the year has a page of
+   its own" rather than "of the coming year"), since the old wording described
+   only the dated archive.
+5. **CLS** — not measured in a browser; nothing was deployed. The structural
+   argument is that `perennial.html` uses the same components as `day.html`
+   (pagehead, obs table, note, tool, pn, wk rail), the same three ad slots in
+   the same order, and **no new CSS at all** — it is worth confirming on the
+   live page after you push, since E3's acceptance criteria name it.
 
 ## How I verified it
 
-- **Regression:** pre-patch generator (`git show HEAD:scripts/generate.py`) vs
-  patched, both over the current `holidays.json` into seeded copies of
-  `public/`. `diff -r` → **byte-identical across the whole site**; both exit 0,
-  zero warnings. Every change is inert for the rows that exist today.
-- **Forward:** built the `holidays.json` the exporter will now produce and
-  generated into a third throwaway directory. Exit 0, **zero WARNING lines**,
-  11 pages created / 60 changed, 5 `/day/` created / 64 changed, sitemap 2,818
-  URLs, search index 2,450. A second run changed nothing — still idempotent.
-- **Each computed date checked against its source**, not just against itself:
-  Teacher Day 2026-05-05 and week 2026-05-04 match NEA's published May 4–8;
-  Oktoberfest 2026-09-19 and 2027-09-18 match Munich's published dates; Yom
-  Kippur = Rosh Hashanah + 9 in all eleven table years; Doughnut Day and Ice
-  Cream Day land on the right weekday. Both JSON-LD blocks parse.
-
-### Two engine bugs fixed on the way
-
-1. **Annual `next_occurrence()` scanned two years.** Fine for a date that
-   exists every year — but Feb 29 doesn't, so Leap Day raised in three years
-   out of four, was caught as "unresolved", and **no page would ever have been
-   built for it**. Now nine years (widest real leap gap is eight, across a
-   non-leap century year).
-2. **A `lookup_table` whose first confirmed year is *next* year resolved to
-   nothing.** The Floating branch raised on this year and never tried next, so
-   Super Bowl Sunday (2027 only, added in Oct 2026) was reported as having no
-   date at all. Unresolvable years are now skipped; if none resolves the error
-   is re-raised, so an **expired** table still fails as loudly as before.
+- **Regression, pre-patch vs patched**, both over the current `holidays.json`
+  into seeded copies of `public/` outside the repo: the *only* differences are
+  366 new directories, the one added paragraph on 348 dated pages, the `/about/`
+  sentence, and 366 added sitemap URLs. Every holiday page, every data file and
+  the homepage come out **byte-identical**. Both runs exit 0 with zero WARNINGs.
+- **The patched run:** exit 0, **zero WARNING lines**, 366 perennial pages
+  created, 348 dated pages written, sitemap 3,170 URLs (2,804 + 366). A second
+  run changed nothing — still idempotent, dated pages included.
+- **All 366 pages parsed:** zero unbalanced tags, zero unfilled template
+  markers, zero leaked maintainer comments, and all 340 `ItemList` blocks are
+  valid JSON with `numberOfItems` matching the list length.
+- **14,314 internal links** across the new pages resolve to a file that exists;
+  **no perennial page has zero inbound links** (minimum 10); every canonical on
+  both page types points at itself.
+- **40 assertions**, including: the annual/floating split never misfiles a row;
+  Memorial Day appears on no date before May 25 and in no every-year list;
+  February 29 resolves to 2028 for the calendar button and sits between
+  February 28 and March 1 in the ring; the ring wraps at the year boundary;
+  the `PERENNIAL_EMPTY_PAGES = False` branch publishes 358, writes no page for
+  January 3, keeps it out of the sitemap, and leaves the dated cross-links
+  pointing at pages that exist.
 
 ## Needs a decision
 
-**1. Leap Day is in Notion with `Published` unticked, on purpose.** The dated
-archive's forward horizon is derived, not configured —
-`day_end = max(occurrences.values())` — so publishing a row whose next
-occurrence is 2028-02-29 moves the horizon from Oct 2027 to Feb 2028 and
-creates **~142 new `/day/` pages in one run** (measured). They're real pages,
-but how far forward the archive publishes is the same kind of content and crawl
-decision the README already guards for `DAY_ARCHIVE_START`. Either tick
-`Published`, or clamp `day_end` first (one line:
-`min(max(occurrences.values()), today + timedelta(days=400))`) and then tick
-it. The row is complete and sourced either way.
+**1. Eight pages with nothing on them.** Jan 3, Jan 6, Jan 12, May 2, Jun 3,
+Jun 11, Jul 10 and Aug 31 have no observance at all, in any year, in the
+current dataset. E3 says "366 perennial pages exist", so I published all 366
+with an honest empty state rather than silently leaving eight dates to 404 —
+but eight thin pages on a site whose whole argument is trustworthiness is your
+call, not mine. `PERENNIAL_EMPTY_PAGES = False` is the switch, and it is tested.
+Worth knowing: some of these dates stop being empty as content lands — Jan 21
+was on this list until Hugging Day was created on 10-10.
 
-**2. `Oktoberfest (ends in Germany)` is wrong from 2027.** Stored Annual Oct 4;
-Munich's regulation ends the festival on the **first Sunday in October,
-extended to Oct 3** when that Sunday is Oct 1 or 2 — so 2027 ends Oct 3. The
-conditional extension fits no existing rule kind: either a new kind (~6 lines)
-or a short lookup table of the city's published dates. The start row I added is
-unaffected; its rule is unconditional.
+**2. Where the perennial page belongs in the navigation.** Right now it is
+reachable from its dated pages, from its neighbours, and from the sitemap —
+not from the header, the footer, or the home calendar. The `/holidays/<year>/`
+index pages E3 also asks for are the natural hub for it, which is why I stopped
+before them (below). If you want these pages in the nav before that, say where.
 
-**3. Tax Day: not created.** Three tangled questions. `Income Tax Pay Day`
-(Annual Apr 15) already covers the ground — second row or rename? The real date
-is the IRS deadline, which shifts for weekends and DC's Emancipation Day (2028
-is Apr 18), so "Annual April 15" is wrong about one year in three. And modeling
-it properly needs either DC-holiday logic in a new rule kind or a table holding
-only the years the IRS has announced.
+**3. Should holiday pages link to the perennial page too?** A holiday page's
+breadcrumb and back-link currently point at the dated page. Pointing them at
+`/october-8/` instead (or adding a second link) would be the stronger internal
+signal, but it rewrites all 2,439 holiday pages, and which of the two a holiday
+page should favour is a judgment about what you want ranking. Left alone.
 
-**4. National French Fry Day: not created, the date is contested.** July 13 is
-traditional, but National Day Calendar moved it to the second Friday of July in
-2022 at a restaurant chain's request and the big chains have since split across
-both (Axios covered the mess). Under §4 I can't assert either date on an
-aggregator's say-so. My suggestion: take July 13 and make the disputed date
-part of the page — it's better content than the date itself.
+**4. Still open from 2026-10-10, unanswered, restated so overwriting this file
+loses nothing** — full text in §5 of the plan under E2:
+Leap Day sits unpublished (publishing it adds ≈142 dated pages); `Oktoberfest
+(ends in Germany)` is wrong from 2027 and needs a new rule kind or a lookup
+table; Tax Day overlaps `Income Tax Pay Day` and its real date shifts for
+weekends and DC Emancipation Day; National French Fry Day's date is contested
+(July 13 vs the second Friday, moved by an aggregator at a chain's request);
+and the solstices/equinox already exist under other names, so that is a naming
+call, not a gap.
 
-**5. Winter Solstice / Summer Solstice / Vernal Equinox are already on the
-site under other names.** `First Day of Winter` + `Yule` (Dec 21),
-`The First Day of Summer` (Jun 21) and `The First Day of Spring` + `Ostara`
-(Mar 20) all exist with correct tables through 2036. Adding "Winter Solstice"
-would put a third near-identical entry on Dec 21. The real question is whether
-the solstice wording earns its own page for the search term (alias rows, which
-E3's canonical work would need to know about) or belongs in the existing
-titles. A naming decision, not a gap.
+## What is left of E3
 
-## The audit, and where it went
+Not started, and the next engineering run should pick it up here:
 
-E2 also asks for an audit of the other food and awareness days. The signature
-is findable: the dataset was bootstrapped from one year's dates, so a
-weekday-ruled row's stored date lands on its own named weekday in exactly one
-year and drifts off the next. **24 candidates** came out — six days of Be Kind
-to Humankind Week, Free Comic Book Day, National Public Lands Day, National
-Hunting and Fishing Day, Frankenstein Friday, Fat Thursday and more.
+- **`/holidays/<year>/` index pages** — E3's fourth bullet. A year index is a
+  different page type again (it lists months and the dated pages under them),
+  and it is the obvious home for a link to all 366 perennial pages, so it is
+  worth doing as its own reviewable change rather than bolted onto this one.
+- Decisions 2 and 3 above feed into it.
 
-I fixed only the two I could tie to a primary document tonight and wrote the
-rest up in **`docs/FIDELITY_AUDIT.md`** with each row's stored date, its
-weekday drift and the likely rule — so the audit you deferred to year-end has a
-worklist. Candidates, not verdicts: some may be legitimately fixed-date. §7
-points at the file.
+Everything else in E3 is done: the 366 pages exist, canonicals are correct in
+both directions, nothing is orphaned, and the sitemap is consistent.
 
 ---
 
-# Appendix — content run of 2026-10-10 (appended, not overwritten)
+# Addendum 2026-10-11 — Born on this day (interactive session, not an overnight run)
 
-This section was **appended** by the Mon/Wed/Fri content run. The engineering
-review above, including its five unanswered decisions, is left intact on
-purpose: overwriting it per hard rule 6 would have destroyed questions you have
-not answered yet. Rule 6 probably wants narrowing to "the engineering run
-overwrites this file; content runs append."
+Requested by Jay: birthdays of historic and celebrity figures, as **two separate
+sub-blocks per date**. Built, verified, **not committed or pushed**.
 
-## Drafted, awaiting your review
+## What changed
 
-Christmas Day, Valentine's Day, New Year's Day — queue items 3–5 of §6, taken
-top-first. Each has `Opening`, `Body`, `Timeline`, `FAQ`, `Sources` populated and
-`Content Status = Draft`. `Published` and `Description` were not touched on any
-row. Nothing reaches the site until you move a row to Reviewed or Live.
+- `scripts/build_people.py` (new), `scripts/people.json` (new, ~1 MB, 366 dates,
+  8,779 people), `scripts/people_overrides.json` (new), `scripts/templates/perennial.html`
+  and `day.html` (one marker each), `scripts/generate.py` (loader + block renderer +
+  `--people`), `public/styles/site.css` (+13 lines), `.gitignore` (+ `scripts/.people_cache/`),
+  `scripts/README.md` (new section "Born on this day").
+- Perennial pages show 10 per list, dated pages 4. Every date has 12 historic;
+  living averages 12.0 (minimum 9).
 
-## Needs a decision — the FAQ fields on Halloween and Thanksgiving Day do not render
+## How it was verified
 
-Not caused by this run. `parse_faq()` in `generate.py` recognizes a question
-only when the whole line is wrapped in `**bold**`:
+- Generated into throwaway copies of `public/`, with and without `people.json`; exit 0.
+- Exactly 714 files differ: the 366 perennial and 348 dated pages. Every holiday page,
+  data file, the homepage and `sitemap.xml` are byte-identical.
+- On those 714 pages, deleting the new `<section class="born">` gives back the baseline
+  page byte for byte. JSON-LD unchanged, no `Person`/`Event` entities added.
+- Rendered `/october-10/` and `/day/2026-10-10/` at 1280px and 390px: columns side by
+  side on desktop, stacked on phone, no horizontal scroll.
+- Not measured: CLS and page weight on a real deploy (+1.9–4.6 KB per page).
 
-```python
-bold_only = re.fullmatch(r"\*\*(.+)\*\*", line)
-```
+## Needs a decision
 
-The FAQ fields on both finished rows use plain-text questions
-(`Is Halloween always October 31?`), so both parse to **zero pairs**. The
-consequence is that both pages ship with no FAQ section and no FAQPage
-structured data — the one competitive feature E1 was built to add. Verified:
+1. **Borderline figures left in** (the automatic filters cannot judge them). Add to
+   `people_overrides.json` -> `exclude` if you want them gone: Mao Zedong, Kim Il Sung,
+   Kim Jong Il, Francisco Franco, Salazar, Hafez al-Assad, Robert Mugabe, Erich Honecker,
+   Suharto, Saparmurat Niyazov, Islam Karimov, Ivan the Terrible, Leopold II, Mobutu,
+   Enver Hoxha, Ben Ali, Jaruzelski, Batista, Mohammad Reza Pahlavi. Already excluded
+   (11): Himmler, Goebbels, Eva Braun, Stalin, Mussolini, bin Laden, al-Baghdadi,
+   al-Zawahiri, Nasrallah, Soleimani, Milošević.
+2. **The conviction filter is blunt.** It drops anyone with a Wikidata conviction,
+   including fraud and tax cases (Steinbrenner, Milken, Ja Rule). Set
+   `EXCLUDE_CONVICTED = False` to keep them, and rely on the overrides instead.
+3. **"Historic figures" includes people who died recently** (Dolly Parton, Charlie Kirk,
+   Diane Keaton). Rename the sub-block ("Remembered", "Notable people, died") or split
+   by a cutoff year? One string in `people_block_html`.
+4. **Dated archive pages now change when people data is refreshed.** The plan says
+   `/day/YYYY-MM-DD/` should regenerate byte-identically. With a fixed `people.json` it
+   does, but a monthly refresh will alter old archive pages. Options: keep it (the block
+   is small), or drop people from dated pages and show them only on `/<month>-<day>/`
+   (set `PEOPLE_DAY_LIMIT` handling to render nothing; one line).
+5. **Source policy.** Wikipedia and Wikidata are not on the plan's list of acceptable
+   sources. They are the only practical source for this data; please confirm, because
+   the rule exists for a reason.
 
-```
-parse_faq("Is Halloween always October 31?\nYes. The date is fixed.")  -> []
-parse_faq("**Is Halloween always October 31?**\nYes. The date is fixed.") -> [(...)]
-```
+## Known limits
 
-Both rows are at Content Status **Live**, so this is live-site behavior.
-
-Separately, **both rows have an empty `Opening`**, so both keep the templated
-`Description` ("Halloween, observed on October 31, celebrates…") on the site
-rather than the drafted opening — the exact boilerplate §4 exists to replace.
-
-Two ways to fix it, your call:
-
-1. **Edit the two Notion rows** — wrap each FAQ question in `**…**`, and fill
-   `Opening` from the drafted opening paragraphs. No code change; nothing else
-   is affected. The exemplar already shows the bolded form, so the spec is right
-   and the two rows drifted from it.
-2. **Loosen `parse_faq`** — also treat an unbolded line that ends in `?` and is
-   followed by a non-question line as a question. More forgiving for future
-   runs, but it is a parser change on a rule that currently fails loudly-ish
-   (silently, in fact) rather than wrongly, and it would need its own
-   byte-identity check.
-
-Today's three drafts use the bolded form and were verified to parse into five
-pairs each with FAQPage JSON-LD emitted, so they are unaffected either way.
-
-## How I verified this run
-
-- 23 assertions, all passing: `extract_holiday()` drops `body` / `timeline` /
-  `faq` / `sources` and ignores `Opening` at `Draft`, and carries all five at
-  `Live`; `render_longform()` on exactly today's field shapes produces the FAQ
-  section, the timeline ahead of "How to observe", bolded years as `<strong>`,
-  bare source URLs as links, italic titles as `<em>`; `faq_ld_json()` emits
-  `"@type": "FAQPage"` with the answer text.
-- Generator run into a throwaway directory (never `public/`): exit 0, zero
-  WARNINGs, 2,803 pages.
-- The three drafted pages render in that throwaway build with **no** long-form
-  block and **no** FAQPage — the review gate confirmed end to end on real data.
-
-## Sourcing notes worth a spot-check
-
-- **Christmas tree, source conflict resolved.** The usual "Prince Albert
-  introduced the Christmas tree to Britain" line is contradicted by the Royal
-  Collection Trust, which credits Queen Charlotte in the late eighteenth century
-  with a yew. The draft follows RCT as the more primary source — the royal
-  household's own collection — and says Albert popularized rather than
-  introduced it, per §4's instruction to prefer the more primary source and say
-  so rather than average the two.
-- **1659 Massachusetts ban, repeal omitted.** mass.gov gives the statute, the
-  heading "Penalty for Keeping Christmas" and the five-shilling fine, but not a
-  repeal date. The draft states only what is sourced; the commonly cited 1681
-  repeal is left out.
-- **New Year's resolutions, no origin claimed.** The Babylonian/Roman vow story
-  could not be traced to a primary source, so the FAQ says that outright instead
-  of repeating it. This is the §4 "not well documented" sentence, used
-  deliberately.
-- **NRF $29.1bn (2026).** A retail trade association's survey of stated spending
-  intent, not a government measurement. Cited as the originating organization for
-  its own survey and labeled as such in the draft body rather than presented as
-  a statistic. Flagging it because it is the only non-government, non-archival
-  source across the three pages.
-- No aggregator was consulted or cited on any of the three.
-
----
-
-# Addendum — 2026-10-10, interactive (Jay + Claude)
-
-**Three drafts released, and a bug found on the way that would have shipped
-them half-rendered.**
-
-Christmas Day, Valentine's Day and New Year's Day were moved to
-`Content Status = Live` at Jay's request, so the next regeneration publishes
-all three.
-
-## The bug: `**bold**` never survives Notion, so no FAQ has ever rendered
-
-The content run reported that Halloween's and Thanksgiving's FAQs don't render
-because "both rows use plain-text questions", and that the three new drafts
-"use the bolded form". Checking the stored text directly shows the drafts are
-in exactly the same state — **all five rows contain zero asterisks**:
-
-```
-Holiday            bold markers in FAQ   '###' headings in Body
-Christmas Day      0                     2
-Valentine's Day    0                     2
-New Year's Day     0                     2
-Halloween          0                     2
-Thanksgiving Day   0                     2
-```
-
-Writing `**x**` into a Notion field — by hand or through the API — makes Notion
-store a rich-text **annotation**, not those characters. `export_from_notion.py`
-reads `plain_text`, which drops annotations. So the asterisks cannot round-trip,
-and `parse_faq()`, which required `**bold**`, returned zero pairs for every FAQ
-ever written. The FAQ section and the FAQPage structured data — the one
-competitive feature E1 exists to add — were silently absent from every page.
-The content run's own assertions passed because they fed the parser its
-*intended* string rather than what Notion stored.
-
-`###` headings are literal characters, so History and How to observe were never
-affected; timeline entries key on the `- ` bullet, so they render too, minus
-bold years. Sources were written with the URL as the link text, so they survive
-as bare URLs and get auto-linked. **The FAQ was the only real casualty.**
-
-## Fix
-
-`parse_faq()` now takes the first line of a blank-line-separated block as the
-question — bolded or not — and still honors the bolded form where it is
-present. Blank-line separation is already what the field convention requires,
-so this reads the format as written rather than as hoped.
-
-```
- M scripts/generate.py   parse_faq(): unbolded questions, +docstring explaining why
- M scripts/README.md     "Emphasis and links do not survive the round trip"
-```
-
-Verified: parses the real (annotation-stripped) Christmas FAQ into **5 pairs**;
-the bolded form returns an identical result; a headless answer is still
-dropped; a question mark inside an answer does not split it. Generated against
-the current dataset the output is **byte-identical** to before the patch. A
-synthetic Live row with unbolded questions renders the FAQ section and emits a
-second `ld+json` block typed `FAQPage` with the right question count. Exit 0,
-no warnings.
-
-**This needs committing with the rest.** Without it, tonight's regeneration
-publishes three long-form pages with no FAQ and no FAQPage.
-
-## Still outstanding on those two rows
-
-`Opening` is empty on **Halloween** and **Thanksgiving Day**, so both keep the
-templated `Description` on the site. Unchanged tonight — it needs two short
-paragraphs written, not a code change.
-
-The `FAQ` property description in Notion still says to wrap questions in
-`**bold**`. Harmless now that the parser accepts both, but worth rewording.
-
-## Also changed in that session: the draft gate is gone
-
-Jay's call, to cut friction. Content runs now write `Content Status = Live`
-and publish at the next regeneration with no review step. Three things were
-rewired to match:
-
-- **§4 of this plan** — "Where drafts go" is now "Where content goes, and that
-  it publishes itself", with the bargain written down: the sourcing rule is the
-  only gate left, and every run owes a recap.
-- **The content task's prompt** (Mon/Wed/Fri, 01:47 ET) — writes `Live`, and a
-  new STEP 6 requires a push recap naming each page, its live URL, and the
-  claim it is least sure of. Also now carries the field-formatting rules, so
-  the next run doesn't reintroduce the FAQ bug.
-- **The Friday digest prompt** — counts pages published rather than drafts
-  awaiting review, and reports the spot-check items with more room, since they
-  are now the only backstop.
-
-The revert is unchanged and costs one field: set a row's `Content Status` back
-to `Draft` and the next regeneration restores its short page.
+- Stale-prone descriptors cannot be fully detected (e.g. an office held "until" a date
+  that has since passed). Living-person descriptors are trimmed to the lead clause to
+  reduce this. A handful of descriptors have punctuation glitches inherited from
+  Wikipedia's wording ("... poet Nobel Prize laureate": 11 found, 16 have no
+  descriptor and render name and years only).
+- The homepage does not show people.
+- Refresh is manual (monthly): workflow files are protected. `generate.py` warns when
+  `people.json` is more than 45 days old.
+- Nothing is committed, so the tree is dirty and **Rule 2 still blocks the overnight
+  engineering runs until you commit** (E3's work is in the same tree).
