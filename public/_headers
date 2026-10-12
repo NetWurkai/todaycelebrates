@@ -4,6 +4,11 @@
 /day/*
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
+# Year indexes of the dated archive (/holidays/2027/). Not matched by
+# /holiday/* above -- that pattern needs a slash after "holiday".
+/holidays/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
 # Perennial date pages (/october-8/). One rule per month: these live at the
 # top level, so there is no shared prefix to splat without matching
 # everything else on the site.

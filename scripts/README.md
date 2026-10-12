@@ -85,6 +85,7 @@ queries:
 | `/<month>-<day>/` | **One calendar date, any year** (`/october-8/`). The observances that fall on it *every* year, plus a note naming the years a rule-dated one lands there. The page for the recurring query. | Permanent; refreshed, not rewritten |
 | `/holiday/<slug>/` | **One observance.** Always shows its *next* occurrence. | Evergreen; one URL forever |
 | `/dates/` | **The hub for the 366.** Every date of the year grouped by month, with each date's fixed-date count. Linked from the header nav and the footer on every page. | Evergreen |
+| `/holidays/<year>/` | **One year of the dated archive** (`/holidays/2027/`). Every date that year has a `/day/` page for, grouped by month, with each date's weekday and observance count. The index of the archive, not a page that competes for a query. | Evergreen; the current year's grows daily |
 | `/category/<slug>/`, `/categories/`, `/about/` | Browse-by-theme lists and the About page. | Evergreen |
 
 Each page self-canonicalises. `/` is not canonicalised to today's dated page or
@@ -280,6 +281,42 @@ a link to it, which is also the more honest place for it) and from
 *All N on October 31* in the "Also on" sidebar. Every holiday page carries at
 least one link to its dated page — there is an assertion for that, because the
 sidebar link is conditional and the spec row is not.
+
+### Year indexes (`/holidays/2027/`)
+
+E3's fourth bullet. One page per year the dated archive touches, built in
+`year_index_html()` and derived entirely from `day_dates` — there is nothing to
+configure and no list of years to maintain. A year's page appears on the run
+that creates its first dated page, and the newest year's page grows as the
+forward horizon moves, so on the day the horizon crosses a New Year a new year
+index appears holding one date.
+
+**Why the site needed one.** The 351 dated pages were reachable only one day at
+a time: prev/next, the week rail, the homepage calendar widget, the sitemap.
+Nothing let a reader — or a crawler following links rather than the sitemap —
+see a year of the archive at once.
+
+**Not to be confused with `/dates/`**, which indexes the 366 *year-less* pages.
+These index one year's *dated* pages. Different question, different set of URLs,
+no overlap in what they link to.
+
+**Both ends of the archive are partial**, because it opens at
+`DAY_ARCHIVE_START` and ends at the derived horizon below. So each page states
+the range it covers in a sentence rather than rendering twelve month headings
+with nine of them empty, and it names the count of dates inside that range that
+have no page at all (a date with nothing on the calendar gets none — 18 of them
+in 2027 as of 2026-10-12). Someone who came looking for March 2026 has to be
+told the record does not reach back that far, not handed an empty March.
+
+**Reachability**, which is what E3's acceptance criteria care about: every
+dated page links to its own year index from the note block above the share
+row (`YEAR_LINK` in `render_day_page()`, derived from the date alone, so past
+pages still regenerate byte-identically), and `/dates/` links to all of them.
+No new nav item: the tab row is already tight at 760px, and the Calendar tab
+reaches `/dates/`, which reaches these.
+
+**No CSS of its own.** The page reuses the hub's markup exactly — the `.plain`
+wrapper, the two-column `.cat-list`, the `.list-side` rail.
 
 ### The dated archive's forward horizon is derived, not configured
 

@@ -307,10 +307,25 @@ CLS still **not** measured (nothing deployed) and the hub has not been seen at
 real phone width; both are worth a look on the live site, since E3's acceptance
 criteria name CLS.
 
-**What is left of E3:** the **`/holidays/<year>/` index pages** (fourth bullet,
-not started). `/dates/` is not that page — the hub indexes the 366 year-less
-pages; a year index lists one year's dated pages. **Do not restart E3 from the
-top**; the next engineering run does the year index pages.
+**STATUS: DONE 2026-10-12** (the year indexes, uncommitted). The fourth bullet
+is built: one `/holidays/<year>/` page per year the dated archive touches —
+`/holidays/2026/` (85 dates, Oct 8–Dec 31) and `/holidays/2027/` (266 dates,
+Jan 1–Oct 11) — each listing that year's `/day/` pages by month with the weekday
+and observance count, derived from `day_dates` alone, so a year appears with its
+first dated page and the newest year's page grows with the horizon. Both ends of
+the archive are partial and each page states its own coverage rather than
+rendering empty months. Every dated page links its year index (`YEAR_LINK`), and
+`/dates/` links them all; no new nav item (the 760px tab row, decided
+2026-10-11). New `/holidays/*` cache rule; `llms.txt` and the README's URL model
+updated. No new CSS. **Do not restart E3 from the top — all four bullets are
+done; the next engineering run starts at E4.**
+
+Still unmeasured, and the one acceptance criterion not confirmed: **CLS**, plus
+real phone-width rendering of `/dates/` and the year pages. Both need a deploy.
+
+Two small new decisions are in `docs/REVIEW.md` under *Needs a decision* (a bare
+`/holidays/` 404s; the 2026 page makes the archive's start line visible, which
+raises backfilling). Neither blocks E4.
 
 ### E4 — Observance type taxonomy
 Flat 7–14 item day lists give Thanksgiving and National Pumpkin Day the same
@@ -323,6 +338,17 @@ visual weight, which tells the reader we don't know which matters.
 
 **Done when:** every published row has a Type; day lists sort by it; major
 observances are visually dominant.
+
+**Shape of this item, noted 2026-10-12 so the next run does not discover it
+mid-flight:** the acceptance criterion covers ~2,450 published Notion rows, so
+it is several runs of bulk property writes, not one. A good share of rows are
+also a judgment call (is a given awareness day *Observance* or *Fun*?), and an
+unattended run must not guess its way through 2,450 of those. So unless Jay has
+left an assignment rule: do the unambiguous rows first — federal holidays,
+religious observances, the season-and-clock rows — report the counts and the
+calls made, and leave the ambiguous ones untyped rather than filling them in.
+The sort-and-style half of the item can be built and verified against whatever
+subset is typed; a row with no Type must degrade to today's flat ordering.
 
 ### E5 — Calendar export
 Absent across all five competitors. A subscribed calendar is the only retention
@@ -370,9 +396,9 @@ Ties broken by date proximity, so pages go live before their occurrence.
 - [x] 3. Christmas Day  *(drafted 2026-10-10, content run; Draft)*
 - [x] 4. Valentine's Day  *(drafted 2026-10-10, content run; Draft)*
 - [x] 5. New Year's Day  *(drafted 2026-10-10, content run; Draft)*
-- [ ] 6. Easter Sunday
-- [ ] 7. Mother's Day
-- [ ] 8. Father's Day
+- [x] 6. Easter Sunday  *(published 2026-10-11, content run; Live)*
+- [x] 7. Mother's Day  *(published 2026-10-11, content run; Live)*
+- [x] 8. Father's Day  *(published 2026-10-11, content run; Live)*
 - [ ] 9. St. Patrick's Day
 - [ ] 10. Independence Day
 - [ ] 11. New Year's Eve
@@ -615,3 +641,60 @@ Newest last. One line per run: date, type, item, outcome. Keep it terse.
   one URL; exit 0, zero WARNINGs, idempotent; 40 assertions pass including the
   `PERENNIAL_EMPTY_PAGES=False` branch. CLS and phone-width rendering not measured. Uncommitted.
   Next engineering run: E3's `/holidays/<year>/` index pages. E2's five decisions still open.
+- 2026-10-12 · engineering · **E3 done — `/holidays/<year>/` year indexes** · tree clean
+  at the gate; E2's five decisions still unanswered (not unattended work), so took the last
+  E3 bullet. Two pages built from `day_dates` alone: `/holidays/2026/` (85 dates) and
+  `/holidays/2027/` (266 dates), month sections, weekday + observance count per row, month
+  rail, year switcher, self-canonical, in the sitemap, breadcrumb `Today / Calendar / 2027`.
+  Each states its own coverage (the archive opens 2026-10-08, reaches ~a year ahead) and
+  names the 18 dates in 2027 that have no page because nothing is on the calendar. Code:
+  `generate.py` (+182/-6) `year_index_path()`, `year_index_html()`, pages into
+  `simple_pages`, `YEAR_LINK` on dated pages, year links on `/dates/`, `year_index_pages`
+  in the report; `day.html` (+1) marker; `_headers` (+5) `/holidays/*`; `llms.txt` (+2);
+  `README.md` (+37). No new CSS, no new nav tab. Verified: reverse-transform against the
+  pre-patch generator — removing the one added paragraph makes all **351 dated pages
+  byte-identical**, removing one clause does the same for `/dates/`, and every holiday page,
+  perennial page, data file, category page, the homepage and `/about/` are untouched; zero
+  unexplained deltas; sitemap gained exactly 2 URLs; exit 0, **zero WARNINGs**, idempotent;
+  both pages balanced, no leftover markers, all 351 day links resolve, day counts match the
+  archive on disk and every observance count matches that dated page's own `ItemList`;
+  rollover tested at a simulated `--today 2027-06-15` (three year pages, 2027 completes,
+  2028 opens partial) and the single-date year unit-tested. CLS still not measured.
+  Nothing committed. 2 new small decisions + E2's 5 in docs/REVIEW.md; next engineering
+  run: **E4**, whose shape is now noted in §5.
+- 2026-10-11 · content · **Easter Sunday, Mother's Day, Father's Day published (Live)** ·
+  *(Back-filled by the 2026-10-12 content run: the 2026-10-11 run completed its Notion
+  writes but lost the device bridge before its repo writes. Text is that run's own, from
+  `claude/content-run-2026-10-11-tier1-6to8.md` in the project.)*
+  Queue items 6-8, top-first, one unambiguous main row each (Easter Monday, Mothering Sunday
+  and Stepmother's Day are separate queue items, not duplicates). All five long-form fields
+  per §4, Content Status = Live, `Published` and `Description` untouched. Word counts
+  900 / 841 / 873. American spelling. Sources: US Naval Observatory (the Date of Easter and
+  the Christian observances table), Library of Congress (Folklife Today on the Easter Bunny,
+  In Custodia Legis on the egg roll, Chronicling America guide to Mother's Day, Teaching with
+  the Library on Father's Day), White House Historical Association, National Park Service
+  (Anna Maria Jarvis, Dodd House), govinfo Statutes at Large 38 Stat. 770 and 86 Stat. 124,
+  City of Spokane, WV Division of Culture and History, OPM. No aggregator cited.
+  **No section omitted for lack of a source.** Verified: committed `export_from_notion.py`
+  carries long-form at Live; committed `parse_faq()` parses 5 pairs from each unbolded FAQ
+  (run against the real field text); post-write query confirms no markdown links in Sources
+  and no asterisks in FAQ/Body; slugs easter-sunday / mothers-day / fathers-day confirmed
+  against scripts/holidays.json. Nothing committed.
+  · **Conflicts resolved.** Grafton church name: NPS and the LoC photo record give
+  *Andrews Methodist Episcopal Church* (the National Historic Landmark name), the LoC
+  Chronicling America guide gives "St. Andrew's Methodist Church" — followed the NPS/NHL
+  form as the more primary. Monongah death toll: the WV Archives narrative says "almost four
+  hundred", its own official disaster list says 357 — the draft gives 357 as the official
+  count and names the higher figure as contemporary accounts, rather than averaging.
+  · **Claims deliberately left out for want of a source:** Grace Golden Clayton's Fairmont
+  service is **not dated** — the LoC names her and the Monongah link but gives no year, so
+  the page says outright that no year is assigned and that the two origin claims cannot be
+  cleanly ordered. The WHHA page's Easter-Egg-Roll revival year is internally inconsistent
+  ("twelve-year hiatus" vs. hosting in 1960 after a 1948-52 interruption), so the draft says
+  only "the war years and the Truman renovation" and names no revival year. Why Dodd's
+  committee picked June 19 is stated as undocumented. Julia Ward Howe's 1870 proclamation
+  was dropped entirely: Britannica's body text is not fetchable and no primary source was
+  found, so it is absent rather than asserted.
+  · **Least confident claim:** that Presidents Wilson and Coolidge "worked toward making the
+  day national" (Father's Day) — the LoC states it but gives no years or acts, so the draft
+  repeats it at exactly that vagueness. Worth a spot-check.

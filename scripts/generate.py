@@ -216,6 +216,16 @@ def perennial_path(month, day):
     return f"/{MONTH_NAMES[month].lower()}-{day}/"
 
 
+def year_index_path(year):
+    """/holidays/2027/ -- the index of one year of the dated archive.
+
+    Plural, and deliberately not under /day/: /holiday/<slug>/ is one
+    observance and /day/<date>/ is one date, so a year index needed a segment
+    of its own rather than a path that reads like either of them.
+    """
+    return f"/holidays/{year}/"
+
+
 def month_day_label(month, day):
     return f"{MONTH_NAMES[month]} {day}"
 
@@ -1535,8 +1545,17 @@ def render_day_page(date, items, prev_date, next_date, template, by_slug, memo,
         "SHARE_TEXT": esc_attr(share_text),
         "SHARE_LINKS": share_links(path, share_title),
         "WEEK_LIST": week_list_html(date, day_index, published_days),
-        # The dated -> perennial half of E3's cross-link. Derived from the date
-        # alone, so a past dated page still regenerates byte-identically.
+        # The dated page's two upward links, both derived from the date alone
+        # so a past dated page still regenerates byte-identically: the
+        # perennial page for this month-day, and the index of this year's
+        # archive. YEAR_LINK is what keeps the /holidays/<year>/ pages
+        # reachable from the 351 pages they index, rather than only from the
+        # /dates/ hub.
+        "YEAR_LINK": (
+            f'<p>For every date on record in {date.year}, see '
+            f'<a href="{year_index_path(date.year)}">'
+            f'{date.year} holidays and observances</a>.</p>'
+        ),
         "PERENNIAL_LINK": (
             f'<p>For what falls on {esc_attr(month_day(date))} in any year, see '
             f'<a href="{perennial_path(date.month, date.day)}">'
@@ -1676,7 +1695,7 @@ def perennial_years_html(label, dated):
     return f'<div class="note">{"".join(parts)}</div>'
 
 
-def dates_hub_html(perennial_index, month_days, published):
+def dates_hub_html(perennial_index, month_days, published, year_links=""):
     """/dates/ -- the hub for the 366 perennial pages. Returns (body, side).
 
     Why this page exists: 366 pages reachable only from each other and from the
@@ -1731,7 +1750,9 @@ def dates_hub_html(perennial_index, month_days, published):
         "of May, or a number of days after Easter &mdash; are named on the date "
         "they land on, with the years they land there.</p>"
         '<p class="intro">Looking for one particular year instead? Each date page '
-        'links to the dated record for that year. Or <a href="/#calendar">pick a '
+        'links to the dated record for that year'
+        + (f", and the archive has a year at a time: {year_links}" if year_links else "")
+        + '. Or <a href="/#calendar">pick a '
         'date on the calendar</a> on the home page.</p>'
         + "".join(months)
         + "</div>"
@@ -1740,6 +1761,120 @@ def dates_hub_html(perennial_index, month_days, published):
         f'<h2>Months</h2><ul class="list-side">{"".join(side)}</ul>'
     )
     return body, side_html
+
+
+def year_index_html(year, dates, day_index, years, gaps):
+    """/holidays/<year>/ -- the index of one year of the dated archive.
+
+    E3's fourth bullet, and the one page type the site was missing. `/dates/`
+    indexes the 366 year-less pages; this indexes one year's
+    `/day/YYYY-MM-DD/` pages, which is a different question over a different
+    set of URLs. Until now those pages were reachable one day at a time --
+    prev/next, the week rail in the sidebar, the homepage calendar widget and
+    the sitemap -- so there was no page on the site from which a reader or a
+    crawler could see a year of the archive at once.
+
+    Both ends of the archive are partial: it opens at DAY_ARCHIVE_START and
+    ends at a derived horizon (see "The dated archive's forward horizon is
+    derived, not configured" in scripts/README.md). So the page states its
+    coverage in a sentence instead of rendering twelve month headings with
+    nine of them empty -- someone who came looking for March 2026 needs to be
+    told the record does not reach back that far, not handed an empty March.
+
+    `gaps` is the number of dates inside the covered span that have no page,
+    which happens when nothing at all is on the calendar for that date.
+
+    Returns (body, side). Reuses the /dates/ hub's markup exactly -- the
+    `.plain` wrapper, `.cat-list` two-column list and `.list-side` rail -- so
+    this page type needs no CSS of its own.
+    """
+    by_month = {}
+    for d in dates:
+        by_month.setdefault(d.month, []).append(d)
+
+    months_html = []
+    side_months = []
+    for m in sorted(by_month):
+        items = []
+        for d in by_month[m]:
+            n = len(day_index.get(d, []))
+            items.append(
+                f'<li><a href="{day_path(d)}">'
+                f'<span>{esc_attr(weekday_month_day(d))}</span>'
+                f'<span class="mono">{n} {plural(n, "observance")}</span></a></li>'
+            )
+        anchor = MONTH_NAMES[m].lower()
+        months_html.append(
+            f'<h2 id="{anchor}">{MONTH_NAMES[m]} {year}</h2>'
+            f'<ul class="cat-list">{"".join(items)}</ul>'
+        )
+        nd = len(by_month[m])
+        side_months.append(
+            f'<li><a href="#{anchor}"><span>{MONTH_NAMES[m]}</span>'
+            f'<span class="mono">{nd}</span></a></li>'
+        )
+
+    first, last = dates[0], dates[-1]
+    if first == last:
+        # The case the forward horizon produces every time it crosses a New
+        # Year: the far year opens with one date on record. "runs from
+        # January 1 to January 1" would be a silly way to say that.
+        cover = [
+            f"The record for {year} is one date so far, "
+            f"{esc_attr(long_date(first))}."
+        ]
+    else:
+        cover = [
+            f"The record for {year} runs from {esc_attr(long_date(first))} to "
+            f"{esc_attr(long_date(last))}, {len(dates)} "
+            f"{plural(len(dates), 'day')} in all."
+        ]
+    if (first.month, first.day) != (1, 1):
+        cover.append(
+            f"The dated archive opens on "
+            f"{esc_attr(long_date(DAY_ARCHIVE_START))}, so earlier dates in "
+            f"{year} have no dated page."
+        )
+    if (last.month, last.day) != (12, 31):
+        cover.append(
+            f"It reaches about a year ahead and extends a day at a time, so "
+            f"later dates in {year} appear here as they come into range."
+        )
+    if gaps:
+        cover.append(
+            f"{gaps} {plural(gaps, 'date')} inside that range "
+            f"{plural(gaps, 'has', 'have')} nothing on the calendar and so "
+            f"{plural(gaps, 'has', 'have')} no page; "
+            f"{plural(gaps, 'it is', 'they are')} not listed."
+        )
+
+    year_nav = []
+    for y in years:
+        if y == year:
+            year_nav.append(f'<span aria-current="page">{y}</span>')
+        else:
+            year_nav.append(f'<a href="{year_index_path(y)}">{y}</a>')
+
+    body = (
+        '<div class="plain">'
+        f'<p class="intro">Every date in {year} with a record on Today '
+        f"Celebrates, month by month. Each entry links to that day&rsquo;s "
+        f"page: the national, international and world observances on the "
+        f"calendar for it, with the weekday and the ones whose date moved."
+        "</p>"
+        f'<p class="intro">{" ".join(cover)}</p>'
+        + "".join(months_html)
+        + '<div class="note">'
+        f'<p>The dated record by year: {" &middot; ".join(year_nav)}.</p>'
+        '<p>For what falls on a calendar date in <em>any</em> year, see '
+        '<a href="/dates/">every date of the year</a>.</p>'
+        "</div>"
+        "</div>"
+    )
+    side = (
+        f'<h2>{year}</h2><ul class="list-side">{"".join(side_months)}</ul>'
+    )
+    return body, side
 
 
 def render_perennial_page(key, bucket, prev_key, next_key, template, chrome,
@@ -2276,8 +2411,21 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
     category_counts = {c: len(v) for c, v in by_category.items()}
     simple_pages = {}  # site path -> html
 
+    # ---- /holidays/<year>/ year indexes (E3, fourth bullet) ----
+    # One page per year the dated archive touches. Derived entirely from
+    # day_dates, so a year appears the day its first dated page does and the
+    # current year's page grows as the horizon moves; nothing to configure.
+    dates_by_year = {}
+    for d in day_dates:
+        dates_by_year.setdefault(d.year, []).append(d)
+    archive_years = sorted(dates_by_year)
+    year_links_html = " &middot; ".join(
+        f'<a href="{year_index_path(y)}">{y}</a>' for y in archive_years
+    )
+
     dates_body, dates_side = dates_hub_html(
-        perennial_index, perennial_mds, perennial_published
+        perennial_index, perennial_mds, perennial_published,
+        year_links=year_links_html,
     )
     simple_pages["/dates/"] = render_simple_page(
         page_template, chromes["CALENDAR"],
@@ -2291,6 +2439,29 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         side=dates_side,
         crumbs=crumbs_html(("Calendar", None)),
     )
+
+    for y in archive_years:
+        ydates = dates_by_year[y]
+        # Dates inside the covered span that have no page at all: nothing is
+        # on the calendar for them. Counted so the page can say so rather than
+        # look as though days went missing.
+        span = (ydates[-1] - ydates[0]).days + 1
+        gaps = span - len(ydates)
+        ybody, yside = year_index_html(y, ydates, day_index, archive_years, gaps)
+        simple_pages[year_index_path(y)] = render_simple_page(
+            page_template, chromes["CALENDAR"],
+            title=f"{y} Holidays and Observances, Day by Day | Today Celebrates",
+            description=(
+                f"Every date in {y} with holidays and observances on the "
+                f"calendar: {len(ydates)} days on record, "
+                f"{long_date(ydates[0])} to {long_date(ydates[-1])}."
+            ),
+            path=year_index_path(y),
+            headline=f"Holidays and observances in {y}",
+            body=ybody,
+            side=yside,
+            crumbs=crumbs_html(("Calendar", "/dates/"), (str(y), None)),
+        )
 
     simple_pages["/about/"] = render_simple_page(
         page_template, chromes["ABOUT"],
@@ -2450,6 +2621,7 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         "search_index_entries": len(search_index),
         "search_index_changed": search_changed,
         "simple_pages_total": len(simple_pages),
+        "year_index_pages": [year_index_path(y) for y in archive_years],
         "simple_pages_changed": sorted(simple_changed),
         "day_pages_total": len(day_dates),
         "day_pages_created": day_diffs["created"],
