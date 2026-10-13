@@ -350,6 +350,36 @@ calls made, and leave the ambiguous ones untyped rather than filling them in.
 The sort-and-style half of the item can be built and verified against whatever
 subset is typed; a row with no Type must degrade to today's flat ordering.
 
+**STATUS: PARTLY DONE 2026-10-13** (code uncommitted; Notion `Type` property
+and 40 rows live). The machinery is finished: Notion `Type` select with the
+seven options; `export_from_notion.py` carries it and omits the key when
+unset; `obs_sort_key()` = `(type rank, Order, name)` is now the single sort
+for dated pages, perennial pages, the home page and the month data files, with
+`Order` kept as the tiebreaker **inside** a type; a typed row gains `data-t`,
+a `t-<slug>` class and a chip that replaces the `Lead` label on row one; which
+tiers read as "major" is one CSS selector in `site.css`. An untyped row is
+byte-identical to pre-E4 (proven: the patched generator on untyped data
+differs from the pre-patch generator in **one file**, the home page's inline
+script). An unknown `Type` warns and renders as untyped rather than inventing
+a tier. Month data entries gain a 5th element **only when typed**.
+
+**Typed so far: 40 of ~2,450**, chosen because none of them is a judgment
+call — the 11 federal holidays of 5 U.S.C. § 6103, 6 season-and-clock rows,
+23 religious observances. Effect: the lead changes on 16 list pages (July 4,
+2027 led with *Alice in Wonderland Day*; it now leads with Independence Day).
+
+**The remaining ~2,410 are blocked on an assignment rule from Jay** — three
+boundaries are written up in the 2026-10-13 `docs/REVIEW.md`: saints' feast
+days, secularized religious holidays, and Observance vs Fun (most of the
+remainder). **Do not restart E4 from the top, and do not type the rest by
+guessing.** With a rule, the next run continues E4; without one, E5 is
+independent of all of this and can be taken instead.
+
+Also found while in there and **not fixed** (E2/§7 work, one item per run):
+**`Ascension` is stored as a fixed May 6 but is Easter + 39 days** — right for
+2027 by coincidence, wrong from 2028, and absent from `docs/FIDELITY_AUDIT.md`
+because that screen only catches weekday-ruled rows.
+
 ### E5 — Calendar export
 Absent across all five competitors. A subscribed calendar is the only retention
 mechanism available without accounts.
@@ -399,9 +429,9 @@ Ties broken by date proximity, so pages go live before their occurrence.
 - [x] 6. Easter Sunday  *(published 2026-10-11, content run; Live)*
 - [x] 7. Mother's Day  *(published 2026-10-11, content run; Live)*
 - [x] 8. Father's Day  *(published 2026-10-11, content run; Live)*
-- [ ] 9. St. Patrick's Day
-- [ ] 10. Independence Day
-- [ ] 11. New Year's Eve
+- [x] 9. St. Patrick's Day  *(published 2026-10-12, content run; Live)*
+- [x] 10. Independence Day  *(published 2026-10-12, content run; Live)*
+- [x] 11. New Year's Eve  *(published 2026-10-12, content run; Live)*
 - [ ] 12. Christmas Eve
 
 **Tier 2 — federal and civic**
@@ -698,3 +728,64 @@ Newest last. One line per run: date, type, item, outcome. Keep it terse.
   · **Least confident claim:** that Presidents Wilson and Coolidge "worked toward making the
   day national" (Father's Day) — the LoC states it but gives no years or acts, so the draft
   repeats it at exactly that vagueness. Worth a spot-check.
+- 2026-10-13 · engineering · **E4 partly done — observance type taxonomy** · tree clean at
+  the gate. Notion: new `Type` select (Federal / State / Religious / Cultural / Observance /
+  Season & Clock / Fun) with a property description; 40 rows typed, chosen as the ones with
+  no judgment in them — 11 federal (5 U.S.C. § 6103), 6 season-and-clock, 23 religious. No
+  other property touched, `Published` and `Content Status` untouched. Code: `generate.py`
+  (+124/-11) TYPE_ORDER/TYPE_SLUG/`type_rank`/`obs_sort_key`/`type_tag`/`type_json`, both
+  sort sites, `obs_row` markup, 5th month-data element only on typed rows, `type_counts` +
+  `unknown_types` in the report and a WARNING for an unknown Type; `export_from_notion.py`
+  (+18) Type passthrough, key omitted when unset; `templates/index.html` (+14/-3) the
+  `obsRow()` mirror; `site.css` (+21) `.tg` chips and the single "major" rule;
+  `README.md` (+72). Verified: patched generator on **untyped** data vs the pre-patch
+  generator differs in **one file** (the home page's inline script) — every holiday, dated,
+  perennial and year page, every data file and the sitemap byte-identical, so the degradation
+  requirement is proven not asserted; with the 40 typed, exactly 194 files differ and
+  **6,606 invariant checks pass with 0 failures** (no holiday gained or lost anywhere, rows a
+  permutation not a rewrite, one chip per typed row, sitemap byte-identical); 25 unit
+  assertions pass; unknown-Type path warns and leaves the site byte-identical; exit 0,
+  **zero WARNINGs**, idempotent. Lead changes on 16 list pages (July 4, 2027: Alice in
+  Wonderland Day → Independence Day). CLS still not measured. Nothing committed.
+  **The remaining ~2,410 rows are blocked on an assignment rule from Jay** (3 boundaries in
+  docs/REVIEW.md). Also found, not fixed: `Ascension` is stored as fixed May 6 but is a
+  moveable feast — wrong from 2028. Next engineering run: E4 with a rule, else E5.
+- 2026-10-12 · content · **St. Patrick's Day, Independence Day, New Year's Eve published (Live)** ·
+  *(Run Log line back-filled by the 2026-10-13 content run from
+  `claude/content-run-2026-10-12-tier1-9to11.md`; the 2026-10-12 run lost the device bridge
+  before it could write it.)*
+  Queue items 9-11, top-first. **First found that items 6-8 were already published and Live from
+  the 2026-10-11 run, which had lost the bridge before ticking them** — so that run ticked 6-8,
+  back-filled its Run Log line and REVIEW note, and then took 9-11 as the genuinely untouched
+  next three. One unambiguous main row each (Pet Owners Independence Day and the
+  Chinese/Islamic/Assyrian New Year rows are separate queue items, not duplicates).
+  All five long-form fields per §4, Content Status = Live, `Published` and `Description` untouched.
+  Word counts ~900 / ~915 / ~920, estimated from character counts. American spelling.
+  Sources: National Archives (Declaration history), Massachusetts Historical Society (Adams to
+  Abigail, 3 July 1776), Library of Congress (Today in History for March 17 and July 4, In Custodia
+  Legis on federal holidays), Royal Irish Academy (St Patrick's Confessio), Charitable Irish Society,
+  Citizens Information Ireland, Smithsonian NMAAHC (Watch Night; Douglass's 1852 address), Times
+  Square Alliance, OPM, NHTSA, NBC Chicago. No aggregator cited.
+  **No section omitted for lack of a source**, but several individual claims were (see below).
+  Verified by query only: Live status, Published and Description untouched, no `](` in Sources,
+  no `**` in Body/Timeline/FAQ, every FAQ block opening with a line ending in `?`.
+  **NOT verified: the renderer was never run** — the bridge dropped, and the exporter needs a
+  NOTION_TOKEN that session did not have. Slugs inferred from convention, not read from
+  holidays.json. Nothing committed.
+  · **Conflicts resolved.** Independence Day: the Library of Congress calls the Declaration
+  "unanimously adopted" on July 4, while the National Archives records New York abstaining on
+  June 11 and not voting on July 2 — followed the National Archives as the more primary source
+  and the document's custodian, and gave the vote counts instead of calling July 4 unanimous.
+  St. Patrick's Day: the "first parade" claim is genuinely contested, so the page follows the LoC
+  (New York official 1766, unofficial march 1762, Boston possibly 1775) and says outright that the
+  widely repeated Boston 1737 is the Charitable Irish Society's founding and dinner, not a parade.
+  · **Claims deliberately left out for want of a source:** the shamrock-and-Trinity and
+  snakes-out-of-Ireland legends are named as later traditions but left **undated**. The 1938 act
+  that made federal holidays paid is omitted. Jefferson's and Adams's deaths on July 4, 1826 were
+  dropped entirely — no primary source was obtained. The Chicago River dyeing is dated only to
+  "the 1960s", as NBC Chicago has it, not to the commonly cited 1962. The Times Square Alliance
+  page contradicts itself on how many balls there have been, so the page gives **no count**. No
+  New Year's Eve-specific drunk-driving figure is given, because NHTSA publishes none.
+  · **Least confident claim:** that the Times Square ball "has descended every year since 1907
+  except 1942 and 1943". The Alliance page states the 1942-43 suspension and the year-by-year ball
+  history but never asserts unbroken continuity in those words; the page infers it. Worth a check.

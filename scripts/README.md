@@ -668,6 +668,78 @@ the templates or the generator changes.
 Note: the site sends no Content-Security-Policy, so third-party ad scripts are
 not blocked today. If a CSP is ever added, any ad host needs allowing there.
 
+## Observance type (E4)
+
+Every row can carry a `Type` — a Notion select with seven options — and the
+day lists sort and style by it. The point is that a flat list gives
+Thanksgiving and National Pumpkin Day the same weight, which tells the reader
+the site does not know which one matters.
+
+| Notion property | `holidays.json` key | Holds |
+|---|---|---|
+| `Type` (select) | `type` | One of the seven below, or absent |
+
+**The seven, in priority order** — this is `TYPE_ORDER` in `generate.py` and
+the order the lists sort in:
+
+`Federal` · `State` · `Religious` · `Cultural` · `Observance` ·
+`Season & Clock` · `Fun`
+
+`Federal` means the eleven holidays in **5 U.S.C. § 6103** and nothing else.
+It is a statutory list, so it is the one tier with no judgment in it.
+
+### How it sorts
+
+`obs_sort_key()` is `(type rank, Order, name)`. **`Order` is still the
+tiebreaker inside a type**, so the hand-curation already in Notion decides
+between two Fun days; the taxonomy only overrules it between two rows of
+different kinds. One sort function feeds the dated pages, the perennial
+pages, the home page and the month data files, so the four can never disagree.
+
+A row with **no** `Type` sorts after every typed row, and an unknown `Type`
+(an option added in Notion that `TYPE_ORDER` does not list) sorts just above
+untyped and renders as untyped — the run prints a `WARNING` and the report
+carries `unknown_types`, rather than inventing a tier.
+
+### Why an untyped row renders byte-identically
+
+The same rule as E1, for the same reason. `export_from_notion.py` leaves the
+`type` key **out** of the entry when the select is empty, and `obs_row()`
+emits no `data-t`, no `t-` class and no chip for such a row. ~2,450 rows get
+typed over several runs, and this is what stops each of those runs from
+producing a whole-site diff: a date with nothing typed on it regenerates
+exactly as before.
+
+The month data files follow the same principle. An entry is
+`[name, slug, category, yearly]` as it always was, with a **fifth element, the
+type, appended only on rows that have one**. A four-element entry is therefore
+the bytes it was before E4, and old cached copies on either side keep working:
+the home page's script reads `it[4]` as `undefined` and renders an untyped row.
+
+### Styling
+
+The chip after the name is `.tg` plus `.tg-<slug>` in `public/styles/site.css`,
+filled like the category pills (colour as fill, never as text — the whole
+palette fails contrast as text). The chip **replaces** the `Lead` label on row
+one: the type says more than "Lead" does, and one chip per row keeps the table
+quiet.
+
+Which tiers read as "major" is **one CSS rule**, deliberately not a Python
+constant:
+
+```css
+.obs tr.t-federal td.nm a,.obs tr.t-state td.nm a,.obs tr.t-religious td.nm a{font-size:17px}
+```
+
+Move the line by editing that selector. Each type also needs a `.tg-<slug>`
+rule; adding a `Type` option in Notion without one is what the `WARNING`
+above is for.
+
+`obs_row()` in `generate.py` and `obsRow()` in `templates/index.html` must
+produce identical markup — the home page re-renders its table in the browser
+when a visitor picks another date. They were changed together; change them
+together.
+
 ## Long-form holiday content (E1)
 
 A holiday page has two shapes. Without long-form content it is the short page

@@ -79,6 +79,7 @@
   // baked. Its markup MUST stay identical to obs_row() / calendar_html() in
   // scripts/generate.py.
   var CATS = <!--TC:CAT_JSON-->;
+  var TYPES = <!--TC:TYPE_JSON-->;
   var MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
   var MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   var WEEKDAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
@@ -115,11 +116,20 @@
     return '<button type="button" class="ib' + (extra || "") + '" data-a="' + a + '" aria-label="' + esc(label) + '">' +
            '<svg width="17" height="17" aria-hidden="true"><use href="#' + icon + '"/></svg></button>';
   }
+  // Must stay byte-identical to obs_row() in scripts/generate.py -- see the
+  // note at the top of this file. it[4] is the observance Type and is absent
+  // on an untyped row (and on month files cached from before E4), in which
+  // case this emits exactly the markup it emitted before the taxonomy existed.
+  // The rows arrive already sorted by type: the server writes the month files
+  // in the order the day lists use, so there is nothing to sort here.
   function obsRow(it, i, isoDate) {
     var n = it[0], s = it[1], c = CATS[it[2]] || [it[2], "lil"];
-    return '<tr data-u="/holiday/' + s + '/" data-n="' + esc(n) + '" data-d="' + isoDate + '" data-y="' + it[3] + '"' + (i === 0 ? ' class="hot"' : "") + '>' +
+    var t = it[4] ? (TYPES[it[4]] || "") : "";
+    var cls = (i === 0 ? ["hot"] : []).concat(t ? ["t-" + t] : []);
+    var tag = t ? '<span class="tg tg-' + t + '">' + esc(it[4]) + '</span>' : "";
+    return '<tr data-u="/holiday/' + s + '/" data-n="' + esc(n) + '" data-d="' + isoDate + '" data-y="' + it[3] + '"' + (t ? ' data-t="' + t + '"' : "") + (cls.length ? ' class="' + cls.join(" ") + '"' : "") + '>' +
       '<td class="n mono">' + pad2(i + 1) + '</td>' +
-      '<td class="nm"><a href="/holiday/' + s + '/">' + esc(n) + '</a>' + (i === 0 ? '<span class="lbl">Lead</span>' : "") + '</td>' +
+      '<td class="nm"><a href="/holiday/' + s + '/">' + esc(n) + '</a>' + tag + (i === 0 && !tag ? '<span class="lbl">Lead</span>' : "") + '</td>' +
       '<td class="cat"><span class="pill ' + c[1] + '">' + esc(c[0]) + '</span></td>' +
       '<td class="act">' + btn("copy", "Copy link to " + n, "i-link") + btn("ics", "Add " + n + " to calendar", "i-cal") + btn("share", "Share " + n, "i-share", " sh") + '</td></tr>';
   }

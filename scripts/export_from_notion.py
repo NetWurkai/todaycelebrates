@@ -480,6 +480,24 @@ def extract_holiday(page):
         "display_order": display_order,
     }
 
+    # ---- observance type (E4) ----
+    #
+    # Optional, and left OUT of the entry when unset rather than written as
+    # null or "". That is deliberate and matches the long-form fields below:
+    # an untyped row's JSON -- and so its generated page -- stays
+    # byte-identical to what it was before the taxonomy existed, which is what
+    # lets the ~2,450 rows be typed over several runs without churning the
+    # whole site each time.
+    #
+    # generate.py sorts typed rows above untyped ones and styles the top
+    # tiers; a row with no Type keeps today's flat, Order-only placement. No
+    # warning for a missing Type: most rows have none yet, and a warning on
+    # each would drown the run.
+    type_prop = props.get("Type", {}).get("select")
+    obs_type = type_prop["name"] if type_prop else None
+    if obs_type:
+        entry["type"] = obs_type
+
     # ---- long-form content fields (E1) ----
     #
     # All of these are optional, and an absent or empty one is left OUT of the

@@ -557,6 +557,75 @@ CATEGORY_STYLE = {
     "tech": ("Tech", "mnt"),
 }
 
+# ---- observance type (E4) ----
+#
+# Notion's "Type" select, in priority order. The rank is what day lists sort
+# by, so Thanksgiving leads its date over National Pumpkin Day whatever Order
+# says. This order is the one listed in section 5 of docs/EXECUTION_PLAN.md,
+# read as a priority order.
+#
+# A row with NO type sorts after every typed row and renders exactly as it did
+# before this taxonomy existed: no data-t, no class, no chip. That is what lets
+# the ~2,450 rows be typed over several runs -- a date with nothing typed on it
+# regenerates byte-identical. Order is still the tiebreaker inside a type, so
+# the curation already in Notion decides between two Fun days; the taxonomy
+# only overrules it between two rows of different kinds.
+#
+# The slug is the CSS hook (tr.t-federal, span.tg-federal) and the value the
+# home page's inline script reads. Which tiers read as "major" is decided in
+# public/styles/site.css, in one rule, not here.
+TYPE_ORDER = (
+    "Federal", "State", "Religious", "Cultural", "Observance",
+    "Season & Clock", "Fun",
+)
+TYPE_SLUG = {
+    "Federal": "federal",
+    "State": "state",
+    "Religious": "religious",
+    "Cultural": "cultural",
+    "Observance": "observance",
+    "Season & Clock": "season-clock",
+    "Fun": "fun",
+}
+TYPE_RANK = {name: i for i, name in enumerate(TYPE_ORDER)}
+UNKNOWN_TYPE_RANK = len(TYPE_ORDER)      # a Type option added in Notion, not here
+UNTYPED_RANK = len(TYPE_ORDER) + 1       # no Type at all -- sorts last
+
+
+def type_slug(holiday):
+    """'' for an untyped row, and for a Type this file does not know about.
+
+    An unknown option is rendered as untyped rather than guessed at, and
+    generate() reports it so the run says so out loud instead of silently
+    dropping a tier someone added in Notion."""
+    return TYPE_SLUG.get(holiday.get("type") or "", "")
+
+
+def type_rank(holiday):
+    t = holiday.get("type")
+    if not t:
+        return UNTYPED_RANK
+    return TYPE_RANK.get(t, UNKNOWN_TYPE_RANK)
+
+
+def obs_sort_key(holiday):
+    """How every day list is ordered: type, then the hand-set Order, then name."""
+    return (type_rank(holiday), holiday.get("display_order", 999), holiday["name"])
+
+
+def type_tag(holiday):
+    """The small uppercase chip after the name. '' for an untyped row."""
+    slug = type_slug(holiday)
+    if not slug:
+        return ""
+    return f'<span class="tg tg-{slug}">{esc_text(holiday["type"])}</span>'
+
+
+def type_json():
+    """TYPE_SLUG for the home page's inline script (one source of truth)."""
+    return json.dumps(TYPE_SLUG, ensure_ascii=False, separators=(",", ":"))
+
+
 NAV_KEYS = ("TODAY", "CALENDAR", "CATEGORIES", "ABOUT")
 _partial_cache = {}
 
@@ -636,11 +705,20 @@ def obs_row(h, index, iso_date):
     `index` is 0-based; the first row of a day is the leading celebration.
     The data-* attributes are what /js/site.js reads for Share, Copy link and
     Add to calendar, so no per-row script or URL-building is needed.
+
+    A typed row (E4) also carries data-t and a t-<slug> class, and shows its
+    type chip where the "Lead" label would go: on row one the type says more
+    than "Lead" does, and one chip per row keeps the table quiet. An untyped
+    row emits byte-for-byte what it emitted before the taxonomy existed.
     """
     name, slug = h["name"], h["slug"]
     yearly = "1" if h["recurrence"] == "Annual" else "0"
-    hot = ' class="hot"' if index == 0 else ""
-    lead = '<span class="lbl">Lead</span>' if index == 0 else ""
+    tslug = type_slug(h)
+    tattr = f' data-t="{tslug}"' if tslug else ""
+    classes = (["hot"] if index == 0 else []) + ([f"t-{tslug}"] if tslug else [])
+    cls = f' class="{" ".join(classes)}"' if classes else ""
+    tag = type_tag(h)
+    lead = '<span class="lbl">Lead</span>' if index == 0 and not tag else ""
     actions = (
         row_button("copy", f"Copy link to {name}", "link")
         + row_button("ics", f"Add {name} to calendar", "cal")
@@ -648,9 +726,9 @@ def obs_row(h, index, iso_date):
     )
     return (
         f'<tr data-u="/holiday/{slug}/" data-n="{esc_attr(name)}" data-d="{iso_date}" '
-        f'data-y="{yearly}"{hot}>'
+        f'data-y="{yearly}"{tattr}{cls}>'
         f'<td class="n mono">{index + 1:02d}</td>'
-        f'<td class="nm"><a href="/holiday/{slug}/">{esc_attr(name)}</a>{lead}</td>'
+        f'<td class="nm"><a href="/holiday/{slug}/">{esc_attr(name)}</a>{tag}{lead}</td>'
         f'<td class="cat">{cat_pill(h["category"])}</td>'
         f'<td class="act">{actions}</td></tr>'
     )
@@ -1265,7 +1343,7 @@ def build_day_index(holidays, by_slug, memo, start, end):
                 index.setdefault(occ, []).append(h)
 
     for d in index:
-        index[d].sort(key=lambda h: (h.get("display_order", 999), h["name"]))
+        index[d].sort(key=obs_sort_key)
     return index, sorted(skipped)
 
 
@@ -1600,10 +1678,7 @@ def build_perennial_index(wide_index):
 
     index = {}
     for key, bucket in buckets.items():
-        annual = sorted(
-            bucket["annual"].values(),
-            key=lambda h: (h.get("display_order", 999), h["name"]),
-        )
+        annual = sorted(bucket["annual"].values(), key=obs_sort_key)
         floating = sorted(
             ((h, sorted(set(years))) for h, years in bucket["floating"].values()),
             key=lambda pair: (pair[1][0], pair[0]["name"]),
@@ -2103,6 +2178,7 @@ def render_home(date, items, template, chrome, has_day_page, month_days,
         "MONTH_JUMP": month_jump_html(date.month),
         "COMING_UP": coming_up,
         "CAT_JSON": category_json(),
+        "TYPE_JSON": type_json(),
         **chrome,
     })
 
@@ -2231,8 +2307,15 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
     by_month = {}  # "YYYY-MM" -> { "YYYY-M-D": [[name, slug, category, yearly], ...] }
     for d in sorted(day_index):
         mk = f"{d.year:04d}-{d.month:02d}"
+        # [name, slug, category, yearly] -- plus a 5th element, the Type, on
+        # rows that have one. Appended rather than always-present on purpose:
+        # a 4-element entry is exactly the bytes it was before E4, so the month
+        # files only change where a row was actually typed, and the home page's
+        # inline script reads it[4] as undefined for the rest. Old cached
+        # copies of either side keep working.
         by_month.setdefault(mk, {})[f"{d.year}-{d.month}-{d.day}"] = [
             [h["name"], h["slug"], h["category"], 1 if h["recurrence"] == "Annual" else 0]
+            + ([h["type"]] if type_slug(h) else [])
             for h in day_index[d]
         ]
 
@@ -2607,9 +2690,23 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         with open(sitemap_path, "w", encoding="utf-8") as f:
             f.write(sitemap)
 
+    # E4 is typed over several runs, so every run says how far it has got and
+    # names any Type option that exists in Notion but not in TYPE_ORDER (those
+    # render and sort as untyped rather than being guessed at). main() warns.
+    type_counts = {}
+    unknown_types = set()
+    for h in holidays:
+        t = h.get("type")
+        key = t or "(untyped)"
+        type_counts[key] = type_counts.get(key, 0) + 1
+        if t and t not in TYPE_RANK:
+            unknown_types.add(t)
+
     return {
         "today": today_iso,
         "months_covered": sorted(by_month.keys()),
+        "type_counts": dict(sorted(type_counts.items())),
+        "unknown_types": sorted(unknown_types),
         "month_diffs": month_diffs,
         "stale_month_files": sorted(stale_month_files),
         "pages_created": sorted(page_diffs["created"]),
@@ -2691,6 +2788,15 @@ def main():
     # a floating rule that can no longer produce a date. The run still
     # succeeds -- the rest of the site regenerates and commits -- but these
     # holidays are frozen out of the calendar until their rule is extended.
+    for t in report.get("unknown_types", []):
+        note = (f"holidays.json has Type {t!r}, which TYPE_ORDER in this script "
+                f"does not list, so those rows sort and render as untyped. Add "
+                f"it to TYPE_ORDER/TYPE_SLUG and give it a .tg- rule in "
+                f"public/styles/site.css.")
+        print(f"WARNING: {note}", file=sys.stderr)
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            print(f"::warning title=Unknown observance type::{note}")
+
     unresolved = report["unresolved_holidays"]
     for u in unresolved:
         print(

@@ -118,6 +118,23 @@ table.obs[hidden]{display:none}
 .obs td.nm a{font-weight:700;font-size:15px;text-decoration:none}
 .obs td.nm a:hover{color:var(--acc);text-decoration:underline}
 .obs td.act{text-align:right;white-space:nowrap;width:140px}
+
+/* ---- observance type (E4) ----
+   The chip after the name, and the one rule that decides which tiers read as
+   "major". Fill, never coloured text -- same rule as the category pills.
+   Chips sit inside the fixed 48px row, so nothing here moves the layout.
+   An untyped row has no .tg and no .t-* class and is unaffected. */
+.tg{display:inline-block;font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:800;line-height:1.5;padding:1px 6px;margin-left:8px;vertical-align:middle;white-space:nowrap;border:2px solid var(--ink);border-radius:4px;color:var(--ink)}
+.tg-federal{background:var(--coral)}
+.tg-state{background:var(--sun)}
+.tg-religious{background:var(--lilac)}
+.tg-cultural{background:var(--lilac)}
+.tg-observance{background:var(--mint)}
+.tg-season-clock{background:var(--mint)}
+.tg-fun{background:#fff}
+/* "Major observances are visually dominant": one line, edit the selector to
+   change where the line falls. */
+.obs tr.t-federal td.nm a,.obs tr.t-state td.nm a,.obs tr.t-religious td.nm a{font-size:17px}
 .dates tr.now td{background:var(--sun);font-weight:700}
 .empty-note{color:var(--muted);padding:20px 0}
 .empty-note[hidden]{display:none}
@@ -259,6 +276,10 @@ dl.spec dt{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:va
   .obs td.act .ib:not(.sh){display:none}
   .obs tr:hover td{background:transparent}
   .obs tr.hot{background:#fff3d1}
+  /* the name cell is its own grid area here, so a long name plus a chip can
+     wrap; let it, rather than clipping the chip or the name */
+  .obs td.nm{white-space:normal}
+  .tg{margin-left:6px}
 }
 @media (max-width:520px){.brand .t{display:none}}
 @media print{.site-head,.site-foot,.ad-slot,.ad-rail,.tool,.skip{display:none!important}}
