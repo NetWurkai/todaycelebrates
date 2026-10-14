@@ -63,6 +63,22 @@
 /
   Cache-Control: public, max-age=300, stale-while-revalidate=3600
 
+# Calendar feeds (E5). Content-Type is stated rather than inferred: a feed
+# served as text/plain or application/octet-stream opens in a text editor
+# instead of a calendar app, and the subscribe flow fails silently. The cache
+# window matches the pages -- the feeds are regenerated on the same daily run.
+/calendar.ics
+  Content-Type: text/calendar; charset=utf-8
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/category/*/calendar.ics
+  Content-Type: text/calendar; charset=utf-8
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/holiday/*/event.ics
+  Content-Type: text/calendar; charset=utf-8
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
 /sitemap.xml
   Cache-Control: public, max-age=3600
 

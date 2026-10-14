@@ -192,6 +192,17 @@ dl.spec dt{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:va
 .tc-sources a{word-break:break-word}
 .also{margin-top:28px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);max-width:46em}
 
+/* ---- calendar feeds (E5) ---- */
+/* The line that offers an .ics download or a webcal:// subscription, on
+   observance pages (above the back-link) and category pages (under the intro).
+   Static markup in the served HTML, so it reserves its own space and cannot
+   shift the layout after paint. */
+.cal{margin:24px 0 0;padding:12px 14px;background:var(--alt);border-left:4px solid var(--mint);max-width:46em}
+.cal-add{display:inline-flex;align-items:center;min-height:44px;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.cal-add:hover{color:var(--acc)}
+.cal-note{display:block;color:var(--muted);font-size:13px}
+.cal-note a{color:var(--acc)}
+
 /* ---- side column ---- */
 .right h2,.left h2{margin-top:0}
 .list-side{list-style:none;margin:0 0 20px;padding:0}

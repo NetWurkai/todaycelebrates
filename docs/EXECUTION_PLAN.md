@@ -80,9 +80,16 @@ wrangler.jsonc
 ```
 public/index.html       public/holiday/**       public/day/**
 public/<month>-<day>/** public/dates/**         public/about/**
-public/categories/**    public/category/**
+public/categories/**    public/category/**      public/holidays/**
 public/data/**          public/sitemap.xml      scripts/holidays.json
+public/calendar.ics
 ```
+
+`public/holidays/**` (the year indexes, E3) and `public/calendar.ics` plus the
+`.ics` files under `public/holiday/**` and `public/category/**` (the calendar
+feeds, E5) are generated too. The feeds are written by `generate.py` on the same
+run as the pages; to change what is in one, change the generator, not the file.
+`public/_headers`, `public/llms.txt` and `public/styles/*.css` stay source.
 
 `scripts/people.json` is likewise a build artifact (from `scripts/build_people.py`);
 to change who appears, edit `scripts/people_overrides.json` (source, safe to edit) and
@@ -390,6 +397,46 @@ mechanism available without accounts.
 **Done when:** feeds validate and subscribe cleanly in Apple Calendar and Google
 Calendar, and UIDs are stable run to run.
 
+**STATUS: DONE 2026-10-14** (uncommitted), except the one criterion that needs a
+deploy. All three feed shapes are generated on the same run as the pages:
+`/calendar.ics` (3,265 events, 1.9 MB raw / ~164 KB gzipped),
+`/category/<slug>/calendar.ics` (14) and `/holiday/<slug>/event.ics` (2,450),
+2,465 files in all, none of them in `sitemap.xml`. `webcal://` and download
+links are on every observance page (above the back-link), every category page,
+and in a new `/about/` section; `llms.txt` names all three shapes.
+
+Two model decisions, both written up in `scripts/README.md`:
+- **Fixed-date rows are one VEVENT with `RRULE:FREQ=YEARLY`; rule-dated rows are
+  enumerated** out of the same index pass the perennial pages use — so a date in
+  a feed is a date the site shows. RRULEs were deliberately *not* used for rule
+  dates: `BYDAY` cannot express an Easter offset, a lookup table or "the day
+  after Thanksgiving", so a partial translation would be a second recurrence
+  engine free to disagree with the site. Window: ten years, rolling forward with
+  every daily regeneration. A row whose lookup table has expired contributes
+  fewer events rather than an extrapolated date.
+- **No `VTIMEZONE`, deliberately.** These are `DATE`-valued all-day events, which
+  carry no zone; attaching one would move every holiday a day for subscribers
+  east or west of it. The item's wording asks for a correct VTIMEZONE and for
+  these events the correct answer is none.
+
+UIDs are stable by construction (`<slug>@` for a recurring row,
+`<slug>-YYYYMMDD@` per enumerated occurrence) and `ICS_DTSTAMP` is a fixed build
+stamp, so a regeneration that changes no dates rewrites no feed file: verified by
+a second run (0 changed, 2,465 unchanged). Verified further by reverse-transform
+against the pre-patch generator (removing the one added line makes all 2,450
+holiday pages, 14 category pages and `/about/` byte-identical; every dated,
+perennial, year, hub and data file **and the sitemap** untouched), 201,453
+structural and cross-checks with 0 failures, 1,230 link checks, and a simulated
+`--today 2027-06-15` rollover. Exit 0, zero WARNINGs.
+
+**The one criterion left: "subscribe cleanly in Apple Calendar and Google
+Calendar" needs this deployed** — an unattended run cannot subscribe to a feed
+that is not published yet. Four decisions in the 2026-10-14 `docs/REVIEW.md`,
+none blocking: the now-redundant in-browser Add-to-calendar button, footer/home
+discovery, the 1.9 MB all-feed (and a federal-holidays-only feed, which wants
+E4's typing), and the still-unmeasured CLS. **Do not rebuild E5**; the next
+engineering run goes to E4 with a rule, else **E6**.
+
 ### E6 — Submitted occasions
 Form → Stripe Checkout → Cloudflare Worker → unpublished Notion row → Jay
 reviews → daily regeneration publishes. Launch with the Listed tier only.
@@ -432,11 +479,11 @@ Ties broken by date proximity, so pages go live before their occurrence.
 - [x] 9. St. Patrick's Day  *(published 2026-10-12, content run; Live)*
 - [x] 10. Independence Day  *(published 2026-10-12, content run; Live)*
 - [x] 11. New Year's Eve  *(published 2026-10-12, content run; Live)*
-- [ ] 12. Christmas Eve
+- [x] 12. Christmas Eve  *(published 2026-10-14, content run; Live)*
 
 **Tier 2 — federal and civic**
-- [ ] 13. Veterans Day
-- [ ] 14. Memorial Day
+- [x] 13. Veterans Day  *(published 2026-10-14, content run; Live)*
+- [x] 14. Memorial Day  *(published 2026-10-14, content run; Live)*
 - [ ] 15. Labor Day
 - [ ] 16. Martin Luther King, Jr. Day
 - [ ] 17. Presidents' Day
@@ -789,3 +836,70 @@ Newest last. One line per run: date, type, item, outcome. Keep it terse.
   · **Least confident claim:** that the Times Square ball "has descended every year since 1907
   except 1942 and 1943". The Alliance page states the 1942-43 suspension and the year-by-year ball
   history but never asserts unbroken continuity in those words; the page infers it. Worth a check.
+- 2026-10-14 · content · **Christmas Eve, Veterans Day, Memorial Day — all three Live** · repo folder
+  was not attached at fire time; re-requested and granted, then STEP 0 passed (committed exporter
+  carries `LONGFORM_RELEASED_STATUSES`, count 2). Main rows used where the title was ambiguous:
+  `Veterans Day` (Type Federal, Nov 11) not the 7 other "...Veterans Day" rows, and `Memorial Day`
+  (Type Federal, Floating) not the 4 other "...Memorial Day" rows. `Published` untouched on all
+  three; `Description` untouched. All 3 FAQs verified against the **committed** `parse_faq()` —
+  5 pairs each. Generator smoke-run into a throwaway dir: exit 0, 5,669 files.
+  · **Omitted for want of a source:** Christmas Eve's liturgical origin (the vigil / Midnight Mass).
+  Vatican homilies confirm the papal Midnight Mass is on Dec 24 but no consulted source documents
+  how the evening-before observance took shape, so the page asserts nothing. Public law numbers for
+  the 1938 / 1954 / 1975 Veterans Day acts omitted — the sources give dates, not numbers. The Sears
+  advertisement is left out of the NORAD story: NORAD's own fact sheet says only "a promotion in a
+  local newspaper".
+  · **Source conflicts resolved:** Waterloo, NY — VA/NCA ties the 1966 designation to a century of
+  **May 30** observances, LOC dates the formal observance to **May 5, 1866**. Both federal, neither
+  more primary; the page gives LOC's specific date and does not assert the May 30 continuity.
+  Moore's authorship — New-York Historical says acknowledged **1838**, LOC says published under his
+  name **1844**; different acts, so both dates are given rather than one chosen.
+  · **Least confident claim:** that Veterans Day was observed in October "from 1971 through 1977".
+  The Army CMH page states the 1971 effective date and the 1978 return but never spells out the
+  seven-year span; the FAQ infers it. Worth a check.
+  · **Over the word target:** Veterans Day ≈ 915 words, Memorial Day ≈ 1,040, Christmas Eve ≈ 1,170,
+  against §4's 600–900. Every claim is sourced and none of it is padding, so nothing was cut except
+  one soft paragraph on Memorial Day. Flagged for Jay rather than trimmed.
+  · **Tree was dirty outside `docs/` at run time** (`public/_headers`, `public/llms.txt`,
+  `public/styles/site.css`, `scripts/generate.py`, `scripts/templates/holiday.html`) — unreviewed
+  engineering work from an earlier run. Content work is Notion-side so it did not stack, but the
+  next *engineering* run will hit rule 2 and stop.
+  · **Flagged, and the reason to read `docs/REVIEW.md` today:** the project doc
+  `claude/content-run-2026-10-13-tier1-12to14.md` says the 2026-10-13 content run published
+  **these same three rows** to Live, naming the same page ids and quoting exact word counts.
+  All three were **empty** (`Content Status` and `Body` both NULL) when this run queried them
+  at 10:20 UTC. The 2026-10-12 run's three pages are still populated, so this is not a general
+  wipe. Either those writes never reached Notion, or the rows were cleared since. Nothing was
+  lost by this run — it wrote into empty fields — but one of those two explanations is a real
+  defect. Sections A and B of that doc were deliberately **not** back-filled, because they
+  describe content that is not in Notion; its still-open recommendations are carried into
+  `docs/REVIEW.md` instead.
+  · Note: `scripts/README.md` appeared as modified partway through this run, after the initial
+  rule-2 check listed five files without it. Not touched by this run.
+- 2026-10-14 · engineering · **E5 done — calendar export** · tree clean at the gate; E4's
+  remaining ~2,410 rows still blocked on an assignment rule, so took E5 per §5. No Notion
+  change. `/calendar.ics` + 14 category feeds + 2,450 `/holiday/<slug>/event.ics` = 2,465
+  files, 3,265 events (2,348 fixed-date rows as one `RRULE:FREQ=YEARLY` event each, 917
+  rule-dated occurrences enumerated from the perennial index pass so a feed date is always a
+  date the site shows); no `VTIMEZONE` by design (`DATE`-valued all-day events carry no zone);
+  stable UIDs and a fixed `ICS_DTSTAMP`, so an unchanged run rewrites no feed. Code:
+  `generate.py` (+323) `ICS_*`, `ics_text/fold/date/uid/event/calendar`,
+  `write_bytes_if_changed`, `cal_links_html`, `cal_feed_links_html`, `ics_occ`, the feed
+  block, 8 report keys; `templates/holiday.html` (+1) `CAL_LINKS`; `site.css` (+11) `.cal`;
+  `_headers` (+16) `text/calendar` + cache; `llms.txt` (+8); `README.md` (+112). §3 boundary
+  now also names `public/holidays/**` (missing since E3) and the generated `.ics` paths.
+  Verified: reverse-transform vs the pre-patch generator — removing the one added line makes
+  all 2,450 holiday pages, the 14 category pages and `/about/` byte-identical, and every
+  dated, perennial, year, hub and data file **and `sitemap.xml`** are untouched, zero
+  unexplained deltas; **201,453 structural and cross-checks, 0 failures** (RFC 5545 envelope,
+  75-octet folding, lossless fold/unfold, `DTEND`=`DTSTART`+1, UID uniqueness, every event
+  date re-derived from the recurrence engine, feed UID sets = union of the per-observance
+  files = union of the category feeds); 1,230 `.ics` links resolve; second run 0 changed /
+  2,465 unchanged (idempotent); `--today 2027-06-15` rollover drops the 4 expired-lookup rows
+  with no page linking a missing file; exit 0, **zero WARNINGs**. Nothing committed. **Open:
+  the acceptance criterion "subscribes cleanly in Apple/Google Calendar" needs a deploy.**
+  4 decisions in docs/REVIEW.md; next engineering run: E4 with a rule, else E6.
+  · Note: tonight's content run appended to `docs/REVIEW.md` while this run was working, so
+  rule 6's "overwrite" was applied to the engineering review only — the content run's section
+  was kept at the bottom of the file rather than destroyed. Its "tree was dirty outside
+  `docs/`" warning refers to **this run's own work in progress**, not a second unreviewed run.

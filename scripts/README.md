@@ -88,6 +88,10 @@ queries:
 | `/holidays/<year>/` | **One year of the dated archive** (`/holidays/2027/`). Every date that year has a `/day/` page for, grouped by month, with each date's weekday and observance count. The index of the archive, not a page that competes for a query. | Evergreen; the current year's grows daily |
 | `/category/<slug>/`, `/categories/`, `/about/` | Browse-by-theme lists and the About page. | Evergreen |
 
+Calendar feeds (`/calendar.ics`, `/category/<slug>/calendar.ics`,
+`/holiday/<slug>/event.ics`) sit alongside these but are not pages and are not
+in the sitemap — see "Calendar export (E5)".
+
 Each page self-canonicalises. `/` is not canonicalised to today's dated page or
 vice versa — they're different pages with different jobs, and collapsing them
 would either stop `/` ranking for "what holiday is today" or stop the dated
@@ -739,6 +743,114 @@ above is for.
 produce identical markup — the home page re-renders its table in the browser
 when a visitor picks another date. They were changed together; change them
 together.
+
+## Calendar export (E5)
+
+Three kinds of iCalendar file, all written by `generate()` on the same run that
+writes the pages, all static, none of them in `sitemap.xml` (a sitemap lists
+indexable pages; these are downloads).
+
+| URL | Holds |
+|---|---|
+| `/calendar.ics` | Every observance on the site |
+| `/category/<slug>/calendar.ics` | One category, one feed each (14 today) |
+| `/holiday/<slug>/event.ics` | One observance (~2,450 files) |
+
+Each is offered two ways on the pages that link it: the `https` URL downloads
+the file, and the same path under `webcal://` subscribes to it. Observance
+pages carry the line above the back-link, category pages under the intro, and
+`/about/` has a section. `public/llms.txt` names all three.
+
+### The recurrence model, and why it is not symmetrical
+
+**Fixed-date (`Annual`) rows: one VEVENT with `RRULE:FREQ=YEARLY`.** That is
+exactly what the page already claims ("Every year on March 14"), it recurs
+forever, and it costs one event. `DTSTART` is the row's *next* occurrence — the
+same date the page shows — so a feed never carries a date that has already
+passed. A February 29 row gets a leap-year `DTSTART`, and RFC 5545's yearly
+rule then only produces leap years, which is correct and needs no special case.
+
+**Rule-dated (`Floating`) rows: one VEVENT per date, enumerated.** They are
+*not* translated into RRULEs. `BYDAY` could express "third Sunday in June", but
+nothing in RFC 5545 expresses an Easter offset, an almanac lookup table, "the
+day after Thanksgiving" or "the next Friday the 13th" — so an RRULE translation
+would cover some rules and not others, and would be a second implementation of
+the recurrence engine, free to drift out of agreement with the site. Instead
+the dates come straight out of `wide_index`, the same index pass the perennial
+date pages are built from: **a date in a feed is a date the site shows, by
+construction.** The window is therefore `PERENNIAL_YEARS` wide (ten years) and
+rolls forward on every daily regeneration, so a subscriber is never near its
+end.
+
+A row whose `lookup_table` has run out of hand-confirmed years simply
+contributes fewer events (today: Belmont, Preakness,
+teach-your-children-to-save and Super Bowl Sunday, which is why those four
+appear in `perennial_index_skipped`). A short feed is honest; an extrapolated
+date is not. See "FLOATING_RULES — which ones expire".
+
+### Why there is no VTIMEZONE
+
+All-day events are `DATE`-valued, so they carry no time and no timezone, and
+the file needs no `VTIMEZONE` block. This is the correct reading of the item in
+the plan, not a shortcut: attaching a timezone to these would shift every
+holiday by a day for any subscriber far enough east or west of whichever zone
+was picked. Christmas is December 25 wherever you are. `DTEND` is the following
+day, because `DATE` ends are exclusive.
+
+### Stability — UIDs and DTSTAMP
+
+`UID` is `<slug>@todaycelebrates.com` for a fixed-date row (one event, one
+identity, forever) and `<slug>-YYYYMMDD@todaycelebrates.com` for an enumerated
+occurrence, so if a date is corrected or a lookup table gains a year, exactly
+that occurrence is replaced in a subscriber's calendar and nothing else moves.
+
+`ICS_DTSTAMP` is a **fixed build stamp**, not the time of the run, for the same
+reason the sitemap carries each URL's `lastmod` forward: ~2,470 files whose only
+daily change was a timestamp would churn the repo and the CDN every night and
+tell every subscriber everything had been revised when nothing had. Bump
+`ICS_DTSTAMP` (and `ICS_SEQUENCE` with it) when the output's shape changes in a
+way clients should notice. With it fixed, a regeneration that changes no dates
+rewrites no feed files at all — verified by running the generator twice.
+
+The feeds are compared and written as **bytes** (`write_bytes_if_changed`),
+not text. Read back in text mode, Python translates their CRLFs to LF, every
+comparison reports a change, and all ~2,470 files get rewritten every run.
+
+### Line folding and escaping
+
+`ics_fold()` folds to RFC 5545's **75 octets** — the limit is octets, not
+characters, and the fold must never land inside a multi-byte UTF-8 sequence, so
+it measures bytes and breaks only between characters. Continuation lines begin
+with one space, which itself counts toward the 75.
+
+`ics_text()` escapes backslash, semicolon, comma and newline, and nothing else.
+Colons and quotes are legal in a TEXT value; over-escaping them shows up as
+literal backslashes in the event title, which is how you can spot a hand-rolled
+feed.
+
+### Content types
+
+`public/_headers` states `Content-Type: text/calendar; charset=utf-8` for all
+three patterns rather than leaving it to be inferred. A feed served as
+`text/plain` opens in a text editor instead of a calendar app and the subscribe
+flow fails with no error.
+
+### Size
+
+On the 2026-10-14 dataset: `/calendar.ics` is 3,265 events, 1.9 MB raw and
+~164 KB gzipped (the edge compresses `text/*`); the largest category feed
+(food, 530 rows) is 352 KB; an observance file is ~1 KB. Nearly all of the
+bulk is the per-event `DESCRIPTION`. If the all-observances feed ever needs to
+be smaller, dropping `DESCRIPTION` from that one feed takes roughly 60% off it
+and leaves the per-observance and per-category feeds untouched.
+
+### The in-browser button is still there
+
+`public/js/site.js`'s `addToCalendar()` still builds a one-event file in the
+browser for the "Add to calendar" button in the `.tool` row, independently of
+these files. It is now redundant with `/holiday/<slug>/event.ics`, which works
+without JavaScript and can be linked and subscribed to. Collapsing the two is
+a design call, not a bug — see `docs/REVIEW.md` for 2026-10-14.
 
 ## Long-form holiday content (E1)
 

@@ -129,6 +129,54 @@ ADS_ENABLED = True
 ADS_LABELLED = False  # set True once real paid creative runs, not placeholders
 
 
+# ---- calendar export (E5) ----
+#
+# Three kinds of iCalendar file, all generated here, all static:
+#   /calendar.ics                   every observance on the site
+#   /category/<slug>/calendar.ics   one category
+#   /holiday/<slug>/event.ics       one observance
+#
+# Fixed-date ("Annual") observances are one all-day VEVENT with
+# RRULE:FREQ=YEARLY -- exactly what the page already claims ("Every year on
+# March 14"), recurring forever at the cost of one event.
+#
+# Rule-dated ("Floating") observances are *not* translated into RRULEs. BYDAY
+# can express "third Sunday in June", but nothing in RFC 5545 can express an
+# Easter offset, an almanac lookup table, "the day after Thanksgiving" or
+# "the next Friday the 13th" -- and a feed that re-expressed the rules it
+# could in a second language would be a second implementation of the
+# recurrence engine, free to disagree with the site. So they are enumerated
+# date by date out of the same index pass the perennial date pages use: a date
+# in a feed is a date the site shows, by construction. The window is therefore
+# PERENNIAL_YEARS wide (ten years) and rolls forward with every daily
+# regeneration, so a subscriber is never near its end.
+#
+# All-day events are DATE-valued, so they carry no time and no timezone, and
+# the files need no VTIMEZONE: Christmas is December 25 wherever the subscriber
+# is. Attaching a timezone to these would be actively wrong -- it would shift
+# every holiday by a day for anyone far enough east or west of whichever zone
+# we picked.
+
+# DTSTAMP is a fixed build stamp rather than "now", for the same reason the
+# sitemap carries each URL's lastmod forward: ~2,450 event files whose only
+# daily change was a timestamp would churn the repo and the CDN every night and
+# tell every subscriber that everything had been revised when nothing had.
+# Bump it (and SEQUENCE with it) when the output's shape changes in a way
+# clients should notice.
+ICS_DTSTAMP = "20261014T000000Z"
+ICS_SEQUENCE = 0
+ICS_PRODID = "-//Today Celebrates//Site Generator//EN"
+
+# Asked of subscribing clients: re-fetch daily, which is how often the site is
+# rebuilt. REFRESH-INTERVAL is RFC 7986; X-PUBLISHED-TTL is what Outlook reads.
+ICS_REFRESH = "P1D"
+
+
+def ics_host():
+    """The site host, for webcal:// links (same host, different scheme)."""
+    return SITE_BASE_URL.split("://", 1)[1]
+
+
 def html_class():
     classes = []
     if ADS_ENABLED:
@@ -884,6 +932,173 @@ def esc_href(url):
 
 
 # ---------------------------------------------------------------------------
+# iCalendar output (E5) -- see the ICS_* constants at the top of this file for
+# the recurrence model and why there is no VTIMEZONE.
+# ---------------------------------------------------------------------------
+
+def ics_text(s):
+    """RFC 5545 TEXT escaping: backslash, semicolon, comma, newline.
+
+    Colons are *not* escaped (they are legal in a TEXT value) and neither are
+    quotes. Over-escaping shows up as literal backslashes in the event title in
+    Apple Calendar, which is how you can tell a feed was built by hand.
+    """
+    return (str(s).replace("\\", "\\\\")
+                  .replace(";", "\\;")
+                  .replace(",", "\\,")
+                  .replace("\r\n", "\\n")
+                  .replace("\n", "\\n")
+                  .replace("\r", "\\n"))
+
+
+def ics_fold(line):
+    """Fold one content line to RFC 5545's 75-octet limit.
+
+    The limit is octets, not characters, and a fold must never land inside a
+    multi-byte UTF-8 sequence -- so this measures bytes and only breaks between
+    characters. Continuation lines start with one space, which itself counts
+    toward the 75, hence the 74 after the first break.
+    """
+    if len(line.encode("utf-8")) <= 75:
+        return line
+    pieces, chunk, size, limit = [], [], 0, 75
+    for ch in line:
+        n = len(ch.encode("utf-8"))
+        if size + n > limit:
+            pieces.append("".join(chunk))
+            chunk, size, limit = [], 0, 74
+        chunk.append(ch)
+        size += n
+    pieces.append("".join(chunk))
+    return "\r\n ".join(pieces)
+
+
+def ics_date(d):
+    return f"{d.year:04d}{d.month:02d}{d.day:02d}"
+
+
+def ics_uid(slug, date=None):
+    """A UID that survives regeneration.
+
+    One UID per fixed-date observance -- its RRULE covers every year, so the
+    event is the same event forever. One UID per enumerated occurrence for a
+    rule-dated observance, so if a date is corrected or a lookup table gains a
+    year, exactly that occurrence is replaced in the subscriber's calendar and
+    nothing else moves.
+    """
+    stem = f"{slug}-{ics_date(date)}" if date else slug
+    return f"{stem}@{ics_host()}"
+
+
+def ics_event(holiday, start, yearly=False):
+    """One all-day VEVENT as a list of unfolded content lines."""
+    slug = holiday["slug"]
+    url = f"{SITE_BASE_URL}/holiday/{slug}/"
+    # DTEND is exclusive for DATE values: a one-day event ends the next day.
+    end = start + datetime.timedelta(days=1)
+    lines = [
+        "BEGIN:VEVENT",
+        f"UID:{ics_uid(slug, None if yearly else start)}",
+        f"DTSTAMP:{ICS_DTSTAMP}",
+        f"DTSTART;VALUE=DATE:{ics_date(start)}",
+        f"DTEND;VALUE=DATE:{ics_date(end)}",
+        f"SUMMARY:{ics_text(holiday['name'])}",
+    ]
+    if yearly:
+        lines.append("RRULE:FREQ=YEARLY")
+    lines += [
+        f"DESCRIPTION:{ics_text(holiday['description'])}\\n\\n{url}",
+        f"URL;VALUE=URI:{url}",
+        f"CATEGORIES:{ics_text(cat_title(holiday['category']))}",
+        # A holiday does not make the subscriber busy.
+        "TRANSP:TRANSPARENT",
+        "CLASS:PUBLIC",
+        f"SEQUENCE:{ICS_SEQUENCE}",
+        "END:VEVENT",
+    ]
+    return lines
+
+
+def ics_calendar(name, description, path, events):
+    """Wrap VEVENT line-lists into one iCalendar object, CRLF-terminated.
+
+    NAME / DESCRIPTION / REFRESH-INTERVAL / SOURCE are RFC 7986; the X-WR-*
+    twins are the older spellings Google Calendar and Outlook actually read, so
+    both go in. SOURCE is the https URL the feed can be re-fetched from.
+    """
+    out = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        f"PRODID:{ICS_PRODID}",
+        "CALSCALE:GREGORIAN",
+        f"NAME:{ics_text(name)}",
+        f"X-WR-CALNAME:{ics_text(name)}",
+        f"DESCRIPTION:{ics_text(description)}",
+        f"X-WR-CALDESC:{ics_text(description)}",
+        f"URL;VALUE=URI:{SITE_BASE_URL}{path}",
+        f"SOURCE;VALUE=URI:{SITE_BASE_URL}{path}",
+        f"REFRESH-INTERVAL;VALUE=DURATION:{ICS_REFRESH}",
+        f"X-PUBLISHED-TTL:{ICS_REFRESH}",
+    ]
+    for ev in events:
+        out.extend(ev)
+    out.append("END:VCALENDAR")
+    return "".join(ics_fold(line) + "\r\n" for line in out)
+
+
+def write_bytes_if_changed(path, content, dry_run=False):
+    """write_if_changed's twin for CRLF text.
+
+    The .ics files must be compared and written as bytes: read back in text
+    mode, Python would translate their CRLFs to LF, every comparison would
+    report a change, and all ~2,470 feed files would be rewritten on every run.
+    """
+    data = content.encode("utf-8")
+    old = None
+    if os.path.exists(path):
+        with open(path, "rb") as f:
+            old = f.read()
+    changed = old != data
+    if changed and not dry_run:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "wb") as f:
+            f.write(data)
+    return changed, old is None
+
+
+def cal_links_html(holiday, occurrence_count):
+    """The "Add to your calendar" line on a /holiday/<slug>/ page."""
+    ics = f"/holiday/{holiday['slug']}/event.ics"
+    webcal = f"webcal://{ics_host()}{ics}"
+    if holiday["recurrence"] == "Annual":
+        note = "The event repeats every year."
+    elif occurrence_count:
+        note = (f"This date moves, so the file carries the next "
+                f"{occurrence_count} {plural(occurrence_count, 'date')}.")
+    else:
+        note = ""
+    return (
+        f'<p class="cal"><a class="cal-add" href="{ics}">Add to your calendar</a>'
+        f'<span class="cal-note">A calendar file for Apple Calendar, Google '
+        f'Calendar or Outlook. {note} You can also '
+        f'<a href="{webcal}">subscribe to this observance</a> or to '
+        f'<a href="/calendar.ics">the whole calendar</a>.</span></p>'
+    )
+
+
+def cal_feed_links_html(label, path, count):
+    """The subscribe line on a /category/<slug>/ page."""
+    webcal = f"webcal://{ics_host()}{path}"
+    return (
+        f'<p class="cal"><a class="cal-add" href="{webcal}">Subscribe to '
+        f'{esc_text(label)}</a>'
+        f'<span class="cal-note">{count:,} observances, kept up to date in '
+        f'Apple Calendar, Google Calendar or Outlook. Or '
+        f'<a href="{path}">download the calendar file</a>.</span></p>'
+    )
+
+
+# ---------------------------------------------------------------------------
 # Long-form content (E1)
 #
 # The Notion long-form fields (Body, Timeline, FAQ, Sources) hold plain text in
@@ -1203,11 +1418,13 @@ def faq_ld_json(faq_pairs):
 
 
 def render_page(holiday, occ_date, day_link, by_slug, memo, template, chrome,
-                same_day=(), day_published=False):
+                same_day=(), day_published=False, ics_dates=()):
     """Render one /holiday/<slug>/ page.
 
     `same_day` is every observance on this holiday's date (for the "Also on"
     sidebar); `day_published` says whether that date has a /day/ page to link.
+    `ics_dates` is this observance's occurrences inside the calendar-feed
+    window (E5), used only to say how many dates its .ics file carries.
     """
     slug = holiday["slug"]
     name = holiday["name"]
@@ -1286,6 +1503,7 @@ def render_page(holiday, occ_date, day_link, by_slug, memo, template, chrome,
         ),
         "PERENNIAL_HREF": perennial_path(occ_date.month, occ_date.day),
         "LONGFORM": longform,
+        "CAL_LINKS": cal_links_html(holiday, len(ics_dates)),
         "RECURS": esc_attr(recurs),
         "CATEGORY_PILL": cat_pill(category, link=True),
         "SHARE_TEXT": esc_attr(share_text),
@@ -2233,9 +2451,18 @@ def render_about_body(total, category_count):
         "<h2>Share and save</h2>"
         "<p>Every page has Share and Copy link buttons, plus links to send it by "
         "email, text, Facebook, X or WhatsApp. Each observance page also has an Add "
-        "to calendar button: it downloads a calendar file you can open in Apple "
+        "to calendar link: it downloads a calendar file you can open in Apple "
         "Calendar, Google Calendar or Outlook, and observances with a fixed date "
         "repeat every year.</p>"
+        "<h2>Subscribe to the calendar</h2>"
+        '<p>The whole calendar is published as a subscribable feed: '
+        f'<a href="webcal://{ics_host()}/calendar.ics">subscribe to every '
+        "observance</a> and the dates appear in your own calendar, updated "
+        'every day, or <a href="/calendar.ics">download the file</a> instead. '
+        'Each <a href="/categories/">category</a> has a feed of its own, and so '
+        "does every single observance. Observances with a fixed date repeat "
+        "every year; ones set by a rule carry their next ten dates, and the "
+        "feed refreshes as the years roll on.</p>"
         "</div>"
     )
 
@@ -2390,6 +2617,22 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         holidays, by_slug, memo, perennial_start, perennial_end
     )
     perennial_index = build_perennial_index(wide_index)
+
+    # ---- calendar-feed occurrences (E5) ----
+    # Every date inside the ten-year window, per observance, taken straight out
+    # of the pass above rather than recomputed: a date in a feed is therefore a
+    # date the date pages show. From `today` forward only -- a subscriber wants
+    # what is coming, not this year's already-past observances. Fixed-date rows
+    # appear here too, but their feed entry is a single RRULE event (see the
+    # ICS_* constants), so for them this list is only used to count dates.
+    ics_occ = {}
+    for d, items in wide_index.items():
+        if d < today:
+            continue
+        for h in items:
+            ics_occ.setdefault(h["slug"], []).append(d)
+    for dates in ics_occ.values():
+        dates.sort()
     perennial_mds = all_month_days()
     dated_by_md = {}
     for d in day_dates:
@@ -2447,6 +2690,7 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         new_html = render_page(
             h, occ, day_link, by_slug, memo, holiday_template, chromes[None],
             same_day=day_index.get(occ, []), day_published=occ in published_days,
+            ics_dates=ics_occ.get(slug, ()),
         )
         page_dir = os.path.join(site_dir, "holiday", slug)
         page_path = os.path.join(page_dir, "index.html")
@@ -2602,7 +2846,9 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             body=(
                 f'<p class="intro">{len(members)} observances in this category, A to Z, '
                 f"with the date each one next falls on.</p>"
-                f'<ul class="cat-list">{"".join(lis)}</ul>'
+                + cal_feed_links_html(f"{title.lower()} observances",
+                                      f"/category/{c}/calendar.ics", len(members))
+                + f'<ul class="cat-list">{"".join(lis)}</ul>'
             ),
             side=category_side_html(category_counts, current=c),
             crumbs=crumbs_html(("Categories", "/categories/"), (title, None)),
@@ -2615,6 +2861,69 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         )
         if changed:
             simple_changed.add(path)
+
+    # ---- calendar feeds: /calendar.ics, per category, per observance (E5) ----
+    # Deliberately not in sitemap.xml: a sitemap lists indexable pages, and
+    # these are downloads. They are linked from the pages instead -- every
+    # observance page, every category page and /about/ -- and named in
+    # llms.txt.
+    ics_diffs = {"created": [], "changed": [], "unchanged": 0}
+    ics_sizes = {}
+
+    def write_feed(path, name, description, events):
+        content = ics_calendar(name, description, path, events)
+        changed, created = write_bytes_if_changed(
+            os.path.join(site_dir, path.lstrip("/")), content, dry_run
+        )
+        if created:
+            ics_diffs["created"].append(path)
+        elif changed:
+            ics_diffs["changed"].append(path)
+        else:
+            ics_diffs["unchanged"] += 1
+        ics_sizes[path] = len(content.encode("utf-8"))
+
+    def events_for(h):
+        """This observance's VEVENTs: one recurring, or one per enumerated date."""
+        if h["recurrence"] == "Annual":
+            start = occurrences.get(h["slug"])
+            return [ics_event(h, start, yearly=True)] if start else []
+        return [ics_event(h, d) for d in ics_occ.get(h["slug"], [])]
+
+    ics_events = {}
+    for h in sorted(holidays, key=lambda h: h["slug"]):
+        evs = events_for(h)
+        if evs:
+            ics_events[h["slug"]] = evs
+
+    all_events = [e for h in sorted(holidays, key=lambda h: h["slug"])
+                  for e in ics_events.get(h["slug"], [])]
+    write_feed(
+        "/calendar.ics", "Today Celebrates",
+        f"Every national, international and world observance on Today "
+        f"Celebrates: {len(ics_events):,} of them. Rebuilt daily at "
+        f"{SITE_BASE_URL}/.",
+        all_events,
+    )
+
+    for c, members in sorted(by_category.items()):
+        cat_events = [e for h in sorted(members, key=lambda h: h["slug"])
+                      for e in ics_events.get(h["slug"], [])]
+        write_feed(
+            f"/category/{c}/calendar.ics",
+            f"Today Celebrates: {cat_title(c)}",
+            f"{len(members):,} {cat_title(c).lower()} observances from "
+            f"{SITE_BASE_URL}/category/{c}/. Rebuilt daily.",
+            cat_events,
+        )
+
+    for slug, evs in ics_events.items():
+        h = by_slug[slug]
+        write_feed(
+            f"/holiday/{slug}/event.ics", h["name"],
+            f"{h['name']} — {SITE_BASE_URL}/holiday/{slug}/",
+            evs,
+        )
 
     # ---- sitemap.xml ----
     # lastmod must say when a page's content actually changed, not when the
@@ -2733,6 +3042,14 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         "perennial_index_skipped": perennial_skipped,
         "people_dates": len(people["dates"]) if people else 0,
         "people_generated": (people.get("meta") or {}).get("generated") if people else None,
+        "ics_files_total": len(ics_sizes),
+        "ics_files_created": len(ics_diffs["created"]),
+        "ics_files_changed": sorted(ics_diffs["changed"]),
+        "ics_files_unchanged_count": ics_diffs["unchanged"],
+        "ics_events_total": sum(len(v) for v in ics_events.values()),
+        "ics_observances": len(ics_events),
+        "ics_main_feed_bytes": ics_sizes.get("/calendar.ics", 0),
+        "ics_total_bytes": sum(ics_sizes.values()),
         "sitemap_changed": sitemap_changed,
         "occurrences": {slug: d.isoformat() for slug, d in occurrences.items()},
     }
