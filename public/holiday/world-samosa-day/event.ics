@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Samosa Day
+X-WR-CALNAME:World Samosa Day
+DESCRIPTION:World Samosa Day — https://todaycelebrates.com/holiday/world-
+ samosa-day/
+X-WR-CALDESC:World Samosa Day — https://todaycelebrates.com/holiday/world
+ -samosa-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-samosa-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-samosa-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-samosa-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:World Samosa Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Samosa Day is a lighthearted food holiday celebrated arou
+ nd the globe on September 5\, giving fans of samosa an excuse to seek it o
+ ut and share it with others.\n\nhttps://todaycelebrates.com/holiday/world-
+ samosa-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-samosa-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Sloppy Joe Day
+X-WR-CALNAME:National Sloppy Joe Day
+DESCRIPTION:National Sloppy Joe Day — https://todaycelebrates.com/holiday
+ /national-sloppy-joe-day/
+X-WR-CALDESC:National Sloppy Joe Day — https://todaycelebrates.com/holida
+ y/national-sloppy-joe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sloppy-joe-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-sloppy-joe-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-sloppy-joe-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:National Sloppy Joe Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sloppy Joe Day is a food-focused observance celebrated
+  across the United States on March 18\, giving fans of the dish or ingredi
+ ent an excuse to seek it out and share it with others.\n\nhttps://todaycel
+ ebrates.com/holiday/national-sloppy-joe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sloppy-joe-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

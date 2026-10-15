@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Asthma Day
+X-WR-CALNAME:World Asthma Day
+DESCRIPTION:World Asthma Day — https://todaycelebrates.com/holiday/world-
+ asthma-day/
+X-WR-CALDESC:World Asthma Day — https://todaycelebrates.com/holiday/world
+ -asthma-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-asthma-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-asthma-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-asthma-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:World Asthma Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Asthma Day\, observed on May 4\, encourages people across
+  the United States to focus on health and wellbeing.\n\nhttps://todayceleb
+ rates.com/holiday/world-asthma-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-asthma-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

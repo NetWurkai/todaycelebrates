@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Caregivers Day
+X-WR-CALNAME:National Caregivers Day
+DESCRIPTION:National Caregivers Day — https://todaycelebrates.com/holiday
+ /national-caregivers-day/
+X-WR-CALDESC:National Caregivers Day — https://todaycelebrates.com/holida
+ y/national-caregivers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caregivers-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-caregivers-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-caregivers-day-20270219@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:National Caregivers Day
+DESCRIPTION:National Caregivers Day\, observed on February 19\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/national-caregiv
+ ers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caregivers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-caregivers-day-20280218@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280218
+DTEND;VALUE=DATE:20280219
+SUMMARY:National Caregivers Day
+DESCRIPTION:National Caregivers Day\, observed on February 19\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/national-caregiv
+ ers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caregivers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-caregivers-day-20290216@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290216
+DTEND;VALUE=DATE:20290217
+SUMMARY:National Caregivers Day
+DESCRIPTION:National Caregivers Day\, observed on February 19\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/national-caregiv
+ ers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caregivers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-caregivers-day-20300215@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300215
+DTEND;VALUE=DATE:20300216
+SUMMARY:National Caregivers Day
+DESCRIPTION:National Caregivers Day\, observed on February 19\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/national-caregiv
+ ers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caregivers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-caregivers-day-20310221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310221
+DTEND;VALUE=DATE:20310222
+SUMMARY:National Caregivers Day
+DESCRIPTION:National Caregivers Day\, observed on February 19\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/national-caregiv
+ ers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caregivers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-caregivers-day-20320220@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320220
+DTEND;VALUE=DATE:20320221
+SUMMARY:National Caregivers Day
+DESCRIPTION:National Caregivers Day\, observed on February 19\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/national-caregiv
+ ers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caregivers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-caregivers-day-20330218@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330218
+DTEND;VALUE=DATE:20330219
+SUMMARY:National Caregivers Day
+DESCRIPTION:National Caregivers Day\, observed on February 19\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/national-caregiv
+ ers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caregivers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-caregivers-day-20340217@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340217
+DTEND;VALUE=DATE:20340218
+SUMMARY:National Caregivers Day
+DESCRIPTION:National Caregivers Day\, observed on February 19\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/national-caregiv
+ ers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caregivers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-caregivers-day-20350216@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350216
+DTEND;VALUE=DATE:20350217
+SUMMARY:National Caregivers Day
+DESCRIPTION:National Caregivers Day\, observed on February 19\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/national-caregiv
+ ers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caregivers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

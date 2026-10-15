@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Ride To Work Day
+X-WR-CALNAME:Ride To Work Day
+DESCRIPTION:Ride To Work Day — https://todaycelebrates.com/holiday/ride-t
+ o-work-day/
+X-WR-CALDESC:Ride To Work Day — https://todaycelebrates.com/holiday/ride-
+ to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ride-to-work-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/ride-to-work-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ride-to-work-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Ride To Work Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 18\, Ride To Work Day gives people across the United
+  States one more reason to mark the day and celebrate ride to work.\n\nhtt
+ ps://todaycelebrates.com/holiday/ride-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ride-to-work-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

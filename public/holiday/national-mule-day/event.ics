@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Mule Day
+X-WR-CALNAME:National Mule Day
+DESCRIPTION:National Mule Day — https://todaycelebrates.com/holiday/natio
+ nal-mule-day/
+X-WR-CALDESC:National Mule Day — https://todaycelebrates.com/holiday/nati
+ onal-mule-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mule-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mule-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mule-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:National Mule Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mule Day is observed across the United States on Octob
+ er 26\, a small but fun addition to the calendar worth celebrating in its 
+ own way.\n\nhttps://todaycelebrates.com/holiday/national-mule-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mule-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

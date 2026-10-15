@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Geek Pride Day
+X-WR-CALNAME:Geek Pride Day
+DESCRIPTION:Geek Pride Day — https://todaycelebrates.com/holiday/geek-pri
+ de-day/
+X-WR-CALDESC:Geek Pride Day — https://todaycelebrates.com/holiday/geek-pr
+ ide-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/geek-pride-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/geek-pride-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:geek-pride-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:Geek Pride Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Geek Pride Day\, observed on May 25\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/geek-pride-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/geek-pride-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

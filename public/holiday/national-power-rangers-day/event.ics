@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Power Rangers Day
+X-WR-CALNAME:National Power Rangers Day
+DESCRIPTION:National Power Rangers Day — https://todaycelebrates.com/holi
+ day/national-power-rangers-day/
+X-WR-CALDESC:National Power Rangers Day — https://todaycelebrates.com/hol
+ iday/national-power-rangers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-power-rangers-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-power-rangers
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-power-rangers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:National Power Rangers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Power Rangers Day\, observed on August 28\, is a light
+ hearted\, family-friendly day celebrated across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/national-power-rangers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-power-rangers-da
+ y/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

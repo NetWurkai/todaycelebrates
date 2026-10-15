@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Buttered Corn Day
+X-WR-CALNAME:Buttered Corn Day
+DESCRIPTION:Buttered Corn Day — https://todaycelebrates.com/holiday/butte
+ red-corn-day/
+X-WR-CALDESC:Buttered Corn Day — https://todaycelebrates.com/holiday/butt
+ ered-corn-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buttered-corn-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/buttered-corn-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:buttered-corn-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270824
+SUMMARY:Buttered Corn Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Buttered Corn Day is a food-focused observance celebrated acros
+ s the United States on August 23\, giving fans of the dish or ingredient a
+ n excuse to seek it out and share it with others.\n\nhttps://todaycelebrat
+ es.com/holiday/buttered-corn-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buttered-corn-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National School Picture Day
+X-WR-CALNAME:National School Picture Day
+DESCRIPTION:National School Picture Day — https://todaycelebrates.com/hol
+ iday/national-school-picture-day/
+X-WR-CALDESC:National School Picture Day — https://todaycelebrates.com/ho
+ liday/national-school-picture-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-school-picture-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-school-pictur
+ e-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-school-picture-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:National School Picture Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National School Picture Day\, observed across the United States
+  on September 10\, celebrates school picture and the role it plays in fami
+ ly life.\n\nhttps://todaycelebrates.com/holiday/national-school-picture-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-school-picture-d
+ ay/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

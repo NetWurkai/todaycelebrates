@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:American Circus Day
+X-WR-CALNAME:American Circus Day
+DESCRIPTION:American Circus Day — https://todaycelebrates.com/holiday/ame
+ rican-circus-day/
+X-WR-CALDESC:American Circus Day — https://todaycelebrates.com/holiday/am
+ erican-circus-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-circus-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/american-circus-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:american-circus-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:American Circus Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:American Circus Day\, observed on April 3\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/american-circus-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-circus-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

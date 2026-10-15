@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Take Your Dog to Work Day
+X-WR-CALNAME:Take Your Dog to Work Day
+DESCRIPTION:Take Your Dog to Work Day — https://todaycelebrates.com/holid
+ ay/take-your-dog-to-work-day/
+X-WR-CALDESC:Take Your Dog to Work Day — https://todaycelebrates.com/holi
+ day/take-your-dog-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-your-dog-to-work-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/take-your-dog-to-work-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:take-your-dog-to-work-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:Take Your Dog to Work Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Take Your Dog to Work Day\, observed on June 25\, is celebrated
+  by dog lovers across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/take-your-dog-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-your-dog-to-work-day
+ /
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Vinyl Record Day
+X-WR-CALNAME:Vinyl Record Day
+DESCRIPTION:Vinyl Record Day — https://todaycelebrates.com/holiday/vinyl-
+ record-day/
+X-WR-CALDESC:Vinyl Record Day — https://todaycelebrates.com/holiday/vinyl
+ -record-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/vinyl-record-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/vinyl-record-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:vinyl-record-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:Vinyl Record Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Vinyl Record Day is a music-focused observance on August 12\, c
+ elebrated by fans across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/vinyl-record-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/vinyl-record-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National I Love Honey Day
+X-WR-CALNAME:National I Love Honey Day
+DESCRIPTION:National I Love Honey Day — https://todaycelebrates.com/holid
+ ay/national-i-love-honey-day/
+X-WR-CALDESC:National I Love Honey Day — https://todaycelebrates.com/holi
+ day/national-i-love-honey-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-i-love-honey-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-i-love-honey-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-i-love-honey-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:National I Love Honey Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National I Love Honey Day is a food-focused observance celebrat
+ ed across the United States on December 18\, giving fans of the dish or in
+ gredient an excuse to seek it out and share it with others.\n\nhttps://tod
+ aycelebrates.com/holiday/national-i-love-honey-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-i-love-honey-day
+ /
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

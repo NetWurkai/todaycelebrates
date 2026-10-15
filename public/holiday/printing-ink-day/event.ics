@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Printing Ink Day
+X-WR-CALNAME:Printing Ink Day
+DESCRIPTION:Printing Ink Day — https://todaycelebrates.com/holiday/printi
+ ng-ink-day/
+X-WR-CALDESC:Printing Ink Day — https://todaycelebrates.com/holiday/print
+ ing-ink-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/printing-ink-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/printing-ink-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:printing-ink-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:Printing Ink Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Printing Ink Day\, observed on January 19\, celebrates a piece 
+ of technology or digital culture that's become part of everyday life acros
+ s the United States.\n\nhttps://todaycelebrates.com/holiday/printing-ink-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/printing-ink-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

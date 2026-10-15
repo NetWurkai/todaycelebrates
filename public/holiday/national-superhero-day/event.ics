@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Superhero Day
+X-WR-CALNAME:National Superhero Day
+DESCRIPTION:National Superhero Day — https://todaycelebrates.com/holiday/
+ national-superhero-day/
+X-WR-CALDESC:National Superhero Day — https://todaycelebrates.com/holiday
+ /national-superhero-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-superhero-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-superhero-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-superhero-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:National Superhero Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Superhero Day\, observed on April 28\, is a lightheart
+ ed\, family-friendly day celebrated across the United States.\n\nhttps://t
+ odaycelebrates.com/holiday/national-superhero-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-superhero-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

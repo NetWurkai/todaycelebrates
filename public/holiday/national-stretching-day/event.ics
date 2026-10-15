@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Stretching Day
+X-WR-CALNAME:National Stretching Day
+DESCRIPTION:National Stretching Day — https://todaycelebrates.com/holiday
+ /national-stretching-day/
+X-WR-CALDESC:National Stretching Day — https://todaycelebrates.com/holida
+ y/national-stretching-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-stretching-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-stretching-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-stretching-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:National Stretching Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Stretching Day is a health-awareness observance on Dec
+ ember 11\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/national-stretc
+ hing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-stretching-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

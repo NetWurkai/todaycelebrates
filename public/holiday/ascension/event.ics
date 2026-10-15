@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Ascension
+X-WR-CALNAME:Ascension
+DESCRIPTION:Ascension — https://todaycelebrates.com/holiday/ascension/
+X-WR-CALDESC:Ascension — https://todaycelebrates.com/holiday/ascension/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ascension/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/ascension/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ascension@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:Ascension
+RRULE:FREQ=YEARLY
+DESCRIPTION:Ascension\, observed on May 6\, encourages people across the Un
+ ited States to pause and recognize the people and causes behind the day.\n
+ \nhttps://todaycelebrates.com/holiday/ascension/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ascension/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Take Your Teddy Bear to Work Day
+X-WR-CALNAME:Take Your Teddy Bear to Work Day
+DESCRIPTION:Take Your Teddy Bear to Work Day — https://todaycelebrates.co
+ m/holiday/take-your-teddy-bear-to-work-day/
+X-WR-CALDESC:Take Your Teddy Bear to Work Day — https://todaycelebrates.c
+ om/holiday/take-your-teddy-bear-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-your-teddy-bear-to-w
+ ork-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/take-your-teddy-bear-t
+ o-work-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:take-your-teddy-bear-to-work-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+SUMMARY:Take Your Teddy Bear to Work Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 14\, Take Your Teddy Bear to Work Day encourages peo
+ ple across the United States to pause and think about take your teddy bear
+  to work — and to act on it in their own communities.\n\nhttps://todayce
+ lebrates.com/holiday/take-your-teddy-bear-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-your-teddy-bear-to-w
+ ork-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

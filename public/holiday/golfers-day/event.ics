@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Golfer's Day
+X-WR-CALNAME:Golfer's Day
+DESCRIPTION:Golfer's Day — https://todaycelebrates.com/holiday/golfers-da
+ y/
+X-WR-CALDESC:Golfer's Day — https://todaycelebrates.com/holiday/golfers-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/golfers-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/golfers-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:golfers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Golfer's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Golfer's Day\, observed on April 10\, is celebrated by sports f
+ ans across the United States.\n\nhttps://todaycelebrates.com/holiday/golfe
+ rs-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/golfers-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

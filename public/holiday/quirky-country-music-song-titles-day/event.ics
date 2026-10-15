@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Quirky Country Music Song Titles Day
+X-WR-CALNAME:Quirky Country Music Song Titles Day
+DESCRIPTION:Quirky Country Music Song Titles Day — https://todaycelebrate
+ s.com/holiday/quirky-country-music-song-titles-day/
+X-WR-CALDESC:Quirky Country Music Song Titles Day — https://todaycelebrat
+ es.com/holiday/quirky-country-music-song-titles-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/quirky-country-music-song
+ -titles-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/quirky-country-music-s
+ ong-titles-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:quirky-country-music-song-titles-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:Quirky Country Music Song Titles Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Quirky Country Music Song Titles Day is a music-focused observa
+ nce on March 27\, celebrated by fans across the United States.\n\nhttps://
+ todaycelebrates.com/holiday/quirky-country-music-song-titles-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/quirky-country-music-song
+ -titles-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

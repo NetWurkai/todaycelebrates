@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National "Eat Your Noodles" Day
+X-WR-CALNAME:National "Eat Your Noodles" Day
+DESCRIPTION:National "Eat Your Noodles" Day — https://todaycelebrates.com
+ /holiday/national-eat-your-noodles-day/
+X-WR-CALDESC:National "Eat Your Noodles" Day — https://todaycelebrates.co
+ m/holiday/national-eat-your-noodles-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-eat-your-noodles
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-eat-your-nood
+ les-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-eat-your-noodles-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:National "Eat Your Noodles" Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National "Eat Your Noodles" Day is a food-focused observance ce
+ lebrated across the United States on March 11\, giving fans of the dish or
+  ingredient an excuse to seek it out and share it with others.\n\nhttps://
+ todaycelebrates.com/holiday/national-eat-your-noodles-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-eat-your-noodles
+ -day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

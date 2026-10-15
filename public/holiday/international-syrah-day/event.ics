@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Syrah Day
+X-WR-CALNAME:International Syrah Day
+DESCRIPTION:International Syrah Day — https://todaycelebrates.com/holiday
+ /international-syrah-day/
+X-WR-CALDESC:International Syrah Day — https://todaycelebrates.com/holida
+ y/international-syrah-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-syrah-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-syrah-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-syrah-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:International Syrah Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Syrah Day is a drinks-focused observance on Febru
+ ary 16\, celebrated by beer and craft-brewery fans across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/international-syrah-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-syrah-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

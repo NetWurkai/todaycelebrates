@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Be a Kid Again Day
+X-WR-CALNAME:Be a Kid Again Day
+DESCRIPTION:Be a Kid Again Day — https://todaycelebrates.com/holiday/be-a
+ -kid-again-day/
+X-WR-CALDESC:Be a Kid Again Day — https://todaycelebrates.com/holiday/be-
+ a-kid-again-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/be-a-kid-again-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/be-a-kid-again-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:be-a-kid-again-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:Be a Kid Again Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Be a Kid Again Day\, observed on July 8\, is a lighthearted\, f
+ amily-friendly day celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/be-a-kid-again-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/be-a-kid-again-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

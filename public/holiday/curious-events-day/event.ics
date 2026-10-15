@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Curious Events Day
+X-WR-CALNAME:Curious Events Day
+DESCRIPTION:Curious Events Day — https://todaycelebrates.com/holiday/curi
+ ous-events-day/
+X-WR-CALDESC:Curious Events Day — https://todaycelebrates.com/holiday/cur
+ ious-events-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/curious-events-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/curious-events-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:curious-events-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271009
+DTEND;VALUE=DATE:20271010
+SUMMARY:Curious Events Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 9\, Curious Events Day gives people across the Unite
+ d States one more reason to mark the day and celebrate curious events.\n\n
+ https://todaycelebrates.com/holiday/curious-events-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/curious-events-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

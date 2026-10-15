@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Fountain Pen Day
+X-WR-CALNAME:Fountain Pen Day
+DESCRIPTION:Fountain Pen Day — https://todaycelebrates.com/holiday/founta
+ in-pen-day/
+X-WR-CALDESC:Fountain Pen Day — https://todaycelebrates.com/holiday/fount
+ ain-pen-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/fountain-pen-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/fountain-pen-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:fountain-pen-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Fountain Pen Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Fountain Pen Day is a reading- and writing-focused observance o
+ n November 6\, celebrated by book lovers across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/fountain-pen-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/fountain-pen-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Coffee Break Day
+X-WR-CALNAME:National Coffee Break Day
+DESCRIPTION:National Coffee Break Day — https://todaycelebrates.com/holid
+ ay/national-coffee-break-day/
+X-WR-CALDESC:National Coffee Break Day — https://todaycelebrates.com/holi
+ day/national-coffee-break-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coffee-break-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-coffee-break-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-coffee-break-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:National Coffee Break Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Coffee Break Day\, observed on January 20\, is celebra
+ ted by coffee lovers across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/national-coffee-break-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coffee-break-day
+ /
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

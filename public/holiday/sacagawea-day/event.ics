@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Sacagawea Day
+X-WR-CALNAME:Sacagawea Day
+DESCRIPTION:Sacagawea Day — https://todaycelebrates.com/holiday/sacagawea
+ -day/
+X-WR-CALDESC:Sacagawea Day — https://todaycelebrates.com/holiday/sacagawe
+ a-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sacagawea-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/sacagawea-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sacagawea-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Sacagawea Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Sacagawea Day\, observed on December 20\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/sacagawea-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sacagawea-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

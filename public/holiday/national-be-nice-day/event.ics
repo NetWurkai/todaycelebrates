@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Be Nice Day
+X-WR-CALNAME:National Be Nice Day
+DESCRIPTION:National Be Nice Day — https://todaycelebrates.com/holiday/na
+ tional-be-nice-day/
+X-WR-CALDESC:National Be Nice Day — https://todaycelebrates.com/holiday/n
+ ational-be-nice-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-be-nice-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-be-nice-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-be-nice-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271005
+DTEND;VALUE=DATE:20271006
+SUMMARY:National Be Nice Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Be Nice Day is observed across the United States on Oc
+ tober 5\, a small but fun addition to the calendar worth celebrating in it
+ s own way.\n\nhttps://todaycelebrates.com/holiday/national-be-nice-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-be-nice-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

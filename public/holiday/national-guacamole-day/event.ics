@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Guacamole Day
+X-WR-CALNAME:National Guacamole Day
+DESCRIPTION:National Guacamole Day — https://todaycelebrates.com/holiday/
+ national-guacamole-day/
+X-WR-CALDESC:National Guacamole Day — https://todaycelebrates.com/holiday
+ /national-guacamole-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-guacamole-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-guacamole-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-guacamole-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:National Guacamole Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for September 16: National Guacamole Day inv
+ ites food lovers across the United States to celebrate everything about gu
+ acamole\, whether that means cooking it at home or treating yourself at a 
+ favorite spot.\n\nhttps://todaycelebrates.com/holiday/national-guacamole-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-guacamole-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

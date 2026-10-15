@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Tofu Day
+X-WR-CALNAME:World Tofu Day
+DESCRIPTION:World Tofu Day — https://todaycelebrates.com/holiday/world-to
+ fu-day/
+X-WR-CALDESC:World Tofu Day — https://todaycelebrates.com/holiday/world-t
+ ofu-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-tofu-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-tofu-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-tofu-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270727
+SUMMARY:World Tofu Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Tofu Day is a food-focused observance celebrated across t
+ he United States on July 26\, giving fans of the dish or ingredient an exc
+ use to seek it out and share it with others.\n\nhttps://todaycelebrates.co
+ m/holiday/world-tofu-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-tofu-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

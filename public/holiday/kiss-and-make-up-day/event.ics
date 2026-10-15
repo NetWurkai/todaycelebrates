@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Kiss and Make Up Day
+X-WR-CALNAME:Kiss and Make Up Day
+DESCRIPTION:Kiss and Make Up Day — https://todaycelebrates.com/holiday/ki
+ ss-and-make-up-day/
+X-WR-CALDESC:Kiss and Make Up Day — https://todaycelebrates.com/holiday/k
+ iss-and-make-up-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kiss-and-make-up-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/kiss-and-make-up-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:kiss-and-make-up-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:Kiss and Make Up Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Kiss and Make Up Day\, observed on August 25\, is a lighthearte
+ d holiday celebrated across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/kiss-and-make-up-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kiss-and-make-up-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Tater Tot Day
+X-WR-CALNAME:Tater Tot Day
+DESCRIPTION:Tater Tot Day — https://todaycelebrates.com/holiday/tater-tot
+ -day/
+X-WR-CALDESC:Tater Tot Day — https://todaycelebrates.com/holiday/tater-to
+ t-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tater-tot-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/tater-tot-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:tater-tot-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:Tater Tot Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Tater Tot Day is a food-focused observance celebrated across th
+ e United States on February 2\, giving fans of the dish or ingredient an e
+ xcuse to seek it out and share it with others.\n\nhttps://todaycelebrates.
+ com/holiday/tater-tot-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tater-tot-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

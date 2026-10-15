@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Eat Your Jell-O Day
+X-WR-CALNAME:National Eat Your Jell-O Day
+DESCRIPTION:National Eat Your Jell-O Day — https://todaycelebrates.com/ho
+ liday/national-eat-your-jell-o-day/
+X-WR-CALDESC:National Eat Your Jell-O Day — https://todaycelebrates.com/h
+ oliday/national-eat-your-jell-o-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-eat-your-jell-o-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-eat-your-jell
+ -o-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-eat-your-jell-o-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:National Eat Your Jell-O Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Eat Your Jell-O Day is a food-focused observance celeb
+ rated across the United States on July 12\, giving fans of the dish or ing
+ redient an excuse to seek it out and share it with others.\n\nhttps://toda
+ ycelebrates.com/holiday/national-eat-your-jell-o-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-eat-your-jell-o-
+ day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Diabetes Day
+X-WR-CALNAME:World Diabetes Day
+DESCRIPTION:World Diabetes Day — https://todaycelebrates.com/holiday/worl
+ d-diabetes-day/
+X-WR-CALDESC:World Diabetes Day — https://todaycelebrates.com/holiday/wor
+ ld-diabetes-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-diabetes-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-diabetes-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-diabetes-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:World Diabetes Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Diabetes Day is a health-awareness observance on November
+  14\, marked across the United States to spotlight a wellness topic worth 
+ a second look.\n\nhttps://todaycelebrates.com/holiday/world-diabetes-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-diabetes-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

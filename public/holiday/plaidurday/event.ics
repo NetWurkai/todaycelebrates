@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Plaidurday
+X-WR-CALNAME:Plaidurday
+DESCRIPTION:Plaidurday — https://todaycelebrates.com/holiday/plaidurday/
+X-WR-CALDESC:Plaidurday — https://todaycelebrates.com/holiday/plaidurday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plaidurday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/plaidurday/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:plaidurday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:Plaidurday
+RRULE:FREQ=YEARLY
+DESCRIPTION:Plaidurday is observed across the United States on October 2\, 
+ a small but fun addition to the calendar worth celebrating in its own way.
+ \n\nhttps://todaycelebrates.com/holiday/plaidurday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plaidurday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

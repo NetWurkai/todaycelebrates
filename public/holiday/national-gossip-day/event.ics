@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Gossip Day
+X-WR-CALNAME:National Gossip Day
+DESCRIPTION:National Gossip Day — https://todaycelebrates.com/holiday/nat
+ ional-gossip-day/
+X-WR-CALDESC:National Gossip Day — https://todaycelebrates.com/holiday/na
+ tional-gossip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gossip-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-gossip-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-gossip-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270806
+DTEND;VALUE=DATE:20270807
+SUMMARY:National Gossip Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Gossip Day\, observed on August 6\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/national-gossip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gossip-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

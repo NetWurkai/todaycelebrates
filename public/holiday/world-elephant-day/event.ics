@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Elephant Day
+X-WR-CALNAME:World Elephant Day
+DESCRIPTION:World Elephant Day — https://todaycelebrates.com/holiday/worl
+ d-elephant-day/
+X-WR-CALDESC:World Elephant Day — https://todaycelebrates.com/holiday/wor
+ ld-elephant-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-elephant-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-elephant-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-elephant-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:World Elephant Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Elephant Day is a nature-focused observance on August 12\
+ , celebrated across the United States to draw attention to the plant\, ani
+ mal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/w
+ orld-elephant-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-elephant-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

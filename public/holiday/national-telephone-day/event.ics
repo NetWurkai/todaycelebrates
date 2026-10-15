@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Telephone Day
+X-WR-CALNAME:National Telephone Day
+DESCRIPTION:National Telephone Day — https://todaycelebrates.com/holiday/
+ national-telephone-day/
+X-WR-CALDESC:National Telephone Day — https://todaycelebrates.com/holiday
+ /national-telephone-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-telephone-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-telephone-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-telephone-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:National Telephone Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Telephone Day\, observed on April 25\, celebrates a pi
+ ece of technology or digital culture that's become part of everyday life a
+ cross the United States.\n\nhttps://todaycelebrates.com/holiday/national-t
+ elephone-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-telephone-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

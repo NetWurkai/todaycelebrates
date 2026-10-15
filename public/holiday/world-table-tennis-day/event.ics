@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Table Tennis Day
+X-WR-CALNAME:World Table Tennis Day
+DESCRIPTION:World Table Tennis Day — https://todaycelebrates.com/holiday/
+ world-table-tennis-day/
+X-WR-CALDESC:World Table Tennis Day — https://todaycelebrates.com/holiday
+ /world-table-tennis-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-table-tennis-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-table-tennis-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-table-tennis-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:World Table Tennis Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Table Tennis Day\, observed on April 6\, is celebrated by
+  sports fans across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/world-table-tennis-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-table-tennis-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

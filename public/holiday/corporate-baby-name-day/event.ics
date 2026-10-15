@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Corporate Baby Name Day
+X-WR-CALNAME:Corporate Baby Name Day
+DESCRIPTION:Corporate Baby Name Day — https://todaycelebrates.com/holiday
+ /corporate-baby-name-day/
+X-WR-CALDESC:Corporate Baby Name Day — https://todaycelebrates.com/holida
+ y/corporate-baby-name-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/corporate-baby-name-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/corporate-baby-name-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:corporate-baby-name-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270806
+DTEND;VALUE=DATE:20270807
+SUMMARY:Corporate Baby Name Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Corporate Baby Name Day\, observed on August 6\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/corporate-baby-name-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/corporate-baby-name-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

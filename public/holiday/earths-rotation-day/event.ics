@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Earth's Rotation Day
+X-WR-CALNAME:Earth's Rotation Day
+DESCRIPTION:Earth's Rotation Day — https://todaycelebrates.com/holiday/ea
+ rths-rotation-day/
+X-WR-CALDESC:Earth's Rotation Day — https://todaycelebrates.com/holiday/e
+ arths-rotation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earths-rotation-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/earths-rotation-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:earths-rotation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Earth's Rotation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Earth's Rotation Day is a nature-focused observance on January 
+ 8\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /earths-rotation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earths-rotation-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

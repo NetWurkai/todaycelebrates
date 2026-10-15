@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Ash Wednesday
+X-WR-CALNAME:Ash Wednesday
+DESCRIPTION:Ash Wednesday — https://todaycelebrates.com/holiday/ash-wedne
+ sday/
+X-WR-CALDESC:Ash Wednesday — https://todaycelebrates.com/holiday/ash-wedn
+ esday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ash-wednesday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/ash-wednesday/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ash-wednesday-20270210@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:Ash Wednesday
+DESCRIPTION:Ash Wednesday\, observed on February 10\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/ash-wednesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ash-wednesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ash-wednesday-20280301@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280301
+DTEND;VALUE=DATE:20280302
+SUMMARY:Ash Wednesday
+DESCRIPTION:Ash Wednesday\, observed on February 10\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/ash-wednesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ash-wednesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ash-wednesday-20290214@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290214
+DTEND;VALUE=DATE:20290215
+SUMMARY:Ash Wednesday
+DESCRIPTION:Ash Wednesday\, observed on February 10\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/ash-wednesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ash-wednesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ash-wednesday-20300306@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300306
+DTEND;VALUE=DATE:20300307
+SUMMARY:Ash Wednesday
+DESCRIPTION:Ash Wednesday\, observed on February 10\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/ash-wednesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ash-wednesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ash-wednesday-20310226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310226
+DTEND;VALUE=DATE:20310227
+SUMMARY:Ash Wednesday
+DESCRIPTION:Ash Wednesday\, observed on February 10\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/ash-wednesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ash-wednesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ash-wednesday-20320211@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320211
+DTEND;VALUE=DATE:20320212
+SUMMARY:Ash Wednesday
+DESCRIPTION:Ash Wednesday\, observed on February 10\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/ash-wednesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ash-wednesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ash-wednesday-20330302@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330302
+DTEND;VALUE=DATE:20330303
+SUMMARY:Ash Wednesday
+DESCRIPTION:Ash Wednesday\, observed on February 10\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/ash-wednesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ash-wednesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ash-wednesday-20340222@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340222
+DTEND;VALUE=DATE:20340223
+SUMMARY:Ash Wednesday
+DESCRIPTION:Ash Wednesday\, observed on February 10\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/ash-wednesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ash-wednesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ash-wednesday-20350207@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350207
+DTEND;VALUE=DATE:20350208
+SUMMARY:Ash Wednesday
+DESCRIPTION:Ash Wednesday\, observed on February 10\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/ash-wednesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ash-wednesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

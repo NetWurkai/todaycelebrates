@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Down Syndrome Day
+X-WR-CALNAME:World Down Syndrome Day
+DESCRIPTION:World Down Syndrome Day — https://todaycelebrates.com/holiday
+ /world-down-syndrome-day/
+X-WR-CALDESC:World Down Syndrome Day — https://todaycelebrates.com/holida
+ y/world-down-syndrome-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-down-syndrome-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-down-syndrome-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-down-syndrome-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:World Down Syndrome Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Down Syndrome Day\, observed on March 21\, encourages peo
+ ple across the United States to focus on health and wellbeing.\n\nhttps://
+ todaycelebrates.com/holiday/world-down-syndrome-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-down-syndrome-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Musical Yoga Day
+X-WR-CALNAME:Musical Yoga Day
+DESCRIPTION:Musical Yoga Day — https://todaycelebrates.com/holiday/musica
+ l-yoga-day/
+X-WR-CALDESC:Musical Yoga Day — https://todaycelebrates.com/holiday/music
+ al-yoga-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/musical-yoga-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/musical-yoga-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:musical-yoga-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270826
+DTEND;VALUE=DATE:20270827
+SUMMARY:Musical Yoga Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Musical Yoga Day\, observed on August 26\, encourages people ac
+ ross the United States to focus on health and wellbeing.\n\nhttps://todayc
+ elebrates.com/holiday/musical-yoga-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/musical-yoga-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Holy Innocents' Day
+X-WR-CALNAME:Holy Innocents' Day
+DESCRIPTION:Holy Innocents' Day — https://todaycelebrates.com/holiday/hol
+ y-innocents-day/
+X-WR-CALDESC:Holy Innocents' Day — https://todaycelebrates.com/holiday/ho
+ ly-innocents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holy-innocents-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/holy-innocents-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:holy-innocents-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Holy Innocents' Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Holy Innocents' Day\, observed on December 28\, is a lightheart
+ ed holiday celebrated across the United States.\n\nhttps://todaycelebrates
+ .com/holiday/holy-innocents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holy-innocents-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

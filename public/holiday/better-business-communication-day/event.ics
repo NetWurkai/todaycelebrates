@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Better Business Communication Day
+X-WR-CALNAME:Better Business Communication Day
+DESCRIPTION:Better Business Communication Day — https://todaycelebrates.c
+ om/holiday/better-business-communication-day/
+X-WR-CALDESC:Better Business Communication Day — https://todaycelebrates.
+ com/holiday/better-business-communication-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/better-business-communica
+ tion-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/better-business-commun
+ ication-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:better-business-communication-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:Better Business Communication Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Better Business Communication Day\, observed on January 25\, is
+  a lighthearted holiday celebrated across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/better-business-communication-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/better-business-communica
+ tion-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

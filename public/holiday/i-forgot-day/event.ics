@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:I Forgot Day
+X-WR-CALNAME:I Forgot Day
+DESCRIPTION:I Forgot Day — https://todaycelebrates.com/holiday/i-forgot-d
+ ay/
+X-WR-CALDESC:I Forgot Day — https://todaycelebrates.com/holiday/i-forgot-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/i-forgot-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/i-forgot-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:i-forgot-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:I Forgot Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:I Forgot Day\, observed on July 2\, is a lighthearted holiday c
+ elebrated across the United States.\n\nhttps://todaycelebrates.com/holiday
+ /i-forgot-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/i-forgot-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

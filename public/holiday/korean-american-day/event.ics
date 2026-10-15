@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Korean American Day
+X-WR-CALNAME:Korean American Day
+DESCRIPTION:Korean American Day — https://todaycelebrates.com/holiday/kor
+ ean-american-day/
+X-WR-CALDESC:Korean American Day — https://todaycelebrates.com/holiday/ko
+ rean-american-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/korean-american-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/korean-american-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:korean-american-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Korean American Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Korean American Day\, observed on January 13\, encourages peopl
+ e across the United States to pause and recognize the people and causes be
+ hind the day.\n\nhttps://todaycelebrates.com/holiday/korean-american-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/korean-american-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

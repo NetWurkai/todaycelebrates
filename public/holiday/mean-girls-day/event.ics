@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Mean Girls Day
+X-WR-CALNAME:Mean Girls Day
+DESCRIPTION:Mean Girls Day — https://todaycelebrates.com/holiday/mean-gir
+ ls-day/
+X-WR-CALDESC:Mean Girls Day — https://todaycelebrates.com/holiday/mean-gi
+ rls-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mean-girls-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/mean-girls-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mean-girls-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271004
+SUMMARY:Mean Girls Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 3\, Mean Girls Day gives people across the United St
+ ates one more reason to mark the day and celebrate mean girls.\n\nhttps://
+ todaycelebrates.com/holiday/mean-girls-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mean-girls-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

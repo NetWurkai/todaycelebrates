@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Hot Chicken Day
+X-WR-CALNAME:National Hot Chicken Day
+DESCRIPTION:National Hot Chicken Day — https://todaycelebrates.com/holida
+ y/national-hot-chicken-day/
+X-WR-CALDESC:National Hot Chicken Day — https://todaycelebrates.com/holid
+ ay/national-hot-chicken-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hot-chicken-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-hot-chicken-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-hot-chicken-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:National Hot Chicken Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hot Chicken Day is a food-focused observance celebrate
+ d across the United States on March 30\, giving fans of the dish or ingred
+ ient an excuse to seek it out and share it with others.\n\nhttps://todayce
+ lebrates.com/holiday/national-hot-chicken-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hot-chicken-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

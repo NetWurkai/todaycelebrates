@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World UFO Day
+X-WR-CALNAME:World UFO Day
+DESCRIPTION:World UFO Day — https://todaycelebrates.com/holiday/world-ufo
+ -day/
+X-WR-CALDESC:World UFO Day — https://todaycelebrates.com/holiday/world-uf
+ o-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-ufo-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-ufo-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-ufo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270625
+SUMMARY:World UFO Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World UFO Day\, observed on June 24\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/world-ufo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-ufo-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

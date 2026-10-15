@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Dessert Day
+X-WR-CALNAME:National Dessert Day
+DESCRIPTION:National Dessert Day — https://todaycelebrates.com/holiday/na
+ tional-dessert-day/
+X-WR-CALDESC:National Dessert Day — https://todaycelebrates.com/holiday/n
+ ational-dessert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dessert-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-dessert-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-dessert-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+SUMMARY:National Dessert Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dessert Day is observed across the United States on Oc
+ tober 14\, a small but fun addition to the calendar worth celebrating in i
+ ts own way.\n\nhttps://todaycelebrates.com/holiday/national-dessert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dessert-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

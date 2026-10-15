@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Blue Jeans Day
+X-WR-CALNAME:National Blue Jeans Day
+DESCRIPTION:National Blue Jeans Day — https://todaycelebrates.com/holiday
+ /national-blue-jeans-day/
+X-WR-CALDESC:National Blue Jeans Day — https://todaycelebrates.com/holida
+ y/national-blue-jeans-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blue-jeans-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-blue-jeans-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-blue-jeans-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:National Blue Jeans Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Blue Jeans Day\, observed on December 5\, is a lighthe
+ arted holiday celebrated across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/national-blue-jeans-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blue-jeans-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

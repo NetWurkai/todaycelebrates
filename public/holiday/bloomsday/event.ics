@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bloomsday
+X-WR-CALNAME:Bloomsday
+DESCRIPTION:Bloomsday — https://todaycelebrates.com/holiday/bloomsday/
+X-WR-CALDESC:Bloomsday — https://todaycelebrates.com/holiday/bloomsday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bloomsday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bloomsday/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bloomsday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:Bloomsday
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bloomsday is a reading- and writing-focused observance on June 
+ 16\, celebrated by book lovers across the United States.\n\nhttps://todayc
+ elebrates.com/holiday/bloomsday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bloomsday/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

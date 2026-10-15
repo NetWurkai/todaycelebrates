@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Turkey Neck Soup Day
+X-WR-CALNAME:Turkey Neck Soup Day
+DESCRIPTION:Turkey Neck Soup Day — https://todaycelebrates.com/holiday/tu
+ rkey-neck-soup-day/
+X-WR-CALDESC:Turkey Neck Soup Day — https://todaycelebrates.com/holiday/t
+ urkey-neck-soup-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/turkey-neck-soup-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/turkey-neck-soup-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:turkey-neck-soup-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:Turkey Neck Soup Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Turkey Neck Soup Day is a food-focused observance celebrated ac
+ ross the United States on March 30\, giving fans of the dish or ingredient
+  an excuse to seek it out and share it with others.\n\nhttps://todaycelebr
+ ates.com/holiday/turkey-neck-soup-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/turkey-neck-soup-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

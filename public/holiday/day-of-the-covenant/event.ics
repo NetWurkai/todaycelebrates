@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Day of the Covenant
+X-WR-CALNAME:Day of the Covenant
+DESCRIPTION:Day of the Covenant — https://todaycelebrates.com/holiday/day
+ -of-the-covenant/
+X-WR-CALDESC:Day of the Covenant — https://todaycelebrates.com/holiday/da
+ y-of-the-covenant/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-covenant/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-covenant/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:day-of-the-covenant@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Day of the Covenant
+RRULE:FREQ=YEARLY
+DESCRIPTION:Day of the Covenant\, observed on November 26\, is a lightheart
+ ed holiday celebrated across the United States.\n\nhttps://todaycelebrates
+ .com/holiday/day-of-the-covenant/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-covenant/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

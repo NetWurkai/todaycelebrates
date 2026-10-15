@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Penguin Day
+X-WR-CALNAME:World Penguin Day
+DESCRIPTION:World Penguin Day — https://todaycelebrates.com/holiday/world
+ -penguin-day/
+X-WR-CALDESC:World Penguin Day — https://todaycelebrates.com/holiday/worl
+ d-penguin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-penguin-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-penguin-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-penguin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:World Penguin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Penguin Day is a nature-focused observance on April 25\, 
+ celebrated across the United States to draw attention to the plant\, anima
+ l\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/wor
+ ld-penguin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-penguin-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Clap Day
+X-WR-CALNAME:World Clap Day
+DESCRIPTION:World Clap Day — https://todaycelebrates.com/holiday/world-cl
+ ap-day/
+X-WR-CALDESC:World Clap Day — https://todaycelebrates.com/holiday/world-c
+ lap-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-clap-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-clap-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-clap-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+SUMMARY:World Clap Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Clap Day\, observed on August 16\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/world-clap-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-clap-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

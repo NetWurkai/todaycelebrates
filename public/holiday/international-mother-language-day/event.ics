@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Mother Language Day
+X-WR-CALNAME:International Mother Language Day
+DESCRIPTION:International Mother Language Day — https://todaycelebrates.c
+ om/holiday/international-mother-language-day/
+X-WR-CALDESC:International Mother Language Day — https://todaycelebrates.
+ com/holiday/international-mother-language-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-mother-lang
+ uage-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-mother-l
+ anguage-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-mother-language-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:International Mother Language Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Mother Language Day\, observed on February 21\, e
+ ncourages people across the United States to pause and recognize the peopl
+ e and causes behind the day.\n\nhttps://todaycelebrates.com/holiday/intern
+ ational-mother-language-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-mother-lang
+ uage-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Argyle Day
+X-WR-CALNAME:Argyle Day
+DESCRIPTION:Argyle Day — https://todaycelebrates.com/holiday/argyle-day/
+X-WR-CALDESC:Argyle Day — https://todaycelebrates.com/holiday/argyle-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/argyle-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/argyle-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:argyle-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Argyle Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Argyle Day\, observed on January 8\, is a lighthearted holiday 
+ celebrated across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/argyle-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/argyle-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Stir-up Sunday
+X-WR-CALNAME:Stir-up Sunday
+DESCRIPTION:Stir-up Sunday — https://todaycelebrates.com/holiday/stir-up-
+ sunday/
+X-WR-CALDESC:Stir-up Sunday — https://todaycelebrates.com/holiday/stir-up
+ -sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:stir-up-sunday-20261122@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Stir-up Sunday
+DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/stir-up-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stir-up-sunday-20271121@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
+SUMMARY:Stir-up Sunday
+DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/stir-up-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stir-up-sunday-20281126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281126
+DTEND;VALUE=DATE:20281127
+SUMMARY:Stir-up Sunday
+DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/stir-up-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stir-up-sunday-20291125@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291125
+DTEND;VALUE=DATE:20291126
+SUMMARY:Stir-up Sunday
+DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/stir-up-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stir-up-sunday-20301124@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301124
+DTEND;VALUE=DATE:20301125
+SUMMARY:Stir-up Sunday
+DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/stir-up-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stir-up-sunday-20311123@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311123
+DTEND;VALUE=DATE:20311124
+SUMMARY:Stir-up Sunday
+DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/stir-up-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stir-up-sunday-20321121@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321121
+DTEND;VALUE=DATE:20321122
+SUMMARY:Stir-up Sunday
+DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/stir-up-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stir-up-sunday-20331120@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331120
+DTEND;VALUE=DATE:20331121
+SUMMARY:Stir-up Sunday
+DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/stir-up-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stir-up-sunday-20341126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341126
+DTEND;VALUE=DATE:20341127
+SUMMARY:Stir-up Sunday
+DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/stir-up-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stir-up-sunday-20351125@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351125
+DTEND;VALUE=DATE:20351126
+SUMMARY:Stir-up Sunday
+DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/stir-up-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Lighthouse Day
+X-WR-CALNAME:National Lighthouse Day
+DESCRIPTION:National Lighthouse Day — https://todaycelebrates.com/holiday
+ /national-lighthouse-day/
+X-WR-CALDESC:National Lighthouse Day — https://todaycelebrates.com/holida
+ y/national-lighthouse-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lighthouse-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-lighthouse-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-lighthouse-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:National Lighthouse Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Lighthouse Day is a nature-focused observance on Augus
+ t 7\, celebrated across the United States to draw attention to the plant\,
+  animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holid
+ ay/national-lighthouse-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lighthouse-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

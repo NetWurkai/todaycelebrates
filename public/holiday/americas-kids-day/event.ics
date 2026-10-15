@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:America's Kids Day
+X-WR-CALNAME:America's Kids Day
+DESCRIPTION:America's Kids Day — https://todaycelebrates.com/holiday/amer
+ icas-kids-day/
+X-WR-CALDESC:America's Kids Day — https://todaycelebrates.com/holiday/ame
+ ricas-kids-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/americas-kids-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/americas-kids-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:americas-kids-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:America's Kids Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:America's Kids Day\, observed on June 27\, is a lighthearted\, 
+ family-friendly day celebrated across the United States.\n\nhttps://todayc
+ elebrates.com/holiday/americas-kids-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/americas-kids-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

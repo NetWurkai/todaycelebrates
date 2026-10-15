@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Boyfriend Day
+X-WR-CALNAME:National Boyfriend Day
+DESCRIPTION:National Boyfriend Day — https://todaycelebrates.com/holiday/
+ national-boyfriend-day/
+X-WR-CALDESC:National Boyfriend Day — https://todaycelebrates.com/holiday
+ /national-boyfriend-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-boyfriend-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-boyfriend-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-boyfriend-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271004
+SUMMARY:National Boyfriend Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 3\, National Boyfriend Day gives people across the U
+ nited States one more reason to mark the day and celebrate boyfriend.\n\nh
+ ttps://todaycelebrates.com/holiday/national-boyfriend-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-boyfriend-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

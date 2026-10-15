@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Independence Day
+X-WR-CALNAME:Independence Day
+DESCRIPTION:Independence Day — https://todaycelebrates.com/holiday/indepe
+ ndence-day/
+X-WR-CALDESC:Independence Day — https://todaycelebrates.com/holiday/indep
+ endence-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/independence-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/independence-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:independence-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+SUMMARY:Independence Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Independence Day marks July 4\, 1776\, the day the Second Conti
+ nental Congress adopted the Declaration of Independence. It does not mark 
+ the vote for independence\, which came two days earlier\, or the signing\,
+  which mostly happened a month later. John Adams\, who was in the room\, e
+ xpected Americans to celebrate July 2 forever.\n\nhttps://todaycelebrates.
+ com/holiday/independence-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/independence-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

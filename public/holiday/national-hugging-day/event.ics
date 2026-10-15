@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Hugging Day
+X-WR-CALNAME:National Hugging Day
+DESCRIPTION:National Hugging Day — https://todaycelebrates.com/holiday/na
+ tional-hugging-day/
+X-WR-CALDESC:National Hugging Day — https://todaycelebrates.com/holiday/n
+ ational-hugging-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hugging-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-hugging-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-hugging-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:National Hugging Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hugging Day is observed on January 21. Kevin Zaborney 
+ founded it in 1986 to prompt people to hug the family and friends they wou
+ ld otherwise only greet.\n\nhttps://todaycelebrates.com/holiday/national-h
+ ugging-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hugging-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

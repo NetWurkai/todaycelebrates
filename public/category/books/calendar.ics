@@ -1,0 +1,1364 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Today Celebrates: Books
+X-WR-CALNAME:Today Celebrates: Books
+DESCRIPTION:82 books observances from https://todaycelebrates.com/category/
+ books/. Rebuilt daily.
+X-WR-CALDESC:82 books observances from https://todaycelebrates.com/category
+ /books/. Rebuilt daily.
+URL;VALUE=URI:https://todaycelebrates.com/category/books/calendar.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/category/books/calendar.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:a-room-of-ones-own-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:A Room of One's Own Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:A Room of One's Own Day is a reading- and writing-focused obser
+ vance on January 25\, celebrated by book lovers across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/a-room-of-ones-own-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/a-room-of-ones-own-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:alice-in-wonderland-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+SUMMARY:Alice in Wonderland Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Alice in Wonderland Day is a reading- and writing-focused obser
+ vance on July 4\, celebrated by book lovers across the United States.\n\nh
+ ttps://todaycelebrates.com/holiday/alice-in-wonderland-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/alice-in-wonderland-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:arabic-language-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Arabic Language Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Arabic Language Day is a reading- and writing-focused observanc
+ e on December 18\, celebrated by book lovers across the United States.\n\n
+ https://todaycelebrates.com/holiday/arabic-language-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/arabic-language-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bad-poetry-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270819
+SUMMARY:Bad Poetry Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bad Poetry Day is a reading- and writing-focused observance on 
+ August 18\, celebrated by book lovers across the United States.\n\nhttps:/
+ /todaycelebrates.com/holiday/bad-poetry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bad-poetry-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:big-word-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:Big Word Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Big Word Day is a reading- and writing-focused observance on Ap
+ ril 21\, celebrated by book lovers across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/big-word-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/big-word-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:biographers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:Biographer's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Biographer's Day is a reading- and writing-focused observance o
+ n May 16\, celebrated by book lovers across the United States.\n\nhttps://
+ todaycelebrates.com/holiday/biographers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/biographers-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:black-press-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:Black Press Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Black Press Day is a reading- and writing-focused observance on
+  March 16\, celebrated by book lovers across the United States.\n\nhttps:/
+ /todaycelebrates.com/holiday/black-press-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-press-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bloomsday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:Bloomsday
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bloomsday is a reading- and writing-focused observance on June 
+ 16\, celebrated by book lovers across the United States.\n\nhttps://todayc
+ elebrates.com/holiday/bloomsday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bloomsday/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:book-lovers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Book Lovers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Book Lovers Day is a reading- and writing-focused observance on
+  November 7\, celebrated by book lovers across the United States.\n\nhttps
+ ://todaycelebrates.com/holiday/book-lovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/book-lovers-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:book-publishers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Book Publishers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Book Publishers Day is a reading- and writing-focused observanc
+ e on January 16\, celebrated by book lovers across the United States.\n\nh
+ ttps://todaycelebrates.com/holiday/book-publishers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/book-publishers-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bookshop-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:Bookshop Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bookshop Day celebrates bookshop on October 10\, giving readers
+  and writers across the United States a reason to pick up a favorite book 
+ or try something new.\n\nhttps://todaycelebrates.com/holiday/bookshop-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bookshop-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-language-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Chinese Language Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Chinese Language Day is a reading- and writing-focused observan
+ ce on April 20\, celebrated by book lovers across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/chinese-language-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-language-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:clean-out-your-bookcase-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Clean Out Your Bookcase Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Clean Out Your Bookcase Day is a reading- and writing-focused o
+ bservance on February 20\, celebrated by book lovers across the United Sta
+ tes.\n\nhttps://todaycelebrates.com/holiday/clean-out-your-bookcase-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/clean-out-your-bookcase-d
+ ay/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cookbook-launch-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271012
+DTEND;VALUE=DATE:20271013
+SUMMARY:Cookbook Launch Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Cookbook Launch Day celebrates cookbook launch on October 12\, 
+ giving readers and writers across the United States a reason to pick up a 
+ favorite book or try something new.\n\nhttps://todaycelebrates.com/holiday
+ /cookbook-launch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cookbook-launch-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:crossword-puzzle-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Crossword Puzzle Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Crossword Puzzle Day is a reading- and writing-focused observan
+ ce on December 21\, celebrated by book lovers across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/crossword-puzzle-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/crossword-puzzle-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dear-diary-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:Dear Diary Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Dear Diary Day celebrates dear diary on September 22\, giving r
+ eaders and writers across the United States a reason to pick up a favorite
+  book or try something new.\n\nhttps://todaycelebrates.com/holiday/dear-di
+ ary-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dear-diary-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dewey-decimal-system-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Dewey Decimal System Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Dewey Decimal System Day is a reading- and writing-focused obse
+ rvance on December 10\, celebrated by book lovers across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/dewey-decimal-system-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dewey-decimal-system-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:drop-everything-and-read-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:Drop Everything and Read Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Drop Everything and Read Day is a reading- and writing-focused 
+ observance on April 12\, celebrated by book lovers across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/drop-everything-and-read-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/drop-everything-and-read-
+ day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:encourage-a-young-writer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Encourage a Young Writer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Encourage a Young Writer Day is a reading- and writing-focused 
+ observance on April 10\, celebrated by book lovers across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/encourage-a-young-writer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/encourage-a-young-writer-
+ day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:fountain-pen-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Fountain Pen Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Fountain Pen Day is a reading- and writing-focused observance o
+ n November 6\, celebrated by book lovers across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/fountain-pen-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/fountain-pen-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:free-comic-book-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Free Comic Book Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Free Comic Book Day is a reading- and writing-focused observanc
+ e on May 1\, celebrated by book lovers across the United States.\n\nhttps:
+ //todaycelebrates.com/holiday/free-comic-book-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/free-comic-book-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:girls-write-now-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Girls Write Now Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Girls Write Now Day is a reading- and writing-focused observanc
+ e on March 8\, celebrated by book lovers across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/girls-write-now-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/girls-write-now-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-poetry-reading-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:Great Poetry Reading Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Great Poetry Reading Day is a reading- and writing-focused obse
+ rvance on April 28\, celebrated by book lovers across the United States.\n
+ \nhttps://todaycelebrates.com/holiday/great-poetry-reading-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-poetry-reading-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:i-love-to-write-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:I Love to Write Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:I Love to Write Day is a reading- and writing-focused observanc
+ e on November 15\, celebrated by book lovers across the United States.\n\n
+ https://todaycelebrates.com/holiday/i-love-to-write-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/i-love-to-write-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-childrens-book-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:International Children's Book Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Children's Book Day is a reading- and writing-foc
+ used observance on April 2\, celebrated by book lovers across the United S
+ tates.\n\nhttps://todaycelebrates.com/holiday/international-childrens-book
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-childrens-b
+ ook-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-darwin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:International Darwin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Darwin Day is a reading- and writing-focused obse
+ rvance on February 12\, celebrated by book lovers across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/international-darwin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-darwin-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-day-of-the-book@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:International Day of the Book
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day of the Book is a reading- and writing-focused
+  observance on April 23\, celebrated by book lovers across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/international-day-of-the-book/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-the-
+ book/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-dylan-thomas-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270515
+SUMMARY:International Dylan Thomas Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Dylan Thomas Day is a reading- and writing-focuse
+ d observance on May 14\, celebrated by book lovers across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/international-dylan-thomas-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-dylan-thoma
+ s-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-haiku-poetry-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:International Haiku Poetry Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Haiku Poetry Day is a reading- and writing-focuse
+ d observance on April 17\, celebrated by book lovers across the United Sta
+ tes.\n\nhttps://todaycelebrates.com/holiday/international-haiku-poetry-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-haiku-poetr
+ y-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-jewish-book-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:International Jewish Book Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Jewish Book Day is a reading- and writing-focused
+  observance on December 15\, celebrated by book lovers across the United S
+ tates.\n\nhttps://todaycelebrates.com/holiday/international-jewish-book-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-jewish-book
+ -day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-read-comics-in-public-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:International Read Comics in Public Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Read Comics in Public Day is a reading- and writi
+ ng-focused observance on August 28\, celebrated by book lovers across the 
+ United States.\n\nhttps://todaycelebrates.com/holiday/international-read-c
+ omics-in-public-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-read-comics
+ -in-public-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-tongue-twister-contest-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:International Tongue Twister Contest Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Tongue Twister Contest Day is a reading- and writ
+ ing-focused observance on February 27\, celebrated by book lovers across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/international-ton
+ gue-twister-contest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tongue-twis
+ ter-contest-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:its-letter-writing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:It's Letter Writing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:It's Letter Writing Day is a reading- and writing-focused obser
+ vance on November 28\, celebrated by book lovers across the United States.
+ \n\nhttps://todaycelebrates.com/holiday/its-letter-writing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/its-letter-writing-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:letter-writing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Letter Writing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Letter Writing Day is a reading- and writing-focused observance
+  on December 7\, celebrated by book lovers across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/letter-writing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/letter-writing-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:limerick-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:Limerick Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Limerick Day is a reading- and writing-focused observance on Ma
+ y 12\, celebrated by book lovers across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/limerick-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/limerick-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:make-a-book-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:Make-A-Book Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Make-A-Book Day is a reading- and writing-focused observance on
+  May 6\, celebrated by book lovers across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/make-a-book-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/make-a-book-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:math-storytelling-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+SUMMARY:Math Storytelling Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Math Storytelling Day celebrates math storytelling on September
+  25\, giving readers and writers across the United States a reason to pick
+  up a favorite book or try something new.\n\nhttps://todaycelebrates.com/h
+ oliday/math-storytelling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/math-storytelling-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-authors-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:National Author's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Author's Day is a reading- and writing-focused observa
+ nce on November 1\, celebrated by book lovers across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/national-authors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-authors-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-bookmobile-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:National Bookmobile Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bookmobile Day is a reading- and writing-focused obser
+ vance on April 14\, celebrated by book lovers across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/national-bookmobile-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bookmobile-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-cartoonists-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:National Cartoonists Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cartoonists Day is a reading- and writing-focused obse
+ rvance on May 5\, celebrated by book lovers across the United States.\n\nh
+ ttps://todaycelebrates.com/holiday/national-cartoonists-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cartoonists-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-comic-book-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+SUMMARY:National Comic Book Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Comic Book Day celebrates comic book on September 25\,
+  giving readers and writers across the United States a reason to pick up a
+  favorite book or try something new.\n\nhttps://todaycelebrates.com/holida
+ y/national-comic-book-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-comic-book-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-crossword-solvers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:National Crossword Solvers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Crossword Solvers Day is a reading- and writing-focuse
+ d observance on December 8\, celebrated by book lovers across the United S
+ tates.\n\nhttps://todaycelebrates.com/holiday/national-crossword-solvers-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-crossword-solver
+ s-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-dissertation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:National Dissertation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dissertation Day is a reading- and writing-focused obs
+ ervance on April 26\, celebrated by book lovers across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/national-dissertation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dissertation-day
+ /
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-family-literacy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:National Family Literacy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Family Literacy Day is a reading- and writing-focused 
+ observance on November 1\, celebrated by book lovers across the United Sta
+ tes.\n\nhttps://todaycelebrates.com/holiday/national-family-literacy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-family-literacy-
+ day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-grammar-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:National Grammar Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Grammar Day is a reading- and writing-focused observan
+ ce on March 4\, celebrated by book lovers across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-grammar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-grammar-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-handwriting-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:National Handwriting Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Handwriting Day is a reading- and writing-focused obse
+ rvance on January 23\, celebrated by book lovers across the United States.
+ \n\nhttps://todaycelebrates.com/holiday/national-handwriting-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-handwriting-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-illustration-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:National Illustration Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Illustration Day is a reading- and writing-focused obs
+ ervance on November 24\, celebrated by book lovers across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/national-illustration-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-illustration-day
+ /
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-librarian-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:National Librarian Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Librarian Day is a reading- and writing-focused observ
+ ance on April 16\, celebrated by book lovers across the United States.\n\n
+ https://todaycelebrates.com/holiday/national-librarian-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-librarian-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-library-workers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:National Library Workers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Library Workers Day is a reading- and writing-focused 
+ observance on April 13\, celebrated by book lovers across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/national-library-workers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-library-workers-
+ day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-pen-pal-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:National Pen Pal Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pen Pal Day is a reading- and writing-focused observan
+ ce on June 1\, celebrated by book lovers across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/national-pen-pal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pen-pal-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-proofreading-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:National Proofreading Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Proofreading Day is a reading- and writing-focused obs
+ ervance on March 8\, celebrated by book lovers across the United States.\n
+ \nhttps://todaycelebrates.com/holiday/national-proofreading-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-proofreading-day
+ /
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-punctuation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:National Punctuation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Punctuation Day celebrates punctuation on September 24
+ \, giving readers and writers across the United States a reason to pick up
+  a favorite book or try something new.\n\nhttps://todaycelebrates.com/holi
+ day/national-punctuation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-punctuation-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-read-a-book-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20270907
+SUMMARY:National Read A Book Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Read A Book Day celebrates read a book on September 6\
+ , giving readers and writers across the United States a reason to pick up 
+ a favorite book or try something new.\n\nhttps://todaycelebrates.com/holid
+ ay/national-read-a-book-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-read-a-book-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-science-fiction-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:National Science Fiction Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Science Fiction Day is a reading- and writing-focused 
+ observance on January 2\, celebrated by book lovers across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/national-science-fiction-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-science-fiction-
+ day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-screenwriters-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:National Screenwriters Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Screenwriters Day is a reading- and writing-focused ob
+ servance on January 5\, celebrated by book lovers across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/national-screenwriters-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-screenwriters-da
+ y/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-word-nerd-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:National Word Nerd Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Word Nerd Day is a reading- and writing-focused observ
+ ance on January 9\, celebrated by book lovers across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/national-word-nerd-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-word-nerd-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-young-readers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:National Young Readers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Young Readers Day is a reading- and writing-focused ob
+ servance on November 10\, celebrated by book lovers across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/national-young-readers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-young-readers-da
+ y/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:newspaper-columnists-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Newspaper Columnists' Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Newspaper Columnists' Day is a reading- and writing-focused obs
+ ervance on April 18\, celebrated by book lovers across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/newspaper-columnists-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/newspaper-columnists-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:paperback-book-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:Paperback Book Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Paperback Book Day is a reading- and writing-focused observance
+  on July 30\, celebrated by book lovers across the United States.\n\nhttps
+ ://todaycelebrates.com/holiday/paperback-book-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/paperback-book-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pencil-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:Pencil Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pencil Day is a reading- and writing-focused observance on Marc
+ h 30\, celebrated by book lovers across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/pencil-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pencil-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:poem-on-your-pillow-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Poem on Your Pillow Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Poem on Your Pillow Day is a reading- and writing-focused obser
+ vance on May 4\, celebrated by book lovers across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/poem-on-your-pillow-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/poem-on-your-pillow-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:poetry-and-the-creative-mind-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Poetry and the Creative Mind Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Poetry and the Creative Mind Day is a reading- and writing-focu
+ sed observance on April 1\, celebrated by book lovers across the United St
+ ates.\n\nhttps://todaycelebrates.com/holiday/poetry-and-the-creative-mind-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/poetry-and-the-creative-m
+ ind-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:poets-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:Poet's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Poet's Day is a reading- and writing-focused observance on Augu
+ st 21\, celebrated by book lovers across the United States.\n\nhttps://tod
+ aycelebrates.com/holiday/poets-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/poets-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:prevent-plagiarism-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:Prevent Plagiarism Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Prevent Plagiarism Day is a reading- and writing-focused observ
+ ance on February 19\, celebrated by book lovers across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/prevent-plagiarism-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/prevent-plagiarism-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:read-across-america-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:Read Across America Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Read Across America Day is a reading- and writing-focused obser
+ vance on March 2\, celebrated by book lovers across the United States.\n\n
+ https://todaycelebrates.com/holiday/read-across-america-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/read-across-america-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:read-in-the-bathtub-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Read in the Bathtub Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Read in the Bathtub Day is a reading- and writing-focused obser
+ vance on February 9\, celebrated by book lovers across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/read-in-the-bathtub-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/read-in-the-bathtub-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:robinson-crusoe-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Robinson Crusoe Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Robinson Crusoe Day is a reading- and writing-focused observanc
+ e on February 1\, celebrated by book lovers across the United States.\n\nh
+ ttps://todaycelebrates.com/holiday/robinson-crusoe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/robinson-crusoe-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:scrabble-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Scrabble Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Scrabble Day is a reading- and writing-focused observance on Ap
+ ril 13\, celebrated by book lovers across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/scrabble-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/scrabble-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sherlock-holmes-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:Sherlock Holmes Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Sherlock Holmes Day is a reading- and writing-focused observanc
+ e on May 22\, celebrated by book lovers across the United States.\n\nhttps
+ ://todaycelebrates.com/holiday/sherlock-holmes-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sherlock-holmes-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:spoonerism-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270722
+DTEND;VALUE=DATE:20270723
+SUMMARY:Spoonerism Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Spoonerism Day is a reading- and writing-focused observance on 
+ July 22\, celebrated by book lovers across the United States.\n\nhttps://t
+ odaycelebrates.com/holiday/spoonerism-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/spoonerism-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:take-action-for-libraries-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Take Action for Libraries Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Take Action for Libraries Day is a reading- and writing-focused
+  observance on April 15\, celebrated by book lovers across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/take-action-for-libraries-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-action-for-libraries
+ -day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:take-your-poet-to-work-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+SUMMARY:Take Your Poet to Work Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Take Your Poet to Work Day is a reading- and writing-focused ob
+ servance on July 21\, celebrated by book lovers across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/take-your-poet-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-your-poet-to-work-da
+ y/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:thesaurus-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Thesaurus Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Thesaurus Day is a reading- and writing-focused observance on J
+ anuary 18\, celebrated by book lovers across the United States.\n\nhttps:/
+ /todaycelebrates.com/holiday/thesaurus-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/thesaurus-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tolkien-reading-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Tolkien Reading Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Tolkien Reading Day is a reading- and writing-focused observanc
+ e on March 25\, celebrated by book lovers across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/tolkien-reading-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tolkien-reading-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-book-day-uk-and-ireland@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:World Book Day (UK & Ireland)
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Book Day (UK & Ireland) is a reading- and writing-focused
+  observance on March 4\, celebrated by book lovers across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/world-book-day-uk-and-ireland/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-book-day-uk-and-ire
+ land/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-calligraphy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:World Calligraphy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Calligraphy Day is a reading- and writing-focused observa
+ nce on August 11\, celebrated by book lovers across the United States.\n\n
+ https://todaycelebrates.com/holiday/world-calligraphy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-calligraphy-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-letter-writing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:World Letter Writing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Letter Writing Day celebrates letter writing on September
+  1\, giving readers and writers around the globe a reason to pick up a fav
+ orite book or try something new.\n\nhttps://todaycelebrates.com/holiday/wo
+ rld-letter-writing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-letter-writing-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-poetry-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:World Poetry Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Poetry Day is a reading- and writing-focused observance o
+ n March 21\, celebrated by book lovers across the United States.\n\nhttps:
+ //todaycelebrates.com/holiday/world-poetry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-poetry-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-read-aloud-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:World Read Aloud Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Read Aloud Day is a reading- and writing-focused observan
+ ce on February 3\, celebrated by book lovers across the United States.\n\n
+ https://todaycelebrates.com/holiday/world-read-aloud-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-read-aloud-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-semicolon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:World Semicolon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Semicolon Day is a reading- and writing-focused observanc
+ e on April 16\, celebrated by book lovers across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/world-semicolon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-semicolon-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sketchnote-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:World Sketchnote Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Sketchnote Day is a reading- and writing-focused observan
+ ce on January 11\, celebrated by book lovers across the United States.\n\n
+ https://todaycelebrates.com/holiday/world-sketchnote-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sketchnote-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-storytelling-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:World Storytelling Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Storytelling Day is a reading- and writing-focused observ
+ ance on March 20\, celebrated by book lovers across the United States.\n\n
+ https://todaycelebrates.com/holiday/world-storytelling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-storytelling-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

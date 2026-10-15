@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Shapewear Day
+X-WR-CALNAME:National Shapewear Day
+DESCRIPTION:National Shapewear Day — https://todaycelebrates.com/holiday/
+ national-shapewear-day/
+X-WR-CALDESC:National Shapewear Day — https://todaycelebrates.com/holiday
+ /national-shapewear-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-shapewear-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-shapewear-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-shapewear-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:National Shapewear Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Shapewear Day\, observed on August 10\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-shapewear-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-shapewear-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Cuddly Kitten Day
+X-WR-CALNAME:Cuddly Kitten Day
+DESCRIPTION:Cuddly Kitten Day — https://todaycelebrates.com/holiday/cuddl
+ y-kitten-day/
+X-WR-CALDESC:Cuddly Kitten Day — https://todaycelebrates.com/holiday/cudd
+ ly-kitten-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cuddly-kitten-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/cuddly-kitten-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cuddly-kitten-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:Cuddly Kitten Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Cuddly Kitten Day is a nature-focused observance on March 23\, 
+ celebrated across the United States to draw attention to the plant\, anima
+ l\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/cud
+ dly-kitten-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cuddly-kitten-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

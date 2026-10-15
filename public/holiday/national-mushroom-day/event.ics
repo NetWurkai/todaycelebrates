@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Mushroom Day
+X-WR-CALNAME:National Mushroom Day
+DESCRIPTION:National Mushroom Day — https://todaycelebrates.com/holiday/n
+ ational-mushroom-day/
+X-WR-CALDESC:National Mushroom Day — https://todaycelebrates.com/holiday/
+ national-mushroom-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mushroom-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mushroom-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mushroom-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:National Mushroom Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 15\, National Mushroom Day gives people across the U
+ nited States one more reason to mark the day and celebrate mushroom.\n\nht
+ tps://todaycelebrates.com/holiday/national-mushroom-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mushroom-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Former Prisoner of War Recognition Day
+X-WR-CALNAME:National Former Prisoner of War Recognition Day
+DESCRIPTION:National Former Prisoner of War Recognition Day — https://tod
+ aycelebrates.com/holiday/national-former-prisoner-of-war-recognition-day/
+X-WR-CALDESC:National Former Prisoner of War Recognition Day — https://to
+ daycelebrates.com/holiday/national-former-prisoner-of-war-recognition-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-former-prisoner-
+ of-war-recognition-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-former-prison
+ er-of-war-recognition-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-former-prisoner-of-war-recognition-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:National Former Prisoner of War Recognition Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Former Prisoner of War Recognition Day\, observed on A
+ pril 9\, encourages people across the United States to pause and recognize
+  the people and causes behind the day.\n\nhttps://todaycelebrates.com/holi
+ day/national-former-prisoner-of-war-recognition-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-former-prisoner-
+ of-war-recognition-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

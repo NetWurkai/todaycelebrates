@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Braille Day
+X-WR-CALNAME:World Braille Day
+DESCRIPTION:World Braille Day — https://todaycelebrates.com/holiday/world
+ -braille-day/
+X-WR-CALDESC:World Braille Day — https://todaycelebrates.com/holiday/worl
+ d-braille-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-braille-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-braille-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-braille-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:World Braille Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Braille Day\, observed on January 4\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/world-braille-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-braille-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

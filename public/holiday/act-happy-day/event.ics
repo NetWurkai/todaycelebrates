@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Act Happy Day
+X-WR-CALNAME:Act Happy Day
+DESCRIPTION:Act Happy Day — https://todaycelebrates.com/holiday/act-happy
+ -day/
+X-WR-CALDESC:Act Happy Day — https://todaycelebrates.com/holiday/act-happ
+ y-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/act-happy-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/act-happy-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:act-happy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Act Happy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Act Happy Day\, observed on March 15\, is a lighthearted holida
+ y celebrated across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/act-happy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/act-happy-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

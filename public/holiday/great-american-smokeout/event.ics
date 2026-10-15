@@ -1,0 +1,177 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Great American Smokeout
+X-WR-CALNAME:Great American Smokeout
+DESCRIPTION:Great American Smokeout — https://todaycelebrates.com/holiday
+ /great-american-smokeout/
+X-WR-CALDESC:Great American Smokeout — https://todaycelebrates.com/holida
+ y/great-american-smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeou
+ t/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:great-american-smokeout-20261119@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20271118@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271118
+DTEND;VALUE=DATE:20271119
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20281116@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281116
+DTEND;VALUE=DATE:20281117
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20291115@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291115
+DTEND;VALUE=DATE:20291116
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20301121@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301121
+DTEND;VALUE=DATE:20301122
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20311120@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311120
+DTEND;VALUE=DATE:20311121
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20321118@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321118
+DTEND;VALUE=DATE:20321119
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20331117@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331117
+DTEND;VALUE=DATE:20331118
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20341116@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341116
+DTEND;VALUE=DATE:20341117
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20351115@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351115
+DTEND;VALUE=DATE:20351116
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

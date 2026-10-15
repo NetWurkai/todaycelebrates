@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pediatric Hematology/Oncology Nurses Day
+X-WR-CALNAME:National Pediatric Hematology/Oncology Nurses Day
+DESCRIPTION:National Pediatric Hematology/Oncology Nurses Day — https://t
+ odaycelebrates.com/holiday/national-pediatric-hematology-oncology-nurses-d
+ ay/
+X-WR-CALDESC:National Pediatric Hematology/Oncology Nurses Day — https://
+ todaycelebrates.com/holiday/national-pediatric-hematology-oncology-nurses-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pediatric-hemato
+ logy-oncology-nurses-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pediatric-hem
+ atology-oncology-nurses-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pediatric-hematology-oncology-nurses-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270909
+SUMMARY:National Pediatric Hematology/Oncology Nurses Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pediatric Hematology/Oncology Nurses Day\, marked acro
+ ss the United States on September 8\, raises awareness around pediatric he
+ matology/oncology nurses and supports those affected by it.\n\nhttps://tod
+ aycelebrates.com/holiday/national-pediatric-hematology-oncology-nurses-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pediatric-hemato
+ logy-oncology-nurses-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

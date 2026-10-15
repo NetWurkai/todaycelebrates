@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Hot Enough For Ya Day
+X-WR-CALNAME:Hot Enough For Ya Day
+DESCRIPTION:Hot Enough For Ya Day — https://todaycelebrates.com/holiday/h
+ ot-enough-for-ya-day/
+X-WR-CALDESC:Hot Enough For Ya Day — https://todaycelebrates.com/holiday/
+ hot-enough-for-ya-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hot-enough-for-ya-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/hot-enough-for-ya-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:hot-enough-for-ya-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:Hot Enough For Ya Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Hot Enough For Ya Day\, observed on July 23\, is a lighthearted
+  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/hot-enough-for-ya-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hot-enough-for-ya-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

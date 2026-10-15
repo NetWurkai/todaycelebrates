@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Freethinkers Day
+X-WR-CALNAME:Freethinkers Day
+DESCRIPTION:Freethinkers Day — https://todaycelebrates.com/holiday/freeth
+ inkers-day/
+X-WR-CALDESC:Freethinkers Day — https://todaycelebrates.com/holiday/freet
+ hinkers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/freethinkers-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/freethinkers-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:freethinkers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Freethinkers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Freethinkers Day\, observed on January 29\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/freethinkers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/freethinkers-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

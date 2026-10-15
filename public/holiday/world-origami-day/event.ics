@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Origami Day
+X-WR-CALNAME:World Origami Day
+DESCRIPTION:World Origami Day — https://todaycelebrates.com/holiday/world
+ -origami-day/
+X-WR-CALDESC:World Origami Day — https://todaycelebrates.com/holiday/worl
+ d-origami-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-origami-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-origami-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-origami-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:World Origami Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Origami Day\, observed on November 11\, is a lighthearted
+ \, family-friendly day celebrated across the United States.\n\nhttps://tod
+ aycelebrates.com/holiday/world-origami-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-origami-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

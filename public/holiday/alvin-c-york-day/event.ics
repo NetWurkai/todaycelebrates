@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Alvin C. York Day
+X-WR-CALNAME:Alvin C. York Day
+DESCRIPTION:Alvin C. York Day — https://todaycelebrates.com/holiday/alvin
+ -c-york-day/
+X-WR-CALDESC:Alvin C. York Day — https://todaycelebrates.com/holiday/alvi
+ n-c-york-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/alvin-c-york-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/alvin-c-york-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:alvin-c-york-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+SUMMARY:Alvin C. York Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 8\, Alvin C. York Day gives people across the United
+  States one more reason to mark the day and celebrate alvin c. york.\n\nht
+ tps://todaycelebrates.com/holiday/alvin-c-york-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/alvin-c-york-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

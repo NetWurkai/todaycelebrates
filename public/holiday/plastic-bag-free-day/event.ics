@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Plastic Bag Free Day
+X-WR-CALNAME:Plastic Bag Free Day
+DESCRIPTION:Plastic Bag Free Day — https://todaycelebrates.com/holiday/pl
+ astic-bag-free-day/
+X-WR-CALDESC:Plastic Bag Free Day — https://todaycelebrates.com/holiday/p
+ lastic-bag-free-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plastic-bag-free-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/plastic-bag-free-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:plastic-bag-free-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:Plastic Bag Free Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Plastic Bag Free Day is a nature-focused observance on July 3\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/pl
+ astic-bag-free-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plastic-bag-free-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

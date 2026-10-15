@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bow Tie Day
+X-WR-CALNAME:National Bow Tie Day
+DESCRIPTION:National Bow Tie Day — https://todaycelebrates.com/holiday/na
+ tional-bow-tie-day/
+X-WR-CALDESC:National Bow Tie Day — https://todaycelebrates.com/holiday/n
+ ational-bow-tie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bow-tie-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bow-tie-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bow-tie-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:National Bow Tie Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bow Tie Day\, observed on August 28\, is a lighthearte
+ d holiday celebrated across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/national-bow-tie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bow-tie-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

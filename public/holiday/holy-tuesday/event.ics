@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Holy Tuesday
+X-WR-CALNAME:Holy Tuesday
+DESCRIPTION:Holy Tuesday — https://todaycelebrates.com/holiday/holy-tuesd
+ ay/
+X-WR-CALDESC:Holy Tuesday — https://todaycelebrates.com/holiday/holy-tues
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holy-tuesday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/holy-tuesday/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:holy-tuesday-20270323@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:Holy Tuesday
+DESCRIPTION:Holy Tuesday\, observed on March 23\, encourages people across 
+ the United States to pause and recognize the people and causes behind the 
+ day.\n\nhttps://todaycelebrates.com/holiday/holy-tuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holy-tuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:holy-tuesday-20280411@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280411
+DTEND;VALUE=DATE:20280412
+SUMMARY:Holy Tuesday
+DESCRIPTION:Holy Tuesday\, observed on March 23\, encourages people across 
+ the United States to pause and recognize the people and causes behind the 
+ day.\n\nhttps://todaycelebrates.com/holiday/holy-tuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holy-tuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:holy-tuesday-20290327@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290327
+DTEND;VALUE=DATE:20290328
+SUMMARY:Holy Tuesday
+DESCRIPTION:Holy Tuesday\, observed on March 23\, encourages people across 
+ the United States to pause and recognize the people and causes behind the 
+ day.\n\nhttps://todaycelebrates.com/holiday/holy-tuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holy-tuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:holy-tuesday-20300416@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300416
+DTEND;VALUE=DATE:20300417
+SUMMARY:Holy Tuesday
+DESCRIPTION:Holy Tuesday\, observed on March 23\, encourages people across 
+ the United States to pause and recognize the people and causes behind the 
+ day.\n\nhttps://todaycelebrates.com/holiday/holy-tuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holy-tuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:holy-tuesday-20310408@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310408
+DTEND;VALUE=DATE:20310409
+SUMMARY:Holy Tuesday
+DESCRIPTION:Holy Tuesday\, observed on March 23\, encourages people across 
+ the United States to pause and recognize the people and causes behind the 
+ day.\n\nhttps://todaycelebrates.com/holiday/holy-tuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holy-tuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:holy-tuesday-20320323@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320323
+DTEND;VALUE=DATE:20320324
+SUMMARY:Holy Tuesday
+DESCRIPTION:Holy Tuesday\, observed on March 23\, encourages people across 
+ the United States to pause and recognize the people and causes behind the 
+ day.\n\nhttps://todaycelebrates.com/holiday/holy-tuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holy-tuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:holy-tuesday-20330412@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330412
+DTEND;VALUE=DATE:20330413
+SUMMARY:Holy Tuesday
+DESCRIPTION:Holy Tuesday\, observed on March 23\, encourages people across 
+ the United States to pause and recognize the people and causes behind the 
+ day.\n\nhttps://todaycelebrates.com/holiday/holy-tuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holy-tuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:holy-tuesday-20340404@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340404
+DTEND;VALUE=DATE:20340405
+SUMMARY:Holy Tuesday
+DESCRIPTION:Holy Tuesday\, observed on March 23\, encourages people across 
+ the United States to pause and recognize the people and causes behind the 
+ day.\n\nhttps://todaycelebrates.com/holiday/holy-tuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holy-tuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:holy-tuesday-20350320@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350320
+DTEND;VALUE=DATE:20350321
+SUMMARY:Holy Tuesday
+DESCRIPTION:Holy Tuesday\, observed on March 23\, encourages people across 
+ the United States to pause and recognize the people and causes behind the 
+ day.\n\nhttps://todaycelebrates.com/holiday/holy-tuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holy-tuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

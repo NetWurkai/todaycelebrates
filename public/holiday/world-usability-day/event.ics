@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Usability Day
+X-WR-CALNAME:World Usability Day
+DESCRIPTION:World Usability Day — https://todaycelebrates.com/holiday/wor
+ ld-usability-day/
+X-WR-CALDESC:World Usability Day — https://todaycelebrates.com/holiday/wo
+ rld-usability-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-usability-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-usability-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-usability-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:World Usability Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Usability Day\, observed on November 12\, celebrates a pi
+ ece of technology or digital culture that's become part of everyday life a
+ cross the United States.\n\nhttps://todaycelebrates.com/holiday/world-usab
+ ility-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-usability-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Yo-yo Day
+X-WR-CALNAME:National Yo-yo Day
+DESCRIPTION:National Yo-yo Day — https://todaycelebrates.com/holiday/nati
+ onal-yo-yo-day/
+X-WR-CALDESC:National Yo-yo Day — https://todaycelebrates.com/holiday/nat
+ ional-yo-yo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-yo-yo-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-yo-yo-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-yo-yo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:National Yo-yo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Yo-yo Day\, observed on June 6\, is a lighthearted\, f
+ amily-friendly day celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/national-yo-yo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-yo-yo-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

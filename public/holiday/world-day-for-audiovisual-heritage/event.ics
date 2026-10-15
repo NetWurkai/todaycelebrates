@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Day for Audiovisual Heritage
+X-WR-CALNAME:World Day for Audiovisual Heritage
+DESCRIPTION:World Day for Audiovisual Heritage — https://todaycelebrates.
+ com/holiday/world-day-for-audiovisual-heritage/
+X-WR-CALDESC:World Day for Audiovisual Heritage — https://todaycelebrates
+ .com/holiday/world-day-for-audiovisual-heritage/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-day-for-audiovisual
+ -heritage/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-day-for-audiovis
+ ual-heritage/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-day-for-audiovisual-heritage@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:World Day for Audiovisual Heritage
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Day for Audiovisual Heritage is observed around the globe
+  on October 27\, a small but fun addition to the calendar worth celebratin
+ g in its own way.\n\nhttps://todaycelebrates.com/holiday/world-day-for-aud
+ iovisual-heritage/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-day-for-audiovisual
+ -heritage/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

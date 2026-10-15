@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Public Science Day
+X-WR-CALNAME:National Public Science Day
+DESCRIPTION:National Public Science Day — https://todaycelebrates.com/hol
+ iday/national-public-science-day/
+X-WR-CALDESC:National Public Science Day — https://todaycelebrates.com/ho
+ liday/national-public-science-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-public-science-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-public-scienc
+ e-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-public-science-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:National Public Science Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Public Science Day\, observed on February 17\, celebra
+ tes a piece of technology or digital culture that's become part of everyda
+ y life across the United States.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-public-science-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-public-science-d
+ ay/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

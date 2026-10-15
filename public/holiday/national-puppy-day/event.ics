@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Puppy Day
+X-WR-CALNAME:National Puppy Day
+DESCRIPTION:National Puppy Day — https://todaycelebrates.com/holiday/nati
+ onal-puppy-day/
+X-WR-CALDESC:National Puppy Day — https://todaycelebrates.com/holiday/nat
+ ional-puppy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-puppy-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-puppy-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-puppy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:National Puppy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Puppy Day\, observed on March 23\, is celebrated by do
+ g lovers across the United States.\n\nhttps://todaycelebrates.com/holiday/
+ national-puppy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-puppy-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

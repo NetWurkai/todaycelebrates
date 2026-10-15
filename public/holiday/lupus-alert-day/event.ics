@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Lupus Alert Day
+X-WR-CALNAME:Lupus Alert Day
+DESCRIPTION:Lupus Alert Day — https://todaycelebrates.com/holiday/lupus-a
+ lert-day/
+X-WR-CALDESC:Lupus Alert Day — https://todaycelebrates.com/holiday/lupus-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lupus-alert-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/lupus-alert-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:lupus-alert-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Lupus Alert Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Lupus Alert Day\, observed on April 1\, encourages people acros
+ s the United States to focus on health and wellbeing.\n\nhttps://todaycele
+ brates.com/holiday/lupus-alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lupus-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

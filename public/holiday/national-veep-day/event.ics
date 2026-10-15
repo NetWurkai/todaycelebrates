@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Veep Day
+X-WR-CALNAME:National Veep Day
+DESCRIPTION:National Veep Day — https://todaycelebrates.com/holiday/natio
+ nal-veep-day/
+X-WR-CALDESC:National Veep Day — https://todaycelebrates.com/holiday/nati
+ onal-veep-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-veep-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-veep-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-veep-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270809
+DTEND;VALUE=DATE:20270810
+SUMMARY:National Veep Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Veep Day\, observed on August 9\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/national-veep-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-veep-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

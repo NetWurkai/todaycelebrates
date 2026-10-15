@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Tradesmen Day
+X-WR-CALNAME:National Tradesmen Day
+DESCRIPTION:National Tradesmen Day — https://todaycelebrates.com/holiday/
+ national-tradesmen-day/
+X-WR-CALDESC:National Tradesmen Day — https://todaycelebrates.com/holiday
+ /national-tradesmen-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tradesmen-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-tradesmen-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-tradesmen-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:National Tradesmen Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 18\, National Tradesmen Day gives people across th
+ e United States one more reason to mark the day and celebrate tradesmen.\n
+ \nhttps://todaycelebrates.com/holiday/national-tradesmen-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tradesmen-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Shooting Star Day
+X-WR-CALNAME:Shooting Star Day
+DESCRIPTION:Shooting Star Day — https://todaycelebrates.com/holiday/shoot
+ ing-star-day/
+X-WR-CALDESC:Shooting Star Day — https://todaycelebrates.com/holiday/shoo
+ ting-star-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/shooting-star-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/shooting-star-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:shooting-star-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270825
+SUMMARY:Shooting Star Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Shooting Star Day is a nature-focused observance on August 24\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/sh
+ ooting-star-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/shooting-star-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Sesame Street Day
+X-WR-CALNAME:Sesame Street Day
+DESCRIPTION:Sesame Street Day — https://todaycelebrates.com/holiday/sesam
+ e-street-day/
+X-WR-CALDESC:Sesame Street Day — https://todaycelebrates.com/holiday/sesa
+ me-street-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sesame-street-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/sesame-street-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sesame-street-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Sesame Street Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Sesame Street Day\, observed on November 10\, is a lighthearted
+ \, family-friendly day celebrated across the United States.\n\nhttps://tod
+ aycelebrates.com/holiday/sesame-street-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sesame-street-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

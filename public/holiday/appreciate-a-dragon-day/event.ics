@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Appreciate a Dragon Day
+X-WR-CALNAME:Appreciate a Dragon Day
+DESCRIPTION:Appreciate a Dragon Day — https://todaycelebrates.com/holiday
+ /appreciate-a-dragon-day/
+X-WR-CALDESC:Appreciate a Dragon Day — https://todaycelebrates.com/holida
+ y/appreciate-a-dragon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/appreciate-a-dragon-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/appreciate-a-dragon-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:appreciate-a-dragon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Appreciate a Dragon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Appreciate a Dragon Day\, observed on January 16\, is a lighthe
+ arted\, family-friendly day celebrated across the United States.\n\nhttps:
+ //todaycelebrates.com/holiday/appreciate-a-dragon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/appreciate-a-dragon-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

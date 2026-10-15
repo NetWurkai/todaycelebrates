@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Gourmet Coffee Day
+X-WR-CALNAME:National Gourmet Coffee Day
+DESCRIPTION:National Gourmet Coffee Day — https://todaycelebrates.com/hol
+ iday/national-gourmet-coffee-day/
+X-WR-CALDESC:National Gourmet Coffee Day — https://todaycelebrates.com/ho
+ liday/national-gourmet-coffee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gourmet-coffee-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-gourmet-coffe
+ e-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-gourmet-coffee-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:National Gourmet Coffee Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Gourmet Coffee Day\, observed on January 18\, is celeb
+ rated by coffee lovers across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-gourmet-coffee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gourmet-coffee-d
+ ay/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Positive Thinking Day
+X-WR-CALNAME:Positive Thinking Day
+DESCRIPTION:Positive Thinking Day — https://todaycelebrates.com/holiday/p
+ ositive-thinking-day/
+X-WR-CALDESC:Positive Thinking Day — https://todaycelebrates.com/holiday/
+ positive-thinking-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/positive-thinking-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/positive-thinking-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:positive-thinking-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270914
+SUMMARY:Positive Thinking Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Positive Thinking Day is observed across the United States on S
+ eptember 13\, a small but fun addition to the calendar worth celebrating i
+ n its own way.\n\nhttps://todaycelebrates.com/holiday/positive-thinking-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/positive-thinking-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

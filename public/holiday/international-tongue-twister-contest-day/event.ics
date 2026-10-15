@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Tongue Twister Contest Day
+X-WR-CALNAME:International Tongue Twister Contest Day
+DESCRIPTION:International Tongue Twister Contest Day — https://todayceleb
+ rates.com/holiday/international-tongue-twister-contest-day/
+X-WR-CALDESC:International Tongue Twister Contest Day — https://todaycele
+ brates.com/holiday/international-tongue-twister-contest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tongue-twis
+ ter-contest-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-tongue-t
+ wister-contest-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-tongue-twister-contest-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:International Tongue Twister Contest Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Tongue Twister Contest Day is a reading- and writ
+ ing-focused observance on February 27\, celebrated by book lovers across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/international-ton
+ gue-twister-contest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tongue-twis
+ ter-contest-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

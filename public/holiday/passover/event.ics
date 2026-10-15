@@ -1,0 +1,148 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Passover
+X-WR-CALNAME:Passover
+DESCRIPTION:Passover — https://todaycelebrates.com/holiday/passover/
+X-WR-CALDESC:Passover — https://todaycelebrates.com/holiday/passover/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/passover/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/passover/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:passover-20270422@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Passover
+DESCRIPTION:Passover\, observed on April 22\, encourages people across the 
+ United States to pause and recognize the people and causes behind the day.
+ \n\nhttps://todaycelebrates.com/holiday/passover/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/passover/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:passover-20280411@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280411
+DTEND;VALUE=DATE:20280412
+SUMMARY:Passover
+DESCRIPTION:Passover\, observed on April 22\, encourages people across the 
+ United States to pause and recognize the people and causes behind the day.
+ \n\nhttps://todaycelebrates.com/holiday/passover/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/passover/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:passover-20290331@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290331
+DTEND;VALUE=DATE:20290401
+SUMMARY:Passover
+DESCRIPTION:Passover\, observed on April 22\, encourages people across the 
+ United States to pause and recognize the people and causes behind the day.
+ \n\nhttps://todaycelebrates.com/holiday/passover/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/passover/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:passover-20300418@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300418
+DTEND;VALUE=DATE:20300419
+SUMMARY:Passover
+DESCRIPTION:Passover\, observed on April 22\, encourages people across the 
+ United States to pause and recognize the people and causes behind the day.
+ \n\nhttps://todaycelebrates.com/holiday/passover/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/passover/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:passover-20310408@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310408
+DTEND;VALUE=DATE:20310409
+SUMMARY:Passover
+DESCRIPTION:Passover\, observed on April 22\, encourages people across the 
+ United States to pause and recognize the people and causes behind the day.
+ \n\nhttps://todaycelebrates.com/holiday/passover/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/passover/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:passover-20320327@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320327
+DTEND;VALUE=DATE:20320328
+SUMMARY:Passover
+DESCRIPTION:Passover\, observed on April 22\, encourages people across the 
+ United States to pause and recognize the people and causes behind the day.
+ \n\nhttps://todaycelebrates.com/holiday/passover/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/passover/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:passover-20330414@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330414
+DTEND;VALUE=DATE:20330415
+SUMMARY:Passover
+DESCRIPTION:Passover\, observed on April 22\, encourages people across the 
+ United States to pause and recognize the people and causes behind the day.
+ \n\nhttps://todaycelebrates.com/holiday/passover/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/passover/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:passover-20340404@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340404
+DTEND;VALUE=DATE:20340405
+SUMMARY:Passover
+DESCRIPTION:Passover\, observed on April 22\, encourages people across the 
+ United States to pause and recognize the people and causes behind the day.
+ \n\nhttps://todaycelebrates.com/holiday/passover/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/passover/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:passover-20350424@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350424
+DTEND;VALUE=DATE:20350425
+SUMMARY:Passover
+DESCRIPTION:Passover\, observed on April 22\, encourages people across the 
+ United States to pause and recognize the people and causes behind the day.
+ \n\nhttps://todaycelebrates.com/holiday/passover/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/passover/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

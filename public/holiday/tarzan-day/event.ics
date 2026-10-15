@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Tarzan Day
+X-WR-CALNAME:Tarzan Day
+DESCRIPTION:Tarzan Day — https://todaycelebrates.com/holiday/tarzan-day/
+X-WR-CALDESC:Tarzan Day — https://todaycelebrates.com/holiday/tarzan-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tarzan-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/tarzan-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:tarzan-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270828
+SUMMARY:Tarzan Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Tarzan Day\, observed on August 27\, is a lighthearted holiday 
+ celebrated across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/tarzan-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tarzan-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

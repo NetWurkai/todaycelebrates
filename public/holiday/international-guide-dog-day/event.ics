@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Guide Dog Day
+X-WR-CALNAME:International Guide Dog Day
+DESCRIPTION:International Guide Dog Day — https://todaycelebrates.com/hol
+ iday/international-guide-dog-day/
+X-WR-CALDESC:International Guide Dog Day — https://todaycelebrates.com/ho
+ liday/international-guide-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-guide-dog-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-guide-do
+ g-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-guide-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:International Guide Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Guide Dog Day\, observed on April 28\, is celebra
+ ted by dog lovers across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/international-guide-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-guide-dog-d
+ ay/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

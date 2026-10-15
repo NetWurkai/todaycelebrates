@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:More Herbs\, Less Salt Day
+X-WR-CALNAME:More Herbs\, Less Salt Day
+DESCRIPTION:More Herbs\, Less Salt Day — https://todaycelebrates.com/holi
+ day/more-herbs-less-salt-day/
+X-WR-CALDESC:More Herbs\, Less Salt Day — https://todaycelebrates.com/hol
+ iday/more-herbs-less-salt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/more-herbs-less-salt-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/more-herbs-less-salt-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:more-herbs-less-salt-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270830
+SUMMARY:More Herbs\, Less Salt Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:More Herbs\, Less Salt Day\, observed on August 29\, encourages
+  people across the United States to focus on health and wellbeing.\n\nhttp
+ s://todaycelebrates.com/holiday/more-herbs-less-salt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/more-herbs-less-salt-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Indian Pudding Day
+X-WR-CALNAME:National Indian Pudding Day
+DESCRIPTION:National Indian Pudding Day — https://todaycelebrates.com/hol
+ iday/national-indian-pudding-day/
+X-WR-CALDESC:National Indian Pudding Day — https://todaycelebrates.com/ho
+ liday/national-indian-pudding-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-indian-pudding-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-indian-puddin
+ g-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-indian-pudding-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:National Indian Pudding Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Indian Pudding Day is a food-focused observance celebr
+ ated across the United States on November 13\, giving fans of the dish or 
+ ingredient an excuse to seek it out and share it with others.\n\nhttps://t
+ odaycelebrates.com/holiday/national-indian-pudding-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-indian-pudding-d
+ ay/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

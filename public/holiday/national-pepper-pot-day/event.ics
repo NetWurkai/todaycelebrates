@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pepper Pot Day
+X-WR-CALNAME:National Pepper Pot Day
+DESCRIPTION:National Pepper Pot Day — https://todaycelebrates.com/holiday
+ /national-pepper-pot-day/
+X-WR-CALDESC:National Pepper Pot Day — https://todaycelebrates.com/holida
+ y/national-pepper-pot-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pepper-pot-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pepper-pot-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pepper-pot-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:National Pepper Pot Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pepper Pot Day is a food-focused observance celebrated
+  across the United States on December 29\, giving fans of the dish or ingr
+ edient an excuse to seek it out and share it with others.\n\nhttps://today
+ celebrates.com/holiday/national-pepper-pot-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pepper-pot-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

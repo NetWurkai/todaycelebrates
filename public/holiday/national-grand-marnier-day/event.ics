@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Grand Marnier Day
+X-WR-CALNAME:National Grand Marnier Day
+DESCRIPTION:National Grand Marnier Day — https://todaycelebrates.com/holi
+ day/national-grand-marnier-day/
+X-WR-CALDESC:National Grand Marnier Day — https://todaycelebrates.com/hol
+ iday/national-grand-marnier-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-grand-marnier-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-grand-marnier
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-grand-marnier-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+SUMMARY:National Grand Marnier Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Grand Marnier Day is a drinks-focused observance on Ju
+ ly 14\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/national-grand-marnier-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-grand-marnier-da
+ y/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

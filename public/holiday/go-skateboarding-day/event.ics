@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Go Skateboarding Day
+X-WR-CALNAME:Go Skateboarding Day
+DESCRIPTION:Go Skateboarding Day — https://todaycelebrates.com/holiday/go
+ -skateboarding-day/
+X-WR-CALDESC:Go Skateboarding Day — https://todaycelebrates.com/holiday/g
+ o-skateboarding-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/go-skateboarding-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/go-skateboarding-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:go-skateboarding-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:Go Skateboarding Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Go Skateboarding Day\, observed on June 21\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/go-skateboarding-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/go-skateboarding-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

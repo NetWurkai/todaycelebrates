@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Blueberry Day
+X-WR-CALNAME:National Blueberry Day
+DESCRIPTION:National Blueberry Day — https://todaycelebrates.com/holiday/
+ national-blueberry-day/
+X-WR-CALDESC:National Blueberry Day — https://todaycelebrates.com/holiday
+ /national-blueberry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blueberry-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-blueberry-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-blueberry-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:National Blueberry Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Blueberry Day is a food-focused observance celebrated 
+ across the United States on July 8\, giving fans of the dish or ingredient
+  an excuse to seek it out and share it with others.\n\nhttps://todaycelebr
+ ates.com/holiday/national-blueberry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blueberry-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

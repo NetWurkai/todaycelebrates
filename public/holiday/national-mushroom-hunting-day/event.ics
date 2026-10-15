@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Mushroom Hunting Day
+X-WR-CALNAME:National Mushroom Hunting Day
+DESCRIPTION:National Mushroom Hunting Day — https://todaycelebrates.com/h
+ oliday/national-mushroom-hunting-day/
+X-WR-CALDESC:National Mushroom Hunting Day — https://todaycelebrates.com/
+ holiday/national-mushroom-hunting-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mushroom-hunting
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mushroom-hunt
+ ing-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mushroom-hunting-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:National Mushroom Hunting Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mushroom Hunting Day is a nature-focused observance on
+  May 17\, celebrated across the United States to draw attention to the pla
+ nt\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/h
+ oliday/national-mushroom-hunting-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mushroom-hunting
+ -day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

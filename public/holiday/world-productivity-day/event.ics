@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Productivity Day
+X-WR-CALNAME:World Productivity Day
+DESCRIPTION:World Productivity Day — https://todaycelebrates.com/holiday/
+ world-productivity-day/
+X-WR-CALDESC:World Productivity Day — https://todaycelebrates.com/holiday
+ /world-productivity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-productivity-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-productivity-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-productivity-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:World Productivity Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Productivity Day\, observed on June 20\, is a lighthearte
+ d holiday celebrated across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/world-productivity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-productivity-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Ride the Wind Day
+X-WR-CALNAME:Ride the Wind Day
+DESCRIPTION:Ride the Wind Day — https://todaycelebrates.com/holiday/ride-
+ the-wind-day/
+X-WR-CALDESC:Ride the Wind Day — https://todaycelebrates.com/holiday/ride
+ -the-wind-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ride-the-wind-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/ride-the-wind-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ride-the-wind-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270824
+SUMMARY:Ride the Wind Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Ride the Wind Day\, observed on August 23\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/ride-the-wind-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ride-the-wind-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

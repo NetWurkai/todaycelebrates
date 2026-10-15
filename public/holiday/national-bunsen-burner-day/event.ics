@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bunsen Burner Day
+X-WR-CALNAME:National Bunsen Burner Day
+DESCRIPTION:National Bunsen Burner Day — https://todaycelebrates.com/holi
+ day/national-bunsen-burner-day/
+X-WR-CALDESC:National Bunsen Burner Day — https://todaycelebrates.com/hol
+ iday/national-bunsen-burner-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bunsen-burner-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bunsen-burner
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bunsen-burner-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:National Bunsen Burner Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bunsen Burner Day\, observed on March 31\, celebrates 
+ a piece of technology or digital culture that's become part of everyday li
+ fe across the United States.\n\nhttps://todaycelebrates.com/holiday/nation
+ al-bunsen-burner-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bunsen-burner-da
+ y/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

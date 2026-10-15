@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Extra Mile Day
+X-WR-CALNAME:Extra Mile Day
+DESCRIPTION:Extra Mile Day — https://todaycelebrates.com/holiday/extra-mi
+ le-day/
+X-WR-CALDESC:Extra Mile Day — https://todaycelebrates.com/holiday/extra-m
+ ile-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/extra-mile-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/extra-mile-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:extra-mile-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Extra Mile Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Extra Mile Day\, observed on November 1\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/extra-mile-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/extra-mile-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

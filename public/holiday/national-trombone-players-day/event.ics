@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Trombone Players Day
+X-WR-CALNAME:National Trombone Players Day
+DESCRIPTION:National Trombone Players Day — https://todaycelebrates.com/h
+ oliday/national-trombone-players-day/
+X-WR-CALDESC:National Trombone Players Day — https://todaycelebrates.com/
+ holiday/national-trombone-players-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-trombone-players
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-trombone-play
+ ers-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-trombone-players-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:National Trombone Players Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Trombone Players Day is a music-focused observance on 
+ April 1\, celebrated by fans across the United States.\n\nhttps://todaycel
+ ebrates.com/holiday/national-trombone-players-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-trombone-players
+ -day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Lipstick Day
+X-WR-CALNAME:National Lipstick Day
+DESCRIPTION:National Lipstick Day — https://todaycelebrates.com/holiday/n
+ ational-lipstick-day/
+X-WR-CALDESC:National Lipstick Day — https://todaycelebrates.com/holiday/
+ national-lipstick-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lipstick-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-lipstick-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-lipstick-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:National Lipstick Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Lipstick Day\, observed on July 29\, is a lighthearted
+  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/national-lipstick-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lipstick-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

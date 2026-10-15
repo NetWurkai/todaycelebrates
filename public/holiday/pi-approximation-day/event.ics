@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pi Approximation Day
+X-WR-CALNAME:Pi Approximation Day
+DESCRIPTION:Pi Approximation Day — https://todaycelebrates.com/holiday/pi
+ -approximation-day/
+X-WR-CALDESC:Pi Approximation Day — https://todaycelebrates.com/holiday/p
+ i-approximation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pi-approximation-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pi-approximation-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pi-approximation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270722
+DTEND;VALUE=DATE:20270723
+SUMMARY:Pi Approximation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pi Approximation Day\, observed on July 22\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/pi-approximat
+ ion-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pi-approximation-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

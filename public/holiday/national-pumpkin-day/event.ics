@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pumpkin Day
+X-WR-CALNAME:National Pumpkin Day
+DESCRIPTION:National Pumpkin Day — https://todaycelebrates.com/holiday/na
+ tional-pumpkin-day/
+X-WR-CALDESC:National Pumpkin Day — https://todaycelebrates.com/holiday/n
+ ational-pumpkin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pumpkin-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pumpkin-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pumpkin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:National Pumpkin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pumpkin Day is one of the spookier stops on the Octobe
+ r calendar\, celebrated on October 26 in the run-up to Halloween.\n\nhttps
+ ://todaycelebrates.com/holiday/national-pumpkin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pumpkin-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Stout Day
+X-WR-CALNAME:International Stout Day
+DESCRIPTION:International Stout Day — https://todaycelebrates.com/holiday
+ /international-stout-day/
+X-WR-CALDESC:International Stout Day — https://todaycelebrates.com/holida
+ y/international-stout-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-stout-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-stout-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-stout-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:International Stout Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Stout Day is a drinks-focused observance on Novem
+ ber 5\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/international-stout-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-stout-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

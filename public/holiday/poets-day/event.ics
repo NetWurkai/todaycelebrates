@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Poet's Day
+X-WR-CALNAME:Poet's Day
+DESCRIPTION:Poet's Day — https://todaycelebrates.com/holiday/poets-day/
+X-WR-CALDESC:Poet's Day — https://todaycelebrates.com/holiday/poets-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/poets-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/poets-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:poets-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:Poet's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Poet's Day is a reading- and writing-focused observance on Augu
+ st 21\, celebrated by book lovers across the United States.\n\nhttps://tod
+ aycelebrates.com/holiday/poets-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/poets-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

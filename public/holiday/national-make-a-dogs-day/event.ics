@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Make a Dog's Day
+X-WR-CALNAME:National Make a Dog's Day
+DESCRIPTION:National Make a Dog's Day — https://todaycelebrates.com/holid
+ ay/national-make-a-dogs-day/
+X-WR-CALDESC:National Make a Dog's Day — https://todaycelebrates.com/holi
+ day/national-make-a-dogs-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-make-a-dogs-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-make-a-dogs-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-make-a-dogs-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:National Make a Dog's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Make a Dog's Day is celebrated across the United State
+ s on October 22\, honoring dogs and the bond they share with the people wh
+ o love them.\n\nhttps://todaycelebrates.com/holiday/national-make-a-dogs-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-make-a-dogs-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

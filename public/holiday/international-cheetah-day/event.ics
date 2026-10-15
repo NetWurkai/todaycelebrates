@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Cheetah Day
+X-WR-CALNAME:International Cheetah Day
+DESCRIPTION:International Cheetah Day — https://todaycelebrates.com/holid
+ ay/international-cheetah-day/
+X-WR-CALDESC:International Cheetah Day — https://todaycelebrates.com/holi
+ day/international-cheetah-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-cheetah-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-cheetah-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-cheetah-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:International Cheetah Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Cheetah Day is a nature-focused observance on Dec
+ ember 4\, celebrated across the United States to draw attention to the pla
+ nt\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/h
+ oliday/international-cheetah-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-cheetah-day
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

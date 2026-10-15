@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bundt Day
+X-WR-CALNAME:National Bundt Day
+DESCRIPTION:National Bundt Day — https://todaycelebrates.com/holiday/nati
+ onal-bundt-day/
+X-WR-CALDESC:National Bundt Day — https://todaycelebrates.com/holiday/nat
+ ional-bundt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bundt-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bundt-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bundt-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:National Bundt Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bundt Day is a food-focused observance celebrated acro
+ ss the United States on November 15\, giving fans of the dish or ingredien
+ t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
+ rates.com/holiday/national-bundt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bundt-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

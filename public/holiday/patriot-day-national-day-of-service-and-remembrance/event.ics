@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Patriot Day — National Day of Service & Remembrance
+X-WR-CALNAME:Patriot Day — National Day of Service & Remembrance
+DESCRIPTION:Patriot Day — National Day of Service & Remembrance — https
+ ://todaycelebrates.com/holiday/patriot-day-national-day-of-service-and-rem
+ embrance/
+X-WR-CALDESC:Patriot Day — National Day of Service & Remembrance — http
+ s://todaycelebrates.com/holiday/patriot-day-national-day-of-service-and-re
+ membrance/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/patriot-day-national-day-
+ of-service-and-remembrance/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/patriot-day-national-d
+ ay-of-service-and-remembrance/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:patriot-day-national-day-of-service-and-remembrance@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270911
+DTEND;VALUE=DATE:20270912
+SUMMARY:Patriot Day — National Day of Service & Remembrance
+RRULE:FREQ=YEARLY
+DESCRIPTION:Patriot Day\, observed every September 11\, honors the nearly 3
+ \,000 people killed in the terrorist attacks of September 11\, 2001. Flags
+  are flown at half-staff\, and Americans are encouraged to mark the day wi
+ th a moment of silence and acts of community service.\n\nhttps://todaycele
+ brates.com/holiday/patriot-day-national-day-of-service-and-remembrance/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/patriot-day-national-day-
+ of-service-and-remembrance/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

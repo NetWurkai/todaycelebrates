@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Rugelach Day
+X-WR-CALNAME:National Rugelach Day
+DESCRIPTION:National Rugelach Day — https://todaycelebrates.com/holiday/n
+ ational-rugelach-day/
+X-WR-CALDESC:National Rugelach Day — https://todaycelebrates.com/holiday/
+ national-rugelach-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-rugelach-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-rugelach-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-rugelach-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:National Rugelach Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Rugelach Day is a food-focused observance celebrated a
+ cross the United States on April 29\, giving fans of the dish or ingredien
+ t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
+ rates.com/holiday/national-rugelach-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-rugelach-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

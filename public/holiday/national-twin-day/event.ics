@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Twin Day
+X-WR-CALNAME:National Twin Day
+DESCRIPTION:National Twin Day — https://todaycelebrates.com/holiday/natio
+ nal-twin-day/
+X-WR-CALDESC:National Twin Day — https://todaycelebrates.com/holiday/nati
+ onal-twin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-twin-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-twin-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-twin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:National Twin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Twin Day\, observed on December 18\, is a lighthearted
+ \, family-friendly day celebrated across the United States.\n\nhttps://tod
+ aycelebrates.com/holiday/national-twin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-twin-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

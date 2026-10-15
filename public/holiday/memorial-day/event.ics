@@ -1,0 +1,186 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Memorial Day
+X-WR-CALNAME:Memorial Day
+DESCRIPTION:Memorial Day — https://todaycelebrates.com/holiday/memorial-d
+ ay/
+X-WR-CALDESC:Memorial Day — https://todaycelebrates.com/holiday/memorial-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/memorial-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/memorial-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:memorial-day-20270531@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:Memorial Day
+DESCRIPTION:Memorial Day falls on the last Monday in May and honors America
+ ns who died in military service — which is the distinction that matters\
+ , because Veterans Day honors everyone who served. It began as Decoration 
+ Day\, a Civil War observance of strewing flowers on graves\, and carried b
+ oth names for most of a century. Where it started first is genuinely dispu
+ ted\, and the federal government's own answer is not the only credible one
+ .\n\nhttps://todaycelebrates.com/holiday/memorial-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/memorial-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-day-20280529@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280529
+DTEND;VALUE=DATE:20280530
+SUMMARY:Memorial Day
+DESCRIPTION:Memorial Day falls on the last Monday in May and honors America
+ ns who died in military service — which is the distinction that matters\
+ , because Veterans Day honors everyone who served. It began as Decoration 
+ Day\, a Civil War observance of strewing flowers on graves\, and carried b
+ oth names for most of a century. Where it started first is genuinely dispu
+ ted\, and the federal government's own answer is not the only credible one
+ .\n\nhttps://todaycelebrates.com/holiday/memorial-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/memorial-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-day-20290528@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290528
+DTEND;VALUE=DATE:20290529
+SUMMARY:Memorial Day
+DESCRIPTION:Memorial Day falls on the last Monday in May and honors America
+ ns who died in military service — which is the distinction that matters\
+ , because Veterans Day honors everyone who served. It began as Decoration 
+ Day\, a Civil War observance of strewing flowers on graves\, and carried b
+ oth names for most of a century. Where it started first is genuinely dispu
+ ted\, and the federal government's own answer is not the only credible one
+ .\n\nhttps://todaycelebrates.com/holiday/memorial-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/memorial-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-day-20300527@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300527
+DTEND;VALUE=DATE:20300528
+SUMMARY:Memorial Day
+DESCRIPTION:Memorial Day falls on the last Monday in May and honors America
+ ns who died in military service — which is the distinction that matters\
+ , because Veterans Day honors everyone who served. It began as Decoration 
+ Day\, a Civil War observance of strewing flowers on graves\, and carried b
+ oth names for most of a century. Where it started first is genuinely dispu
+ ted\, and the federal government's own answer is not the only credible one
+ .\n\nhttps://todaycelebrates.com/holiday/memorial-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/memorial-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-day-20310526@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310526
+DTEND;VALUE=DATE:20310527
+SUMMARY:Memorial Day
+DESCRIPTION:Memorial Day falls on the last Monday in May and honors America
+ ns who died in military service — which is the distinction that matters\
+ , because Veterans Day honors everyone who served. It began as Decoration 
+ Day\, a Civil War observance of strewing flowers on graves\, and carried b
+ oth names for most of a century. Where it started first is genuinely dispu
+ ted\, and the federal government's own answer is not the only credible one
+ .\n\nhttps://todaycelebrates.com/holiday/memorial-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/memorial-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-day-20320531@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320531
+DTEND;VALUE=DATE:20320601
+SUMMARY:Memorial Day
+DESCRIPTION:Memorial Day falls on the last Monday in May and honors America
+ ns who died in military service — which is the distinction that matters\
+ , because Veterans Day honors everyone who served. It began as Decoration 
+ Day\, a Civil War observance of strewing flowers on graves\, and carried b
+ oth names for most of a century. Where it started first is genuinely dispu
+ ted\, and the federal government's own answer is not the only credible one
+ .\n\nhttps://todaycelebrates.com/holiday/memorial-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/memorial-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-day-20330530@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330530
+DTEND;VALUE=DATE:20330531
+SUMMARY:Memorial Day
+DESCRIPTION:Memorial Day falls on the last Monday in May and honors America
+ ns who died in military service — which is the distinction that matters\
+ , because Veterans Day honors everyone who served. It began as Decoration 
+ Day\, a Civil War observance of strewing flowers on graves\, and carried b
+ oth names for most of a century. Where it started first is genuinely dispu
+ ted\, and the federal government's own answer is not the only credible one
+ .\n\nhttps://todaycelebrates.com/holiday/memorial-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/memorial-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-day-20340529@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340529
+DTEND;VALUE=DATE:20340530
+SUMMARY:Memorial Day
+DESCRIPTION:Memorial Day falls on the last Monday in May and honors America
+ ns who died in military service — which is the distinction that matters\
+ , because Veterans Day honors everyone who served. It began as Decoration 
+ Day\, a Civil War observance of strewing flowers on graves\, and carried b
+ oth names for most of a century. Where it started first is genuinely dispu
+ ted\, and the federal government's own answer is not the only credible one
+ .\n\nhttps://todaycelebrates.com/holiday/memorial-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/memorial-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:memorial-day-20350528@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350528
+DTEND;VALUE=DATE:20350529
+SUMMARY:Memorial Day
+DESCRIPTION:Memorial Day falls on the last Monday in May and honors America
+ ns who died in military service — which is the distinction that matters\
+ , because Veterans Day honors everyone who served. It began as Decoration 
+ Day\, a Civil War observance of strewing flowers on graves\, and carried b
+ oth names for most of a century. Where it started first is genuinely dispu
+ ted\, and the federal government's own answer is not the only credible one
+ .\n\nhttps://todaycelebrates.com/holiday/memorial-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/memorial-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

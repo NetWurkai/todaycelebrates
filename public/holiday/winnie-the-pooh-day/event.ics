@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Winnie the Pooh Day
+X-WR-CALNAME:Winnie the Pooh Day
+DESCRIPTION:Winnie the Pooh Day — https://todaycelebrates.com/holiday/win
+ nie-the-pooh-day/
+X-WR-CALDESC:Winnie the Pooh Day — https://todaycelebrates.com/holiday/wi
+ nnie-the-pooh-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/winnie-the-pooh-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/winnie-the-pooh-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:winnie-the-pooh-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Winnie the Pooh Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Winnie the Pooh Day\, observed on January 18\, is a lighthearte
+ d\, family-friendly day celebrated across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/winnie-the-pooh-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/winnie-the-pooh-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

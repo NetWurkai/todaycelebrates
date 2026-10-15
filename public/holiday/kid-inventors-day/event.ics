@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Kid Inventors' Day
+X-WR-CALNAME:Kid Inventors' Day
+DESCRIPTION:Kid Inventors' Day — https://todaycelebrates.com/holiday/kid-
+ inventors-day/
+X-WR-CALDESC:Kid Inventors' Day — https://todaycelebrates.com/holiday/kid
+ -inventors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kid-inventors-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/kid-inventors-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:kid-inventors-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Kid Inventors' Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Kid Inventors' Day\, observed on January 17\, is a lighthearted
+ \, family-friendly day celebrated across the United States.\n\nhttps://tod
+ aycelebrates.com/holiday/kid-inventors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kid-inventors-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

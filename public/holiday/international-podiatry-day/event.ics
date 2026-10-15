@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Podiatry Day
+X-WR-CALNAME:International Podiatry Day
+DESCRIPTION:International Podiatry Day — https://todaycelebrates.com/holi
+ day/international-podiatry-day/
+X-WR-CALDESC:International Podiatry Day — https://todaycelebrates.com/hol
+ iday/international-podiatry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-podiatry-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-podiatry
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-podiatry-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+SUMMARY:International Podiatry Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 8\, International Podiatry Day gives people around t
+ he world one more reason to mark the day and celebrate podiatry.\n\nhttps:
+ //todaycelebrates.com/holiday/international-podiatry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-podiatry-da
+ y/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

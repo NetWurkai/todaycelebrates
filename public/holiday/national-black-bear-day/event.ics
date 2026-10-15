@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Black Bear Day
+X-WR-CALNAME:National Black Bear Day
+DESCRIPTION:National Black Bear Day — https://todaycelebrates.com/holiday
+ /national-black-bear-day/
+X-WR-CALDESC:National Black Bear Day — https://todaycelebrates.com/holida
+ y/national-black-bear-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-black-bear-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-black-bear-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-black-bear-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:National Black Bear Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Black Bear Day is a nature-focused observance on June 
+ 5\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /national-black-bear-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-black-bear-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

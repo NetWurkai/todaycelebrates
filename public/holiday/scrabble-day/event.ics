@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Scrabble Day
+X-WR-CALNAME:Scrabble Day
+DESCRIPTION:Scrabble Day — https://todaycelebrates.com/holiday/scrabble-d
+ ay/
+X-WR-CALDESC:Scrabble Day — https://todaycelebrates.com/holiday/scrabble-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/scrabble-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/scrabble-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:scrabble-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Scrabble Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Scrabble Day is a reading- and writing-focused observance on Ap
+ ril 13\, celebrated by book lovers across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/scrabble-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/scrabble-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

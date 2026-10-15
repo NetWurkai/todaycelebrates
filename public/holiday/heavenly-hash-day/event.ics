@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Heavenly Hash Day
+X-WR-CALNAME:Heavenly Hash Day
+DESCRIPTION:Heavenly Hash Day — https://todaycelebrates.com/holiday/heave
+ nly-hash-day/
+X-WR-CALDESC:Heavenly Hash Day — https://todaycelebrates.com/holiday/heav
+ enly-hash-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/heavenly-hash-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/heavenly-hash-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:heavenly-hash-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:Heavenly Hash Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Heavenly Hash Day is a food-focused observance celebrated acros
+ s the United States on February 2\, giving fans of the dish or ingredient 
+ an excuse to seek it out and share it with others.\n\nhttps://todaycelebra
+ tes.com/holiday/heavenly-hash-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/heavenly-hash-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

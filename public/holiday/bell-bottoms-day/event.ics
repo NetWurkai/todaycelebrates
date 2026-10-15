@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bell Bottoms Day
+X-WR-CALNAME:Bell Bottoms Day
+DESCRIPTION:Bell Bottoms Day — https://todaycelebrates.com/holiday/bell-b
+ ottoms-day/
+X-WR-CALDESC:Bell Bottoms Day — https://todaycelebrates.com/holiday/bell-
+ bottoms-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bell-bottoms-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bell-bottoms-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bell-bottoms-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:Bell Bottoms Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bell Bottoms Day\, observed on April 5\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/bell-bottoms-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bell-bottoms-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

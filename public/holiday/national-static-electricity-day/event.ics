@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Static Electricity Day
+X-WR-CALNAME:National Static Electricity Day
+DESCRIPTION:National Static Electricity Day — https://todaycelebrates.com
+ /holiday/national-static-electricity-day/
+X-WR-CALDESC:National Static Electricity Day — https://todaycelebrates.co
+ m/holiday/national-static-electricity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-static-electrici
+ ty-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-static-electr
+ icity-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-static-electricity-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:National Static Electricity Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Static Electricity Day\, observed on January 9\, celeb
+ rates a piece of technology or digital culture that's become part of every
+ day life across the United States.\n\nhttps://todaycelebrates.com/holiday/
+ national-static-electricity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-static-electrici
+ ty-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

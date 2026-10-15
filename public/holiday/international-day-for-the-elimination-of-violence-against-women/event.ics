@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day for the Elimination of Violence against Women
+X-WR-CALNAME:International Day for the Elimination of Violence against Wome
+ n
+DESCRIPTION:International Day for the Elimination of Violence against Women
+  — https://todaycelebrates.com/holiday/international-day-for-the-elimina
+ tion-of-violence-against-women/
+X-WR-CALDESC:International Day for the Elimination of Violence against Wome
+ n — https://todaycelebrates.com/holiday/international-day-for-the-elimin
+ ation-of-violence-against-women/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-the
+ -elimination-of-violence-against-women/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-
+ the-elimination-of-violence-against-women/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-for-the-elimination-of-violence-against-women@todayce
+ lebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:International Day for the Elimination of Violence against Women
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day for the Elimination of Violence against Women
+ \, observed on November 25\, encourages people across the United States to
+  pause and recognize the people and causes behind the day.\n\nhttps://toda
+ ycelebrates.com/holiday/international-day-for-the-elimination-of-violence-
+ against-women/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-the
+ -elimination-of-violence-against-women/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

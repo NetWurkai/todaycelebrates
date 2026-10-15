@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Prevent Plagiarism Day
+X-WR-CALNAME:Prevent Plagiarism Day
+DESCRIPTION:Prevent Plagiarism Day — https://todaycelebrates.com/holiday/
+ prevent-plagiarism-day/
+X-WR-CALDESC:Prevent Plagiarism Day — https://todaycelebrates.com/holiday
+ /prevent-plagiarism-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/prevent-plagiarism-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/prevent-plagiarism-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:prevent-plagiarism-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:Prevent Plagiarism Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Prevent Plagiarism Day is a reading- and writing-focused observ
+ ance on February 19\, celebrated by book lovers across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/prevent-plagiarism-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/prevent-plagiarism-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

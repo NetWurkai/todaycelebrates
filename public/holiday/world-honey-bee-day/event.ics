@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Honey Bee Day
+X-WR-CALNAME:World Honey Bee Day
+DESCRIPTION:World Honey Bee Day — https://todaycelebrates.com/holiday/wor
+ ld-honey-bee-day/
+X-WR-CALDESC:World Honey Bee Day — https://todaycelebrates.com/holiday/wo
+ rld-honey-bee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-honey-bee-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-honey-bee-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-honey-bee-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:World Honey Bee Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Honey Bee Day is a nature-focused observance on August 21
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ world-honey-bee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-honey-bee-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

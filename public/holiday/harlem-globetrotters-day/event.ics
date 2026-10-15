@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Harlem Globetrotter's Day
+X-WR-CALNAME:Harlem Globetrotter's Day
+DESCRIPTION:Harlem Globetrotter's Day — https://todaycelebrates.com/holid
+ ay/harlem-globetrotters-day/
+X-WR-CALDESC:Harlem Globetrotter's Day — https://todaycelebrates.com/holi
+ day/harlem-globetrotters-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/harlem-globetrotters-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/harlem-globetrotters-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:harlem-globetrotters-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Harlem Globetrotter's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Harlem Globetrotter's Day\, observed on January 7\, is celebrat
+ ed by sports fans across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/harlem-globetrotters-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/harlem-globetrotters-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

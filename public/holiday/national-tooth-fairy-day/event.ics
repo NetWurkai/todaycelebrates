@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Tooth Fairy Day
+X-WR-CALNAME:National Tooth Fairy Day
+DESCRIPTION:National Tooth Fairy Day — https://todaycelebrates.com/holida
+ y/national-tooth-fairy-day/
+X-WR-CALDESC:National Tooth Fairy Day — https://todaycelebrates.com/holid
+ ay/national-tooth-fairy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tooth-fairy-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-tooth-fairy-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-tooth-fairy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:National Tooth Fairy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tooth Fairy Day\, observed on February 28\, is a light
+ hearted\, family-friendly day celebrated across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/national-tooth-fairy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tooth-fairy-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

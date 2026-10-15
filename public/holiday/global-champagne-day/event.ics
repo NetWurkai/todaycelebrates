@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Global Champagne Day
+X-WR-CALNAME:Global Champagne Day
+DESCRIPTION:Global Champagne Day — https://todaycelebrates.com/holiday/gl
+ obal-champagne-day/
+X-WR-CALDESC:Global Champagne Day — https://todaycelebrates.com/holiday/g
+ lobal-champagne-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-champagne-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/global-champagne-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:global-champagne-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Global Champagne Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 23\, Global Champagne Day gives people around the gl
+ obe one more reason to mark the day and celebrate champagne.\n\nhttps://to
+ daycelebrates.com/holiday/global-champagne-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-champagne-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

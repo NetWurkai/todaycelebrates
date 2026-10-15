@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Education and Sharing Day
+X-WR-CALNAME:Education and Sharing Day
+DESCRIPTION:Education and Sharing Day — https://todaycelebrates.com/holid
+ ay/education-and-sharing-day/
+X-WR-CALDESC:Education and Sharing Day — https://todaycelebrates.com/holi
+ day/education-and-sharing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/education-and-sharing-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/education-and-sharing-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:education-and-sharing-day-20270418@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Education and Sharing Day
+DESCRIPTION:Education and Sharing Day\, observed on April 18\, encourages p
+ eople across the United States to pause and recognize the people and cause
+ s behind the day.\n\nhttps://todaycelebrates.com/holiday/education-and-sha
+ ring-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/education-and-sharing-day
+ /
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:education-and-sharing-day-20280407@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280407
+DTEND;VALUE=DATE:20280408
+SUMMARY:Education and Sharing Day
+DESCRIPTION:Education and Sharing Day\, observed on April 18\, encourages p
+ eople across the United States to pause and recognize the people and cause
+ s behind the day.\n\nhttps://todaycelebrates.com/holiday/education-and-sha
+ ring-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/education-and-sharing-day
+ /
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:education-and-sharing-day-20290327@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290327
+DTEND;VALUE=DATE:20290328
+SUMMARY:Education and Sharing Day
+DESCRIPTION:Education and Sharing Day\, observed on April 18\, encourages p
+ eople across the United States to pause and recognize the people and cause
+ s behind the day.\n\nhttps://todaycelebrates.com/holiday/education-and-sha
+ ring-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/education-and-sharing-day
+ /
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:education-and-sharing-day-20300414@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300414
+DTEND;VALUE=DATE:20300415
+SUMMARY:Education and Sharing Day
+DESCRIPTION:Education and Sharing Day\, observed on April 18\, encourages p
+ eople across the United States to pause and recognize the people and cause
+ s behind the day.\n\nhttps://todaycelebrates.com/holiday/education-and-sha
+ ring-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/education-and-sharing-day
+ /
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:education-and-sharing-day-20310404@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310404
+DTEND;VALUE=DATE:20310405
+SUMMARY:Education and Sharing Day
+DESCRIPTION:Education and Sharing Day\, observed on April 18\, encourages p
+ eople across the United States to pause and recognize the people and cause
+ s behind the day.\n\nhttps://todaycelebrates.com/holiday/education-and-sha
+ ring-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/education-and-sharing-day
+ /
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:education-and-sharing-day-20320323@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320323
+DTEND;VALUE=DATE:20320324
+SUMMARY:Education and Sharing Day
+DESCRIPTION:Education and Sharing Day\, observed on April 18\, encourages p
+ eople across the United States to pause and recognize the people and cause
+ s behind the day.\n\nhttps://todaycelebrates.com/holiday/education-and-sha
+ ring-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/education-and-sharing-day
+ /
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:education-and-sharing-day-20330410@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330410
+DTEND;VALUE=DATE:20330411
+SUMMARY:Education and Sharing Day
+DESCRIPTION:Education and Sharing Day\, observed on April 18\, encourages p
+ eople across the United States to pause and recognize the people and cause
+ s behind the day.\n\nhttps://todaycelebrates.com/holiday/education-and-sha
+ ring-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/education-and-sharing-day
+ /
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:education-and-sharing-day-20340331@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340331
+DTEND;VALUE=DATE:20340401
+SUMMARY:Education and Sharing Day
+DESCRIPTION:Education and Sharing Day\, observed on April 18\, encourages p
+ eople across the United States to pause and recognize the people and cause
+ s behind the day.\n\nhttps://todaycelebrates.com/holiday/education-and-sha
+ ring-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/education-and-sharing-day
+ /
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:education-and-sharing-day-20350420@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350420
+DTEND;VALUE=DATE:20350421
+SUMMARY:Education and Sharing Day
+DESCRIPTION:Education and Sharing Day\, observed on April 18\, encourages p
+ eople across the United States to pause and recognize the people and cause
+ s behind the day.\n\nhttps://todaycelebrates.com/holiday/education-and-sha
+ ring-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/education-and-sharing-day
+ /
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

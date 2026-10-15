@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Anime Day
+X-WR-CALNAME:Anime Day
+DESCRIPTION:Anime Day — https://todaycelebrates.com/holiday/anime-day/
+X-WR-CALDESC:Anime Day — https://todaycelebrates.com/holiday/anime-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/anime-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/anime-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:anime-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Anime Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Anime Day\, observed on April 15\, is a lighthearted\, family-f
+ riendly day celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/anime-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/anime-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

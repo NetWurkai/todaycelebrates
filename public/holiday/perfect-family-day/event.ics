@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Perfect Family Day
+X-WR-CALNAME:Perfect Family Day
+DESCRIPTION:Perfect Family Day — https://todaycelebrates.com/holiday/perf
+ ect-family-day/
+X-WR-CALDESC:Perfect Family Day — https://todaycelebrates.com/holiday/per
+ fect-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/perfect-family-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/perfect-family-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:perfect-family-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+SUMMARY:Perfect Family Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Perfect Family Day\, observed on July 18\, encourages people ac
+ ross the United States to pause and recognize the people and causes behind
+  the day.\n\nhttps://todaycelebrates.com/holiday/perfect-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/perfect-family-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

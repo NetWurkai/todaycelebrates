@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Acne Positivity Day
+X-WR-CALNAME:National Acne Positivity Day
+DESCRIPTION:National Acne Positivity Day — https://todaycelebrates.com/ho
+ liday/national-acne-positivity-day/
+X-WR-CALDESC:National Acne Positivity Day — https://todaycelebrates.com/h
+ oliday/national-acne-positivity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-acne-positivity-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-acne-positivi
+ ty-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-acne-positivity-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:National Acne Positivity Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Acne Positivity Day is observed across the United Stat
+ es on September 1\, a small but fun addition to the calendar worth celebra
+ ting in its own way.\n\nhttps://todaycelebrates.com/holiday/national-acne-
+ positivity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-acne-positivity-
+ day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

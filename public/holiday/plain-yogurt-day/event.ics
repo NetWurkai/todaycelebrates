@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Plain Yogurt Day
+X-WR-CALNAME:Plain Yogurt Day
+DESCRIPTION:Plain Yogurt Day — https://todaycelebrates.com/holiday/plain-
+ yogurt-day/
+X-WR-CALDESC:Plain Yogurt Day — https://todaycelebrates.com/holiday/plain
+ -yogurt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plain-yogurt-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/plain-yogurt-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:plain-yogurt-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:Plain Yogurt Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Plain Yogurt Day is a food-focused observance celebrated across
+  the United States on June 20\, giving fans of the dish or ingredient an e
+ xcuse to seek it out and share it with others.\n\nhttps://todaycelebrates.
+ com/holiday/plain-yogurt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plain-yogurt-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

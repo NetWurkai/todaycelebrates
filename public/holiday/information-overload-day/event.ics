@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Information Overload Day
+X-WR-CALNAME:Information Overload Day
+DESCRIPTION:Information Overload Day — https://todaycelebrates.com/holida
+ y/information-overload-day/
+X-WR-CALDESC:Information Overload Day — https://todaycelebrates.com/holid
+ ay/information-overload-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/information-overload-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/information-overload-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:information-overload-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Information Overload Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 20\, Information Overload Day gives people across th
+ e United States one more reason to mark the day and celebrate information 
+ overload.\n\nhttps://todaycelebrates.com/holiday/information-overload-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/information-overload-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

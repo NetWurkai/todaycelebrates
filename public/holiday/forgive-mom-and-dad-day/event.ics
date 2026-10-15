@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Forgive Mom and Dad Day
+X-WR-CALNAME:Forgive Mom and Dad Day
+DESCRIPTION:Forgive Mom and Dad Day — https://todaycelebrates.com/holiday
+ /forgive-mom-and-dad-day/
+X-WR-CALDESC:Forgive Mom and Dad Day — https://todaycelebrates.com/holida
+ y/forgive-mom-and-dad-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/forgive-mom-and-dad-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/forgive-mom-and-dad-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:forgive-mom-and-dad-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:Forgive Mom and Dad Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Forgive Mom and Dad Day\, observed on March 18\, encourages peo
+ ple across the United States to pause and recognize the people and causes 
+ behind the day.\n\nhttps://todaycelebrates.com/holiday/forgive-mom-and-dad
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/forgive-mom-and-dad-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

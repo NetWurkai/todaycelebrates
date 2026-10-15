@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Oatmeal Day
+X-WR-CALNAME:National Oatmeal Day
+DESCRIPTION:National Oatmeal Day — https://todaycelebrates.com/holiday/na
+ tional-oatmeal-day/
+X-WR-CALDESC:National Oatmeal Day — https://todaycelebrates.com/holiday/n
+ ational-oatmeal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-oatmeal-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-oatmeal-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-oatmeal-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:National Oatmeal Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Oatmeal Day is observed across the United States on Oc
+ tober 29\, a small but fun addition to the calendar worth celebrating in i
+ ts own way.\n\nhttps://todaycelebrates.com/holiday/national-oatmeal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-oatmeal-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

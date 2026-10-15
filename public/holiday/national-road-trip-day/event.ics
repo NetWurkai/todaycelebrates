@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Road Trip Day
+X-WR-CALNAME:National Road Trip Day
+DESCRIPTION:National Road Trip Day — https://todaycelebrates.com/holiday/
+ national-road-trip-day/
+X-WR-CALDESC:National Road Trip Day — https://todaycelebrates.com/holiday
+ /national-road-trip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-road-trip-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-road-trip-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-road-trip-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:National Road Trip Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Road Trip Day\, observed on May 28\, is a lighthearted
+  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/national-road-trip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-road-trip-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Vermont Day
+X-WR-CALNAME:National Vermont Day
+DESCRIPTION:National Vermont Day — https://todaycelebrates.com/holiday/na
+ tional-vermont-day/
+X-WR-CALDESC:National Vermont Day — https://todaycelebrates.com/holiday/n
+ ational-vermont-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-vermont-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-vermont-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-vermont-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271012
+DTEND;VALUE=DATE:20271013
+SUMMARY:National Vermont Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Vermont Day is observed across the United States on Oc
+ tober 12\, a small but fun addition to the calendar worth celebrating in i
+ ts own way.\n\nhttps://todaycelebrates.com/holiday/national-vermont-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-vermont-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

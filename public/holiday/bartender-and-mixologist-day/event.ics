@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bartender and Mixologist Day
+X-WR-CALNAME:Bartender and Mixologist Day
+DESCRIPTION:Bartender and Mixologist Day — https://todaycelebrates.com/ho
+ liday/bartender-and-mixologist-day/
+X-WR-CALDESC:Bartender and Mixologist Day — https://todaycelebrates.com/h
+ oliday/bartender-and-mixologist-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bartender-and-mixologist-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bartender-and-mixologi
+ st-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bartender-and-mixologist-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:Bartender and Mixologist Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bartender and Mixologist Day is a drinks-focused observance on 
+ June 26\, celebrated by beer and craft-brewery fans across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/bartender-and-mixologist-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bartender-and-mixologist-
+ day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

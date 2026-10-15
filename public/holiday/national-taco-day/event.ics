@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Taco Day
+X-WR-CALNAME:National Taco Day
+DESCRIPTION:National Taco Day — https://todaycelebrates.com/holiday/natio
+ nal-taco-day/
+X-WR-CALDESC:National Taco Day — https://todaycelebrates.com/holiday/nati
+ onal-taco-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-taco-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-taco-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-taco-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271004
+DTEND;VALUE=DATE:20271005
+SUMMARY:National Taco Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Taco Day is a lighthearted food holiday celebrated acr
+ oss the United States on October 4\, giving fans of taco an excuse to seek
+  it out and share it with others. This year it's also listed on October 6.
+ \n\nhttps://todaycelebrates.com/holiday/national-taco-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-taco-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

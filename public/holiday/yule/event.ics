@@ -1,0 +1,163 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Yule
+X-WR-CALNAME:Yule
+DESCRIPTION:Yule — https://todaycelebrates.com/holiday/yule/
+X-WR-CALDESC:Yule — https://todaycelebrates.com/holiday/yule/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yule/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/yule/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:yule-20261221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Yule
+DESCRIPTION:Yule\, observed on December 21\, is a lighthearted holiday cele
+ brated across the United States.\n\nhttps://todaycelebrates.com/holiday/yu
+ le/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yule/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yule-20271221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271221
+DTEND;VALUE=DATE:20271222
+SUMMARY:Yule
+DESCRIPTION:Yule\, observed on December 21\, is a lighthearted holiday cele
+ brated across the United States.\n\nhttps://todaycelebrates.com/holiday/yu
+ le/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yule/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yule-20281221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281221
+DTEND;VALUE=DATE:20281222
+SUMMARY:Yule
+DESCRIPTION:Yule\, observed on December 21\, is a lighthearted holiday cele
+ brated across the United States.\n\nhttps://todaycelebrates.com/holiday/yu
+ le/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yule/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yule-20291221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291221
+DTEND;VALUE=DATE:20291222
+SUMMARY:Yule
+DESCRIPTION:Yule\, observed on December 21\, is a lighthearted holiday cele
+ brated across the United States.\n\nhttps://todaycelebrates.com/holiday/yu
+ le/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yule/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yule-20301221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301221
+DTEND;VALUE=DATE:20301222
+SUMMARY:Yule
+DESCRIPTION:Yule\, observed on December 21\, is a lighthearted holiday cele
+ brated across the United States.\n\nhttps://todaycelebrates.com/holiday/yu
+ le/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yule/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yule-20311221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311221
+DTEND;VALUE=DATE:20311222
+SUMMARY:Yule
+DESCRIPTION:Yule\, observed on December 21\, is a lighthearted holiday cele
+ brated across the United States.\n\nhttps://todaycelebrates.com/holiday/yu
+ le/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yule/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yule-20321221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321221
+DTEND;VALUE=DATE:20321222
+SUMMARY:Yule
+DESCRIPTION:Yule\, observed on December 21\, is a lighthearted holiday cele
+ brated across the United States.\n\nhttps://todaycelebrates.com/holiday/yu
+ le/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yule/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yule-20331221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331221
+DTEND;VALUE=DATE:20331222
+SUMMARY:Yule
+DESCRIPTION:Yule\, observed on December 21\, is a lighthearted holiday cele
+ brated across the United States.\n\nhttps://todaycelebrates.com/holiday/yu
+ le/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yule/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yule-20341221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341221
+DTEND;VALUE=DATE:20341222
+SUMMARY:Yule
+DESCRIPTION:Yule\, observed on December 21\, is a lighthearted holiday cele
+ brated across the United States.\n\nhttps://todaycelebrates.com/holiday/yu
+ le/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yule/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yule-20351221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351221
+DTEND;VALUE=DATE:20351222
+SUMMARY:Yule
+DESCRIPTION:Yule\, observed on December 21\, is a lighthearted holiday cele
+ brated across the United States.\n\nhttps://todaycelebrates.com/holiday/yu
+ le/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yule/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

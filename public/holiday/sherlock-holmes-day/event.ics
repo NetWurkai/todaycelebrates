@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Sherlock Holmes Day
+X-WR-CALNAME:Sherlock Holmes Day
+DESCRIPTION:Sherlock Holmes Day — https://todaycelebrates.com/holiday/she
+ rlock-holmes-day/
+X-WR-CALDESC:Sherlock Holmes Day — https://todaycelebrates.com/holiday/sh
+ erlock-holmes-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sherlock-holmes-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/sherlock-holmes-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sherlock-holmes-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:Sherlock Holmes Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Sherlock Holmes Day is a reading- and writing-focused observanc
+ e on May 22\, celebrated by book lovers across the United States.\n\nhttps
+ ://todaycelebrates.com/holiday/sherlock-holmes-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sherlock-holmes-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

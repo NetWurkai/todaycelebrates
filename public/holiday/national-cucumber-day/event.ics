@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cucumber Day
+X-WR-CALNAME:National Cucumber Day
+DESCRIPTION:National Cucumber Day — https://todaycelebrates.com/holiday/n
+ ational-cucumber-day/
+X-WR-CALDESC:National Cucumber Day — https://todaycelebrates.com/holiday/
+ national-cucumber-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cucumber-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cucumber-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cucumber-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+SUMMARY:National Cucumber Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cucumber Day is a food-focused observance celebrated a
+ cross the United States on June 14\, giving fans of the dish or ingredient
+  an excuse to seek it out and share it with others.\n\nhttps://todaycelebr
+ ates.com/holiday/national-cucumber-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cucumber-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

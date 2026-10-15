@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Sports Journalists Day
+X-WR-CALNAME:World Sports Journalists Day
+DESCRIPTION:World Sports Journalists Day — https://todaycelebrates.com/ho
+ liday/world-sports-journalists-day/
+X-WR-CALDESC:World Sports Journalists Day — https://todaycelebrates.com/h
+ oliday/world-sports-journalists-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sports-journalists-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-sports-journalis
+ ts-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-sports-journalists-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:World Sports Journalists Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Sports Journalists Day\, observed on July 2\, is celebrat
+ ed by sports fans across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/world-sports-journalists-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sports-journalists-
+ day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

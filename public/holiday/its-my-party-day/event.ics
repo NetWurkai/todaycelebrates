@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:It's My Party Day
+X-WR-CALNAME:It's My Party Day
+DESCRIPTION:It's My Party Day — https://todaycelebrates.com/holiday/its-m
+ y-party-day/
+X-WR-CALDESC:It's My Party Day — https://todaycelebrates.com/holiday/its-
+ my-party-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/its-my-party-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/its-my-party-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:its-my-party-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:It's My Party Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 11\, It's My Party Day gives people across the Unite
+ d States one more reason to mark the day and celebrate it's my party.\n\nh
+ ttps://todaycelebrates.com/holiday/its-my-party-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/its-my-party-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

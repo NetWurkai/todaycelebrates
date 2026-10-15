@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Lag B'omer
+X-WR-CALNAME:Lag B'omer
+DESCRIPTION:Lag B'omer — https://todaycelebrates.com/holiday/lag-bomer/
+X-WR-CALDESC:Lag B'omer — https://todaycelebrates.com/holiday/lag-bomer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lag-bomer/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/lag-bomer/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:lag-bomer@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:Lag B'omer
+RRULE:FREQ=YEARLY
+DESCRIPTION:Lag B'omer\, observed on May 25\, encourages people across the 
+ United States to pause and recognize the people and causes behind the day.
+ \n\nhttps://todaycelebrates.com/holiday/lag-bomer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lag-bomer/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

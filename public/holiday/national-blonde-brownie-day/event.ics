@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Blonde Brownie Day
+X-WR-CALNAME:National Blonde Brownie Day
+DESCRIPTION:National Blonde Brownie Day — https://todaycelebrates.com/hol
+ iday/national-blonde-brownie-day/
+X-WR-CALDESC:National Blonde Brownie Day — https://todaycelebrates.com/ho
+ liday/national-blonde-brownie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blonde-brownie-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-blonde-browni
+ e-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-blonde-brownie-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:National Blonde Brownie Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Blonde Brownie Day is a food-focused observance celebr
+ ated across the United States on January 22\, giving fans of the dish or i
+ ngredient an excuse to seek it out and share it with others.\n\nhttps://to
+ daycelebrates.com/holiday/national-blonde-brownie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blonde-brownie-d
+ ay/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

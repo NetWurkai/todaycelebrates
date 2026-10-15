@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Boston Marathon Day
+X-WR-CALNAME:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day — https://todaycelebrates.com/holiday/bos
+ ton-marathon-day/
+X-WR-CALDESC:Boston Marathon Day — https://todaycelebrates.com/holiday/bo
+ ston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:boston-marathon-day-20270419@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20280417@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280418
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20290416@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290416
+DTEND;VALUE=DATE:20290417
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20300415@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300415
+DTEND;VALUE=DATE:20300416
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20310421@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310421
+DTEND;VALUE=DATE:20310422
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20320419@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320419
+DTEND;VALUE=DATE:20320420
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20330418@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330418
+DTEND;VALUE=DATE:20330419
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20340417@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340417
+DTEND;VALUE=DATE:20340418
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20350416@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350416
+DTEND;VALUE=DATE:20350417
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

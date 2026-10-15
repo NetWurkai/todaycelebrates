@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Dot Day
+X-WR-CALNAME:International Dot Day
+DESCRIPTION:International Dot Day — https://todaycelebrates.com/holiday/i
+ nternational-dot-day/
+X-WR-CALDESC:International Dot Day — https://todaycelebrates.com/holiday/
+ international-dot-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-dot-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-dot-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-dot-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:International Dot Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Dot Day\, marked on September 15\, celebrates dot
+  and its growing role in everyday life around the world.\n\nhttps://todayc
+ elebrates.com/holiday/international-dot-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-dot-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

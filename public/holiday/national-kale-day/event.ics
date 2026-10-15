@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Kale Day
+X-WR-CALNAME:National Kale Day
+DESCRIPTION:National Kale Day — https://todaycelebrates.com/holiday/natio
+ nal-kale-day/
+X-WR-CALDESC:National Kale Day — https://todaycelebrates.com/holiday/nati
+ onal-kale-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kale-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-kale-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-kale-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:National Kale Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 7\, National Kale Day gives people across the United
+  States one more reason to mark the day and celebrate kale.\n\nhttps://tod
+ aycelebrates.com/holiday/national-kale-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kale-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

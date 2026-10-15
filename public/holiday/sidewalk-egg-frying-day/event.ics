@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Sidewalk Egg Frying Day
+X-WR-CALNAME:Sidewalk Egg Frying Day
+DESCRIPTION:Sidewalk Egg Frying Day — https://todaycelebrates.com/holiday
+ /sidewalk-egg-frying-day/
+X-WR-CALDESC:Sidewalk Egg Frying Day — https://todaycelebrates.com/holida
+ y/sidewalk-egg-frying-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sidewalk-egg-frying-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/sidewalk-egg-frying-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sidewalk-egg-frying-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+SUMMARY:Sidewalk Egg Frying Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Sidewalk Egg Frying Day\, observed on July 4\, is a lighthearte
+ d holiday celebrated across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/sidewalk-egg-frying-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sidewalk-egg-frying-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Women in Military Service for America Memorial Anniversary
+X-WR-CALNAME:Women in Military Service for America Memorial Anniversary
+DESCRIPTION:Women in Military Service for America Memorial Anniversary — 
+ https://todaycelebrates.com/holiday/women-in-military-service-for-america-
+ memorial-anniversary/
+X-WR-CALDESC:Women in Military Service for America Memorial Anniversary —
+  https://todaycelebrates.com/holiday/women-in-military-service-for-america
+ -memorial-anniversary/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/women-in-military-service
+ -for-america-memorial-anniversary/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/women-in-military-serv
+ ice-for-america-memorial-anniversary/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:women-in-military-service-for-america-memorial-anniversary@todaycelebra
+ tes.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Women in Military Service for America Memorial Anniversary
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 17\, Women in Military Service for America Memorial 
+ Anniversary gives people across the United States one more reason to mark 
+ the day and celebrate women in military service for america memorial anniv
+ ersary.\n\nhttps://todaycelebrates.com/holiday/women-in-military-service-f
+ or-america-memorial-anniversary/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/women-in-military-service
+ -for-america-memorial-anniversary/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

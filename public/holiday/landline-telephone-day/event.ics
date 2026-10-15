@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Landline Telephone Day
+X-WR-CALNAME:Landline Telephone Day
+DESCRIPTION:Landline Telephone Day — https://todaycelebrates.com/holiday/
+ landline-telephone-day/
+X-WR-CALDESC:Landline Telephone Day — https://todaycelebrates.com/holiday
+ /landline-telephone-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/landline-telephone-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/landline-telephone-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:landline-telephone-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Landline Telephone Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Landline Telephone Day\, observed on March 10\, celebrates a pi
+ ece of technology or digital culture that's become part of everyday life a
+ cross the United States.\n\nhttps://todaycelebrates.com/holiday/landline-t
+ elephone-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/landline-telephone-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

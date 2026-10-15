@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Internet Day
+X-WR-CALNAME:National Internet Day
+DESCRIPTION:National Internet Day — https://todaycelebrates.com/holiday/n
+ ational-internet-day/
+X-WR-CALDESC:National Internet Day — https://todaycelebrates.com/holiday/
+ national-internet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-internet-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-internet-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-internet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:National Internet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Internet Day is observed across the United States on O
+ ctober 29\, a small but fun addition to the calendar worth celebrating in 
+ its own way.\n\nhttps://todaycelebrates.com/holiday/national-internet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-internet-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

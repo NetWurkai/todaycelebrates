@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Oscar The Grouch Day
+X-WR-CALNAME:Oscar The Grouch Day
+DESCRIPTION:Oscar The Grouch Day — https://todaycelebrates.com/holiday/os
+ car-the-grouch-day/
+X-WR-CALDESC:Oscar The Grouch Day — https://todaycelebrates.com/holiday/o
+ scar-the-grouch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/oscar-the-grouch-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/oscar-the-grouch-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:oscar-the-grouch-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:Oscar The Grouch Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Oscar The Grouch Day\, observed on June 1\, is a lighthearted\,
+  family-friendly day celebrated across the United States.\n\nhttps://today
+ celebrates.com/holiday/oscar-the-grouch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/oscar-the-grouch-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Fortune Cookie Day
+X-WR-CALNAME:National Fortune Cookie Day
+DESCRIPTION:National Fortune Cookie Day — https://todaycelebrates.com/hol
+ iday/national-fortune-cookie-day/
+X-WR-CALDESC:National Fortune Cookie Day — https://todaycelebrates.com/ho
+ liday/national-fortune-cookie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fortune-cookie-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-fortune-cooki
+ e-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-fortune-cookie-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:National Fortune Cookie Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Fortune Cookie Day is a food-focused observance celebr
+ ated across the United States on July 20\, giving fans of the dish or ingr
+ edient an excuse to seek it out and share it with others.\n\nhttps://today
+ celebrates.com/holiday/national-fortune-cookie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fortune-cookie-d
+ ay/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Cat Day
+X-WR-CALNAME:International Cat Day
+DESCRIPTION:International Cat Day — https://todaycelebrates.com/holiday/i
+ nternational-cat-day/
+X-WR-CALDESC:International Cat Day — https://todaycelebrates.com/holiday/
+ international-cat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-cat-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-cat-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-cat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+SUMMARY:International Cat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Cat Day is a nature-focused observance on August 
+ 8\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /international-cat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-cat-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

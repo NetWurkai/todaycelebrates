@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Plan Your Epitaph Day
+X-WR-CALNAME:Plan Your Epitaph Day
+DESCRIPTION:Plan Your Epitaph Day — https://todaycelebrates.com/holiday/p
+ lan-your-epitaph-day/
+X-WR-CALDESC:Plan Your Epitaph Day — https://todaycelebrates.com/holiday/
+ plan-your-epitaph-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plan-your-epitaph-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/plan-your-epitaph-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:plan-your-epitaph-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Plan Your Epitaph Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Plan Your Epitaph Day\, observed on November 2\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/plan-your-epitaph-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plan-your-epitaph-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

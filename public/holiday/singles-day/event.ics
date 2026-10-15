@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Singles' Day
+X-WR-CALNAME:Singles' Day
+DESCRIPTION:Singles' Day — https://todaycelebrates.com/holiday/singles-da
+ y/
+X-WR-CALDESC:Singles' Day — https://todaycelebrates.com/holiday/singles-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/singles-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/singles-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:singles-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Singles' Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Singles' Day\, observed on November 11\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/singles-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/singles-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

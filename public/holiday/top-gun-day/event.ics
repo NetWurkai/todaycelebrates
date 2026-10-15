@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Top Gun Day
+X-WR-CALNAME:Top Gun Day
+DESCRIPTION:Top Gun Day — https://todaycelebrates.com/holiday/top-gun-day
+ /
+X-WR-CALDESC:Top Gun Day — https://todaycelebrates.com/holiday/top-gun-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/top-gun-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/top-gun-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:top-gun-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Top Gun Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Top Gun Day\, observed on May 13\, is a lighthearted holiday ce
+ lebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/
+ top-gun-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/top-gun-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,241 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Friday the 13th
+X-WR-CALNAME:Friday the 13th
+DESCRIPTION:Friday the 13th — https://todaycelebrates.com/holiday/friday-
+ the-13th/
+X-WR-CALDESC:Friday the 13th — https://todaycelebrates.com/holiday/friday
+ -the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:friday-the-13th-20261113@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20270813@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270813
+DTEND;VALUE=DATE:20270814
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20281013@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281013
+DTEND;VALUE=DATE:20281014
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20290413@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290413
+DTEND;VALUE=DATE:20290414
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20290713@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290713
+DTEND;VALUE=DATE:20290714
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20300913@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300913
+DTEND;VALUE=DATE:20300914
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20301213@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301213
+DTEND;VALUE=DATE:20301214
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20310613@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310613
+DTEND;VALUE=DATE:20310614
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20320213@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320213
+DTEND;VALUE=DATE:20320214
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20320813@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320813
+DTEND;VALUE=DATE:20320814
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20330513@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330513
+DTEND;VALUE=DATE:20330514
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20340113@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340113
+DTEND;VALUE=DATE:20340114
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20341013@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341013
+DTEND;VALUE=DATE:20341014
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20350413@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350413
+DTEND;VALUE=DATE:20350414
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-the-13th-20350713@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350713
+DTEND;VALUE=DATE:20350714
+SUMMARY:Friday the 13th
+DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/friday-the-13th/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

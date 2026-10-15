@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pop Goes The Weasel Day
+X-WR-CALNAME:Pop Goes The Weasel Day
+DESCRIPTION:Pop Goes The Weasel Day — https://todaycelebrates.com/holiday
+ /pop-goes-the-weasel-day/
+X-WR-CALDESC:Pop Goes The Weasel Day — https://todaycelebrates.com/holida
+ y/pop-goes-the-weasel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pop-goes-the-weasel-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pop-goes-the-weasel-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pop-goes-the-weasel-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+SUMMARY:Pop Goes The Weasel Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pop Goes The Weasel Day\, observed on June 14\, is a lightheart
+ ed\, family-friendly day celebrated across the United States.\n\nhttps://t
+ odaycelebrates.com/holiday/pop-goes-the-weasel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pop-goes-the-weasel-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

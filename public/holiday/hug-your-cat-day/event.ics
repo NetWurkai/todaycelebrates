@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Hug your Cat Day
+X-WR-CALNAME:Hug your Cat Day
+DESCRIPTION:Hug your Cat Day — https://todaycelebrates.com/holiday/hug-yo
+ ur-cat-day/
+X-WR-CALDESC:Hug your Cat Day — https://todaycelebrates.com/holiday/hug-y
+ our-cat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hug-your-cat-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/hug-your-cat-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:hug-your-cat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:Hug your Cat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Hug your Cat Day\, observed on June 4\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/hug-your-cat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hug-your-cat-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Ice Cream Day
+X-WR-CALNAME:Ice Cream Day
+DESCRIPTION:Ice Cream Day — https://todaycelebrates.com/holiday/ice-cream
+ -day/
+X-WR-CALDESC:Ice Cream Day — https://todaycelebrates.com/holiday/ice-crea
+ m-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ice-cream-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/ice-cream-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ice-cream-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Ice Cream Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Ice Cream Day is a food-focused observance celebrated across th
+ e United States on December 13\, giving fans of the dish or ingredient an 
+ excuse to seek it out and share it with others.\n\nhttps://todaycelebrates
+ .com/holiday/ice-cream-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ice-cream-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

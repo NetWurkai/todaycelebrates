@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Keto Day
+X-WR-CALNAME:National Keto Day
+DESCRIPTION:National Keto Day — https://todaycelebrates.com/holiday/natio
+ nal-keto-day/
+X-WR-CALDESC:National Keto Day — https://todaycelebrates.com/holiday/nati
+ onal-keto-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-keto-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-keto-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-keto-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:National Keto Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Keto Day\, observed on January 5\, encourages people a
+ cross the United States to focus on health and wellbeing.\n\nhttps://today
+ celebrates.com/holiday/national-keto-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-keto-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

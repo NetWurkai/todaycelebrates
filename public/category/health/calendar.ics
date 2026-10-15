@@ -1,0 +1,2585 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Today Celebrates: Health
+X-WR-CALNAME:Today Celebrates: Health
+DESCRIPTION:114 health observances from https://todaycelebrates.com/categor
+ y/health/. Rebuilt daily.
+X-WR-CALDESC:114 health observances from https://todaycelebrates.com/catego
+ ry/health/. Rebuilt daily.
+URL;VALUE=URI:https://todaycelebrates.com/category/health/calendar.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/category/health/calendar.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:accelerate-acl-awareness-among-young-women-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:Accelerate ACL Awareness Among Young Women Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Accelerate ACL Awareness Among Young Women Day\, observed on Ap
+ ril 5\, encourages people across the United States to focus on health and 
+ wellbeing.\n\nhttps://todaycelebrates.com/holiday/accelerate-acl-awareness
+ -among-young-women-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/accelerate-acl-awareness-
+ among-young-women-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:adult-autism-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Adult Autism Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Adult Autism Awareness Day\, observed on April 18\, encourages 
+ people across the United States to focus on health and wellbeing.\n\nhttps
+ ://todaycelebrates.com/holiday/adult-autism-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/adult-autism-awareness-da
+ y/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20270323@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20280328@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280328
+DTEND;VALUE=DATE:20280329
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20290327@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290327
+DTEND;VALUE=DATE:20290328
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20300326@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300326
+DTEND;VALUE=DATE:20300327
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20310325@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310325
+DTEND;VALUE=DATE:20310326
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20320323@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320323
+DTEND;VALUE=DATE:20320324
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20330322@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330322
+DTEND;VALUE=DATE:20330323
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20340328@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340328
+DTEND;VALUE=DATE:20340329
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20350327@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350327
+DTEND;VALUE=DATE:20350328
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:annual-medical-checkup-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:Annual Medical Checkup Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Annual Medical Checkup Day\, observed on August 11\, encourages
+  people across the United States to focus on health and wellbeing.\n\nhttp
+ s://todaycelebrates.com/holiday/annual-medical-checkup-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/annual-medical-checkup-da
+ y/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:black-hiv-aids-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Black HIV/AIDS Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Black HIV/AIDS Awareness Day\, observed on February 7\, encoura
+ ges people across the United States to focus on health and wellbeing.\n\nh
+ ttps://todaycelebrates.com/holiday/black-hiv-aids-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-hiv-aids-awareness-
+ day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:certified-nurses-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Certified Nurses Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Certified Nurses Day\, observed on March 19\, encourages people
+  across the United States to focus on health and wellbeing.\n\nhttps://tod
+ aycelebrates.com/holiday/certified-nurses-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/certified-nurses-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:doctor-patient-trust-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Doctor-Patient Trust Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Doctor-Patient Trust Day\, observed on March 17\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/doctor-patient-trust-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/doctor-patient-trust-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dont-fry-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:Don't Fry Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Don't Fry Day\, observed on May 28\, encourages people across t
+ he United States to focus on health and wellbeing.\n\nhttps://todaycelebra
+ tes.com/holiday/dont-fry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dont-fry-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:drowsy-drivers-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Drowsy Drivers Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Drowsy Drivers Awareness Day\, observed on April 6\, encourages
+  people across the United States to focus on health and wellbeing.\n\nhttp
+ s://todaycelebrates.com/holiday/drowsy-drivers-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/drowsy-drivers-awareness-
+ day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:eat-smart-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Eat Smart Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Eat Smart Day is a health-awareness observance on November 4\, 
+ marked across the United States to spotlight a wellness topic worth a seco
+ nd look.\n\nhttps://todaycelebrates.com/holiday/eat-smart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eat-smart-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:emergency-nurses-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+SUMMARY:Emergency Nurses Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Emergency Nurses Day\, marked across the United States on Octob
+ er 14\, raises awareness around emergency nurses and supports those affect
+ ed by it.\n\nhttps://todaycelebrates.com/holiday/emergency-nurses-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/emergency-nurses-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:false-teeth-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:False Teeth Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:False Teeth Day\, observed on March 9\, encourages people acros
+ s the United States to focus on health and wellbeing.\n\nhttps://todaycele
+ brates.com/holiday/false-teeth-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/false-teeth-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:family-health-history-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Family Health History Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Family Health History Day is a health-awareness observance on N
+ ovember 26\, marked across the United States to spotlight a wellness topic
+  worth a second look.\n\nhttps://todaycelebrates.com/holiday/family-health
+ -history-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/family-health-history-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:freedom-from-fear-of-speaking-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:Freedom From Fear of Speaking Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Freedom From Fear of Speaking Day\, observed on July 2\, encour
+ ages people across the United States to focus on health and wellbeing.\n\n
+ https://todaycelebrates.com/holiday/freedom-from-fear-of-speaking-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/freedom-from-fear-of-spea
+ king-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20261119@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20271118@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271118
+DTEND;VALUE=DATE:20271119
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20281116@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281116
+DTEND;VALUE=DATE:20281117
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20291115@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291115
+DTEND;VALUE=DATE:20291116
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20301121@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301121
+DTEND;VALUE=DATE:20301122
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20311120@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311120
+DTEND;VALUE=DATE:20311121
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20321118@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321118
+DTEND;VALUE=DATE:20321119
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20331117@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331117
+DTEND;VALUE=DATE:20331118
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20341116@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341116
+DTEND;VALUE=DATE:20341117
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-smokeout-20351115@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351115
+DTEND;VALUE=DATE:20351116
+SUMMARY:Great American Smokeout
+DESCRIPTION:Great American Smokeout is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/great-american-
+ smokeout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:health-care-aide-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Health Care Aide Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Health Care Aide Day\, marked across the United States on Octob
+ er 18\, raises awareness around health care aide and supports those affect
+ ed by it.\n\nhttps://todaycelebrates.com/holiday/health-care-aide-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/health-care-aide-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:holistic-therapy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270727
+SUMMARY:Holistic Therapy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Holistic Therapy Day\, observed on July 26\, encourages people 
+ across the United States to focus on health and wellbeing.\n\nhttps://toda
+ ycelebrates.com/holiday/holistic-therapy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holistic-therapy-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-chronic-fatigue-syndrome-awareness-day@todaycelebrates.co
+ m
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:International Chronic Fatigue Syndrome Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Chronic Fatigue Syndrome Awareness Day\, observed
+  on May 12\, encourages people across the United States to focus on health
+  and wellbeing.\n\nhttps://todaycelebrates.com/holiday/international-chron
+ ic-fatigue-syndrome-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-chronic-fat
+ igue-syndrome-awareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-day-of-self-love@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:International Day of Self Love
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day of Self Love\, observed on February 13\, enco
+ urages people across the United States to focus on health and wellbeing.\n
+ \nhttps://todaycelebrates.com/holiday/international-day-of-self-love/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-self
+ -love/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-day-of-veterinary-medicine@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:International Day of Veterinary Medicine
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day of Veterinary Medicine is a health-awareness 
+ observance on December 9\, marked across the United States to spotlight a 
+ wellness topic worth a second look.\n\nhttps://todaycelebrates.com/holiday
+ /international-day-of-veterinary-medicine/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-vete
+ rinary-medicine/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-day-of-yoga@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:International Day of Yoga
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day of Yoga\, observed on June 21\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/international-day-of-yoga/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-yoga
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-epilepsy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:International Epilepsy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Epilepsy Day\, observed on February 8\, encourage
+ s people across the United States to focus on health and wellbeing.\n\nhtt
+ ps://todaycelebrates.com/holiday/international-epilepsy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-epilepsy-da
+ y/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-essential-oils-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:International Essential Oils Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Essential Oils Day\, observed on July 11\, encour
+ ages people across the United States to focus on health and wellbeing.\n\n
+ https://todaycelebrates.com/holiday/international-essential-oils-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-essential-o
+ ils-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-fnd-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:International FND Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International FND Awareness Day\, observed on April 13\, encour
+ ages people across the United States to focus on health and wellbeing.\n\n
+ https://todaycelebrates.com/holiday/international-fnd-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-fnd-awarene
+ ss-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-mens-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:International Men's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Men's Day is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/international-m
+ ens-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-mens-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-no-diet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:International No Diet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International No Diet Day\, observed on May 6\, encourages peop
+ le across the United States to focus on health and wellbeing.\n\nhttps://t
+ odaycelebrates.com/holiday/international-no-diet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-no-diet-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-repetitive-strain-injury-awareness-day@todaycelebrates.co
+ m
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:International Repetitive Strain Injury Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Repetitive Strain Injury Awareness Day\, observed
+  on February 28\, encourages people across the United States to focus on h
+ ealth and wellbeing.\n\nhttps://todaycelebrates.com/holiday/international-
+ repetitive-strain-injury-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-repetitive-
+ strain-injury-awareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-stress-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:International Stress Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Stress Awareness Day is a health-awareness observ
+ ance on November 4\, marked across the United States to spotlight a wellne
+ ss topic worth a second look.\n\nhttps://todaycelebrates.com/holiday/inter
+ national-stress-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-stress-awar
+ eness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:intersex-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Intersex Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Intersex Awareness Day\, marked across the United States on Oct
+ ober 26\, raises awareness around intersex awareness and supports those af
+ fected by it.\n\nhttps://todaycelebrates.com/holiday/intersex-awareness-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/intersex-awareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lets-all-eat-right-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Let's All Eat Right Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Let's All Eat Right Day\, observed on February 25\, encourages 
+ people across the United States to focus on health and wellbeing.\n\nhttps
+ ://todaycelebrates.com/holiday/lets-all-eat-right-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lets-all-eat-right-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lupus-alert-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Lupus Alert Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Lupus Alert Day\, observed on April 1\, encourages people acros
+ s the United States to focus on health and wellbeing.\n\nhttps://todaycele
+ brates.com/holiday/lupus-alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lupus-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:medical-assistants-recognition-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Medical Assistants Recognition Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Medical Assistants Recognition Day\, marked across the United S
+ tates on October 23\, raises awareness around medical assistants recogniti
+ on and supports those affected by it.\n\nhttps://todaycelebrates.com/holid
+ ay/medical-assistants-recognition-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/medical-assistants-recogn
+ ition-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:more-herbs-less-salt-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270830
+SUMMARY:More Herbs\, Less Salt Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:More Herbs\, Less Salt Day\, observed on August 29\, encourages
+  people across the United States to focus on health and wellbeing.\n\nhttp
+ s://todaycelebrates.com/holiday/more-herbs-less-salt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/more-herbs-less-salt-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:musical-yoga-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270826
+DTEND;VALUE=DATE:20270827
+SUMMARY:Musical Yoga Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Musical Yoga Day\, observed on August 26\, encourages people ac
+ ross the United States to focus on health and wellbeing.\n\nhttps://todayc
+ elebrates.com/holiday/musical-yoga-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/musical-yoga-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:nap-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:Nap Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Nap Day\, observed on July 20\, encourages people across the Un
+ ited States to focus on health and wellbeing.\n\nhttps://todaycelebrates.c
+ om/holiday/nap-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/nap-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-12-hour-fresh-breath-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:National 12-hour Fresh Breath Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National 12-hour Fresh Breath Day is a health-awareness observa
+ nce on December 12\, marked across the United States to spotlight a wellne
+ ss topic worth a second look.\n\nhttps://todaycelebrates.com/holiday/natio
+ nal-12-hour-fresh-breath-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-12-hour-fresh-br
+ eath-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-alcohol-screening-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:National Alcohol Screening Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Alcohol Screening Day\, observed on April 8\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-alcohol-screening-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-alcohol-screenin
+ g-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-cancer-survivors-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:National Cancer Survivors Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cancer Survivors Day\, observed on June 6\, encourages
+  people across the United States to focus on health and wellbeing.\n\nhttp
+ s://todaycelebrates.com/holiday/national-cancer-survivors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cancer-survivors
+ -day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-celiac-disease-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270914
+SUMMARY:National Celiac Disease Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Celiac Disease Awareness Day\, marked across the Unite
+ d States on September 13\, raises awareness around celiac disease awarenes
+ s and supports those affected by it.\n\nhttps://todaycelebrates.com/holida
+ y/national-celiac-disease-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-celiac-disease-a
+ wareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-cerebral-palsy-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:National Cerebral Palsy Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cerebral Palsy Awareness Day\, observed on March 25\, 
+ encourages people across the United States to focus on health and wellbein
+ g.\n\nhttps://todaycelebrates.com/holiday/national-cerebral-palsy-awarenes
+ s-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cerebral-palsy-a
+ wareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-dentists-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:National Dentist's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dentist's Day\, observed on March 6\, encourages peopl
+ e across the United States to focus on health and wellbeing.\n\nhttps://to
+ daycelebrates.com/holiday/national-dentists-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dentists-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-doctors-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:National Doctors Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Doctors Day\, observed on March 30\, encourages people
+  across the United States to focus on health and wellbeing.\n\nhttps://tod
+ aycelebrates.com/holiday/national-doctors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-doctors-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-drowning-prevention-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:National Drowning Prevention Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Drowning Prevention Day\, observed on July 24\, encour
+ ages people across the United States to focus on health and wellbeing.\n\n
+ https://todaycelebrates.com/holiday/national-drowning-prevention-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-drowning-prevent
+ ion-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-fibromyalgia-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:National Fibromyalgia Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Fibromyalgia Awareness Day\, observed on May 12\, enco
+ urages people across the United States to focus on health and wellbeing.\n
+ \nhttps://todaycelebrates.com/holiday/national-fibromyalgia-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fibromyalgia-awa
+ reness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-flossing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:National Flossing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Flossing Day is a health-awareness observance on Novem
+ ber 27\, marked across the United States to spotlight a wellness topic wor
+ th a second look.\n\nhttps://todaycelebrates.com/holiday/national-flossing
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-flossing-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-fresh-breath-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270806
+DTEND;VALUE=DATE:20270807
+SUMMARY:National Fresh Breath Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Fresh Breath Day\, observed on August 6\, encourages p
+ eople across the United States to focus on health and wellbeing.\n\nhttps:
+ //todaycelebrates.com/holiday/national-fresh-breath-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fresh-breath-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-gay-mens-hiv-aids-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+SUMMARY:National Gay Men's HIV/AIDS Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Gay Men's HIV/AIDS Awareness Day\, marked across the U
+ nited States on September 25\, raises awareness around gay men's hiv/aids 
+ awareness and supports those affected by it.\n\nhttps://todaycelebrates.co
+ m/holiday/national-gay-mens-hiv-aids-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gay-mens-hiv-aid
+ s-awareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-got-checked-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270826
+DTEND;VALUE=DATE:20270827
+SUMMARY:National Got Checked Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Got Checked Day\, observed on August 26\, encourages p
+ eople across the United States to focus on health and wellbeing.\n\nhttps:
+ //todaycelebrates.com/holiday/national-got-checked-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-got-checked-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-grain-free-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:National Grain-Free Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Grain-Free Day\, observed on February 21\, encourages 
+ people across the United States to focus on health and wellbeing.\n\nhttps
+ ://todaycelebrates.com/holiday/national-grain-free-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-grain-free-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-healthcare-decisions-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:National Healthcare Decisions Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Healthcare Decisions Day\, observed on April 16\, enco
+ urages people across the United States to focus on health and wellbeing.\n
+ \nhttps://todaycelebrates.com/holiday/national-healthcare-decisions-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-healthcare-decis
+ ions-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-heat-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:National Heat Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Heat Awareness Day\, observed on May 28\, encourages p
+ eople across the United States to focus on health and wellbeing.\n\nhttps:
+ //todaycelebrates.com/holiday/national-heat-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-heat-awareness-d
+ ay/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-hiv-aids-and-aging-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:National HIV/AIDS and Aging Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National HIV/AIDS and Aging Awareness Day\, marked across the U
+ nited States on September 18\, raises awareness around hiv/aids and aging 
+ awareness and supports those affected by it.\n\nhttps://todaycelebrates.co
+ m/holiday/national-hiv-aids-and-aging-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hiv-aids-and-agi
+ ng-awareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-hydration-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:National Hydration Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hydration Day\, observed on June 23\, encourages peopl
+ e across the United States to focus on health and wellbeing.\n\nhttps://to
+ daycelebrates.com/holiday/national-hydration-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hydration-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-keto-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:National Keto Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Keto Day\, observed on January 5\, encourages people a
+ cross the United States to focus on health and wellbeing.\n\nhttps://today
+ celebrates.com/holiday/national-keto-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-keto-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-lgbt-center-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:National LGBT Center Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National LGBT Center Awareness Day\, marked across the United S
+ tates on October 19\, raises awareness around lgbt center awareness and su
+ pports those affected by it.\n\nhttps://todaycelebrates.com/holiday/nation
+ al-lgbt-center-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lgbt-center-awar
+ eness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-neonatal-nurses-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:National Neonatal Nurses Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Neonatal Nurses Day\, marked across the United States 
+ on September 15\, raises awareness around neonatal nurses and supports tho
+ se affected by it.\n\nhttps://todaycelebrates.com/holiday/national-neonata
+ l-nurses-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-neonatal-nurses-
+ day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-patient-advocacy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270819
+DTEND;VALUE=DATE:20270820
+SUMMARY:National Patient Advocacy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Patient Advocacy Day\, observed on August 19\, encoura
+ ges people across the United States to focus on health and wellbeing.\n\nh
+ ttps://todaycelebrates.com/holiday/national-patient-advocacy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-patient-advocacy
+ -day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-pediatric-hematology-oncology-nurses-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270909
+SUMMARY:National Pediatric Hematology/Oncology Nurses Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pediatric Hematology/Oncology Nurses Day\, marked acro
+ ss the United States on September 8\, raises awareness around pediatric he
+ matology/oncology nurses and supports those affected by it.\n\nhttps://tod
+ aycelebrates.com/holiday/national-pediatric-hematology-oncology-nurses-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pediatric-hemato
+ logy-oncology-nurses-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-personal-trainer-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:National Personal Trainer Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Personal Trainer Awareness Day\, observed on January 2
+ \, encourages people across the United States to focus on health and wellb
+ eing.\n\nhttps://todaycelebrates.com/holiday/national-personal-trainer-awa
+ reness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-personal-trainer
+ -awareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-pet-obesity-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+SUMMARY:National Pet Obesity Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pet Obesity Awareness Day\, marked across the United S
+ tates on October 14\, raises awareness around pet obesity awareness and su
+ pports those affected by it.\n\nhttps://todaycelebrates.com/holiday/nation
+ al-pet-obesity-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-obesity-awar
+ eness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-pow-mia-recognition-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:National POW/MIA Recognition Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National POW/MIA Recognition Day honors American prisoners of w
+ ar and those still missing in action\, and reaffirms the nation's commitme
+ nt to accounting for all who served.\n\nhttps://todaycelebrates.com/holida
+ y/national-pow-mia-recognition-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pow-mia-recognit
+ ion-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-preschool-health-and-fitness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:National Preschool Health and Fitness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Preschool Health and Fitness Day\, observed on January
+  29\, encourages people across the United States to focus on health and we
+ llbeing.\n\nhttps://todaycelebrates.com/holiday/national-preschool-health-
+ and-fitness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-preschool-health
+ -and-fitness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-relaxation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:National Relaxation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Relaxation Day\, observed on August 15\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-relaxation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-relaxation-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-reptile-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:National Reptile Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Reptile Awareness Day\, marked across the United State
+ s on October 21\, raises awareness around reptile awareness and supports t
+ hose affected by it.\n\nhttps://todaycelebrates.com/holiday/national-repti
+ le-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-reptile-awarenes
+ s-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-seat-belt-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:National Seat Belt Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Seat Belt Day is a health-awareness observance on Nove
+ mber 14\, marked across the United States to spotlight a wellness topic wo
+ rth a second look.\n\nhttps://todaycelebrates.com/holiday/national-seat-be
+ lt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-seat-belt-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-sober-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+SUMMARY:National Sober Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sober Day\, marked across the United States on Septemb
+ er 14\, raises awareness around sober and supports those affected by it.\n
+ \nhttps://todaycelebrates.com/holiday/national-sober-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sober-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-stretching-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:National Stretching Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Stretching Day is a health-awareness observance on Dec
+ ember 11\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/national-stretc
+ hing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-stretching-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-vitamin-c-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:National Vitamin C Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Vitamin C Day\, observed on April 4\, encourages peopl
+ e across the United States to focus on health and wellbeing.\n\nhttps://to
+ daycelebrates.com/holiday/national-vitamin-c-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-vitamin-c-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20270402@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20280407@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280407
+DTEND;VALUE=DATE:20280408
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20290406@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290406
+DTEND;VALUE=DATE:20290407
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20300405@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300405
+DTEND;VALUE=DATE:20300406
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20310404@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310404
+DTEND;VALUE=DATE:20310405
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20320402@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320402
+DTEND;VALUE=DATE:20320403
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20330401@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330401
+DTEND;VALUE=DATE:20330402
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20340407@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340407
+DTEND;VALUE=DATE:20340408
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20350406@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350406
+DTEND;VALUE=DATE:20350407
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-wear-red-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:National Wear Red Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Wear Red Day\, observed on February 5\, encourages peo
+ ple across the United States to focus on health and wellbeing.\n\nhttps://
+ todaycelebrates.com/holiday/national-wear-red-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wear-red-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-weigh-in-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:National Weigh-In Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Weigh-In Day\, observed on January 4\, encourages peop
+ le across the United States to focus on health and wellbeing.\n\nhttps://t
+ odaycelebrates.com/holiday/national-weigh-in-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-weigh-in-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-wellderly-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:National Wellderly Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Wellderly Day\, observed on March 15\, encourages peop
+ le across the United States to focus on health and wellbeing.\n\nhttps://t
+ odaycelebrates.com/holiday/national-wellderly-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wellderly-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-winter-skin-relief-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:National Winter Skin Relief Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Winter Skin Relief Day\, observed on January 8\, encou
+ rages people across the United States to focus on health and wellbeing.\n\
+ nhttps://todaycelebrates.com/holiday/national-winter-skin-relief-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-winter-skin-reli
+ ef-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20270205@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20280204@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280204
+DTEND;VALUE=DATE:20280205
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20290202@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290202
+DTEND;VALUE=DATE:20290203
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20300201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300201
+DTEND;VALUE=DATE:20300202
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20310207@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310207
+DTEND;VALUE=DATE:20310208
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20320206@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320206
+DTEND;VALUE=DATE:20320207
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20330204@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330204
+DTEND;VALUE=DATE:20330205
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20340203@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340203
+DTEND;VALUE=DATE:20340204
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20350202@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350202
+DTEND;VALUE=DATE:20350203
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womens-health-and-fitness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:National Women's Health and Fitness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Women's Health and Fitness Day\, marked across the Uni
+ ted States on September 30\, raises awareness around women's health and fi
+ tness and supports those affected by it.\n\nhttps://todaycelebrates.com/ho
+ liday/national-womens-health-and-fitness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womens-health-an
+ d-fitness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-workplace-napping-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:National Workplace Napping Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Workplace Napping Day\, observed on March 15\, encoura
+ ges people across the United States to focus on health and wellbeing.\n\nh
+ ttps://todaycelebrates.com/holiday/national-workplace-napping-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-workplace-nappin
+ g-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:operating-room-nurse-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Operating Room Nurse Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Operating Room Nurse Day is a health-awareness observance on No
+ vember 14\, marked across the United States to spotlight a wellness topic 
+ worth a second look.\n\nhttps://todaycelebrates.com/holiday/operating-room
+ -nurse-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/operating-room-nurse-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:plant-power-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Plant Power Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Plant Power Day\, observed on March 7\, encourages people acros
+ s the United States to focus on health and wellbeing.\n\nhttps://todaycele
+ brates.com/holiday/plant-power-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plant-power-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:rare-disease-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Rare Disease Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Rare Disease Day\, observed on February 28\, encourages people 
+ across the United States to focus on health and wellbeing.\n\nhttps://toda
+ ycelebrates.com/holiday/rare-disease-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rare-disease-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:restless-legs-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+SUMMARY:Restless Legs Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Restless Legs Awareness Day\, marked across the United States o
+ n September 23\, raises awareness around restless legs awareness and suppo
+ rts those affected by it.\n\nhttps://todaycelebrates.com/holiday/restless-
+ legs-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/restless-legs-awareness-d
+ ay/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:rid-the-world-of-fad-diet-and-gimmicks-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:Rid the World of Fad Diet and Gimmicks Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Rid the World of Fad Diet and Gimmicks Day\, observed on Januar
+ y 19\, encourages people across the United States to focus on health and w
+ ellbeing.\n\nhttps://todaycelebrates.com/holiday/rid-the-world-of-fad-diet
+ -and-gimmicks-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rid-the-world-of-fad-diet
+ -and-gimmicks-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:single-tasking-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Single Tasking Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Single Tasking Day\, observed on February 21\, encourages peopl
+ e across the United States to focus on health and wellbeing.\n\nhttps://to
+ daycelebrates.com/holiday/single-tasking-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/single-tasking-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stay-out-of-the-sun-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:Stay Out of the Sun Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Stay Out of the Sun Day\, observed on July 3\, encourages peopl
+ e across the United States to focus on health and wellbeing.\n\nhttps://to
+ daycelebrates.com/holiday/stay-out-of-the-sun-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stay-out-of-the-sun-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sun-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:Sun Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Sun Awareness Day\, observed on May 8\, encourages people acros
+ s the United States to focus on health and wellbeing.\n\nhttps://todaycele
+ brates.com/holiday/sun-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sun-awareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:take-a-walk-outdoors-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Take a Walk Outdoors Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Take a Walk Outdoors Day\, observed on January 20\, encourages 
+ people across the United States to focus on health and wellbeing.\n\nhttps
+ ://todaycelebrates.com/holiday/take-a-walk-outdoors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-a-walk-outdoors-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:take-down-tobacco-national-day-of-action@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Take Down Tobacco National Day of Action
+RRULE:FREQ=YEARLY
+DESCRIPTION:Take Down Tobacco National Day of Action\, observed on March 17
+ \, encourages people across the United States to focus on health and wellb
+ eing.\n\nhttps://todaycelebrates.com/holiday/take-down-tobacco-national-da
+ y-of-action/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-down-tobacco-nationa
+ l-day-of-action/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:team-margot-stem-cell-and-bone-marrow-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:Team Margot Stem Cell and Bone Marrow Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Team Margot Stem Cell and Bone Marrow Awareness Day\, marked ac
+ ross the United States on October 7\, raises awareness around team margot 
+ stem cell and bone marrow awareness and supports those affected by it.\n\n
+ https://todaycelebrates.com/holiday/team-margot-stem-cell-and-bone-marrow-
+ awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/team-margot-stem-cell-and
+ -bone-marrow-awareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-great-american-spit-out@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:The Great American Spit Out
+RRULE:FREQ=YEARLY
+DESCRIPTION:The Great American Spit Out\, observed on February 25\, encoura
+ ges people across the United States to focus on health and wellbeing.\n\nh
+ ttps://todaycelebrates.com/holiday/the-great-american-spit-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-great-american-spit-o
+ ut/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:vet-nurse-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271009
+DTEND;VALUE=DATE:20271010
+SUMMARY:Vet Nurse Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Vet Nurse Day\, marked across the United States on October 9\, 
+ raises awareness around vet nurse and supports those affected by it.\n\nht
+ tps://todaycelebrates.com/holiday/vet-nurse-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/vet-nurse-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-aids-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:World AIDS Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World AIDS Day is a health-awareness observance on December 1\,
+  marked across the United States to spotlight a wellness topic worth a sec
+ ond look.\n\nhttps://todaycelebrates.com/holiday/world-aids-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-aids-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-alzheimers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+SUMMARY:World Alzheimer's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Alzheimer's Day raises awareness about Alzheimer's diseas
+ e and dementia\, aiming to challenge stigma and encourage support for the 
+ millions of families affected worldwide.\n\nhttps://todaycelebrates.com/ho
+ liday/world-alzheimers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-alzheimers-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-asthma-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:World Asthma Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Asthma Day\, observed on May 4\, encourages people across
+  the United States to focus on health and wellbeing.\n\nhttps://todayceleb
+ rates.com/holiday/world-asthma-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-asthma-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-autism-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:World Autism Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Autism Awareness Day\, observed on April 2\, encourages p
+ eople across the United States to focus on health and wellbeing.\n\nhttps:
+ //todaycelebrates.com/holiday/world-autism-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-autism-awareness-da
+ y/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-bipolar-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:World Bipolar Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Bipolar Day\, observed on March 30\, encourages people ac
+ ross the United States to focus on health and wellbeing.\n\nhttps://todayc
+ elebrates.com/holiday/world-bipolar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-bipolar-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-blood-donor-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+SUMMARY:World Blood Donor Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Blood Donor Day\, observed on June 14\, encourages people
+  across the United States to focus on health and wellbeing.\n\nhttps://tod
+ aycelebrates.com/holiday/world-blood-donor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-blood-donor-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-cancer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:World Cancer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Cancer Day\, observed on February 4\, encourages people a
+ cross the United States to focus on health and wellbeing.\n\nhttps://today
+ celebrates.com/holiday/world-cancer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-cancer-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-dense-breast-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:World Dense Breast Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Dense Breast Day\, marked around the globe on September 3
+ 0\, raises awareness around dense breast and supports those affected by it
+ .\n\nhttps://todaycelebrates.com/holiday/world-dense-breast-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-dense-breast-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-diabetes-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:World Diabetes Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Diabetes Day is a health-awareness observance on November
+  14\, marked across the United States to spotlight a wellness topic worth 
+ a second look.\n\nhttps://todaycelebrates.com/holiday/world-diabetes-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-diabetes-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-digestive-health-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:World Digestive Health Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Digestive Health Day\, observed on May 29\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/world-digestive-health-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-digestive-health-da
+ y/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-down-syndrome-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:World Down Syndrome Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Down Syndrome Day\, observed on March 21\, encourages peo
+ ple across the United States to focus on health and wellbeing.\n\nhttps://
+ todaycelebrates.com/holiday/world-down-syndrome-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-down-syndrome-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-health-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:World Health Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Health Day\, observed on April 7\, encourages people acro
+ ss the United States to focus on health and wellbeing.\n\nhttps://todaycel
+ ebrates.com/holiday/world-health-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-health-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-hemophilia-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:World Hemophilia Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Hemophilia Day\, observed on April 17\, encourages people
+  across the United States to focus on health and wellbeing.\n\nhttps://tod
+ aycelebrates.com/holiday/world-hemophilia-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-hemophilia-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-hypertension-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:World Hypertension Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Hypertension Day\, observed on May 17\, encourages people
+  across the United States to focus on health and wellbeing.\n\nhttps://tod
+ aycelebrates.com/holiday/world-hypertension-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-hypertension-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-kidney-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:World Kidney Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Kidney Day\, observed on March 11\, encourages people acr
+ oss the United States to focus on health and wellbeing.\n\nhttps://todayce
+ lebrates.com/holiday/world-kidney-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-kidney-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-lupus-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:World Lupus Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Lupus Day\, observed on May 10\, encourages people across
+  the United States to focus on health and wellbeing.\n\nhttps://todayceleb
+ rates.com/holiday/world-lupus-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-lupus-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-malaria-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:World Malaria Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Malaria Day\, observed on April 25\, encourages people ac
+ ross the United States to focus on health and wellbeing.\n\nhttps://todayc
+ elebrates.com/holiday/world-malaria-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-malaria-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-meningitis-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:World Meningitis Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Meningitis Day\, observed on April 24\, encourages people
+  across the United States to focus on health and wellbeing.\n\nhttps://tod
+ aycelebrates.com/holiday/world-meningitis-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-meningitis-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-mental-health-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:World Mental Health Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:First observed in 1992 and backed by the World Health Organizat
+ ion\, World Mental Health Day raises awareness of mental health issues aro
+ und the world and mobilizes support for better access to care.\n\nhttps://
+ todaycelebrates.com/holiday/world-mental-health-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-mental-health-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-parkinsons-disease-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:World Parkinson's Disease Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Parkinson's Disease Day\, observed on April 11\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/world-parkinsons-disease-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-parkinsons-disease-
+ day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-pneumonia-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:World Pneumonia Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Pneumonia Day is a health-awareness observance on Novembe
+ r 12\, marked across the United States to spotlight a wellness topic worth
+  a second look.\n\nhttps://todaycelebrates.com/holiday/world-pneumonia-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-pneumonia-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-prematurity-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:World Prematurity Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Prematurity Day is a health-awareness observance on Novem
+ ber 17\, marked across the United States to spotlight a wellness topic wor
+ th a second look.\n\nhttps://todaycelebrates.com/holiday/world-prematurity
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-prematurity-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sexual-health-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:World Sexual Health Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Sexual Health Day\, marked around the globe on September 
+ 4\, raises awareness around sexual health and supports those affected by i
+ t.\n\nhttps://todaycelebrates.com/holiday/world-sexual-health-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sexual-health-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sleep-day-20270319@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:World Sleep Day
+DESCRIPTION:World Sleep Day\, observed on March 19\, encourages people acro
+ ss the United States to focus on health and wellbeing.\n\nhttps://todaycel
+ ebrates.com/holiday/world-sleep-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sleep-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sleep-day-20280317@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280317
+DTEND;VALUE=DATE:20280318
+SUMMARY:World Sleep Day
+DESCRIPTION:World Sleep Day\, observed on March 19\, encourages people acro
+ ss the United States to focus on health and wellbeing.\n\nhttps://todaycel
+ ebrates.com/holiday/world-sleep-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sleep-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sleep-day-20290316@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290316
+DTEND;VALUE=DATE:20290317
+SUMMARY:World Sleep Day
+DESCRIPTION:World Sleep Day\, observed on March 19\, encourages people acro
+ ss the United States to focus on health and wellbeing.\n\nhttps://todaycel
+ ebrates.com/holiday/world-sleep-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sleep-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sleep-day-20300315@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300315
+DTEND;VALUE=DATE:20300316
+SUMMARY:World Sleep Day
+DESCRIPTION:World Sleep Day\, observed on March 19\, encourages people acro
+ ss the United States to focus on health and wellbeing.\n\nhttps://todaycel
+ ebrates.com/holiday/world-sleep-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sleep-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sleep-day-20310314@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310314
+DTEND;VALUE=DATE:20310315
+SUMMARY:World Sleep Day
+DESCRIPTION:World Sleep Day\, observed on March 19\, encourages people acro
+ ss the United States to focus on health and wellbeing.\n\nhttps://todaycel
+ ebrates.com/holiday/world-sleep-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sleep-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sleep-day-20320319@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320319
+DTEND;VALUE=DATE:20320320
+SUMMARY:World Sleep Day
+DESCRIPTION:World Sleep Day\, observed on March 19\, encourages people acro
+ ss the United States to focus on health and wellbeing.\n\nhttps://todaycel
+ ebrates.com/holiday/world-sleep-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sleep-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sleep-day-20330318@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330318
+DTEND;VALUE=DATE:20330319
+SUMMARY:World Sleep Day
+DESCRIPTION:World Sleep Day\, observed on March 19\, encourages people acro
+ ss the United States to focus on health and wellbeing.\n\nhttps://todaycel
+ ebrates.com/holiday/world-sleep-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sleep-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sleep-day-20340317@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340317
+DTEND;VALUE=DATE:20340318
+SUMMARY:World Sleep Day
+DESCRIPTION:World Sleep Day\, observed on March 19\, encourages people acro
+ ss the United States to focus on health and wellbeing.\n\nhttps://todaycel
+ ebrates.com/holiday/world-sleep-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sleep-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sleep-day-20350316@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350316
+DTEND;VALUE=DATE:20350317
+SUMMARY:World Sleep Day
+DESCRIPTION:World Sleep Day\, observed on March 19\, encourages people acro
+ ss the United States to focus on health and wellbeing.\n\nhttps://todaycel
+ ebrates.com/holiday/world-sleep-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sleep-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-teen-mental-wellness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:World Teen Mental Wellness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Teen Mental Wellness Day\, observed on March 2\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/world-teen-mental-wellness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-teen-mental-wellnes
+ s-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Alice in Wonderland Day
+X-WR-CALNAME:Alice in Wonderland Day
+DESCRIPTION:Alice in Wonderland Day — https://todaycelebrates.com/holiday
+ /alice-in-wonderland-day/
+X-WR-CALDESC:Alice in Wonderland Day — https://todaycelebrates.com/holida
+ y/alice-in-wonderland-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/alice-in-wonderland-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/alice-in-wonderland-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:alice-in-wonderland-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+SUMMARY:Alice in Wonderland Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Alice in Wonderland Day is a reading- and writing-focused obser
+ vance on July 4\, celebrated by book lovers across the United States.\n\nh
+ ttps://todaycelebrates.com/holiday/alice-in-wonderland-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/alice-in-wonderland-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Unique Names Day
+X-WR-CALNAME:Unique Names Day
+DESCRIPTION:Unique Names Day — https://todaycelebrates.com/holiday/unique
+ -names-day/
+X-WR-CALDESC:Unique Names Day — https://todaycelebrates.com/holiday/uniqu
+ e-names-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/unique-names-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/unique-names-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:unique-names-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:Unique Names Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Unique Names Day\, observed on March 9\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/unique-names-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/unique-names-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

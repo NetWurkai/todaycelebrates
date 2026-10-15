@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Old Stuff Day
+X-WR-CALNAME:Old Stuff Day
+DESCRIPTION:Old Stuff Day — https://todaycelebrates.com/holiday/old-stuff
+ -day/
+X-WR-CALDESC:Old Stuff Day — https://todaycelebrates.com/holiday/old-stuf
+ f-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/old-stuff-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/old-stuff-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:old-stuff-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:Old Stuff Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Old Stuff Day\, observed on March 2\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/old-stuff-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/old-stuff-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

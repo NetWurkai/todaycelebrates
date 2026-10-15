@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Dentist's Day
+X-WR-CALNAME:National Dentist's Day
+DESCRIPTION:National Dentist's Day — https://todaycelebrates.com/holiday/
+ national-dentists-day/
+X-WR-CALDESC:National Dentist's Day — https://todaycelebrates.com/holiday
+ /national-dentists-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dentists-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-dentists-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-dentists-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:National Dentist's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dentist's Day\, observed on March 6\, encourages peopl
+ e across the United States to focus on health and wellbeing.\n\nhttps://to
+ daycelebrates.com/holiday/national-dentists-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dentists-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Rosh Hashanah
+X-WR-CALNAME:Rosh Hashanah
+DESCRIPTION:Rosh Hashanah — https://todaycelebrates.com/holiday/rosh-hash
+ anah/
+X-WR-CALDESC:Rosh Hashanah — https://todaycelebrates.com/holiday/rosh-has
+ hanah/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:rosh-hashanah-20271002@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:Rosh Hashanah
+DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
+ Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
+ g before the date shown here. It opens the ten days of repentance that clo
+ se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
+ ycelebrates.com/holiday/rosh-hashanah/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:rosh-hashanah-20280921@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280921
+DTEND;VALUE=DATE:20280922
+SUMMARY:Rosh Hashanah
+DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
+ Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
+ g before the date shown here. It opens the ten days of repentance that clo
+ se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
+ ycelebrates.com/holiday/rosh-hashanah/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:rosh-hashanah-20290910@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290910
+DTEND;VALUE=DATE:20290911
+SUMMARY:Rosh Hashanah
+DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
+ Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
+ g before the date shown here. It opens the ten days of repentance that clo
+ se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
+ ycelebrates.com/holiday/rosh-hashanah/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:rosh-hashanah-20300928@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300928
+DTEND;VALUE=DATE:20300929
+SUMMARY:Rosh Hashanah
+DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
+ Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
+ g before the date shown here. It opens the ten days of repentance that clo
+ se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
+ ycelebrates.com/holiday/rosh-hashanah/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:rosh-hashanah-20310918@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310918
+DTEND;VALUE=DATE:20310919
+SUMMARY:Rosh Hashanah
+DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
+ Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
+ g before the date shown here. It opens the ten days of repentance that clo
+ se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
+ ycelebrates.com/holiday/rosh-hashanah/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:rosh-hashanah-20320906@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320906
+DTEND;VALUE=DATE:20320907
+SUMMARY:Rosh Hashanah
+DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
+ Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
+ g before the date shown here. It opens the ten days of repentance that clo
+ se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
+ ycelebrates.com/holiday/rosh-hashanah/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:rosh-hashanah-20330924@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330924
+DTEND;VALUE=DATE:20330925
+SUMMARY:Rosh Hashanah
+DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
+ Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
+ g before the date shown here. It opens the ten days of repentance that clo
+ se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
+ ycelebrates.com/holiday/rosh-hashanah/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:rosh-hashanah-20340914@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340914
+DTEND;VALUE=DATE:20340915
+SUMMARY:Rosh Hashanah
+DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
+ Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
+ g before the date shown here. It opens the ten days of repentance that clo
+ se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
+ ycelebrates.com/holiday/rosh-hashanah/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:rosh-hashanah-20351004@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351004
+DTEND;VALUE=DATE:20351005
+SUMMARY:Rosh Hashanah
+DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
+ Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
+ g before the date shown here. It opens the ten days of repentance that clo
+ se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
+ ycelebrates.com/holiday/rosh-hashanah/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

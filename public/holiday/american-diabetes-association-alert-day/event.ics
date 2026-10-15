@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:American Diabetes Association Alert Day
+X-WR-CALNAME:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day — https://todaycelebr
+ ates.com/holiday/american-diabetes-association-alert-day/
+X-WR-CALDESC:American Diabetes Association Alert Day — https://todayceleb
+ rates.com/holiday/american-diabetes-association-alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-asso
+ ciation-alert-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20270323@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20280328@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280328
+DTEND;VALUE=DATE:20280329
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20290327@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290327
+DTEND;VALUE=DATE:20290328
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20300326@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300326
+DTEND;VALUE=DATE:20300327
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20310325@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310325
+DTEND;VALUE=DATE:20310326
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20320323@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320323
+DTEND;VALUE=DATE:20320324
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20330322@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330322
+DTEND;VALUE=DATE:20330323
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20340328@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340328
+DTEND;VALUE=DATE:20340329
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-diabetes-association-alert-day-20350327@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350327
+DTEND;VALUE=DATE:20350328
+SUMMARY:American Diabetes Association Alert Day
+DESCRIPTION:American Diabetes Association Alert Day\, observed on March 23\
+ , encourages people across the United States to focus on health and wellbe
+ ing.\n\nhttps://todaycelebrates.com/holiday/american-diabetes-association-
+ alert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-diabetes-associa
+ tion-alert-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

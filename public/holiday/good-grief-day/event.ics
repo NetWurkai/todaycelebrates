@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Good Grief Day
+X-WR-CALNAME:Good Grief Day
+DESCRIPTION:Good Grief Day — https://todaycelebrates.com/holiday/good-gri
+ ef-day/
+X-WR-CALDESC:Good Grief Day — https://todaycelebrates.com/holiday/good-gr
+ ief-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/good-grief-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/good-grief-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:good-grief-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Good Grief Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Good Grief Day\, observed on November 26\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/good-grief-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/good-grief-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Anthem Day
+X-WR-CALNAME:National Anthem Day
+DESCRIPTION:National Anthem Day — https://todaycelebrates.com/holiday/nat
+ ional-anthem-day/
+X-WR-CALDESC:National Anthem Day — https://todaycelebrates.com/holiday/na
+ tional-anthem-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-anthem-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-anthem-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-anthem-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:National Anthem Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Anthem Day\, observed on March 3\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/national-anthem-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-anthem-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

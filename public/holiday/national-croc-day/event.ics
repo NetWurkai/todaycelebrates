@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Croc Day
+X-WR-CALNAME:National Croc Day
+DESCRIPTION:National Croc Day — https://todaycelebrates.com/holiday/natio
+ nal-croc-day/
+X-WR-CALDESC:National Croc Day — https://todaycelebrates.com/holiday/nati
+ onal-croc-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-croc-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-croc-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-croc-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:National Croc Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Croc Day is observed across the United States on Octob
+ er 23\, a small but fun addition to the calendar worth celebrating in its 
+ own way.\n\nhttps://todaycelebrates.com/holiday/national-croc-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-croc-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

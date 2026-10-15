@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:A Room of One's Own Day
+X-WR-CALNAME:A Room of One's Own Day
+DESCRIPTION:A Room of One's Own Day — https://todaycelebrates.com/holiday
+ /a-room-of-ones-own-day/
+X-WR-CALDESC:A Room of One's Own Day — https://todaycelebrates.com/holida
+ y/a-room-of-ones-own-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/a-room-of-ones-own-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/a-room-of-ones-own-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:a-room-of-ones-own-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:A Room of One's Own Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:A Room of One's Own Day is a reading- and writing-focused obser
+ vance on January 25\, celebrated by book lovers across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/a-room-of-ones-own-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/a-room-of-ones-own-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

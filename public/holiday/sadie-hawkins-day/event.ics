@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Sadie Hawkins Day
+X-WR-CALNAME:Sadie Hawkins Day
+DESCRIPTION:Sadie Hawkins Day — https://todaycelebrates.com/holiday/sadie
+ -hawkins-day/
+X-WR-CALDESC:Sadie Hawkins Day — https://todaycelebrates.com/holiday/sadi
+ e-hawkins-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sadie-hawkins-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/sadie-hawkins-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sadie-hawkins-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Sadie Hawkins Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Sadie Hawkins Day\, observed on November 13\, is a lighthearted
+  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/sadie-hawkins-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sadie-hawkins-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Be Late For Something Day
+X-WR-CALNAME:National Be Late For Something Day
+DESCRIPTION:National Be Late For Something Day — https://todaycelebrates.
+ com/holiday/national-be-late-for-something-day/
+X-WR-CALDESC:National Be Late For Something Day — https://todaycelebrates
+ .com/holiday/national-be-late-for-something-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-be-late-for-some
+ thing-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-be-late-for-s
+ omething-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-be-late-for-something-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:National Be Late For Something Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Be Late For Something Day is observed across the Unite
+ d States on September 5\, a small but fun addition to the calendar worth c
+ elebrating in its own way.\n\nhttps://todaycelebrates.com/holiday/national
+ -be-late-for-something-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-be-late-for-some
+ thing-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

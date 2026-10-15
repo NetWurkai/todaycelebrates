@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Mechanical Pencil Day
+X-WR-CALNAME:Mechanical Pencil Day
+DESCRIPTION:Mechanical Pencil Day — https://todaycelebrates.com/holiday/m
+ echanical-pencil-day/
+X-WR-CALDESC:Mechanical Pencil Day — https://todaycelebrates.com/holiday/
+ mechanical-pencil-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mechanical-pencil-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/mechanical-pencil-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mechanical-pencil-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:Mechanical Pencil Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mechanical Pencil Day\, observed on July 5\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/mechanical-pe
+ ncil-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mechanical-pencil-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

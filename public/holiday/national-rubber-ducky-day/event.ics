@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Rubber Ducky Day
+X-WR-CALNAME:National Rubber Ducky Day
+DESCRIPTION:National Rubber Ducky Day — https://todaycelebrates.com/holid
+ ay/national-rubber-ducky-day/
+X-WR-CALDESC:National Rubber Ducky Day — https://todaycelebrates.com/holi
+ day/national-rubber-ducky-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-rubber-ducky-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-rubber-ducky-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-rubber-ducky-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:National Rubber Ducky Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Rubber Ducky Day\, observed on January 13\, is a light
+ hearted\, family-friendly day celebrated across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/national-rubber-ducky-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-rubber-ducky-day
+ /
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

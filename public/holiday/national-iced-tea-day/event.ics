@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Iced Tea Day
+X-WR-CALNAME:National Iced Tea Day
+DESCRIPTION:National Iced Tea Day — https://todaycelebrates.com/holiday/n
+ ational-iced-tea-day/
+X-WR-CALDESC:National Iced Tea Day — https://todaycelebrates.com/holiday/
+ national-iced-tea-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-iced-tea-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-iced-tea-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-iced-tea-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:National Iced Tea Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Iced Tea Day\, observed on June 10\, is celebrated by 
+ coffee lovers across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/national-iced-tea-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-iced-tea-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

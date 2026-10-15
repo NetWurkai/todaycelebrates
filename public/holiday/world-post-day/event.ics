@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Post Day
+X-WR-CALNAME:World Post Day
+DESCRIPTION:World Post Day — https://todaycelebrates.com/holiday/world-po
+ st-day/
+X-WR-CALDESC:World Post Day — https://todaycelebrates.com/holiday/world-p
+ ost-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-post-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-post-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-post-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271009
+DTEND;VALUE=DATE:20271010
+SUMMARY:World Post Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 9\, World Post Day gives people around the globe one
+  more reason to mark the day and celebrate post.\n\nhttps://todaycelebrate
+ s.com/holiday/world-post-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-post-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

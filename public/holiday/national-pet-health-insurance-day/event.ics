@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pet Health Insurance Day
+X-WR-CALNAME:National Pet Health Insurance Day
+DESCRIPTION:National Pet Health Insurance Day — https://todaycelebrates.c
+ om/holiday/national-pet-health-insurance-day/
+X-WR-CALDESC:National Pet Health Insurance Day — https://todaycelebrates.
+ com/holiday/national-pet-health-insurance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-health-insur
+ ance-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-health-in
+ surance-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pet-health-insurance-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:National Pet Health Insurance Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pet Health Insurance Day\, observed on April 7\, is ce
+ lebrated by dog lovers across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-pet-health-insurance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-health-insur
+ ance-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

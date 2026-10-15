@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Telecommunication and Information Society Day
+X-WR-CALNAME:World Telecommunication and Information Society Day
+DESCRIPTION:World Telecommunication and Information Society Day — https:/
+ /todaycelebrates.com/holiday/world-telecommunication-and-information-socie
+ ty-day/
+X-WR-CALDESC:World Telecommunication and Information Society Day — https:
+ //todaycelebrates.com/holiday/world-telecommunication-and-information-soci
+ ety-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-telecommunication-a
+ nd-information-society-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-telecommunicatio
+ n-and-information-society-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-telecommunication-and-information-society-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:World Telecommunication and Information Society Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Telecommunication and Information Society Day\, observed 
+ on May 17\, celebrates a piece of technology or digital culture that's bec
+ ome part of everyday life across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/world-telecommunication-and-information-society-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-telecommunication-a
+ nd-information-society-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

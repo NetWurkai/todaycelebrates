@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Galentine's Day
+X-WR-CALNAME:Galentine's Day
+DESCRIPTION:Galentine's Day — https://todaycelebrates.com/holiday/galenti
+ nes-day/
+X-WR-CALDESC:Galentine's Day — https://todaycelebrates.com/holiday/galent
+ ines-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/galentines-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/galentines-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:galentines-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Galentine's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Galentine's Day\, observed on February 13\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/galentines-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/galentines-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

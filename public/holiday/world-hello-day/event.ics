@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Hello Day
+X-WR-CALNAME:World Hello Day
+DESCRIPTION:World Hello Day — https://todaycelebrates.com/holiday/world-h
+ ello-day/
+X-WR-CALDESC:World Hello Day — https://todaycelebrates.com/holiday/world-
+ hello-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-hello-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-hello-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-hello-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:World Hello Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Hello Day\, observed on November 21\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/world-hello-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-hello-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

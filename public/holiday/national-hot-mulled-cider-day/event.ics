@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Hot Mulled Cider Day
+X-WR-CALNAME:National Hot Mulled Cider Day
+DESCRIPTION:National Hot Mulled Cider Day — https://todaycelebrates.com/h
+ oliday/national-hot-mulled-cider-day/
+X-WR-CALDESC:National Hot Mulled Cider Day — https://todaycelebrates.com/
+ holiday/national-hot-mulled-cider-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hot-mulled-cider
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-hot-mulled-ci
+ der-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-hot-mulled-cider-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:National Hot Mulled Cider Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for September 30: National Hot Mulled Cider 
+ Day invites food lovers across the United States to celebrate everything a
+ bout hot mulled cider\, whether that means cooking it at home or treating 
+ yourself at a favorite spot.\n\nhttps://todaycelebrates.com/holiday/nation
+ al-hot-mulled-cider-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hot-mulled-cider
+ -day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

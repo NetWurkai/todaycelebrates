@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Zucchini Bread Day
+X-WR-CALNAME:National Zucchini Bread Day
+DESCRIPTION:National Zucchini Bread Day — https://todaycelebrates.com/hol
+ iday/national-zucchini-bread-day/
+X-WR-CALDESC:National Zucchini Bread Day — https://todaycelebrates.com/ho
+ liday/national-zucchini-bread-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-zucchini-bread-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-zucchini-brea
+ d-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-zucchini-bread-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:National Zucchini Bread Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Zucchini Bread Day is a food-focused observance celebr
+ ated across the United States on April 25\, giving fans of the dish or ing
+ redient an excuse to seek it out and share it with others.\n\nhttps://toda
+ ycelebrates.com/holiday/national-zucchini-bread-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-zucchini-bread-d
+ ay/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

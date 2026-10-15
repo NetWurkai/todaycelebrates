@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Apple Day
+X-WR-CALNAME:National Apple Day
+DESCRIPTION:National Apple Day — https://todaycelebrates.com/holiday/nati
+ onal-apple-day/
+X-WR-CALDESC:National Apple Day — https://todaycelebrates.com/holiday/nat
+ ional-apple-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-apple-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-apple-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-apple-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:National Apple Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 21\, National Apple Day gives people across the Unit
+ ed States one more reason to mark the day and celebrate apple.\n\nhttps://
+ todaycelebrates.com/holiday/national-apple-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-apple-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Drop Everything and Read Day
+X-WR-CALNAME:Drop Everything and Read Day
+DESCRIPTION:Drop Everything and Read Day — https://todaycelebrates.com/ho
+ liday/drop-everything-and-read-day/
+X-WR-CALDESC:Drop Everything and Read Day — https://todaycelebrates.com/h
+ oliday/drop-everything-and-read-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/drop-everything-and-read-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/drop-everything-and-re
+ ad-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:drop-everything-and-read-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:Drop Everything and Read Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Drop Everything and Read Day is a reading- and writing-focused 
+ observance on April 12\, celebrated by book lovers across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/drop-everything-and-read-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/drop-everything-and-read-
+ day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

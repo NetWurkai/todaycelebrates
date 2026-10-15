@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Scavenger Hunt Day
+X-WR-CALNAME:Scavenger Hunt Day
+DESCRIPTION:Scavenger Hunt Day — https://todaycelebrates.com/holiday/scav
+ enger-hunt-day/
+X-WR-CALDESC:Scavenger Hunt Day — https://todaycelebrates.com/holiday/sca
+ venger-hunt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/scavenger-hunt-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/scavenger-hunt-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:scavenger-hunt-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270524
+DTEND;VALUE=DATE:20270525
+SUMMARY:Scavenger Hunt Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Scavenger Hunt Day\, observed on May 24\, is a lighthearted\, f
+ amily-friendly day celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/scavenger-hunt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/scavenger-hunt-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

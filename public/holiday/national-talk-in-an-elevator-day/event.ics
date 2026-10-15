@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Talk in an Elevator Day
+X-WR-CALNAME:National Talk in an Elevator Day
+DESCRIPTION:National Talk in an Elevator Day — https://todaycelebrates.co
+ m/holiday/national-talk-in-an-elevator-day/
+X-WR-CALDESC:National Talk in an Elevator Day — https://todaycelebrates.c
+ om/holiday/national-talk-in-an-elevator-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-talk-in-an-eleva
+ tor-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-talk-in-an-el
+ evator-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-talk-in-an-elevator-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:National Talk in an Elevator Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Talk in an Elevator Day\, observed on July 30\, is a l
+ ighthearted holiday celebrated across the United States.\n\nhttps://todayc
+ elebrates.com/holiday/national-talk-in-an-elevator-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-talk-in-an-eleva
+ tor-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

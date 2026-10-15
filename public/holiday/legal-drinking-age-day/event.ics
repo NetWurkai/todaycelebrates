@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Legal Drinking Age Day
+X-WR-CALNAME:Legal Drinking Age Day
+DESCRIPTION:Legal Drinking Age Day — https://todaycelebrates.com/holiday/
+ legal-drinking-age-day/
+X-WR-CALDESC:Legal Drinking Age Day — https://todaycelebrates.com/holiday
+ /legal-drinking-age-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/legal-drinking-age-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/legal-drinking-age-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:legal-drinking-age-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+SUMMARY:Legal Drinking Age Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Legal Drinking Age Day is a drinks-focused observance on July 2
+ 1\, celebrated by beer and craft-brewery fans across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/legal-drinking-age-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/legal-drinking-age-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

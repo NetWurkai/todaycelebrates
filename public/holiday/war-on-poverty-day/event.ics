@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:War on Poverty Day
+X-WR-CALNAME:War on Poverty Day
+DESCRIPTION:War on Poverty Day — https://todaycelebrates.com/holiday/war-
+ on-poverty-day/
+X-WR-CALDESC:War on Poverty Day — https://todaycelebrates.com/holiday/war
+ -on-poverty-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/war-on-poverty-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/war-on-poverty-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:war-on-poverty-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:War on Poverty Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:War on Poverty Day\, observed on January 8\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/war-on-poverty-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/war-on-poverty-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day of Families
+X-WR-CALNAME:International Day of Families
+DESCRIPTION:International Day of Families — https://todaycelebrates.com/h
+ oliday/international-day-of-families/
+X-WR-CALDESC:International Day of Families — https://todaycelebrates.com/
+ holiday/international-day-of-families/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-fami
+ lies/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-f
+ amilies/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-of-families@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:International Day of Families
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day of Families\, observed on May 15\, encourages
+  people across the United States to pause and recognize the people and cau
+ ses behind the day.\n\nhttps://todaycelebrates.com/holiday/international-d
+ ay-of-families/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-fami
+ lies/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

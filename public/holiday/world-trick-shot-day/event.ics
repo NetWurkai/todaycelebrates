@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Trick Shot Day
+X-WR-CALNAME:World Trick Shot Day
+DESCRIPTION:World Trick Shot Day — https://todaycelebrates.com/holiday/wo
+ rld-trick-shot-day/
+X-WR-CALDESC:World Trick Shot Day — https://todaycelebrates.com/holiday/w
+ orld-trick-shot-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-trick-shot-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-trick-shot-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-trick-shot-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:World Trick Shot Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Trick Shot Day\, observed on December 1\, is celebrated b
+ y sports fans across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/world-trick-shot-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-trick-shot-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

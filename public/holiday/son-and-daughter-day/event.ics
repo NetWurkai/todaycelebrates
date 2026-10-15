@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Son and Daughter Day
+X-WR-CALNAME:Son and Daughter Day
+DESCRIPTION:Son and Daughter Day — https://todaycelebrates.com/holiday/so
+ n-and-daughter-day/
+X-WR-CALDESC:Son and Daughter Day — https://todaycelebrates.com/holiday/s
+ on-and-daughter-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/son-and-daughter-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/son-and-daughter-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:son-and-daughter-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:Son and Daughter Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Son and Daughter Day\, observed on August 11\, is a lighthearte
+ d\, family-friendly day celebrated across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/son-and-daughter-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/son-and-daughter-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Legwear Day
+X-WR-CALNAME:National Legwear Day
+DESCRIPTION:National Legwear Day — https://todaycelebrates.com/holiday/na
+ tional-legwear-day/
+X-WR-CALDESC:National Legwear Day — https://todaycelebrates.com/holiday/n
+ ational-legwear-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-legwear-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-legwear-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-legwear-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:National Legwear Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Legwear Day falls on September 22 and celebrates legwe
+ ar\, drawing attention across the United States to the natural world and o
+ ur place in it.\n\nhttps://todaycelebrates.com/holiday/national-legwear-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-legwear-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

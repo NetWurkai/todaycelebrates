@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Understanding and Peace Day
+X-WR-CALNAME:World Understanding and Peace Day
+DESCRIPTION:World Understanding and Peace Day — https://todaycelebrates.c
+ om/holiday/world-understanding-and-peace-day/
+X-WR-CALDESC:World Understanding and Peace Day — https://todaycelebrates.
+ com/holiday/world-understanding-and-peace-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-understanding-and-p
+ eace-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-understanding-an
+ d-peace-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-understanding-and-peace-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:World Understanding and Peace Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Understanding and Peace Day\, observed on February 23\, e
+ ncourages people across the United States to pause and recognize the peopl
+ e and causes behind the day.\n\nhttps://todaycelebrates.com/holiday/world-
+ understanding-and-peace-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-understanding-and-p
+ eace-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

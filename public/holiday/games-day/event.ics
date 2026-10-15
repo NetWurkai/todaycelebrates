@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Games Day
+X-WR-CALNAME:Games Day
+DESCRIPTION:Games Day — https://todaycelebrates.com/holiday/games-day/
+X-WR-CALDESC:Games Day — https://todaycelebrates.com/holiday/games-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/games-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/games-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:games-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Games Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Games Day\, observed on December 20\, is a lighthearted\, famil
+ y-friendly day celebrated across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/games-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/games-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

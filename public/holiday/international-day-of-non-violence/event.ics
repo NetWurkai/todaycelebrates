@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day of Non-Violence
+X-WR-CALNAME:International Day of Non-Violence
+DESCRIPTION:International Day of Non-Violence — https://todaycelebrates.c
+ om/holiday/international-day-of-non-violence/
+X-WR-CALDESC:International Day of Non-Violence — https://todaycelebrates.
+ com/holiday/international-day-of-non-violence/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-non-
+ violence/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-n
+ on-violence/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-of-non-violence@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:International Day of Non-Violence
+RRULE:FREQ=YEARLY
+DESCRIPTION:Marked on the birthday of Mahatma Gandhi\, the International Da
+ y of Non-Violence was established by the United Nations in 2007 to spread 
+ the message of non-violence through education and public awareness.\n\nhtt
+ ps://todaycelebrates.com/holiday/international-day-of-non-violence/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-non-
+ violence/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

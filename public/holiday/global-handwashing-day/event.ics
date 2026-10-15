@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Global Handwashing Day
+X-WR-CALNAME:Global Handwashing Day
+DESCRIPTION:Global Handwashing Day — https://todaycelebrates.com/holiday/
+ global-handwashing-day/
+X-WR-CALDESC:Global Handwashing Day — https://todaycelebrates.com/holiday
+ /global-handwashing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-handwashing-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/global-handwashing-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:global-handwashing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Global Handwashing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Handwashing Day promotes handwashing with soap as one of
+  the simplest and most effective ways to prevent disease and save lives.\n
+ \nhttps://todaycelebrates.com/holiday/global-handwashing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-handwashing-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

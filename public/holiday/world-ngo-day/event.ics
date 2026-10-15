@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World NGO Day
+X-WR-CALNAME:World NGO Day
+DESCRIPTION:World NGO Day — https://todaycelebrates.com/holiday/world-ngo
+ -day/
+X-WR-CALDESC:World NGO Day — https://todaycelebrates.com/holiday/world-ng
+ o-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-ngo-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-ngo-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-ngo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:World NGO Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World NGO Day\, observed on February 27\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/world-ngo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-ngo-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

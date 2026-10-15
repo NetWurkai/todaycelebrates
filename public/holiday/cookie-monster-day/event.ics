@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Cookie Monster Day
+X-WR-CALNAME:Cookie Monster Day
+DESCRIPTION:Cookie Monster Day — https://todaycelebrates.com/holiday/cook
+ ie-monster-day/
+X-WR-CALDESC:Cookie Monster Day — https://todaycelebrates.com/holiday/coo
+ kie-monster-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cookie-monster-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/cookie-monster-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cookie-monster-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Cookie Monster Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Cookie Monster Day\, observed on November 2\, is a lighthearted
+ \, family-friendly day celebrated across the United States.\n\nhttps://tod
+ aycelebrates.com/holiday/cookie-monster-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cookie-monster-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

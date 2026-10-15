@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Peanut Butter Day
+X-WR-CALNAME:National Peanut Butter Day
+DESCRIPTION:National Peanut Butter Day — https://todaycelebrates.com/holi
+ day/national-peanut-butter-day/
+X-WR-CALDESC:National Peanut Butter Day — https://todaycelebrates.com/hol
+ iday/national-peanut-butter-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-peanut-butter-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-peanut-butter
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-peanut-butter-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:National Peanut Butter Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Peanut Butter Day is a food-focused observance celebra
+ ted across the United States on January 24\, giving fans of the dish or in
+ gredient an excuse to seek it out and share it with others.\n\nhttps://tod
+ aycelebrates.com/holiday/national-peanut-butter-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-peanut-butter-da
+ y/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

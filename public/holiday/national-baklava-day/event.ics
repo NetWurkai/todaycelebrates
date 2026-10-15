@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Baklava Day
+X-WR-CALNAME:National Baklava Day
+DESCRIPTION:National Baklava Day — https://todaycelebrates.com/holiday/na
+ tional-baklava-day/
+X-WR-CALDESC:National Baklava Day — https://todaycelebrates.com/holiday/n
+ ational-baklava-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-baklava-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-baklava-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-baklava-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:National Baklava Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Baklava Day is a food-focused observance celebrated ac
+ ross the United States on November 17\, giving fans of the dish or ingredi
+ ent an excuse to seek it out and share it with others.\n\nhttps://todaycel
+ ebrates.com/holiday/national-baklava-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-baklava-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

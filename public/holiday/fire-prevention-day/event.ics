@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Fire Prevention Day
+X-WR-CALNAME:Fire Prevention Day
+DESCRIPTION:Fire Prevention Day — https://todaycelebrates.com/holiday/fir
+ e-prevention-day/
+X-WR-CALDESC:Fire Prevention Day — https://todaycelebrates.com/holiday/fi
+ re-prevention-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/fire-prevention-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/fire-prevention-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:fire-prevention-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271009
+DTEND;VALUE=DATE:20271010
+SUMMARY:Fire Prevention Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Fire Prevention Day promotes awareness of fire safety practices
+ \, marking the anniversary of the Great Chicago Fire of 1871.\n\nhttps://t
+ odaycelebrates.com/holiday/fire-prevention-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/fire-prevention-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

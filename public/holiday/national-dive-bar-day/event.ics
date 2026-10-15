@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Dive Bar Day
+X-WR-CALNAME:National Dive Bar Day
+DESCRIPTION:National Dive Bar Day — https://todaycelebrates.com/holiday/n
+ ational-dive-bar-day/
+X-WR-CALDESC:National Dive Bar Day — https://todaycelebrates.com/holiday/
+ national-dive-bar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dive-bar-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-dive-bar-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-dive-bar-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:National Dive Bar Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dive Bar Day is a drinks-focused observance on April 9
+ \, celebrated by beer and craft-brewery fans across the United States.\n\n
+ https://todaycelebrates.com/holiday/national-dive-bar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dive-bar-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

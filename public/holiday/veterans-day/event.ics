@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Veterans Day
+X-WR-CALNAME:Veterans Day
+DESCRIPTION:Veterans Day — https://todaycelebrates.com/holiday/veterans-d
+ ay/
+X-WR-CALDESC:Veterans Day — https://todaycelebrates.com/holiday/veterans-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/veterans-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/veterans-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:veterans-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Veterans Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Veterans Day falls on November 11 and honors everyone who serve
+ d honorably in the United States armed forces\, in wartime or peacetime\, 
+ living or dead. The date is not symbolic: it is the hour the guns stopped 
+ in the First World War\, 11 a.m. on November 11\, 1918. For its first 36 y
+ ears the holiday was called Armistice Day\, and for seven years in the 197
+ 0s it was not observed on November 11 at all.\n\nhttps://todaycelebrates.c
+ om/holiday/veterans-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/veterans-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Race Unity Day
+X-WR-CALNAME:Race Unity Day
+DESCRIPTION:Race Unity Day — https://todaycelebrates.com/holiday/race-uni
+ ty-day/
+X-WR-CALDESC:Race Unity Day — https://todaycelebrates.com/holiday/race-un
+ ity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/race-unity-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/race-unity-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:race-unity-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:Race Unity Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Race Unity Day\, observed on June 13\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/race-unity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/race-unity-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Crêpe Suzette Day
+X-WR-CALNAME:National Crêpe Suzette Day
+DESCRIPTION:National Crêpe Suzette Day — https://todaycelebrates.com/hol
+ iday/national-cr-pe-suzette-day/
+X-WR-CALDESC:National Crêpe Suzette Day — https://todaycelebrates.com/ho
+ liday/national-cr-pe-suzette-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cr-pe-suzette-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cr-pe-suzette
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cr-pe-suzette-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:National Crêpe Suzette Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Crêpe Suzette Day is a food-focused observance celebr
+ ated across the United States on May 6\, giving fans of the dish or ingred
+ ient an excuse to seek it out and share it with others.\n\nhttps://todayce
+ lebrates.com/holiday/national-cr-pe-suzette-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cr-pe-suzette-da
+ y/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

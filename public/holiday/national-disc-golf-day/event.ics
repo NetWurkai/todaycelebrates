@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Disc Golf Day
+X-WR-CALNAME:National Disc Golf Day
+DESCRIPTION:National Disc Golf Day — https://todaycelebrates.com/holiday/
+ national-disc-golf-day/
+X-WR-CALDESC:National Disc Golf Day — https://todaycelebrates.com/holiday
+ /national-disc-golf-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-disc-golf-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-disc-golf-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-disc-golf-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:National Disc Golf Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Disc Golf Day\, observed on August 7\, is celebrated b
+ y sports fans across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/national-disc-golf-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-disc-golf-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

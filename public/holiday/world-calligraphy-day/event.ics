@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Calligraphy Day
+X-WR-CALNAME:World Calligraphy Day
+DESCRIPTION:World Calligraphy Day — https://todaycelebrates.com/holiday/w
+ orld-calligraphy-day/
+X-WR-CALDESC:World Calligraphy Day — https://todaycelebrates.com/holiday/
+ world-calligraphy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-calligraphy-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-calligraphy-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-calligraphy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:World Calligraphy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Calligraphy Day is a reading- and writing-focused observa
+ nce on August 11\, celebrated by book lovers across the United States.\n\n
+ https://todaycelebrates.com/holiday/world-calligraphy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-calligraphy-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

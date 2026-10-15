@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bicycle Day
+X-WR-CALNAME:Bicycle Day
+DESCRIPTION:Bicycle Day — https://todaycelebrates.com/holiday/bicycle-day
+ /
+X-WR-CALDESC:Bicycle Day — https://todaycelebrates.com/holiday/bicycle-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bicycle-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bicycle-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bicycle-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:Bicycle Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bicycle Day\, observed on April 19\, is celebrated by sports fa
+ ns across the United States.\n\nhttps://todaycelebrates.com/holiday/bicycl
+ e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bicycle-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

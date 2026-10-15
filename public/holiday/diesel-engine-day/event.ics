@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Diesel Engine Day
+X-WR-CALNAME:Diesel Engine Day
+DESCRIPTION:Diesel Engine Day — https://todaycelebrates.com/holiday/diese
+ l-engine-day/
+X-WR-CALDESC:Diesel Engine Day — https://todaycelebrates.com/holiday/dies
+ el-engine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/diesel-engine-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/diesel-engine-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:diesel-engine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:Diesel Engine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Diesel Engine Day\, observed on February 23\, celebrates a piec
+ e of technology or digital culture that's become part of everyday life acr
+ oss the United States.\n\nhttps://todaycelebrates.com/holiday/diesel-engin
+ e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/diesel-engine-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

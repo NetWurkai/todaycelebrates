@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Couples Day
+X-WR-CALNAME:National Couples Day
+DESCRIPTION:National Couples Day — https://todaycelebrates.com/holiday/na
+ tional-couples-day/
+X-WR-CALDESC:National Couples Day — https://todaycelebrates.com/holiday/n
+ ational-couples-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-couples-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-couples-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-couples-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270819
+SUMMARY:National Couples Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Couples Day\, observed on August 18\, is a lighthearte
+ d holiday celebrated across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/national-couples-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-couples-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

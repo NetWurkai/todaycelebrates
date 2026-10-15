@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Gymnastics Day
+X-WR-CALNAME:National Gymnastics Day
+DESCRIPTION:National Gymnastics Day — https://todaycelebrates.com/holiday
+ /national-gymnastics-day/
+X-WR-CALDESC:National Gymnastics Day — https://todaycelebrates.com/holida
+ y/national-gymnastics-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gymnastics-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-gymnastics-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-gymnastics-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:National Gymnastics Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Gymnastics Day\, observed on September 19\, celebrates
+  gymnastics and the community of fans and players who keep it going across
+  the United States.\n\nhttps://todaycelebrates.com/holiday/national-gymnas
+ tics-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gymnastics-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

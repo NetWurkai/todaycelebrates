@@ -1,0 +1,148 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pentecost
+X-WR-CALNAME:Pentecost
+DESCRIPTION:Pentecost — https://todaycelebrates.com/holiday/pentecost/
+X-WR-CALDESC:Pentecost — https://todaycelebrates.com/holiday/pentecost/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pentecost/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pentecost/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pentecost-20270516@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:Pentecost
+DESCRIPTION:Pentecost\, observed on May 16\, encourages people across the U
+ nited States to pause and recognize the people and causes behind the day.\
+ n\nhttps://todaycelebrates.com/holiday/pentecost/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pentecost/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pentecost-20280604@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280604
+DTEND;VALUE=DATE:20280605
+SUMMARY:Pentecost
+DESCRIPTION:Pentecost\, observed on May 16\, encourages people across the U
+ nited States to pause and recognize the people and causes behind the day.\
+ n\nhttps://todaycelebrates.com/holiday/pentecost/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pentecost/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pentecost-20290520@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290520
+DTEND;VALUE=DATE:20290521
+SUMMARY:Pentecost
+DESCRIPTION:Pentecost\, observed on May 16\, encourages people across the U
+ nited States to pause and recognize the people and causes behind the day.\
+ n\nhttps://todaycelebrates.com/holiday/pentecost/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pentecost/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pentecost-20300609@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300609
+DTEND;VALUE=DATE:20300610
+SUMMARY:Pentecost
+DESCRIPTION:Pentecost\, observed on May 16\, encourages people across the U
+ nited States to pause and recognize the people and causes behind the day.\
+ n\nhttps://todaycelebrates.com/holiday/pentecost/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pentecost/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pentecost-20310601@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310601
+DTEND;VALUE=DATE:20310602
+SUMMARY:Pentecost
+DESCRIPTION:Pentecost\, observed on May 16\, encourages people across the U
+ nited States to pause and recognize the people and causes behind the day.\
+ n\nhttps://todaycelebrates.com/holiday/pentecost/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pentecost/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pentecost-20320516@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320516
+DTEND;VALUE=DATE:20320517
+SUMMARY:Pentecost
+DESCRIPTION:Pentecost\, observed on May 16\, encourages people across the U
+ nited States to pause and recognize the people and causes behind the day.\
+ n\nhttps://todaycelebrates.com/holiday/pentecost/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pentecost/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pentecost-20330605@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330605
+DTEND;VALUE=DATE:20330606
+SUMMARY:Pentecost
+DESCRIPTION:Pentecost\, observed on May 16\, encourages people across the U
+ nited States to pause and recognize the people and causes behind the day.\
+ n\nhttps://todaycelebrates.com/holiday/pentecost/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pentecost/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pentecost-20340528@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340528
+DTEND;VALUE=DATE:20340529
+SUMMARY:Pentecost
+DESCRIPTION:Pentecost\, observed on May 16\, encourages people across the U
+ nited States to pause and recognize the people and causes behind the day.\
+ n\nhttps://todaycelebrates.com/holiday/pentecost/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pentecost/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pentecost-20350513@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350513
+DTEND;VALUE=DATE:20350514
+SUMMARY:Pentecost
+DESCRIPTION:Pentecost\, observed on May 16\, encourages people across the U
+ nited States to pause and recognize the people and causes behind the day.\
+ n\nhttps://todaycelebrates.com/holiday/pentecost/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pentecost/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

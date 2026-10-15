@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pet Parent's Day
+X-WR-CALNAME:National Pet Parent's Day
+DESCRIPTION:National Pet Parent's Day — https://todaycelebrates.com/holid
+ ay/national-pet-parents-day/
+X-WR-CALDESC:National Pet Parent's Day — https://todaycelebrates.com/holi
+ day/national-pet-parents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-parents-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-parents-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pet-parents-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:National Pet Parent's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pet Parent's Day\, observed on April 25\, is celebrate
+ d by dog lovers across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/national-pet-parents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-parents-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

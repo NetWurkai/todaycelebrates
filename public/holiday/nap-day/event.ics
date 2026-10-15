@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Nap Day
+X-WR-CALNAME:Nap Day
+DESCRIPTION:Nap Day — https://todaycelebrates.com/holiday/nap-day/
+X-WR-CALDESC:Nap Day — https://todaycelebrates.com/holiday/nap-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/nap-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/nap-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nap-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:Nap Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Nap Day\, observed on July 20\, encourages people across the Un
+ ited States to focus on health and wellbeing.\n\nhttps://todaycelebrates.c
+ om/holiday/nap-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/nap-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

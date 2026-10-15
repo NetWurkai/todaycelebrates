@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Typewriter Day
+X-WR-CALNAME:Typewriter Day
+DESCRIPTION:Typewriter Day — https://todaycelebrates.com/holiday/typewrit
+ er-day/
+X-WR-CALDESC:Typewriter Day — https://todaycelebrates.com/holiday/typewri
+ ter-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/typewriter-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/typewriter-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:typewriter-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:Typewriter Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Typewriter Day\, observed on June 23\, celebrates a piece of te
+ chnology or digital culture that's become part of everyday life across the
+  United States.\n\nhttps://todaycelebrates.com/holiday/typewriter-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/typewriter-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

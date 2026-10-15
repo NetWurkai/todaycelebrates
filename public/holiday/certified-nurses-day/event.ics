@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Certified Nurses Day
+X-WR-CALNAME:Certified Nurses Day
+DESCRIPTION:Certified Nurses Day — https://todaycelebrates.com/holiday/ce
+ rtified-nurses-day/
+X-WR-CALDESC:Certified Nurses Day — https://todaycelebrates.com/holiday/c
+ ertified-nurses-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/certified-nurses-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/certified-nurses-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:certified-nurses-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Certified Nurses Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Certified Nurses Day\, observed on March 19\, encourages people
+  across the United States to focus on health and wellbeing.\n\nhttps://tod
+ aycelebrates.com/holiday/certified-nurses-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/certified-nurses-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

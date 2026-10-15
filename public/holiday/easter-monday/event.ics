@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Easter Monday
+X-WR-CALNAME:Easter Monday
+DESCRIPTION:Easter Monday — https://todaycelebrates.com/holiday/easter-mo
+ nday/
+X-WR-CALDESC:Easter Monday — https://todaycelebrates.com/holiday/easter-m
+ onday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/easter-monday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/easter-monday/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:easter-monday-20270329@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Easter Monday
+DESCRIPTION:Easter Monday\, observed on March 29\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/easter-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/easter-monday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:easter-monday-20280417@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280418
+SUMMARY:Easter Monday
+DESCRIPTION:Easter Monday\, observed on March 29\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/easter-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/easter-monday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:easter-monday-20290402@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290402
+DTEND;VALUE=DATE:20290403
+SUMMARY:Easter Monday
+DESCRIPTION:Easter Monday\, observed on March 29\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/easter-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/easter-monday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:easter-monday-20300422@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300422
+DTEND;VALUE=DATE:20300423
+SUMMARY:Easter Monday
+DESCRIPTION:Easter Monday\, observed on March 29\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/easter-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/easter-monday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:easter-monday-20310414@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310414
+DTEND;VALUE=DATE:20310415
+SUMMARY:Easter Monday
+DESCRIPTION:Easter Monday\, observed on March 29\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/easter-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/easter-monday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:easter-monday-20320329@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320329
+DTEND;VALUE=DATE:20320330
+SUMMARY:Easter Monday
+DESCRIPTION:Easter Monday\, observed on March 29\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/easter-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/easter-monday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:easter-monday-20330418@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330418
+DTEND;VALUE=DATE:20330419
+SUMMARY:Easter Monday
+DESCRIPTION:Easter Monday\, observed on March 29\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/easter-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/easter-monday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:easter-monday-20340410@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340410
+DTEND;VALUE=DATE:20340411
+SUMMARY:Easter Monday
+DESCRIPTION:Easter Monday\, observed on March 29\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/easter-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/easter-monday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:easter-monday-20350326@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350326
+DTEND;VALUE=DATE:20350327
+SUMMARY:Easter Monday
+DESCRIPTION:Easter Monday\, observed on March 29\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/easter-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/easter-monday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

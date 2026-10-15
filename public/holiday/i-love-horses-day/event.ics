@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:I Love Horses Day
+X-WR-CALNAME:I Love Horses Day
+DESCRIPTION:I Love Horses Day — https://todaycelebrates.com/holiday/i-lov
+ e-horses-day/
+X-WR-CALDESC:I Love Horses Day — https://todaycelebrates.com/holiday/i-lo
+ ve-horses-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/i-love-horses-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/i-love-horses-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:i-love-horses-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:I Love Horses Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:I Love Horses Day is a nature-focused observance on July 15\, c
+ elebrated across the United States to draw attention to the plant\, animal
+ \, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/i-lo
+ ve-horses-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/i-love-horses-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

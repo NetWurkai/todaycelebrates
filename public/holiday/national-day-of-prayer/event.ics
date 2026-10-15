@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Day of Prayer
+X-WR-CALNAME:National Day of Prayer
+DESCRIPTION:National Day of Prayer — https://todaycelebrates.com/holiday/
+ national-day-of-prayer/
+X-WR-CALDESC:National Day of Prayer — https://todaycelebrates.com/holiday
+ /national-day-of-prayer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-prayer/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-prayer
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-day-of-prayer@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:National Day of Prayer
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Day of Prayer\, observed on May 6\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/national-day-of-prayer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-prayer/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

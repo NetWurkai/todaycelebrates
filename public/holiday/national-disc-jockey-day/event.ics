@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Disc Jockey Day
+X-WR-CALNAME:National Disc Jockey Day
+DESCRIPTION:National Disc Jockey Day — https://todaycelebrates.com/holida
+ y/national-disc-jockey-day/
+X-WR-CALDESC:National Disc Jockey Day — https://todaycelebrates.com/holid
+ ay/national-disc-jockey-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-disc-jockey-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-disc-jockey-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-disc-jockey-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:National Disc Jockey Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Disc Jockey Day is a music-focused observance on Janua
+ ry 20\, celebrated by fans across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/national-disc-jockey-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-disc-jockey-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bowling Day
+X-WR-CALNAME:National Bowling Day
+DESCRIPTION:National Bowling Day — https://todaycelebrates.com/holiday/na
+ tional-bowling-day/
+X-WR-CALDESC:National Bowling Day — https://todaycelebrates.com/holiday/n
+ ational-bowling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bowling-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bowling-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bowling-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:National Bowling Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bowling Day\, observed on August 14\, is celebrated by
+  sports fans across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/national-bowling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bowling-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

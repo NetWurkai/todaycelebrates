@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Popeye the Sailor Man Day
+X-WR-CALNAME:Popeye the Sailor Man Day
+DESCRIPTION:Popeye the Sailor Man Day — https://todaycelebrates.com/holid
+ ay/popeye-the-sailor-man-day/
+X-WR-CALDESC:Popeye the Sailor Man Day — https://todaycelebrates.com/holi
+ day/popeye-the-sailor-man-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/popeye-the-sailor-man-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/popeye-the-sailor-man-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:popeye-the-sailor-man-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Popeye the Sailor Man Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Popeye the Sailor Man Day\, observed on January 17\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/popeye-the-sailor-man-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/popeye-the-sailor-man-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

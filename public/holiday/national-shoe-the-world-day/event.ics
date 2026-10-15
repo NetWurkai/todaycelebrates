@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Shoe the World Day
+X-WR-CALNAME:National Shoe the World Day
+DESCRIPTION:National Shoe the World Day — https://todaycelebrates.com/hol
+ iday/national-shoe-the-world-day/
+X-WR-CALDESC:National Shoe the World Day — https://todaycelebrates.com/ho
+ liday/national-shoe-the-world-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-shoe-the-world-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-shoe-the-worl
+ d-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-shoe-the-world-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:National Shoe the World Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Shoe the World Day\, observed on March 15\, encourages
+  people across the United States to pause and recognize the people and cau
+ ses behind the day.\n\nhttps://todaycelebrates.com/holiday/national-shoe-t
+ he-world-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-shoe-the-world-d
+ ay/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

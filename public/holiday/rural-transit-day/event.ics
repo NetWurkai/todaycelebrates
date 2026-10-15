@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Rural Transit Day
+X-WR-CALNAME:Rural Transit Day
+DESCRIPTION:Rural Transit Day — https://todaycelebrates.com/holiday/rural
+ -transit-day/
+X-WR-CALDESC:Rural Transit Day — https://todaycelebrates.com/holiday/rura
+ l-transit-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rural-transit-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/rural-transit-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:rural-transit-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:Rural Transit Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Rural Transit Day\, observed on July 16\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/rural-transit-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rural-transit-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

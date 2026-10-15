@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cocoa Day
+X-WR-CALNAME:National Cocoa Day
+DESCRIPTION:National Cocoa Day — https://todaycelebrates.com/holiday/nati
+ onal-cocoa-day/
+X-WR-CALDESC:National Cocoa Day — https://todaycelebrates.com/holiday/nat
+ ional-cocoa-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cocoa-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cocoa-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cocoa-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:National Cocoa Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cocoa Day\, observed on December 13\, gives coffee lov
+ ers across the United States a reason to slow down and enjoy a favorite cu
+ p.\n\nhttps://todaycelebrates.com/holiday/national-cocoa-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cocoa-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

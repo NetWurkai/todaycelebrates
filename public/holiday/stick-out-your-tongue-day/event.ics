@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Stick Out Your Tongue Day
+X-WR-CALNAME:Stick Out Your Tongue Day
+DESCRIPTION:Stick Out Your Tongue Day — https://todaycelebrates.com/holid
+ ay/stick-out-your-tongue-day/
+X-WR-CALDESC:Stick Out Your Tongue Day — https://todaycelebrates.com/holi
+ day/stick-out-your-tongue-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stick-out-your-tongue-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/stick-out-your-tongue-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:stick-out-your-tongue-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270720
+SUMMARY:Stick Out Your Tongue Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Stick Out Your Tongue Day\, observed on July 19\, is a lighthea
+ rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/stick-out-your-tongue-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stick-out-your-tongue-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

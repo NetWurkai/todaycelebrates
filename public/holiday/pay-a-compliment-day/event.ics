@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pay-a-Compliment Day
+X-WR-CALNAME:Pay-a-Compliment Day
+DESCRIPTION:Pay-a-Compliment Day — https://todaycelebrates.com/holiday/pa
+ y-a-compliment-day/
+X-WR-CALDESC:Pay-a-Compliment Day — https://todaycelebrates.com/holiday/p
+ ay-a-compliment-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pay-a-compliment-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pay-a-compliment-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pay-a-compliment-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Pay-a-Compliment Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pay-a-Compliment Day\, observed on February 6\, encourages peop
+ le across the United States to pause and recognize the people and causes b
+ ehind the day.\n\nhttps://todaycelebrates.com/holiday/pay-a-compliment-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pay-a-compliment-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

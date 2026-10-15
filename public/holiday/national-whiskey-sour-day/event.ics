@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Whiskey Sour Day
+X-WR-CALNAME:National Whiskey Sour Day
+DESCRIPTION:National Whiskey Sour Day — https://todaycelebrates.com/holid
+ ay/national-whiskey-sour-day/
+X-WR-CALDESC:National Whiskey Sour Day — https://todaycelebrates.com/holi
+ day/national-whiskey-sour-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-whiskey-sour-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-whiskey-sour-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-whiskey-sour-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:National Whiskey Sour Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Whiskey Sour Day is a drinks-focused observance on Aug
+ ust 25\, celebrated by beer and craft-brewery fans across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/national-whiskey-sour-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-whiskey-sour-day
+ /
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

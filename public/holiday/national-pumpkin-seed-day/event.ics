@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pumpkin Seed Day
+X-WR-CALNAME:National Pumpkin Seed Day
+DESCRIPTION:National Pumpkin Seed Day — https://todaycelebrates.com/holid
+ ay/national-pumpkin-seed-day/
+X-WR-CALDESC:National Pumpkin Seed Day — https://todaycelebrates.com/holi
+ day/national-pumpkin-seed-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pumpkin-seed-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pumpkin-seed-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pumpkin-seed-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:National Pumpkin Seed Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pumpkin Seed Day is one of the spookier stops on the O
+ ctober calendar\, celebrated on October 7 in the run-up to Halloween.\n\nh
+ ttps://todaycelebrates.com/holiday/national-pumpkin-seed-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pumpkin-seed-day
+ /
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Christmas Tree Day
+X-WR-CALNAME:National Christmas Tree Day
+DESCRIPTION:National Christmas Tree Day — https://todaycelebrates.com/hol
+ iday/national-christmas-tree-day/
+X-WR-CALDESC:National Christmas Tree Day — https://todaycelebrates.com/ho
+ liday/national-christmas-tree-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-christmas-tree-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-christmas-tre
+ e-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-christmas-tree-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:National Christmas Tree Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Christmas Tree Day\, observed on December 8\, is a lig
+ hthearted holiday celebrated across the United States.\n\nhttps://todaycel
+ ebrates.com/holiday/national-christmas-tree-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-christmas-tree-d
+ ay/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

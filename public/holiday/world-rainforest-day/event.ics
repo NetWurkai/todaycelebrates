@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Rainforest Day
+X-WR-CALNAME:World Rainforest Day
+DESCRIPTION:World Rainforest Day — https://todaycelebrates.com/holiday/wo
+ rld-rainforest-day/
+X-WR-CALDESC:World Rainforest Day — https://todaycelebrates.com/holiday/w
+ orld-rainforest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-rainforest-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-rainforest-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-rainforest-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270622
+DTEND;VALUE=DATE:20270623
+SUMMARY:World Rainforest Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Rainforest Day is a nature-focused observance on June 22\
+ , celebrated across the United States to draw attention to the plant\, ani
+ mal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/w
+ orld-rainforest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-rainforest-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

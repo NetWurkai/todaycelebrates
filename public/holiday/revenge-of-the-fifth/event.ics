@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Revenge of the Fifth
+X-WR-CALNAME:Revenge of the Fifth
+DESCRIPTION:Revenge of the Fifth — https://todaycelebrates.com/holiday/re
+ venge-of-the-fifth/
+X-WR-CALDESC:Revenge of the Fifth — https://todaycelebrates.com/holiday/r
+ evenge-of-the-fifth/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/revenge-of-the-fifth/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/revenge-of-the-fifth/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:revenge-of-the-fifth@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:Revenge of the Fifth
+RRULE:FREQ=YEARLY
+DESCRIPTION:Revenge of the Fifth\, observed on May 5\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/revenge-of-the-fifth/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/revenge-of-the-fifth/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

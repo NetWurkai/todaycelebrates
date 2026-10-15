@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Liver and Onions Day
+X-WR-CALNAME:National Liver and Onions Day
+DESCRIPTION:National Liver and Onions Day — https://todaycelebrates.com/h
+ oliday/national-liver-and-onions-day/
+X-WR-CALDESC:National Liver and Onions Day — https://todaycelebrates.com/
+ holiday/national-liver-and-onions-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-liver-and-onions
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-liver-and-oni
+ ons-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-liver-and-onions-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:National Liver and Onions Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Liver and Onions Day is a food-focused observance cele
+ brated across the United States on May 10\, giving fans of the dish or ing
+ redient an excuse to seek it out and share it with others.\n\nhttps://toda
+ ycelebrates.com/holiday/national-liver-and-onions-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-liver-and-onions
+ -day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

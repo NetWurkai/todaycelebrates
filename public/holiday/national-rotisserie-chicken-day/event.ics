@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Rotisserie Chicken Day
+X-WR-CALNAME:National Rotisserie Chicken Day
+DESCRIPTION:National Rotisserie Chicken Day — https://todaycelebrates.com
+ /holiday/national-rotisserie-chicken-day/
+X-WR-CALDESC:National Rotisserie Chicken Day — https://todaycelebrates.co
+ m/holiday/national-rotisserie-chicken-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-rotisserie-chick
+ en-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-rotisserie-ch
+ icken-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-rotisserie-chicken-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:National Rotisserie Chicken Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Rotisserie Chicken Day is a food-focused observance ce
+ lebrated across the United States on June 2\, giving fans of the dish or i
+ ngredient an excuse to seek it out and share it with others.\n\nhttps://to
+ daycelebrates.com/holiday/national-rotisserie-chicken-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-rotisserie-chick
+ en-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

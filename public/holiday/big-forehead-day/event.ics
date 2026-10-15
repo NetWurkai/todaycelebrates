@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Big Forehead Day
+X-WR-CALNAME:Big Forehead Day
+DESCRIPTION:Big Forehead Day — https://todaycelebrates.com/holiday/big-fo
+ rehead-day/
+X-WR-CALDESC:Big Forehead Day — https://todaycelebrates.com/holiday/big-f
+ orehead-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/big-forehead-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/big-forehead-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:big-forehead-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270803
+DTEND;VALUE=DATE:20270804
+SUMMARY:Big Forehead Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Big Forehead Day\, observed on August 3\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/big-forehead-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/big-forehead-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

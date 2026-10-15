@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National App Day
+X-WR-CALNAME:National App Day
+DESCRIPTION:National App Day — https://todaycelebrates.com/holiday/nation
+ al-app-day/
+X-WR-CALDESC:National App Day — https://todaycelebrates.com/holiday/natio
+ nal-app-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-app-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-app-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-app-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:National App Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National App Day\, observed on December 11\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/national-app-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-app-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

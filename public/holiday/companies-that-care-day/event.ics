@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Companies That Care Day
+X-WR-CALNAME:Companies That Care Day
+DESCRIPTION:Companies That Care Day — https://todaycelebrates.com/holiday
+ /companies-that-care-day/
+X-WR-CALDESC:Companies That Care Day — https://todaycelebrates.com/holida
+ y/companies-that-care-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/companies-that-care-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/companies-that-care-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:companies-that-care-day-20270318@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:Companies That Care Day
+DESCRIPTION:Companies That Care Day\, observed on March 18\, encourages peo
+ ple across the United States to pause and recognize the people and causes 
+ behind the day.\n\nhttps://todaycelebrates.com/holiday/companies-that-care
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/companies-that-care-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:companies-that-care-day-20280316@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280316
+DTEND;VALUE=DATE:20280317
+SUMMARY:Companies That Care Day
+DESCRIPTION:Companies That Care Day\, observed on March 18\, encourages peo
+ ple across the United States to pause and recognize the people and causes 
+ behind the day.\n\nhttps://todaycelebrates.com/holiday/companies-that-care
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/companies-that-care-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:companies-that-care-day-20290315@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290315
+DTEND;VALUE=DATE:20290316
+SUMMARY:Companies That Care Day
+DESCRIPTION:Companies That Care Day\, observed on March 18\, encourages peo
+ ple across the United States to pause and recognize the people and causes 
+ behind the day.\n\nhttps://todaycelebrates.com/holiday/companies-that-care
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/companies-that-care-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:companies-that-care-day-20300321@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300321
+DTEND;VALUE=DATE:20300322
+SUMMARY:Companies That Care Day
+DESCRIPTION:Companies That Care Day\, observed on March 18\, encourages peo
+ ple across the United States to pause and recognize the people and causes 
+ behind the day.\n\nhttps://todaycelebrates.com/holiday/companies-that-care
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/companies-that-care-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:companies-that-care-day-20310320@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310320
+DTEND;VALUE=DATE:20310321
+SUMMARY:Companies That Care Day
+DESCRIPTION:Companies That Care Day\, observed on March 18\, encourages peo
+ ple across the United States to pause and recognize the people and causes 
+ behind the day.\n\nhttps://todaycelebrates.com/holiday/companies-that-care
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/companies-that-care-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:companies-that-care-day-20320318@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320318
+DTEND;VALUE=DATE:20320319
+SUMMARY:Companies That Care Day
+DESCRIPTION:Companies That Care Day\, observed on March 18\, encourages peo
+ ple across the United States to pause and recognize the people and causes 
+ behind the day.\n\nhttps://todaycelebrates.com/holiday/companies-that-care
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/companies-that-care-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:companies-that-care-day-20330317@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330317
+DTEND;VALUE=DATE:20330318
+SUMMARY:Companies That Care Day
+DESCRIPTION:Companies That Care Day\, observed on March 18\, encourages peo
+ ple across the United States to pause and recognize the people and causes 
+ behind the day.\n\nhttps://todaycelebrates.com/holiday/companies-that-care
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/companies-that-care-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:companies-that-care-day-20340316@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340316
+DTEND;VALUE=DATE:20340317
+SUMMARY:Companies That Care Day
+DESCRIPTION:Companies That Care Day\, observed on March 18\, encourages peo
+ ple across the United States to pause and recognize the people and causes 
+ behind the day.\n\nhttps://todaycelebrates.com/holiday/companies-that-care
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/companies-that-care-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:companies-that-care-day-20350315@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350315
+DTEND;VALUE=DATE:20350316
+SUMMARY:Companies That Care Day
+DESCRIPTION:Companies That Care Day\, observed on March 18\, encourages peo
+ ple across the United States to pause and recognize the people and causes 
+ behind the day.\n\nhttps://todaycelebrates.com/holiday/companies-that-care
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/companies-that-care-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

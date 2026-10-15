@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bobblehead Day
+X-WR-CALNAME:National Bobblehead Day
+DESCRIPTION:National Bobblehead Day — https://todaycelebrates.com/holiday
+ /national-bobblehead-day/
+X-WR-CALDESC:National Bobblehead Day — https://todaycelebrates.com/holida
+ y/national-bobblehead-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bobblehead-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bobblehead-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bobblehead-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:National Bobblehead Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bobblehead Day\, observed on January 7\, is celebrated
+  by sports fans across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/national-bobblehead-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bobblehead-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

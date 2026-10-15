@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Homemade Pie Day
+X-WR-CALNAME:Homemade Pie Day
+DESCRIPTION:Homemade Pie Day — https://todaycelebrates.com/holiday/homema
+ de-pie-day/
+X-WR-CALDESC:Homemade Pie Day — https://todaycelebrates.com/holiday/homem
+ ade-pie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/homemade-pie-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/homemade-pie-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:homemade-pie-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:Homemade Pie Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Homemade Pie Day is a food-focused observance celebrated across
+  the United States on August 1\, giving fans of the dish or ingredient an 
+ excuse to seek it out and share it with others.\n\nhttps://todaycelebrates
+ .com/holiday/homemade-pie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/homemade-pie-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

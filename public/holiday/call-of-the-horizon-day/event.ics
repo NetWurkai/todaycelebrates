@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Call of the Horizon Day
+X-WR-CALNAME:Call of the Horizon Day
+DESCRIPTION:Call of the Horizon Day — https://todaycelebrates.com/holiday
+ /call-of-the-horizon-day/
+X-WR-CALDESC:Call of the Horizon Day — https://todaycelebrates.com/holida
+ y/call-of-the-horizon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/call-of-the-horizon-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/call-of-the-horizon-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:call-of-the-horizon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:Call of the Horizon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Call of the Horizon Day\, observed on July 9\, is a lighthearte
+ d holiday celebrated across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/call-of-the-horizon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/call-of-the-horizon-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

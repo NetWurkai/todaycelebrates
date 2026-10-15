@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Boss/Employee Exchange Day
+X-WR-CALNAME:National Boss/Employee Exchange Day
+DESCRIPTION:National Boss/Employee Exchange Day — https://todaycelebrates
+ .com/holiday/national-boss-employee-exchange-day/
+X-WR-CALDESC:National Boss/Employee Exchange Day — https://todaycelebrate
+ s.com/holiday/national-boss-employee-exchange-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-boss-employee-ex
+ change-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-boss-employee
+ -exchange-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-boss-employee-exchange-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+SUMMARY:National Boss/Employee Exchange Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 14\, National Boss/Employee Exchange Day gives peo
+ ple across the United States one more reason to mark the day and celebrate
+  boss/employee exchange.\n\nhttps://todaycelebrates.com/holiday/national-b
+ oss-employee-exchange-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-boss-employee-ex
+ change-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

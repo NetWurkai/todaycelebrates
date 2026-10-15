@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Linguine Day
+X-WR-CALNAME:National Linguine Day
+DESCRIPTION:National Linguine Day — https://todaycelebrates.com/holiday/n
+ ational-linguine-day/
+X-WR-CALDESC:National Linguine Day — https://todaycelebrates.com/holiday/
+ national-linguine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-linguine-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-linguine-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-linguine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:National Linguine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for September 15: National Linguine Day invi
+ tes food lovers across the United States to celebrate everything about lin
+ guine\, whether that means cooking it at home or treating yourself at a fa
+ vorite spot.\n\nhttps://todaycelebrates.com/holiday/national-linguine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-linguine-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Dress Day
+X-WR-CALNAME:National Dress Day
+DESCRIPTION:National Dress Day — https://todaycelebrates.com/holiday/nati
+ onal-dress-day/
+X-WR-CALDESC:National Dress Day — https://todaycelebrates.com/holiday/nat
+ ional-dress-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dress-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-dress-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-dress-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:National Dress Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dress Day\, observed on March 6\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/national-dress-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dress-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

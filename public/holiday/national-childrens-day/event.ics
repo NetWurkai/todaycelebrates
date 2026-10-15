@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Children's Day
+X-WR-CALNAME:National Children's Day
+DESCRIPTION:National Children's Day — https://todaycelebrates.com/holiday
+ /national-childrens-day/
+X-WR-CALDESC:National Children's Day — https://todaycelebrates.com/holida
+ y/national-childrens-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-childrens-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-childrens-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-childrens-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:National Children's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Children's Day\, observed on June 13\, is a lightheart
+ ed\, family-friendly day celebrated across the United States.\n\nhttps://t
+ odaycelebrates.com/holiday/national-childrens-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-childrens-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

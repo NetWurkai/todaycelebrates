@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Goddard Day
+X-WR-CALNAME:Goddard Day
+DESCRIPTION:Goddard Day — https://todaycelebrates.com/holiday/goddard-day
+ /
+X-WR-CALDESC:Goddard Day — https://todaycelebrates.com/holiday/goddard-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/goddard-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/goddard-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:goddard-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:Goddard Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Goddard Day\, observed on March 16\, celebrates a piece of tech
+ nology or digital culture that's become part of everyday life across the U
+ nited States.\n\nhttps://todaycelebrates.com/holiday/goddard-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/goddard-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

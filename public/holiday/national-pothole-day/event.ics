@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pothole Day
+X-WR-CALNAME:National Pothole Day
+DESCRIPTION:National Pothole Day — https://todaycelebrates.com/holiday/na
+ tional-pothole-day/
+X-WR-CALDESC:National Pothole Day — https://todaycelebrates.com/holiday/n
+ ational-pothole-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pothole-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pothole-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pothole-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:National Pothole Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pothole Day\, observed on January 15\, is a lightheart
+ ed holiday celebrated across the United States.\n\nhttps://todaycelebrates
+ .com/holiday/national-pothole-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pothole-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

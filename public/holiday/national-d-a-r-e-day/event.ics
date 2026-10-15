@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National D.A.R.E. Day
+X-WR-CALNAME:National D.A.R.E. Day
+DESCRIPTION:National D.A.R.E. Day — https://todaycelebrates.com/holiday/n
+ ational-d-a-r-e-day/
+X-WR-CALDESC:National D.A.R.E. Day — https://todaycelebrates.com/holiday/
+ national-d-a-r-e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-d-a-r-e-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-d-a-r-e-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-d-a-r-e-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:National D.A.R.E. Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National D.A.R.E. Day\, observed on April 15\, is a lighthearte
+ d\, family-friendly day celebrated across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/national-d-a-r-e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-d-a-r-e-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

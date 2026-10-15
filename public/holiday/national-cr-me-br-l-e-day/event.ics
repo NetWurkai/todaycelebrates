@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Crème Brûlée Day
+X-WR-CALNAME:National Crème Brûlée Day
+DESCRIPTION:National Crème Brûlée Day — https://todaycelebrates.com/ho
+ liday/national-cr-me-br-l-e-day/
+X-WR-CALDESC:National Crème Brûlée Day — https://todaycelebrates.com/h
+ oliday/national-cr-me-br-l-e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cr-me-br-l-e-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cr-me-br-l-e-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cr-me-br-l-e-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270727
+DTEND;VALUE=DATE:20270728
+SUMMARY:National Crème Brûlée Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Crème Brûlée Day is a food-focused observance celeb
+ rated across the United States on July 27\, giving fans of the dish or ing
+ redient an excuse to seek it out and share it with others.\n\nhttps://toda
+ ycelebrates.com/holiday/national-cr-me-br-l-e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cr-me-br-l-e-day
+ /
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Meatloaf Appreciation Day
+X-WR-CALNAME:National Meatloaf Appreciation Day
+DESCRIPTION:National Meatloaf Appreciation Day — https://todaycelebrates.
+ com/holiday/national-meatloaf-appreciation-day/
+X-WR-CALDESC:National Meatloaf Appreciation Day — https://todaycelebrates
+ .com/holiday/national-meatloaf-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-meatloaf-appreci
+ ation-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-meatloaf-appr
+ eciation-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-meatloaf-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:National Meatloaf Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Meatloaf Appreciation Day is a lighthearted food holid
+ ay celebrated across the United States on October 18\, giving fans of meat
+ loaf appreciation an excuse to seek it out and share it with others.\n\nht
+ tps://todaycelebrates.com/holiday/national-meatloaf-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-meatloaf-appreci
+ ation-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

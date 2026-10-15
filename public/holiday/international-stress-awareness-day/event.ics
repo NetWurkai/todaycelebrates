@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Stress Awareness Day
+X-WR-CALNAME:International Stress Awareness Day
+DESCRIPTION:International Stress Awareness Day — https://todaycelebrates.
+ com/holiday/international-stress-awareness-day/
+X-WR-CALDESC:International Stress Awareness Day — https://todaycelebrates
+ .com/holiday/international-stress-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-stress-awar
+ eness-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-stress-a
+ wareness-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-stress-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:International Stress Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Stress Awareness Day is a health-awareness observ
+ ance on November 4\, marked across the United States to spotlight a wellne
+ ss topic worth a second look.\n\nhttps://todaycelebrates.com/holiday/inter
+ national-stress-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-stress-awar
+ eness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

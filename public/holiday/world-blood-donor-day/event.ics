@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Blood Donor Day
+X-WR-CALNAME:World Blood Donor Day
+DESCRIPTION:World Blood Donor Day — https://todaycelebrates.com/holiday/w
+ orld-blood-donor-day/
+X-WR-CALDESC:World Blood Donor Day — https://todaycelebrates.com/holiday/
+ world-blood-donor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-blood-donor-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-blood-donor-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-blood-donor-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+SUMMARY:World Blood Donor Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Blood Donor Day\, observed on June 14\, encourages people
+  across the United States to focus on health and wellbeing.\n\nhttps://tod
+ aycelebrates.com/holiday/world-blood-donor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-blood-donor-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

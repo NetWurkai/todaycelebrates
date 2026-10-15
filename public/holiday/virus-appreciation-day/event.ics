@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Virus Appreciation Day
+X-WR-CALNAME:Virus Appreciation Day
+DESCRIPTION:Virus Appreciation Day — https://todaycelebrates.com/holiday/
+ virus-appreciation-day/
+X-WR-CALDESC:Virus Appreciation Day — https://todaycelebrates.com/holiday
+ /virus-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/virus-appreciation-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/virus-appreciation-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:virus-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271004
+SUMMARY:Virus Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 3\, Virus Appreciation Day gives people across the U
+ nited States one more reason to mark the day and celebrate virus appreciat
+ ion.\n\nhttps://todaycelebrates.com/holiday/virus-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/virus-appreciation-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

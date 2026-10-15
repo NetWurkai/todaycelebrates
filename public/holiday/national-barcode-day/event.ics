@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Barcode Day
+X-WR-CALNAME:National Barcode Day
+DESCRIPTION:National Barcode Day — https://todaycelebrates.com/holiday/na
+ tional-barcode-day/
+X-WR-CALDESC:National Barcode Day — https://todaycelebrates.com/holiday/n
+ ational-barcode-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-barcode-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-barcode-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-barcode-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:National Barcode Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Barcode Day\, observed on June 26\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/national-barc
+ ode-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-barcode-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

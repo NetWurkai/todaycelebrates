@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Coworking Day
+X-WR-CALNAME:International Coworking Day
+DESCRIPTION:International Coworking Day — https://todaycelebrates.com/hol
+ iday/international-coworking-day/
+X-WR-CALDESC:International Coworking Day — https://todaycelebrates.com/ho
+ liday/international-coworking-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-coworking-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-coworkin
+ g-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-coworking-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270809
+DTEND;VALUE=DATE:20270810
+SUMMARY:International Coworking Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Coworking Day\, observed on August 9\, encourages
+  people across the United States to pause and recognize the people and cau
+ ses behind the day.\n\nhttps://todaycelebrates.com/holiday/international-c
+ oworking-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-coworking-d
+ ay/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

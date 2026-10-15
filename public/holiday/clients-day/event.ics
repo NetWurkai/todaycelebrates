@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Client's Day
+X-WR-CALNAME:Client's Day
+DESCRIPTION:Client's Day — https://todaycelebrates.com/holiday/clients-da
+ y/
+X-WR-CALDESC:Client's Day — https://todaycelebrates.com/holiday/clients-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/clients-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/clients-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:clients-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Client's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Client's Day\, observed on March 19\, encourages people across 
+ the United States to pause and recognize the people and causes behind the 
+ day.\n\nhttps://todaycelebrates.com/holiday/clients-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/clients-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

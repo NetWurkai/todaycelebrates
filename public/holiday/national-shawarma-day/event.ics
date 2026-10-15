@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Shawarma Day
+X-WR-CALNAME:National Shawarma Day
+DESCRIPTION:National Shawarma Day — https://todaycelebrates.com/holiday/n
+ ational-shawarma-day/
+X-WR-CALDESC:National Shawarma Day — https://todaycelebrates.com/holiday/
+ national-shawarma-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-shawarma-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-shawarma-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-shawarma-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:National Shawarma Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 15\, National Shawarma Day gives people across the U
+ nited States one more reason to mark the day and celebrate shawarma.\n\nht
+ tps://todaycelebrates.com/holiday/national-shawarma-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-shawarma-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

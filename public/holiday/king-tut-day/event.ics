@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:King Tut Day
+X-WR-CALNAME:King Tut Day
+DESCRIPTION:King Tut Day — https://todaycelebrates.com/holiday/king-tut-d
+ ay/
+X-WR-CALDESC:King Tut Day — https://todaycelebrates.com/holiday/king-tut-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/king-tut-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/king-tut-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:king-tut-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:King Tut Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:King Tut Day\, observed on November 4\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/king-tut-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/king-tut-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

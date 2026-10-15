@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Maundy Thursday
+X-WR-CALNAME:Maundy Thursday
+DESCRIPTION:Maundy Thursday — https://todaycelebrates.com/holiday/maundy-
+ thursday/
+X-WR-CALDESC:Maundy Thursday — https://todaycelebrates.com/holiday/maundy
+ -thursday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/maundy-thursday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/maundy-thursday/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:maundy-thursday-20270325@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Maundy Thursday
+DESCRIPTION:Maundy Thursday\, observed on March 25\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/maundy-thursday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/maundy-thursday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:maundy-thursday-20280413@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280413
+DTEND;VALUE=DATE:20280414
+SUMMARY:Maundy Thursday
+DESCRIPTION:Maundy Thursday\, observed on March 25\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/maundy-thursday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/maundy-thursday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:maundy-thursday-20290329@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290329
+DTEND;VALUE=DATE:20290330
+SUMMARY:Maundy Thursday
+DESCRIPTION:Maundy Thursday\, observed on March 25\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/maundy-thursday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/maundy-thursday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:maundy-thursday-20300418@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300418
+DTEND;VALUE=DATE:20300419
+SUMMARY:Maundy Thursday
+DESCRIPTION:Maundy Thursday\, observed on March 25\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/maundy-thursday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/maundy-thursday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:maundy-thursday-20310410@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310410
+DTEND;VALUE=DATE:20310411
+SUMMARY:Maundy Thursday
+DESCRIPTION:Maundy Thursday\, observed on March 25\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/maundy-thursday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/maundy-thursday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:maundy-thursday-20320325@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320325
+DTEND;VALUE=DATE:20320326
+SUMMARY:Maundy Thursday
+DESCRIPTION:Maundy Thursday\, observed on March 25\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/maundy-thursday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/maundy-thursday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:maundy-thursday-20330414@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330414
+DTEND;VALUE=DATE:20330415
+SUMMARY:Maundy Thursday
+DESCRIPTION:Maundy Thursday\, observed on March 25\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/maundy-thursday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/maundy-thursday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:maundy-thursday-20340406@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340406
+DTEND;VALUE=DATE:20340407
+SUMMARY:Maundy Thursday
+DESCRIPTION:Maundy Thursday\, observed on March 25\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/maundy-thursday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/maundy-thursday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:maundy-thursday-20350322@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350322
+DTEND;VALUE=DATE:20350323
+SUMMARY:Maundy Thursday
+DESCRIPTION:Maundy Thursday\, observed on March 25\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/maundy-thursday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/maundy-thursday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

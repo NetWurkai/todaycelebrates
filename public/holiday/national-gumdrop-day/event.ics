@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Gumdrop Day
+X-WR-CALNAME:National Gumdrop Day
+DESCRIPTION:National Gumdrop Day — https://todaycelebrates.com/holiday/na
+ tional-gumdrop-day/
+X-WR-CALDESC:National Gumdrop Day — https://todaycelebrates.com/holiday/n
+ ational-gumdrop-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gumdrop-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-gumdrop-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-gumdrop-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:National Gumdrop Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Gumdrop Day is a food-focused observance celebrated ac
+ ross the United States on February 15\, giving fans of the dish or ingredi
+ ent an excuse to seek it out and share it with others.\n\nhttps://todaycel
+ ebrates.com/holiday/national-gumdrop-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gumdrop-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

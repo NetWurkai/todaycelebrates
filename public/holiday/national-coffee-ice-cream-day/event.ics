@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Coffee Ice Cream Day
+X-WR-CALNAME:National Coffee Ice Cream Day
+DESCRIPTION:National Coffee Ice Cream Day — https://todaycelebrates.com/h
+ oliday/national-coffee-ice-cream-day/
+X-WR-CALDESC:National Coffee Ice Cream Day — https://todaycelebrates.com/
+ holiday/national-coffee-ice-cream-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coffee-ice-cream
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-coffee-ice-cr
+ eam-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-coffee-ice-cream-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20270907
+SUMMARY:National Coffee Ice Cream Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Coffee Ice Cream Day\, observed across the United Stat
+ es on September 6\, celebrates coffee culture and gives coffee lovers one 
+ more reason to savor their favorite cup.\n\nhttps://todaycelebrates.com/ho
+ liday/national-coffee-ice-cream-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coffee-ice-cream
+ -day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

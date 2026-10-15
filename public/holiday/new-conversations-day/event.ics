@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:New Conversations Day
+X-WR-CALNAME:New Conversations Day
+DESCRIPTION:New Conversations Day — https://todaycelebrates.com/holiday/n
+ ew-conversations-day/
+X-WR-CALDESC:New Conversations Day — https://todaycelebrates.com/holiday/
+ new-conversations-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-conversations-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/new-conversations-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:new-conversations-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:New Conversations Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:New Conversations Day\, observed on July 12\, encourages people
+  across the United States to pause and recognize the people and causes beh
+ ind the day.\n\nhttps://todaycelebrates.com/holiday/new-conversations-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-conversations-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

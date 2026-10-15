@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Read A Book Day
+X-WR-CALNAME:National Read A Book Day
+DESCRIPTION:National Read A Book Day — https://todaycelebrates.com/holida
+ y/national-read-a-book-day/
+X-WR-CALDESC:National Read A Book Day — https://todaycelebrates.com/holid
+ ay/national-read-a-book-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-read-a-book-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-read-a-book-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-read-a-book-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20270907
+SUMMARY:National Read A Book Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Read A Book Day celebrates read a book on September 6\
+ , giving readers and writers across the United States a reason to pick up 
+ a favorite book or try something new.\n\nhttps://todaycelebrates.com/holid
+ ay/national-read-a-book-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-read-a-book-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

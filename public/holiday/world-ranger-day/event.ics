@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Ranger Day
+X-WR-CALNAME:World Ranger Day
+DESCRIPTION:World Ranger Day — https://todaycelebrates.com/holiday/world-
+ ranger-day/
+X-WR-CALDESC:World Ranger Day — https://todaycelebrates.com/holiday/world
+ -ranger-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-ranger-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-ranger-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-ranger-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:World Ranger Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Ranger Day is a nature-focused observance on July 31\, ce
+ lebrated across the United States to draw attention to the plant\, animal\
+ , or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world
+ -ranger-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-ranger-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

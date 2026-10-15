@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bathtub Day
+X-WR-CALNAME:National Bathtub Day
+DESCRIPTION:National Bathtub Day — https://todaycelebrates.com/holiday/na
+ tional-bathtub-day/
+X-WR-CALDESC:National Bathtub Day — https://todaycelebrates.com/holiday/n
+ ational-bathtub-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bathtub-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bathtub-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bathtub-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:National Bathtub Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 7\, National Bathtub Day gives people across the Uni
+ ted States one more reason to mark the day and celebrate bathtub.\n\nhttps
+ ://todaycelebrates.com/holiday/national-bathtub-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bathtub-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

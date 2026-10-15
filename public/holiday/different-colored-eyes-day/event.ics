@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Different Colored Eyes Day
+X-WR-CALNAME:Different Colored Eyes Day
+DESCRIPTION:Different Colored Eyes Day — https://todaycelebrates.com/holi
+ day/different-colored-eyes-day/
+X-WR-CALDESC:Different Colored Eyes Day — https://todaycelebrates.com/hol
+ iday/different-colored-eyes-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/different-colored-eyes-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/different-colored-eyes
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:different-colored-eyes-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:Different Colored Eyes Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Different Colored Eyes Day\, observed on July 12\, is a lighthe
+ arted holiday celebrated across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/different-colored-eyes-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/different-colored-eyes-da
+ y/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

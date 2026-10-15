@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Sight Day
+X-WR-CALNAME:World Sight Day
+DESCRIPTION:World Sight Day — https://todaycelebrates.com/holiday/world-s
+ ight-day/
+X-WR-CALDESC:World Sight Day — https://todaycelebrates.com/holiday/world-
+ sight-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sight-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-sight-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-sight-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+SUMMARY:World Sight Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 8\, World Sight Day gives people around the globe on
+ e more reason to mark the day and celebrate sight.\n\nhttps://todaycelebra
+ tes.com/holiday/world-sight-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sight-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

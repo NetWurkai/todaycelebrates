@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Make a Difference Day
+X-WR-CALNAME:Make a Difference Day
+DESCRIPTION:Make a Difference Day — https://todaycelebrates.com/holiday/m
+ ake-a-difference-day/
+X-WR-CALDESC:Make a Difference Day — https://todaycelebrates.com/holiday/
+ make-a-difference-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/make-a-difference-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/make-a-difference-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:make-a-difference-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Make a Difference Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Make a Difference Day is observed across the United States on O
+ ctober 24\, a small but fun addition to the calendar worth celebrating in 
+ its own way.\n\nhttps://todaycelebrates.com/holiday/make-a-difference-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/make-a-difference-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

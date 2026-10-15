@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:New Year's Day
+X-WR-CALNAME:New Year's Day
+DESCRIPTION:New Year's Day — https://todaycelebrates.com/holiday/new-year
+ s-day/
+X-WR-CALDESC:New Year's Day — https://todaycelebrates.com/holiday/new-yea
+ rs-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-years-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/new-years-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:new-years-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:New Year's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:New Year's Day falls on January 1\, which is an administrative 
+ decision rather than a fact of nature. The date has been moved\, abandoned
+ \, and restored more than once in Western Europe — Britain and its Ameri
+ can colonies did not adopt it until 1752 — and most of what Americans ac
+ tually do on the day\, from the parade in Pasadena to the ball in Times Sq
+ uare\, was invented between 1788 and 1907.\n\nhttps://todaycelebrates.com/
+ holiday/new-years-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-years-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

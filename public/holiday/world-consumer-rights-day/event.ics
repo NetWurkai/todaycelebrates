@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Consumer Rights Day
+X-WR-CALNAME:World Consumer Rights Day
+DESCRIPTION:World Consumer Rights Day — https://todaycelebrates.com/holid
+ ay/world-consumer-rights-day/
+X-WR-CALDESC:World Consumer Rights Day — https://todaycelebrates.com/holi
+ day/world-consumer-rights-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-consumer-rights-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-consumer-rights-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-consumer-rights-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:World Consumer Rights Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Consumer Rights Day\, observed on March 15\, encourages p
+ eople across the United States to pause and recognize the people and cause
+ s behind the day.\n\nhttps://todaycelebrates.com/holiday/world-consumer-ri
+ ghts-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-consumer-rights-day
+ /
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Super Bowl Sunday
+X-WR-CALNAME:Super Bowl Sunday
+DESCRIPTION:Super Bowl Sunday — https://todaycelebrates.com/holiday/super
+ -bowl-sunday/
+X-WR-CALDESC:Super Bowl Sunday — https://todaycelebrates.com/holiday/supe
+ r-bowl-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-bowl-sunday/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/super-bowl-sunday/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:super-bowl-sunday-20270214@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Super Bowl Sunday
+DESCRIPTION:Super Bowl Sunday is the day of the NFL's championship game. Th
+ e league schedules it each season rather than fixing it to a calendar date
+ \, so it moves from year to year.\n\nhttps://todaycelebrates.com/holiday/s
+ uper-bowl-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-bowl-sunday/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

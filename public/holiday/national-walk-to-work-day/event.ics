@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Walk to Work Day
+X-WR-CALNAME:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day — https://todaycelebrates.com/holid
+ ay/national-walk-to-work-day/
+X-WR-CALDESC:National Walk to Work Day — https://todaycelebrates.com/holi
+ day/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20270402@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20280407@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280407
+DTEND;VALUE=DATE:20280408
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20290406@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290406
+DTEND;VALUE=DATE:20290407
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20300405@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300405
+DTEND;VALUE=DATE:20300406
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20310404@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310404
+DTEND;VALUE=DATE:20310405
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20320402@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320402
+DTEND;VALUE=DATE:20320403
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20330401@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330401
+DTEND;VALUE=DATE:20330402
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20340407@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340407
+DTEND;VALUE=DATE:20340408
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-to-work-day-20350406@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350406
+DTEND;VALUE=DATE:20350407
+SUMMARY:National Walk to Work Day
+DESCRIPTION:National Walk to Work Day\, observed on April 2\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-walk-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-to-work-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

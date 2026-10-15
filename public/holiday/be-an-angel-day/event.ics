@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Be an Angel Day
+X-WR-CALNAME:Be an Angel Day
+DESCRIPTION:Be an Angel Day — https://todaycelebrates.com/holiday/be-an-a
+ ngel-day/
+X-WR-CALDESC:Be an Angel Day — https://todaycelebrates.com/holiday/be-an-
+ angel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/be-an-angel-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/be-an-angel-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:be-an-angel-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270822
+DTEND;VALUE=DATE:20270823
+SUMMARY:Be an Angel Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Be an Angel Day\, observed on August 22\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/be-an-angel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/be-an-angel-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

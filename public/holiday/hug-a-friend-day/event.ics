@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Hug a Friend Day
+X-WR-CALNAME:Hug a Friend Day
+DESCRIPTION:Hug a Friend Day — https://todaycelebrates.com/holiday/hug-a-
+ friend-day/
+X-WR-CALDESC:Hug a Friend Day — https://todaycelebrates.com/holiday/hug-a
+ -friend-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hug-a-friend-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/hug-a-friend-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:hug-a-friend-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:Hug a Friend Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Hug a Friend Day\, observed on April 26\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/hug-a-friend-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hug-a-friend-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

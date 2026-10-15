@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Advent Sunday
+X-WR-CALNAME:Advent Sunday
+DESCRIPTION:Advent Sunday — https://todaycelebrates.com/holiday/advent-su
+ nday/
+X-WR-CALDESC:Advent Sunday — https://todaycelebrates.com/holiday/advent-s
+ unday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/advent-sunday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/advent-sunday/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:advent-sunday-20261129@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Advent Sunday
+DESCRIPTION:Advent Sunday\, observed on November 29\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/advent-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/advent-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-sunday-20271128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+SUMMARY:Advent Sunday
+DESCRIPTION:Advent Sunday\, observed on November 29\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/advent-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/advent-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-sunday-20281203@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281203
+DTEND;VALUE=DATE:20281204
+SUMMARY:Advent Sunday
+DESCRIPTION:Advent Sunday\, observed on November 29\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/advent-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/advent-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-sunday-20291202@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291202
+DTEND;VALUE=DATE:20291203
+SUMMARY:Advent Sunday
+DESCRIPTION:Advent Sunday\, observed on November 29\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/advent-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/advent-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-sunday-20301201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301201
+DTEND;VALUE=DATE:20301202
+SUMMARY:Advent Sunday
+DESCRIPTION:Advent Sunday\, observed on November 29\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/advent-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/advent-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-sunday-20311130@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311130
+DTEND;VALUE=DATE:20311201
+SUMMARY:Advent Sunday
+DESCRIPTION:Advent Sunday\, observed on November 29\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/advent-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/advent-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-sunday-20321128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321128
+DTEND;VALUE=DATE:20321129
+SUMMARY:Advent Sunday
+DESCRIPTION:Advent Sunday\, observed on November 29\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/advent-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/advent-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-sunday-20331127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331127
+DTEND;VALUE=DATE:20331128
+SUMMARY:Advent Sunday
+DESCRIPTION:Advent Sunday\, observed on November 29\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/advent-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/advent-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-sunday-20341203@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341203
+DTEND;VALUE=DATE:20341204
+SUMMARY:Advent Sunday
+DESCRIPTION:Advent Sunday\, observed on November 29\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/advent-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/advent-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-sunday-20351202@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351202
+DTEND;VALUE=DATE:20351203
+SUMMARY:Advent Sunday
+DESCRIPTION:Advent Sunday\, observed on November 29\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/advent-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/advent-sunday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

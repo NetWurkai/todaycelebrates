@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Animal Action Day
+X-WR-CALNAME:Animal Action Day
+DESCRIPTION:Animal Action Day — https://todaycelebrates.com/holiday/anima
+ l-action-day/
+X-WR-CALDESC:Animal Action Day — https://todaycelebrates.com/holiday/anim
+ al-action-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/animal-action-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/animal-action-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:animal-action-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+SUMMARY:Animal Action Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Animal Action Day falls on October 8 and celebrates animal acti
+ on\, drawing attention across the United States to the natural world and o
+ ur place in it.\n\nhttps://todaycelebrates.com/holiday/animal-action-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/animal-action-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

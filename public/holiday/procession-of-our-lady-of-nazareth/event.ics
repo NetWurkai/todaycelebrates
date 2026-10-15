@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Procession of Our Lady of Nazareth
+X-WR-CALNAME:Procession of Our Lady of Nazareth
+DESCRIPTION:Procession of Our Lady of Nazareth — https://todaycelebrates.
+ com/holiday/procession-of-our-lady-of-nazareth/
+X-WR-CALDESC:Procession of Our Lady of Nazareth — https://todaycelebrates
+ .com/holiday/procession-of-our-lady-of-nazareth/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/procession-of-our-lady-of
+ -nazareth/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/procession-of-our-lady
+ -of-nazareth/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:procession-of-our-lady-of-nazareth@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:Procession of Our Lady of Nazareth
+RRULE:FREQ=YEARLY
+DESCRIPTION:Procession of Our Lady of Nazareth is observed across the Unite
+ d States on October 11\, a small but fun addition to the calendar worth ce
+ lebrating in its own way.\n\nhttps://todaycelebrates.com/holiday/processio
+ n-of-our-lady-of-nazareth/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/procession-of-our-lady-of
+ -nazareth/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

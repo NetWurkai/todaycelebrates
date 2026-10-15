@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Boss' Day
+X-WR-CALNAME:National Boss' Day
+DESCRIPTION:National Boss' Day — https://todaycelebrates.com/holiday/nati
+ onal-boss-day/
+X-WR-CALDESC:National Boss' Day — https://todaycelebrates.com/holiday/nat
+ ional-boss-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-boss-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-boss-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-boss-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:National Boss' Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Boss's Day gives employees a chance to thank their man
+ agers and supervisors for their guidance and support throughout the year.\
+ n\nhttps://todaycelebrates.com/holiday/national-boss-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-boss-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

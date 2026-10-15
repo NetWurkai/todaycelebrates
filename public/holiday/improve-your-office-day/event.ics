@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Improve Your Office Day
+X-WR-CALNAME:Improve Your Office Day
+DESCRIPTION:Improve Your Office Day — https://todaycelebrates.com/holiday
+ /improve-your-office-day/
+X-WR-CALDESC:Improve Your Office Day — https://todaycelebrates.com/holida
+ y/improve-your-office-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/improve-your-office-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/improve-your-office-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:improve-your-office-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271004
+DTEND;VALUE=DATE:20271005
+SUMMARY:Improve Your Office Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Improve Your Office Day is observed across the United States on
+  October 4\, a small but fun addition to the calendar worth celebrating in
+  its own way.\n\nhttps://todaycelebrates.com/holiday/improve-your-office-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/improve-your-office-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Sour Candy Day
+X-WR-CALNAME:National Sour Candy Day
+DESCRIPTION:National Sour Candy Day — https://todaycelebrates.com/holiday
+ /national-sour-candy-day/
+X-WR-CALDESC:National Sour Candy Day — https://todaycelebrates.com/holida
+ y/national-sour-candy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sour-candy-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-sour-candy-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-sour-candy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+SUMMARY:National Sour Candy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sour Candy Day is a food-focused observance celebrated
+  across the United States on July 18\, giving fans of the dish or ingredie
+ nt an excuse to seek it out and share it with others.\n\nhttps://todaycele
+ brates.com/holiday/national-sour-candy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sour-candy-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

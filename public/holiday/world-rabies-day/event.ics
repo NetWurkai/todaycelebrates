@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Rabies Day
+X-WR-CALNAME:World Rabies Day
+DESCRIPTION:World Rabies Day — https://todaycelebrates.com/holiday/world-
+ rabies-day/
+X-WR-CALDESC:World Rabies Day — https://todaycelebrates.com/holiday/world
+ -rabies-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-rabies-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-rabies-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-rabies-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+SUMMARY:World Rabies Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Rabies Day is observed around the globe on September 28\,
+  a small but fun addition to the calendar worth celebrating in its own way
+ .\n\nhttps://todaycelebrates.com/holiday/world-rabies-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-rabies-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

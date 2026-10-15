@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Eat with a Friend Day
+X-WR-CALNAME:National Eat with a Friend Day
+DESCRIPTION:National Eat with a Friend Day — https://todaycelebrates.com/
+ holiday/national-eat-with-a-friend-day/
+X-WR-CALDESC:National Eat with a Friend Day — https://todaycelebrates.com
+ /holiday/national-eat-with-a-friend-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-eat-with-a-frien
+ d-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-eat-with-a-fr
+ iend-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-eat-with-a-friend-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:National Eat with a Friend Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Eat with a Friend Day is a food-focused observance cel
+ ebrated across the United States on November 25\, giving fans of the dish 
+ or ingredient an excuse to seek it out and share it with others.\n\nhttps:
+ //todaycelebrates.com/holiday/national-eat-with-a-friend-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-eat-with-a-frien
+ d-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

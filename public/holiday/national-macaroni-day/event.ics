@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Macaroni Day
+X-WR-CALNAME:National Macaroni Day
+DESCRIPTION:National Macaroni Day — https://todaycelebrates.com/holiday/n
+ ational-macaroni-day/
+X-WR-CALDESC:National Macaroni Day — https://todaycelebrates.com/holiday/
+ national-macaroni-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-macaroni-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-macaroni-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-macaroni-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270708
+SUMMARY:National Macaroni Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Macaroni Day is a food-focused observance celebrated a
+ cross the United States on July 7\, giving fans of the dish or ingredient 
+ an excuse to seek it out and share it with others.\n\nhttps://todaycelebra
+ tes.com/holiday/national-macaroni-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-macaroni-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

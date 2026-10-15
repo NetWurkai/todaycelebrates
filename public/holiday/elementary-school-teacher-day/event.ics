@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Elementary School Teacher Day
+X-WR-CALNAME:Elementary School Teacher Day
+DESCRIPTION:Elementary School Teacher Day — https://todaycelebrates.com/h
+ oliday/elementary-school-teacher-day/
+X-WR-CALDESC:Elementary School Teacher Day — https://todaycelebrates.com/
+ holiday/elementary-school-teacher-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/elementary-school-teacher
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/elementary-school-teac
+ her-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:elementary-school-teacher-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Elementary School Teacher Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Elementary School Teacher Day\, observed on January 18\, is a l
+ ighthearted\, family-friendly day celebrated across the United States.\n\n
+ https://todaycelebrates.com/holiday/elementary-school-teacher-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/elementary-school-teacher
+ -day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

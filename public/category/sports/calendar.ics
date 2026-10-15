@@ -1,0 +1,970 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Today Celebrates: Sports
+X-WR-CALNAME:Today Celebrates: Sports
+DESCRIPTION:51 sports observances from https://todaycelebrates.com/category
+ /sports/. Rebuilt daily.
+X-WR-CALDESC:51 sports observances from https://todaycelebrates.com/categor
+ y/sports/. Rebuilt daily.
+URL;VALUE=URI:https://todaycelebrates.com/category/sports/calendar.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/category/sports/calendar.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:american-football-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:American Football Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:American Football Day\, observed on November 5\, is celebrated 
+ by sports fans across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/american-football-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-football-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:babe-ruth-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Babe Ruth Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Babe Ruth Day\, observed on April 27\, is celebrated by sports 
+ fans across the United States.\n\nhttps://todaycelebrates.com/holiday/babe
+ -ruth-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/babe-ruth-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-fans-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:Baseball Fans Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Baseball Fans Day\, observed on August 12\, is celebrated by sp
+ orts fans across the United States.\n\nhttps://todaycelebrates.com/holiday
+ /baseball-fans-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/baseball-fans-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:basketball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Basketball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Basketball Day\, observed on November 6\, is celebrated by spor
+ ts fans across the United States.\n\nhttps://todaycelebrates.com/holiday/b
+ asketball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/basketball-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:belmont-stakes-20270605@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:Belmont Stakes
+DESCRIPTION:Belmont Stakes\, observed on June 5\, is celebrated by sports f
+ ans across the United States.\n\nhttps://todaycelebrates.com/holiday/belmo
+ nt-stakes/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/belmont-stakes/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bicycle-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:Bicycle Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bicycle Day\, observed on April 19\, is celebrated by sports fa
+ ns across the United States.\n\nhttps://todaycelebrates.com/holiday/bicycl
+ e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bicycle-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20270419@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20280417@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280418
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20290416@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290416
+DTEND;VALUE=DATE:20290417
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20300415@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300415
+DTEND;VALUE=DATE:20300416
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20310421@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310421
+DTEND;VALUE=DATE:20310422
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20320419@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320419
+DTEND;VALUE=DATE:20320420
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20330418@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330418
+DTEND;VALUE=DATE:20330419
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20340417@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340417
+DTEND;VALUE=DATE:20340418
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-day-20350416@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350416
+DTEND;VALUE=DATE:20350417
+SUMMARY:Boston Marathon Day
+DESCRIPTION:Boston Marathon Day\, observed on April 19\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/boston-marathon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-marathon-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:curling-is-cool-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:Curling is Cool Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Curling is Cool Day\, observed on February 23\, is celebrated b
+ y sports fans across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/curling-is-cool-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/curling-is-cool-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:finishers-medal-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Finisher's Medal Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Finisher's Medal Day\, observed on March 7\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/finishers-medal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/finishers-medal-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:global-running-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:Global Running Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Running Day\, observed on June 2\, is celebrated by spor
+ ts fans across the United States.\n\nhttps://todaycelebrates.com/holiday/g
+ lobal-running-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-running-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:go-skateboarding-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:Go Skateboarding Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Go Skateboarding Day\, observed on June 21\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/go-skateboarding-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/go-skateboarding-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:golfers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Golfer's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Golfer's Day\, observed on April 10\, is celebrated by sports f
+ ans across the United States.\n\nhttps://todaycelebrates.com/holiday/golfe
+ rs-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/golfers-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:harlem-globetrotters-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Harlem Globetrotter's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Harlem Globetrotter's Day\, observed on January 7\, is celebrat
+ ed by sports fans across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/harlem-globetrotters-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/harlem-globetrotters-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-day-of-sport-for-development-and-peace@todaycelebrates.co
+ m
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:International Day of Sport for Development and Peace
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day of Sport for Development and Peace\, observed
+  on April 6\, is celebrated by sports fans across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/international-day-of-sport-for-developme
+ nt-and-peace/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-spor
+ t-for-development-and-peace/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-surfing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:International Surfing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Surfing Day\, observed on June 21\, is celebrated
+  by sports fans across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/international-surfing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-surfing-day
+ /
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-tug-of-war-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:International Tug-of-War Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Tug-of-War Day\, observed on February 19\, is cel
+ ebrated by sports fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/international-tug-of-war-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tug-of-war-
+ day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:jackie-robinson-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Jackie Robinson Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Jackie Robinson Day\, observed on April 15\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/jackie-robinson-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/jackie-robinson-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kentucky-derby@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Kentucky Derby
+RRULE:FREQ=YEARLY
+DESCRIPTION:Kentucky Derby\, observed on May 1\, is celebrated by sports fa
+ ns across the United States.\n\nhttps://todaycelebrates.com/holiday/kentuc
+ ky-derby/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kentucky-derby/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ladies-initiated-in-baseball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:Ladies' Initiated in Baseball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Ladies' Initiated in Baseball Day\, observed on June 16\, is ce
+ lebrated by sports fans across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/ladies-initiated-in-baseball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ladies-initiated-in-baseb
+ all-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:little-league-girls-baseball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Little League Girls Baseball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Little League Girls Baseball Day\, observed on June 12\, is cel
+ ebrated by sports fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/little-league-girls-baseball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/little-league-girls-baseb
+ all-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-bobblehead-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:National Bobblehead Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bobblehead Day\, observed on January 7\, is celebrated
+  by sports fans across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/national-bobblehead-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bobblehead-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-bowling-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:National Bowling Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bowling Day\, observed on August 14\, is celebrated by
+  sports fans across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/national-bowling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bowling-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-canoe-day-canada@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:National Canoe Day (Canada)
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Canoe Day (Canada)\, observed on June 26\, is celebrat
+ ed by sports fans across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/national-canoe-day-canada/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-canoe-day-canada
+ /
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-darts-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:National Darts Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Darts Day\, observed on June 29\, is celebrated by spo
+ rts fans across the United States.\n\nhttps://todaycelebrates.com/holiday/
+ national-darts-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-darts-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-disc-golf-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:National Disc Golf Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Disc Golf Day\, observed on August 7\, is celebrated b
+ y sports fans across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/national-disc-golf-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-disc-golf-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-girls-and-women-in-sports-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:National Girls and Women in Sports Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Girls and Women in Sports Day\, observed on February 3
+ \, is celebrated by sports fans across the United States.\n\nhttps://today
+ celebrates.com/holiday/national-girls-and-women-in-sports-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-girls-and-women-
+ in-sports-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-gymnastics-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:National Gymnastics Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Gymnastics Day\, observed on September 19\, celebrates
+  gymnastics and the community of fans and players who keep it going across
+  the United States.\n\nhttps://todaycelebrates.com/holiday/national-gymnas
+ tics-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gymnastics-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-hunting-and-fishing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:National Hunting and Fishing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hunting and Fishing Day\, observed on September 26\, c
+ elebrates hunting and fishing and the community of fans and players who ke
+ ep it going across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/national-hunting-and-fishing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hunting-and-fish
+ ing-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-jersey-friday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:National Jersey Friday
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Jersey Friday\, observed on November 6\, is celebrated
+  by sports fans across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/national-jersey-friday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-jersey-friday/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-kickball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:National Kickball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Kickball Day\, observed on April 17\, is celebrated by
+  sports fans across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/national-kickball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kickball-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-miniature-golf-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:National Miniature Golf Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Miniature Golf Day\, observed on May 8\, is celebrated
+  by sports fans across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/national-miniature-golf-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-miniature-golf-d
+ ay/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-seat-check-saturday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:National Seat Check Saturday
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Seat Check Saturday\, observed on September 26\, celeb
+ rates seat check saturday and the community of fans and players who keep i
+ t going across the United States.\n\nhttps://todaycelebrates.com/holiday/n
+ ational-seat-check-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-seat-check-satur
+ day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-soccer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270729
+SUMMARY:National Soccer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Soccer Day\, observed on July 28\, is celebrated by sp
+ orts fans across the United States.\n\nhttps://todaycelebrates.com/holiday
+ /national-soccer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-soccer-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-sport-sampling-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270830
+SUMMARY:National Sport Sampling Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sport Sampling Day\, observed on August 29\, is celebr
+ ated by sports fans across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/national-sport-sampling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sport-sampling-d
+ ay/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-sportsmanship-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:National Sportsmanship Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sportsmanship Day\, observed on March 2\, is celebrate
+ d by sports fans across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/national-sportsmanship-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sportsmanship-da
+ y/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-swimming-pool-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:National Swimming Pool Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Swimming Pool Day\, observed on July 11\, is celebrate
+ d by sports fans across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/national-swimming-pool-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-swimming-pool-da
+ y/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-tug-of-war-tournament-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+SUMMARY:National Tug-Of-War Tournament Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tug-Of-War Tournament Day\, observed on July 21\, is c
+ elebrated by sports fans across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/national-tug-of-war-tournament-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tug-of-war-tourn
+ ament-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-wiffle-ball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:National Wiffle Ball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Wiffle Ball Day\, observed on August 14\, is celebrate
+ d by sports fans across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/national-wiffle-ball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wiffle-ball-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:play-basketball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Play Basketball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Play Basketball Day\, observed on December 2\, is celebrated by
+  sports fans across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/play-basketball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/play-basketball-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:play-tennis-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:Play Tennis Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Play Tennis Day\, observed on February 23\, is celebrated by sp
+ orts fans across the United States.\n\nhttps://todaycelebrates.com/holiday
+ /play-tennis-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/play-tennis-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:polar-bear-swim-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Polar Bear Swim Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Polar Bear Swim Day\, observed on January 1\, is celebrated by 
+ sports fans across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/polar-bear-swim-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/polar-bear-swim-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:preakness-stakes-20270523@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:Preakness Stakes
+DESCRIPTION:Preakness Stakes\, observed on May 15\, is celebrated by sports
+  fans across the United States.\n\nhttps://todaycelebrates.com/holiday/pre
+ akness-stakes/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/preakness-stakes/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:snowplow-mailbox-hockey-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Snowplow Mailbox Hockey Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Snowplow Mailbox Hockey Day\, observed on January 23\, is celeb
+ rated by sports fans across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/snowplow-mailbox-hockey-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/snowplow-mailbox-hockey-d
+ ay/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:super-bowl-sunday-20270214@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Super Bowl Sunday
+DESCRIPTION:Super Bowl Sunday is the day of the NFL's championship game. Th
+ e league schedules it each season rather than fixing it to a calendar date
+ \, so it moves from year to year.\n\nhttps://todaycelebrates.com/holiday/s
+ uper-bowl-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-bowl-sunday/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:swim-a-lap-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270625
+SUMMARY:Swim a Lap Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Swim a Lap Day\, observed on June 24\, is celebrated by sports 
+ fans across the United States.\n\nhttps://todaycelebrates.com/holiday/swim
+ -a-lap-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/swim-a-lap-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:u-s-bowling-league-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270904
+SUMMARY:U.S. Bowling League Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:U.S. Bowling League Day\, observed on September 3\, celebrates 
+ bowling league and the community of fans and players who keep it going acr
+ oss the United States.\n\nhttps://todaycelebrates.com/holiday/u-s-bowling-
+ league-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-bowling-league-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-snorkeling-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:World Snorkeling Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Snorkeling Day\, observed on July 30\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/world-snorkeling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-snorkeling-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-softball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:World Softball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Softball Day\, observed on June 13\, is celebrated by spo
+ rts fans across the United States.\n\nhttps://todaycelebrates.com/holiday/
+ world-softball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-softball-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sports-journalists-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:World Sports Journalists Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Sports Journalists Day\, observed on July 2\, is celebrat
+ ed by sports fans across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/world-sports-journalists-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sports-journalists-
+ day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-table-tennis-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:World Table Tennis Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Table Tennis Day\, observed on April 6\, is celebrated by
+  sports fans across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/world-table-tennis-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-table-tennis-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-trick-shot-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:World Trick Shot Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Trick Shot Day\, observed on December 1\, is celebrated b
+ y sports fans across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/world-trick-shot-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-trick-shot-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

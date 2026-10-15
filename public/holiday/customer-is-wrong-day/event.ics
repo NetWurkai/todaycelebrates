@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Customer is Wrong Day
+X-WR-CALNAME:Customer is Wrong Day
+DESCRIPTION:Customer is Wrong Day — https://todaycelebrates.com/holiday/c
+ ustomer-is-wrong-day/
+X-WR-CALDESC:Customer is Wrong Day — https://todaycelebrates.com/holiday/
+ customer-is-wrong-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/customer-is-wrong-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/customer-is-wrong-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:customer-is-wrong-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Customer is Wrong Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Customer is Wrong Day\, observed on November 29\, is a lighthea
+ rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/customer-is-wrong-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/customer-is-wrong-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

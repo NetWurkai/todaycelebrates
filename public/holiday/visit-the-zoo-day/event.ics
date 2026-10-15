@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Visit the Zoo Day
+X-WR-CALNAME:Visit the Zoo Day
+DESCRIPTION:Visit the Zoo Day — https://todaycelebrates.com/holiday/visit
+ -the-zoo-day/
+X-WR-CALDESC:Visit the Zoo Day — https://todaycelebrates.com/holiday/visi
+ t-the-zoo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/visit-the-zoo-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/visit-the-zoo-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:visit-the-zoo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Visit the Zoo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Visit the Zoo Day is a nature-focused observance on December 27
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ visit-the-zoo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/visit-the-zoo-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

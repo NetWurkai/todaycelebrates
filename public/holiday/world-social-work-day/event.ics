@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Social Work Day
+X-WR-CALNAME:World Social Work Day
+DESCRIPTION:World Social Work Day — https://todaycelebrates.com/holiday/w
+ orld-social-work-day/
+X-WR-CALDESC:World Social Work Day — https://todaycelebrates.com/holiday/
+ world-social-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-social-work-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-social-work-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-social-work-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:World Social Work Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Social Work Day\, observed on March 16\, encourages peopl
+ e across the United States to pause and recognize the people and causes be
+ hind the day.\n\nhttps://todaycelebrates.com/holiday/world-social-work-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-social-work-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Tuba Day
+X-WR-CALNAME:International Tuba Day
+DESCRIPTION:International Tuba Day — https://todaycelebrates.com/holiday/
+ international-tuba-day/
+X-WR-CALDESC:International Tuba Day — https://todaycelebrates.com/holiday
+ /international-tuba-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tuba-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-tuba-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-tuba-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:International Tuba Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Tuba Day is a music-focused observance on May 7\,
+  celebrated by fans across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/international-tuba-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tuba-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

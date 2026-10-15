@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Liqueur Day
+X-WR-CALNAME:National Liqueur Day
+DESCRIPTION:National Liqueur Day — https://todaycelebrates.com/holiday/na
+ tional-liqueur-day/
+X-WR-CALDESC:National Liqueur Day — https://todaycelebrates.com/holiday/n
+ ational-liqueur-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-liqueur-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-liqueur-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-liqueur-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:National Liqueur Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 16\, National Liqueur Day gives people across the Un
+ ited States one more reason to mark the day and celebrate liqueur.\n\nhttp
+ s://todaycelebrates.com/holiday/national-liqueur-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-liqueur-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

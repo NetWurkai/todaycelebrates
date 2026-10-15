@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pizza with the Works Except Anchovies Day
+X-WR-CALNAME:National Pizza with the Works Except Anchovies Day
+DESCRIPTION:National Pizza with the Works Except Anchovies Day — https://
+ todaycelebrates.com/holiday/national-pizza-with-the-works-except-anchovies
+ -day/
+X-WR-CALDESC:National Pizza with the Works Except Anchovies Day — https:/
+ /todaycelebrates.com/holiday/national-pizza-with-the-works-except-anchovie
+ s-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pizza-with-the-w
+ orks-except-anchovies-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pizza-with-th
+ e-works-except-anchovies-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pizza-with-the-works-except-anchovies-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:National Pizza with the Works Except Anchovies Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pizza with the Works Except Anchovies Day is a food-fo
+ cused observance celebrated across the United States on November 12\, givi
+ ng fans of the dish or ingredient an excuse to seek it out and share it wi
+ th others.\n\nhttps://todaycelebrates.com/holiday/national-pizza-with-the-
+ works-except-anchovies-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pizza-with-the-w
+ orks-except-anchovies-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

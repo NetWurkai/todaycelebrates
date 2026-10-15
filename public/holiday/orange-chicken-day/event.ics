@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Orange Chicken Day
+X-WR-CALNAME:Orange Chicken Day
+DESCRIPTION:Orange Chicken Day — https://todaycelebrates.com/holiday/oran
+ ge-chicken-day/
+X-WR-CALDESC:Orange Chicken Day — https://todaycelebrates.com/holiday/ora
+ nge-chicken-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/orange-chicken-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/orange-chicken-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:orange-chicken-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:Orange Chicken Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Orange Chicken Day is a food-focused observance celebrated acro
+ ss the United States on July 15\, giving fans of the dish or ingredient an
+  excuse to seek it out and share it with others.\n\nhttps://todaycelebrate
+ s.com/holiday/orange-chicken-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/orange-chicken-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cereal Day
+X-WR-CALNAME:National Cereal Day
+DESCRIPTION:National Cereal Day — https://todaycelebrates.com/holiday/nat
+ ional-cereal-day/
+X-WR-CALDESC:National Cereal Day — https://todaycelebrates.com/holiday/na
+ tional-cereal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cereal-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cereal-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cereal-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:National Cereal Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cereal Day is a food-focused observance celebrated acr
+ oss the United States on March 7\, giving fans of the dish or ingredient a
+ n excuse to seek it out and share it with others.\n\nhttps://todaycelebrat
+ es.com/holiday/national-cereal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cereal-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

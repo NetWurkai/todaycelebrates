@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Atomic Veterans Day
+X-WR-CALNAME:National Atomic Veterans Day
+DESCRIPTION:National Atomic Veterans Day — https://todaycelebrates.com/ho
+ liday/national-atomic-veterans-day/
+X-WR-CALDESC:National Atomic Veterans Day — https://todaycelebrates.com/h
+ oliday/national-atomic-veterans-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-atomic-veterans-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-atomic-vetera
+ ns-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-atomic-veterans-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:National Atomic Veterans Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Atomic Veterans Day\, observed on July 16\, encourages
+  people across the United States to pause and recognize the people and cau
+ ses behind the day.\n\nhttps://todaycelebrates.com/holiday/national-atomic
+ -veterans-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-atomic-veterans-
+ day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

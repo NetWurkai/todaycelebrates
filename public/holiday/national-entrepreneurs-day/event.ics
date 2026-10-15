@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Entrepreneurs' Day
+X-WR-CALNAME:National Entrepreneurs' Day
+DESCRIPTION:National Entrepreneurs' Day — https://todaycelebrates.com/hol
+ iday/national-entrepreneurs-day/
+X-WR-CALDESC:National Entrepreneurs' Day — https://todaycelebrates.com/ho
+ liday/national-entrepreneurs-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-entrepreneurs-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-entrepreneurs
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-entrepreneurs-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:National Entrepreneurs' Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Entrepreneurs' Day\, observed on November 17\, is a li
+ ghthearted holiday celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/national-entrepreneurs-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-entrepreneurs-da
+ y/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Hug Your Hound Day
+X-WR-CALNAME:National Hug Your Hound Day
+DESCRIPTION:National Hug Your Hound Day — https://todaycelebrates.com/hol
+ iday/national-hug-your-hound-day/
+X-WR-CALDESC:National Hug Your Hound Day — https://todaycelebrates.com/ho
+ liday/national-hug-your-hound-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hug-your-hound-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-hug-your-houn
+ d-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-hug-your-hound-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270914
+SUMMARY:National Hug Your Hound Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hug Your Hound Day is celebrated across the United Sta
+ tes on September 13\, honoring dogs and the bond they share with the peopl
+ e who love them.\n\nhttps://todaycelebrates.com/holiday/national-hug-your-
+ hound-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hug-your-hound-d
+ ay/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

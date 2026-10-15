@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Ambrosia Day
+X-WR-CALNAME:National Ambrosia Day
+DESCRIPTION:National Ambrosia Day — https://todaycelebrates.com/holiday/n
+ ational-ambrosia-day/
+X-WR-CALDESC:National Ambrosia Day — https://todaycelebrates.com/holiday/
+ national-ambrosia-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ambrosia-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-ambrosia-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-ambrosia-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:National Ambrosia Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Ambrosia Day is a food-focused observance celebrated a
+ cross the United States on December 12\, giving fans of the dish or ingred
+ ient an excuse to seek it out and share it with others.\n\nhttps://todayce
+ lebrates.com/holiday/national-ambrosia-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ambrosia-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

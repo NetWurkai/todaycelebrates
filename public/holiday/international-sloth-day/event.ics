@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Sloth Day
+X-WR-CALNAME:International Sloth Day
+DESCRIPTION:International Sloth Day — https://todaycelebrates.com/holiday
+ /international-sloth-day/
+X-WR-CALDESC:International Sloth Day — https://todaycelebrates.com/holida
+ y/international-sloth-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-sloth-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-sloth-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-sloth-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:International Sloth Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 17\, International Sloth Day gives people around the
+  world one more reason to mark the day and celebrate sloth.\n\nhttps://tod
+ aycelebrates.com/holiday/international-sloth-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-sloth-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

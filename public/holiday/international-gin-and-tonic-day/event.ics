@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Gin and Tonic Day
+X-WR-CALNAME:International Gin and Tonic Day
+DESCRIPTION:International Gin and Tonic Day — https://todaycelebrates.com
+ /holiday/international-gin-and-tonic-day/
+X-WR-CALDESC:International Gin and Tonic Day — https://todaycelebrates.co
+ m/holiday/international-gin-and-tonic-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-gin-and-ton
+ ic-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-gin-and-
+ tonic-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-gin-and-tonic-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:International Gin and Tonic Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Gin and Tonic Day is observed around the world on
+  October 19\, a small but fun addition to the calendar worth celebrating i
+ n its own way.\n\nhttps://todaycelebrates.com/holiday/international-gin-an
+ d-tonic-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-gin-and-ton
+ ic-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

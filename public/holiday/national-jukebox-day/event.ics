@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Jukebox Day
+X-WR-CALNAME:National Jukebox Day
+DESCRIPTION:National Jukebox Day — https://todaycelebrates.com/holiday/na
+ tional-jukebox-day/
+X-WR-CALDESC:National Jukebox Day — https://todaycelebrates.com/holiday/n
+ ational-jukebox-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-jukebox-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-jukebox-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-jukebox-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:National Jukebox Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Jukebox Day is a music-focused observance on November 
+ 25\, celebrated by fans across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/national-jukebox-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-jukebox-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

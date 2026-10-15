@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Christmas Day
+X-WR-CALNAME:Christmas Day
+DESCRIPTION:Christmas Day — https://todaycelebrates.com/holiday/christmas
+ -day/
+X-WR-CALDESC:Christmas Day — https://todaycelebrates.com/holiday/christma
+ s-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/christmas-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/christmas-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:christmas-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Christmas Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Christmas Day falls on December 25 and is at once a Christian f
+ east marking the birth of Jesus and the largest secular holiday on the Ame
+ rican calendar. Almost nothing about how Americans keep it is as old as it
+  feels: the date was settled by argument rather than record\, the tree rea
+ ched the English-speaking world from Germany by way of the British court\,
+  and the Santa Claus on the wrapping paper was assembled over fifty-eight 
+ years by a New York poet\, a political cartoonist\, and an advertising art
+ ist.\n\nhttps://todaycelebrates.com/holiday/christmas-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/christmas-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

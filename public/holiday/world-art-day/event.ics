@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Art Day
+X-WR-CALNAME:World Art Day
+DESCRIPTION:World Art Day — https://todaycelebrates.com/holiday/world-art
+ -day/
+X-WR-CALDESC:World Art Day — https://todaycelebrates.com/holiday/world-ar
+ t-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-art-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-art-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-art-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:World Art Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Art Day\, observed on April 15\, is a lighthearted holida
+ y celebrated across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/world-art-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-art-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

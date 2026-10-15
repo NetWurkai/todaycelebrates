@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Global Garbage Man Day
+X-WR-CALNAME:Global Garbage Man Day
+DESCRIPTION:Global Garbage Man Day — https://todaycelebrates.com/holiday/
+ global-garbage-man-day/
+X-WR-CALDESC:Global Garbage Man Day — https://todaycelebrates.com/holiday
+ /global-garbage-man-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-garbage-man-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/global-garbage-man-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:global-garbage-man-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+SUMMARY:Global Garbage Man Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Garbage Man Day\, observed on June 17\, encourages peopl
+ e across the United States to pause and recognize the people and causes be
+ hind the day.\n\nhttps://todaycelebrates.com/holiday/global-garbage-man-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-garbage-man-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

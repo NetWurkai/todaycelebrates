@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Measure Your Feet Day
+X-WR-CALNAME:Measure Your Feet Day
+DESCRIPTION:Measure Your Feet Day — https://todaycelebrates.com/holiday/m
+ easure-your-feet-day/
+X-WR-CALDESC:Measure Your Feet Day — https://todaycelebrates.com/holiday/
+ measure-your-feet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/measure-your-feet-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/measure-your-feet-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:measure-your-feet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Measure Your Feet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Measure Your Feet Day\, observed on January 23\, is a lighthear
+ ted\, family-friendly day celebrated across the United States.\n\nhttps://
+ todaycelebrates.com/holiday/measure-your-feet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/measure-your-feet-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

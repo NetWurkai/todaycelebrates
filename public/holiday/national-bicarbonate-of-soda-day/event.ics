@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bicarbonate of Soda Day
+X-WR-CALNAME:National Bicarbonate of Soda Day
+DESCRIPTION:National Bicarbonate of Soda Day — https://todaycelebrates.co
+ m/holiday/national-bicarbonate-of-soda-day/
+X-WR-CALDESC:National Bicarbonate of Soda Day — https://todaycelebrates.c
+ om/holiday/national-bicarbonate-of-soda-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bicarbonate-of-s
+ oda-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bicarbonate-o
+ f-soda-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bicarbonate-of-soda-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:National Bicarbonate of Soda Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bicarbonate of Soda Day is a food-focused observance c
+ elebrated across the United States on December 30\, giving fans of the dis
+ h or ingredient an excuse to seek it out and share it with others.\n\nhttp
+ s://todaycelebrates.com/holiday/national-bicarbonate-of-soda-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bicarbonate-of-s
+ oda-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

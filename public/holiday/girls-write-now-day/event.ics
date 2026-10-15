@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Girls Write Now Day
+X-WR-CALNAME:Girls Write Now Day
+DESCRIPTION:Girls Write Now Day — https://todaycelebrates.com/holiday/gir
+ ls-write-now-day/
+X-WR-CALDESC:Girls Write Now Day — https://todaycelebrates.com/holiday/gi
+ rls-write-now-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/girls-write-now-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/girls-write-now-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:girls-write-now-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Girls Write Now Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Girls Write Now Day is a reading- and writing-focused observanc
+ e on March 8\, celebrated by book lovers across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/girls-write-now-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/girls-write-now-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

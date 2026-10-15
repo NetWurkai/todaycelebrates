@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Country Music Day
+X-WR-CALNAME:National Country Music Day
+DESCRIPTION:National Country Music Day — https://todaycelebrates.com/holi
+ day/national-country-music-day/
+X-WR-CALDESC:National Country Music Day — https://todaycelebrates.com/hol
+ iday/national-country-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-country-music-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-country-music
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-country-music-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+SUMMARY:National Country Music Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Country Music Day is a music-focused observance on Jul
+ y 4\, celebrated by fans across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/national-country-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-country-music-da
+ y/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

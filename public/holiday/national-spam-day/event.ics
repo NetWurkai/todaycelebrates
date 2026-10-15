@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National SPAM Day
+X-WR-CALNAME:National SPAM Day
+DESCRIPTION:National SPAM Day — https://todaycelebrates.com/holiday/natio
+ nal-spam-day/
+X-WR-CALDESC:National SPAM Day — https://todaycelebrates.com/holiday/nati
+ onal-spam-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-spam-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-spam-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-spam-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:National SPAM Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National SPAM Day is a food-focused observance celebrated acros
+ s the United States on July 31\, giving fans of the dish or ingredient an 
+ excuse to seek it out and share it with others.\n\nhttps://todaycelebrates
+ .com/holiday/national-spam-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-spam-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

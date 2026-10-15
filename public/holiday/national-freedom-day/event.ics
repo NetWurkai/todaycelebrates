@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Freedom Day
+X-WR-CALNAME:National Freedom Day
+DESCRIPTION:National Freedom Day — https://todaycelebrates.com/holiday/na
+ tional-freedom-day/
+X-WR-CALDESC:National Freedom Day — https://todaycelebrates.com/holiday/n
+ ational-freedom-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-freedom-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-freedom-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-freedom-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:National Freedom Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Freedom Day\, observed on February 1\, encourages peop
+ le across the United States to pause and recognize the people and causes b
+ ehind the day.\n\nhttps://todaycelebrates.com/holiday/national-freedom-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-freedom-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

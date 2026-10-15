@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Data Privacy Day
+X-WR-CALNAME:Data Privacy Day
+DESCRIPTION:Data Privacy Day — https://todaycelebrates.com/holiday/data-p
+ rivacy-day/
+X-WR-CALDESC:Data Privacy Day — https://todaycelebrates.com/holiday/data-
+ privacy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/data-privacy-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/data-privacy-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:data-privacy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Data Privacy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Data Privacy Day\, observed on January 28\, celebrates a piece 
+ of technology or digital culture that's become part of everyday life acros
+ s the United States.\n\nhttps://todaycelebrates.com/holiday/data-privacy-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/data-privacy-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

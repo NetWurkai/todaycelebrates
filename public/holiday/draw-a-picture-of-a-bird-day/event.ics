@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Draw a Picture of a Bird Day
+X-WR-CALNAME:Draw a Picture of a Bird Day
+DESCRIPTION:Draw a Picture of a Bird Day — https://todaycelebrates.com/ho
+ liday/draw-a-picture-of-a-bird-day/
+X-WR-CALDESC:Draw a Picture of a Bird Day — https://todaycelebrates.com/h
+ oliday/draw-a-picture-of-a-bird-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/draw-a-picture-of-a-bird-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/draw-a-picture-of-a-bi
+ rd-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:draw-a-picture-of-a-bird-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:Draw a Picture of a Bird Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Draw a Picture of a Bird Day\, observed on April 8\, is a light
+ hearted\, family-friendly day celebrated across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/draw-a-picture-of-a-bird-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/draw-a-picture-of-a-bird-
+ day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

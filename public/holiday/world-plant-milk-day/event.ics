@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Plant Milk Day
+X-WR-CALNAME:World Plant Milk Day
+DESCRIPTION:World Plant Milk Day — https://todaycelebrates.com/holiday/wo
+ rld-plant-milk-day/
+X-WR-CALDESC:World Plant Milk Day — https://todaycelebrates.com/holiday/w
+ orld-plant-milk-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-plant-milk-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-plant-milk-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-plant-milk-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270822
+DTEND;VALUE=DATE:20270823
+SUMMARY:World Plant Milk Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Plant Milk Day is a food-focused observance celebrated ac
+ ross the United States on August 22\, giving fans of the dish or ingredien
+ t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
+ rates.com/holiday/world-plant-milk-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-plant-milk-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

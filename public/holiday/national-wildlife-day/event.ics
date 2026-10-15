@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Wildlife Day
+X-WR-CALNAME:National Wildlife Day
+DESCRIPTION:National Wildlife Day — https://todaycelebrates.com/holiday/n
+ ational-wildlife-day/
+X-WR-CALDESC:National Wildlife Day — https://todaycelebrates.com/holiday/
+ national-wildlife-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wildlife-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-wildlife-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-wildlife-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:National Wildlife Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Wildlife Day falls on September 4 and celebrates wildl
+ ife\, drawing attention across the United States to the natural world and 
+ our place in it.\n\nhttps://todaycelebrates.com/holiday/national-wildlife-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wildlife-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

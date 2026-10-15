@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Fish Taco Day
+X-WR-CALNAME:National Fish Taco Day
+DESCRIPTION:National Fish Taco Day — https://todaycelebrates.com/holiday/
+ national-fish-taco-day/
+X-WR-CALDESC:National Fish Taco Day — https://todaycelebrates.com/holiday
+ /national-fish-taco-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fish-taco-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-fish-taco-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-fish-taco-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:National Fish Taco Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Fish Taco Day is a food-focused observance celebrated 
+ across the United States on January 25\, giving fans of the dish or ingred
+ ient an excuse to seek it out and share it with others.\n\nhttps://todayce
+ lebrates.com/holiday/national-fish-taco-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fish-taco-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

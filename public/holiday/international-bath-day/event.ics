@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Bath Day
+X-WR-CALNAME:International Bath Day
+DESCRIPTION:International Bath Day — https://todaycelebrates.com/holiday/
+ international-bath-day/
+X-WR-CALDESC:International Bath Day — https://todaycelebrates.com/holiday
+ /international-bath-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-bath-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-bath-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-bath-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+SUMMARY:International Bath Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Bath Day\, observed on June 14\, is a lighthearte
+ d\, family-friendly day celebrated across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/international-bath-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-bath-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

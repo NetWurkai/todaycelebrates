@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Lima Bean Respect Day
+X-WR-CALNAME:Lima Bean Respect Day
+DESCRIPTION:Lima Bean Respect Day — https://todaycelebrates.com/holiday/l
+ ima-bean-respect-day/
+X-WR-CALDESC:Lima Bean Respect Day — https://todaycelebrates.com/holiday/
+ lima-bean-respect-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lima-bean-respect-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/lima-bean-respect-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:lima-bean-respect-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Lima Bean Respect Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Lima Bean Respect Day is a food-focused observance celebrated a
+ cross the United States on April 20\, giving fans of the dish or ingredien
+ t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
+ rates.com/holiday/lima-bean-respect-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lima-bean-respect-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Color Book Day
+X-WR-CALNAME:Color Book Day
+DESCRIPTION:Color Book Day — https://todaycelebrates.com/holiday/color-bo
+ ok-day/
+X-WR-CALDESC:Color Book Day — https://todaycelebrates.com/holiday/color-b
+ ook-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/color-book-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/color-book-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:color-book-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:Color Book Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Color Book Day\, observed on August 14\, is a lighthearted\, fa
+ mily-friendly day celebrated across the United States.\n\nhttps://todaycel
+ ebrates.com/holiday/color-book-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/color-book-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

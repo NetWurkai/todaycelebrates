@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Zucchini Day
+X-WR-CALNAME:National Zucchini Day
+DESCRIPTION:National Zucchini Day — https://todaycelebrates.com/holiday/n
+ ational-zucchini-day/
+X-WR-CALDESC:National Zucchini Day — https://todaycelebrates.com/holiday/
+ national-zucchini-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-zucchini-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-zucchini-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-zucchini-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+SUMMARY:National Zucchini Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Zucchini Day is a food-focused observance celebrated a
+ cross the United States on August 8\, giving fans of the dish or ingredien
+ t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
+ rates.com/holiday/national-zucchini-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-zucchini-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

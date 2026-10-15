@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Professional House Cleaners Day
+X-WR-CALNAME:National Professional House Cleaners Day
+DESCRIPTION:National Professional House Cleaners Day — https://todayceleb
+ rates.com/holiday/national-professional-house-cleaners-day/
+X-WR-CALDESC:National Professional House Cleaners Day — https://todaycele
+ brates.com/holiday/national-professional-house-cleaners-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-professional-hou
+ se-cleaners-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-professional-
+ house-cleaners-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-professional-house-cleaners-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270917
+DTEND;VALUE=DATE:20270918
+SUMMARY:National Professional House Cleaners Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 17\, National Professional House Cleaners Day give
+ s people across the United States one more reason to mark the day and cele
+ brate professional house cleaners.\n\nhttps://todaycelebrates.com/holiday/
+ national-professional-house-cleaners-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-professional-hou
+ se-cleaners-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

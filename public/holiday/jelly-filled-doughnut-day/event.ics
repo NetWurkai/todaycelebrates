@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Jelly-Filled Doughnut Day
+X-WR-CALNAME:Jelly-Filled Doughnut Day
+DESCRIPTION:Jelly-Filled Doughnut Day — https://todaycelebrates.com/holid
+ ay/jelly-filled-doughnut-day/
+X-WR-CALDESC:Jelly-Filled Doughnut Day — https://todaycelebrates.com/holi
+ day/jelly-filled-doughnut-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/jelly-filled-doughnut-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/jelly-filled-doughnut-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:jelly-filled-doughnut-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:Jelly-Filled Doughnut Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Jelly-Filled Doughnut Day is a food-focused observance celebrat
+ ed across the United States on June 8\, giving fans of the dish or ingredi
+ ent an excuse to seek it out and share it with others.\n\nhttps://todaycel
+ ebrates.com/holiday/jelly-filled-doughnut-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/jelly-filled-doughnut-day
+ /
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

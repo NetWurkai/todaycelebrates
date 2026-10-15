@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Play in the Sand Day
+X-WR-CALNAME:Play in the Sand Day
+DESCRIPTION:Play in the Sand Day — https://todaycelebrates.com/holiday/pl
+ ay-in-the-sand-day/
+X-WR-CALDESC:Play in the Sand Day — https://todaycelebrates.com/holiday/p
+ lay-in-the-sand-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/play-in-the-sand-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/play-in-the-sand-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:play-in-the-sand-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:Play in the Sand Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Play in the Sand Day\, observed on August 11\, is a lighthearte
+ d\, family-friendly day celebrated across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/play-in-the-sand-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/play-in-the-sand-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day for the Elimination of Racial Discrimination
+X-WR-CALNAME:International Day for the Elimination of Racial Discrimination
+DESCRIPTION:International Day for the Elimination of Racial Discrimination 
+ — https://todaycelebrates.com/holiday/international-day-for-the-eliminat
+ ion-of-racial-discrimination/
+X-WR-CALDESC:International Day for the Elimination of Racial Discrimination
+  — https://todaycelebrates.com/holiday/international-day-for-the-elimina
+ tion-of-racial-discrimination/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-the
+ -elimination-of-racial-discrimination/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-
+ the-elimination-of-racial-discrimination/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-for-the-elimination-of-racial-discrimination@todaycel
+ ebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:International Day for the Elimination of Racial Discrimination
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day for the Elimination of Racial Discrimination\
+ , observed on March 21\, encourages people across the United States to pau
+ se and recognize the people and causes behind the day.\n\nhttps://todaycel
+ ebrates.com/holiday/international-day-for-the-elimination-of-racial-discri
+ mination/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-the
+ -elimination-of-racial-discrimination/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

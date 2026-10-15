@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Look Up at the Sky Day
+X-WR-CALNAME:Look Up at the Sky Day
+DESCRIPTION:Look Up at the Sky Day — https://todaycelebrates.com/holiday/
+ look-up-at-the-sky-day/
+X-WR-CALDESC:Look Up at the Sky Day — https://todaycelebrates.com/holiday
+ /look-up-at-the-sky-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/look-up-at-the-sky-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/look-up-at-the-sky-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:look-up-at-the-sky-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:Look Up at the Sky Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Look Up at the Sky Day is a nature-focused observance on April 
+ 14\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/look-up-at-the-sky-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/look-up-at-the-sky-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

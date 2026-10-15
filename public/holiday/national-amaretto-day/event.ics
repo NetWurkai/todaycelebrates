@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Amaretto Day
+X-WR-CALNAME:National Amaretto Day
+DESCRIPTION:National Amaretto Day — https://todaycelebrates.com/holiday/n
+ ational-amaretto-day/
+X-WR-CALDESC:National Amaretto Day — https://todaycelebrates.com/holiday/
+ national-amaretto-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-amaretto-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-amaretto-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-amaretto-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:National Amaretto Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Amaretto Day is a drinks-focused observance on April 1
+ 9\, celebrated by beer and craft-brewery fans across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/national-amaretto-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-amaretto-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

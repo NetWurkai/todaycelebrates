@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Stupid Toy Day
+X-WR-CALNAME:Stupid Toy Day
+DESCRIPTION:Stupid Toy Day — https://todaycelebrates.com/holiday/stupid-t
+ oy-day/
+X-WR-CALDESC:Stupid Toy Day — https://todaycelebrates.com/holiday/stupid-
+ toy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stupid-toy-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/stupid-toy-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:stupid-toy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Stupid Toy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Stupid Toy Day\, observed on December 16\, is a lighthearted\, 
+ family-friendly day celebrated across the United States.\n\nhttps://todayc
+ elebrates.com/holiday/stupid-toy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stupid-toy-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

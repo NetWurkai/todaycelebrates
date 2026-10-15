@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Coaches Day
+X-WR-CALNAME:National Coaches Day
+DESCRIPTION:National Coaches Day — https://todaycelebrates.com/holiday/na
+ tional-coaches-day/
+X-WR-CALDESC:National Coaches Day — https://todaycelebrates.com/holiday/n
+ ational-coaches-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coaches-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-coaches-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-coaches-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271006
+DTEND;VALUE=DATE:20271007
+SUMMARY:National Coaches Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 6\, National Coaches Day gives people across the Uni
+ ted States one more reason to mark the day and celebrate coaches.\n\nhttps
+ ://todaycelebrates.com/holiday/national-coaches-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coaches-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

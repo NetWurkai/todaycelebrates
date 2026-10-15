@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Take Back Your Time Day
+X-WR-CALNAME:Take Back Your Time Day
+DESCRIPTION:Take Back Your Time Day — https://todaycelebrates.com/holiday
+ /take-back-your-time-day/
+X-WR-CALDESC:Take Back Your Time Day — https://todaycelebrates.com/holida
+ y/take-back-your-time-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-back-your-time-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/take-back-your-time-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:take-back-your-time-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Take Back Your Time Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 24\, Take Back Your Time Day gives people across the
+  United States one more reason to mark the day and celebrate take back you
+ r time.\n\nhttps://todaycelebrates.com/holiday/take-back-your-time-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-back-your-time-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

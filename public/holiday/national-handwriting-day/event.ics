@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Handwriting Day
+X-WR-CALNAME:National Handwriting Day
+DESCRIPTION:National Handwriting Day — https://todaycelebrates.com/holida
+ y/national-handwriting-day/
+X-WR-CALDESC:National Handwriting Day — https://todaycelebrates.com/holid
+ ay/national-handwriting-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-handwriting-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-handwriting-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-handwriting-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:National Handwriting Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Handwriting Day is a reading- and writing-focused obse
+ rvance on January 23\, celebrated by book lovers across the United States.
+ \n\nhttps://todaycelebrates.com/holiday/national-handwriting-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-handwriting-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

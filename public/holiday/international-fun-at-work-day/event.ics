@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Fun at Work Day
+X-WR-CALNAME:International Fun at Work Day
+DESCRIPTION:International Fun at Work Day — https://todaycelebrates.com/h
+ oliday/international-fun-at-work-day/
+X-WR-CALDESC:International Fun at Work Day — https://todaycelebrates.com/
+ holiday/international-fun-at-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-fun-at-work
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-fun-at-w
+ ork-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-fun-at-work-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:International Fun at Work Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Fun at Work Day\, observed on April 1\, is a ligh
+ thearted holiday celebrated across the United States.\n\nhttps://todaycele
+ brates.com/holiday/international-fun-at-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-fun-at-work
+ -day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Carve a Pumpkin Day
+X-WR-CALNAME:Carve a Pumpkin Day
+DESCRIPTION:Carve a Pumpkin Day — https://todaycelebrates.com/holiday/car
+ ve-a-pumpkin-day/
+X-WR-CALDESC:Carve a Pumpkin Day — https://todaycelebrates.com/holiday/ca
+ rve-a-pumpkin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/carve-a-pumpkin-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/carve-a-pumpkin-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:carve-a-pumpkin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Carve a Pumpkin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Carve a Pumpkin Day is one of the spookier stops on the October
+  calendar\, celebrated on October 31 in the run-up to Halloween.\n\nhttps:
+ //todaycelebrates.com/holiday/carve-a-pumpkin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/carve-a-pumpkin-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Irish Coffee Day
+X-WR-CALNAME:National Irish Coffee Day
+DESCRIPTION:National Irish Coffee Day — https://todaycelebrates.com/holid
+ ay/national-irish-coffee-day/
+X-WR-CALDESC:National Irish Coffee Day — https://todaycelebrates.com/holi
+ day/national-irish-coffee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-irish-coffee-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-irish-coffee-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-irish-coffee-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:National Irish Coffee Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Irish Coffee Day\, observed on January 25\, is celebra
+ ted by coffee lovers across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/national-irish-coffee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-irish-coffee-day
+ /
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

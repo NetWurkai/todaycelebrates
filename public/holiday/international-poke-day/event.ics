@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Poke Day
+X-WR-CALNAME:International Poke Day
+DESCRIPTION:International Poke Day — https://todaycelebrates.com/holiday/
+ international-poke-day/
+X-WR-CALDESC:International Poke Day — https://todaycelebrates.com/holiday
+ /international-poke-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-poke-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-poke-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-poke-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+SUMMARY:International Poke Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Poke Day is observed around the world on Septembe
+ r 28\, a small but fun addition to the calendar worth celebrating in its o
+ wn way.\n\nhttps://todaycelebrates.com/holiday/international-poke-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-poke-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

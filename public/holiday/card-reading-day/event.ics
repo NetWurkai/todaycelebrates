@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Card Reading Day
+X-WR-CALNAME:Card Reading Day
+DESCRIPTION:Card Reading Day — https://todaycelebrates.com/holiday/card-r
+ eading-day/
+X-WR-CALDESC:Card Reading Day — https://todaycelebrates.com/holiday/card-
+ reading-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/card-reading-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/card-reading-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:card-reading-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Card Reading Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Card Reading Day\, observed on February 21\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/card-reading-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/card-reading-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

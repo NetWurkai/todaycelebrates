@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Letter Writing Day
+X-WR-CALNAME:Letter Writing Day
+DESCRIPTION:Letter Writing Day — https://todaycelebrates.com/holiday/lett
+ er-writing-day/
+X-WR-CALDESC:Letter Writing Day — https://todaycelebrates.com/holiday/let
+ ter-writing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/letter-writing-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/letter-writing-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:letter-writing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Letter Writing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Letter Writing Day is a reading- and writing-focused observance
+  on December 7\, celebrated by book lovers across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/letter-writing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/letter-writing-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World School Milk Day
+X-WR-CALNAME:World School Milk Day
+DESCRIPTION:World School Milk Day — https://todaycelebrates.com/holiday/w
+ orld-school-milk-day/
+X-WR-CALDESC:World School Milk Day — https://todaycelebrates.com/holiday/
+ world-school-milk-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-school-milk-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-school-milk-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-school-milk-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:World School Milk Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World School Milk Day\, observed around the globe on September 
+ 30\, celebrates school milk and the role it plays in family life.\n\nhttps
+ ://todaycelebrates.com/holiday/world-school-milk-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-school-milk-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

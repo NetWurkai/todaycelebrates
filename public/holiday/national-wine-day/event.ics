@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Wine Day
+X-WR-CALNAME:National Wine Day
+DESCRIPTION:National Wine Day — https://todaycelebrates.com/holiday/natio
+ nal-wine-day/
+X-WR-CALDESC:National Wine Day — https://todaycelebrates.com/holiday/nati
+ onal-wine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wine-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-wine-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-wine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:National Wine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Wine Day is a drinks-focused observance on May 25\, ce
+ lebrated by beer and craft-brewery fans across the United States.\n\nhttps
+ ://todaycelebrates.com/holiday/national-wine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wine-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

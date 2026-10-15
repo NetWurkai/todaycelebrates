@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Raspberry Tart Day
+X-WR-CALNAME:National Raspberry Tart Day
+DESCRIPTION:National Raspberry Tart Day — https://todaycelebrates.com/hol
+ iday/national-raspberry-tart-day/
+X-WR-CALDESC:National Raspberry Tart Day — https://todaycelebrates.com/ho
+ liday/national-raspberry-tart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-raspberry-tart-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-raspberry-tar
+ t-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-raspberry-tart-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:National Raspberry Tart Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Raspberry Tart Day is a food-focused observance celebr
+ ated across the United States on August 11\, giving fans of the dish or in
+ gredient an excuse to seek it out and share it with others.\n\nhttps://tod
+ aycelebrates.com/holiday/national-raspberry-tart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-raspberry-tart-d
+ ay/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

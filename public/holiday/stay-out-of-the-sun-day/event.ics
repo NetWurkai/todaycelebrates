@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Stay Out of the Sun Day
+X-WR-CALNAME:Stay Out of the Sun Day
+DESCRIPTION:Stay Out of the Sun Day — https://todaycelebrates.com/holiday
+ /stay-out-of-the-sun-day/
+X-WR-CALDESC:Stay Out of the Sun Day — https://todaycelebrates.com/holida
+ y/stay-out-of-the-sun-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stay-out-of-the-sun-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/stay-out-of-the-sun-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:stay-out-of-the-sun-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:Stay Out of the Sun Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Stay Out of the Sun Day\, observed on July 3\, encourages peopl
+ e across the United States to focus on health and wellbeing.\n\nhttps://to
+ daycelebrates.com/holiday/stay-out-of-the-sun-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stay-out-of-the-sun-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

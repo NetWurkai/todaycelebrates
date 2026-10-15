@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Gazpacho Day
+X-WR-CALNAME:National Gazpacho Day
+DESCRIPTION:National Gazpacho Day — https://todaycelebrates.com/holiday/n
+ ational-gazpacho-day/
+X-WR-CALDESC:National Gazpacho Day — https://todaycelebrates.com/holiday/
+ national-gazpacho-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gazpacho-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-gazpacho-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-gazpacho-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:National Gazpacho Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Gazpacho Day is a food-focused observance celebrated a
+ cross the United States on December 6\, giving fans of the dish or ingredi
+ ent an excuse to seek it out and share it with others.\n\nhttps://todaycel
+ ebrates.com/holiday/national-gazpacho-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gazpacho-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Mother Goose Day
+X-WR-CALNAME:Mother Goose Day
+DESCRIPTION:Mother Goose Day — https://todaycelebrates.com/holiday/mother
+ -goose-day/
+X-WR-CALDESC:Mother Goose Day — https://todaycelebrates.com/holiday/mothe
+ r-goose-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mother-goose-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/mother-goose-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mother-goose-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Mother Goose Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mother Goose Day\, observed on May 1\, is a lighthearted\, fami
+ ly-friendly day celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/mother-goose-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mother-goose-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

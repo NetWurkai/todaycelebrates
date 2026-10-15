@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Celiac Disease Awareness Day
+X-WR-CALNAME:National Celiac Disease Awareness Day
+DESCRIPTION:National Celiac Disease Awareness Day — https://todaycelebrat
+ es.com/holiday/national-celiac-disease-awareness-day/
+X-WR-CALDESC:National Celiac Disease Awareness Day — https://todaycelebra
+ tes.com/holiday/national-celiac-disease-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-celiac-disease-a
+ wareness-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-celiac-diseas
+ e-awareness-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-celiac-disease-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270914
+SUMMARY:National Celiac Disease Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Celiac Disease Awareness Day\, marked across the Unite
+ d States on September 13\, raises awareness around celiac disease awarenes
+ s and supports those affected by it.\n\nhttps://todaycelebrates.com/holida
+ y/national-celiac-disease-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-celiac-disease-a
+ wareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

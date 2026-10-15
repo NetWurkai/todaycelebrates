@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bring Your Teddy Bear To Work & School Day
+X-WR-CALNAME:Bring Your Teddy Bear To Work & School Day
+DESCRIPTION:Bring Your Teddy Bear To Work & School Day — https://todaycel
+ ebrates.com/holiday/bring-your-teddy-bear-to-work-and-school-day/
+X-WR-CALDESC:Bring Your Teddy Bear To Work & School Day — https://todayce
+ lebrates.com/holiday/bring-your-teddy-bear-to-work-and-school-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bring-your-teddy-bear-to-
+ work-and-school-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bring-your-teddy-bear-
+ to-work-and-school-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bring-your-teddy-bear-to-work-and-school-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+SUMMARY:Bring Your Teddy Bear To Work & School Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bring Your Teddy Bear To Work & School Day\, observed on Octobe
+ r 14\, is a day for reflection and small acts of kindness centered on brin
+ g your teddy bear to work & school\, celebrated across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/bring-your-teddy-bear-to-work-and-s
+ chool-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bring-your-teddy-bear-to-
+ work-and-school-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

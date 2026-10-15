@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bathtub Party Day
+X-WR-CALNAME:Bathtub Party Day
+DESCRIPTION:Bathtub Party Day — https://todaycelebrates.com/holiday/batht
+ ub-party-day/
+X-WR-CALDESC:Bathtub Party Day — https://todaycelebrates.com/holiday/bath
+ tub-party-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bathtub-party-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bathtub-party-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bathtub-party-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Bathtub Party Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bathtub Party Day\, observed on December 5\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/bathtub-party-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bathtub-party-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Tie One On Day
+X-WR-CALNAME:Tie One On Day
+DESCRIPTION:Tie One On Day — https://todaycelebrates.com/holiday/tie-one-
+ on-day/
+X-WR-CALDESC:Tie One On Day — https://todaycelebrates.com/holiday/tie-one
+ -on-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:tie-one-on-day-20261125@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Tie One On Day
+DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/tie-one-on-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tie-one-on-day-20271124@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271125
+SUMMARY:Tie One On Day
+DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/tie-one-on-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tie-one-on-day-20281122@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281122
+DTEND;VALUE=DATE:20281123
+SUMMARY:Tie One On Day
+DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/tie-one-on-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tie-one-on-day-20291121@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291121
+DTEND;VALUE=DATE:20291122
+SUMMARY:Tie One On Day
+DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/tie-one-on-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tie-one-on-day-20301127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301127
+DTEND;VALUE=DATE:20301128
+SUMMARY:Tie One On Day
+DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/tie-one-on-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tie-one-on-day-20311126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311126
+DTEND;VALUE=DATE:20311127
+SUMMARY:Tie One On Day
+DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/tie-one-on-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tie-one-on-day-20321124@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321124
+DTEND;VALUE=DATE:20321125
+SUMMARY:Tie One On Day
+DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/tie-one-on-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tie-one-on-day-20331123@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331123
+DTEND;VALUE=DATE:20331124
+SUMMARY:Tie One On Day
+DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/tie-one-on-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tie-one-on-day-20341122@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341122
+DTEND;VALUE=DATE:20341123
+SUMMARY:Tie One On Day
+DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/tie-one-on-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tie-one-on-day-20351121@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351121
+DTEND;VALUE=DATE:20351122
+SUMMARY:Tie One On Day
+DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/tie-one-on-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

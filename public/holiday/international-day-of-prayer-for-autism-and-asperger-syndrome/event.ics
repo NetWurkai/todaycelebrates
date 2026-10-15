@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day of Prayer for Autism and Asperger Syndrome
+X-WR-CALNAME:International Day of Prayer for Autism and Asperger Syndrome
+DESCRIPTION:International Day of Prayer for Autism and Asperger Syndrome 
+ — https://todaycelebrates.com/holiday/international-day-of-prayer-for-au
+ tism-and-asperger-syndrome/
+X-WR-CALDESC:International Day of Prayer for Autism and Asperger Syndrome 
+ — https://todaycelebrates.com/holiday/international-day-of-prayer-for-au
+ tism-and-asperger-syndrome/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-pray
+ er-for-autism-and-asperger-syndrome/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-p
+ rayer-for-autism-and-asperger-syndrome/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-of-prayer-for-autism-and-asperger-syndrome@todayceleb
+ rates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:International Day of Prayer for Autism and Asperger Syndrome
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day of Prayer for Autism and Asperger Syndrome\, 
+ observed on February 14\, encourages people across the United States to pa
+ use and recognize the people and causes behind the day.\n\nhttps://todayce
+ lebrates.com/holiday/international-day-of-prayer-for-autism-and-asperger-s
+ yndrome/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-pray
+ er-for-autism-and-asperger-syndrome/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

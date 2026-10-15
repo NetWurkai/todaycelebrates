@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Batik Day
+X-WR-CALNAME:National Batik Day
+DESCRIPTION:National Batik Day — https://todaycelebrates.com/holiday/nati
+ onal-batik-day/
+X-WR-CALDESC:National Batik Day — https://todaycelebrates.com/holiday/nat
+ ional-batik-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-batik-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-batik-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-batik-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:National Batik Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Batik Day is observed across the United States on Octo
+ ber 2\, a small but fun addition to the calendar worth celebrating in its 
+ own way.\n\nhttps://todaycelebrates.com/holiday/national-batik-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-batik-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

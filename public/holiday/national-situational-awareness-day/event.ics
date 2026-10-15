@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Situational Awareness Day
+X-WR-CALNAME:National Situational Awareness Day
+DESCRIPTION:National Situational Awareness Day — https://todaycelebrates.
+ com/holiday/national-situational-awareness-day/
+X-WR-CALDESC:National Situational Awareness Day — https://todaycelebrates
+ .com/holiday/national-situational-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-situational-awar
+ eness-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-situational-a
+ wareness-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-situational-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:National Situational Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 26\, National Situational Awareness Day encourages
+  people across the United States to pause and think about situational awar
+ eness — and to act on it in their own communities.\n\nhttps://todayceleb
+ rates.com/holiday/national-situational-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-situational-awar
+ eness-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

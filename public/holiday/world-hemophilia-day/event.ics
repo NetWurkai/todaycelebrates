@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Hemophilia Day
+X-WR-CALNAME:World Hemophilia Day
+DESCRIPTION:World Hemophilia Day — https://todaycelebrates.com/holiday/wo
+ rld-hemophilia-day/
+X-WR-CALDESC:World Hemophilia Day — https://todaycelebrates.com/holiday/w
+ orld-hemophilia-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-hemophilia-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-hemophilia-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-hemophilia-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:World Hemophilia Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Hemophilia Day\, observed on April 17\, encourages people
+  across the United States to focus on health and wellbeing.\n\nhttps://tod
+ aycelebrates.com/holiday/world-hemophilia-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-hemophilia-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

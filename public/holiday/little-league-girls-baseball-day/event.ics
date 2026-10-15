@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Little League Girls Baseball Day
+X-WR-CALNAME:Little League Girls Baseball Day
+DESCRIPTION:Little League Girls Baseball Day — https://todaycelebrates.co
+ m/holiday/little-league-girls-baseball-day/
+X-WR-CALDESC:Little League Girls Baseball Day — https://todaycelebrates.c
+ om/holiday/little-league-girls-baseball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/little-league-girls-baseb
+ all-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/little-league-girls-ba
+ seball-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:little-league-girls-baseball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Little League Girls Baseball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Little League Girls Baseball Day\, observed on June 12\, is cel
+ ebrated by sports fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/little-league-girls-baseball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/little-league-girls-baseb
+ all-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

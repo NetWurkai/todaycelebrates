@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Open That Bottle Night
+X-WR-CALNAME:Open That Bottle Night
+DESCRIPTION:Open That Bottle Night — https://todaycelebrates.com/holiday/
+ open-that-bottle-night/
+X-WR-CALDESC:Open That Bottle Night — https://todaycelebrates.com/holiday
+ /open-that-bottle-night/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/open-that-bottle-night/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/open-that-bottle-night
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:open-that-bottle-night@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:Open That Bottle Night
+RRULE:FREQ=YEARLY
+DESCRIPTION:Open That Bottle Night\, observed on February 27\, is a lighthe
+ arted holiday celebrated across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/open-that-bottle-night/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/open-that-bottle-night/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

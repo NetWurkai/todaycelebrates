@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:The First Day of Summer
+X-WR-CALNAME:The First Day of Summer
+DESCRIPTION:The First Day of Summer — https://todaycelebrates.com/holiday
+ /the-first-day-of-summer/
+X-WR-CALDESC:The First Day of Summer — https://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summe
+ r/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20270621@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20280620@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280620
+DTEND;VALUE=DATE:20280621
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20290620@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290620
+DTEND;VALUE=DATE:20290621
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20300621@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300621
+DTEND;VALUE=DATE:20300622
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20310621@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310621
+DTEND;VALUE=DATE:20310622
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20320620@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320620
+DTEND;VALUE=DATE:20320621
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20330620@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330620
+DTEND;VALUE=DATE:20330621
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20340621@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340621
+DTEND;VALUE=DATE:20340622
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20350621@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350621
+DTEND;VALUE=DATE:20350622
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

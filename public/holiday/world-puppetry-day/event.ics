@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Puppetry Day
+X-WR-CALNAME:World Puppetry Day
+DESCRIPTION:World Puppetry Day — https://todaycelebrates.com/holiday/worl
+ d-puppetry-day/
+X-WR-CALDESC:World Puppetry Day — https://todaycelebrates.com/holiday/wor
+ ld-puppetry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-puppetry-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-puppetry-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-puppetry-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:World Puppetry Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Puppetry Day\, observed on March 21\, is a lighthearted\,
+  family-friendly day celebrated across the United States.\n\nhttps://today
+ celebrates.com/holiday/world-puppetry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-puppetry-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

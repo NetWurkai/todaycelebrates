@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Take Your Child to the Library Day
+X-WR-CALNAME:Take Your Child to the Library Day
+DESCRIPTION:Take Your Child to the Library Day — https://todaycelebrates.
+ com/holiday/take-your-child-to-the-library-day/
+X-WR-CALDESC:Take Your Child to the Library Day — https://todaycelebrates
+ .com/holiday/take-your-child-to-the-library-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-your-child-to-the-li
+ brary-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/take-your-child-to-the
+ -library-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:take-your-child-to-the-library-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Take Your Child to the Library Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Take Your Child to the Library Day\, observed on February 6\, i
+ s a lighthearted\, family-friendly day celebrated across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/take-your-child-to-the-library-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-your-child-to-the-li
+ brary-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

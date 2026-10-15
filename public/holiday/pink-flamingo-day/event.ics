@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pink Flamingo Day
+X-WR-CALNAME:Pink Flamingo Day
+DESCRIPTION:Pink Flamingo Day — https://todaycelebrates.com/holiday/pink-
+ flamingo-day/
+X-WR-CALDESC:Pink Flamingo Day — https://todaycelebrates.com/holiday/pink
+ -flamingo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pink-flamingo-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pink-flamingo-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pink-flamingo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:Pink Flamingo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pink Flamingo Day\, observed on June 23\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/pink-flamingo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pink-flamingo-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

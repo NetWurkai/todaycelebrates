@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:New Beer's Eve
+X-WR-CALNAME:New Beer's Eve
+DESCRIPTION:New Beer's Eve — https://todaycelebrates.com/holiday/new-beer
+ s-eve/
+X-WR-CALDESC:New Beer's Eve — https://todaycelebrates.com/holiday/new-bee
+ rs-eve/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-beers-eve/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/new-beers-eve/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:new-beers-eve@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:New Beer's Eve
+RRULE:FREQ=YEARLY
+DESCRIPTION:New Beer's Eve is a drinks-focused observance on April 6\, cele
+ brated by beer and craft-brewery fans across the United States.\n\nhttps:/
+ /todaycelebrates.com/holiday/new-beers-eve/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-beers-eve/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Do Something Nice Day
+X-WR-CALNAME:Do Something Nice Day
+DESCRIPTION:Do Something Nice Day — https://todaycelebrates.com/holiday/d
+ o-something-nice-day/
+X-WR-CALDESC:Do Something Nice Day — https://todaycelebrates.com/holiday/
+ do-something-nice-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/do-something-nice-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/do-something-nice-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:do-something-nice-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271005
+DTEND;VALUE=DATE:20271006
+SUMMARY:Do Something Nice Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 5\, Do Something Nice Day gives people across the Un
+ ited States one more reason to mark the day and celebrate do something nic
+ e.\n\nhttps://todaycelebrates.com/holiday/do-something-nice-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/do-something-nice-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

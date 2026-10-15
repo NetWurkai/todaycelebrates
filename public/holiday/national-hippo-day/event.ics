@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Hippo Day
+X-WR-CALNAME:National Hippo Day
+DESCRIPTION:National Hippo Day — https://todaycelebrates.com/holiday/nati
+ onal-hippo-day/
+X-WR-CALDESC:National Hippo Day — https://todaycelebrates.com/holiday/nat
+ ional-hippo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hippo-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-hippo-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-hippo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:National Hippo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hippo Day is a nature-focused observance on February 1
+ 5\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /national-hippo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hippo-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Dolphin Day
+X-WR-CALNAME:National Dolphin Day
+DESCRIPTION:National Dolphin Day — https://todaycelebrates.com/holiday/na
+ tional-dolphin-day/
+X-WR-CALDESC:National Dolphin Day — https://todaycelebrates.com/holiday/n
+ ational-dolphin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dolphin-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-dolphin-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-dolphin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:National Dolphin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dolphin Day is a nature-focused observance on April 14
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ national-dolphin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dolphin-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

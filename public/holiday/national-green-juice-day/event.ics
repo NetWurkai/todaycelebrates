@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Green Juice Day
+X-WR-CALNAME:National Green Juice Day
+DESCRIPTION:National Green Juice Day — https://todaycelebrates.com/holida
+ y/national-green-juice-day/
+X-WR-CALDESC:National Green Juice Day — https://todaycelebrates.com/holid
+ ay/national-green-juice-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-green-juice-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-green-juice-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-green-juice-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:National Green Juice Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Green Juice Day is a food-focused observance celebrate
+ d across the United States on January 26\, giving fans of the dish or ingr
+ edient an excuse to seek it out and share it with others.\n\nhttps://today
+ celebrates.com/holiday/national-green-juice-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-green-juice-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

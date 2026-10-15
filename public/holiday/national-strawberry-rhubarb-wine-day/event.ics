@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Strawberry Rhubarb Wine Day
+X-WR-CALNAME:National Strawberry Rhubarb Wine Day
+DESCRIPTION:National Strawberry Rhubarb Wine Day — https://todaycelebrate
+ s.com/holiday/national-strawberry-rhubarb-wine-day/
+X-WR-CALDESC:National Strawberry Rhubarb Wine Day — https://todaycelebrat
+ es.com/holiday/national-strawberry-rhubarb-wine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-strawberry-rhuba
+ rb-wine-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-strawberry-rh
+ ubarb-wine-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-strawberry-rhubarb-wine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+SUMMARY:National Strawberry Rhubarb Wine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Strawberry Rhubarb Wine Day is a drinks-focused observ
+ ance on July 17\, celebrated by beer and craft-brewery fans across the Uni
+ ted States.\n\nhttps://todaycelebrates.com/holiday/national-strawberry-rhu
+ barb-wine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-strawberry-rhuba
+ rb-wine-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

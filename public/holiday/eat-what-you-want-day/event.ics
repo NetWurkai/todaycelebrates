@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Eat What You Want Day
+X-WR-CALNAME:Eat What You Want Day
+DESCRIPTION:Eat What You Want Day — https://todaycelebrates.com/holiday/e
+ at-what-you-want-day/
+X-WR-CALDESC:Eat What You Want Day — https://todaycelebrates.com/holiday/
+ eat-what-you-want-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eat-what-you-want-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/eat-what-you-want-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:eat-what-you-want-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:Eat What You Want Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Eat What You Want Day is a food-focused observance celebrated a
+ cross the United States on May 11\, giving fans of the dish or ingredient 
+ an excuse to seek it out and share it with others.\n\nhttps://todaycelebra
+ tes.com/holiday/eat-what-you-want-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eat-what-you-want-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

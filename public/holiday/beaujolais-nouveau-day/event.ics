@@ -1,0 +1,167 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Beaujolais Nouveau Day
+X-WR-CALNAME:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day — https://todaycelebrates.com/holiday/
+ beaujolais-nouveau-day/
+X-WR-CALDESC:Beaujolais Nouveau Day — https://todaycelebrates.com/holiday
+ /beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20261119@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20271118@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271118
+DTEND;VALUE=DATE:20271119
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20281116@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281116
+DTEND;VALUE=DATE:20281117
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20291115@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291115
+DTEND;VALUE=DATE:20291116
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20301121@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301121
+DTEND;VALUE=DATE:20301122
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20311120@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311120
+DTEND;VALUE=DATE:20311121
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20321118@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321118
+DTEND;VALUE=DATE:20321119
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20331117@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331117
+DTEND;VALUE=DATE:20331118
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20341116@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341116
+DTEND;VALUE=DATE:20341117
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20351115@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351115
+DTEND;VALUE=DATE:20351116
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

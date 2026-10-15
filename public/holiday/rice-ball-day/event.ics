@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Rice Ball Day
+X-WR-CALNAME:Rice Ball Day
+DESCRIPTION:Rice Ball Day — https://todaycelebrates.com/holiday/rice-ball
+ -day/
+X-WR-CALDESC:Rice Ball Day — https://todaycelebrates.com/holiday/rice-bal
+ l-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rice-ball-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/rice-ball-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:rice-ball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:Rice Ball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Rice Ball Day is a food-focused observance celebrated across th
+ e United States on April 19\, giving fans of the dish or ingredient an exc
+ use to seek it out and share it with others.\n\nhttps://todaycelebrates.co
+ m/holiday/rice-ball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rice-ball-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National ASL Day
+X-WR-CALNAME:National ASL Day
+DESCRIPTION:National ASL Day — https://todaycelebrates.com/holiday/nation
+ al-asl-day/
+X-WR-CALDESC:National ASL Day — https://todaycelebrates.com/holiday/natio
+ nal-asl-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-asl-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-asl-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-asl-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:National ASL Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National ASL Day\, observed on April 15\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/national-asl-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-asl-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

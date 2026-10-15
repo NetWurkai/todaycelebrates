@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Speak Kind Words Saturday
+X-WR-CALNAME:Speak Kind Words Saturday
+DESCRIPTION:Speak Kind Words Saturday — https://todaycelebrates.com/holid
+ ay/speak-kind-words-saturday/
+X-WR-CALDESC:Speak Kind Words Saturday — https://todaycelebrates.com/holi
+ day/speak-kind-words-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/speak-kind-words-saturday
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/speak-kind-words-satur
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:speak-kind-words-saturday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:Speak Kind Words Saturday
+RRULE:FREQ=YEARLY
+DESCRIPTION:Speak Kind Words Saturday\, observed on August 28\, is a lighth
+ earted holiday celebrated across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/speak-kind-words-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/speak-kind-words-saturday
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

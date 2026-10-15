@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Canada Day
+X-WR-CALNAME:Canada Day
+DESCRIPTION:Canada Day — https://todaycelebrates.com/holiday/canada-day/
+X-WR-CALDESC:Canada Day — https://todaycelebrates.com/holiday/canada-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canada-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/canada-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:canada-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:Canada Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Canada Day\, observed on July 1\, encourages people across the 
+ United States to pause and recognize the people and causes behind the day.
+ \n\nhttps://todaycelebrates.com/holiday/canada-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canada-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Panda Day
+X-WR-CALNAME:National Panda Day
+DESCRIPTION:National Panda Day — https://todaycelebrates.com/holiday/nati
+ onal-panda-day/
+X-WR-CALDESC:National Panda Day — https://todaycelebrates.com/holiday/nat
+ ional-panda-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-panda-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-panda-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-panda-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:National Panda Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Panda Day is a nature-focused observance on March 16\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-panda-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-panda-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

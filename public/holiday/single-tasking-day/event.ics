@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Single Tasking Day
+X-WR-CALNAME:Single Tasking Day
+DESCRIPTION:Single Tasking Day — https://todaycelebrates.com/holiday/sing
+ le-tasking-day/
+X-WR-CALDESC:Single Tasking Day — https://todaycelebrates.com/holiday/sin
+ gle-tasking-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/single-tasking-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/single-tasking-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:single-tasking-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Single Tasking Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Single Tasking Day\, observed on February 21\, encourages peopl
+ e across the United States to focus on health and wellbeing.\n\nhttps://to
+ daycelebrates.com/holiday/single-tasking-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/single-tasking-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

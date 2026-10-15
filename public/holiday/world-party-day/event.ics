@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Party Day
+X-WR-CALNAME:World Party Day
+DESCRIPTION:World Party Day — https://todaycelebrates.com/holiday/world-p
+ arty-day/
+X-WR-CALDESC:World Party Day — https://todaycelebrates.com/holiday/world-
+ party-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-party-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-party-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-party-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:World Party Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Party Day\, observed on April 3\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/world-party-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-party-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

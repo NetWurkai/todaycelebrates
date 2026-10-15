@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Brisket Day
+X-WR-CALNAME:National Brisket Day
+DESCRIPTION:National Brisket Day — https://todaycelebrates.com/holiday/na
+ tional-brisket-day/
+X-WR-CALDESC:National Brisket Day — https://todaycelebrates.com/holiday/n
+ ational-brisket-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-brisket-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-brisket-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-brisket-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:National Brisket Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Brisket Day is a food-focused observance celebrated ac
+ ross the United States on May 28\, giving fans of the dish or ingredient a
+ n excuse to seek it out and share it with others.\n\nhttps://todaycelebrat
+ es.com/holiday/national-brisket-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-brisket-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

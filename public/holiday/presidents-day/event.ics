@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Presidents' Day
+X-WR-CALNAME:Presidents' Day
+DESCRIPTION:Presidents' Day — https://todaycelebrates.com/holiday/preside
+ nts-day/
+X-WR-CALDESC:Presidents' Day — https://todaycelebrates.com/holiday/presid
+ ents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/presidents-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/presidents-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:presidents-day-20270215@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Presidents' Day
+DESCRIPTION:The federal holiday on the third Monday in February is\, in law
+ \, Washington's Birthday. Congress has never renamed it: "Presidents' Day"
+  was proposed in 1951\, got nowhere officially\, and became the common nam
+ e three decades later through holiday sales advertising. The holiday also 
+ cannot land on Washington's birthday — the third Monday in February fall
+ s between the 15th and the 21st\, and he was born on the 22nd.\n\nhttps://
+ todaycelebrates.com/holiday/presidents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/presidents-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:presidents-day-20280221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280221
+DTEND;VALUE=DATE:20280222
+SUMMARY:Presidents' Day
+DESCRIPTION:The federal holiday on the third Monday in February is\, in law
+ \, Washington's Birthday. Congress has never renamed it: "Presidents' Day"
+  was proposed in 1951\, got nowhere officially\, and became the common nam
+ e three decades later through holiday sales advertising. The holiday also 
+ cannot land on Washington's birthday — the third Monday in February fall
+ s between the 15th and the 21st\, and he was born on the 22nd.\n\nhttps://
+ todaycelebrates.com/holiday/presidents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/presidents-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:presidents-day-20290219@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290219
+DTEND;VALUE=DATE:20290220
+SUMMARY:Presidents' Day
+DESCRIPTION:The federal holiday on the third Monday in February is\, in law
+ \, Washington's Birthday. Congress has never renamed it: "Presidents' Day"
+  was proposed in 1951\, got nowhere officially\, and became the common nam
+ e three decades later through holiday sales advertising. The holiday also 
+ cannot land on Washington's birthday — the third Monday in February fall
+ s between the 15th and the 21st\, and he was born on the 22nd.\n\nhttps://
+ todaycelebrates.com/holiday/presidents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/presidents-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:presidents-day-20300218@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300218
+DTEND;VALUE=DATE:20300219
+SUMMARY:Presidents' Day
+DESCRIPTION:The federal holiday on the third Monday in February is\, in law
+ \, Washington's Birthday. Congress has never renamed it: "Presidents' Day"
+  was proposed in 1951\, got nowhere officially\, and became the common nam
+ e three decades later through holiday sales advertising. The holiday also 
+ cannot land on Washington's birthday — the third Monday in February fall
+ s between the 15th and the 21st\, and he was born on the 22nd.\n\nhttps://
+ todaycelebrates.com/holiday/presidents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/presidents-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:presidents-day-20310217@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310217
+DTEND;VALUE=DATE:20310218
+SUMMARY:Presidents' Day
+DESCRIPTION:The federal holiday on the third Monday in February is\, in law
+ \, Washington's Birthday. Congress has never renamed it: "Presidents' Day"
+  was proposed in 1951\, got nowhere officially\, and became the common nam
+ e three decades later through holiday sales advertising. The holiday also 
+ cannot land on Washington's birthday — the third Monday in February fall
+ s between the 15th and the 21st\, and he was born on the 22nd.\n\nhttps://
+ todaycelebrates.com/holiday/presidents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/presidents-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:presidents-day-20320216@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320216
+DTEND;VALUE=DATE:20320217
+SUMMARY:Presidents' Day
+DESCRIPTION:The federal holiday on the third Monday in February is\, in law
+ \, Washington's Birthday. Congress has never renamed it: "Presidents' Day"
+  was proposed in 1951\, got nowhere officially\, and became the common nam
+ e three decades later through holiday sales advertising. The holiday also 
+ cannot land on Washington's birthday — the third Monday in February fall
+ s between the 15th and the 21st\, and he was born on the 22nd.\n\nhttps://
+ todaycelebrates.com/holiday/presidents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/presidents-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:presidents-day-20330221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330221
+DTEND;VALUE=DATE:20330222
+SUMMARY:Presidents' Day
+DESCRIPTION:The federal holiday on the third Monday in February is\, in law
+ \, Washington's Birthday. Congress has never renamed it: "Presidents' Day"
+  was proposed in 1951\, got nowhere officially\, and became the common nam
+ e three decades later through holiday sales advertising. The holiday also 
+ cannot land on Washington's birthday — the third Monday in February fall
+ s between the 15th and the 21st\, and he was born on the 22nd.\n\nhttps://
+ todaycelebrates.com/holiday/presidents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/presidents-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:presidents-day-20340220@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340220
+DTEND;VALUE=DATE:20340221
+SUMMARY:Presidents' Day
+DESCRIPTION:The federal holiday on the third Monday in February is\, in law
+ \, Washington's Birthday. Congress has never renamed it: "Presidents' Day"
+  was proposed in 1951\, got nowhere officially\, and became the common nam
+ e three decades later through holiday sales advertising. The holiday also 
+ cannot land on Washington's birthday — the third Monday in February fall
+ s between the 15th and the 21st\, and he was born on the 22nd.\n\nhttps://
+ todaycelebrates.com/holiday/presidents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/presidents-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:presidents-day-20350219@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350219
+DTEND;VALUE=DATE:20350220
+SUMMARY:Presidents' Day
+DESCRIPTION:The federal holiday on the third Monday in February is\, in law
+ \, Washington's Birthday. Congress has never renamed it: "Presidents' Day"
+  was proposed in 1951\, got nowhere officially\, and became the common nam
+ e three decades later through holiday sales advertising. The holiday also 
+ cannot land on Washington's birthday — the third Monday in February fall
+ s between the 15th and the 21st\, and he was born on the 22nd.\n\nhttps://
+ todaycelebrates.com/holiday/presidents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/presidents-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

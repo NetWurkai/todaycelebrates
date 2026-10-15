@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Toy Soldier Day
+X-WR-CALNAME:Toy Soldier Day
+DESCRIPTION:Toy Soldier Day — https://todaycelebrates.com/holiday/toy-sol
+ dier-day/
+X-WR-CALDESC:Toy Soldier Day — https://todaycelebrates.com/holiday/toy-so
+ ldier-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/toy-soldier-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/toy-soldier-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:toy-soldier-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Toy Soldier Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Toy Soldier Day\, observed on March 4\, is a lighthearted\, fam
+ ily-friendly day celebrated across the United States.\n\nhttps://todaycele
+ brates.com/holiday/toy-soldier-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/toy-soldier-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

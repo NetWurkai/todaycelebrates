@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Mead Day
+X-WR-CALNAME:National Mead Day
+DESCRIPTION:National Mead Day — https://todaycelebrates.com/holiday/natio
+ nal-mead-day/
+X-WR-CALDESC:National Mead Day — https://todaycelebrates.com/holiday/nati
+ onal-mead-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mead-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mead-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mead-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271004
+SUMMARY:National Mead Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 3\, National Mead Day gives people across the United
+  States one more reason to mark the day and celebrate mead.\n\nhttps://tod
+ aycelebrates.com/holiday/national-mead-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mead-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

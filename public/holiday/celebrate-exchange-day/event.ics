@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Celebrate Exchange Day
+X-WR-CALNAME:Celebrate Exchange Day
+DESCRIPTION:Celebrate Exchange Day — https://todaycelebrates.com/holiday/
+ celebrate-exchange-day/
+X-WR-CALDESC:Celebrate Exchange Day — https://todaycelebrates.com/holiday
+ /celebrate-exchange-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/celebrate-exchange-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/celebrate-exchange-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:celebrate-exchange-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:Celebrate Exchange Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Celebrate Exchange Day\, observed on March 27\, is a lightheart
+ ed holiday celebrated across the United States.\n\nhttps://todaycelebrates
+ .com/holiday/celebrate-exchange-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/celebrate-exchange-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

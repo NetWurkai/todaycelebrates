@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Africa Industrialization Day
+X-WR-CALNAME:Africa Industrialization Day
+DESCRIPTION:Africa Industrialization Day — https://todaycelebrates.com/ho
+ liday/africa-industrialization-day/
+X-WR-CALDESC:Africa Industrialization Day — https://todaycelebrates.com/h
+ oliday/africa-industrialization-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/africa-industrialization-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/africa-industrializati
+ on-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:africa-industrialization-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Africa Industrialization Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Africa Industrialization Day\, observed on November 20\, is a l
+ ighthearted holiday celebrated across the United States.\n\nhttps://todayc
+ elebrates.com/holiday/africa-industrialization-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/africa-industrialization-
+ day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

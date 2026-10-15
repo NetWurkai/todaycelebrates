@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Savings Day
+X-WR-CALNAME:National Savings Day
+DESCRIPTION:National Savings Day — https://todaycelebrates.com/holiday/na
+ tional-savings-day/
+X-WR-CALDESC:National Savings Day — https://todaycelebrates.com/holiday/n
+ ational-savings-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-savings-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-savings-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-savings-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271012
+DTEND;VALUE=DATE:20271013
+SUMMARY:National Savings Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 12\, National Savings Day gives people across the Un
+ ited States one more reason to mark the day and celebrate savings.\n\nhttp
+ s://todaycelebrates.com/holiday/national-savings-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-savings-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

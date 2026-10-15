@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Bacon Day
+X-WR-CALNAME:International Bacon Day
+DESCRIPTION:International Bacon Day — https://todaycelebrates.com/holiday
+ /international-bacon-day/
+X-WR-CALDESC:International Bacon Day — https://todaycelebrates.com/holida
+ y/international-bacon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-bacon-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-bacon-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-bacon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:International Bacon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for September 5: International Bacon Day inv
+ ites food lovers around the world to celebrate everything about bacon\, wh
+ ether that means cooking it at home or treating yourself at a favorite spo
+ t.\n\nhttps://todaycelebrates.com/holiday/international-bacon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-bacon-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Custodial Worker Day
+X-WR-CALNAME:National Custodial Worker Day
+DESCRIPTION:National Custodial Worker Day — https://todaycelebrates.com/h
+ oliday/national-custodial-worker-day/
+X-WR-CALDESC:National Custodial Worker Day — https://todaycelebrates.com/
+ holiday/national-custodial-worker-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-custodial-worker
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-custodial-wor
+ ker-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-custodial-worker-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:National Custodial Worker Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Custodial Worker Day is observed across the United Sta
+ tes on October 2\, a small but fun addition to the calendar worth celebrat
+ ing in its own way.\n\nhttps://todaycelebrates.com/holiday/national-custod
+ ial-worker-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-custodial-worker
+ -day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

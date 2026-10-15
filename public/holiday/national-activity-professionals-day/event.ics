@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Activity Professionals Day
+X-WR-CALNAME:National Activity Professionals Day
+DESCRIPTION:National Activity Professionals Day — https://todaycelebrates
+ .com/holiday/national-activity-professionals-day/
+X-WR-CALDESC:National Activity Professionals Day — https://todaycelebrate
+ s.com/holiday/national-activity-professionals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-activity-profess
+ ionals-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-activity-prof
+ essionals-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-activity-professionals-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:National Activity Professionals Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Activity Professionals Day\, observed on January 22\, 
+ encourages people across the United States to pause and recognize the peop
+ le and causes behind the day.\n\nhttps://todaycelebrates.com/holiday/natio
+ nal-activity-professionals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-activity-profess
+ ionals-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

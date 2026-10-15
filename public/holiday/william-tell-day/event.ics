@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:William Tell Day
+X-WR-CALNAME:William Tell Day
+DESCRIPTION:William Tell Day — https://todaycelebrates.com/holiday/willia
+ m-tell-day/
+X-WR-CALDESC:William Tell Day — https://todaycelebrates.com/holiday/willi
+ am-tell-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/william-tell-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/william-tell-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:william-tell-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:William Tell Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:William Tell Day\, observed on November 18\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/william-tell-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/william-tell-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

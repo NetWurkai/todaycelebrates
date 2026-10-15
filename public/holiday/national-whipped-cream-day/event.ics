@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Whipped Cream Day
+X-WR-CALNAME:National Whipped Cream Day
+DESCRIPTION:National Whipped Cream Day — https://todaycelebrates.com/holi
+ day/national-whipped-cream-day/
+X-WR-CALDESC:National Whipped Cream Day — https://todaycelebrates.com/hol
+ iday/national-whipped-cream-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-whipped-cream-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-whipped-cream
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-whipped-cream-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:National Whipped Cream Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Whipped Cream Day is a food-focused observance celebra
+ ted across the United States on January 5\, giving fans of the dish or ing
+ redient an excuse to seek it out and share it with others.\n\nhttps://toda
+ ycelebrates.com/holiday/national-whipped-cream-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-whipped-cream-da
+ y/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

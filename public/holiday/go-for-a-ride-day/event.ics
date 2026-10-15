@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Go For a Ride Day
+X-WR-CALNAME:Go For a Ride Day
+DESCRIPTION:Go For a Ride Day — https://todaycelebrates.com/holiday/go-fo
+ r-a-ride-day/
+X-WR-CALDESC:Go For a Ride Day — https://todaycelebrates.com/holiday/go-f
+ or-a-ride-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/go-for-a-ride-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/go-for-a-ride-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:go-for-a-ride-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Go For a Ride Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Go For a Ride Day\, observed on November 22\, is a lighthearted
+  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/go-for-a-ride-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/go-for-a-ride-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

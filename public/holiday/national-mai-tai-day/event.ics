@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Mai Tai Day
+X-WR-CALNAME:National Mai Tai Day
+DESCRIPTION:National Mai Tai Day — https://todaycelebrates.com/holiday/na
+ tional-mai-tai-day/
+X-WR-CALDESC:National Mai Tai Day — https://todaycelebrates.com/holiday/n
+ ational-mai-tai-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mai-tai-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mai-tai-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mai-tai-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270831
+SUMMARY:National Mai Tai Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mai Tai Day is a drinks-focused observance on August 3
+ 0\, celebrated by beer and craft-brewery fans across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/national-mai-tai-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mai-tai-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

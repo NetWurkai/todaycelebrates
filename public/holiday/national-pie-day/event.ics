@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pie Day
+X-WR-CALNAME:National Pie Day
+DESCRIPTION:National Pie Day — https://todaycelebrates.com/holiday/nation
+ al-pie-day/
+X-WR-CALDESC:National Pie Day — https://todaycelebrates.com/holiday/natio
+ nal-pie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pie-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pie-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pie-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:National Pie Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pie Day is a food-focused observance celebrated across
+  the United States on December 1\, giving fans of the dish or ingredient a
+ n excuse to seek it out and share it with others.\n\nhttps://todaycelebrat
+ es.com/holiday/national-pie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pie-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

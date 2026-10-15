@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Vegetarian Day
+X-WR-CALNAME:World Vegetarian Day
+DESCRIPTION:World Vegetarian Day — https://todaycelebrates.com/holiday/wo
+ rld-vegetarian-day/
+X-WR-CALDESC:World Vegetarian Day — https://todaycelebrates.com/holiday/w
+ orld-vegetarian-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-vegetarian-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-vegetarian-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-vegetarian-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:World Vegetarian Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 1\, World Vegetarian Day gives people around the glo
+ be one more reason to mark the day and celebrate vegetarian.\n\nhttps://to
+ daycelebrates.com/holiday/world-vegetarian-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-vegetarian-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Poutine Day
+X-WR-CALNAME:National Poutine Day
+DESCRIPTION:National Poutine Day — https://todaycelebrates.com/holiday/na
+ tional-poutine-day/
+X-WR-CALDESC:National Poutine Day — https://todaycelebrates.com/holiday/n
+ ational-poutine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-poutine-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-poutine-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-poutine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:National Poutine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Poutine Day is a food-focused observance celebrated ac
+ ross the United States on March 5\, giving fans of the dish or ingredient 
+ an excuse to seek it out and share it with others.\n\nhttps://todaycelebra
+ tes.com/holiday/national-poutine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-poutine-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

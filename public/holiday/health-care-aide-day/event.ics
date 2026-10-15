@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Health Care Aide Day
+X-WR-CALNAME:Health Care Aide Day
+DESCRIPTION:Health Care Aide Day — https://todaycelebrates.com/holiday/he
+ alth-care-aide-day/
+X-WR-CALDESC:Health Care Aide Day — https://todaycelebrates.com/holiday/h
+ ealth-care-aide-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/health-care-aide-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/health-care-aide-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:health-care-aide-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Health Care Aide Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Health Care Aide Day\, marked across the United States on Octob
+ er 18\, raises awareness around health care aide and supports those affect
+ ed by it.\n\nhttps://todaycelebrates.com/holiday/health-care-aide-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/health-care-aide-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

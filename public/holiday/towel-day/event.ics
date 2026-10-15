@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Towel Day
+X-WR-CALNAME:Towel Day
+DESCRIPTION:Towel Day — https://todaycelebrates.com/holiday/towel-day/
+X-WR-CALDESC:Towel Day — https://todaycelebrates.com/holiday/towel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/towel-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/towel-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:towel-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:Towel Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Towel Day\, observed on May 25\, is a lighthearted holiday cele
+ brated across the United States.\n\nhttps://todaycelebrates.com/holiday/to
+ wel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/towel-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

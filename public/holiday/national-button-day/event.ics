@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Button Day
+X-WR-CALNAME:National Button Day
+DESCRIPTION:National Button Day — https://todaycelebrates.com/holiday/nat
+ ional-button-day/
+X-WR-CALDESC:National Button Day — https://todaycelebrates.com/holiday/na
+ tional-button-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-button-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-button-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-button-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:National Button Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Button Day\, observed on November 16\, is a lightheart
+ ed holiday celebrated across the United States.\n\nhttps://todaycelebrates
+ .com/holiday/national-button-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-button-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

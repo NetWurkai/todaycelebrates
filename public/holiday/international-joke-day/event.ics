@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Joke Day
+X-WR-CALNAME:International Joke Day
+DESCRIPTION:International Joke Day — https://todaycelebrates.com/holiday/
+ international-joke-day/
+X-WR-CALDESC:International Joke Day — https://todaycelebrates.com/holiday
+ /international-joke-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-joke-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-joke-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-joke-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:International Joke Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Joke Day\, observed on July 1\, is a lighthearted
+  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/international-joke-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-joke-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

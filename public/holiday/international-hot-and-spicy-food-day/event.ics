@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Hot and Spicy Food Day
+X-WR-CALNAME:International Hot and Spicy Food Day
+DESCRIPTION:International Hot and Spicy Food Day — https://todaycelebrate
+ s.com/holiday/international-hot-and-spicy-food-day/
+X-WR-CALDESC:International Hot and Spicy Food Day — https://todaycelebrat
+ es.com/holiday/international-hot-and-spicy-food-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-hot-and-spi
+ cy-food-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-hot-and-
+ spicy-food-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-hot-and-spicy-food-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:International Hot and Spicy Food Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Hot and Spicy Food Day is a food-focused observan
+ ce celebrated across the United States on January 16\, giving fans of the 
+ dish or ingredient an excuse to seek it out and share it with others.\n\nh
+ ttps://todaycelebrates.com/holiday/international-hot-and-spicy-food-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-hot-and-spi
+ cy-food-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

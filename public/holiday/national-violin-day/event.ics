@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Violin Day
+X-WR-CALNAME:National Violin Day
+DESCRIPTION:National Violin Day — https://todaycelebrates.com/holiday/nat
+ ional-violin-day/
+X-WR-CALDESC:National Violin Day — https://todaycelebrates.com/holiday/na
+ tional-violin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-violin-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-violin-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-violin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:National Violin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Violin Day is a music-focused observance on December 1
+ 3\, celebrated by fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-violin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-violin-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

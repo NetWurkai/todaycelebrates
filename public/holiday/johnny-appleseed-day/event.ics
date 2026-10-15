@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Johnny Appleseed Day
+X-WR-CALNAME:Johnny Appleseed Day
+DESCRIPTION:Johnny Appleseed Day — https://todaycelebrates.com/holiday/jo
+ hnny-appleseed-day/
+X-WR-CALDESC:Johnny Appleseed Day — https://todaycelebrates.com/holiday/j
+ ohnny-appleseed-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/johnny-appleseed-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/johnny-appleseed-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:johnny-appleseed-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:Johnny Appleseed Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Johnny Appleseed Day is a nature-focused observance on March 11
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ johnny-appleseed-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/johnny-appleseed-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

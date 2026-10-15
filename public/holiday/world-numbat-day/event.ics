@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Numbat Day
+X-WR-CALNAME:World Numbat Day
+DESCRIPTION:World Numbat Day — https://todaycelebrates.com/holiday/world-
+ numbat-day/
+X-WR-CALDESC:World Numbat Day — https://todaycelebrates.com/holiday/world
+ -numbat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-numbat-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-numbat-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-numbat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:World Numbat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Numbat Day is a nature-focused observance on November 7\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/wo
+ rld-numbat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-numbat-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

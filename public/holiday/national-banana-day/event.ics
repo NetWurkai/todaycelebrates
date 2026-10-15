@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Banana Day
+X-WR-CALNAME:National Banana Day
+DESCRIPTION:National Banana Day — https://todaycelebrates.com/holiday/nat
+ ional-banana-day/
+X-WR-CALDESC:National Banana Day — https://todaycelebrates.com/holiday/na
+ tional-banana-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-banana-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-banana-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-banana-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:National Banana Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Banana Day is a food-focused observance celebrated acr
+ oss the United States on April 21\, giving fans of the dish or ingredient 
+ an excuse to seek it out and share it with others.\n\nhttps://todaycelebra
+ tes.com/holiday/national-banana-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-banana-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

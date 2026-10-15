@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Truckers Day
+X-WR-CALNAME:National Truckers Day
+DESCRIPTION:National Truckers Day — https://todaycelebrates.com/holiday/n
+ ational-truckers-day/
+X-WR-CALDESC:National Truckers Day — https://todaycelebrates.com/holiday/
+ national-truckers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-truckers-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-truckers-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-truckers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271004
+DTEND;VALUE=DATE:20271005
+SUMMARY:National Truckers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Truckers Day is observed across the United States on O
+ ctober 4\, a small but fun addition to the calendar worth celebrating in i
+ ts own way.\n\nhttps://todaycelebrates.com/holiday/national-truckers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-truckers-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

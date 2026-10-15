@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pumpkin Cheesecake Day
+X-WR-CALNAME:Pumpkin Cheesecake Day
+DESCRIPTION:Pumpkin Cheesecake Day — https://todaycelebrates.com/holiday/
+ pumpkin-cheesecake-day/
+X-WR-CALDESC:Pumpkin Cheesecake Day — https://todaycelebrates.com/holiday
+ /pumpkin-cheesecake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pumpkin-cheesecake-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pumpkin-cheesecake-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pumpkin-cheesecake-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Pumpkin Cheesecake Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pumpkin Cheesecake Day is one of the spookier stops on the Octo
+ ber calendar\, celebrated on October 21 in the run-up to Halloween.\n\nhtt
+ ps://todaycelebrates.com/holiday/pumpkin-cheesecake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pumpkin-cheesecake-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Adventure Day
+X-WR-CALNAME:Adventure Day
+DESCRIPTION:Adventure Day — https://todaycelebrates.com/holiday/adventure
+ -day/
+X-WR-CALDESC:Adventure Day — https://todaycelebrates.com/holiday/adventur
+ e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/adventure-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/adventure-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:adventure-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Adventure Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Adventure Day is observed across the United States on October 1
+ 7\, a small but fun addition to the calendar worth celebrating in its own 
+ way.\n\nhttps://todaycelebrates.com/holiday/adventure-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/adventure-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

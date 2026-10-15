@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Black Cow Day
+X-WR-CALNAME:National Black Cow Day
+DESCRIPTION:National Black Cow Day — https://todaycelebrates.com/holiday/
+ national-black-cow-day/
+X-WR-CALDESC:National Black Cow Day — https://todaycelebrates.com/holiday
+ /national-black-cow-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-black-cow-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-black-cow-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-black-cow-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:National Black Cow Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Black Cow Day is a food-focused observance celebrated 
+ across the United States on June 10\, giving fans of the dish or ingredien
+ t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
+ rates.com/holiday/national-black-cow-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-black-cow-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

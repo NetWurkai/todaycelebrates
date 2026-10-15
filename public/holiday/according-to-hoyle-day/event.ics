@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:"According to Hoyle" Day
+X-WR-CALNAME:"According to Hoyle" Day
+DESCRIPTION:"According to Hoyle" Day — https://todaycelebrates.com/holida
+ y/according-to-hoyle-day/
+X-WR-CALDESC:"According to Hoyle" Day — https://todaycelebrates.com/holid
+ ay/according-to-hoyle-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/according-to-hoyle-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/according-to-hoyle-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:according-to-hoyle-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270830
+SUMMARY:"According to Hoyle" Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:"According to Hoyle" Day\, observed on August 29\, is a lighthe
+ arted holiday celebrated across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/according-to-hoyle-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/according-to-hoyle-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

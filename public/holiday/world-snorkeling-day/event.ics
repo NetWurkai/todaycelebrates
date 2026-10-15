@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Snorkeling Day
+X-WR-CALNAME:World Snorkeling Day
+DESCRIPTION:World Snorkeling Day — https://todaycelebrates.com/holiday/wo
+ rld-snorkeling-day/
+X-WR-CALDESC:World Snorkeling Day — https://todaycelebrates.com/holiday/w
+ orld-snorkeling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-snorkeling-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-snorkeling-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-snorkeling-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:World Snorkeling Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Snorkeling Day\, observed on July 30\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/world-snorkeling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-snorkeling-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

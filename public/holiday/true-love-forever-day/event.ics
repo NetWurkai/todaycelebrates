@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:True Love Forever Day
+X-WR-CALNAME:True Love Forever Day
+DESCRIPTION:True Love Forever Day — https://todaycelebrates.com/holiday/t
+ rue-love-forever-day/
+X-WR-CALDESC:True Love Forever Day — https://todaycelebrates.com/holiday/
+ true-love-forever-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/true-love-forever-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/true-love-forever-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:true-love-forever-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+SUMMARY:True Love Forever Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:True Love Forever Day\, observed on August 16\, is a lightheart
+ ed holiday celebrated across the United States.\n\nhttps://todaycelebrates
+ .com/holiday/true-love-forever-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/true-love-forever-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

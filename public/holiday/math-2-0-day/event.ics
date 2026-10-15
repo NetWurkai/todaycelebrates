@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Math 2.0 Day
+X-WR-CALNAME:Math 2.0 Day
+DESCRIPTION:Math 2.0 Day — https://todaycelebrates.com/holiday/math-2-0-d
+ ay/
+X-WR-CALDESC:Math 2.0 Day — https://todaycelebrates.com/holiday/math-2-0-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/math-2-0-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/math-2-0-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:math-2-0-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:Math 2.0 Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Math 2.0 Day\, observed on July 8\, celebrates a piece of techn
+ ology or digital culture that's become part of everyday life across the Un
+ ited States.\n\nhttps://todaycelebrates.com/holiday/math-2-0-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/math-2-0-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

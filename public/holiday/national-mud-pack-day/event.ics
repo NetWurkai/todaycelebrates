@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Mud Pack Day
+X-WR-CALNAME:National Mud Pack Day
+DESCRIPTION:National Mud Pack Day — https://todaycelebrates.com/holiday/n
+ ational-mud-pack-day/
+X-WR-CALDESC:National Mud Pack Day — https://todaycelebrates.com/holiday/
+ national-mud-pack-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mud-pack-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mud-pack-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mud-pack-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:National Mud Pack Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 30\, National Mud Pack Day gives people across the
+  United States one more reason to mark the day and celebrate mud pack.\n\n
+ https://todaycelebrates.com/holiday/national-mud-pack-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mud-pack-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

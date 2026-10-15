@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Wear Red Day
+X-WR-CALNAME:National Wear Red Day
+DESCRIPTION:National Wear Red Day — https://todaycelebrates.com/holiday/n
+ ational-wear-red-day/
+X-WR-CALDESC:National Wear Red Day — https://todaycelebrates.com/holiday/
+ national-wear-red-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wear-red-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-wear-red-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-wear-red-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:National Wear Red Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Wear Red Day\, observed on February 5\, encourages peo
+ ple across the United States to focus on health and wellbeing.\n\nhttps://
+ todaycelebrates.com/holiday/national-wear-red-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wear-red-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

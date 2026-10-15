@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Teddy Bear Day
+X-WR-CALNAME:National Teddy Bear Day
+DESCRIPTION:National Teddy Bear Day — https://todaycelebrates.com/holiday
+ /national-teddy-bear-day/
+X-WR-CALDESC:National Teddy Bear Day — https://todaycelebrates.com/holida
+ y/national-teddy-bear-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teddy-bear-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-teddy-bear-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-teddy-bear-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:National Teddy Bear Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 9\, National Teddy Bear Day encourages people acro
+ ss the United States to pause and think about teddy bear — and to act on
+  it in their own communities.\n\nhttps://todaycelebrates.com/holiday/natio
+ nal-teddy-bear-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teddy-bear-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

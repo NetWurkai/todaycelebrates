@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Best Friends Day
+X-WR-CALNAME:National Best Friends Day
+DESCRIPTION:National Best Friends Day — https://todaycelebrates.com/holid
+ ay/national-best-friends-day/
+X-WR-CALDESC:National Best Friends Day — https://todaycelebrates.com/holi
+ day/national-best-friends-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-best-friends-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-best-friends-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-best-friends-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:National Best Friends Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Best Friends Day\, observed on August 15\, is a lighth
+ earted holiday celebrated across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/national-best-friends-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-best-friends-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

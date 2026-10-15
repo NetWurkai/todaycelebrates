@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Clams on the Half Shell Day
+X-WR-CALNAME:National Clams on the Half Shell Day
+DESCRIPTION:National Clams on the Half Shell Day — https://todaycelebrate
+ s.com/holiday/national-clams-on-the-half-shell-day/
+X-WR-CALDESC:National Clams on the Half Shell Day — https://todaycelebrat
+ es.com/holiday/national-clams-on-the-half-shell-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-clams-on-the-hal
+ f-shell-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-clams-on-the-
+ half-shell-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-clams-on-the-half-shell-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:National Clams on the Half Shell Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Clams on the Half Shell Day is a food-focused observan
+ ce celebrated across the United States on March 31\, giving fans of the di
+ sh or ingredient an excuse to seek it out and share it with others.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-clams-on-the-half-shell-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-clams-on-the-hal
+ f-shell-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

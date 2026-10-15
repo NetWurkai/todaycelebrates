@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Electric Guitar Day
+X-WR-CALNAME:National Electric Guitar Day
+DESCRIPTION:National Electric Guitar Day — https://todaycelebrates.com/ho
+ liday/national-electric-guitar-day/
+X-WR-CALDESC:National Electric Guitar Day — https://todaycelebrates.com/h
+ oliday/national-electric-guitar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-electric-guitar-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-electric-guit
+ ar-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-electric-guitar-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:National Electric Guitar Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Electric Guitar Day is a music-focused observance on N
+ ovember 27\, celebrated by fans across the United States.\n\nhttps://today
+ celebrates.com/holiday/national-electric-guitar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-electric-guitar-
+ day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

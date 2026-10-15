@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Wild Foods Day
+X-WR-CALNAME:Wild Foods Day
+DESCRIPTION:Wild Foods Day — https://todaycelebrates.com/holiday/wild-foo
+ ds-day/
+X-WR-CALDESC:Wild Foods Day — https://todaycelebrates.com/holiday/wild-fo
+ ods-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/wild-foods-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/wild-foods-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:wild-foods-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Wild Foods Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Wild Foods Day is observed across the United States on October 
+ 28\, a small but fun addition to the calendar worth celebrating in its own
+  way.\n\nhttps://todaycelebrates.com/holiday/wild-foods-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/wild-foods-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

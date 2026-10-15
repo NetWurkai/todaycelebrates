@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Furmint Day
+X-WR-CALNAME:International Furmint Day
+DESCRIPTION:International Furmint Day — https://todaycelebrates.com/holid
+ ay/international-furmint-day/
+X-WR-CALDESC:International Furmint Day — https://todaycelebrates.com/holi
+ day/international-furmint-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-furmint-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-furmint-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-furmint-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:International Furmint Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Furmint Day is a drinks-focused observance on Feb
+ ruary 1\, celebrated by beer and craft-brewery fans across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/international-furmint-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-furmint-day
+ /
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

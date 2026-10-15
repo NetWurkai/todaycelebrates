@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:New Friends Day
+X-WR-CALNAME:New Friends Day
+DESCRIPTION:New Friends Day — https://todaycelebrates.com/holiday/new-fri
+ ends-day/
+X-WR-CALDESC:New Friends Day — https://todaycelebrates.com/holiday/new-fr
+ iends-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-friends-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/new-friends-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:new-friends-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:New Friends Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:New Friends Day\, observed on January 19\, encourages people ac
+ ross the United States to pause and recognize the people and causes behind
+  the day.\n\nhttps://todaycelebrates.com/holiday/new-friends-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-friends-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

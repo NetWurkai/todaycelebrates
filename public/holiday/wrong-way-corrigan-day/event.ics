@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Wrong Way Corrigan Day
+X-WR-CALNAME:Wrong Way Corrigan Day
+DESCRIPTION:Wrong Way Corrigan Day — https://todaycelebrates.com/holiday/
+ wrong-way-corrigan-day/
+X-WR-CALDESC:Wrong Way Corrigan Day — https://todaycelebrates.com/holiday
+ /wrong-way-corrigan-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/wrong-way-corrigan-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/wrong-way-corrigan-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:wrong-way-corrigan-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+SUMMARY:Wrong Way Corrigan Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Wrong Way Corrigan Day\, observed on July 17\, is a lighthearte
+ d holiday celebrated across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/wrong-way-corrigan-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/wrong-way-corrigan-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

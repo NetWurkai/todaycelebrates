@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Alcohol Screening Day
+X-WR-CALNAME:National Alcohol Screening Day
+DESCRIPTION:National Alcohol Screening Day — https://todaycelebrates.com/
+ holiday/national-alcohol-screening-day/
+X-WR-CALDESC:National Alcohol Screening Day — https://todaycelebrates.com
+ /holiday/national-alcohol-screening-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-alcohol-screenin
+ g-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-alcohol-scree
+ ning-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-alcohol-screening-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:National Alcohol Screening Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Alcohol Screening Day\, observed on April 8\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-alcohol-screening-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-alcohol-screenin
+ g-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Mitten Tree Day
+X-WR-CALNAME:Mitten Tree Day
+DESCRIPTION:Mitten Tree Day — https://todaycelebrates.com/holiday/mitten-
+ tree-day/
+X-WR-CALDESC:Mitten Tree Day — https://todaycelebrates.com/holiday/mitten
+ -tree-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mitten-tree-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/mitten-tree-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mitten-tree-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Mitten Tree Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mitten Tree Day\, observed on December 6\, encourages people ac
+ ross the United States to pause and recognize the people and causes behind
+  the day.\n\nhttps://todaycelebrates.com/holiday/mitten-tree-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mitten-tree-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

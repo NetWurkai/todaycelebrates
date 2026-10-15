@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cleanup Day
+X-WR-CALNAME:National Cleanup Day
+DESCRIPTION:National Cleanup Day — https://todaycelebrates.com/holiday/na
+ tional-cleanup-day/
+X-WR-CALDESC:National Cleanup Day — https://todaycelebrates.com/holiday/n
+ ational-cleanup-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cleanup-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cleanup-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cleanup-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:National Cleanup Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 19\, National Cleanup Day encourages people across
+  the United States to pause and think about cleanup — and to act on it i
+ n their own communities.\n\nhttps://todaycelebrates.com/holiday/national-c
+ leanup-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cleanup-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

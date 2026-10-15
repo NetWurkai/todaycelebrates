@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Buy Nothing Day
+X-WR-CALNAME:Buy Nothing Day
+DESCRIPTION:Buy Nothing Day — https://todaycelebrates.com/holiday/buy-not
+ hing-day/
+X-WR-CALDESC:Buy Nothing Day — https://todaycelebrates.com/holiday/buy-no
+ thing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-nothing-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/buy-nothing-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:buy-nothing-day-20261127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Buy Nothing Day
+DESCRIPTION:Buy Nothing Day\, observed on November 27\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/buy-nothing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-nothing-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:buy-nothing-day-20271126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271126
+DTEND;VALUE=DATE:20271127
+SUMMARY:Buy Nothing Day
+DESCRIPTION:Buy Nothing Day\, observed on November 27\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/buy-nothing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-nothing-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:buy-nothing-day-20281124@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281124
+DTEND;VALUE=DATE:20281125
+SUMMARY:Buy Nothing Day
+DESCRIPTION:Buy Nothing Day\, observed on November 27\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/buy-nothing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-nothing-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:buy-nothing-day-20291123@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291123
+DTEND;VALUE=DATE:20291124
+SUMMARY:Buy Nothing Day
+DESCRIPTION:Buy Nothing Day\, observed on November 27\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/buy-nothing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-nothing-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:buy-nothing-day-20301129@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301129
+DTEND;VALUE=DATE:20301130
+SUMMARY:Buy Nothing Day
+DESCRIPTION:Buy Nothing Day\, observed on November 27\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/buy-nothing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-nothing-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:buy-nothing-day-20311128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311128
+DTEND;VALUE=DATE:20311129
+SUMMARY:Buy Nothing Day
+DESCRIPTION:Buy Nothing Day\, observed on November 27\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/buy-nothing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-nothing-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:buy-nothing-day-20321126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321126
+DTEND;VALUE=DATE:20321127
+SUMMARY:Buy Nothing Day
+DESCRIPTION:Buy Nothing Day\, observed on November 27\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/buy-nothing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-nothing-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:buy-nothing-day-20331125@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331125
+DTEND;VALUE=DATE:20331126
+SUMMARY:Buy Nothing Day
+DESCRIPTION:Buy Nothing Day\, observed on November 27\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/buy-nothing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-nothing-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:buy-nothing-day-20341124@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341124
+DTEND;VALUE=DATE:20341125
+SUMMARY:Buy Nothing Day
+DESCRIPTION:Buy Nothing Day\, observed on November 27\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/buy-nothing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-nothing-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:buy-nothing-day-20351123@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351123
+DTEND;VALUE=DATE:20351124
+SUMMARY:Buy Nothing Day
+DESCRIPTION:Buy Nothing Day\, observed on November 27\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/buy-nothing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-nothing-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

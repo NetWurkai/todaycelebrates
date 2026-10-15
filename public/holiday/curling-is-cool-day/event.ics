@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Curling is Cool Day
+X-WR-CALNAME:Curling is Cool Day
+DESCRIPTION:Curling is Cool Day — https://todaycelebrates.com/holiday/cur
+ ling-is-cool-day/
+X-WR-CALDESC:Curling is Cool Day — https://todaycelebrates.com/holiday/cu
+ rling-is-cool-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/curling-is-cool-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/curling-is-cool-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:curling-is-cool-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:Curling is Cool Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Curling is Cool Day\, observed on February 23\, is celebrated b
+ y sports fans across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/curling-is-cool-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/curling-is-cool-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

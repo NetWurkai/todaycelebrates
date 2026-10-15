@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Safer Internet Day
+X-WR-CALNAME:Safer Internet Day
+DESCRIPTION:Safer Internet Day — https://todaycelebrates.com/holiday/safe
+ r-internet-day/
+X-WR-CALDESC:Safer Internet Day — https://todaycelebrates.com/holiday/saf
+ er-internet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/safer-internet-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/safer-internet-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:safer-internet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Safer Internet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Safer Internet Day\, observed on February 9\, celebrates a piec
+ e of technology or digital culture that's become part of everyday life acr
+ oss the United States.\n\nhttps://todaycelebrates.com/holiday/safer-intern
+ et-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/safer-internet-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Boiled Peanuts Day
+X-WR-CALNAME:National Boiled Peanuts Day
+DESCRIPTION:National Boiled Peanuts Day — https://todaycelebrates.com/hol
+ iday/national-boiled-peanuts-day/
+X-WR-CALDESC:National Boiled Peanuts Day — https://todaycelebrates.com/ho
+ liday/national-boiled-peanuts-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-boiled-peanuts-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-boiled-peanut
+ s-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-boiled-peanuts-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:National Boiled Peanuts Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Boiled Peanuts Day is a food-focused observance celebr
+ ated across the United States on February 21\, giving fans of the dish or 
+ ingredient an excuse to seek it out and share it with others.\n\nhttps://t
+ odaycelebrates.com/holiday/national-boiled-peanuts-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-boiled-peanuts-d
+ ay/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pony Express Day
+X-WR-CALNAME:Pony Express Day
+DESCRIPTION:Pony Express Day — https://todaycelebrates.com/holiday/pony-e
+ xpress-day/
+X-WR-CALDESC:Pony Express Day — https://todaycelebrates.com/holiday/pony-
+ express-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pony-express-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pony-express-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pony-express-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Pony Express Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pony Express Day\, observed on April 3\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/pony-express-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pony-express-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Boston Terrier Day
+X-WR-CALNAME:National Boston Terrier Day
+DESCRIPTION:National Boston Terrier Day — https://todaycelebrates.com/hol
+ iday/national-boston-terrier-day/
+X-WR-CALDESC:National Boston Terrier Day — https://todaycelebrates.com/ho
+ liday/national-boston-terrier-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-boston-terrier-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-boston-terrie
+ r-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-boston-terrier-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:National Boston Terrier Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Boston Terrier Day\, observed on February 19\, is cele
+ brated by dog lovers across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/national-boston-terrier-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-boston-terrier-d
+ ay/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

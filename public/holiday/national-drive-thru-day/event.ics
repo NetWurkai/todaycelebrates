@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Drive-Thru Day
+X-WR-CALNAME:National Drive-Thru Day
+DESCRIPTION:National Drive-Thru Day — https://todaycelebrates.com/holiday
+ /national-drive-thru-day/
+X-WR-CALDESC:National Drive-Thru Day — https://todaycelebrates.com/holida
+ y/national-drive-thru-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-drive-thru-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-drive-thru-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-drive-thru-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:National Drive-Thru Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Drive-Thru Day\, observed on July 24\, is a lightheart
+ ed holiday celebrated across the United States.\n\nhttps://todaycelebrates
+ .com/holiday/national-drive-thru-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-drive-thru-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

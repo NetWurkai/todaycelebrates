@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Beer and Pizza Day
+X-WR-CALNAME:International Beer and Pizza Day
+DESCRIPTION:International Beer and Pizza Day — https://todaycelebrates.co
+ m/holiday/international-beer-and-pizza-day/
+X-WR-CALDESC:International Beer and Pizza Day — https://todaycelebrates.c
+ om/holiday/international-beer-and-pizza-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-beer-and-pi
+ zza-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-beer-and
+ -pizza-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-beer-and-pizza-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271009
+DTEND;VALUE=DATE:20271010
+SUMMARY:International Beer and Pizza Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Beer and Pizza Day falls on October 9 and celebra
+ tes beer culture\, brewing traditions\, and the simple pleasure of sharing
+  a cold one with friends.\n\nhttps://todaycelebrates.com/holiday/internati
+ onal-beer-and-pizza-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-beer-and-pi
+ zza-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

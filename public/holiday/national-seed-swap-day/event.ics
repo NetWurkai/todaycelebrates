@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Seed Swap Day
+X-WR-CALNAME:National Seed Swap Day
+DESCRIPTION:National Seed Swap Day — https://todaycelebrates.com/holiday/
+ national-seed-swap-day/
+X-WR-CALDESC:National Seed Swap Day — https://todaycelebrates.com/holiday
+ /national-seed-swap-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-seed-swap-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-seed-swap-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-seed-swap-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:National Seed Swap Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Seed Swap Day is a nature-focused observance on Januar
+ y 30\, celebrated across the United States to draw attention to the plant\
+ , animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holi
+ day/national-seed-swap-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-seed-swap-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

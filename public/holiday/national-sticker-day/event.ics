@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Sticker Day
+X-WR-CALNAME:National Sticker Day
+DESCRIPTION:National Sticker Day — https://todaycelebrates.com/holiday/na
+ tional-sticker-day/
+X-WR-CALDESC:National Sticker Day — https://todaycelebrates.com/holiday/n
+ ational-sticker-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sticker-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-sticker-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-sticker-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:National Sticker Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sticker Day\, observed on January 13\, is a lightheart
+ ed\, family-friendly day celebrated across the United States.\n\nhttps://t
+ odaycelebrates.com/holiday/national-sticker-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sticker-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

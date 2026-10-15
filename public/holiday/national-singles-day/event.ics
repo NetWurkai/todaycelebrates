@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Singles Day
+X-WR-CALNAME:National Singles Day
+DESCRIPTION:National Singles Day — https://todaycelebrates.com/holiday/na
+ tional-singles-day/
+X-WR-CALDESC:National Singles Day — https://todaycelebrates.com/holiday/n
+ ational-singles-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-singles-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-singles-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-singles-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:National Singles Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Singles Day\, observed on September 26\, is a day for 
+ reflection and small acts of kindness centered on singles\, celebrated acr
+ oss the United States.\n\nhttps://todaycelebrates.com/holiday/national-sin
+ gles-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-singles-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Wiener Schnitzel Day
+X-WR-CALNAME:National Wiener Schnitzel Day
+DESCRIPTION:National Wiener Schnitzel Day — https://todaycelebrates.com/h
+ oliday/national-wiener-schnitzel-day/
+X-WR-CALDESC:National Wiener Schnitzel Day — https://todaycelebrates.com/
+ holiday/national-wiener-schnitzel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wiener-schnitzel
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-wiener-schnit
+ zel-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-wiener-schnitzel-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:National Wiener Schnitzel Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for September 9: National Wiener Schnitzel D
+ ay invites food lovers across the United States to celebrate everything ab
+ out wiener schnitzel\, whether that means cooking it at home or treating y
+ ourself at a favorite spot.\n\nhttps://todaycelebrates.com/holiday/nationa
+ l-wiener-schnitzel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wiener-schnitzel
+ -day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

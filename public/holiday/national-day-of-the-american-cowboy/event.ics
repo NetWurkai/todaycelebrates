@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Day of the American Cowboy
+X-WR-CALNAME:National Day of the American Cowboy
+DESCRIPTION:National Day of the American Cowboy — https://todaycelebrates
+ .com/holiday/national-day-of-the-american-cowboy/
+X-WR-CALDESC:National Day of the American Cowboy — https://todaycelebrate
+ s.com/holiday/national-day-of-the-american-cowboy/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-the-ameri
+ can-cowboy/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-the-am
+ erican-cowboy/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-day-of-the-american-cowboy@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:National Day of the American Cowboy
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Day of the American Cowboy\, observed on July 24\, is 
+ a lighthearted holiday celebrated across the United States.\n\nhttps://tod
+ aycelebrates.com/holiday/national-day-of-the-american-cowboy/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-the-ameri
+ can-cowboy/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

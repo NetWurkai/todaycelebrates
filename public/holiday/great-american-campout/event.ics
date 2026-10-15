@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Great American Campout
+X-WR-CALNAME:Great American Campout
+DESCRIPTION:Great American Campout — https://todaycelebrates.com/holiday/
+ great-american-campout/
+X-WR-CALDESC:Great American Campout — https://todaycelebrates.com/holiday
+ /great-american-campout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-campout/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/great-american-campout
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:great-american-campout@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:Great American Campout
+RRULE:FREQ=YEARLY
+DESCRIPTION:Great American Campout is a nature-focused observance on June 2
+ 6\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /great-american-campout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-campout/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

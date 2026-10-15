@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Ronald Reagan Day
+X-WR-CALNAME:Ronald Reagan Day
+DESCRIPTION:Ronald Reagan Day — https://todaycelebrates.com/holiday/ronal
+ d-reagan-day/
+X-WR-CALDESC:Ronald Reagan Day — https://todaycelebrates.com/holiday/rona
+ ld-reagan-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ronald-reagan-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/ronald-reagan-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ronald-reagan-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Ronald Reagan Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Ronald Reagan Day\, observed on February 6\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/ronald-reagan-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ronald-reagan-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Dark Chocolate Day
+X-WR-CALNAME:National Dark Chocolate Day
+DESCRIPTION:National Dark Chocolate Day — https://todaycelebrates.com/hol
+ iday/national-dark-chocolate-day/
+X-WR-CALDESC:National Dark Chocolate Day — https://todaycelebrates.com/ho
+ liday/national-dark-chocolate-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dark-chocolate-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-dark-chocolat
+ e-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-dark-chocolate-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:National Dark Chocolate Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dark Chocolate Day is a food-focused observance celebr
+ ated across the United States on February 1\, giving fans of the dish or i
+ ngredient an excuse to seek it out and share it with others.\n\nhttps://to
+ daycelebrates.com/holiday/national-dark-chocolate-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dark-chocolate-d
+ ay/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

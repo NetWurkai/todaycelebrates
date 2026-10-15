@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Kwanzaa
+X-WR-CALNAME:Kwanzaa
+DESCRIPTION:Kwanzaa — https://todaycelebrates.com/holiday/kwanzaa/
+X-WR-CALDESC:Kwanzaa — https://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:kwanzaa@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Kwanzaa
+RRULE:FREQ=YEARLY
+DESCRIPTION:Kwanzaa is a seven-day celebration of African American family\,
+  community\, and culture that runs from December 26 through January 1. Mau
+ lana Karenga created it in 1966\, and each day is given to one of the Nguz
+ o Saba\, the seven principles at the center of the holiday.\n\nhttps://tod
+ aycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

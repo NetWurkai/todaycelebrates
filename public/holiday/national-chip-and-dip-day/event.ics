@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chip and Dip Day
+X-WR-CALNAME:National Chip and Dip Day
+DESCRIPTION:National Chip and Dip Day — https://todaycelebrates.com/holid
+ ay/national-chip-and-dip-day/
+X-WR-CALDESC:National Chip and Dip Day — https://todaycelebrates.com/holi
+ day/national-chip-and-dip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chip-and-dip-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chip-and-dip-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chip-and-dip-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:National Chip and Dip Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chip and Dip Day is a food-focused observance celebrat
+ ed across the United States on March 23\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-chip-and-dip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chip-and-dip-day
+ /
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

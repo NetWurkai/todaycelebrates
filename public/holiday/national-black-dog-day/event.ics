@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Black Dog Day
+X-WR-CALNAME:National Black Dog Day
+DESCRIPTION:National Black Dog Day — https://todaycelebrates.com/holiday/
+ national-black-dog-day/
+X-WR-CALDESC:National Black Dog Day — https://todaycelebrates.com/holiday
+ /national-black-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-black-dog-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-black-dog-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-black-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:National Black Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Black Dog Day is celebrated across the United States o
+ n October 1\, honoring dogs and the bond they share with the people who lo
+ ve them.\n\nhttps://todaycelebrates.com/holiday/national-black-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-black-dog-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

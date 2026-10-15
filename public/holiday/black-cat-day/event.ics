@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Black Cat Day
+X-WR-CALNAME:Black Cat Day
+DESCRIPTION:Black Cat Day — https://todaycelebrates.com/holiday/black-cat
+ -day/
+X-WR-CALDESC:Black Cat Day — https://todaycelebrates.com/holiday/black-ca
+ t-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-cat-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/black-cat-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:black-cat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Black Cat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Black Cat Day is one of the spookier stops on the October calen
+ dar\, celebrated on October 27 in the run-up to Halloween.\n\nhttps://toda
+ ycelebrates.com/holiday/black-cat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-cat-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

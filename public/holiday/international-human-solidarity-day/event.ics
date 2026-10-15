@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Human Solidarity Day
+X-WR-CALNAME:International Human Solidarity Day
+DESCRIPTION:International Human Solidarity Day — https://todaycelebrates.
+ com/holiday/international-human-solidarity-day/
+X-WR-CALDESC:International Human Solidarity Day — https://todaycelebrates
+ .com/holiday/international-human-solidarity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-human-solid
+ arity-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-human-so
+ lidarity-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-human-solidarity-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:International Human Solidarity Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Human Solidarity Day\, observed on December 20\, 
+ encourages people across the United States to pause and recognize the peop
+ le and causes behind the day.\n\nhttps://todaycelebrates.com/holiday/inter
+ national-human-solidarity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-human-solid
+ arity-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Uncommon Instrument Awareness Day
+X-WR-CALNAME:Uncommon Instrument Awareness Day
+DESCRIPTION:Uncommon Instrument Awareness Day — https://todaycelebrates.c
+ om/holiday/uncommon-instrument-awareness-day/
+X-WR-CALDESC:Uncommon Instrument Awareness Day — https://todaycelebrates.
+ com/holiday/uncommon-instrument-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/uncommon-instrument-aware
+ ness-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/uncommon-instrument-aw
+ areness-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:uncommon-instrument-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:Uncommon Instrument Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Uncommon Instrument Awareness Day is a music-focused observance
+  on July 31\, celebrated by fans across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/uncommon-instrument-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/uncommon-instrument-aware
+ ness-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

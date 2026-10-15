@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Military Spouse Appreciation Day
+X-WR-CALNAME:Military Spouse Appreciation Day
+DESCRIPTION:Military Spouse Appreciation Day — https://todaycelebrates.co
+ m/holiday/military-spouse-appreciation-day/
+X-WR-CALDESC:Military Spouse Appreciation Day — https://todaycelebrates.c
+ om/holiday/military-spouse-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/military-spouse-appreciat
+ ion-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/military-spouse-apprec
+ iation-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:military-spouse-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:Military Spouse Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Military Spouse Appreciation Day\, observed on May 7\, encourag
+ es people across the United States to pause and recognize the people and c
+ auses behind the day.\n\nhttps://todaycelebrates.com/holiday/military-spou
+ se-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/military-spouse-appreciat
+ ion-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

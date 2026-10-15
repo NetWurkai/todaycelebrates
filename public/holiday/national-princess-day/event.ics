@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Princess Day
+X-WR-CALNAME:National Princess Day
+DESCRIPTION:National Princess Day — https://todaycelebrates.com/holiday/n
+ ational-princess-day/
+X-WR-CALDESC:National Princess Day — https://todaycelebrates.com/holiday/
+ national-princess-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-princess-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-princess-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-princess-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:National Princess Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Princess Day\, observed on November 18\, is a lighthea
+ rted\, family-friendly day celebrated across the United States.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-princess-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-princess-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

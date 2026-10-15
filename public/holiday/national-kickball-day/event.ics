@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Kickball Day
+X-WR-CALNAME:National Kickball Day
+DESCRIPTION:National Kickball Day — https://todaycelebrates.com/holiday/n
+ ational-kickball-day/
+X-WR-CALDESC:National Kickball Day — https://todaycelebrates.com/holiday/
+ national-kickball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kickball-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-kickball-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-kickball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:National Kickball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Kickball Day\, observed on April 17\, is celebrated by
+  sports fans across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/national-kickball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kickball-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

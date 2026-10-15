@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Tailgating Day
+X-WR-CALNAME:National Tailgating Day
+DESCRIPTION:National Tailgating Day — https://todaycelebrates.com/holiday
+ /national-tailgating-day/
+X-WR-CALDESC:National Tailgating Day — https://todaycelebrates.com/holida
+ y/national-tailgating-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tailgating-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-tailgating-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-tailgating-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:National Tailgating Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tailgating Day falls on September 5 and celebrates tai
+ lgating\, drawing attention across the United States to the natural world 
+ and our place in it.\n\nhttps://todaycelebrates.com/holiday/national-tailg
+ ating-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tailgating-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

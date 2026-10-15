@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Hogmanay
+X-WR-CALNAME:Hogmanay
+DESCRIPTION:Hogmanay — https://todaycelebrates.com/holiday/hogmanay/
+X-WR-CALDESC:Hogmanay — https://todaycelebrates.com/holiday/hogmanay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hogmanay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/hogmanay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:hogmanay@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Hogmanay
+RRULE:FREQ=YEARLY
+DESCRIPTION:Hogmanay\, observed on December 31\, is a lighthearted holiday 
+ celebrated across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/hogmanay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hogmanay/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

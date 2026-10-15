@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Only Child Day
+X-WR-CALNAME:National Only Child Day
+DESCRIPTION:National Only Child Day — https://todaycelebrates.com/holiday
+ /national-only-child-day/
+X-WR-CALDESC:National Only Child Day — https://todaycelebrates.com/holida
+ y/national-only-child-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-only-child-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-only-child-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-only-child-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:National Only Child Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Only Child Day\, observed on April 12\, is a lighthear
+ ted\, family-friendly day celebrated across the United States.\n\nhttps://
+ todaycelebrates.com/holiday/national-only-child-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-only-child-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

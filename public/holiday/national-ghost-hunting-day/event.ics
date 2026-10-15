@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Ghost Hunting Day
+X-WR-CALNAME:National Ghost Hunting Day
+DESCRIPTION:National Ghost Hunting Day — https://todaycelebrates.com/holi
+ day/national-ghost-hunting-day/
+X-WR-CALDESC:National Ghost Hunting Day — https://todaycelebrates.com/hol
+ iday/national-ghost-hunting-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ghost-hunting-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-ghost-hunting
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-ghost-hunting-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:National Ghost Hunting Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Ghost Hunting Day is one of the spookier stops on the 
+ October calendar\, celebrated on September 26 in the run-up to Halloween.\
+ n\nhttps://todaycelebrates.com/holiday/national-ghost-hunting-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ghost-hunting-da
+ y/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

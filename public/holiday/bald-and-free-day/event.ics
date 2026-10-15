@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bald and Free Day
+X-WR-CALNAME:Bald and Free Day
+DESCRIPTION:Bald and Free Day — https://todaycelebrates.com/holiday/bald-
+ and-free-day/
+X-WR-CALDESC:Bald and Free Day — https://todaycelebrates.com/holiday/bald
+ -and-free-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bald-and-free-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bald-and-free-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bald-and-free-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:Bald and Free Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bald and Free Day is observed across the United States on Octob
+ er 7\, a small but fun addition to the calendar worth celebrating in its o
+ wn way.\n\nhttps://todaycelebrates.com/holiday/bald-and-free-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bald-and-free-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

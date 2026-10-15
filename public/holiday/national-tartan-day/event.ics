@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Tartan Day
+X-WR-CALNAME:National Tartan Day
+DESCRIPTION:National Tartan Day — https://todaycelebrates.com/holiday/nat
+ ional-tartan-day/
+X-WR-CALDESC:National Tartan Day — https://todaycelebrates.com/holiday/na
+ tional-tartan-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tartan-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-tartan-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-tartan-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:National Tartan Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tartan Day\, observed on April 6\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/national-tartan-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tartan-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

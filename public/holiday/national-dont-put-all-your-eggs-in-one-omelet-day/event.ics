@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Don't Put all your Eggs in One Omelet Day
+X-WR-CALNAME:National Don't Put all your Eggs in One Omelet Day
+DESCRIPTION:National Don't Put all your Eggs in One Omelet Day — https://
+ todaycelebrates.com/holiday/national-dont-put-all-your-eggs-in-one-omelet-
+ day/
+X-WR-CALDESC:National Don't Put all your Eggs in One Omelet Day — https:/
+ /todaycelebrates.com/holiday/national-dont-put-all-your-eggs-in-one-omelet
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dont-put-all-you
+ r-eggs-in-one-omelet-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-dont-put-all-
+ your-eggs-in-one-omelet-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-dont-put-all-your-eggs-in-one-omelet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:National Don't Put all your Eggs in One Omelet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Don't Put all your Eggs in One Omelet Day is a food-fo
+ cused observance celebrated across the United States on July 9\, giving fa
+ ns of the dish or ingredient an excuse to seek it out and share it with ot
+ hers.\n\nhttps://todaycelebrates.com/holiday/national-dont-put-all-your-eg
+ gs-in-one-omelet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dont-put-all-you
+ r-eggs-in-one-omelet-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

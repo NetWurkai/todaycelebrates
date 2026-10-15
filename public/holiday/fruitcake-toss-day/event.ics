@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Fruitcake Toss Day
+X-WR-CALNAME:Fruitcake Toss Day
+DESCRIPTION:Fruitcake Toss Day — https://todaycelebrates.com/holiday/frui
+ tcake-toss-day/
+X-WR-CALDESC:Fruitcake Toss Day — https://todaycelebrates.com/holiday/fru
+ itcake-toss-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/fruitcake-toss-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/fruitcake-toss-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:fruitcake-toss-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Fruitcake Toss Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Fruitcake Toss Day\, observed on January 2\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/fruitcake-toss-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/fruitcake-toss-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

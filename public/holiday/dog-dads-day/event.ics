@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Dog Dad's Day
+X-WR-CALNAME:Dog Dad's Day
+DESCRIPTION:Dog Dad's Day — https://todaycelebrates.com/holiday/dog-dads-
+ day/
+X-WR-CALDESC:Dog Dad's Day — https://todaycelebrates.com/holiday/dog-dads
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dog-dads-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/dog-dads-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:dog-dads-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:Dog Dad's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Dog Dad's Day\, observed on June 19\, is celebrated by dog love
+ rs across the United States.\n\nhttps://todaycelebrates.com/holiday/dog-da
+ ds-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dog-dads-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

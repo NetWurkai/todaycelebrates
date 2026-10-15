@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Global Work From Home Day
+X-WR-CALNAME:Global Work From Home Day
+DESCRIPTION:Global Work From Home Day — https://todaycelebrates.com/holid
+ ay/global-work-from-home-day/
+X-WR-CALDESC:Global Work From Home Day — https://todaycelebrates.com/holi
+ day/global-work-from-home-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-work-from-home-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/global-work-from-home-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:global-work-from-home-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Global Work From Home Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Work From Home Day\, observed on April 10\, celebrates a
+  piece of technology or digital culture that's become part of everyday lif
+ e across the United States.\n\nhttps://todaycelebrates.com/holiday/global-
+ work-from-home-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-work-from-home-day
+ /
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

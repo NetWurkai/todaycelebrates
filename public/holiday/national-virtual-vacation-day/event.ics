@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Virtual Vacation Day
+X-WR-CALNAME:National Virtual Vacation Day
+DESCRIPTION:National Virtual Vacation Day — https://todaycelebrates.com/h
+ oliday/national-virtual-vacation-day/
+X-WR-CALDESC:National Virtual Vacation Day — https://todaycelebrates.com/
+ holiday/national-virtual-vacation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-virtual-vacation
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-virtual-vacat
+ ion-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-virtual-vacation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:National Virtual Vacation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Virtual Vacation Day\, observed on March 30\, is a lig
+ hthearted holiday celebrated across the United States.\n\nhttps://todaycel
+ ebrates.com/holiday/national-virtual-vacation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-virtual-vacation
+ -day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

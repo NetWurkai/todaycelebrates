@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:G.I. Joe Day
+X-WR-CALNAME:G.I. Joe Day
+DESCRIPTION:G.I. Joe Day — https://todaycelebrates.com/holiday/g-i-joe-da
+ y/
+X-WR-CALDESC:G.I. Joe Day — https://todaycelebrates.com/holiday/g-i-joe-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/g-i-joe-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/g-i-joe-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:g-i-joe-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:G.I. Joe Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:G.I. Joe Day\, observed on February 1\, is a lighthearted\, fam
+ ily-friendly day celebrated across the United States.\n\nhttps://todaycele
+ brates.com/holiday/g-i-joe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/g-i-joe-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

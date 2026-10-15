@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Lincoln's Birthday
+X-WR-CALNAME:Lincoln's Birthday
+DESCRIPTION:Lincoln's Birthday — https://todaycelebrates.com/holiday/linc
+ olns-birthday/
+X-WR-CALDESC:Lincoln's Birthday — https://todaycelebrates.com/holiday/lin
+ colns-birthday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lincolns-birthday/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/lincolns-birthday/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:lincolns-birthday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Lincoln's Birthday
+RRULE:FREQ=YEARLY
+DESCRIPTION:Lincoln's Birthday\, observed on February 12\, is a lighthearte
+ d holiday celebrated across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/lincolns-birthday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lincolns-birthday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Etch A Sketch Day
+X-WR-CALNAME:Etch A Sketch Day
+DESCRIPTION:Etch A Sketch Day — https://todaycelebrates.com/holiday/etch-
+ a-sketch-day/
+X-WR-CALDESC:Etch A Sketch Day — https://todaycelebrates.com/holiday/etch
+ -a-sketch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/etch-a-sketch-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/etch-a-sketch-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:etch-a-sketch-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:Etch A Sketch Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Etch A Sketch Day\, observed on July 12\, is a lighthearted\, f
+ amily-friendly day celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/etch-a-sketch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/etch-a-sketch-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

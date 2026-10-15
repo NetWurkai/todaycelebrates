@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chianti Day
+X-WR-CALNAME:National Chianti Day
+DESCRIPTION:National Chianti Day — https://todaycelebrates.com/holiday/na
+ tional-chianti-day/
+X-WR-CALDESC:National Chianti Day — https://todaycelebrates.com/holiday/n
+ ational-chianti-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chianti-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chianti-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chianti-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:National Chianti Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chianti Day is a lighthearted food holiday celebrated 
+ across the United States on September 4\, giving fans of chianti an excuse
+  to seek it out and share it with others.\n\nhttps://todaycelebrates.com/h
+ oliday/national-chianti-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chianti-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

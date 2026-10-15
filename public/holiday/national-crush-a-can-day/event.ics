@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Crush a Can Day
+X-WR-CALNAME:National Crush a Can Day
+DESCRIPTION:National Crush a Can Day — https://todaycelebrates.com/holida
+ y/national-crush-a-can-day/
+X-WR-CALDESC:National Crush a Can Day — https://todaycelebrates.com/holid
+ ay/national-crush-a-can-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-crush-a-can-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-crush-a-can-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-crush-a-can-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270927
+DTEND;VALUE=DATE:20270928
+SUMMARY:National Crush a Can Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 27\, National Crush a Can Day gives people across 
+ the United States one more reason to mark the day and celebrate crush a ca
+ n.\n\nhttps://todaycelebrates.com/holiday/national-crush-a-can-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-crush-a-can-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

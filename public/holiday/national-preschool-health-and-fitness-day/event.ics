@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Preschool Health and Fitness Day
+X-WR-CALNAME:National Preschool Health and Fitness Day
+DESCRIPTION:National Preschool Health and Fitness Day — https://todaycele
+ brates.com/holiday/national-preschool-health-and-fitness-day/
+X-WR-CALDESC:National Preschool Health and Fitness Day — https://todaycel
+ ebrates.com/holiday/national-preschool-health-and-fitness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-preschool-health
+ -and-fitness-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-preschool-hea
+ lth-and-fitness-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-preschool-health-and-fitness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:National Preschool Health and Fitness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Preschool Health and Fitness Day\, observed on January
+  29\, encourages people across the United States to focus on health and we
+ llbeing.\n\nhttps://todaycelebrates.com/holiday/national-preschool-health-
+ and-fitness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-preschool-health
+ -and-fitness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pierogi Day
+X-WR-CALNAME:National Pierogi Day
+DESCRIPTION:National Pierogi Day — https://todaycelebrates.com/holiday/na
+ tional-pierogi-day/
+X-WR-CALDESC:National Pierogi Day — https://todaycelebrates.com/holiday/n
+ ational-pierogi-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pierogi-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pierogi-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pierogi-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+SUMMARY:National Pierogi Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for October 8: National Pierogi Day invites 
+ food lovers across the United States to celebrate everything about pierogi
+ \, whether that means cooking it at home or treating yourself at a favorit
+ e spot.\n\nhttps://todaycelebrates.com/holiday/national-pierogi-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pierogi-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cold Brew Day
+X-WR-CALNAME:National Cold Brew Day
+DESCRIPTION:National Cold Brew Day — https://todaycelebrates.com/holiday/
+ national-cold-brew-day/
+X-WR-CALDESC:National Cold Brew Day — https://todaycelebrates.com/holiday
+ /national-cold-brew-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cold-brew-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cold-brew-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cold-brew-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:National Cold Brew Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cold Brew Day\, observed on April 20\, is celebrated b
+ y coffee lovers across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/national-cold-brew-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cold-brew-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

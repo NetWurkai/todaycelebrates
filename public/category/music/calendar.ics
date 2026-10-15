@@ -1,0 +1,1075 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Today Celebrates: Music
+X-WR-CALNAME:Today Celebrates: Music
+DESCRIPTION:65 music observances from https://todaycelebrates.com/category/
+ music/. Rebuilt daily.
+X-WR-CALDESC:65 music observances from https://todaycelebrates.com/category
+ /music/. Rebuilt daily.
+URL;VALUE=URI:https://todaycelebrates.com/category/music/calendar.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/category/music/calendar.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bagpipe-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270727
+DTEND;VALUE=DATE:20270728
+SUMMARY:Bagpipe Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bagpipe Appreciation Day is a music-focused observance on July 
+ 27\, celebrated by fans across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/bagpipe-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bagpipe-appreciation-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ballet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Ballet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Ballet Day is a music-focused observance on February 7\, celebr
+ ated by fans across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/ballet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ballet-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:barbershop-quartet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Barbershop Quartet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Barbershop Quartet Day is a music-focused observance on April 1
+ 1\, celebrated by fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/barbershop-quartet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/barbershop-quartet-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:blink-182-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:blink-182 Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:blink-182 Day is a music-focused observance on July 1\, celebra
+ ted by fans across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/blink-182-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/blink-182-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:get-out-your-guitar-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Get Out Your Guitar Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Get Out Your Guitar Day is a music-focused observance on Februa
+ ry 11\, celebrated by fans across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/get-out-your-guitar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/get-out-your-guitar-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:global-beatles-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:Global Beatles Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Beatles Day is a music-focused observance on June 25\, c
+ elebrated by fans across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/global-beatles-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-beatles-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:go-caroling-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Go Caroling Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Go Caroling Day is a music-focused observance on December 20\, 
+ celebrated by fans across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/go-caroling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/go-caroling-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:happy-birthday-to-you-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:"Happy Birthday to You" Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:"Happy Birthday to You" Day is a music-focused observance on Ju
+ ne 27\, celebrated by fans across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/happy-birthday-to-you-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/happy-birthday-to-you-day
+ /
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-bagpipe-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:International Bagpipe Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Bagpipe Day is a music-focused observance on Marc
+ h 10\, celebrated by fans across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/international-bagpipe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-bagpipe-day
+ /
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-blues-music-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:International Blues Music Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Blues Music Day is a music-focused observance on 
+ August 7\, celebrated by fans across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/international-blues-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-blues-music
+ -day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-choreographers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:International Choreographers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Choreographers Day is a music-focused observance 
+ on January 9\, celebrated by fans across the United States.\n\nhttps://tod
+ aycelebrates.com/holiday/international-choreographers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-choreograph
+ ers-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-dance-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:International Dance Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Dance Day is a music-focused observance on April 
+ 29\, celebrated by fans across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/international-dance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-dance-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-jazz-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:International Jazz Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Jazz Day is a music-focused observance on April 3
+ 0\, celebrated by fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/international-jazz-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-jazz-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-louie-louie-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:International Louie Louie Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Louie Louie Day is a music-focused observance on 
+ April 11\, celebrated by fans across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/international-louie-louie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-louie-louie
+ -day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-music-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:International Music Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Music Day celebrates music on October 1\, giving 
+ music lovers around the world a reason to turn up the volume.\n\nhttps://t
+ odaycelebrates.com/holiday/international-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-music-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-reggae-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:International Reggae Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Reggae Day is a music-focused observance on July 
+ 1\, celebrated by fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/international-reggae-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-reggae-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-sound-check-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:International Sound Check Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Sound Check Day is a music-focused observance on 
+ December 12\, celebrated by fans across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/international-sound-check-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-sound-check
+ -day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-strange-music-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270825
+SUMMARY:International Strange Music Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Strange Music Day is a music-focused observance o
+ n August 24\, celebrated by fans across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/international-strange-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-strange-mus
+ ic-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-tuba-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:International Tuba Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Tuba Day is a music-focused observance on May 7\,
+  celebrated by fans across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/international-tuba-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tuba-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:liberace-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:Liberace Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Liberace Day is a music-focused observance on February 4\, cele
+ brated by fans across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/liberace-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/liberace-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:marching-music-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Marching Music Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Marching Music Day is a music-focused observance on March 4\, c
+ elebrated by fans across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/marching-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/marching-music-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:my-way-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:My Way Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:My Way Day is a music-focused observance on February 17\, celeb
+ rated by fans across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/my-way-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/my-way-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-buy-a-musical-instrument-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:National Buy a Musical Instrument Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Buy a Musical Instrument Day is a music-focused observ
+ ance on May 22\, celebrated by fans across the United States.\n\nhttps://t
+ odaycelebrates.com/holiday/national-buy-a-musical-instrument-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-buy-a-musical-in
+ strument-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-chai-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+SUMMARY:National Chai Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chai Day celebrates chai on September 21\, giving musi
+ c lovers across the United States a reason to turn up the volume.\n\nhttps
+ ://todaycelebrates.com/holiday/national-chai-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chai-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-concert-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:National Concert Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Concert Day is a music-focused observance on May 4\, c
+ elebrated by fans across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/national-concert-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-concert-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-country-music-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+SUMMARY:National Country Music Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Country Music Day is a music-focused observance on Jul
+ y 4\, celebrated by fans across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/national-country-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-country-music-da
+ y/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-dance-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:National Dance Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dance Day celebrates dance on September 19\, giving mu
+ sic lovers across the United States a reason to turn up the volume.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-dance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dance-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-disc-jockey-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:National Disc Jockey Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Disc Jockey Day is a music-focused observance on Janua
+ ry 20\, celebrated by fans across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/national-disc-jockey-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-disc-jockey-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-duran-duran-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:National Duran Duran Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Duran Duran Appreciation Day is a music-focused observ
+ ance on August 10\, celebrated by fans across the United States.\n\nhttps:
+ //todaycelebrates.com/holiday/national-duran-duran-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-duran-duran-appr
+ eciation-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-electric-guitar-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:National Electric Guitar Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Electric Guitar Day is a music-focused observance on N
+ ovember 27\, celebrated by fans across the United States.\n\nhttps://today
+ celebrates.com/holiday/national-electric-guitar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-electric-guitar-
+ day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-emo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:National Emo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Emo Day is a music-focused observance on December 19\,
+  celebrated by fans across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/national-emo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-emo-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-film-score-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:National Film Score Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Film Score Day is a music-focused observance on April 
+ 3\, celebrated by fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-film-score-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-film-score-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-jukebox-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:National Jukebox Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Jukebox Day is a music-focused observance on November 
+ 25\, celebrated by fans across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/national-jukebox-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-jukebox-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-kazoo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:National Kazoo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Kazoo Day is a music-focused observance on January 28\
+ , celebrated by fans across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/national-kazoo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kazoo-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-metal-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:National Metal Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Metal Day is a music-focused observance on November 11
+ \, celebrated by fans across the United States.\n\nhttps://todaycelebrates
+ .com/holiday/national-metal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-metal-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-old-rock-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:National Old Rock Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Old Rock Day is a music-focused observance on January 
+ 7\, celebrated by fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-old-rock-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-old-rock-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-polka-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270809
+DTEND;VALUE=DATE:20270810
+SUMMARY:National Polka Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Polka Day is a music-focused observance on August 9\, 
+ celebrated by fans across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/national-polka-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-polka-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-saxophone-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:National Saxophone Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Saxophone Day is a music-focused observance on Novembe
+ r 6\, celebrated by fans across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/national-saxophone-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-saxophone-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-tap-dance-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:National Tap Dance Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tap Dance Day is a music-focused observance on May 25\
+ , celebrated by fans across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/national-tap-dance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tap-dance-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-title-track-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:National Title Track Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Title Track Day is a music-focused observance on May 2
+ 8\, celebrated by fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-title-track-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-title-track-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-trombone-players-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:National Trombone Players Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Trombone Players Day is a music-focused observance on 
+ April 1\, celebrated by fans across the United States.\n\nhttps://todaycel
+ ebrates.com/holiday/national-trombone-players-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-trombone-players
+ -day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-violin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:National Violin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Violin Day is a music-focused observance on December 1
+ 3\, celebrated by fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-violin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-violin-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:new-kids-on-the-block-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:New Kids on the Block Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:New Kids on the Block Day is a music-focused observance on Apri
+ l 24\, celebrated by fans across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/new-kids-on-the-block-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-kids-on-the-block-day
+ /
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:one-voice-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:One Voice Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:One Voice Day is a music-focused observance on December 31\, ce
+ lebrated by fans across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/one-voice-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/one-voice-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:opera-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:Opera Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Opera Day is a music-focused observance on February 8\, celebra
+ ted by fans across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/opera-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/opera-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:piano-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Piano Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Piano Day is a music-focused observance on March 29\, celebrate
+ d by fans across the United States.\n\nhttps://todaycelebrates.com/holiday
+ /piano-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/piano-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:play-music-on-the-porch-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:Play Music on the Porch Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Play Music on the Porch Day is a music-focused observance on Au
+ gust 28\, celebrated by fans across the United States.\n\nhttps://todaycel
+ ebrates.com/holiday/play-music-on-the-porch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/play-music-on-the-porch-d
+ ay/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pop-music-chart-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Pop Music Chart Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pop Music Chart Day is a music-focused observance on January 4\
+ , celebrated by fans across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/pop-music-chart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pop-music-chart-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:public-radio-broadcasting-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Public Radio Broadcasting Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Public Radio Broadcasting Day is a music-focused observance on 
+ January 13\, celebrated by fans across the United States.\n\nhttps://today
+ celebrates.com/holiday/public-radio-broadcasting-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/public-radio-broadcasting
+ -day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:quirky-country-music-song-titles-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:Quirky Country Music Song Titles Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Quirky Country Music Song Titles Day is a music-focused observa
+ nce on March 27\, celebrated by fans across the United States.\n\nhttps://
+ todaycelebrates.com/holiday/quirky-country-music-song-titles-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/quirky-country-music-song
+ -titles-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stephen-foster-memorial-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Stephen Foster Memorial Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Stephen Foster Memorial Day is a music-focused observance on Ja
+ nuary 13\, celebrated by fans across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/stephen-foster-memorial-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stephen-foster-memorial-d
+ ay/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:symphonic-metal-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Symphonic Metal Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Symphonic Metal Day is a music-focused observance on November 1
+ 3\, celebrated by fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/symphonic-metal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/symphonic-metal-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-day-the-music-died@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:The Day the Music Died
+RRULE:FREQ=YEARLY
+DESCRIPTION:The Day the Music Died is a music-focused observance on Februar
+ y 3\, celebrated by fans across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/the-day-the-music-died/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-day-the-music-died/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-stars-and-stripes-forever-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270515
+SUMMARY:The Stars and Stripes Forever Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:The Stars and Stripes Forever Day is a music-focused observance
+  on May 14\, celebrated by fans across the United States.\n\nhttps://today
+ celebrates.com/holiday/the-stars-and-stripes-forever-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-stars-and-stripes-for
+ ever-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:uncommon-instrument-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:Uncommon Instrument Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Uncommon Instrument Awareness Day is a music-focused observance
+  on July 31\, celebrated by fans across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/uncommon-instrument-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/uncommon-instrument-aware
+ ness-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:universal-music-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:Universal Music Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Universal Music Day celebrates universal music on October 10\, 
+ giving music lovers across the United States a reason to turn up the volum
+ e.\n\nhttps://todaycelebrates.com/holiday/universal-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/universal-music-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:vinyl-record-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:Vinyl Record Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Vinyl Record Day is a music-focused observance on August 12\, c
+ elebrated by fans across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/vinyl-record-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/vinyl-record-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-choral-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:World Choral Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Choral Day is a music-focused observance on December 13\,
+  celebrated by fans across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/world-choral-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-choral-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-fiddle-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:World Fiddle Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Fiddle Day is a music-focused observance on May 22\, cele
+ brated by fans across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/world-fiddle-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-fiddle-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-music-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:World Music Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Music Day is a music-focused observance on June 21\, cele
+ brated by fans across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/world-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-music-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-pianist-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:World Pianist Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Pianist Day is a music-focused observance on November 8\,
+  celebrated by fans across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/world-pianist-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-pianist-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-radio-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:World Radio Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Radio Day is a music-focused observance on February 13\, 
+ celebrated by fans across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/world-radio-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-radio-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-techno-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:World Techno Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Techno Day is a music-focused observance on December 9\, 
+ celebrated by fans across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/world-techno-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-techno-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-ukulele-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:World Ukulele Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Ukulele Day is a music-focused observance on February 2\,
+  celebrated by fans across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/world-ukulele-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-ukulele-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yodel-for-your-neighbors-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Yodel for Your Neighbors Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Yodel for Your Neighbors Day is a music-focused observance on J
+ anuary 30\, celebrated by fans across the United States.\n\nhttps://todayc
+ elebrates.com/holiday/yodel-for-your-neighbors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yodel-for-your-neighbors-
+ day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

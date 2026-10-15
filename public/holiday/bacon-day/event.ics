@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bacon Day
+X-WR-CALNAME:Bacon Day
+DESCRIPTION:Bacon Day — https://todaycelebrates.com/holiday/bacon-day/
+X-WR-CALDESC:Bacon Day — https://todaycelebrates.com/holiday/bacon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bacon-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bacon-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bacon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Bacon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bacon Day is a food-focused observance celebrated across the Un
+ ited States on December 30\, giving fans of the dish or ingredient an excu
+ se to seek it out and share it with others.\n\nhttps://todaycelebrates.com
+ /holiday/bacon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bacon-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

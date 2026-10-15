@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Doctor-Patient Trust Day
+X-WR-CALNAME:Doctor-Patient Trust Day
+DESCRIPTION:Doctor-Patient Trust Day — https://todaycelebrates.com/holida
+ y/doctor-patient-trust-day/
+X-WR-CALDESC:Doctor-Patient Trust Day — https://todaycelebrates.com/holid
+ ay/doctor-patient-trust-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/doctor-patient-trust-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/doctor-patient-trust-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:doctor-patient-trust-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Doctor-Patient Trust Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Doctor-Patient Trust Day\, observed on March 17\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/doctor-patient-trust-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/doctor-patient-trust-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

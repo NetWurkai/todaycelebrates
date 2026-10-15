@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National North Carolina Day
+X-WR-CALNAME:National North Carolina Day
+DESCRIPTION:National North Carolina Day — https://todaycelebrates.com/hol
+ iday/national-north-carolina-day/
+X-WR-CALDESC:National North Carolina Day — https://todaycelebrates.com/ho
+ liday/national-north-carolina-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-north-carolina-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-north-carolin
+ a-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-north-carolina-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+SUMMARY:National North Carolina Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National North Carolina Day is observed across the United State
+ s on September 28\, a small but fun addition to the calendar worth celebra
+ ting in its own way.\n\nhttps://todaycelebrates.com/holiday/national-north
+ -carolina-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-north-carolina-d
+ ay/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

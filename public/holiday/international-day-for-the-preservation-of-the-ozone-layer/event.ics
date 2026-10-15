@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day for the Preservation of the Ozone Layer
+X-WR-CALNAME:International Day for the Preservation of the Ozone Layer
+DESCRIPTION:International Day for the Preservation of the Ozone Layer — h
+ ttps://todaycelebrates.com/holiday/international-day-for-the-preservation-
+ of-the-ozone-layer/
+X-WR-CALDESC:International Day for the Preservation of the Ozone Layer — 
+ https://todaycelebrates.com/holiday/international-day-for-the-preservation
+ -of-the-ozone-layer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-the
+ -preservation-of-the-ozone-layer/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-
+ the-preservation-of-the-ozone-layer/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-for-the-preservation-of-the-ozone-layer@todaycelebrat
+ es.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:International Day for the Preservation of the Ozone Layer
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day for the Preservation of the Ozone Layer falls
+  on September 16 and celebrates day for the preservation of the ozone laye
+ r\, drawing attention around the world to the natural world and our place 
+ in it.\n\nhttps://todaycelebrates.com/holiday/international-day-for-the-pr
+ eservation-of-the-ozone-layer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-the
+ -preservation-of-the-ozone-layer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

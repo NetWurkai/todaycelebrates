@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Look Alike Day
+X-WR-CALNAME:National Look Alike Day
+DESCRIPTION:National Look Alike Day — https://todaycelebrates.com/holiday
+ /national-look-alike-day/
+X-WR-CALDESC:National Look Alike Day — https://todaycelebrates.com/holida
+ y/national-look-alike-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-look-alike-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-look-alike-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-look-alike-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:National Look Alike Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Look Alike Day\, observed on April 20\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-look-alike-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-look-alike-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

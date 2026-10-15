@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Plum Pudding Day
+X-WR-CALNAME:National Plum Pudding Day
+DESCRIPTION:National Plum Pudding Day — https://todaycelebrates.com/holid
+ ay/national-plum-pudding-day/
+X-WR-CALDESC:National Plum Pudding Day — https://todaycelebrates.com/holi
+ day/national-plum-pudding-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-plum-pudding-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-plum-pudding-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-plum-pudding-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:National Plum Pudding Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Plum Pudding Day is a food-focused observance celebrat
+ ed across the United States on February 12\, giving fans of the dish or in
+ gredient an excuse to seek it out and share it with others.\n\nhttps://tod
+ aycelebrates.com/holiday/national-plum-pudding-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-plum-pudding-day
+ /
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

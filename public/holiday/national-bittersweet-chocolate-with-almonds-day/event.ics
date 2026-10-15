@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bittersweet Chocolate with Almonds Day
+X-WR-CALNAME:National Bittersweet Chocolate with Almonds Day
+DESCRIPTION:National Bittersweet Chocolate with Almonds Day — https://tod
+ aycelebrates.com/holiday/national-bittersweet-chocolate-with-almonds-day/
+X-WR-CALDESC:National Bittersweet Chocolate with Almonds Day — https://to
+ daycelebrates.com/holiday/national-bittersweet-chocolate-with-almonds-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bittersweet-choc
+ olate-with-almonds-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bittersweet-c
+ hocolate-with-almonds-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bittersweet-chocolate-with-almonds-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:National Bittersweet Chocolate with Almonds Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bittersweet Chocolate with Almonds Day is a food-focus
+ ed observance celebrated across the United States on November 7\, giving f
+ ans of the dish or ingredient an excuse to seek it out and share it with o
+ thers.\n\nhttps://todaycelebrates.com/holiday/national-bittersweet-chocola
+ te-with-almonds-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bittersweet-choc
+ olate-with-almonds-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

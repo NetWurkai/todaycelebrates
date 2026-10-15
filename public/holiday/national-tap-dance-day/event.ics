@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Tap Dance Day
+X-WR-CALNAME:National Tap Dance Day
+DESCRIPTION:National Tap Dance Day — https://todaycelebrates.com/holiday/
+ national-tap-dance-day/
+X-WR-CALDESC:National Tap Dance Day — https://todaycelebrates.com/holiday
+ /national-tap-dance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tap-dance-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-tap-dance-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-tap-dance-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:National Tap Dance Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tap Dance Day is a music-focused observance on May 25\
+ , celebrated by fans across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/national-tap-dance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tap-dance-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

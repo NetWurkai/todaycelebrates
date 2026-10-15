@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Peking Duck Day
+X-WR-CALNAME:National Peking Duck Day
+DESCRIPTION:National Peking Duck Day — https://todaycelebrates.com/holida
+ y/national-peking-duck-day/
+X-WR-CALDESC:National Peking Duck Day — https://todaycelebrates.com/holid
+ ay/national-peking-duck-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-peking-duck-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-peking-duck-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-peking-duck-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:National Peking Duck Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Peking Duck Day is a food-focused observance celebrate
+ d across the United States on January 18\, giving fans of the dish or ingr
+ edient an excuse to seek it out and share it with others.\n\nhttps://today
+ celebrates.com/holiday/national-peking-duck-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-peking-duck-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

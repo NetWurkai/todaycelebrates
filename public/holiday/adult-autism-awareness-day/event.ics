@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Adult Autism Awareness Day
+X-WR-CALNAME:Adult Autism Awareness Day
+DESCRIPTION:Adult Autism Awareness Day — https://todaycelebrates.com/holi
+ day/adult-autism-awareness-day/
+X-WR-CALDESC:Adult Autism Awareness Day — https://todaycelebrates.com/hol
+ iday/adult-autism-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/adult-autism-awareness-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/adult-autism-awareness
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:adult-autism-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Adult Autism Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Adult Autism Awareness Day\, observed on April 18\, encourages 
+ people across the United States to focus on health and wellbeing.\n\nhttps
+ ://todaycelebrates.com/holiday/adult-autism-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/adult-autism-awareness-da
+ y/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

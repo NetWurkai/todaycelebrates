@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Lazy Day
+X-WR-CALNAME:National Lazy Day
+DESCRIPTION:National Lazy Day — https://todaycelebrates.com/holiday/natio
+ nal-lazy-day/
+X-WR-CALDESC:National Lazy Day — https://todaycelebrates.com/holiday/nati
+ onal-lazy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lazy-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-lazy-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-lazy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:National Lazy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Lazy Day\, observed on August 10\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/national-lazy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lazy-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Beaver Day
+X-WR-CALNAME:International Beaver Day
+DESCRIPTION:International Beaver Day — https://todaycelebrates.com/holida
+ y/international-beaver-day/
+X-WR-CALDESC:International Beaver Day — https://todaycelebrates.com/holid
+ ay/international-beaver-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-beaver-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-beaver-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-beaver-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:International Beaver Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Beaver Day is a nature-focused observance on Apri
+ l 7\, celebrated across the United States to draw attention to the plant\,
+  animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holid
+ ay/international-beaver-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-beaver-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

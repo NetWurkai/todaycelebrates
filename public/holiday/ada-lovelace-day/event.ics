@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Ada Lovelace Day
+X-WR-CALNAME:Ada Lovelace Day
+DESCRIPTION:Ada Lovelace Day — https://todaycelebrates.com/holiday/ada-lo
+ velace-day/
+X-WR-CALDESC:Ada Lovelace Day — https://todaycelebrates.com/holiday/ada-l
+ ovelace-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ada-lovelace-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/ada-lovelace-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ada-lovelace-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271013
+DTEND;VALUE=DATE:20271014
+SUMMARY:Ada Lovelace Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Ada Lovelace Day celebrates the achievements of women in scienc
+ e\, technology\, engineering\, and math\, named for the 19th-century mathe
+ matician often considered the first computer programmer.\n\nhttps://todayc
+ elebrates.com/holiday/ada-lovelace-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ada-lovelace-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

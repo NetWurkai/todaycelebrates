@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Poetry and the Creative Mind Day
+X-WR-CALNAME:Poetry and the Creative Mind Day
+DESCRIPTION:Poetry and the Creative Mind Day — https://todaycelebrates.co
+ m/holiday/poetry-and-the-creative-mind-day/
+X-WR-CALDESC:Poetry and the Creative Mind Day — https://todaycelebrates.c
+ om/holiday/poetry-and-the-creative-mind-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/poetry-and-the-creative-m
+ ind-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/poetry-and-the-creativ
+ e-mind-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:poetry-and-the-creative-mind-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Poetry and the Creative Mind Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Poetry and the Creative Mind Day is a reading- and writing-focu
+ sed observance on April 1\, celebrated by book lovers across the United St
+ ates.\n\nhttps://todaycelebrates.com/holiday/poetry-and-the-creative-mind-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/poetry-and-the-creative-m
+ ind-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

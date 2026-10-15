@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Peanut Butter and Jelly Day
+X-WR-CALNAME:National Peanut Butter and Jelly Day
+DESCRIPTION:National Peanut Butter and Jelly Day — https://todaycelebrate
+ s.com/holiday/national-peanut-butter-and-jelly-day/
+X-WR-CALDESC:National Peanut Butter and Jelly Day — https://todaycelebrat
+ es.com/holiday/national-peanut-butter-and-jelly-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-peanut-butter-an
+ d-jelly-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-peanut-butter
+ -and-jelly-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-peanut-butter-and-jelly-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:National Peanut Butter and Jelly Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Peanut Butter and Jelly Day is a food-focused observan
+ ce celebrated across the United States on April 2\, giving fans of the dis
+ h or ingredient an excuse to seek it out and share it with others.\n\nhttp
+ s://todaycelebrates.com/holiday/national-peanut-butter-and-jelly-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-peanut-butter-an
+ d-jelly-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

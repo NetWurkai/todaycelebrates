@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Emergency Nurses Day
+X-WR-CALNAME:Emergency Nurses Day
+DESCRIPTION:Emergency Nurses Day — https://todaycelebrates.com/holiday/em
+ ergency-nurses-day/
+X-WR-CALDESC:Emergency Nurses Day — https://todaycelebrates.com/holiday/e
+ mergency-nurses-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/emergency-nurses-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/emergency-nurses-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:emergency-nurses-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+SUMMARY:Emergency Nurses Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Emergency Nurses Day\, marked across the United States on Octob
+ er 14\, raises awareness around emergency nurses and supports those affect
+ ed by it.\n\nhttps://todaycelebrates.com/holiday/emergency-nurses-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/emergency-nurses-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

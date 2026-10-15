@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Non-Binary People's Day
+X-WR-CALNAME:International Non-Binary People's Day
+DESCRIPTION:International Non-Binary People's Day — https://todaycelebrat
+ es.com/holiday/international-non-binary-peoples-day/
+X-WR-CALDESC:International Non-Binary People's Day — https://todaycelebra
+ tes.com/holiday/international-non-binary-peoples-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-non-binary-
+ peoples-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-non-bina
+ ry-peoples-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-non-binary-peoples-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+SUMMARY:International Non-Binary People's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Non-Binary People's Day\, observed on July 14\, e
+ ncourages people across the United States to pause and recognize the peopl
+ e and causes behind the day.\n\nhttps://todaycelebrates.com/holiday/intern
+ ational-non-binary-peoples-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-non-binary-
+ peoples-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

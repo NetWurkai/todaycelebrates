@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Employee Appreciation Day
+X-WR-CALNAME:Employee Appreciation Day
+DESCRIPTION:Employee Appreciation Day — https://todaycelebrates.com/holid
+ ay/employee-appreciation-day/
+X-WR-CALDESC:Employee Appreciation Day — https://todaycelebrates.com/holi
+ day/employee-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/employee-appreciation-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/employee-appreciation-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:employee-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:Employee Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Employee Appreciation Day\, observed on March 5\, encourages pe
+ ople across the United States to pause and recognize the people and causes
+  behind the day.\n\nhttps://todaycelebrates.com/holiday/employee-appreciat
+ ion-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/employee-appreciation-day
+ /
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

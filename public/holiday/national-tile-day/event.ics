@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Tile Day
+X-WR-CALNAME:National Tile Day
+DESCRIPTION:National Tile Day — https://todaycelebrates.com/holiday/natio
+ nal-tile-day/
+X-WR-CALDESC:National Tile Day — https://todaycelebrates.com/holiday/nati
+ onal-tile-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tile-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-tile-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-tile-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:National Tile Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tile Day\, observed on February 23\, is a lighthearted
+  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/national-tile-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tile-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

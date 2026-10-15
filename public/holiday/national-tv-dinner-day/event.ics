@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National TV Dinner Day
+X-WR-CALNAME:National TV Dinner Day
+DESCRIPTION:National TV Dinner Day — https://todaycelebrates.com/holiday/
+ national-tv-dinner-day/
+X-WR-CALDESC:National TV Dinner Day — https://todaycelebrates.com/holiday
+ /national-tv-dinner-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tv-dinner-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-tv-dinner-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-tv-dinner-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:National TV Dinner Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for September 10: National TV Dinner Day inv
+ ites food lovers across the United States to celebrate everything about tv
+  dinner\, whether that means cooking it at home or treating yourself at a 
+ favorite spot.\n\nhttps://todaycelebrates.com/holiday/national-tv-dinner-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tv-dinner-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Listening Day
+X-WR-CALNAME:World Listening Day
+DESCRIPTION:World Listening Day — https://todaycelebrates.com/holiday/wor
+ ld-listening-day/
+X-WR-CALDESC:World Listening Day — https://todaycelebrates.com/holiday/wo
+ rld-listening-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-listening-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-listening-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-listening-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+SUMMARY:World Listening Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Listening Day\, observed on July 18\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/world-listening-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-listening-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

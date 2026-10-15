@@ -1,0 +1,148 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Purim
+X-WR-CALNAME:Purim
+DESCRIPTION:Purim — https://todaycelebrates.com/holiday/purim/
+X-WR-CALDESC:Purim — https://todaycelebrates.com/holiday/purim/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/purim/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/purim/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:purim-20270323@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:Purim
+DESCRIPTION:Purim\, observed on March 23\, encourages people across the Uni
+ ted States to pause and recognize the people and causes behind the day.\n\
+ nhttps://todaycelebrates.com/holiday/purim/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/purim/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:purim-20280312@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280312
+DTEND;VALUE=DATE:20280313
+SUMMARY:Purim
+DESCRIPTION:Purim\, observed on March 23\, encourages people across the Uni
+ ted States to pause and recognize the people and causes behind the day.\n\
+ nhttps://todaycelebrates.com/holiday/purim/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/purim/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:purim-20290301@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290301
+DTEND;VALUE=DATE:20290302
+SUMMARY:Purim
+DESCRIPTION:Purim\, observed on March 23\, encourages people across the Uni
+ ted States to pause and recognize the people and causes behind the day.\n\
+ nhttps://todaycelebrates.com/holiday/purim/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/purim/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:purim-20300319@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300319
+DTEND;VALUE=DATE:20300320
+SUMMARY:Purim
+DESCRIPTION:Purim\, observed on March 23\, encourages people across the Uni
+ ted States to pause and recognize the people and causes behind the day.\n\
+ nhttps://todaycelebrates.com/holiday/purim/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/purim/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:purim-20310309@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310309
+DTEND;VALUE=DATE:20310310
+SUMMARY:Purim
+DESCRIPTION:Purim\, observed on March 23\, encourages people across the Uni
+ ted States to pause and recognize the people and causes behind the day.\n\
+ nhttps://todaycelebrates.com/holiday/purim/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/purim/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:purim-20320226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320226
+DTEND;VALUE=DATE:20320227
+SUMMARY:Purim
+DESCRIPTION:Purim\, observed on March 23\, encourages people across the Uni
+ ted States to pause and recognize the people and causes behind the day.\n\
+ nhttps://todaycelebrates.com/holiday/purim/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/purim/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:purim-20330315@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330315
+DTEND;VALUE=DATE:20330316
+SUMMARY:Purim
+DESCRIPTION:Purim\, observed on March 23\, encourages people across the Uni
+ ted States to pause and recognize the people and causes behind the day.\n\
+ nhttps://todaycelebrates.com/holiday/purim/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/purim/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:purim-20340305@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340305
+DTEND;VALUE=DATE:20340306
+SUMMARY:Purim
+DESCRIPTION:Purim\, observed on March 23\, encourages people across the Uni
+ ted States to pause and recognize the people and causes behind the day.\n\
+ nhttps://todaycelebrates.com/holiday/purim/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/purim/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:purim-20350325@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350325
+DTEND;VALUE=DATE:20350326
+SUMMARY:Purim
+DESCRIPTION:Purim\, observed on March 23\, encourages people across the Uni
+ ted States to pause and recognize the people and causes behind the day.\n\
+ nhttps://todaycelebrates.com/holiday/purim/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/purim/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Answer the Phone Like Buddy the Elf Day
+X-WR-CALNAME:Answer the Phone Like Buddy the Elf Day
+DESCRIPTION:Answer the Phone Like Buddy the Elf Day — https://todaycelebr
+ ates.com/holiday/answer-the-phone-like-buddy-the-elf-day/
+X-WR-CALDESC:Answer the Phone Like Buddy the Elf Day — https://todayceleb
+ rates.com/holiday/answer-the-phone-like-buddy-the-elf-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/answer-the-phone-like-bud
+ dy-the-elf-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/answer-the-phone-like-
+ buddy-the-elf-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:answer-the-phone-like-buddy-the-elf-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Answer the Phone Like Buddy the Elf Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Answer the Phone Like Buddy the Elf Day\, observed on December 
+ 18\, is a lighthearted holiday celebrated across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/answer-the-phone-like-buddy-the-elf-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/answer-the-phone-like-bud
+ dy-the-elf-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

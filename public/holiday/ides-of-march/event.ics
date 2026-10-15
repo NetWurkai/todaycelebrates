@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Ides of March
+X-WR-CALNAME:Ides of March
+DESCRIPTION:Ides of March — https://todaycelebrates.com/holiday/ides-of-m
+ arch/
+X-WR-CALDESC:Ides of March — https://todaycelebrates.com/holiday/ides-of-
+ march/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ides-of-march/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/ides-of-march/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ides-of-march@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Ides of March
+RRULE:FREQ=YEARLY
+DESCRIPTION:Ides of March\, observed on March 15\, is a lighthearted holida
+ y celebrated across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/ides-of-march/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ides-of-march/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Just One Human Family Day
+X-WR-CALNAME:National Just One Human Family Day
+DESCRIPTION:National Just One Human Family Day — https://todaycelebrates.
+ com/holiday/national-just-one-human-family-day/
+X-WR-CALDESC:National Just One Human Family Day — https://todaycelebrates
+ .com/holiday/national-just-one-human-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-just-one-human-f
+ amily-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-just-one-huma
+ n-family-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-just-one-human-family-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:National Just One Human Family Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Just One Human Family Day\, observed on September 12\,
+  is a day for reflection and small acts of kindness centered on just one h
+ uman family\, celebrated across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/national-just-one-human-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-just-one-human-f
+ amily-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

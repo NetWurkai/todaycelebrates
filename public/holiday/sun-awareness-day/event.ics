@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Sun Awareness Day
+X-WR-CALNAME:Sun Awareness Day
+DESCRIPTION:Sun Awareness Day — https://todaycelebrates.com/holiday/sun-a
+ wareness-day/
+X-WR-CALDESC:Sun Awareness Day — https://todaycelebrates.com/holiday/sun-
+ awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sun-awareness-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/sun-awareness-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sun-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:Sun Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Sun Awareness Day\, observed on May 8\, encourages people acros
+ s the United States to focus on health and wellbeing.\n\nhttps://todaycele
+ brates.com/holiday/sun-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sun-awareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

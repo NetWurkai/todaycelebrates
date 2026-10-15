@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Red Shoe Day
+X-WR-CALNAME:International Red Shoe Day
+DESCRIPTION:International Red Shoe Day — https://todaycelebrates.com/holi
+ day/international-red-shoe-day/
+X-WR-CALDESC:International Red Shoe Day — https://todaycelebrates.com/hol
+ iday/international-red-shoe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-red-shoe-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-red-shoe
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-red-shoe-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+SUMMARY:International Red Shoe Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Red Shoe Day\, observed on July 25\, is a lighthe
+ arted holiday celebrated across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/international-red-shoe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-red-shoe-da
+ y/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

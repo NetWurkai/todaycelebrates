@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Burrito Day
+X-WR-CALNAME:National Burrito Day
+DESCRIPTION:National Burrito Day — https://todaycelebrates.com/holiday/na
+ tional-burrito-day/
+X-WR-CALDESC:National Burrito Day — https://todaycelebrates.com/holiday/n
+ ational-burrito-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-burrito-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-burrito-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-burrito-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:National Burrito Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Burrito Day is a food-focused observance celebrated ac
+ ross the United States on April 1\, giving fans of the dish or ingredient 
+ an excuse to seek it out and share it with others.\n\nhttps://todaycelebra
+ tes.com/holiday/national-burrito-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-burrito-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

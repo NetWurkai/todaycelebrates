@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:American Football Day
+X-WR-CALNAME:American Football Day
+DESCRIPTION:American Football Day — https://todaycelebrates.com/holiday/a
+ merican-football-day/
+X-WR-CALDESC:American Football Day — https://todaycelebrates.com/holiday/
+ american-football-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-football-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/american-football-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:american-football-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:American Football Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:American Football Day\, observed on November 5\, is celebrated 
+ by sports fans across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/american-football-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-football-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

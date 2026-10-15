@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Boston Tea Party Day
+X-WR-CALNAME:Boston Tea Party Day
+DESCRIPTION:Boston Tea Party Day — https://todaycelebrates.com/holiday/bo
+ ston-tea-party-day/
+X-WR-CALDESC:Boston Tea Party Day — https://todaycelebrates.com/holiday/b
+ oston-tea-party-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-tea-party-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/boston-tea-party-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:boston-tea-party-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Boston Tea Party Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Boston Tea Party Day\, observed on December 16\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/boston-tea-party-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/boston-tea-party-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

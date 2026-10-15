@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pumpkin Spice Day
+X-WR-CALNAME:Pumpkin Spice Day
+DESCRIPTION:Pumpkin Spice Day — https://todaycelebrates.com/holiday/pumpk
+ in-spice-day/
+X-WR-CALDESC:Pumpkin Spice Day — https://todaycelebrates.com/holiday/pump
+ kin-spice-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pumpkin-spice-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pumpkin-spice-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pumpkin-spice-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:Pumpkin Spice Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pumpkin Spice Day is one of the spookier stops on the October c
+ alendar\, celebrated on October 1 in the run-up to Halloween.\n\nhttps://t
+ odaycelebrates.com/holiday/pumpkin-spice-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pumpkin-spice-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

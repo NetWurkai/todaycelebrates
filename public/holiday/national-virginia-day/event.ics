@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Virginia Day
+X-WR-CALNAME:National Virginia Day
+DESCRIPTION:National Virginia Day — https://todaycelebrates.com/holiday/n
+ ational-virginia-day/
+X-WR-CALDESC:National Virginia Day — https://todaycelebrates.com/holiday/
+ national-virginia-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-virginia-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-virginia-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-virginia-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+SUMMARY:National Virginia Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Virginia Day is observed across the United States on S
+ eptember 14\, a small but fun addition to the calendar worth celebrating i
+ n its own way.\n\nhttps://todaycelebrates.com/holiday/national-virginia-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-virginia-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

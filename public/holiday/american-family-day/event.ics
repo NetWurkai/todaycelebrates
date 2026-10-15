@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:American Family Day
+X-WR-CALNAME:American Family Day
+DESCRIPTION:American Family Day — https://todaycelebrates.com/holiday/ame
+ rican-family-day/
+X-WR-CALDESC:American Family Day — https://todaycelebrates.com/holiday/am
+ erican-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-family-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/american-family-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:american-family-day-20270801@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:American Family Day
+DESCRIPTION:American Family Day\, observed on August 1\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/american-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-family-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-family-day-20280806@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280806
+DTEND;VALUE=DATE:20280807
+SUMMARY:American Family Day
+DESCRIPTION:American Family Day\, observed on August 1\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/american-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-family-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-family-day-20290805@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290805
+DTEND;VALUE=DATE:20290806
+SUMMARY:American Family Day
+DESCRIPTION:American Family Day\, observed on August 1\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/american-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-family-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-family-day-20300804@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300804
+DTEND;VALUE=DATE:20300805
+SUMMARY:American Family Day
+DESCRIPTION:American Family Day\, observed on August 1\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/american-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-family-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-family-day-20310803@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310803
+DTEND;VALUE=DATE:20310804
+SUMMARY:American Family Day
+DESCRIPTION:American Family Day\, observed on August 1\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/american-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-family-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-family-day-20320801@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320801
+DTEND;VALUE=DATE:20320802
+SUMMARY:American Family Day
+DESCRIPTION:American Family Day\, observed on August 1\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/american-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-family-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-family-day-20330807@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330807
+DTEND;VALUE=DATE:20330808
+SUMMARY:American Family Day
+DESCRIPTION:American Family Day\, observed on August 1\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/american-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-family-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-family-day-20340806@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340806
+DTEND;VALUE=DATE:20340807
+SUMMARY:American Family Day
+DESCRIPTION:American Family Day\, observed on August 1\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/american-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-family-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-family-day-20350805@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350805
+DTEND;VALUE=DATE:20350806
+SUMMARY:American Family Day
+DESCRIPTION:American Family Day\, observed on August 1\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/american-family-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-family-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

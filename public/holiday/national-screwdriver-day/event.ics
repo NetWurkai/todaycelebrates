@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Screwdriver Day
+X-WR-CALNAME:National Screwdriver Day
+DESCRIPTION:National Screwdriver Day — https://todaycelebrates.com/holida
+ y/national-screwdriver-day/
+X-WR-CALDESC:National Screwdriver Day — https://todaycelebrates.com/holid
+ ay/national-screwdriver-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-screwdriver-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-screwdriver-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-screwdriver-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:National Screwdriver Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Screwdriver Day\, observed on December 14\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/national-screwdriver-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-screwdriver-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

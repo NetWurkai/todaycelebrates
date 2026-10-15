@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Tug-of-War Day
+X-WR-CALNAME:International Tug-of-War Day
+DESCRIPTION:International Tug-of-War Day — https://todaycelebrates.com/ho
+ liday/international-tug-of-war-day/
+X-WR-CALDESC:International Tug-of-War Day — https://todaycelebrates.com/h
+ oliday/international-tug-of-war-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tug-of-war-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-tug-of-w
+ ar-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-tug-of-war-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:International Tug-of-War Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Tug-of-War Day\, observed on February 19\, is cel
+ ebrated by sports fans across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/international-tug-of-war-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tug-of-war-
+ day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

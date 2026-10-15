@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Global Smurfs Day
+X-WR-CALNAME:Global Smurfs Day
+DESCRIPTION:Global Smurfs Day — https://todaycelebrates.com/holiday/globa
+ l-smurfs-day/
+X-WR-CALDESC:Global Smurfs Day — https://todaycelebrates.com/holiday/glob
+ al-smurfs-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-smurfs-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/global-smurfs-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:global-smurfs-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:Global Smurfs Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Smurfs Day\, observed on June 26\, is a lighthearted\, f
+ amily-friendly day celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/global-smurfs-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-smurfs-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

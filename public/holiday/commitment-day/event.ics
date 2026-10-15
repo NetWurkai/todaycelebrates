@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Commitment Day
+X-WR-CALNAME:Commitment Day
+DESCRIPTION:Commitment Day — https://todaycelebrates.com/holiday/commitme
+ nt-day/
+X-WR-CALDESC:Commitment Day — https://todaycelebrates.com/holiday/commitm
+ ent-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/commitment-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/commitment-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:commitment-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Commitment Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Commitment Day\, observed on January 1\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/commitment-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/commitment-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

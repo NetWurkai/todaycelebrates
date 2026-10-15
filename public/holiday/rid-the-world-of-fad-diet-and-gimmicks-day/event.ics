@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Rid the World of Fad Diet and Gimmicks Day
+X-WR-CALNAME:Rid the World of Fad Diet and Gimmicks Day
+DESCRIPTION:Rid the World of Fad Diet and Gimmicks Day — https://todaycel
+ ebrates.com/holiday/rid-the-world-of-fad-diet-and-gimmicks-day/
+X-WR-CALDESC:Rid the World of Fad Diet and Gimmicks Day — https://todayce
+ lebrates.com/holiday/rid-the-world-of-fad-diet-and-gimmicks-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rid-the-world-of-fad-diet
+ -and-gimmicks-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/rid-the-world-of-fad-d
+ iet-and-gimmicks-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:rid-the-world-of-fad-diet-and-gimmicks-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:Rid the World of Fad Diet and Gimmicks Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Rid the World of Fad Diet and Gimmicks Day\, observed on Januar
+ y 19\, encourages people across the United States to focus on health and w
+ ellbeing.\n\nhttps://todaycelebrates.com/holiday/rid-the-world-of-fad-diet
+ -and-gimmicks-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rid-the-world-of-fad-diet
+ -and-gimmicks-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

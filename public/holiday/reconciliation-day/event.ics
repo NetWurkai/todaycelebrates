@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Reconciliation Day
+X-WR-CALNAME:Reconciliation Day
+DESCRIPTION:Reconciliation Day — https://todaycelebrates.com/holiday/reco
+ nciliation-day/
+X-WR-CALDESC:Reconciliation Day — https://todaycelebrates.com/holiday/rec
+ onciliation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/reconciliation-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/reconciliation-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:reconciliation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:Reconciliation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Reconciliation Day\, observed on April 2\, encourages people ac
+ ross the United States to pause and recognize the people and causes behind
+  the day.\n\nhttps://todaycelebrates.com/holiday/reconciliation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/reconciliation-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

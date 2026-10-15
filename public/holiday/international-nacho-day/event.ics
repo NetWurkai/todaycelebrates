@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Nacho Day
+X-WR-CALNAME:International Nacho Day
+DESCRIPTION:International Nacho Day — https://todaycelebrates.com/holiday
+ /international-nacho-day/
+X-WR-CALDESC:International Nacho Day — https://todaycelebrates.com/holida
+ y/international-nacho-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-nacho-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-nacho-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-nacho-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:International Nacho Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 21\, International Nacho Day gives people around the
+  world one more reason to mark the day and celebrate nacho.\n\nhttps://tod
+ aycelebrates.com/holiday/international-nacho-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-nacho-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

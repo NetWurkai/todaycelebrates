@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Tackle Kids Cancer Day
+X-WR-CALNAME:National Tackle Kids Cancer Day
+DESCRIPTION:National Tackle Kids Cancer Day — https://todaycelebrates.com
+ /holiday/national-tackle-kids-cancer-day/
+X-WR-CALDESC:National Tackle Kids Cancer Day — https://todaycelebrates.co
+ m/holiday/national-tackle-kids-cancer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tackle-kids-canc
+ er-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-tackle-kids-c
+ ancer-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-tackle-kids-cancer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:National Tackle Kids Cancer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tackle Kids Cancer Day\, observed across the United St
+ ates on September 15\, celebrates tackle kids cancer and the role it plays
+  in family life.\n\nhttps://todaycelebrates.com/holiday/national-tackle-ki
+ ds-cancer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tackle-kids-canc
+ er-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Intersex Awareness Day
+X-WR-CALNAME:Intersex Awareness Day
+DESCRIPTION:Intersex Awareness Day — https://todaycelebrates.com/holiday/
+ intersex-awareness-day/
+X-WR-CALDESC:Intersex Awareness Day — https://todaycelebrates.com/holiday
+ /intersex-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/intersex-awareness-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/intersex-awareness-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:intersex-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Intersex Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Intersex Awareness Day\, marked across the United States on Oct
+ ober 26\, raises awareness around intersex awareness and supports those af
+ fected by it.\n\nhttps://todaycelebrates.com/holiday/intersex-awareness-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/intersex-awareness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

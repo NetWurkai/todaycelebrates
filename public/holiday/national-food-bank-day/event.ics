@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Food Bank Day
+X-WR-CALNAME:National Food Bank Day
+DESCRIPTION:National Food Bank Day — https://todaycelebrates.com/holiday/
+ national-food-bank-day/
+X-WR-CALDESC:National Food Bank Day — https://todaycelebrates.com/holiday
+ /national-food-bank-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-food-bank-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-food-bank-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-food-bank-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:National Food Bank Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Food Bank Day is observed across the United States on 
+ September 4\, a small but fun addition to the calendar worth celebrating i
+ n its own way.\n\nhttps://todaycelebrates.com/holiday/national-food-bank-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-food-bank-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

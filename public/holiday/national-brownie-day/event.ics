@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Brownie Day
+X-WR-CALNAME:National Brownie Day
+DESCRIPTION:National Brownie Day — https://todaycelebrates.com/holiday/na
+ tional-brownie-day/
+X-WR-CALDESC:National Brownie Day — https://todaycelebrates.com/holiday/n
+ ational-brownie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-brownie-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-brownie-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-brownie-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:National Brownie Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Brownie Day is a food-focused observance celebrated ac
+ ross the United States on December 8\, giving fans of the dish or ingredie
+ nt an excuse to seek it out and share it with others.\n\nhttps://todaycele
+ brates.com/holiday/national-brownie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-brownie-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

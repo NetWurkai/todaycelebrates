@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Do a Grouch a Favor Day
+X-WR-CALNAME:Do a Grouch a Favor Day
+DESCRIPTION:Do a Grouch a Favor Day — https://todaycelebrates.com/holiday
+ /do-a-grouch-a-favor-day/
+X-WR-CALDESC:Do a Grouch a Favor Day — https://todaycelebrates.com/holida
+ y/do-a-grouch-a-favor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/do-a-grouch-a-favor-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/do-a-grouch-a-favor-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:do-a-grouch-a-favor-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:Do a Grouch a Favor Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Do a Grouch a Favor Day\, observed on February 16\, is a lighth
+ earted holiday celebrated across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/do-a-grouch-a-favor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/do-a-grouch-a-favor-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

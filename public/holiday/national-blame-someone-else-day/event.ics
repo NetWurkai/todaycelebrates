@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Blame Someone Else Day
+X-WR-CALNAME:National Blame Someone Else Day
+DESCRIPTION:National Blame Someone Else Day — https://todaycelebrates.com
+ /holiday/national-blame-someone-else-day/
+X-WR-CALDESC:National Blame Someone Else Day — https://todaycelebrates.co
+ m/holiday/national-blame-someone-else-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blame-someone-el
+ se-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-blame-someone
+ -else-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-blame-someone-else-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270813
+DTEND;VALUE=DATE:20270814
+SUMMARY:National Blame Someone Else Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Blame Someone Else Day\, observed on August 13\, is a 
+ lighthearted holiday celebrated across the United States.\n\nhttps://today
+ celebrates.com/holiday/national-blame-someone-else-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blame-someone-el
+ se-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

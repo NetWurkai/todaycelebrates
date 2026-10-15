@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Global Dignity Day
+X-WR-CALNAME:Global Dignity Day
+DESCRIPTION:Global Dignity Day — https://todaycelebrates.com/holiday/glob
+ al-dignity-day/
+X-WR-CALDESC:Global Dignity Day — https://todaycelebrates.com/holiday/glo
+ bal-dignity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-dignity-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/global-dignity-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:global-dignity-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Global Dignity Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 21\, Global Dignity Day gives people around the glob
+ e one more reason to mark the day and celebrate dignity.\n\nhttps://todayc
+ elebrates.com/holiday/global-dignity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-dignity-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

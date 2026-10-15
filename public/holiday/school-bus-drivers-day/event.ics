@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:School Bus Drivers' Day
+X-WR-CALNAME:School Bus Drivers' Day
+DESCRIPTION:School Bus Drivers' Day — https://todaycelebrates.com/holiday
+ /school-bus-drivers-day/
+X-WR-CALDESC:School Bus Drivers' Day — https://todaycelebrates.com/holida
+ y/school-bus-drivers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/school-bus-drivers-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/school-bus-drivers-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:school-bus-drivers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:School Bus Drivers' Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:School Bus Drivers' Day\, observed on April 27\, encourages peo
+ ple across the United States to pause and recognize the people and causes 
+ behind the day.\n\nhttps://todaycelebrates.com/holiday/school-bus-drivers-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/school-bus-drivers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

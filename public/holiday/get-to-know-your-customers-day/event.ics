@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Get to Know Your Customers Day
+X-WR-CALNAME:Get to Know Your Customers Day
+DESCRIPTION:Get to Know Your Customers Day — https://todaycelebrates.com/
+ holiday/get-to-know-your-customers-day/
+X-WR-CALDESC:Get to Know Your Customers Day — https://todaycelebrates.com
+ /holiday/get-to-know-your-customers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/get-to-know-your-customer
+ s-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/get-to-know-your-custo
+ mers-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:get-to-know-your-customers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Get to Know Your Customers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 15\, Get to Know Your Customers Day gives people acr
+ oss the United States one more reason to mark the day and celebrate get to
+  know your customers.\n\nhttps://todaycelebrates.com/holiday/get-to-know-y
+ our-customers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/get-to-know-your-customer
+ s-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

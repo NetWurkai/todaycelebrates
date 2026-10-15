@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Night Out
+X-WR-CALNAME:National Night Out
+DESCRIPTION:National Night Out — https://todaycelebrates.com/holiday/nati
+ onal-night-out/
+X-WR-CALDESC:National Night Out — https://todaycelebrates.com/holiday/nat
+ ional-night-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-night-out/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-night-out/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-night-out-20270803@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270803
+DTEND;VALUE=DATE:20270804
+SUMMARY:National Night Out
+DESCRIPTION:National Night Out\, observed on August 3\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/national-night-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-night-out/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-night-out-20280801@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280801
+DTEND;VALUE=DATE:20280802
+SUMMARY:National Night Out
+DESCRIPTION:National Night Out\, observed on August 3\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/national-night-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-night-out/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-night-out-20290807@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290807
+DTEND;VALUE=DATE:20290808
+SUMMARY:National Night Out
+DESCRIPTION:National Night Out\, observed on August 3\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/national-night-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-night-out/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-night-out-20300806@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300806
+DTEND;VALUE=DATE:20300807
+SUMMARY:National Night Out
+DESCRIPTION:National Night Out\, observed on August 3\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/national-night-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-night-out/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-night-out-20310805@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310805
+DTEND;VALUE=DATE:20310806
+SUMMARY:National Night Out
+DESCRIPTION:National Night Out\, observed on August 3\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/national-night-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-night-out/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-night-out-20320803@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320803
+DTEND;VALUE=DATE:20320804
+SUMMARY:National Night Out
+DESCRIPTION:National Night Out\, observed on August 3\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/national-night-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-night-out/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-night-out-20330802@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330802
+DTEND;VALUE=DATE:20330803
+SUMMARY:National Night Out
+DESCRIPTION:National Night Out\, observed on August 3\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/national-night-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-night-out/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-night-out-20340801@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340801
+DTEND;VALUE=DATE:20340802
+SUMMARY:National Night Out
+DESCRIPTION:National Night Out\, observed on August 3\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/national-night-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-night-out/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-night-out-20350807@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350807
+DTEND;VALUE=DATE:20350808
+SUMMARY:National Night Out
+DESCRIPTION:National Night Out\, observed on August 3\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/national-night-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-night-out/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

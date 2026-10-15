@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Mincemeat Day
+X-WR-CALNAME:National Mincemeat Day
+DESCRIPTION:National Mincemeat Day — https://todaycelebrates.com/holiday/
+ national-mincemeat-day/
+X-WR-CALDESC:National Mincemeat Day — https://todaycelebrates.com/holiday
+ /national-mincemeat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mincemeat-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mincemeat-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mincemeat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:National Mincemeat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mincemeat Day is observed across the United States on 
+ October 26\, a small but fun addition to the calendar worth celebrating in
+  its own way.\n\nhttps://todaycelebrates.com/holiday/national-mincemeat-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mincemeat-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

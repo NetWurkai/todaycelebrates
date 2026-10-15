@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Candy Corn Day
+X-WR-CALNAME:National Candy Corn Day
+DESCRIPTION:National Candy Corn Day — https://todaycelebrates.com/holiday
+ /national-candy-corn-day/
+X-WR-CALDESC:National Candy Corn Day — https://todaycelebrates.com/holida
+ y/national-candy-corn-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-candy-corn-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-candy-corn-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-candy-corn-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:National Candy Corn Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Candy Corn Day is one of the spookier stops on the Oct
+ ober calendar\, celebrated on October 30 in the run-up to Halloween.\n\nht
+ tps://todaycelebrates.com/holiday/national-candy-corn-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-candy-corn-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

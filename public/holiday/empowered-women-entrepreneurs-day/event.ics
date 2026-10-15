@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Empowered Women Entrepreneurs Day
+X-WR-CALNAME:Empowered Women Entrepreneurs Day
+DESCRIPTION:Empowered Women Entrepreneurs Day — https://todaycelebrates.c
+ om/holiday/empowered-women-entrepreneurs-day/
+X-WR-CALDESC:Empowered Women Entrepreneurs Day — https://todaycelebrates.
+ com/holiday/empowered-women-entrepreneurs-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/empowered-women-entrepren
+ eurs-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/empowered-women-entrep
+ reneurs-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:empowered-women-entrepreneurs-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:Empowered Women Entrepreneurs Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Empowered Women Entrepreneurs Day\, observed on April 7\, encou
+ rages people across the United States to pause and recognize the people an
+ d causes behind the day.\n\nhttps://todaycelebrates.com/holiday/empowered-
+ women-entrepreneurs-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/empowered-women-entrepren
+ eurs-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

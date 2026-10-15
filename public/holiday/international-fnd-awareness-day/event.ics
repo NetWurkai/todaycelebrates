@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International FND Awareness Day
+X-WR-CALNAME:International FND Awareness Day
+DESCRIPTION:International FND Awareness Day — https://todaycelebrates.com
+ /holiday/international-fnd-awareness-day/
+X-WR-CALDESC:International FND Awareness Day — https://todaycelebrates.co
+ m/holiday/international-fnd-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-fnd-awarene
+ ss-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-fnd-awar
+ eness-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-fnd-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:International FND Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International FND Awareness Day\, observed on April 13\, encour
+ ages people across the United States to focus on health and wellbeing.\n\n
+ https://todaycelebrates.com/holiday/international-fnd-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-fnd-awarene
+ ss-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National PTA Founders' Day
+X-WR-CALNAME:National PTA Founders' Day
+DESCRIPTION:National PTA Founders' Day — https://todaycelebrates.com/holi
+ day/national-pta-founders-day/
+X-WR-CALDESC:National PTA Founders' Day — https://todaycelebrates.com/hol
+ iday/national-pta-founders-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pta-founders-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pta-founders-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pta-founders-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:National PTA Founders' Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National PTA Founders' Day\, observed on February 17\, is a lig
+ hthearted\, family-friendly day celebrated across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/national-pta-founders-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pta-founders-day
+ /
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

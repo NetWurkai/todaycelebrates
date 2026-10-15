@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Agriculture Day
+X-WR-CALNAME:National Agriculture Day
+DESCRIPTION:National Agriculture Day — https://todaycelebrates.com/holida
+ y/national-agriculture-day/
+X-WR-CALDESC:National Agriculture Day — https://todaycelebrates.com/holid
+ ay/national-agriculture-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-agriculture-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-agriculture-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-agriculture-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:National Agriculture Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Agriculture Day is a nature-focused observance on Marc
+ h 16\, celebrated across the United States to draw attention to the plant\
+ , animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holi
+ day/national-agriculture-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-agriculture-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Kids Take Over the Kitchen Day
+X-WR-CALNAME:National Kids Take Over the Kitchen Day
+DESCRIPTION:National Kids Take Over the Kitchen Day — https://todaycelebr
+ ates.com/holiday/national-kids-take-over-the-kitchen-day/
+X-WR-CALDESC:National Kids Take Over the Kitchen Day — https://todayceleb
+ rates.com/holiday/national-kids-take-over-the-kitchen-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kids-take-over-t
+ he-kitchen-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-kids-take-ove
+ r-the-kitchen-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-kids-take-over-the-kitchen-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270914
+SUMMARY:National Kids Take Over the Kitchen Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Kids Take Over the Kitchen Day\, observed across the U
+ nited States on September 13\, celebrates kids take over the kitchen and t
+ he role it plays in family life.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-kids-take-over-the-kitchen-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kids-take-over-t
+ he-kitchen-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

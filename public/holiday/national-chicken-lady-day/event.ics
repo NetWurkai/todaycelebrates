@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chicken Lady Day
+X-WR-CALNAME:National Chicken Lady Day
+DESCRIPTION:National Chicken Lady Day — https://todaycelebrates.com/holid
+ ay/national-chicken-lady-day/
+X-WR-CALDESC:National Chicken Lady Day — https://todaycelebrates.com/holi
+ day/national-chicken-lady-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chicken-lady-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chicken-lady-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chicken-lady-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:National Chicken Lady Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chicken Lady Day\, observed on November 4\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/national-chicken-lady-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chicken-lady-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

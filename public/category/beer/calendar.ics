@@ -1,0 +1,1562 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Today Celebrates: Beer
+X-WR-CALNAME:Today Celebrates: Beer
+DESCRIPTION:78 beer observances from https://todaycelebrates.com/category/b
+ eer/. Rebuilt daily.
+X-WR-CALDESC:78 beer observances from https://todaycelebrates.com/category/
+ beer/. Rebuilt daily.
+URL;VALUE=URI:https://todaycelebrates.com/category/beer/calendar.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/category/beer/calendar.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bartender-and-mixologist-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:Bartender and Mixologist Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bartender and Mixologist Day is a drinks-focused observance on 
+ June 26\, celebrated by beer and craft-brewery fans across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/bartender-and-mixologist-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bartender-and-mixologist-
+ day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bartender-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Bartender Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bartender Appreciation Day is a drinks-focused observance on De
+ cember 4\, celebrated by beer and craft-brewery fans across the United Sta
+ tes.\n\nhttps://todaycelebrates.com/holiday/bartender-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bartender-appreciation-da
+ y/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20261119@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20271118@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271118
+DTEND;VALUE=DATE:20271119
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20281116@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281116
+DTEND;VALUE=DATE:20281117
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20291115@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291115
+DTEND;VALUE=DATE:20291116
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20301121@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301121
+DTEND;VALUE=DATE:20301122
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20311120@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311120
+DTEND;VALUE=DATE:20311121
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20321118@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321118
+DTEND;VALUE=DATE:20321119
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20331117@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331117
+DTEND;VALUE=DATE:20331118
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20341116@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341116
+DTEND;VALUE=DATE:20341117
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beaujolais-nouveau-day-20351115@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351115
+DTEND;VALUE=DATE:20351116
+SUMMARY:Beaujolais Nouveau Day
+DESCRIPTION:Beaujolais Nouveau Day is a drinks-focused observance on Novemb
+ er 19\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beer-can-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Beer Can Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Beer Can Appreciation Day is a drinks-focused observance on Jan
+ uary 24\, celebrated by beer and craft-brewery fans across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/beer-can-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beer-can-appreciation-day
+ /
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beer-day-iceland@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Beer Day (Iceland)
+RRULE:FREQ=YEARLY
+DESCRIPTION:Beer Day (Iceland) is a drinks-focused observance on March 1\, 
+ celebrated by beer and craft-brewery fans across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/beer-day-iceland/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beer-day-iceland/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:beer-pong-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Beer Pong Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Beer Pong Day is a drinks-focused observance on May 1\, celebra
+ ted by beer and craft-brewery fans across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/beer-pong-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beer-pong-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:canadian-beer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:Canadian Beer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Canadian Beer Day falls on October 7 and celebrates beer cultur
+ e\, brewing traditions\, and the simple pleasure of sharing a cold one wit
+ h friends.\n\nhttps://todaycelebrates.com/holiday/canadian-beer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-beer-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:happy-hour-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Happy Hour Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Happy Hour Day is a drinks-focused observance on November 12\, 
+ celebrated by beer and craft-brewery fans across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/happy-hour-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/happy-hour-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-beer-and-pizza-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271009
+DTEND;VALUE=DATE:20271010
+SUMMARY:International Beer and Pizza Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Beer and Pizza Day falls on October 9 and celebra
+ tes beer culture\, brewing traditions\, and the simple pleasure of sharing
+  a cold one with friends.\n\nhttps://todaycelebrates.com/holiday/internati
+ onal-beer-and-pizza-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-beer-and-pi
+ zza-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-beer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270806
+DTEND;VALUE=DATE:20270807
+SUMMARY:International Beer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Beer Day is a drinks-focused observance on August
+  6\, celebrated by beer and craft-brewery fans across the United States.\n
+ \nhttps://todaycelebrates.com/holiday/international-beer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-beer-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-cacha-a-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:International Cachaça Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Cachaça Day is a drinks-focused observance on Ju
+ ne 12\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/international-cacha-a-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-cacha-a-day
+ /
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-furmint-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:International Furmint Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Furmint Day is a drinks-focused observance on Feb
+ ruary 1\, celebrated by beer and craft-brewery fans across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/international-furmint-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-furmint-day
+ /
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-pisco-sour-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:International Pisco Sour Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Pisco Sour Day is a drinks-focused observance on 
+ February 6\, celebrated by beer and craft-brewery fans across the United S
+ tates.\n\nhttps://todaycelebrates.com/holiday/international-pisco-sour-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-pisco-sour-
+ day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-sauvignon-blanc-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:International Sauvignon Blanc Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Sauvignon Blanc Day is a drinks-focused observanc
+ e on May 7\, celebrated by beer and craft-brewery fans across the United S
+ tates.\n\nhttps://todaycelebrates.com/holiday/international-sauvignon-blan
+ c-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-sauvignon-b
+ lanc-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-stout-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:International Stout Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Stout Day is a drinks-focused observance on Novem
+ ber 5\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/international-stout-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-stout-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-syrah-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:International Syrah Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Syrah Day is a drinks-focused observance on Febru
+ ary 16\, celebrated by beer and craft-brewery fans across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/international-syrah-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-syrah-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-whisky-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:International Whisky Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Whisky Day is a drinks-focused observance on Marc
+ h 27\, celebrated by beer and craft-brewery fans across the United States.
+ \n\nhttps://todaycelebrates.com/holiday/international-whisky-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-whisky-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:legal-drinking-age-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+SUMMARY:Legal Drinking Age Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Legal Drinking Age Day is a drinks-focused observance on July 2
+ 1\, celebrated by beer and craft-brewery fans across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/legal-drinking-age-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/legal-drinking-age-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:malbec-world-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Malbec World Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Malbec World Day is a drinks-focused observance on April 17\, c
+ elebrated by beer and craft-brewery fans across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/malbec-world-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/malbec-world-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mead-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:Mead Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mead Day is a drinks-focused observance on August 7\, celebrate
+ d by beer and craft-brewery fans across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/mead-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mead-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:name-your-poison-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:Name Your Poison Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Name Your Poison Day is a drinks-focused observance on June 8\,
+  celebrated by beer and craft-brewery fans across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/name-your-poison-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/name-your-poison-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-absinthe-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:National Absinthe Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Absinthe Day is a drinks-focused observance on March 5
+ \, celebrated by beer and craft-brewery fans across the United States.\n\n
+ https://todaycelebrates.com/holiday/national-absinthe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-absinthe-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-amaretto-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:National Amaretto Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Amaretto Day is a drinks-focused observance on April 1
+ 9\, celebrated by beer and craft-brewery fans across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/national-amaretto-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-amaretto-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-american-beer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:National American Beer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National American Beer Day falls on October 27 and celebrates b
+ eer culture\, brewing traditions\, and the simple pleasure of sharing a co
+ ld one with friends.\n\nhttps://todaycelebrates.com/holiday/national-ameri
+ can-beer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-american-beer-da
+ y/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-anisette-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:National Anisette Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Anisette Day is a drinks-focused observance on July 2\
+ , celebrated by beer and craft-brewery fans across the United States.\n\nh
+ ttps://todaycelebrates.com/holiday/national-anisette-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-anisette-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-beer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:National Beer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Beer Day is a drinks-focused observance on April 7\, c
+ elebrated by beer and craft-brewery fans across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/national-beer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-beer-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-beer-lovers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270908
+SUMMARY:National Beer Lover's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Beer Lover's Day falls on September 7 and celebrates b
+ eer culture\, brewing traditions\, and the simple pleasure of sharing a co
+ ld one with friends.\n\nhttps://todaycelebrates.com/holiday/national-beer-
+ lovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-beer-lovers-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-bloody-mary-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:National Bloody Mary Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bloody Mary Day is a drinks-focused observance on Janu
+ ary 1\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/national-bloody-mary-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bloody-mary-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-bourbon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+SUMMARY:National Bourbon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bourbon Day is a drinks-focused observance on June 14\
+ , celebrated by beer and craft-brewery fans across the United States.\n\nh
+ ttps://todaycelebrates.com/holiday/national-bourbon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bourbon-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-bubbly-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:National Bubbly Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bubbly Day is a drinks-focused observance on June 5\, 
+ celebrated by beer and craft-brewery fans across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-bubbly-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bubbly-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-champagne-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:National Champagne Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Champagne Day is a drinks-focused observance on Decemb
+ er 31\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/national-champagne-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-champagne-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-cognac-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:National Cognac Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cognac Day is a drinks-focused observance on June 4\, 
+ celebrated by beer and craft-brewery fans across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-cognac-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cognac-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-craft-distillery-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:National Craft Distillery Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Craft Distillery Day is a drinks-focused observance on
+  May 22\, celebrated by beer and craft-brewery fans across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/national-craft-distillery-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-craft-distillery
+ -day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-daiquiri-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270720
+SUMMARY:National Daiquiri Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Daiquiri Day is a drinks-focused observance on July 19
+ \, celebrated by beer and craft-brewery fans across the United States.\n\n
+ https://todaycelebrates.com/holiday/national-daiquiri-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-daiquiri-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-dive-bar-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:National Dive Bar Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dive Bar Day is a drinks-focused observance on April 9
+ \, celebrated by beer and craft-brewery fans across the United States.\n\n
+ https://todaycelebrates.com/holiday/national-dive-bar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dive-bar-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-drink-beer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+SUMMARY:National Drink Beer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Drink Beer Day falls on September 28 and celebrates be
+ er culture\, brewing traditions\, and the simple pleasure of sharing a col
+ d one with friends.\n\nhttps://todaycelebrates.com/holiday/national-drink-
+ beer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-drink-beer-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-drink-wine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:National Drink Wine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Drink Wine Day is a drinks-focused observance on Febru
+ ary 18\, celebrated by beer and craft-brewery fans across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/national-drink-wine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-drink-wine-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-gin-and-tonic-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:National Gin and Tonic Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Gin and Tonic Day is a drinks-focused observance on Ap
+ ril 9\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/national-gin-and-tonic-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gin-and-tonic-da
+ y/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-ginger-ale-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:National Ginger Ale Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Ginger Ale Day is a drinks-focused observance on March
+  13\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/national-ginger-ale-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ginger-ale-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-grand-marnier-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+SUMMARY:National Grand Marnier Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Grand Marnier Day is a drinks-focused observance on Ju
+ ly 14\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/national-grand-marnier-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-grand-marnier-da
+ y/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-hot-buttered-rum-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:National Hot Buttered Rum Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hot Buttered Rum Day is a drinks-focused observance on
+  January 17\, celebrated by beer and craft-brewery fans across the United 
+ States.\n\nhttps://todaycelebrates.com/holiday/national-hot-buttered-rum-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hot-buttered-rum
+ -day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-hot-toddy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:National Hot Toddy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hot Toddy Day is a drinks-focused observance on Januar
+ y 11\, celebrated by beer and craft-brewery fans across the United States.
+ \n\nhttps://todaycelebrates.com/holiday/national-hot-toddy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hot-toddy-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-independent-beer-run-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:National Independent Beer Run Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Independent Beer Run Day is a drinks-focused observanc
+ e on July 3\, celebrated by beer and craft-brewery fans across the United 
+ States.\n\nhttps://todaycelebrates.com/holiday/national-independent-beer-r
+ un-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-independent-beer
+ -run-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-kahl-a-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:National Kahlúa Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Kahlúa Day is a drinks-focused observance on February
+  27\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/national-kahl-a-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kahl-a-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-lager-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:National Lager Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Lager Day is a drinks-focused observance on December 1
+ 0\, celebrated by beer and craft-brewery fans across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/national-lager-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lager-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-mai-tai-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270831
+SUMMARY:National Mai Tai Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mai Tai Day is a drinks-focused observance on August 3
+ 0\, celebrated by beer and craft-brewery fans across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/national-mai-tai-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mai-tai-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-margarita-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:National Margarita Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Margarita Day falls on February 22 and is observed mos
+ tly through bar and restaurant promotions. The origin of this observance i
+ s not well documented.\n\nhttps://todaycelebrates.com/holiday/national-mar
+ garita-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-margarita-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-martini-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:National Martini Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Martini Day is a drinks-focused observance on June 19\
+ , celebrated by beer and craft-brewery fans across the United States.\n\nh
+ ttps://todaycelebrates.com/holiday/national-martini-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-martini-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-michelada-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:National Michelada Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Michelada Day is a drinks-focused observance on July 1
+ 2\, celebrated by beer and craft-brewery fans across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/national-michelada-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-michelada-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-mimosa-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:National Mimosa Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mimosa Day is a drinks-focused observance on May 16\, 
+ celebrated by beer and craft-brewery fans across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-mimosa-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mimosa-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-mojito-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:National Mojito Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mojito Day is a drinks-focused observance on July 11\,
+  celebrated by beer and craft-brewery fans across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/national-mojito-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mojito-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-moscato-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:National Moscato Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Moscato Day is a drinks-focused observance on May 9\, 
+ celebrated by beer and craft-brewery fans across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-moscato-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-moscato-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-moscow-mule-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:National Moscow Mule Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Moscow Mule Day is a drinks-focused observance on Marc
+ h 3\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/national-moscow-mule-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-moscow-mule-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-pinot-grigio-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:National Pinot Grigio Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pinot Grigio Day is a drinks-focused observance on May
+  17\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/national-pinot-grigio-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pinot-grigio-day
+ /
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-prosecco-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270813
+DTEND;VALUE=DATE:20270814
+SUMMARY:National Prosecco Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Prosecco Day is a drinks-focused observance on August 
+ 13\, celebrated by beer and craft-brewery fans across the United States.\n
+ \nhttps://todaycelebrates.com/holiday/national-prosecco-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-prosecco-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-ranch-water-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:National Ranch Water Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Ranch Water Day is a drinks-focused observance on Apri
+ l 11\, celebrated by beer and craft-brewery fans across the United States.
+ \n\nhttps://todaycelebrates.com/holiday/national-ranch-water-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ranch-water-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-riesling-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:National Riesling Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Riesling Day is a drinks-focused observance on March 1
+ 3\, celebrated by beer and craft-brewery fans across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/national-riesling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-riesling-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-rum-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+SUMMARY:National Rum Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Rum Day is a drinks-focused observance on August 16\, 
+ celebrated by beer and craft-brewery fans across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-rum-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-rum-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-sangria-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:National Sangria Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sangria Day is a drinks-focused observance on December
+  20\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/national-sangria-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sangria-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-scotch-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270727
+DTEND;VALUE=DATE:20270728
+SUMMARY:National Scotch Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Scotch Day is a drinks-focused observance on July 27\,
+  celebrated by beer and craft-brewery fans across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/national-scotch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-scotch-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-shiraz-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270722
+DTEND;VALUE=DATE:20270723
+SUMMARY:National Shiraz Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Shiraz Day is a drinks-focused observance on July 22\,
+  celebrated by beer and craft-brewery fans across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/national-shiraz-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-shiraz-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-spritz-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:National Spritz Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Spritz Day is a drinks-focused observance on August 1\
+ , celebrated by beer and craft-brewery fans across the United States.\n\nh
+ ttps://todaycelebrates.com/holiday/national-spritz-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-spritz-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-strawberry-rhubarb-wine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+SUMMARY:National Strawberry Rhubarb Wine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Strawberry Rhubarb Wine Day is a drinks-focused observ
+ ance on July 17\, celebrated by beer and craft-brewery fans across the Uni
+ ted States.\n\nhttps://todaycelebrates.com/holiday/national-strawberry-rhu
+ barb-wine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-strawberry-rhuba
+ rb-wine-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-swiss-winegrowers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270830
+SUMMARY:National Swiss Winegrowers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Swiss Winegrowers Day is a drinks-focused observance o
+ n August 29\, celebrated by beer and craft-brewery fans across the United 
+ States.\n\nhttps://todaycelebrates.com/holiday/national-swiss-winegrowers-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-swiss-winegrower
+ s-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-tequila-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:National Tequila Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tequila Day is a drinks-focused observance on July 24\
+ , celebrated by beer and craft-brewery fans across the United States.\n\nh
+ ttps://todaycelebrates.com/holiday/national-tequila-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tequila-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-whiskey-sour-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:National Whiskey Sour Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Whiskey Sour Day is a drinks-focused observance on Aug
+ ust 25\, celebrated by beer and craft-brewery fans across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/national-whiskey-sour-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-whiskey-sour-day
+ /
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-white-wine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270805
+SUMMARY:National White Wine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National White Wine Day is a drinks-focused observance on Augus
+ t 4\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/national-white-wine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-white-wine-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-wine-and-cheese-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+SUMMARY:National Wine and Cheese Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Wine and Cheese Day is a drinks-focused observance on 
+ July 25\, celebrated by beer and craft-brewery fans across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/national-wine-and-cheese-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wine-and-cheese-
+ day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-wine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:National Wine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Wine Day is a drinks-focused observance on May 25\, ce
+ lebrated by beer and craft-brewery fans across the United States.\n\nhttps
+ ://todaycelebrates.com/holiday/national-wine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wine-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:new-beers-eve@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:New Beer's Eve
+RRULE:FREQ=YEARLY
+DESCRIPTION:New Beer's Eve is a drinks-focused observance on April 6\, cele
+ brated by beer and craft-brewery fans across the United States.\n\nhttps:/
+ /todaycelebrates.com/holiday/new-beers-eve/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-beers-eve/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pinot-noir-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270819
+SUMMARY:Pinot Noir Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pinot Noir Day is a drinks-focused observance on August 18\, ce
+ lebrated by beer and craft-brewery fans across the United States.\n\nhttps
+ ://todaycelebrates.com/holiday/pinot-noir-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pinot-noir-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:prohibition-remembrance-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Prohibition Remembrance Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Prohibition Remembrance Day is a drinks-focused observance on J
+ anuary 16\, celebrated by beer and craft-brewery fans across the United St
+ ates.\n\nhttps://todaycelebrates.com/holiday/prohibition-remembrance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/prohibition-remembrance-d
+ ay/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:red-wine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:Red Wine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Red Wine Day is a drinks-focused observance on August 28\, cele
+ brated by beer and craft-brewery fans across the United States.\n\nhttps:/
+ /todaycelebrates.com/holiday/red-wine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/red-wine-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-brewery-sunday-20261129@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Small Brewery Sunday
+DESCRIPTION:Small Brewery Sunday is a drinks-focused observance on November
+  29\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/small-brewery-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-brewery-sunday/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-brewery-sunday-20271128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+SUMMARY:Small Brewery Sunday
+DESCRIPTION:Small Brewery Sunday is a drinks-focused observance on November
+  29\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/small-brewery-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-brewery-sunday/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-brewery-sunday-20281126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281126
+DTEND;VALUE=DATE:20281127
+SUMMARY:Small Brewery Sunday
+DESCRIPTION:Small Brewery Sunday is a drinks-focused observance on November
+  29\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/small-brewery-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-brewery-sunday/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-brewery-sunday-20291125@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291125
+DTEND;VALUE=DATE:20291126
+SUMMARY:Small Brewery Sunday
+DESCRIPTION:Small Brewery Sunday is a drinks-focused observance on November
+  29\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/small-brewery-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-brewery-sunday/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-brewery-sunday-20301201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301201
+DTEND;VALUE=DATE:20301202
+SUMMARY:Small Brewery Sunday
+DESCRIPTION:Small Brewery Sunday is a drinks-focused observance on November
+  29\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/small-brewery-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-brewery-sunday/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-brewery-sunday-20311130@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311130
+DTEND;VALUE=DATE:20311201
+SUMMARY:Small Brewery Sunday
+DESCRIPTION:Small Brewery Sunday is a drinks-focused observance on November
+  29\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/small-brewery-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-brewery-sunday/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-brewery-sunday-20321128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321128
+DTEND;VALUE=DATE:20321129
+SUMMARY:Small Brewery Sunday
+DESCRIPTION:Small Brewery Sunday is a drinks-focused observance on November
+  29\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/small-brewery-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-brewery-sunday/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-brewery-sunday-20331127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331127
+DTEND;VALUE=DATE:20331128
+SUMMARY:Small Brewery Sunday
+DESCRIPTION:Small Brewery Sunday is a drinks-focused observance on November
+  29\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/small-brewery-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-brewery-sunday/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-brewery-sunday-20341126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341126
+DTEND;VALUE=DATE:20341127
+SUMMARY:Small Brewery Sunday
+DESCRIPTION:Small Brewery Sunday is a drinks-focused observance on November
+  29\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/small-brewery-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-brewery-sunday/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-brewery-sunday-20351125@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351125
+DTEND;VALUE=DATE:20351126
+SUMMARY:Small Brewery Sunday
+DESCRIPTION:Small Brewery Sunday is a drinks-focused observance on November
+  29\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/small-brewery-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-brewery-sunday/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stewarts-root-beer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+SUMMARY:Stewart's Root Beer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Stewart's Root Beer Day is a drinks-focused observance on June 
+ 17\, celebrated by beer and craft-brewery fans across the United States.\n
+ \nhttps://todaycelebrates.com/holiday/stewarts-root-beer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stewarts-root-beer-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-bartender-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:World Bartender Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Bartender Day is a drinks-focused observance on February 
+ 24\, celebrated by beer and craft-brewery fans across the United States.\n
+ \nhttps://todaycelebrates.com/holiday/world-bartender-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-bartender-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-cocktail-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:World Cocktail Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Cocktail Day is a drinks-focused observance on May 13\, c
+ elebrated by beer and craft-brewery fans across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/world-cocktail-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-cocktail-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-whisky-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:World Whisky Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Whisky Day is a drinks-focused observance on May 15\, cel
+ ebrated by beer and craft-brewery fans across the United States.\n\nhttps:
+ //todaycelebrates.com/holiday/world-whisky-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-whisky-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

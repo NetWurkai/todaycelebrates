@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Medal of Honor Day
+X-WR-CALNAME:National Medal of Honor Day
+DESCRIPTION:National Medal of Honor Day — https://todaycelebrates.com/hol
+ iday/national-medal-of-honor-day/
+X-WR-CALDESC:National Medal of Honor Day — https://todaycelebrates.com/ho
+ liday/national-medal-of-honor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-medal-of-honor-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-medal-of-hono
+ r-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-medal-of-honor-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:National Medal of Honor Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Medal of Honor Day\, observed on March 25\, encourages
+  people across the United States to pause and recognize the people and cau
+ ses behind the day.\n\nhttps://todaycelebrates.com/holiday/national-medal-
+ of-honor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-medal-of-honor-d
+ ay/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

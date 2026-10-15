@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Extraterrestrial Culture Day
+X-WR-CALNAME:Extraterrestrial Culture Day
+DESCRIPTION:Extraterrestrial Culture Day — https://todaycelebrates.com/ho
+ liday/extraterrestrial-culture-day/
+X-WR-CALDESC:Extraterrestrial Culture Day — https://todaycelebrates.com/h
+ oliday/extraterrestrial-culture-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/extraterrestrial-culture-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/extraterrestrial-cultu
+ re-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:extraterrestrial-culture-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Extraterrestrial Culture Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Extraterrestrial Culture Day\, observed on February 9\, is a li
+ ghthearted holiday celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/extraterrestrial-culture-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/extraterrestrial-culture-
+ day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Poinsettia Day
+X-WR-CALNAME:National Poinsettia Day
+DESCRIPTION:National Poinsettia Day — https://todaycelebrates.com/holiday
+ /national-poinsettia-day/
+X-WR-CALDESC:National Poinsettia Day — https://todaycelebrates.com/holida
+ y/national-poinsettia-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-poinsettia-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-poinsettia-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-poinsettia-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:National Poinsettia Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Poinsettia Day is a nature-focused observance on Decem
+ ber 12\, celebrated across the United States to draw attention to the plan
+ t\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/ho
+ liday/national-poinsettia-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-poinsettia-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

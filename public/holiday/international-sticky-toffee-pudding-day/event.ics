@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Sticky Toffee Pudding Day
+X-WR-CALNAME:International Sticky Toffee Pudding Day
+DESCRIPTION:International Sticky Toffee Pudding Day — https://todaycelebr
+ ates.com/holiday/international-sticky-toffee-pudding-day/
+X-WR-CALDESC:International Sticky Toffee Pudding Day — https://todayceleb
+ rates.com/holiday/international-sticky-toffee-pudding-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-sticky-toff
+ ee-pudding-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-sticky-t
+ offee-pudding-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-sticky-toffee-pudding-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:International Sticky Toffee Pudding Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Sticky Toffee Pudding Day is a food-focused obser
+ vance celebrated across the United States on January 23\, giving fans of t
+ he dish or ingredient an excuse to seek it out and share it with others.\n
+ \nhttps://todaycelebrates.com/holiday/international-sticky-toffee-pudding-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-sticky-toff
+ ee-pudding-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

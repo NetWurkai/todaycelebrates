@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Just Because Day
+X-WR-CALNAME:Just Because Day
+DESCRIPTION:Just Because Day — https://todaycelebrates.com/holiday/just-b
+ ecause-day/
+X-WR-CALDESC:Just Because Day — https://todaycelebrates.com/holiday/just-
+ because-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/just-because-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/just-because-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:just-because-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270828
+SUMMARY:Just Because Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Just Because Day\, observed on August 27\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/just-because-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/just-because-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

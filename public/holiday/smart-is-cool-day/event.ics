@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Smart is Cool Day
+X-WR-CALNAME:Smart is Cool Day
+DESCRIPTION:Smart is Cool Day — https://todaycelebrates.com/holiday/smart
+ -is-cool-day/
+X-WR-CALDESC:Smart is Cool Day — https://todaycelebrates.com/holiday/smar
+ t-is-cool-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/smart-is-cool-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/smart-is-cool-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:smart-is-cool-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Smart is Cool Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 22\, Smart is Cool Day gives people across the Unite
+ d States one more reason to mark the day and celebrate smart is cool.\n\nh
+ ttps://todaycelebrates.com/holiday/smart-is-cool-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/smart-is-cool-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

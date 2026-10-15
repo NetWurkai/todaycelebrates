@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Poetry Day
+X-WR-CALNAME:World Poetry Day
+DESCRIPTION:World Poetry Day — https://todaycelebrates.com/holiday/world-
+ poetry-day/
+X-WR-CALDESC:World Poetry Day — https://todaycelebrates.com/holiday/world
+ -poetry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-poetry-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-poetry-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-poetry-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:World Poetry Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Poetry Day is a reading- and writing-focused observance o
+ n March 21\, celebrated by book lovers across the United States.\n\nhttps:
+ //todaycelebrates.com/holiday/world-poetry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-poetry-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

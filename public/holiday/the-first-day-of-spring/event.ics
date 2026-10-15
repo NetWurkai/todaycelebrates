@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:The First Day of Spring
+X-WR-CALNAME:The First Day of Spring
+DESCRIPTION:The First Day of Spring — https://todaycelebrates.com/holiday
+ /the-first-day-of-spring/
+X-WR-CALDESC:The First Day of Spring — https://todaycelebrates.com/holida
+ y/the-first-day-of-spring/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-spring/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-sprin
+ g/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:the-first-day-of-spring-20270320@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:The First Day of Spring
+DESCRIPTION:The First Day of Spring\, observed on March 20\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/the-first-day-of-spring/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-spring/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-spring-20280319@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280319
+DTEND;VALUE=DATE:20280320
+SUMMARY:The First Day of Spring
+DESCRIPTION:The First Day of Spring\, observed on March 20\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/the-first-day-of-spring/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-spring/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-spring-20290320@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290320
+DTEND;VALUE=DATE:20290321
+SUMMARY:The First Day of Spring
+DESCRIPTION:The First Day of Spring\, observed on March 20\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/the-first-day-of-spring/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-spring/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-spring-20300320@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300320
+DTEND;VALUE=DATE:20300321
+SUMMARY:The First Day of Spring
+DESCRIPTION:The First Day of Spring\, observed on March 20\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/the-first-day-of-spring/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-spring/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-spring-20310320@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310320
+DTEND;VALUE=DATE:20310321
+SUMMARY:The First Day of Spring
+DESCRIPTION:The First Day of Spring\, observed on March 20\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/the-first-day-of-spring/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-spring/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-spring-20320319@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320319
+DTEND;VALUE=DATE:20320320
+SUMMARY:The First Day of Spring
+DESCRIPTION:The First Day of Spring\, observed on March 20\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/the-first-day-of-spring/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-spring/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-spring-20330320@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330320
+DTEND;VALUE=DATE:20330321
+SUMMARY:The First Day of Spring
+DESCRIPTION:The First Day of Spring\, observed on March 20\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/the-first-day-of-spring/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-spring/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-spring-20340320@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340320
+DTEND;VALUE=DATE:20340321
+SUMMARY:The First Day of Spring
+DESCRIPTION:The First Day of Spring\, observed on March 20\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/the-first-day-of-spring/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-spring/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-spring-20350320@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350320
+DTEND;VALUE=DATE:20350321
+SUMMARY:The First Day of Spring
+DESCRIPTION:The First Day of Spring\, observed on March 20\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/the-first-day-of-spring/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-spring/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

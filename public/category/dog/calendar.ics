@@ -1,0 +1,668 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Today Celebrates: Dogs
+X-WR-CALNAME:Today Celebrates: Dogs
+DESCRIPTION:39 dogs observances from https://todaycelebrates.com/category/d
+ og/. Rebuilt daily.
+X-WR-CALDESC:39 dogs observances from https://todaycelebrates.com/category/
+ dog/. Rebuilt daily.
+URL;VALUE=URI:https://todaycelebrates.com/category/dog/calendar.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/category/dog/calendar.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:adopt-a-shelter-pet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Adopt a Shelter Pet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Adopt a Shelter Pet Day\, observed on April 30\, is celebrated 
+ by dog lovers across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/adopt-a-shelter-pet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/adopt-a-shelter-pet-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-society-for-the-prevention-of-cruelty-to-animals-day@todaycele
+ brates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:American Society for the Prevention of Cruelty to Animals Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:American Society for the Prevention of Cruelty to Animals Day\,
+  observed on April 10\, is celebrated by dog lovers across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/american-society-for-the-preven
+ tion-of-cruelty-to-animals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-society-for-the-
+ prevention-of-cruelty-to-animals-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:assistance-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270805
+SUMMARY:Assistance Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Assistance Dog Day\, observed on August 4\, is celebrated by do
+ g lovers across the United States.\n\nhttps://todaycelebrates.com/holiday/
+ assistance-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/assistance-dog-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bulldogs-are-beautiful-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:Bulldogs are Beautiful Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bulldogs are Beautiful Day\, observed on April 21\, is celebrat
+ ed by dog lovers across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/bulldogs-are-beautiful-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bulldogs-are-beautiful-da
+ y/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dog-dads-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:Dog Dad's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Dog Dad's Day\, observed on June 19\, is celebrated by dog love
+ rs across the United States.\n\nhttps://todaycelebrates.com/holiday/dog-da
+ ds-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dog-dads-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-dog-biscuit-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:International Dog Biscuit Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Dog Biscuit Appreciation Day\, observed on Februa
+ ry 23\, is celebrated by dog lovers across the United States.\n\nhttps://t
+ odaycelebrates.com/holiday/international-dog-biscuit-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-dog-biscuit
+ -appreciation-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-golden-retriever-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:International Golden Retriever Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Golden Retriever Day\, observed on February 3\, i
+ s celebrated by dog lovers across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/international-golden-retriever-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-golden-retr
+ iever-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-guide-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:International Guide Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Guide Dog Day\, observed on April 28\, is celebra
+ ted by dog lovers across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/international-guide-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-guide-dog-d
+ ay/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:k-9-veterans-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:K-9 Veterans Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:K-9 Veterans Day\, observed on March 13\, is celebrated by dog 
+ lovers across the United States.\n\nhttps://todaycelebrates.com/holiday/k-
+ 9-veterans-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/k-9-veterans-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:love-your-pet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Love Your Pet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Love Your Pet Day\, observed on February 20\, is celebrated by 
+ dog lovers across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/love-your-pet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/love-your-pet-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-black-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:National Black Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Black Dog Day is celebrated across the United States o
+ n October 1\, honoring dogs and the bond they share with the people who lo
+ ve them.\n\nhttps://todaycelebrates.com/holiday/national-black-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-black-dog-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-boston-terrier-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:National Boston Terrier Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Boston Terrier Day\, observed on February 19\, is cele
+ brated by dog lovers across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/national-boston-terrier-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-boston-terrier-d
+ ay/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-check-the-chip-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:National Check the Chip Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Check the Chip Day\, observed on August 15\, is celebr
+ ated by dog lovers across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/national-check-the-chip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-check-the-chip-d
+ ay/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-checkers-day-and-dogs-in-politics-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+SUMMARY:National Checkers Day and Dogs in Politics Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Checkers Day and Dogs in Politics Day is celebrated ac
+ ross the United States on September 23\, honoring dogs and the bond they s
+ hare with the people who love them.\n\nhttps://todaycelebrates.com/holiday
+ /national-checkers-day-and-dogs-in-politics-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-checkers-day-and
+ -dogs-in-politics-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270826
+DTEND;VALUE=DATE:20270827
+SUMMARY:National Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dog Day\, observed on August 26\, is celebrated by dog
+  lovers across the United States.\n\nhttps://todaycelebrates.com/holiday/n
+ ational-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dog-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-dog-moms-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:National Dog Mom's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dog Mom's Day\, observed on May 8\, is celebrated by d
+ og lovers across the United States.\n\nhttps://todaycelebrates.com/holiday
+ /national-dog-moms-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dog-moms-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-get-out-of-the-doghouse-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270720
+SUMMARY:National Get Out of the Doghouse Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Get Out of the Doghouse Day\, observed on July 19\, is
+  celebrated by dog lovers across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/national-get-out-of-the-doghouse-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-get-out-of-the-d
+ oghouse-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-holistic-pet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270831
+SUMMARY:National Holistic Pet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Holistic Pet Day\, observed on August 30\, is celebrat
+ ed by dog lovers across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/national-holistic-pet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-holistic-pet-day
+ /
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-hug-your-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:National Hug Your Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hug Your Dog Day\, observed on April 10\, is celebrate
+ d by dog lovers across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/national-hug-your-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hug-your-dog-day
+ /
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-hug-your-hound-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270914
+SUMMARY:National Hug Your Hound Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hug Your Hound Day is celebrated across the United Sta
+ tes on September 13\, honoring dogs and the bond they share with the peopl
+ e who love them.\n\nhttps://todaycelebrates.com/holiday/national-hug-your-
+ hound-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hug-your-hound-d
+ ay/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-make-a-dogs-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:National Make a Dog's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Make a Dog's Day is celebrated across the United State
+ s on October 22\, honoring dogs and the bond they share with the people wh
+ o love them.\n\nhttps://todaycelebrates.com/holiday/national-make-a-dogs-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-make-a-dogs-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-mutt-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:National Mutt Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mutt Day\, observed on December 2\, is celebrated by d
+ og lovers across the United States.\n\nhttps://todaycelebrates.com/holiday
+ /national-mutt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mutt-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-pet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:National Pet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pet Day\, observed on April 11\, is celebrated by dog 
+ lovers across the United States.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-pet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-pet-health-insurance-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:National Pet Health Insurance Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pet Health Insurance Day\, observed on April 7\, is ce
+ lebrated by dog lovers across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-pet-health-insurance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-health-insur
+ ance-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-pet-memorial-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270914
+SUMMARY:National Pet Memorial Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pet Memorial Day is celebrated across the United State
+ s on September 13\, honoring dogs and the bond they share with the people 
+ who love them.\n\nhttps://todaycelebrates.com/holiday/national-pet-memoria
+ l-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-memorial-day
+ /
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-pet-parents-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:National Pet Parent's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pet Parent's Day\, observed on April 25\, is celebrate
+ d by dog lovers across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/national-pet-parents-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-parents-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-puppy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:National Puppy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Puppy Day\, observed on March 23\, is celebrated by do
+ g lovers across the United States.\n\nhttps://todaycelebrates.com/holiday/
+ national-puppy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-puppy-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-purebred-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:National Purebred Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Purebred Dog Day\, observed on May 1\, is celebrated b
+ y dog lovers across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/national-purebred-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-purebred-dog-day
+ /
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-spoil-your-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:National Spoil Your Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Spoil Your Dog Day\, observed on August 10\, is celebr
+ ated by dog lovers across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/national-spoil-your-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-spoil-your-dog-d
+ ay/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-the-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:National Walk the Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Walk the Dog Day\, observed on February 22\, is celebr
+ ated by dog lovers across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/national-walk-the-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-the-dog-day
+ /
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-walk-your-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:National Walk Your Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Walk Your Dog Day\, observed on February 22\, is celeb
+ rated by dog lovers across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/national-walk-your-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-walk-your-dog-da
+ y/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pet-owners-independence-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Pet Owners Independence Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pet Owners Independence Day\, observed on April 18\, is celebra
+ ted by dog lovers across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/pet-owners-independence-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pet-owners-independence-d
+ ay/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:puppy-mill-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:Puppy Mill Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Puppy Mill Awareness Day is celebrated across the United States
+  on September 19\, honoring dogs and the bond they share with the people w
+ ho love them.\n\nhttps://todaycelebrates.com/holiday/puppy-mill-awareness-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/puppy-mill-awareness-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:responsible-dog-ownership-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:Responsible Dog Ownership Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Responsible Dog Ownership Day is celebrated across the United S
+ tates on September 19\, honoring dogs and the bond they share with the peo
+ ple who love them.\n\nhttps://todaycelebrates.com/holiday/responsible-dog-
+ ownership-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/responsible-dog-ownership
+ -day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:seeing-eye-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Seeing Eye Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Seeing Eye Dog Day\, observed on January 29\, is celebrated by 
+ dog lovers across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/seeing-eye-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/seeing-eye-dog-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sled-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:Sled Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Sled Dog Day\, observed on February 2\, is celebrated by dog lo
+ vers across the United States.\n\nhttps://todaycelebrates.com/holiday/sled
+ -dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sled-dog-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:take-your-dog-to-work-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:Take Your Dog to Work Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Take Your Dog to Work Day\, observed on June 25\, is celebrated
+  by dog lovers across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/take-your-dog-to-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-your-dog-to-work-day
+ /
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:work-like-a-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270805
+DTEND;VALUE=DATE:20270806
+SUMMARY:Work Like a Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Work Like a Dog Day\, observed on August 5\, is celebrated by d
+ og lovers across the United States.\n\nhttps://todaycelebrates.com/holiday
+ /work-like-a-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/work-like-a-dog-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-spay-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:World Spay Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Spay Day\, observed on February 23\, is celebrated by dog
+  lovers across the United States.\n\nhttps://todaycelebrates.com/holiday/w
+ orld-spay-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-spay-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

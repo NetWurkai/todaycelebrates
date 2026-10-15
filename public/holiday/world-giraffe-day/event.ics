@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Giraffe Day
+X-WR-CALNAME:World Giraffe Day
+DESCRIPTION:World Giraffe Day — https://todaycelebrates.com/holiday/world
+ -giraffe-day/
+X-WR-CALDESC:World Giraffe Day — https://todaycelebrates.com/holiday/worl
+ d-giraffe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-giraffe-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-giraffe-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-giraffe-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:World Giraffe Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Giraffe Day is a nature-focused observance on June 21\, c
+ elebrated across the United States to draw attention to the plant\, animal
+ \, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/worl
+ d-giraffe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-giraffe-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

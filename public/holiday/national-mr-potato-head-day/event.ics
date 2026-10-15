@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Mr. Potato Head Day
+X-WR-CALNAME:National Mr. Potato Head Day
+DESCRIPTION:National Mr. Potato Head Day — https://todaycelebrates.com/ho
+ liday/national-mr-potato-head-day/
+X-WR-CALDESC:National Mr. Potato Head Day — https://todaycelebrates.com/h
+ oliday/national-mr-potato-head-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mr-potato-head-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mr-potato-hea
+ d-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mr-potato-head-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:National Mr. Potato Head Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mr. Potato Head Day\, observed on April 30\, is a ligh
+ thearted\, family-friendly day celebrated across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-mr-potato-head-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mr-potato-head-d
+ ay/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Moscow Mule Day
+X-WR-CALNAME:National Moscow Mule Day
+DESCRIPTION:National Moscow Mule Day — https://todaycelebrates.com/holida
+ y/national-moscow-mule-day/
+X-WR-CALDESC:National Moscow Mule Day — https://todaycelebrates.com/holid
+ ay/national-moscow-mule-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-moscow-mule-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-moscow-mule-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-moscow-mule-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:National Moscow Mule Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Moscow Mule Day is a drinks-focused observance on Marc
+ h 3\, celebrated by beer and craft-brewery fans across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/national-moscow-mule-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-moscow-mule-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

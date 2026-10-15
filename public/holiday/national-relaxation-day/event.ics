@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Relaxation Day
+X-WR-CALNAME:National Relaxation Day
+DESCRIPTION:National Relaxation Day — https://todaycelebrates.com/holiday
+ /national-relaxation-day/
+X-WR-CALDESC:National Relaxation Day — https://todaycelebrates.com/holida
+ y/national-relaxation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-relaxation-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-relaxation-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-relaxation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:National Relaxation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Relaxation Day\, observed on August 15\, encourages pe
+ ople across the United States to focus on health and wellbeing.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-relaxation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-relaxation-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

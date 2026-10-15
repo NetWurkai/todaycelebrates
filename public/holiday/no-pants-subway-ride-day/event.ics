@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:No Pants! Subway Ride Day
+X-WR-CALNAME:No Pants! Subway Ride Day
+DESCRIPTION:No Pants! Subway Ride Day — https://todaycelebrates.com/holid
+ ay/no-pants-subway-ride-day/
+X-WR-CALDESC:No Pants! Subway Ride Day — https://todaycelebrates.com/holi
+ day/no-pants-subway-ride-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/no-pants-subway-ride-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/no-pants-subway-ride-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:no-pants-subway-ride-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:No Pants! Subway Ride Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:No Pants! Subway Ride Day\, observed on January 10\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/no-pants-subway-ride-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/no-pants-subway-ride-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

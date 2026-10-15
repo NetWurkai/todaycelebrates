@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Encourage a Young Writer Day
+X-WR-CALNAME:Encourage a Young Writer Day
+DESCRIPTION:Encourage a Young Writer Day — https://todaycelebrates.com/ho
+ liday/encourage-a-young-writer-day/
+X-WR-CALDESC:Encourage a Young Writer Day — https://todaycelebrates.com/h
+ oliday/encourage-a-young-writer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/encourage-a-young-writer-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/encourage-a-young-writ
+ er-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:encourage-a-young-writer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Encourage a Young Writer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Encourage a Young Writer Day is a reading- and writing-focused 
+ observance on April 10\, celebrated by book lovers across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/encourage-a-young-writer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/encourage-a-young-writer-
+ day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

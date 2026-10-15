@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Day of Celebration of Greek and American Democracy
+X-WR-CALNAME:National Day of Celebration of Greek and American Democracy
+DESCRIPTION:National Day of Celebration of Greek and American Democracy —
+  https://todaycelebrates.com/holiday/national-day-of-celebration-of-greek-
+ and-american-democracy/
+X-WR-CALDESC:National Day of Celebration of Greek and American Democracy 
+ — https://todaycelebrates.com/holiday/national-day-of-celebration-of-gre
+ ek-and-american-democracy/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-celebrati
+ on-of-greek-and-american-democracy/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-celebr
+ ation-of-greek-and-american-democracy/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-day-of-celebration-of-greek-and-american-democracy@todaycelebr
+ ates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:National Day of Celebration of Greek and American Democracy
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Day of Celebration of Greek and American Democracy\, o
+ bserved on March 25\, encourages people across the United States to pause 
+ and recognize the people and causes behind the day.\n\nhttps://todaycelebr
+ ates.com/holiday/national-day-of-celebration-of-greek-and-american-democra
+ cy/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-celebrati
+ on-of-greek-and-american-democracy/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

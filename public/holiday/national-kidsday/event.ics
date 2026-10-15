@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National KidsDay
+X-WR-CALNAME:National KidsDay
+DESCRIPTION:National KidsDay — https://todaycelebrates.com/holiday/nation
+ al-kidsday/
+X-WR-CALDESC:National KidsDay — https://todaycelebrates.com/holiday/natio
+ nal-kidsday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kidsday/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-kidsday/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-kidsday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:National KidsDay
+RRULE:FREQ=YEARLY
+DESCRIPTION:National KidsDay\, observed on August 1\, is a lighthearted\, f
+ amily-friendly day celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/national-kidsday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kidsday/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

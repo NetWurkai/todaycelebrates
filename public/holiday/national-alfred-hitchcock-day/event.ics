@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Alfred Hitchcock Day
+X-WR-CALNAME:National Alfred Hitchcock Day
+DESCRIPTION:National Alfred Hitchcock Day — https://todaycelebrates.com/h
+ oliday/national-alfred-hitchcock-day/
+X-WR-CALDESC:National Alfred Hitchcock Day — https://todaycelebrates.com/
+ holiday/national-alfred-hitchcock-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-alfred-hitchcock
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-alfred-hitchc
+ ock-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-alfred-hitchcock-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:National Alfred Hitchcock Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Alfred Hitchcock Day\, observed on March 12\, is a lig
+ hthearted holiday celebrated across the United States.\n\nhttps://todaycel
+ ebrates.com/holiday/national-alfred-hitchcock-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-alfred-hitchcock
+ -day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

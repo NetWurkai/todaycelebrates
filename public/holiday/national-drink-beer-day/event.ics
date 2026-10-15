@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Drink Beer Day
+X-WR-CALNAME:National Drink Beer Day
+DESCRIPTION:National Drink Beer Day — https://todaycelebrates.com/holiday
+ /national-drink-beer-day/
+X-WR-CALDESC:National Drink Beer Day — https://todaycelebrates.com/holida
+ y/national-drink-beer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-drink-beer-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-drink-beer-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-drink-beer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+SUMMARY:National Drink Beer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Drink Beer Day falls on September 28 and celebrates be
+ er culture\, brewing traditions\, and the simple pleasure of sharing a col
+ d one with friends.\n\nhttps://todaycelebrates.com/holiday/national-drink-
+ beer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-drink-beer-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

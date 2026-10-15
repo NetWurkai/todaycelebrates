@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Job Action Day
+X-WR-CALNAME:Job Action Day
+DESCRIPTION:Job Action Day — https://todaycelebrates.com/holiday/job-acti
+ on-day/
+X-WR-CALDESC:Job Action Day — https://todaycelebrates.com/holiday/job-act
+ ion-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/job-action-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/job-action-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:job-action-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Job Action Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Job Action Day\, observed on November 2\, encourages people acr
+ oss the United States to pause and recognize the people and causes behind 
+ the day.\n\nhttps://todaycelebrates.com/holiday/job-action-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/job-action-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

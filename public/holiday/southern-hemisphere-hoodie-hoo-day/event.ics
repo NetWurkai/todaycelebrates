@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Southern Hemisphere Hoodie Hoo Day
+X-WR-CALNAME:Southern Hemisphere Hoodie Hoo Day
+DESCRIPTION:Southern Hemisphere Hoodie Hoo Day — https://todaycelebrates.
+ com/holiday/southern-hemisphere-hoodie-hoo-day/
+X-WR-CALDESC:Southern Hemisphere Hoodie Hoo Day — https://todaycelebrates
+ .com/holiday/southern-hemisphere-hoodie-hoo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/southern-hemisphere-hoodi
+ e-hoo-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/southern-hemisphere-ho
+ odie-hoo-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:southern-hemisphere-hoodie-hoo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270822
+DTEND;VALUE=DATE:20270823
+SUMMARY:Southern Hemisphere Hoodie Hoo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Southern Hemisphere Hoodie Hoo Day\, observed on August 22\, is
+  a lighthearted holiday celebrated across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/southern-hemisphere-hoodie-hoo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/southern-hemisphere-hoodi
+ e-hoo-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

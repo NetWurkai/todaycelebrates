@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Day of Prayer
+X-WR-CALNAME:World Day of Prayer
+DESCRIPTION:World Day of Prayer — https://todaycelebrates.com/holiday/wor
+ ld-day-of-prayer/
+X-WR-CALDESC:World Day of Prayer — https://todaycelebrates.com/holiday/wo
+ rld-day-of-prayer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-day-of-prayer/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-day-of-prayer/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-day-of-prayer@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:World Day of Prayer
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Day of Prayer\, observed on March 5\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/world-day-of-prayer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-day-of-prayer/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

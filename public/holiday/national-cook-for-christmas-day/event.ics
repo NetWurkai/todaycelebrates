@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cook for Christmas Day
+X-WR-CALNAME:National Cook for Christmas Day
+DESCRIPTION:National Cook for Christmas Day — https://todaycelebrates.com
+ /holiday/national-cook-for-christmas-day/
+X-WR-CALDESC:National Cook for Christmas Day — https://todaycelebrates.co
+ m/holiday/national-cook-for-christmas-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cook-for-christm
+ as-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cook-for-chri
+ stmas-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cook-for-christmas-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:National Cook for Christmas Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cook for Christmas Day is a food-focused observance ce
+ lebrated across the United States on December 6\, giving fans of the dish 
+ or ingredient an excuse to seek it out and share it with others.\n\nhttps:
+ //todaycelebrates.com/holiday/national-cook-for-christmas-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cook-for-christm
+ as-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Lobster Thermidor Day
+X-WR-CALNAME:National Lobster Thermidor Day
+DESCRIPTION:National Lobster Thermidor Day — https://todaycelebrates.com/
+ holiday/national-lobster-thermidor-day/
+X-WR-CALDESC:National Lobster Thermidor Day — https://todaycelebrates.com
+ /holiday/national-lobster-thermidor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lobster-thermido
+ r-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-lobster-therm
+ idor-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-lobster-thermidor-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:National Lobster Thermidor Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Lobster Thermidor Day is a food-focused observance cel
+ ebrated across the United States on January 24\, giving fans of the dish o
+ r ingredient an excuse to seek it out and share it with others.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-lobster-thermidor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lobster-thermido
+ r-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

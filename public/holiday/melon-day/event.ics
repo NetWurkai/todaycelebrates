@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Melon Day
+X-WR-CALNAME:Melon Day
+DESCRIPTION:Melon Day — https://todaycelebrates.com/holiday/melon-day/
+X-WR-CALDESC:Melon Day — https://todaycelebrates.com/holiday/melon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/melon-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/melon-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:melon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+SUMMARY:Melon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Melon Day is a food-focused observance celebrated across the Un
+ ited States on August 8\, giving fans of the dish or ingredient an excuse 
+ to seek it out and share it with others.\n\nhttps://todaycelebrates.com/ho
+ liday/melon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/melon-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

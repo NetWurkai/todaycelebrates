@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Kiss Day
+X-WR-CALNAME:Kiss Day
+DESCRIPTION:Kiss Day — https://todaycelebrates.com/holiday/kiss-day/
+X-WR-CALDESC:Kiss Day — https://todaycelebrates.com/holiday/kiss-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kiss-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/kiss-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:kiss-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Kiss Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Kiss Day\, observed on February 13\, is a lighthearted holiday 
+ celebrated across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/kiss-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kiss-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

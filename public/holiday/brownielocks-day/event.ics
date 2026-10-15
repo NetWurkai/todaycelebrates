@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Brownielocks Day
+X-WR-CALNAME:Brownielocks Day
+DESCRIPTION:Brownielocks Day — https://todaycelebrates.com/holiday/browni
+ elocks-day/
+X-WR-CALDESC:Brownielocks Day — https://todaycelebrates.com/holiday/brown
+ ielocks-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/brownielocks-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/brownielocks-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:brownielocks-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Brownielocks Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Brownielocks Day\, observed on November 24\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/brownielocks-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/brownielocks-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

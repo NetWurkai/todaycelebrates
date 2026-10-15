@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Break The Monotony Day
+X-WR-CALNAME:Break The Monotony Day
+DESCRIPTION:Break The Monotony Day — https://todaycelebrates.com/holiday/
+ break-the-monotony-day/
+X-WR-CALDESC:Break The Monotony Day — https://todaycelebrates.com/holiday
+ /break-the-monotony-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/break-the-monotony-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/break-the-monotony-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:break-the-monotony-day-20270821@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:Break The Monotony Day
+DESCRIPTION:Break The Monotony Day\, observed on August 21\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/break-the-monotony-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/break-the-monotony-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:break-the-monotony-day-20280819@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280819
+DTEND;VALUE=DATE:20280820
+SUMMARY:Break The Monotony Day
+DESCRIPTION:Break The Monotony Day\, observed on August 21\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/break-the-monotony-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/break-the-monotony-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:break-the-monotony-day-20290818@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290818
+DTEND;VALUE=DATE:20290819
+SUMMARY:Break The Monotony Day
+DESCRIPTION:Break The Monotony Day\, observed on August 21\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/break-the-monotony-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/break-the-monotony-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:break-the-monotony-day-20300817@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300817
+DTEND;VALUE=DATE:20300818
+SUMMARY:Break The Monotony Day
+DESCRIPTION:Break The Monotony Day\, observed on August 21\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/break-the-monotony-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/break-the-monotony-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:break-the-monotony-day-20310816@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310816
+DTEND;VALUE=DATE:20310817
+SUMMARY:Break The Monotony Day
+DESCRIPTION:Break The Monotony Day\, observed on August 21\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/break-the-monotony-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/break-the-monotony-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:break-the-monotony-day-20320821@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320821
+DTEND;VALUE=DATE:20320822
+SUMMARY:Break The Monotony Day
+DESCRIPTION:Break The Monotony Day\, observed on August 21\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/break-the-monotony-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/break-the-monotony-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:break-the-monotony-day-20330820@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330820
+DTEND;VALUE=DATE:20330821
+SUMMARY:Break The Monotony Day
+DESCRIPTION:Break The Monotony Day\, observed on August 21\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/break-the-monotony-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/break-the-monotony-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:break-the-monotony-day-20340819@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340819
+DTEND;VALUE=DATE:20340820
+SUMMARY:Break The Monotony Day
+DESCRIPTION:Break The Monotony Day\, observed on August 21\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/break-the-monotony-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/break-the-monotony-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:break-the-monotony-day-20350818@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350818
+DTEND;VALUE=DATE:20350819
+SUMMARY:Break The Monotony Day
+DESCRIPTION:Break The Monotony Day\, observed on August 21\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/break-the-monotony-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/break-the-monotony-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

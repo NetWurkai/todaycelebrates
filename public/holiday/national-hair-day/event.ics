@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Hair Day
+X-WR-CALNAME:National Hair Day
+DESCRIPTION:National Hair Day — https://todaycelebrates.com/holiday/natio
+ nal-hair-day/
+X-WR-CALDESC:National Hair Day — https://todaycelebrates.com/holiday/nati
+ onal-hair-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hair-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-hair-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-hair-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:National Hair Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hair Day is observed across the United States on Octob
+ er 1\, a small but fun addition to the calendar worth celebrating in its o
+ wn way.\n\nhttps://todaycelebrates.com/holiday/national-hair-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hair-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

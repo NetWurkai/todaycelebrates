@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Theatre Day
+X-WR-CALNAME:World Theatre Day
+DESCRIPTION:World Theatre Day — https://todaycelebrates.com/holiday/world
+ -theatre-day/
+X-WR-CALDESC:World Theatre Day — https://todaycelebrates.com/holiday/worl
+ d-theatre-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-theatre-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-theatre-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-theatre-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:World Theatre Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Theatre Day\, observed on March 27\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/world-theatre-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-theatre-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

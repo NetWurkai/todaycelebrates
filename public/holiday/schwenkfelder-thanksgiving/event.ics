@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Schwenkfelder Thanksgiving
+X-WR-CALNAME:Schwenkfelder Thanksgiving
+DESCRIPTION:Schwenkfelder Thanksgiving — https://todaycelebrates.com/holi
+ day/schwenkfelder-thanksgiving/
+X-WR-CALDESC:Schwenkfelder Thanksgiving — https://todaycelebrates.com/hol
+ iday/schwenkfelder-thanksgiving/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/schwenkfelder-thanksgivin
+ g/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/schwenkfelder-thanksgi
+ ving/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:schwenkfelder-thanksgiving@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:Schwenkfelder Thanksgiving
+RRULE:FREQ=YEARLY
+DESCRIPTION:Schwenkfelder Thanksgiving is observed across the United States
+  on September 24\, a small but fun addition to the calendar worth celebrat
+ ing in its own way.\n\nhttps://todaycelebrates.com/holiday/schwenkfelder-t
+ hanksgiving/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/schwenkfelder-thanksgivin
+ g/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Babbling Day
+X-WR-CALNAME:Babbling Day
+DESCRIPTION:Babbling Day — https://todaycelebrates.com/holiday/babbling-d
+ ay/
+X-WR-CALDESC:Babbling Day — https://todaycelebrates.com/holiday/babbling-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/babbling-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/babbling-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:babbling-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Babbling Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Babbling Day is observed across the United States on October 21
+ \, a small but fun addition to the calendar worth celebrating in its own w
+ ay.\n\nhttps://todaycelebrates.com/holiday/babbling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/babbling-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

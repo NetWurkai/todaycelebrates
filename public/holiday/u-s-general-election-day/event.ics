@@ -1,0 +1,167 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:U.S. General Election Day
+X-WR-CALNAME:U.S. General Election Day
+DESCRIPTION:U.S. General Election Day — https://todaycelebrates.com/holid
+ ay/u-s-general-election-day/
+X-WR-CALDESC:U.S. General Election Day — https://todaycelebrates.com/holi
+ day/u-s-general-election-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:u-s-general-election-day-20261103@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:U.S. General Election Day
+DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/u-s-general-election-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:u-s-general-election-day-20271102@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
+SUMMARY:U.S. General Election Day
+DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/u-s-general-election-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:u-s-general-election-day-20281107@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281107
+DTEND;VALUE=DATE:20281108
+SUMMARY:U.S. General Election Day
+DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/u-s-general-election-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:u-s-general-election-day-20291106@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291106
+DTEND;VALUE=DATE:20291107
+SUMMARY:U.S. General Election Day
+DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/u-s-general-election-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:u-s-general-election-day-20301105@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301105
+DTEND;VALUE=DATE:20301106
+SUMMARY:U.S. General Election Day
+DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/u-s-general-election-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:u-s-general-election-day-20311104@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311104
+DTEND;VALUE=DATE:20311105
+SUMMARY:U.S. General Election Day
+DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/u-s-general-election-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:u-s-general-election-day-20321102@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321102
+DTEND;VALUE=DATE:20321103
+SUMMARY:U.S. General Election Day
+DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/u-s-general-election-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:u-s-general-election-day-20331108@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331108
+DTEND;VALUE=DATE:20331109
+SUMMARY:U.S. General Election Day
+DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/u-s-general-election-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:u-s-general-election-day-20341107@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341107
+DTEND;VALUE=DATE:20341108
+SUMMARY:U.S. General Election Day
+DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/u-s-general-election-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:u-s-general-election-day-20351106@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351106
+DTEND;VALUE=DATE:20351107
+SUMMARY:U.S. General Election Day
+DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/u-s-general-election-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

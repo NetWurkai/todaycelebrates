@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bingo Day
+X-WR-CALNAME:National Bingo Day
+DESCRIPTION:National Bingo Day — https://todaycelebrates.com/holiday/nati
+ onal-bingo-day/
+X-WR-CALDESC:National Bingo Day — https://todaycelebrates.com/holiday/nat
+ ional-bingo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bingo-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bingo-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bingo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:National Bingo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bingo Day\, observed on June 27\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/national-bingo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bingo-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

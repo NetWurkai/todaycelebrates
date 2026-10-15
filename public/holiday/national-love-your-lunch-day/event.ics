@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Love Your Lunch Day
+X-WR-CALNAME:National Love Your Lunch Day
+DESCRIPTION:National Love Your Lunch Day — https://todaycelebrates.com/ho
+ liday/national-love-your-lunch-day/
+X-WR-CALDESC:National Love Your Lunch Day — https://todaycelebrates.com/h
+ oliday/national-love-your-lunch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-love-your-lunch-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-love-your-lun
+ ch-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-love-your-lunch-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:National Love Your Lunch Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Love Your Lunch Day is observed across the United Stat
+ es on September 19\, a small but fun addition to the calendar worth celebr
+ ating in its own way.\n\nhttps://todaycelebrates.com/holiday/national-love
+ -your-lunch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-love-your-lunch-
+ day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

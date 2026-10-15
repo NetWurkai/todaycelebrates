@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Rat Day
+X-WR-CALNAME:World Rat Day
+DESCRIPTION:World Rat Day — https://todaycelebrates.com/holiday/world-rat
+ -day/
+X-WR-CALDESC:World Rat Day — https://todaycelebrates.com/holiday/world-ra
+ t-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-rat-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-rat-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-rat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:World Rat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Rat Day is a nature-focused observance on April 4\, celeb
+ rated across the United States to draw attention to the plant\, animal\, o
+ r landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world-ra
+ t-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-rat-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Darwin Day
+X-WR-CALNAME:International Darwin Day
+DESCRIPTION:International Darwin Day — https://todaycelebrates.com/holida
+ y/international-darwin-day/
+X-WR-CALDESC:International Darwin Day — https://todaycelebrates.com/holid
+ ay/international-darwin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-darwin-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-darwin-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-darwin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:International Darwin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Darwin Day is a reading- and writing-focused obse
+ rvance on February 12\, celebrated by book lovers across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/international-darwin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-darwin-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

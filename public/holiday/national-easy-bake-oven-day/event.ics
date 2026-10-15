@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Easy-Bake Oven Day
+X-WR-CALNAME:National Easy-Bake Oven Day
+DESCRIPTION:National Easy-Bake Oven Day — https://todaycelebrates.com/hol
+ iday/national-easy-bake-oven-day/
+X-WR-CALDESC:National Easy-Bake Oven Day — https://todaycelebrates.com/ho
+ liday/national-easy-bake-oven-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-easy-bake-oven-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-easy-bake-ove
+ n-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-easy-bake-oven-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:National Easy-Bake Oven Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Easy-Bake Oven Day\, observed on November 4\, is a lig
+ hthearted\, family-friendly day celebrated across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/national-easy-bake-oven-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-easy-bake-oven-d
+ ay/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

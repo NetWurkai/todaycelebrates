@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Caramel Apple Day
+X-WR-CALNAME:National Caramel Apple Day
+DESCRIPTION:National Caramel Apple Day — https://todaycelebrates.com/holi
+ day/national-caramel-apple-day/
+X-WR-CALDESC:National Caramel Apple Day — https://todaycelebrates.com/hol
+ iday/national-caramel-apple-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caramel-apple-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-caramel-apple
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-caramel-apple-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:National Caramel Apple Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 31\, National Caramel Apple Day gives people across 
+ the United States one more reason to mark the day and celebrate caramel ap
+ ple.\n\nhttps://todaycelebrates.com/holiday/national-caramel-apple-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caramel-apple-da
+ y/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

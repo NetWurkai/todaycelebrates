@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Biscuit Day
+X-WR-CALNAME:National Biscuit Day
+DESCRIPTION:National Biscuit Day — https://todaycelebrates.com/holiday/na
+ tional-biscuit-day/
+X-WR-CALDESC:National Biscuit Day — https://todaycelebrates.com/holiday/n
+ ational-biscuit-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-biscuit-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-biscuit-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-biscuit-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:National Biscuit Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Biscuit Day is a food-focused observance celebrated ac
+ ross the United States on May 29\, giving fans of the dish or ingredient a
+ n excuse to seek it out and share it with others.\n\nhttps://todaycelebrat
+ es.com/holiday/national-biscuit-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-biscuit-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

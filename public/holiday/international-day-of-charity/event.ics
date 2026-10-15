@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day of Charity
+X-WR-CALNAME:International Day of Charity
+DESCRIPTION:International Day of Charity — https://todaycelebrates.com/ho
+ liday/international-day-of-charity/
+X-WR-CALDESC:International Day of Charity — https://todaycelebrates.com/h
+ oliday/international-day-of-charity/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-char
+ ity/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-c
+ harity/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-of-charity@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:International Day of Charity
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 5\, International Day of Charity gives people arou
+ nd the world one more reason to mark the day and celebrate charity.\n\nhtt
+ ps://todaycelebrates.com/holiday/international-day-of-charity/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-char
+ ity/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

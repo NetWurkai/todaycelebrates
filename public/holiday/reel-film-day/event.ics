@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Reel Film Day
+X-WR-CALNAME:Reel Film Day
+DESCRIPTION:Reel Film Day — https://todaycelebrates.com/holiday/reel-film
+ -day/
+X-WR-CALDESC:Reel Film Day — https://todaycelebrates.com/holiday/reel-fil
+ m-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/reel-film-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/reel-film-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:reel-film-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:Reel Film Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Reel Film Day\, observed on March 5\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/reel-film-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/reel-film-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

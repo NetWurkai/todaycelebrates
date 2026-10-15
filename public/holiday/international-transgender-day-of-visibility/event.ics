@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Transgender Day of Visibility
+X-WR-CALNAME:International Transgender Day of Visibility
+DESCRIPTION:International Transgender Day of Visibility — https://todayce
+ lebrates.com/holiday/international-transgender-day-of-visibility/
+X-WR-CALDESC:International Transgender Day of Visibility — https://todayc
+ elebrates.com/holiday/international-transgender-day-of-visibility/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-transgender
+ -day-of-visibility/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-transgen
+ der-day-of-visibility/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-transgender-day-of-visibility@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:International Transgender Day of Visibility
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Transgender Day of Visibility\, observed on March
+  31\, encourages people across the United States to pause and recognize th
+ e people and causes behind the day.\n\nhttps://todaycelebrates.com/holiday
+ /international-transgender-day-of-visibility/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-transgender
+ -day-of-visibility/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

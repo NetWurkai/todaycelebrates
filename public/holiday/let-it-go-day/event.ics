@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Let It Go Day
+X-WR-CALNAME:Let It Go Day
+DESCRIPTION:Let It Go Day — https://todaycelebrates.com/holiday/let-it-go
+ -day/
+X-WR-CALDESC:Let It Go Day — https://todaycelebrates.com/holiday/let-it-g
+ o-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/let-it-go-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/let-it-go-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:let-it-go-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:Let It Go Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Let It Go Day\, observed on June 23\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/let-it-go-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/let-it-go-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

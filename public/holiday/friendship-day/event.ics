@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Friendship Day
+X-WR-CALNAME:Friendship Day
+DESCRIPTION:Friendship Day — https://todaycelebrates.com/holiday/friendsh
+ ip-day/
+X-WR-CALDESC:Friendship Day — https://todaycelebrates.com/holiday/friends
+ hip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friendship-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/friendship-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:friendship-day-20270801@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:Friendship Day
+DESCRIPTION:Friendship Day\, observed on August 1\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/friendship-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friendship-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friendship-day-20280806@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280806
+DTEND;VALUE=DATE:20280807
+SUMMARY:Friendship Day
+DESCRIPTION:Friendship Day\, observed on August 1\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/friendship-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friendship-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friendship-day-20290805@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290805
+DTEND;VALUE=DATE:20290806
+SUMMARY:Friendship Day
+DESCRIPTION:Friendship Day\, observed on August 1\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/friendship-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friendship-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friendship-day-20300804@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300804
+DTEND;VALUE=DATE:20300805
+SUMMARY:Friendship Day
+DESCRIPTION:Friendship Day\, observed on August 1\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/friendship-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friendship-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friendship-day-20310803@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310803
+DTEND;VALUE=DATE:20310804
+SUMMARY:Friendship Day
+DESCRIPTION:Friendship Day\, observed on August 1\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/friendship-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friendship-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friendship-day-20320801@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320801
+DTEND;VALUE=DATE:20320802
+SUMMARY:Friendship Day
+DESCRIPTION:Friendship Day\, observed on August 1\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/friendship-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friendship-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friendship-day-20330807@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330807
+DTEND;VALUE=DATE:20330808
+SUMMARY:Friendship Day
+DESCRIPTION:Friendship Day\, observed on August 1\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/friendship-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friendship-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friendship-day-20340806@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340806
+DTEND;VALUE=DATE:20340807
+SUMMARY:Friendship Day
+DESCRIPTION:Friendship Day\, observed on August 1\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/friendship-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friendship-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:friendship-day-20350805@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350805
+DTEND;VALUE=DATE:20350806
+SUMMARY:Friendship Day
+DESCRIPTION:Friendship Day\, observed on August 1\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/friendship-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/friendship-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

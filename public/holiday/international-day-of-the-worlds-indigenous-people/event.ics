@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day of the World's Indigenous People
+X-WR-CALNAME:International Day of the World's Indigenous People
+DESCRIPTION:International Day of the World's Indigenous People — https://
+ todaycelebrates.com/holiday/international-day-of-the-worlds-indigenous-peo
+ ple/
+X-WR-CALDESC:International Day of the World's Indigenous People — https:/
+ /todaycelebrates.com/holiday/international-day-of-the-worlds-indigenous-pe
+ ople/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-the-
+ worlds-indigenous-people/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-t
+ he-worlds-indigenous-people/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-of-the-worlds-indigenous-people@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270809
+DTEND;VALUE=DATE:20270810
+SUMMARY:International Day of the World's Indigenous People
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day of the World's Indigenous People\, observed o
+ n August 9\, encourages people across the United States to pause and recog
+ nize the people and causes behind the day.\n\nhttps://todaycelebrates.com/
+ holiday/international-day-of-the-worlds-indigenous-people/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-the-
+ worlds-indigenous-people/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

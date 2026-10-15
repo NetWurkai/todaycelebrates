@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Responsible Dog Ownership Day
+X-WR-CALNAME:Responsible Dog Ownership Day
+DESCRIPTION:Responsible Dog Ownership Day — https://todaycelebrates.com/h
+ oliday/responsible-dog-ownership-day/
+X-WR-CALDESC:Responsible Dog Ownership Day — https://todaycelebrates.com/
+ holiday/responsible-dog-ownership-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/responsible-dog-ownership
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/responsible-dog-owners
+ hip-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:responsible-dog-ownership-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:Responsible Dog Ownership Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Responsible Dog Ownership Day is celebrated across the United S
+ tates on September 19\, honoring dogs and the bond they share with the peo
+ ple who love them.\n\nhttps://todaycelebrates.com/holiday/responsible-dog-
+ ownership-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/responsible-dog-ownership
+ -day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

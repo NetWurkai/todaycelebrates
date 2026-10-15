@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Orthodox Christmas Day
+X-WR-CALNAME:Orthodox Christmas Day
+DESCRIPTION:Orthodox Christmas Day — https://todaycelebrates.com/holiday/
+ orthodox-christmas-day/
+X-WR-CALDESC:Orthodox Christmas Day — https://todaycelebrates.com/holiday
+ /orthodox-christmas-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/orthodox-christmas-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/orthodox-christmas-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:orthodox-christmas-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Orthodox Christmas Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Orthodox Christmas Day\, observed on January 7\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/orthodox-christmas-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/orthodox-christmas-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

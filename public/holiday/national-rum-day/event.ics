@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Rum Day
+X-WR-CALNAME:National Rum Day
+DESCRIPTION:National Rum Day — https://todaycelebrates.com/holiday/nation
+ al-rum-day/
+X-WR-CALDESC:National Rum Day — https://todaycelebrates.com/holiday/natio
+ nal-rum-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-rum-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-rum-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-rum-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+SUMMARY:National Rum Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Rum Day is a drinks-focused observance on August 16\, 
+ celebrated by beer and craft-brewery fans across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-rum-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-rum-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

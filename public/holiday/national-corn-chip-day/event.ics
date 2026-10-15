@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Corn Chip Day
+X-WR-CALNAME:National Corn Chip Day
+DESCRIPTION:National Corn Chip Day — https://todaycelebrates.com/holiday/
+ national-corn-chip-day/
+X-WR-CALDESC:National Corn Chip Day — https://todaycelebrates.com/holiday
+ /national-corn-chip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-corn-chip-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-corn-chip-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-corn-chip-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:National Corn Chip Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Corn Chip Day is a food-focused observance celebrated 
+ across the United States on January 29\, giving fans of the dish or ingred
+ ient an excuse to seek it out and share it with others.\n\nhttps://todayce
+ lebrates.com/holiday/national-corn-chip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-corn-chip-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

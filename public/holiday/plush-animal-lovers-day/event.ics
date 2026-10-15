@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Plush Animal Lover's Day
+X-WR-CALNAME:Plush Animal Lover's Day
+DESCRIPTION:Plush Animal Lover's Day — https://todaycelebrates.com/holida
+ y/plush-animal-lovers-day/
+X-WR-CALDESC:Plush Animal Lover's Day — https://todaycelebrates.com/holid
+ ay/plush-animal-lovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plush-animal-lovers-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/plush-animal-lovers-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:plush-animal-lovers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Plush Animal Lover's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Plush Animal Lover's Day falls on October 28 and celebrates plu
+ sh animal lover's\, drawing attention across the United States to the natu
+ ral world and our place in it.\n\nhttps://todaycelebrates.com/holiday/plus
+ h-animal-lovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plush-animal-lovers-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

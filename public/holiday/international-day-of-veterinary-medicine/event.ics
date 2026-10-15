@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day of Veterinary Medicine
+X-WR-CALNAME:International Day of Veterinary Medicine
+DESCRIPTION:International Day of Veterinary Medicine — https://todayceleb
+ rates.com/holiday/international-day-of-veterinary-medicine/
+X-WR-CALDESC:International Day of Veterinary Medicine — https://todaycele
+ brates.com/holiday/international-day-of-veterinary-medicine/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-vete
+ rinary-medicine/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-v
+ eterinary-medicine/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-of-veterinary-medicine@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:International Day of Veterinary Medicine
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day of Veterinary Medicine is a health-awareness 
+ observance on December 9\, marked across the United States to spotlight a 
+ wellness topic worth a second look.\n\nhttps://todaycelebrates.com/holiday
+ /international-day-of-veterinary-medicine/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-vete
+ rinary-medicine/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

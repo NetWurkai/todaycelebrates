@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Namesake Day
+X-WR-CALNAME:Namesake Day
+DESCRIPTION:Namesake Day — https://todaycelebrates.com/holiday/namesake-d
+ ay/
+X-WR-CALDESC:Namesake Day — https://todaycelebrates.com/holiday/namesake-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/namesake-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/namesake-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:namesake-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Namesake Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Namesake Day\, observed on March 7\, is a lighthearted holiday 
+ celebrated across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/namesake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/namesake-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

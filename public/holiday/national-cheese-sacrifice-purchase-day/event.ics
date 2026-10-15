@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cheese Sacrifice Purchase Day
+X-WR-CALNAME:National Cheese Sacrifice Purchase Day
+DESCRIPTION:National Cheese Sacrifice Purchase Day — https://todaycelebra
+ tes.com/holiday/national-cheese-sacrifice-purchase-day/
+X-WR-CALDESC:National Cheese Sacrifice Purchase Day — https://todaycelebr
+ ates.com/holiday/national-cheese-sacrifice-purchase-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cheese-sacrifice
+ -purchase-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cheese-sacrif
+ ice-purchase-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cheese-sacrifice-purchase-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:National Cheese Sacrifice Purchase Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cheese Sacrifice Purchase Day is a food-focused observ
+ ance celebrated across the United States on July 29\, giving fans of the d
+ ish or ingredient an excuse to seek it out and share it with others.\n\nht
+ tps://todaycelebrates.com/holiday/national-cheese-sacrifice-purchase-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cheese-sacrifice
+ -purchase-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

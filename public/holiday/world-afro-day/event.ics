@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Afro Day
+X-WR-CALNAME:World Afro Day
+DESCRIPTION:World Afro Day — https://todaycelebrates.com/holiday/world-af
+ ro-day/
+X-WR-CALDESC:World Afro Day — https://todaycelebrates.com/holiday/world-a
+ fro-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-afro-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-afro-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-afro-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:World Afro Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Afro Day is observed around the globe on September 15\, a
+  small but fun addition to the calendar worth celebrating in its own way.\
+ n\nhttps://todaycelebrates.com/holiday/world-afro-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-afro-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

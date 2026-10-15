@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Card Playing Day
+X-WR-CALNAME:National Card Playing Day
+DESCRIPTION:National Card Playing Day — https://todaycelebrates.com/holid
+ ay/national-card-playing-day/
+X-WR-CALDESC:National Card Playing Day — https://todaycelebrates.com/holi
+ day/national-card-playing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-card-playing-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-card-playing-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-card-playing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:National Card Playing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Card Playing Day\, observed on December 28\, is a ligh
+ thearted\, family-friendly day celebrated across the United States.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-card-playing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-card-playing-day
+ /
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

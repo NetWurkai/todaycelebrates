@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Mojito Day
+X-WR-CALNAME:National Mojito Day
+DESCRIPTION:National Mojito Day — https://todaycelebrates.com/holiday/nat
+ ional-mojito-day/
+X-WR-CALDESC:National Mojito Day — https://todaycelebrates.com/holiday/na
+ tional-mojito-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mojito-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mojito-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mojito-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:National Mojito Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mojito Day is a drinks-focused observance on July 11\,
+  celebrated by beer and craft-brewery fans across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/national-mojito-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mojito-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

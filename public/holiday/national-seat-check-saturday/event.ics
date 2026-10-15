@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Seat Check Saturday
+X-WR-CALNAME:National Seat Check Saturday
+DESCRIPTION:National Seat Check Saturday — https://todaycelebrates.com/ho
+ liday/national-seat-check-saturday/
+X-WR-CALDESC:National Seat Check Saturday — https://todaycelebrates.com/h
+ oliday/national-seat-check-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-seat-check-satur
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-seat-check-sa
+ turday/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-seat-check-saturday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:National Seat Check Saturday
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Seat Check Saturday\, observed on September 26\, celeb
+ rates seat check saturday and the community of fans and players who keep i
+ t going across the United States.\n\nhttps://todaycelebrates.com/holiday/n
+ ational-seat-check-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-seat-check-satur
+ day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

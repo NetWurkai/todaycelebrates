@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Sons Day
+X-WR-CALNAME:National Sons Day
+DESCRIPTION:National Sons Day — https://todaycelebrates.com/holiday/natio
+ nal-sons-day/
+X-WR-CALDESC:National Sons Day — https://todaycelebrates.com/holiday/nati
+ onal-sons-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sons-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-sons-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-sons-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:National Sons Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sons Day\, observed on March 4\, is a lighthearted\, f
+ amily-friendly day celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/national-sons-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sons-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,3531 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Today Celebrates: Nature
+X-WR-CALNAME:Today Celebrates: Nature
+DESCRIPTION:158 nature observances from https://todaycelebrates.com/categor
+ y/nature/. Rebuilt daily.
+X-WR-CALDESC:158 nature observances from https://todaycelebrates.com/catego
+ ry/nature/. Rebuilt daily.
+URL;VALUE=URI:https://todaycelebrates.com/category/nature/calendar.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/category/nature/calendar.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:american-eagle-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:American Eagle Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:American Eagle Day is a nature-focused observance on June 20\, 
+ celebrated across the United States to draw attention to the plant\, anima
+ l\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/ame
+ rican-eagle-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-eagle-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-zoo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:American Zoo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:American Zoo Day is a nature-focused observance on July 1\, cel
+ ebrated across the United States to draw attention to the plant\, animal\,
+  or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/americ
+ an-zoo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-zoo-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:animal-action-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+SUMMARY:Animal Action Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Animal Action Day falls on October 8 and celebrates animal acti
+ on\, drawing attention across the United States to the natural world and o
+ ur place in it.\n\nhttps://todaycelebrates.com/holiday/animal-action-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/animal-action-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:audubon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:Audubon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Audubon Day is a nature-focused observance on April 26\, celebr
+ ated across the United States to draw attention to the plant\, animal\, or
+  landscape at its center.\n\nhttps://todaycelebrates.com/holiday/audubon-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/audubon-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:autumnal-equinox-20270923@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+SUMMARY:Autumnal Equinox
+DESCRIPTION:The autumnal equinox marks the astronomical start of fall in th
+ e Northern Hemisphere\, the moment the sun crosses the celestial equator a
+ nd day and night are nearly equal in length.\n\nhttps://todaycelebrates.co
+ m/holiday/autumnal-equinox/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/autumnal-equinox/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:autumnal-equinox-20280922@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280922
+DTEND;VALUE=DATE:20280923
+SUMMARY:Autumnal Equinox
+DESCRIPTION:The autumnal equinox marks the astronomical start of fall in th
+ e Northern Hemisphere\, the moment the sun crosses the celestial equator a
+ nd day and night are nearly equal in length.\n\nhttps://todaycelebrates.co
+ m/holiday/autumnal-equinox/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/autumnal-equinox/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:autumnal-equinox-20290922@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290922
+DTEND;VALUE=DATE:20290923
+SUMMARY:Autumnal Equinox
+DESCRIPTION:The autumnal equinox marks the astronomical start of fall in th
+ e Northern Hemisphere\, the moment the sun crosses the celestial equator a
+ nd day and night are nearly equal in length.\n\nhttps://todaycelebrates.co
+ m/holiday/autumnal-equinox/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/autumnal-equinox/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:autumnal-equinox-20300922@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300922
+DTEND;VALUE=DATE:20300923
+SUMMARY:Autumnal Equinox
+DESCRIPTION:The autumnal equinox marks the astronomical start of fall in th
+ e Northern Hemisphere\, the moment the sun crosses the celestial equator a
+ nd day and night are nearly equal in length.\n\nhttps://todaycelebrates.co
+ m/holiday/autumnal-equinox/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/autumnal-equinox/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:autumnal-equinox-20310923@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310923
+DTEND;VALUE=DATE:20310924
+SUMMARY:Autumnal Equinox
+DESCRIPTION:The autumnal equinox marks the astronomical start of fall in th
+ e Northern Hemisphere\, the moment the sun crosses the celestial equator a
+ nd day and night are nearly equal in length.\n\nhttps://todaycelebrates.co
+ m/holiday/autumnal-equinox/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/autumnal-equinox/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:autumnal-equinox-20320922@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320922
+DTEND;VALUE=DATE:20320923
+SUMMARY:Autumnal Equinox
+DESCRIPTION:The autumnal equinox marks the astronomical start of fall in th
+ e Northern Hemisphere\, the moment the sun crosses the celestial equator a
+ nd day and night are nearly equal in length.\n\nhttps://todaycelebrates.co
+ m/holiday/autumnal-equinox/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/autumnal-equinox/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:autumnal-equinox-20330922@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330922
+DTEND;VALUE=DATE:20330923
+SUMMARY:Autumnal Equinox
+DESCRIPTION:The autumnal equinox marks the astronomical start of fall in th
+ e Northern Hemisphere\, the moment the sun crosses the celestial equator a
+ nd day and night are nearly equal in length.\n\nhttps://todaycelebrates.co
+ m/holiday/autumnal-equinox/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/autumnal-equinox/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:autumnal-equinox-20340922@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340922
+DTEND;VALUE=DATE:20340923
+SUMMARY:Autumnal Equinox
+DESCRIPTION:The autumnal equinox marks the astronomical start of fall in th
+ e Northern Hemisphere\, the moment the sun crosses the celestial equator a
+ nd day and night are nearly equal in length.\n\nhttps://todaycelebrates.co
+ m/holiday/autumnal-equinox/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/autumnal-equinox/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:autumnal-equinox-20350923@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350923
+DTEND;VALUE=DATE:20350924
+SUMMARY:Autumnal Equinox
+DESCRIPTION:The autumnal equinox marks the astronomical start of fall in th
+ e Northern Hemisphere\, the moment the sun crosses the celestial equator a
+ nd day and night are nearly equal in length.\n\nhttps://todaycelebrates.co
+ m/holiday/autumnal-equinox/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/autumnal-equinox/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:barn-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:Barn Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Barn Day is a nature-focused observance on July 11\, celebrated
+  across the United States to draw attention to the plant\, animal\, or lan
+ dscape at its center.\n\nhttps://todaycelebrates.com/holiday/barn-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/barn-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bat-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Bat Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bat Appreciation Day is a nature-focused observance on April 17
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ bat-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bat-appreciation-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:big-wind-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:Big Wind Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Big Wind Day is a nature-focused observance on April 12\, celeb
+ rated across the United States to draw attention to the plant\, animal\, o
+ r landscape at its center.\n\nhttps://todaycelebrates.com/holiday/big-wind
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/big-wind-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:bird-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Bird Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bird Day is a nature-focused observance on May 4\, celebrated a
+ cross the United States to draw attention to the plant\, animal\, or lands
+ cape at its center.\n\nhttps://todaycelebrates.com/holiday/bird-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bird-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:california-western-monarch-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:California Western Monarch Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:California Western Monarch Day is a nature-focused observance o
+ n February 5\, celebrated across the United States to draw attention to th
+ e plant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.
+ com/holiday/california-western-monarch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/california-western-monarc
+ h-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:car-free-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:Car Free Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Car Free Day falls on September 22 and celebrates car free\, dr
+ awing attention across the United States to the natural world and our plac
+ e in it.\n\nhttps://todaycelebrates.com/holiday/car-free-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/car-free-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:celebrate-your-lakes-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:Celebrate Your Lakes Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Celebrate Your Lakes Day is a nature-focused observance on Augu
+ st 14\, celebrated across the United States to draw attention to the plant
+ \, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/hol
+ iday/celebrate-your-lakes-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/celebrate-your-lakes-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:come-in-from-the-cold-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Come in From the Cold Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Come in From the Cold Day is a nature-focused observance on Jan
+ uary 22\, celebrated across the United States to draw attention to the pla
+ nt\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/h
+ oliday/come-in-from-the-cold-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/come-in-from-the-cold-day
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cuddly-kitten-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:Cuddly Kitten Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Cuddly Kitten Day is a nature-focused observance on March 23\, 
+ celebrated across the United States to draw attention to the plant\, anima
+ l\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/cud
+ dly-kitten-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cuddly-kitten-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:daisy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Daisy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Daisy Day is a nature-focused observance on January 28\, celebr
+ ated across the United States to draw attention to the plant\, animal\, or
+  landscape at its center.\n\nhttps://todaycelebrates.com/holiday/daisy-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/daisy-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:day-of-the-mushroom@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:Day of the Mushroom
+RRULE:FREQ=YEARLY
+DESCRIPTION:Day of the Mushroom is a nature-focused observance on April 16\
+ , celebrated across the United States to draw attention to the plant\, ani
+ mal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/d
+ ay-of-the-mushroom/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-mushroom/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Earth Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Earth Day is a nature-focused observance on April 22\, celebrat
+ ed across the United States to draw attention to the plant\, animal\, or l
+ andscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20270327@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20280325@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280325
+DTEND;VALUE=DATE:20280326
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20290331@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290331
+DTEND;VALUE=DATE:20290401
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20300330@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300330
+DTEND;VALUE=DATE:20300331
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20310329@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310329
+DTEND;VALUE=DATE:20310330
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20320327@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320327
+DTEND;VALUE=DATE:20320328
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20330326@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330326
+DTEND;VALUE=DATE:20330327
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20340325@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340325
+DTEND;VALUE=DATE:20340326
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20350331@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350331
+DTEND;VALUE=DATE:20350401
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earths-rotation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Earth's Rotation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Earth's Rotation Day is a nature-focused observance on January 
+ 8\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /earths-rotation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earths-rotation-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:festival-for-the-souls-of-dead-whales@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Festival for the Souls of Dead Whales
+RRULE:FREQ=YEARLY
+DESCRIPTION:Festival for the Souls of Dead Whales is a nature-focused obser
+ vance on December 10\, celebrated across the United States to draw attenti
+ on to the plant\, animal\, or landscape at its center.\n\nhttps://todaycel
+ ebrates.com/holiday/festival-for-the-souls-of-dead-whales/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/festival-for-the-souls-of
+ -dead-whales/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:find-a-rainbow-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Find a Rainbow Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Find a Rainbow Day is a nature-focused observance on April 3\, 
+ celebrated across the United States to draw attention to the plant\, anima
+ l\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/fin
+ d-a-rainbow-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/find-a-rainbow-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20261221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20271221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271221
+DTEND;VALUE=DATE:20271222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20281221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281221
+DTEND;VALUE=DATE:20281222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20291221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291221
+DTEND;VALUE=DATE:20291222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20301221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301221
+DTEND;VALUE=DATE:20301222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20311221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311221
+DTEND;VALUE=DATE:20311222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20321221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321221
+DTEND;VALUE=DATE:20321222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20331221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331221
+DTEND;VALUE=DATE:20331222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20341221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341221
+DTEND;VALUE=DATE:20341222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20351221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351221
+DTEND;VALUE=DATE:20351222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:floral-design-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Floral Design Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Floral Design Day is a nature-focused observance on February 28
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ floral-design-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/floral-design-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:free-flower-basket-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Free Flower Basket Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Free Flower Basket Day is a nature-focused observance on Januar
+ y 4\, celebrated across the United States to draw attention to the plant\,
+  animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holid
+ ay/free-flower-basket-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/free-flower-basket-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:frog-jumping-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Frog Jumping Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Frog Jumping Day is a nature-focused observance on May 13\, cel
+ ebrated across the United States to draw attention to the plant\, animal\,
+  or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/frog-j
+ umping-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/frog-jumping-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:geologists-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Geologists Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Geologists Day is a nature-focused observance on April 4\, cele
+ brated across the United States to draw attention to the plant\, animal\, 
+ or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/geologi
+ sts-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/geologists-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:global-wind-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:Global Wind Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Wind Day is a nature-focused observance on June 15\, cel
+ ebrated across the United States to draw attention to the plant\, animal\,
+  or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/global
+ -wind-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-wind-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:go-fishing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:Go Fishing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Go Fishing Day is a nature-focused observance on June 18\, cele
+ brated across the United States to draw attention to the plant\, animal\, 
+ or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/go-fish
+ ing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/go-fishing-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:great-american-campout@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:Great American Campout
+RRULE:FREQ=YEARLY
+DESCRIPTION:Great American Campout is a nature-focused observance on June 2
+ 6\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /great-american-campout/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-campout/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hedgehog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:Hedgehog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Hedgehog Day is a nature-focused observance on February 2\, cel
+ ebrated across the United States to draw attention to the plant\, animal\,
+  or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/hedgeh
+ og-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hedgehog-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:hobbit-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:Hobbit Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Hobbit Day falls on September 22 and celebrates hobbit\, drawin
+ g attention across the United States to the natural world and our place in
+  it.\n\nhttps://todaycelebrates.com/holiday/hobbit-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hobbit-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:holly-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Holly Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Holly Day is a nature-focused observance on December 19\, celeb
+ rated across the United States to draw attention to the plant\, animal\, o
+ r landscape at its center.\n\nhttps://todaycelebrates.com/holiday/holly-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holly-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:i-love-horses-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:I Love Horses Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:I Love Horses Day is a nature-focused observance on July 15\, c
+ elebrated across the United States to draw attention to the plant\, animal
+ \, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/i-lo
+ ve-horses-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/i-love-horses-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-beaver-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:International Beaver Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Beaver Day is a nature-focused observance on Apri
+ l 7\, celebrated across the United States to draw attention to the plant\,
+  animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holid
+ ay/international-beaver-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-beaver-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-cat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+SUMMARY:International Cat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Cat Day is a nature-focused observance on August 
+ 8\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /international-cat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-cat-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-cheetah-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:International Cheetah Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Cheetah Day is a nature-focused observance on Dec
+ ember 4\, celebrated across the United States to draw attention to the pla
+ nt\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/h
+ oliday/international-cheetah-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-cheetah-day
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-clouded-leopard-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270805
+SUMMARY:International Clouded Leopard Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Clouded Leopard Day is a nature-focused observanc
+ e on August 4\, celebrated across the United States to draw attention to t
+ he plant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates
+ .com/holiday/international-clouded-leopard-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-clouded-leo
+ pard-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-crow-and-raven-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:International Crow and Raven Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Crow and Raven Appreciation Day is a nature-focus
+ ed observance on April 27\, celebrated across the United States to draw at
+ tention to the plant\, animal\, or landscape at its center.\n\nhttps://tod
+ aycelebrates.com/holiday/international-crow-and-raven-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-crow-and-ra
+ ven-appreciation-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-day-for-biological-diversity@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:International Day for Biological Diversity
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day for Biological Diversity is a nature-focused 
+ observance on May 22\, celebrated across the United States to draw attenti
+ on to the plant\, animal\, or landscape at its center.\n\nhttps://todaycel
+ ebrates.com/holiday/international-day-for-biological-diversity/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-bio
+ logical-diversity/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-day-for-the-preservation-of-the-ozone-layer@todaycelebrat
+ es.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:International Day for the Preservation of the Ozone Layer
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day for the Preservation of the Ozone Layer falls
+  on September 16 and celebrates day for the preservation of the ozone laye
+ r\, drawing attention around the world to the natural world and our place 
+ in it.\n\nhttps://todaycelebrates.com/holiday/international-day-for-the-pr
+ eservation-of-the-ozone-layer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-the
+ -preservation-of-the-ozone-layer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-geocaching-day-20270821@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:International Geocaching Day
+DESCRIPTION:International Geocaching Day is a nature-focused observance on 
+ August 21\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/international-geocaching-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-geocaching-
+ day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-geocaching-day-20280819@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280819
+DTEND;VALUE=DATE:20280820
+SUMMARY:International Geocaching Day
+DESCRIPTION:International Geocaching Day is a nature-focused observance on 
+ August 21\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/international-geocaching-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-geocaching-
+ day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-geocaching-day-20290818@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290818
+DTEND;VALUE=DATE:20290819
+SUMMARY:International Geocaching Day
+DESCRIPTION:International Geocaching Day is a nature-focused observance on 
+ August 21\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/international-geocaching-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-geocaching-
+ day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-geocaching-day-20300817@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300817
+DTEND;VALUE=DATE:20300818
+SUMMARY:International Geocaching Day
+DESCRIPTION:International Geocaching Day is a nature-focused observance on 
+ August 21\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/international-geocaching-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-geocaching-
+ day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-geocaching-day-20310816@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310816
+DTEND;VALUE=DATE:20310817
+SUMMARY:International Geocaching Day
+DESCRIPTION:International Geocaching Day is a nature-focused observance on 
+ August 21\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/international-geocaching-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-geocaching-
+ day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-geocaching-day-20320821@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320821
+DTEND;VALUE=DATE:20320822
+SUMMARY:International Geocaching Day
+DESCRIPTION:International Geocaching Day is a nature-focused observance on 
+ August 21\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/international-geocaching-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-geocaching-
+ day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-geocaching-day-20330820@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330820
+DTEND;VALUE=DATE:20330821
+SUMMARY:International Geocaching Day
+DESCRIPTION:International Geocaching Day is a nature-focused observance on 
+ August 21\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/international-geocaching-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-geocaching-
+ day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-geocaching-day-20340819@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340819
+DTEND;VALUE=DATE:20340820
+SUMMARY:International Geocaching Day
+DESCRIPTION:International Geocaching Day is a nature-focused observance on 
+ August 21\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/international-geocaching-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-geocaching-
+ day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-geocaching-day-20350818@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350818
+DTEND;VALUE=DATE:20350819
+SUMMARY:International Geocaching Day
+DESCRIPTION:International Geocaching Day is a nature-focused observance on 
+ August 21\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/international-geocaching-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-geocaching-
+ day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-homeless-animals-day-20270821@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:International Homeless Animals' Day
+DESCRIPTION:International Homeless Animals' Day is a nature-focused observa
+ nce on August 21\, celebrated across the United States to draw attention t
+ o the plant\, animal\, or landscape at its center.\n\nhttps://todaycelebra
+ tes.com/holiday/international-homeless-animals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-homeless-an
+ imals-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-homeless-animals-day-20280819@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280819
+DTEND;VALUE=DATE:20280820
+SUMMARY:International Homeless Animals' Day
+DESCRIPTION:International Homeless Animals' Day is a nature-focused observa
+ nce on August 21\, celebrated across the United States to draw attention t
+ o the plant\, animal\, or landscape at its center.\n\nhttps://todaycelebra
+ tes.com/holiday/international-homeless-animals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-homeless-an
+ imals-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-homeless-animals-day-20290818@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290818
+DTEND;VALUE=DATE:20290819
+SUMMARY:International Homeless Animals' Day
+DESCRIPTION:International Homeless Animals' Day is a nature-focused observa
+ nce on August 21\, celebrated across the United States to draw attention t
+ o the plant\, animal\, or landscape at its center.\n\nhttps://todaycelebra
+ tes.com/holiday/international-homeless-animals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-homeless-an
+ imals-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-homeless-animals-day-20300817@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300817
+DTEND;VALUE=DATE:20300818
+SUMMARY:International Homeless Animals' Day
+DESCRIPTION:International Homeless Animals' Day is a nature-focused observa
+ nce on August 21\, celebrated across the United States to draw attention t
+ o the plant\, animal\, or landscape at its center.\n\nhttps://todaycelebra
+ tes.com/holiday/international-homeless-animals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-homeless-an
+ imals-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-homeless-animals-day-20310816@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310816
+DTEND;VALUE=DATE:20310817
+SUMMARY:International Homeless Animals' Day
+DESCRIPTION:International Homeless Animals' Day is a nature-focused observa
+ nce on August 21\, celebrated across the United States to draw attention t
+ o the plant\, animal\, or landscape at its center.\n\nhttps://todaycelebra
+ tes.com/holiday/international-homeless-animals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-homeless-an
+ imals-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-homeless-animals-day-20320821@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320821
+DTEND;VALUE=DATE:20320822
+SUMMARY:International Homeless Animals' Day
+DESCRIPTION:International Homeless Animals' Day is a nature-focused observa
+ nce on August 21\, celebrated across the United States to draw attention t
+ o the plant\, animal\, or landscape at its center.\n\nhttps://todaycelebra
+ tes.com/holiday/international-homeless-animals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-homeless-an
+ imals-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-homeless-animals-day-20330820@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330820
+DTEND;VALUE=DATE:20330821
+SUMMARY:International Homeless Animals' Day
+DESCRIPTION:International Homeless Animals' Day is a nature-focused observa
+ nce on August 21\, celebrated across the United States to draw attention t
+ o the plant\, animal\, or landscape at its center.\n\nhttps://todaycelebra
+ tes.com/holiday/international-homeless-animals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-homeless-an
+ imals-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-homeless-animals-day-20340819@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340819
+DTEND;VALUE=DATE:20340820
+SUMMARY:International Homeless Animals' Day
+DESCRIPTION:International Homeless Animals' Day is a nature-focused observa
+ nce on August 21\, celebrated across the United States to draw attention t
+ o the plant\, animal\, or landscape at its center.\n\nhttps://todaycelebra
+ tes.com/holiday/international-homeless-animals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-homeless-an
+ imals-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-homeless-animals-day-20350818@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350818
+DTEND;VALUE=DATE:20350819
+SUMMARY:International Homeless Animals' Day
+DESCRIPTION:International Homeless Animals' Day is a nature-focused observa
+ nce on August 21\, celebrated across the United States to draw attention t
+ o the plant\, animal\, or landscape at its center.\n\nhttps://todaycelebra
+ tes.com/holiday/international-homeless-animals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-homeless-an
+ imals-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-migratory-bird-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:International Migratory Bird Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Migratory Bird Day is a nature-focused observance
+  on May 8\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/international-migratory-bird-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-migratory-b
+ ird-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-mountain-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:International Mountain Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Mountain Day is a nature-focused observance on De
+ cember 11\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/international-mountain-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-mountain-da
+ y/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-orangutan-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270819
+DTEND;VALUE=DATE:20270820
+SUMMARY:International Orangutan Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Orangutan Day is a nature-focused observance on A
+ ugust 19\, celebrated across the United States to draw attention to the pl
+ ant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/
+ holiday/international-orangutan-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-orangutan-d
+ ay/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-plastic-free-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:International Plastic Free Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Plastic Free Day is a nature-focused observance o
+ n May 25\, celebrated across the United States to draw attention to the pl
+ ant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/
+ holiday/international-plastic-free-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-plastic-fre
+ e-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-polar-bear-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:International Polar Bear Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Polar Bear Day is a nature-focused observance on 
+ February 27\, celebrated across the United States to draw attention to the
+  plant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.c
+ om/holiday/international-polar-bear-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-polar-bear-
+ day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-rescue-cat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:International Rescue Cat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Rescue Cat Day is a nature-focused observance on 
+ March 2\, celebrated across the United States to draw attention to the pla
+ nt\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/h
+ oliday/international-rescue-cat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-rescue-cat-
+ day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-tiger-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:International Tiger Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Tiger Day is a nature-focused observance on July 
+ 29\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/international-tiger-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tiger-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-whale-shark-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270831
+SUMMARY:International Whale Shark Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Whale Shark Day is a nature-focused observance on
+  August 30\, celebrated across the United States to draw attention to the 
+ plant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.co
+ m/holiday/international-whale-shark-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-whale-shark
+ -day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:johnny-appleseed-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:Johnny Appleseed Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Johnny Appleseed Day is a nature-focused observance on March 11
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ johnny-appleseed-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/johnny-appleseed-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:june-bug-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270608
+SUMMARY:June Bug Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:June Bug Day is a nature-focused observance on June 7\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/june-bug-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/june-bug-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kyoto-protocol-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:Kyoto Protocol Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Kyoto Protocol Day is a nature-focused observance on February 1
+ 6\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /kyoto-protocol-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kyoto-protocol-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:learn-about-butterflies-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Learn About Butterflies Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Learn About Butterflies Day is a nature-focused observance on M
+ arch 14\, celebrated across the United States to draw attention to the pla
+ nt\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/h
+ oliday/learn-about-butterflies-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/learn-about-butterflies-d
+ ay/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:learn-about-composting-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:Learn About Composting Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Learn About Composting Day is a nature-focused observance on Ma
+ y 29\, celebrated across the United States to draw attention to the plant\
+ , animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holi
+ day/learn-about-composting-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/learn-about-composting-da
+ y/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:look-for-an-evergreen-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Look for an Evergreen Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Look for an Evergreen Day is a nature-focused observance on Dec
+ ember 19\, celebrated across the United States to draw attention to the pl
+ ant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/
+ holiday/look-for-an-evergreen-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/look-for-an-evergreen-day
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:look-up-at-the-sky-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:Look Up at the Sky Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Look Up at the Sky Day is a nature-focused observance on April 
+ 14\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/look-up-at-the-sky-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/look-up-at-the-sky-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:love-a-tree-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:Love a Tree Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Love a Tree Day is a nature-focused observance on May 16\, cele
+ brated across the United States to draw attention to the plant\, animal\, 
+ or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/love-a-
+ tree-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/love-a-tree-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:manatee-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Manatee Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Manatee Appreciation Day is a nature-focused observance on Marc
+ h 31\, celebrated across the United States to draw attention to the plant\
+ , animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holi
+ day/manatee-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/manatee-appreciation-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:monkey-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Monkey Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Monkey Day is a nature-focused observance on December 14\, cele
+ brated across the United States to draw attention to the plant\, animal\, 
+ or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/monkey-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/monkey-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-agriculture-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:National Agriculture Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Agriculture Day is a nature-focused observance on Marc
+ h 16\, celebrated across the United States to draw attention to the plant\
+ , animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holi
+ day/national-agriculture-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-agriculture-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-arabian-horse-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:National Arabian Horse Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Arabian Horse Day is a nature-focused observance on Fe
+ bruary 19\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/national-arabian-horse-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-arabian-horse-da
+ y/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-arbor-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:National Arbor Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Arbor Day is a nature-focused observance on April 30\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-arbor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-arbor-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-backyard-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:National Backyard Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Backyard Day is a nature-focused observance on March 1
+ 9\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /national-backyard-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-backyard-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-bird-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:National Bird Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bird Day is a nature-focused observance on January 5\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-bird-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bird-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-bison-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:National Bison Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bison Day is a nature-focused observance on November 7
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ national-bison-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bison-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-black-bear-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:National Black Bear Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Black Bear Day is a nature-focused observance on June 
+ 5\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /national-black-bear-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-black-bear-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-black-cat-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270817
+DTEND;VALUE=DATE:20270818
+SUMMARY:National Black Cat Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Black Cat Appreciation Day is a nature-focused observa
+ nce on August 17\, celebrated across the United States to draw attention t
+ o the plant\, animal\, or landscape at its center.\n\nhttps://todaycelebra
+ tes.com/holiday/national-black-cat-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-black-cat-apprec
+ iation-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-carnation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:National Carnation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Carnation Day is a nature-focused observance on Januar
+ y 29\, celebrated across the United States to draw attention to the plant\
+ , animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holi
+ day/national-carnation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-carnation-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-centenarians-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:National Centenarian's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Centenarian's Day falls on September 22 and celebrates
+  centenarian's\, drawing attention across the United States to the natural
+  world and our place in it.\n\nhttps://todaycelebrates.com/holiday/nationa
+ l-centenarians-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-centenarians-day
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-dandelion-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:National Dandelion Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dandelion Day is a nature-focused observance on April 
+ 5\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /national-dandelion-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dandelion-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-day-of-the-horse@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:National Day of the Horse
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Day of the Horse is a nature-focused observance on Dec
+ ember 13\, celebrated across the United States to draw attention to the pl
+ ant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/
+ holiday/national-day-of-the-horse/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-the-horse
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-dolphin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:National Dolphin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dolphin Day is a nature-focused observance on April 14
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ national-dolphin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dolphin-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-elephant-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:National Elephant Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Elephant Appreciation Day falls on September 22 and ce
+ lebrates elephant appreciation\, drawing attention across the United State
+ s to the natural world and our place in it.\n\nhttps://todaycelebrates.com
+ /holiday/national-elephant-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-elephant-appreci
+ ation-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-farm-animals-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:National Farm Animals Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Farm Animals Day is a nature-focused observance on Apr
+ il 10\, celebrated across the United States to draw attention to the plant
+ \, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/hol
+ iday/national-farm-animals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-farm-animals-day
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-ferret-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:National Ferret Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Ferret Day is a nature-focused observance on April 2\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-ferret-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ferret-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-flower-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:National Flower Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Flower Day is a nature-focused observance on March 21\
+ , celebrated across the United States to draw attention to the plant\, ani
+ mal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/n
+ ational-flower-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-flower-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-forget-me-not-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:National Forget-Me-Not Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Forget-Me-Not Day is a nature-focused observance on No
+ vember 10\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/national-forget-me-not-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-forget-me-not-da
+ y/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-girls-night@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:National Girls' Night
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Girls' Night falls on September 22 and celebrates girl
+ s' night\, drawing attention across the United States to the natural world
+  and our place in it.\n\nhttps://todaycelebrates.com/holiday/national-girl
+ s-night/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-girls-night/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-help-a-horse-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:National Help a Horse Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Help a Horse Day is a nature-focused observance on Apr
+ il 26\, celebrated across the United States to draw attention to the plant
+ \, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/hol
+ iday/national-help-a-horse-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-help-a-horse-day
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-hippo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:National Hippo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hippo Day is a nature-focused observance on February 1
+ 5\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /national-hippo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hippo-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-hummingbird-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:National Hummingbird Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hummingbird Day falls on September 5 and celebrates hu
+ mmingbird\, drawing attention across the United States to the natural worl
+ d and our place in it.\n\nhttps://todaycelebrates.com/holiday/national-hum
+ mingbird-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hummingbird-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-legwear-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:National Legwear Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Legwear Day falls on September 22 and celebrates legwe
+ ar\, drawing attention across the United States to the natural world and o
+ ur place in it.\n\nhttps://todaycelebrates.com/holiday/national-legwear-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-legwear-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-lighthouse-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:National Lighthouse Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Lighthouse Day is a nature-focused observance on Augus
+ t 7\, celebrated across the United States to draw attention to the plant\,
+  animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holid
+ ay/national-lighthouse-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lighthouse-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-llama-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:National Llama Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Llama Day is a nature-focused observance on December 9
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ national-llama-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-llama-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-mushroom-hunting-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:National Mushroom Hunting Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mushroom Hunting Day is a nature-focused observance on
+  May 17\, celebrated across the United States to draw attention to the pla
+ nt\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/h
+ oliday/national-mushroom-hunting-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mushroom-hunting
+ -day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-panda-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:National Panda Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Panda Day is a nature-focused observance on March 16\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-panda-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-panda-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-park-service-founders-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:National Park Service Founders Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Park Service Founders Day is a nature-focused observan
+ ce on August 25\, celebrated across the United States to draw attention to
+  the plant\, animal\, or landscape at its center.\n\nhttps://todaycelebrat
+ es.com/holiday/national-park-service-founders-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-park-service-fou
+ nders-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-peace-rose-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:National Peace Rose Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Peace Rose Day is a nature-focused observance on April
+  29\, celebrated across the United States to draw attention to the plant\,
+  animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holid
+ ay/national-peace-rose-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-peace-rose-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-pig-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:National Pig Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pig Day is a nature-focused observance on March 1\, ce
+ lebrated across the United States to draw attention to the plant\, animal\
+ , or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/natio
+ nal-pig-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pig-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-plant-a-flower-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:National Plant a Flower Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Plant a Flower Day is a nature-focused observance on M
+ arch 12\, celebrated across the United States to draw attention to the pla
+ nt\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/h
+ oliday/national-plant-a-flower-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-plant-a-flower-d
+ ay/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-play-outside-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:National Play Outside Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Play Outside Day falls on September 5 and celebrates p
+ lay outside\, drawing attention across the United States to the natural wo
+ rld and our place in it.\n\nhttps://todaycelebrates.com/holiday/national-p
+ lay-outside-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-play-outside-day
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-poinsettia-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:National Poinsettia Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Poinsettia Day is a nature-focused observance on Decem
+ ber 12\, celebrated across the United States to draw attention to the plan
+ t\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/ho
+ liday/national-poinsettia-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-poinsettia-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-public-gardens-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:National Public Gardens Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Public Gardens Day is a nature-focused observance on M
+ ay 7\, celebrated across the United States to draw attention to the plant\
+ , animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holi
+ day/national-public-gardens-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-public-gardens-d
+ ay/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-public-lands-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:National Public Lands Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Public Lands Day falls on September 26 and celebrates 
+ public lands\, drawing attention across the United States to the natural w
+ orld and our place in it.\n\nhttps://todaycelebrates.com/holiday/national-
+ public-lands-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-public-lands-day
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-river-cleanup-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:National River Cleanup Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National River Cleanup Day is a nature-focused observance on Ma
+ y 15\, celebrated across the United States to draw attention to the plant\
+ , animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holi
+ day/national-river-cleanup-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-river-cleanup-da
+ y/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-seed-swap-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:National Seed Swap Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Seed Swap Day is a nature-focused observance on Januar
+ y 30\, celebrated across the United States to draw attention to the plant\
+ , animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holi
+ day/national-seed-swap-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-seed-swap-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-siamese-cat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:National Siamese Cat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Siamese Cat Day is a nature-focused observance on Apri
+ l 6\, celebrated across the United States to draw attention to the plant\,
+  animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holid
+ ay/national-siamese-cat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-siamese-cat-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-skip-the-straw-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:National Skip the Straw Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Skip the Straw Day is a nature-focused observance on F
+ ebruary 26\, celebrated across the United States to draw attention to the 
+ plant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.co
+ m/holiday/national-skip-the-straw-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-skip-the-straw-d
+ ay/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-sunflower-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:National Sunflower Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sunflower Day is a nature-focused observance on August
+  7\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/national-sunflower-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sunflower-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-tailgating-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:National Tailgating Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tailgating Day falls on September 5 and celebrates tai
+ lgating\, drawing attention across the United States to the natural world 
+ and our place in it.\n\nhttps://todaycelebrates.com/holiday/national-tailg
+ ating-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tailgating-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-take-a-hike-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:National Take a Hike Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Take a Hike Day is a nature-focused observance on Nove
+ mber 17\, celebrated across the United States to draw attention to the pla
+ nt\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/h
+ oliday/national-take-a-hike-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-take-a-hike-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-wildlife-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:National Wildlife Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Wildlife Day falls on September 4 and celebrates wildl
+ ife\, drawing attention across the United States to the natural world and 
+ our place in it.\n\nhttps://todaycelebrates.com/holiday/national-wildlife-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wildlife-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:nature-photography-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:Nature Photography Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Nature Photography Day is a nature-focused observance on June 1
+ 5\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /nature-photography-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/nature-photography-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:peach-blossom-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:Peach Blossom Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Peach Blossom Day is a nature-focused observance on March 3\, c
+ elebrated across the United States to draw attention to the plant\, animal
+ \, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/peac
+ h-blossom-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/peach-blossom-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:penguin-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Penguin Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Penguin Awareness Day is a nature-focused observance on January
+  20\, celebrated across the United States to draw attention to the plant\,
+  animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holid
+ ay/penguin-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/penguin-awareness-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:plastic-bag-free-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:Plastic Bag Free Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Plastic Bag Free Day is a nature-focused observance on July 3\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/pl
+ astic-bag-free-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plastic-bag-free-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:plush-animal-lovers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Plush Animal Lover's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Plush Animal Lover's Day falls on October 28 and celebrates plu
+ sh animal lover's\, drawing attention across the United States to the natu
+ ral world and our place in it.\n\nhttps://todaycelebrates.com/holiday/plus
+ h-animal-lovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/plush-animal-lovers-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pluto-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:Pluto Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pluto Day is a nature-focused observance on February 18\, celeb
+ rated across the United States to draw attention to the plant\, animal\, o
+ r landscape at its center.\n\nhttps://todaycelebrates.com/holiday/pluto-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pluto-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:save-the-elephant-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:Save The Elephant Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Save The Elephant Day is a nature-focused observance on April 1
+ 6\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /save-the-elephant-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/save-the-elephant-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:save-the-rhino-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Save the Rhino Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Save the Rhino Day is a nature-focused observance on May 1\, ce
+ lebrated across the United States to draw attention to the plant\, animal\
+ , or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/save-
+ the-rhino-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/save-the-rhino-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:shark-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+SUMMARY:Shark Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Shark Awareness Day is a nature-focused observance on July 14\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/sh
+ ark-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/shark-awareness-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:shooting-star-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270825
+SUMMARY:Shooting Star Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Shooting Star Day is a nature-focused observance on August 24\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/sh
+ ooting-star-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/shooting-star-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:steve-irwin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Steve Irwin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Steve Irwin Day is a nature-focused observance on November 15\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/st
+ eve-irwin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/steve-irwin-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stop-food-waste-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:Stop Food Waste Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Stop Food Waste Day is a nature-focused observance on April 28\
+ , celebrated across the United States to draw attention to the plant\, ani
+ mal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/s
+ top-food-waste-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stop-food-waste-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:take-a-walk-in-the-park-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:Take a Walk in the Park Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Take a Walk in the Park Day is a nature-focused observance on M
+ arch 30\, celebrated across the United States to draw attention to the pla
+ nt\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/h
+ oliday/take-a-walk-in-the-park-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-a-walk-in-the-park-d
+ ay/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:take-your-cat-to-the-vet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270822
+DTEND;VALUE=DATE:20270823
+SUMMARY:Take Your Cat to the Vet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Take Your Cat to the Vet Day is a nature-focused observance on 
+ August 22\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/take-your-cat-to-the-vet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-your-cat-to-the-vet-
+ day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20270621@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20280620@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280620
+DTEND;VALUE=DATE:20280621
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20290620@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290620
+DTEND;VALUE=DATE:20290621
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20300621@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300621
+DTEND;VALUE=DATE:20300622
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20310621@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310621
+DTEND;VALUE=DATE:20310622
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20320620@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320620
+DTEND;VALUE=DATE:20320621
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20330620@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330620
+DTEND;VALUE=DATE:20330621
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20340621@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340621
+DTEND;VALUE=DATE:20340622
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-first-day-of-summer-20350621@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350621
+DTEND;VALUE=DATE:20350622
+SUMMARY:The First Day of Summer
+DESCRIPTION:The First Day of Summer is a nature-focused observance on June 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/the-first-day-of-summer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-first-day-of-summer/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:toad-hollow-day-of-encouragement@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Toad Hollow Day of Encouragement
+RRULE:FREQ=YEARLY
+DESCRIPTION:Toad Hollow Day of Encouragement is a nature-focused observance
+  on January 26\, celebrated across the United States to draw attention to 
+ the plant\, animal\, or landscape at its center.\n\nhttps://todaycelebrate
+ s.com/holiday/toad-hollow-day-of-encouragement/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/toad-hollow-day-of-encour
+ agement/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tulip-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Tulip Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Tulip Day is a nature-focused observance on May 13\, celebrated
+  across the United States to draw attention to the plant\, animal\, or lan
+ dscape at its center.\n\nhttps://todaycelebrates.com/holiday/tulip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tulip-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:turtle-adoption-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Turtle Adoption Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Turtle Adoption Day is a nature-focused observance on November 
+ 27\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/turtle-adoption-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/turtle-adoption-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:urban-national-wildlife-refuge-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20270930
+SUMMARY:Urban National Wildlife Refuge Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Urban National Wildlife Refuge Day falls on September 29 and ce
+ lebrates urban national wildlife refuge\, drawing attention across the Uni
+ ted States to the natural world and our place in it.\n\nhttps://todayceleb
+ rates.com/holiday/urban-national-wildlife-refuge-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/urban-national-wildlife-r
+ efuge-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:visit-the-zoo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Visit the Zoo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Visit the Zoo Day is a nature-focused observance on December 27
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ visit-the-zoo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/visit-the-zoo-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:weed-your-garden-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:Weed Your Garden Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Weed Your Garden Day is a nature-focused observance on June 13\
+ , celebrated across the United States to draw attention to the plant\, ani
+ mal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/w
+ eed-your-garden-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/weed-your-garden-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wildlife-conservation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Wildlife Conservation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Wildlife Conservation Day is a nature-focused observance on Dec
+ ember 4\, celebrated across the United States to draw attention to the pla
+ nt\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/h
+ oliday/wildlife-conservation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/wildlife-conservation-day
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-albatross-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:World Albatross Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Albatross Day is a nature-focused observance on June 19\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/wo
+ rld-albatross-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-albatross-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-animal-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271004
+DTEND;VALUE=DATE:20271005
+SUMMARY:World Animal Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Animal Day\, observed since 1931\, unites the animal welf
+ are movement worldwide to raise the status of animals and improve welfare 
+ standards\, from household pets to endangered wildlife.\n\nhttps://todayce
+ lebrates.com/holiday/world-animal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-animal-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-bamboo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:World Bamboo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Bamboo Day falls on September 18 and celebrates bamboo\, 
+ drawing attention around the globe to the natural world and our place in i
+ t.\n\nhttps://todaycelebrates.com/holiday/world-bamboo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-bamboo-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-carnivorous-plant-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:World Carnivorous Plant Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Carnivorous Plant Day is a nature-focused observance on M
+ ay 5\, celebrated across the United States to draw attention to the plant\
+ , animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holi
+ day/world-carnivorous-plant-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-carnivorous-plant-d
+ ay/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-croc-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+SUMMARY:World Croc Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Croc Day is a nature-focused observance on June 17\, cele
+ brated across the United States to draw attention to the plant\, animal\, 
+ or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world-c
+ roc-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-croc-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-elephant-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:World Elephant Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Elephant Day is a nature-focused observance on August 12\
+ , celebrated across the United States to draw attention to the plant\, ani
+ mal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/w
+ orld-elephant-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-elephant-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-environment-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:World Environment Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Environment Day is a nature-focused observance on June 5\
+ , celebrated across the United States to draw attention to the plant\, ani
+ mal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/w
+ orld-environment-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-environment-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-farm-animals-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:World Farm Animals Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Farm Animals Day falls on October 2 and celebrates farm a
+ nimals\, drawing attention around the globe to the natural world and our p
+ lace in it.\n\nhttps://todaycelebrates.com/holiday/world-farm-animals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-farm-animals-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-frog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:World Frog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Frog Day is a nature-focused observance on March 20\, cel
+ ebrated across the United States to draw attention to the plant\, animal\,
+  or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world-
+ frog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-frog-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-giraffe-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:World Giraffe Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Giraffe Day is a nature-focused observance on June 21\, c
+ elebrated across the United States to draw attention to the plant\, animal
+ \, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/worl
+ d-giraffe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-giraffe-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-honey-bee-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:World Honey Bee Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Honey Bee Day is a nature-focused observance on August 21
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ world-honey-bee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-honey-bee-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-jellyfish-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:World Jellyfish Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Jellyfish Day is a nature-focused observance on November 
+ 3\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /world-jellyfish-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-jellyfish-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-lion-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:World Lion Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Lion Day is a nature-focused observance on August 10\, ce
+ lebrated across the United States to draw attention to the plant\, animal\
+ , or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world
+ -lion-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-lion-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-meteorological-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:World Meteorological Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Meteorological Day is a nature-focused observance on Marc
+ h 23\, celebrated across the United States to draw attention to the plant\
+ , animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holi
+ day/world-meteorological-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-meteorological-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-mosquito-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:World Mosquito Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Mosquito Day is a nature-focused observance on August 20\
+ , celebrated across the United States to draw attention to the plant\, ani
+ mal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/w
+ orld-mosquito-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-mosquito-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-nature-conservation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270729
+SUMMARY:World Nature Conservation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Nature Conservation Day is a nature-focused observance on
+  July 28\, celebrated across the United States to draw attention to the pl
+ ant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/
+ holiday/world-nature-conservation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-nature-conservation
+ -day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-numbat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:World Numbat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Numbat Day is a nature-focused observance on November 7\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/wo
+ rld-numbat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-numbat-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-oceans-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:World Oceans Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Oceans Day is a nature-focused observance on June 8\, cel
+ ebrated across the United States to draw attention to the plant\, animal\,
+  or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world-
+ oceans-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-oceans-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-pangolin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:World Pangolin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Pangolin Day is a nature-focused observance on February 2
+ 0\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /world-pangolin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-pangolin-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-penguin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:World Penguin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Penguin Day is a nature-focused observance on April 25\, 
+ celebrated across the United States to draw attention to the plant\, anima
+ l\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/wor
+ ld-penguin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-penguin-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-rainforest-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270622
+DTEND;VALUE=DATE:20270623
+SUMMARY:World Rainforest Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Rainforest Day is a nature-focused observance on June 22\
+ , celebrated across the United States to draw attention to the plant\, ani
+ mal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/w
+ orld-rainforest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-rainforest-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-ranger-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:World Ranger Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Ranger Day is a nature-focused observance on July 31\, ce
+ lebrated across the United States to draw attention to the plant\, animal\
+ , or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world
+ -ranger-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-ranger-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-rat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:World Rat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Rat Day is a nature-focused observance on April 4\, celeb
+ rated across the United States to draw attention to the plant\, animal\, o
+ r landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world-ra
+ t-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-rat-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-refill-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:World Refill Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Refill Day is a nature-focused observance on June 16\, ce
+ lebrated across the United States to draw attention to the plant\, animal\
+ , or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world
+ -refill-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-refill-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-sea-turtle-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:World Sea Turtle Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Sea Turtle Day is a nature-focused observance on June 16\
+ , celebrated across the United States to draw attention to the plant\, ani
+ mal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/w
+ orld-sea-turtle-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sea-turtle-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-snake-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:World Snake Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Snake Day is a nature-focused observance on July 16\, cel
+ ebrated across the United States to draw attention to the plant\, animal\,
+  or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world-
+ snake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-snake-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-snow-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:World Snow Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Snow Day is a nature-focused observance on January 17\, c
+ elebrated across the United States to draw attention to the plant\, animal
+ \, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/worl
+ d-snow-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-snow-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-soil-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:World Soil Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Soil Day is a nature-focused observance on December 5\, c
+ elebrated across the United States to draw attention to the plant\, animal
+ \, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/worl
+ d-soil-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-soil-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-tapir-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:World Tapir Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Tapir Day is a nature-focused observance on April 27\, ce
+ lebrated across the United States to draw attention to the plant\, animal\
+ , or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world
+ -tapir-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-tapir-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-wetlands-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:World Wetlands Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Wetlands Day is a nature-focused observance on February 2
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ world-wetlands-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-wetlands-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-whale-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:World Whale Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Whale Day is a nature-focused observance on February 20\,
+  celebrated across the United States to draw attention to the plant\, anim
+ al\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/wo
+ rld-whale-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-whale-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-wildlife-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:World Wildlife Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Wildlife Day is a nature-focused observance on March 3\, 
+ celebrated across the United States to draw attention to the plant\, anima
+ l\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/wor
+ ld-wildlife-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-wildlife-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:zoo-lovers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:Zoo Lovers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Zoo Lovers Day is a nature-focused observance on April 8\, cele
+ brated across the United States to draw attention to the plant\, animal\, 
+ or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/zoo-lov
+ ers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/zoo-lovers-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

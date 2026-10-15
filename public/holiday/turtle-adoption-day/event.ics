@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Turtle Adoption Day
+X-WR-CALNAME:Turtle Adoption Day
+DESCRIPTION:Turtle Adoption Day — https://todaycelebrates.com/holiday/tur
+ tle-adoption-day/
+X-WR-CALDESC:Turtle Adoption Day — https://todaycelebrates.com/holiday/tu
+ rtle-adoption-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/turtle-adoption-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/turtle-adoption-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:turtle-adoption-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Turtle Adoption Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Turtle Adoption Day is a nature-focused observance on November 
+ 27\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/turtle-adoption-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/turtle-adoption-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

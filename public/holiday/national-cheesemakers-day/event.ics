@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cheesemakers Day
+X-WR-CALNAME:National Cheesemakers Day
+DESCRIPTION:National Cheesemakers Day — https://todaycelebrates.com/holid
+ ay/national-cheesemakers-day/
+X-WR-CALDESC:National Cheesemakers Day — https://todaycelebrates.com/holi
+ day/national-cheesemakers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cheesemakers-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cheesemakers-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cheesemakers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:National Cheesemakers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cheesemakers Day is a food-focused observance celebrat
+ ed across the United States on June 18\, giving fans of the dish or ingred
+ ient an excuse to seek it out and share it with others.\n\nhttps://todayce
+ lebrates.com/holiday/national-cheesemakers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cheesemakers-day
+ /
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

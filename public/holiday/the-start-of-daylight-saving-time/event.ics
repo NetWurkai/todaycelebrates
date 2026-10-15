@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:The Start of Daylight Saving Time
+X-WR-CALNAME:The Start of Daylight Saving Time
+DESCRIPTION:The Start of Daylight Saving Time — https://todaycelebrates.c
+ om/holiday/the-start-of-daylight-saving-time/
+X-WR-CALDESC:The Start of Daylight Saving Time — https://todaycelebrates.
+ com/holiday/the-start-of-daylight-saving-time/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-daylight-sav
+ ing-time/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-daylight-
+ saving-time/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:the-start-of-daylight-saving-time-20270314@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:The Start of Daylight Saving Time
+DESCRIPTION:The Start of Daylight Saving Time\, observed on March 14\, enco
+ urages people across the United States to pause and recognize the people a
+ nd causes behind the day.\n\nhttps://todaycelebrates.com/holiday/the-start
+ -of-daylight-saving-time/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-daylight-sav
+ ing-time/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-daylight-saving-time-20280312@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280312
+DTEND;VALUE=DATE:20280313
+SUMMARY:The Start of Daylight Saving Time
+DESCRIPTION:The Start of Daylight Saving Time\, observed on March 14\, enco
+ urages people across the United States to pause and recognize the people a
+ nd causes behind the day.\n\nhttps://todaycelebrates.com/holiday/the-start
+ -of-daylight-saving-time/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-daylight-sav
+ ing-time/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-daylight-saving-time-20290311@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290311
+DTEND;VALUE=DATE:20290312
+SUMMARY:The Start of Daylight Saving Time
+DESCRIPTION:The Start of Daylight Saving Time\, observed on March 14\, enco
+ urages people across the United States to pause and recognize the people a
+ nd causes behind the day.\n\nhttps://todaycelebrates.com/holiday/the-start
+ -of-daylight-saving-time/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-daylight-sav
+ ing-time/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-daylight-saving-time-20300310@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300310
+DTEND;VALUE=DATE:20300311
+SUMMARY:The Start of Daylight Saving Time
+DESCRIPTION:The Start of Daylight Saving Time\, observed on March 14\, enco
+ urages people across the United States to pause and recognize the people a
+ nd causes behind the day.\n\nhttps://todaycelebrates.com/holiday/the-start
+ -of-daylight-saving-time/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-daylight-sav
+ ing-time/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-daylight-saving-time-20310309@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310309
+DTEND;VALUE=DATE:20310310
+SUMMARY:The Start of Daylight Saving Time
+DESCRIPTION:The Start of Daylight Saving Time\, observed on March 14\, enco
+ urages people across the United States to pause and recognize the people a
+ nd causes behind the day.\n\nhttps://todaycelebrates.com/holiday/the-start
+ -of-daylight-saving-time/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-daylight-sav
+ ing-time/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-daylight-saving-time-20320314@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320314
+DTEND;VALUE=DATE:20320315
+SUMMARY:The Start of Daylight Saving Time
+DESCRIPTION:The Start of Daylight Saving Time\, observed on March 14\, enco
+ urages people across the United States to pause and recognize the people a
+ nd causes behind the day.\n\nhttps://todaycelebrates.com/holiday/the-start
+ -of-daylight-saving-time/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-daylight-sav
+ ing-time/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-daylight-saving-time-20330313@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330313
+DTEND;VALUE=DATE:20330314
+SUMMARY:The Start of Daylight Saving Time
+DESCRIPTION:The Start of Daylight Saving Time\, observed on March 14\, enco
+ urages people across the United States to pause and recognize the people a
+ nd causes behind the day.\n\nhttps://todaycelebrates.com/holiday/the-start
+ -of-daylight-saving-time/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-daylight-sav
+ ing-time/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-daylight-saving-time-20340312@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340312
+DTEND;VALUE=DATE:20340313
+SUMMARY:The Start of Daylight Saving Time
+DESCRIPTION:The Start of Daylight Saving Time\, observed on March 14\, enco
+ urages people across the United States to pause and recognize the people a
+ nd causes behind the day.\n\nhttps://todaycelebrates.com/holiday/the-start
+ -of-daylight-saving-time/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-daylight-sav
+ ing-time/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-daylight-saving-time-20350311@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350311
+DTEND;VALUE=DATE:20350312
+SUMMARY:The Start of Daylight Saving Time
+DESCRIPTION:The Start of Daylight Saving Time\, observed on March 14\, enco
+ urages people across the United States to pause and recognize the people a
+ nd causes behind the day.\n\nhttps://todaycelebrates.com/holiday/the-start
+ -of-daylight-saving-time/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-daylight-sav
+ ing-time/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Compliment Day
+X-WR-CALNAME:World Compliment Day
+DESCRIPTION:World Compliment Day — https://todaycelebrates.com/holiday/wo
+ rld-compliment-day/
+X-WR-CALDESC:World Compliment Day — https://todaycelebrates.com/holiday/w
+ orld-compliment-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-compliment-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-compliment-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-compliment-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:World Compliment Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Compliment Day\, observed on March 1\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/world-compliment-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-compliment-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

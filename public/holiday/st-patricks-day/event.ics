@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:St. Patrick's Day
+X-WR-CALNAME:St. Patrick's Day
+DESCRIPTION:St. Patrick's Day — https://todaycelebrates.com/holiday/st-pa
+ tricks-day/
+X-WR-CALDESC:St. Patrick's Day — https://todaycelebrates.com/holiday/st-p
+ atricks-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/st-patricks-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/st-patricks-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:st-patricks-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:St. Patrick's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:St. Patrick's Day falls on March 17\, the traditional date of t
+ he death of Ireland's patron saint\, and it is one of the few holidays Ame
+ ricans largely built for themselves. The parades\, the green river in Chic
+ ago\, the corned beef: almost all of it took shape in American cities\, am
+ ong Irish immigrants who were not especially welcome in them.\n\nhttps://t
+ odaycelebrates.com/holiday/st-patricks-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/st-patricks-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Never Give Up Day
+X-WR-CALNAME:Never Give Up Day
+DESCRIPTION:Never Give Up Day — https://todaycelebrates.com/holiday/never
+ -give-up-day/
+X-WR-CALDESC:Never Give Up Day — https://todaycelebrates.com/holiday/neve
+ r-give-up-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/never-give-up-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/never-give-up-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:never-give-up-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270819
+SUMMARY:Never Give Up Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Never Give Up Day\, observed on August 18\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/never-give-up-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/never-give-up-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

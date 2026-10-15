@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Dog Day
+X-WR-CALNAME:National Dog Day
+DESCRIPTION:National Dog Day — https://todaycelebrates.com/holiday/nation
+ al-dog-day/
+X-WR-CALDESC:National Dog Day — https://todaycelebrates.com/holiday/natio
+ nal-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dog-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-dog-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270826
+DTEND;VALUE=DATE:20270827
+SUMMARY:National Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dog Day\, observed on August 26\, is celebrated by dog
+  lovers across the United States.\n\nhttps://todaycelebrates.com/holiday/n
+ ational-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dog-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

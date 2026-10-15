@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Patriots' Day
+X-WR-CALNAME:Patriots' Day
+DESCRIPTION:Patriots' Day — https://todaycelebrates.com/holiday/patriots-
+ day/
+X-WR-CALDESC:Patriots' Day — https://todaycelebrates.com/holiday/patriots
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/patriots-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/patriots-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:patriots-day-20270419@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:Patriots' Day
+DESCRIPTION:Patriots' Day\, observed on April 19\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/patriots-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/patriots-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:patriots-day-20280417@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280418
+SUMMARY:Patriots' Day
+DESCRIPTION:Patriots' Day\, observed on April 19\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/patriots-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/patriots-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:patriots-day-20290416@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290416
+DTEND;VALUE=DATE:20290417
+SUMMARY:Patriots' Day
+DESCRIPTION:Patriots' Day\, observed on April 19\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/patriots-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/patriots-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:patriots-day-20300415@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300415
+DTEND;VALUE=DATE:20300416
+SUMMARY:Patriots' Day
+DESCRIPTION:Patriots' Day\, observed on April 19\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/patriots-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/patriots-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:patriots-day-20310421@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310421
+DTEND;VALUE=DATE:20310422
+SUMMARY:Patriots' Day
+DESCRIPTION:Patriots' Day\, observed on April 19\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/patriots-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/patriots-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:patriots-day-20320419@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320419
+DTEND;VALUE=DATE:20320420
+SUMMARY:Patriots' Day
+DESCRIPTION:Patriots' Day\, observed on April 19\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/patriots-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/patriots-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:patriots-day-20330418@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330418
+DTEND;VALUE=DATE:20330419
+SUMMARY:Patriots' Day
+DESCRIPTION:Patriots' Day\, observed on April 19\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/patriots-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/patriots-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:patriots-day-20340417@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340417
+DTEND;VALUE=DATE:20340418
+SUMMARY:Patriots' Day
+DESCRIPTION:Patriots' Day\, observed on April 19\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/patriots-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/patriots-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:patriots-day-20350416@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350416
+DTEND;VALUE=DATE:20350417
+SUMMARY:Patriots' Day
+DESCRIPTION:Patriots' Day\, observed on April 19\, encourages people across
+  the United States to pause and recognize the people and causes behind the
+  day.\n\nhttps://todaycelebrates.com/holiday/patriots-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/patriots-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

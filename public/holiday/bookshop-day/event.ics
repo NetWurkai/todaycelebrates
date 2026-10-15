@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bookshop Day
+X-WR-CALNAME:Bookshop Day
+DESCRIPTION:Bookshop Day — https://todaycelebrates.com/holiday/bookshop-d
+ ay/
+X-WR-CALDESC:Bookshop Day — https://todaycelebrates.com/holiday/bookshop-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bookshop-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bookshop-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bookshop-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:Bookshop Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bookshop Day celebrates bookshop on October 10\, giving readers
+  and writers across the United States a reason to pick up a favorite book 
+ or try something new.\n\nhttps://todaycelebrates.com/holiday/bookshop-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bookshop-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

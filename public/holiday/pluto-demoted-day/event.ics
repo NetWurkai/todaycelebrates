@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pluto Demoted Day
+X-WR-CALNAME:Pluto Demoted Day
+DESCRIPTION:Pluto Demoted Day — https://todaycelebrates.com/holiday/pluto
+ -demoted-day/
+X-WR-CALDESC:Pluto Demoted Day — https://todaycelebrates.com/holiday/plut
+ o-demoted-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pluto-demoted-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pluto-demoted-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pluto-demoted-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270825
+SUMMARY:Pluto Demoted Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pluto Demoted Day\, observed on August 24\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/pluto-demoted-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pluto-demoted-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

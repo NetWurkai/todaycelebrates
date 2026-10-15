@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bagpipe Appreciation Day
+X-WR-CALNAME:Bagpipe Appreciation Day
+DESCRIPTION:Bagpipe Appreciation Day — https://todaycelebrates.com/holida
+ y/bagpipe-appreciation-day/
+X-WR-CALDESC:Bagpipe Appreciation Day — https://todaycelebrates.com/holid
+ ay/bagpipe-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bagpipe-appreciation-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bagpipe-appreciation-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bagpipe-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270727
+DTEND;VALUE=DATE:20270728
+SUMMARY:Bagpipe Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bagpipe Appreciation Day is a music-focused observance on July 
+ 27\, celebrated by fans across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/bagpipe-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bagpipe-appreciation-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

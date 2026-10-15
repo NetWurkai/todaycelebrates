@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Frog Jumping Day
+X-WR-CALNAME:Frog Jumping Day
+DESCRIPTION:Frog Jumping Day — https://todaycelebrates.com/holiday/frog-j
+ umping-day/
+X-WR-CALDESC:Frog Jumping Day — https://todaycelebrates.com/holiday/frog-
+ jumping-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/frog-jumping-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/frog-jumping-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:frog-jumping-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Frog Jumping Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Frog Jumping Day is a nature-focused observance on May 13\, cel
+ ebrated across the United States to draw attention to the plant\, animal\,
+  or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/frog-j
+ umping-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/frog-jumping-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

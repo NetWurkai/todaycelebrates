@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Biological Clock Day
+X-WR-CALNAME:Biological Clock Day
+DESCRIPTION:Biological Clock Day — https://todaycelebrates.com/holiday/bi
+ ological-clock-day/
+X-WR-CALDESC:Biological Clock Day — https://todaycelebrates.com/holiday/b
+ iological-clock-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/biological-clock-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/biological-clock-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:biological-clock-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:Biological Clock Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Biological Clock Day\, observed on April 28\, is a lighthearted
+  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/biological-clock-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/biological-clock-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

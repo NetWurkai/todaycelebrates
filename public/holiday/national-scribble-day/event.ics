@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Scribble Day
+X-WR-CALNAME:National Scribble Day
+DESCRIPTION:National Scribble Day — https://todaycelebrates.com/holiday/n
+ ational-scribble-day/
+X-WR-CALDESC:National Scribble Day — https://todaycelebrates.com/holiday/
+ national-scribble-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-scribble-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-scribble-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-scribble-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:National Scribble Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Scribble Day\, observed on March 27\, is a lighthearte
+ d\, family-friendly day celebrated across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/national-scribble-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-scribble-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

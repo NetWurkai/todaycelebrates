@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Canadian Thanksgiving Day
+X-WR-CALNAME:Canadian Thanksgiving Day
+DESCRIPTION:Canadian Thanksgiving Day — https://todaycelebrates.com/holid
+ ay/canadian-thanksgiving-day/
+X-WR-CALDESC:Canadian Thanksgiving Day — https://todaycelebrates.com/holi
+ day/canadian-thanksgiving-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-thanksgiving-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/canadian-thanksgiving-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:canadian-thanksgiving-day-20271011@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:Canadian Thanksgiving Day
+DESCRIPTION:Canadian Thanksgiving falls on the second Monday of October\, e
+ arlier than its U.S. counterpart\, and is traditionally a time for family 
+ gatherings and a harvest meal.\n\nhttps://todaycelebrates.com/holiday/cana
+ dian-thanksgiving-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-thanksgiving-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:canadian-thanksgiving-day-20281009@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281009
+DTEND;VALUE=DATE:20281010
+SUMMARY:Canadian Thanksgiving Day
+DESCRIPTION:Canadian Thanksgiving falls on the second Monday of October\, e
+ arlier than its U.S. counterpart\, and is traditionally a time for family 
+ gatherings and a harvest meal.\n\nhttps://todaycelebrates.com/holiday/cana
+ dian-thanksgiving-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-thanksgiving-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:canadian-thanksgiving-day-20291008@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291008
+DTEND;VALUE=DATE:20291009
+SUMMARY:Canadian Thanksgiving Day
+DESCRIPTION:Canadian Thanksgiving falls on the second Monday of October\, e
+ arlier than its U.S. counterpart\, and is traditionally a time for family 
+ gatherings and a harvest meal.\n\nhttps://todaycelebrates.com/holiday/cana
+ dian-thanksgiving-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-thanksgiving-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:canadian-thanksgiving-day-20301014@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301014
+DTEND;VALUE=DATE:20301015
+SUMMARY:Canadian Thanksgiving Day
+DESCRIPTION:Canadian Thanksgiving falls on the second Monday of October\, e
+ arlier than its U.S. counterpart\, and is traditionally a time for family 
+ gatherings and a harvest meal.\n\nhttps://todaycelebrates.com/holiday/cana
+ dian-thanksgiving-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-thanksgiving-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:canadian-thanksgiving-day-20311013@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311013
+DTEND;VALUE=DATE:20311014
+SUMMARY:Canadian Thanksgiving Day
+DESCRIPTION:Canadian Thanksgiving falls on the second Monday of October\, e
+ arlier than its U.S. counterpart\, and is traditionally a time for family 
+ gatherings and a harvest meal.\n\nhttps://todaycelebrates.com/holiday/cana
+ dian-thanksgiving-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-thanksgiving-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:canadian-thanksgiving-day-20321011@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321011
+DTEND;VALUE=DATE:20321012
+SUMMARY:Canadian Thanksgiving Day
+DESCRIPTION:Canadian Thanksgiving falls on the second Monday of October\, e
+ arlier than its U.S. counterpart\, and is traditionally a time for family 
+ gatherings and a harvest meal.\n\nhttps://todaycelebrates.com/holiday/cana
+ dian-thanksgiving-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-thanksgiving-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:canadian-thanksgiving-day-20331010@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331010
+DTEND;VALUE=DATE:20331011
+SUMMARY:Canadian Thanksgiving Day
+DESCRIPTION:Canadian Thanksgiving falls on the second Monday of October\, e
+ arlier than its U.S. counterpart\, and is traditionally a time for family 
+ gatherings and a harvest meal.\n\nhttps://todaycelebrates.com/holiday/cana
+ dian-thanksgiving-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-thanksgiving-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:canadian-thanksgiving-day-20341009@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341009
+DTEND;VALUE=DATE:20341010
+SUMMARY:Canadian Thanksgiving Day
+DESCRIPTION:Canadian Thanksgiving falls on the second Monday of October\, e
+ arlier than its U.S. counterpart\, and is traditionally a time for family 
+ gatherings and a harvest meal.\n\nhttps://todaycelebrates.com/holiday/cana
+ dian-thanksgiving-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-thanksgiving-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:canadian-thanksgiving-day-20351008@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351008
+DTEND;VALUE=DATE:20351009
+SUMMARY:Canadian Thanksgiving Day
+DESCRIPTION:Canadian Thanksgiving falls on the second Monday of October\, e
+ arlier than its U.S. counterpart\, and is traditionally a time for family 
+ gatherings and a harvest meal.\n\nhttps://todaycelebrates.com/holiday/cana
+ dian-thanksgiving-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-thanksgiving-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

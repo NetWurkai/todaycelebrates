@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Kiss a Wookiee Day
+X-WR-CALNAME:National Kiss a Wookiee Day
+DESCRIPTION:National Kiss a Wookiee Day — https://todaycelebrates.com/hol
+ iday/national-kiss-a-wookiee-day/
+X-WR-CALDESC:National Kiss a Wookiee Day — https://todaycelebrates.com/ho
+ liday/national-kiss-a-wookiee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kiss-a-wookiee-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-kiss-a-wookie
+ e-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-kiss-a-wookiee-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:National Kiss a Wookiee Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Kiss a Wookiee Day\, observed on June 15\, is a lighth
+ earted holiday celebrated across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/national-kiss-a-wookiee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kiss-a-wookiee-d
+ ay/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

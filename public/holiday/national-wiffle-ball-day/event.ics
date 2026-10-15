@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Wiffle Ball Day
+X-WR-CALNAME:National Wiffle Ball Day
+DESCRIPTION:National Wiffle Ball Day — https://todaycelebrates.com/holida
+ y/national-wiffle-ball-day/
+X-WR-CALDESC:National Wiffle Ball Day — https://todaycelebrates.com/holid
+ ay/national-wiffle-ball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wiffle-ball-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-wiffle-ball-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-wiffle-ball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:National Wiffle Ball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Wiffle Ball Day\, observed on August 14\, is celebrate
+ d by sports fans across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/national-wiffle-ball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-wiffle-ball-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

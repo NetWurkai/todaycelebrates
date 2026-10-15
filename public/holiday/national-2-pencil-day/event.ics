@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National #2 Pencil Day
+X-WR-CALNAME:National #2 Pencil Day
+DESCRIPTION:National #2 Pencil Day — https://todaycelebrates.com/holiday/
+ national-2-pencil-day/
+X-WR-CALDESC:National #2 Pencil Day — https://todaycelebrates.com/holiday
+ /national-2-pencil-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-2-pencil-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-2-pencil-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-2-pencil-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270817
+DTEND;VALUE=DATE:20270818
+SUMMARY:National #2 Pencil Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National #2 Pencil Day\, observed on August 17\, is a lighthear
+ ted\, family-friendly day celebrated across the United States.\n\nhttps://
+ todaycelebrates.com/holiday/national-2-pencil-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-2-pencil-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

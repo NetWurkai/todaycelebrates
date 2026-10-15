@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:GivingTuesday
+X-WR-CALNAME:GivingTuesday
+DESCRIPTION:GivingTuesday — https://todaycelebrates.com/holiday/givingtue
+ sday/
+X-WR-CALDESC:GivingTuesday — https://todaycelebrates.com/holiday/givingtu
+ esday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/givingtuesday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/givingtuesday/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:givingtuesday-20261201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:GivingTuesday
+DESCRIPTION:GivingTuesday\, observed on December 1\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/givingtuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/givingtuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:givingtuesday-20271130@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271130
+DTEND;VALUE=DATE:20271201
+SUMMARY:GivingTuesday
+DESCRIPTION:GivingTuesday\, observed on December 1\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/givingtuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/givingtuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:givingtuesday-20281128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281128
+DTEND;VALUE=DATE:20281129
+SUMMARY:GivingTuesday
+DESCRIPTION:GivingTuesday\, observed on December 1\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/givingtuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/givingtuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:givingtuesday-20291127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291127
+DTEND;VALUE=DATE:20291128
+SUMMARY:GivingTuesday
+DESCRIPTION:GivingTuesday\, observed on December 1\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/givingtuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/givingtuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:givingtuesday-20301203@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301203
+DTEND;VALUE=DATE:20301204
+SUMMARY:GivingTuesday
+DESCRIPTION:GivingTuesday\, observed on December 1\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/givingtuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/givingtuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:givingtuesday-20311202@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311202
+DTEND;VALUE=DATE:20311203
+SUMMARY:GivingTuesday
+DESCRIPTION:GivingTuesday\, observed on December 1\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/givingtuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/givingtuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:givingtuesday-20321130@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321130
+DTEND;VALUE=DATE:20321201
+SUMMARY:GivingTuesday
+DESCRIPTION:GivingTuesday\, observed on December 1\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/givingtuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/givingtuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:givingtuesday-20331129@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331129
+DTEND;VALUE=DATE:20331130
+SUMMARY:GivingTuesday
+DESCRIPTION:GivingTuesday\, observed on December 1\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/givingtuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/givingtuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:givingtuesday-20341128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341128
+DTEND;VALUE=DATE:20341129
+SUMMARY:GivingTuesday
+DESCRIPTION:GivingTuesday\, observed on December 1\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/givingtuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/givingtuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:givingtuesday-20351127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351127
+DTEND;VALUE=DATE:20351128
+SUMMARY:GivingTuesday
+DESCRIPTION:GivingTuesday\, observed on December 1\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/givingtuesday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/givingtuesday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Clean Beauty Day
+X-WR-CALNAME:National Clean Beauty Day
+DESCRIPTION:National Clean Beauty Day — https://todaycelebrates.com/holid
+ ay/national-clean-beauty-day/
+X-WR-CALDESC:National Clean Beauty Day — https://todaycelebrates.com/holi
+ day/national-clean-beauty-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-clean-beauty-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-clean-beauty-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-clean-beauty-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:National Clean Beauty Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Clean Beauty Day\, observed on June 4\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-clean-beauty-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-clean-beauty-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

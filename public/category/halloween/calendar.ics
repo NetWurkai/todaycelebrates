@@ -1,0 +1,300 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Today Celebrates: Halloween
+X-WR-CALNAME:Today Celebrates: Halloween
+DESCRIPTION:17 halloween observances from https://todaycelebrates.com/categ
+ ory/halloween/. Rebuilt daily.
+X-WR-CALDESC:17 halloween observances from https://todaycelebrates.com/cate
+ gory/halloween/. Rebuilt daily.
+URL;VALUE=URI:https://todaycelebrates.com/category/halloween/calendar.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/category/halloween/calendar.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:black-cat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Black Cat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Black Cat Day is one of the spookier stops on the October calen
+ dar\, celebrated on October 27 in the run-up to Halloween.\n\nhttps://toda
+ ycelebrates.com/holiday/black-cat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-cat-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:carve-a-pumpkin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Carve a Pumpkin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Carve a Pumpkin Day is one of the spookier stops on the October
+  calendar\, celebrated on October 31 in the run-up to Halloween.\n\nhttps:
+ //todaycelebrates.com/holiday/carve-a-pumpkin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/carve-a-pumpkin-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:frankenstein-friday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Frankenstein Friday
+RRULE:FREQ=YEARLY
+DESCRIPTION:Frankenstein Friday is one of the spookier stops on the October
+  calendar\, celebrated on October 30 in the run-up to Halloween.\n\nhttps:
+ //todaycelebrates.com/holiday/frankenstein-friday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/frankenstein-friday/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:halloween@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloween
+RRULE:FREQ=YEARLY
+DESCRIPTION:Halloween falls on October 31 and is\, by most measures\, the m
+ ost widely observed non-federal holiday in the United States. It is also o
+ ne of the least historically tidy: what Americans do on October 31 is a co
+ mposite of a Gaelic harvest festival\, a Catholic feast\, Scottish and Iri
+ sh neighborhood customs\, and a twentieth-century American candy industry 
+ that found the whole thing extremely useful.\n\nhttps://todaycelebrates.co
+ m/holiday/halloween/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/halloween/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:haunted-refrigerator-night@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Haunted Refrigerator Night
+RRULE:FREQ=YEARLY
+DESCRIPTION:Haunted Refrigerator Night is one of the spookier stops on the 
+ October calendar\, celebrated on October 30 in the run-up to Halloween.\n\
+ nhttps://todaycelebrates.com/holiday/haunted-refrigerator-night/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/haunted-refrigerator-nigh
+ t/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:howl-at-the-moon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Howl At The Moon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Howl At The Moon Day is one of the spookier stops on the Octobe
+ r calendar\, celebrated on October 26 in the run-up to Halloween.\n\nhttps
+ ://todaycelebrates.com/holiday/howl-at-the-moon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/howl-at-the-moon-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:howl-at-the-moon-night@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Howl at the Moon Night
+RRULE:FREQ=YEARLY
+DESCRIPTION:Howl at the Moon Night is one of the spookier stops on the Octo
+ ber calendar\, celebrated on October 25 in the run-up to Halloween.\n\nhtt
+ ps://todaycelebrates.com/holiday/howl-at-the-moon-night/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/howl-at-the-moon-night/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:increase-your-psychic-powers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Increase Your Psychic Powers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Increase Your Psychic Powers Day is one of the spookier stops o
+ n the October calendar\, celebrated on October 31 in the run-up to Hallowe
+ en.\n\nhttps://todaycelebrates.com/holiday/increase-your-psychic-powers-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/increase-your-psychic-pow
+ ers-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mischief-night@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Mischief Night
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mischief Night is one of the spookier stops on the October cale
+ ndar\, celebrated on October 30 in the run-up to Halloween.\n\nhttps://tod
+ aycelebrates.com/holiday/mischief-night/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mischief-night/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-candy-corn-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:National Candy Corn Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Candy Corn Day is one of the spookier stops on the Oct
+ ober calendar\, celebrated on October 30 in the run-up to Halloween.\n\nht
+ tps://todaycelebrates.com/holiday/national-candy-corn-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-candy-corn-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-frankenstein-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:National Frankenstein Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Frankenstein Day honors Mary Shelley's birthday and he
+ r novel Frankenstein\, the gothic classic that gave rise to one of literat
+ ure's most enduring monsters.\n\nhttps://todaycelebrates.com/holiday/natio
+ nal-frankenstein-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-frankenstein-day
+ /
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-ghost-hunting-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:National Ghost Hunting Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Ghost Hunting Day is one of the spookier stops on the 
+ October calendar\, celebrated on September 26 in the run-up to Halloween.\
+ n\nhttps://todaycelebrates.com/holiday/national-ghost-hunting-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ghost-hunting-da
+ y/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-pumpkin-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:National Pumpkin Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pumpkin Day is one of the spookier stops on the Octobe
+ r calendar\, celebrated on October 26 in the run-up to Halloween.\n\nhttps
+ ://todaycelebrates.com/holiday/national-pumpkin-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pumpkin-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-pumpkin-seed-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:National Pumpkin Seed Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pumpkin Seed Day is one of the spookier stops on the O
+ ctober calendar\, celebrated on October 7 in the run-up to Halloween.\n\nh
+ ttps://todaycelebrates.com/holiday/national-pumpkin-seed-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pumpkin-seed-day
+ /
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-trick-or-treat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:National Trick or Treat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Trick or Treat Day is one of the spookier stops on the
+  October calendar\, celebrated on October 31 in the run-up to Halloween.\n
+ \nhttps://todaycelebrates.com/holiday/national-trick-or-treat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-trick-or-treat-d
+ ay/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pumpkin-cheesecake-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Pumpkin Cheesecake Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pumpkin Cheesecake Day is one of the spookier stops on the Octo
+ ber calendar\, celebrated on October 21 in the run-up to Halloween.\n\nhtt
+ ps://todaycelebrates.com/holiday/pumpkin-cheesecake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pumpkin-cheesecake-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pumpkin-spice-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:Pumpkin Spice Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pumpkin Spice Day is one of the spookier stops on the October c
+ alendar\, celebrated on October 1 in the run-up to Halloween.\n\nhttps://t
+ odaycelebrates.com/holiday/pumpkin-spice-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pumpkin-spice-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

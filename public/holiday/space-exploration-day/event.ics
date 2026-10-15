@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Space Exploration Day
+X-WR-CALNAME:Space Exploration Day
+DESCRIPTION:Space Exploration Day — https://todaycelebrates.com/holiday/s
+ pace-exploration-day/
+X-WR-CALDESC:Space Exploration Day — https://todaycelebrates.com/holiday/
+ space-exploration-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/space-exploration-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/space-exploration-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:space-exploration-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:Space Exploration Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Space Exploration Day\, observed on July 20\, celebrates a piec
+ e of technology or digital culture that's become part of everyday life acr
+ oss the United States.\n\nhttps://todaycelebrates.com/holiday/space-explor
+ ation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/space-exploration-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

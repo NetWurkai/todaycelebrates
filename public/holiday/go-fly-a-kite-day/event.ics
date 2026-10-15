@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Go Fly a Kite Day
+X-WR-CALNAME:Go Fly a Kite Day
+DESCRIPTION:Go Fly a Kite Day — https://todaycelebrates.com/holiday/go-fl
+ y-a-kite-day/
+X-WR-CALDESC:Go Fly a Kite Day — https://todaycelebrates.com/holiday/go-f
+ ly-a-kite-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/go-fly-a-kite-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/go-fly-a-kite-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:go-fly-a-kite-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Go Fly a Kite Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Go Fly a Kite Day\, observed on April 18\, is a lighthearted\, 
+ family-friendly day celebrated across the United States.\n\nhttps://todayc
+ elebrates.com/holiday/go-fly-a-kite-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/go-fly-a-kite-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

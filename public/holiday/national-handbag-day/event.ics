@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Handbag Day
+X-WR-CALNAME:National Handbag Day
+DESCRIPTION:National Handbag Day — https://todaycelebrates.com/holiday/na
+ tional-handbag-day/
+X-WR-CALDESC:National Handbag Day — https://todaycelebrates.com/holiday/n
+ ational-handbag-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-handbag-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-handbag-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-handbag-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:National Handbag Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 10\, National Handbag Day gives people across the Un
+ ited States one more reason to mark the day and celebrate handbag.\n\nhttp
+ s://todaycelebrates.com/holiday/national-handbag-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-handbag-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

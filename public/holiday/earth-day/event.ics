@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Earth Day
+X-WR-CALNAME:Earth Day
+DESCRIPTION:Earth Day — https://todaycelebrates.com/holiday/earth-day/
+X-WR-CALDESC:Earth Day — https://todaycelebrates.com/holiday/earth-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/earth-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:earth-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Earth Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Earth Day is a nature-focused observance on April 22\, celebrat
+ ed across the United States to draw attention to the plant\, animal\, or l
+ andscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

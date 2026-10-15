@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Oktoberfest (ends in Germany)
+X-WR-CALNAME:Oktoberfest (ends in Germany)
+DESCRIPTION:Oktoberfest (ends in Germany) — https://todaycelebrates.com/h
+ oliday/oktoberfest-ends-in-germany/
+X-WR-CALDESC:Oktoberfest (ends in Germany) — https://todaycelebrates.com/
+ holiday/oktoberfest-ends-in-germany/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/oktoberfest-ends-in-germa
+ ny/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/oktoberfest-ends-in-ge
+ rmany/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:oktoberfest-ends-in-germany@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271004
+DTEND;VALUE=DATE:20271005
+SUMMARY:Oktoberfest (ends in Germany)
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 4\, Oktoberfest (ends in Germany) gives people acros
+ s the United States one more reason to mark the day and celebrate oktoberf
+ est (ends in germany).\n\nhttps://todaycelebrates.com/holiday/oktoberfest-
+ ends-in-germany/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/oktoberfest-ends-in-germa
+ ny/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

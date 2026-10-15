@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Storytelling Day
+X-WR-CALNAME:World Storytelling Day
+DESCRIPTION:World Storytelling Day — https://todaycelebrates.com/holiday/
+ world-storytelling-day/
+X-WR-CALDESC:World Storytelling Day — https://todaycelebrates.com/holiday
+ /world-storytelling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-storytelling-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-storytelling-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-storytelling-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:World Storytelling Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Storytelling Day is a reading- and writing-focused observ
+ ance on March 20\, celebrated by book lovers across the United States.\n\n
+ https://todaycelebrates.com/holiday/world-storytelling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-storytelling-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

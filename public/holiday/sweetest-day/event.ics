@@ -1,0 +1,175 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Sweetest Day
+X-WR-CALNAME:Sweetest Day
+DESCRIPTION:Sweetest Day — https://todaycelebrates.com/holiday/sweetest-d
+ ay/
+X-WR-CALDESC:Sweetest Day — https://todaycelebrates.com/holiday/sweetest-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sweetest-day-20261017@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Sweetest Day
+DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
+  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
+ s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
+ s://todaycelebrates.com/holiday/sweetest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sweetest-day-20271016@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
+SUMMARY:Sweetest Day
+DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
+  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
+ s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
+ s://todaycelebrates.com/holiday/sweetest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sweetest-day-20281021@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281021
+DTEND;VALUE=DATE:20281022
+SUMMARY:Sweetest Day
+DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
+  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
+ s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
+ s://todaycelebrates.com/holiday/sweetest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sweetest-day-20291020@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291020
+DTEND;VALUE=DATE:20291021
+SUMMARY:Sweetest Day
+DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
+  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
+ s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
+ s://todaycelebrates.com/holiday/sweetest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sweetest-day-20301019@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301019
+DTEND;VALUE=DATE:20301020
+SUMMARY:Sweetest Day
+DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
+  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
+ s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
+ s://todaycelebrates.com/holiday/sweetest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sweetest-day-20311018@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311018
+DTEND;VALUE=DATE:20311019
+SUMMARY:Sweetest Day
+DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
+  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
+ s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
+ s://todaycelebrates.com/holiday/sweetest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sweetest-day-20321016@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321016
+DTEND;VALUE=DATE:20321017
+SUMMARY:Sweetest Day
+DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
+  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
+ s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
+ s://todaycelebrates.com/holiday/sweetest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sweetest-day-20331015@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331015
+DTEND;VALUE=DATE:20331016
+SUMMARY:Sweetest Day
+DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
+  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
+ s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
+ s://todaycelebrates.com/holiday/sweetest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sweetest-day-20341021@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341021
+DTEND;VALUE=DATE:20341022
+SUMMARY:Sweetest Day
+DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
+  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
+ s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
+ s://todaycelebrates.com/holiday/sweetest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:sweetest-day-20351020@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351020
+DTEND;VALUE=DATE:20351021
+SUMMARY:Sweetest Day
+DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
+  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
+ s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
+ s://todaycelebrates.com/holiday/sweetest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

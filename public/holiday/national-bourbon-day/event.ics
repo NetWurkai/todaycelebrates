@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bourbon Day
+X-WR-CALNAME:National Bourbon Day
+DESCRIPTION:National Bourbon Day — https://todaycelebrates.com/holiday/na
+ tional-bourbon-day/
+X-WR-CALDESC:National Bourbon Day — https://todaycelebrates.com/holiday/n
+ ational-bourbon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bourbon-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bourbon-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bourbon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+SUMMARY:National Bourbon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bourbon Day is a drinks-focused observance on June 14\
+ , celebrated by beer and craft-brewery fans across the United States.\n\nh
+ ttps://todaycelebrates.com/holiday/national-bourbon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bourbon-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

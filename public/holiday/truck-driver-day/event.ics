@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Truck Driver Day
+X-WR-CALNAME:Truck Driver Day
+DESCRIPTION:Truck Driver Day — https://todaycelebrates.com/holiday/truck-
+ driver-day/
+X-WR-CALDESC:Truck Driver Day — https://todaycelebrates.com/holiday/truck
+ -driver-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/truck-driver-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/truck-driver-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:truck-driver-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:Truck Driver Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Truck Driver Day\, observed on August 12\, encourages people ac
+ ross the United States to pause and recognize the people and causes behind
+  the day.\n\nhttps://todaycelebrates.com/holiday/truck-driver-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/truck-driver-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

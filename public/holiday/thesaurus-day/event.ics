@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Thesaurus Day
+X-WR-CALNAME:Thesaurus Day
+DESCRIPTION:Thesaurus Day — https://todaycelebrates.com/holiday/thesaurus
+ -day/
+X-WR-CALDESC:Thesaurus Day — https://todaycelebrates.com/holiday/thesauru
+ s-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/thesaurus-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/thesaurus-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:thesaurus-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Thesaurus Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Thesaurus Day is a reading- and writing-focused observance on J
+ anuary 18\, celebrated by book lovers across the United States.\n\nhttps:/
+ /todaycelebrates.com/holiday/thesaurus-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/thesaurus-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

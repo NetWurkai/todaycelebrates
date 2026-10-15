@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Llama Day
+X-WR-CALNAME:National Llama Day
+DESCRIPTION:National Llama Day — https://todaycelebrates.com/holiday/nati
+ onal-llama-day/
+X-WR-CALDESC:National Llama Day — https://todaycelebrates.com/holiday/nat
+ ional-llama-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-llama-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-llama-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-llama-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:National Llama Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Llama Day is a nature-focused observance on December 9
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ national-llama-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-llama-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

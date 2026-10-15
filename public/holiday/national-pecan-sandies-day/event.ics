@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pecan Sandies Day
+X-WR-CALNAME:National Pecan Sandies Day
+DESCRIPTION:National Pecan Sandies Day — https://todaycelebrates.com/holi
+ day/national-pecan-sandies-day/
+X-WR-CALDESC:National Pecan Sandies Day — https://todaycelebrates.com/hol
+ iday/national-pecan-sandies-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pecan-sandies-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pecan-sandies
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pecan-sandies-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:National Pecan Sandies Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pecan Sandies Day is a food-focused observance celebra
+ ted across the United States on June 23\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-pecan-sandies-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pecan-sandies-da
+ y/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

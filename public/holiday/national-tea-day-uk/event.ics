@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Tea Day (UK)
+X-WR-CALNAME:National Tea Day (UK)
+DESCRIPTION:National Tea Day (UK) — https://todaycelebrates.com/holiday/n
+ ational-tea-day-uk/
+X-WR-CALDESC:National Tea Day (UK) — https://todaycelebrates.com/holiday/
+ national-tea-day-uk/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tea-day-uk/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-tea-day-uk/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-tea-day-uk@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:National Tea Day (UK)
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tea Day (UK)\, observed on April 21\, is celebrated by
+  coffee lovers across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/national-tea-day-uk/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tea-day-uk/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

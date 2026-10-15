@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:American Redneck Day
+X-WR-CALNAME:American Redneck Day
+DESCRIPTION:American Redneck Day — https://todaycelebrates.com/holiday/am
+ erican-redneck-day/
+X-WR-CALDESC:American Redneck Day — https://todaycelebrates.com/holiday/a
+ merican-redneck-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-redneck-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/american-redneck-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:american-redneck-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:American Redneck Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:American Redneck Day\, observed on July 3\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/american-redneck-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-redneck-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

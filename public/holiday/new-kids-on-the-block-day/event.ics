@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:New Kids on the Block Day
+X-WR-CALNAME:New Kids on the Block Day
+DESCRIPTION:New Kids on the Block Day — https://todaycelebrates.com/holid
+ ay/new-kids-on-the-block-day/
+X-WR-CALDESC:New Kids on the Block Day — https://todaycelebrates.com/holi
+ day/new-kids-on-the-block-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-kids-on-the-block-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/new-kids-on-the-block-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:new-kids-on-the-block-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:New Kids on the Block Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:New Kids on the Block Day is a music-focused observance on Apri
+ l 24\, celebrated by fans across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/new-kids-on-the-block-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-kids-on-the-block-day
+ /
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

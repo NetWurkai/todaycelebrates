@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Poem on Your Pillow Day
+X-WR-CALNAME:Poem on Your Pillow Day
+DESCRIPTION:Poem on Your Pillow Day — https://todaycelebrates.com/holiday
+ /poem-on-your-pillow-day/
+X-WR-CALDESC:Poem on Your Pillow Day — https://todaycelebrates.com/holida
+ y/poem-on-your-pillow-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/poem-on-your-pillow-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/poem-on-your-pillow-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:poem-on-your-pillow-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Poem on Your Pillow Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Poem on Your Pillow Day is a reading- and writing-focused obser
+ vance on May 4\, celebrated by book lovers across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/poem-on-your-pillow-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/poem-on-your-pillow-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

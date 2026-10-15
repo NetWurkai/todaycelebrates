@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Purebred Dog Day
+X-WR-CALNAME:National Purebred Dog Day
+DESCRIPTION:National Purebred Dog Day — https://todaycelebrates.com/holid
+ ay/national-purebred-dog-day/
+X-WR-CALDESC:National Purebred Dog Day — https://todaycelebrates.com/holi
+ day/national-purebred-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-purebred-dog-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-purebred-dog-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-purebred-dog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:National Purebred Dog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Purebred Dog Day\, observed on May 1\, is celebrated b
+ y dog lovers across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/national-purebred-dog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-purebred-dog-day
+ /
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

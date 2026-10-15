@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Ramen Noodle Day
+X-WR-CALNAME:Ramen Noodle Day
+DESCRIPTION:Ramen Noodle Day — https://todaycelebrates.com/holiday/ramen-
+ noodle-day/
+X-WR-CALDESC:Ramen Noodle Day — https://todaycelebrates.com/holiday/ramen
+ -noodle-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ramen-noodle-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/ramen-noodle-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ramen-noodle-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Ramen Noodle Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Ramen Noodle Day is a food-focused observance celebrated across
+  the United States on April 4\, giving fans of the dish or ingredient an e
+ xcuse to seek it out and share it with others.\n\nhttps://todaycelebrates.
+ com/holiday/ramen-noodle-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ramen-noodle-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

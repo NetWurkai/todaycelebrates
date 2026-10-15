@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Hot Toddy Day
+X-WR-CALNAME:National Hot Toddy Day
+DESCRIPTION:National Hot Toddy Day — https://todaycelebrates.com/holiday/
+ national-hot-toddy-day/
+X-WR-CALDESC:National Hot Toddy Day — https://todaycelebrates.com/holiday
+ /national-hot-toddy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hot-toddy-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-hot-toddy-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-hot-toddy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:National Hot Toddy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hot Toddy Day is a drinks-focused observance on Januar
+ y 11\, celebrated by beer and craft-brewery fans across the United States.
+ \n\nhttps://todaycelebrates.com/holiday/national-hot-toddy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hot-toddy-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

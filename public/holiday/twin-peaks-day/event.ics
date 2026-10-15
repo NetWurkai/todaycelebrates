@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Twin Peaks Day
+X-WR-CALNAME:Twin Peaks Day
+DESCRIPTION:Twin Peaks Day — https://todaycelebrates.com/holiday/twin-pea
+ ks-day/
+X-WR-CALDESC:Twin Peaks Day — https://todaycelebrates.com/holiday/twin-pe
+ aks-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/twin-peaks-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/twin-peaks-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:twin-peaks-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:Twin Peaks Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Twin Peaks Day\, observed on February 24\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/twin-peaks-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/twin-peaks-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

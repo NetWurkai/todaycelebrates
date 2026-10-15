@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Answer Your Cat's Questions Day
+X-WR-CALNAME:Answer Your Cat's Questions Day
+DESCRIPTION:Answer Your Cat's Questions Day — https://todaycelebrates.com
+ /holiday/answer-your-cats-questions-day/
+X-WR-CALDESC:Answer Your Cat's Questions Day — https://todaycelebrates.co
+ m/holiday/answer-your-cats-questions-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/answer-your-cats-question
+ s-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/answer-your-cats-quest
+ ions-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:answer-your-cats-questions-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Answer Your Cat's Questions Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Answer Your Cat's Questions Day\, observed on January 22\, is a
+  lighthearted\, family-friendly day celebrated across the United States.\n
+ \nhttps://todaycelebrates.com/holiday/answer-your-cats-questions-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/answer-your-cats-question
+ s-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

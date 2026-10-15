@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Free Comic Book Day
+X-WR-CALNAME:Free Comic Book Day
+DESCRIPTION:Free Comic Book Day — https://todaycelebrates.com/holiday/fre
+ e-comic-book-day/
+X-WR-CALDESC:Free Comic Book Day — https://todaycelebrates.com/holiday/fr
+ ee-comic-book-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/free-comic-book-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/free-comic-book-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:free-comic-book-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Free Comic Book Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Free Comic Book Day is a reading- and writing-focused observanc
+ e on May 1\, celebrated by book lovers across the United States.\n\nhttps:
+ //todaycelebrates.com/holiday/free-comic-book-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/free-comic-book-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

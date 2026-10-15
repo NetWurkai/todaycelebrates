@@ -1,0 +1,167 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Secondhand Sunday
+X-WR-CALNAME:Secondhand Sunday
+DESCRIPTION:Secondhand Sunday — https://todaycelebrates.com/holiday/secon
+ dhand-sunday/
+X-WR-CALDESC:Secondhand Sunday — https://todaycelebrates.com/holiday/seco
+ ndhand-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/secondhand-sunday/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/secondhand-sunday/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:secondhand-sunday-20261129@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Secondhand Sunday
+DESCRIPTION:Secondhand Sunday\, observed on November 29\, encourages people
+  across the United States to pause and recognize the people and causes beh
+ ind the day.\n\nhttps://todaycelebrates.com/holiday/secondhand-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/secondhand-sunday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:secondhand-sunday-20271128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+SUMMARY:Secondhand Sunday
+DESCRIPTION:Secondhand Sunday\, observed on November 29\, encourages people
+  across the United States to pause and recognize the people and causes beh
+ ind the day.\n\nhttps://todaycelebrates.com/holiday/secondhand-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/secondhand-sunday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:secondhand-sunday-20281126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281126
+DTEND;VALUE=DATE:20281127
+SUMMARY:Secondhand Sunday
+DESCRIPTION:Secondhand Sunday\, observed on November 29\, encourages people
+  across the United States to pause and recognize the people and causes beh
+ ind the day.\n\nhttps://todaycelebrates.com/holiday/secondhand-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/secondhand-sunday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:secondhand-sunday-20291125@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291125
+DTEND;VALUE=DATE:20291126
+SUMMARY:Secondhand Sunday
+DESCRIPTION:Secondhand Sunday\, observed on November 29\, encourages people
+  across the United States to pause and recognize the people and causes beh
+ ind the day.\n\nhttps://todaycelebrates.com/holiday/secondhand-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/secondhand-sunday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:secondhand-sunday-20301201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301201
+DTEND;VALUE=DATE:20301202
+SUMMARY:Secondhand Sunday
+DESCRIPTION:Secondhand Sunday\, observed on November 29\, encourages people
+  across the United States to pause and recognize the people and causes beh
+ ind the day.\n\nhttps://todaycelebrates.com/holiday/secondhand-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/secondhand-sunday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:secondhand-sunday-20311130@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311130
+DTEND;VALUE=DATE:20311201
+SUMMARY:Secondhand Sunday
+DESCRIPTION:Secondhand Sunday\, observed on November 29\, encourages people
+  across the United States to pause and recognize the people and causes beh
+ ind the day.\n\nhttps://todaycelebrates.com/holiday/secondhand-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/secondhand-sunday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:secondhand-sunday-20321128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321128
+DTEND;VALUE=DATE:20321129
+SUMMARY:Secondhand Sunday
+DESCRIPTION:Secondhand Sunday\, observed on November 29\, encourages people
+  across the United States to pause and recognize the people and causes beh
+ ind the day.\n\nhttps://todaycelebrates.com/holiday/secondhand-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/secondhand-sunday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:secondhand-sunday-20331127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331127
+DTEND;VALUE=DATE:20331128
+SUMMARY:Secondhand Sunday
+DESCRIPTION:Secondhand Sunday\, observed on November 29\, encourages people
+  across the United States to pause and recognize the people and causes beh
+ ind the day.\n\nhttps://todaycelebrates.com/holiday/secondhand-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/secondhand-sunday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:secondhand-sunday-20341126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341126
+DTEND;VALUE=DATE:20341127
+SUMMARY:Secondhand Sunday
+DESCRIPTION:Secondhand Sunday\, observed on November 29\, encourages people
+  across the United States to pause and recognize the people and causes beh
+ ind the day.\n\nhttps://todaycelebrates.com/holiday/secondhand-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/secondhand-sunday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:secondhand-sunday-20351125@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351125
+DTEND;VALUE=DATE:20351126
+SUMMARY:Secondhand Sunday
+DESCRIPTION:Secondhand Sunday\, observed on November 29\, encourages people
+  across the United States to pause and recognize the people and causes beh
+ ind the day.\n\nhttps://todaycelebrates.com/holiday/secondhand-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/secondhand-sunday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

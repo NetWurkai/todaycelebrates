@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Mother-In-Law Day
+X-WR-CALNAME:Mother-In-Law Day
+DESCRIPTION:Mother-In-Law Day — https://todaycelebrates.com/holiday/mothe
+ r-in-law-day/
+X-WR-CALDESC:Mother-In-Law Day — https://todaycelebrates.com/holiday/moth
+ er-in-law-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mother-in-law-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/mother-in-law-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mother-in-law-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Mother-In-Law Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mother-In-Law Day is observed across the United States on Octob
+ er 25\, a small but fun addition to the calendar worth celebrating in its 
+ own way.\n\nhttps://todaycelebrates.com/holiday/mother-in-law-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mother-in-law-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

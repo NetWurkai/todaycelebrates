@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Christmas Eve
+X-WR-CALNAME:Christmas Eve
+DESCRIPTION:Christmas Eve — https://todaycelebrates.com/holiday/christmas
+ -eve/
+X-WR-CALDESC:Christmas Eve — https://todaycelebrates.com/holiday/christma
+ s-eve/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/christmas-eve/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/christmas-eve/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:christmas-eve@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Christmas Eve
+RRULE:FREQ=YEARLY
+DESCRIPTION:Christmas Eve is December 24\, and in much of the English-speak
+ ing world it carries more of the holiday's weight than Christmas Day itsel
+ f: the arrival\, the service\, the last errand\, the night something is su
+ pposed to happen. It is not a federal holiday in the United States and nev
+ er has been — when federal offices close on the 24th\, it is because a p
+ resident signed an order for that year. Most of what Americans actually do
+  on the night can be dated\, and it is newer than it feels.\n\nhttps://tod
+ aycelebrates.com/holiday/christmas-eve/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/christmas-eve/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

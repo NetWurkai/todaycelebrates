@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:TV Talk Show Host Day
+X-WR-CALNAME:TV Talk Show Host Day
+DESCRIPTION:TV Talk Show Host Day — https://todaycelebrates.com/holiday/t
+ v-talk-show-host-day/
+X-WR-CALDESC:TV Talk Show Host Day — https://todaycelebrates.com/holiday/
+ tv-talk-show-host-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tv-talk-show-host-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/tv-talk-show-host-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:tv-talk-show-host-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:TV Talk Show Host Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:TV Talk Show Host Day is observed across the United States on O
+ ctober 23\, a small but fun addition to the calendar worth celebrating in 
+ its own way.\n\nhttps://todaycelebrates.com/holiday/tv-talk-show-host-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tv-talk-show-host-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

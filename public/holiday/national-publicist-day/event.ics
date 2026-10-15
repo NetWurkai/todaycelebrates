@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Publicist Day
+X-WR-CALNAME:National Publicist Day
+DESCRIPTION:National Publicist Day — https://todaycelebrates.com/holiday/
+ national-publicist-day/
+X-WR-CALDESC:National Publicist Day — https://todaycelebrates.com/holiday
+ /national-publicist-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-publicist-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-publicist-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-publicist-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:National Publicist Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Publicist Day is observed across the United States on 
+ October 30\, a small but fun addition to the calendar worth celebrating in
+  its own way.\n\nhttps://todaycelebrates.com/holiday/national-publicist-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-publicist-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

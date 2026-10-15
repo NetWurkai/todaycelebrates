@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Introduce a Girl to Engineering Day
+X-WR-CALNAME:Introduce a Girl to Engineering Day
+DESCRIPTION:Introduce a Girl to Engineering Day — https://todaycelebrates
+ .com/holiday/introduce-a-girl-to-engineering-day/
+X-WR-CALDESC:Introduce a Girl to Engineering Day — https://todaycelebrate
+ s.com/holiday/introduce-a-girl-to-engineering-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/introduce-a-girl-to-engin
+ eering-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/introduce-a-girl-to-en
+ gineering-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:introduce-a-girl-to-engineering-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Introduce a Girl to Engineering Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Introduce a Girl to Engineering Day\, observed on February 25\,
+  encourages people across the United States to pause and recognize the peo
+ ple and causes behind the day.\n\nhttps://todaycelebrates.com/holiday/intr
+ oduce-a-girl-to-engineering-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/introduce-a-girl-to-engin
+ eering-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Floral Design Day
+X-WR-CALNAME:Floral Design Day
+DESCRIPTION:Floral Design Day — https://todaycelebrates.com/holiday/flora
+ l-design-day/
+X-WR-CALDESC:Floral Design Day — https://todaycelebrates.com/holiday/flor
+ al-design-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/floral-design-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/floral-design-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:floral-design-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Floral Design Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Floral Design Day is a nature-focused observance on February 28
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ floral-design-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/floral-design-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

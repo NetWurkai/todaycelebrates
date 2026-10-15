@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Festival for the Souls of Dead Whales
+X-WR-CALNAME:Festival for the Souls of Dead Whales
+DESCRIPTION:Festival for the Souls of Dead Whales — https://todaycelebrat
+ es.com/holiday/festival-for-the-souls-of-dead-whales/
+X-WR-CALDESC:Festival for the Souls of Dead Whales — https://todaycelebra
+ tes.com/holiday/festival-for-the-souls-of-dead-whales/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/festival-for-the-souls-of
+ -dead-whales/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/festival-for-the-souls
+ -of-dead-whales/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:festival-for-the-souls-of-dead-whales@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Festival for the Souls of Dead Whales
+RRULE:FREQ=YEARLY
+DESCRIPTION:Festival for the Souls of Dead Whales is a nature-focused obser
+ vance on December 10\, celebrated across the United States to draw attenti
+ on to the plant\, animal\, or landscape at its center.\n\nhttps://todaycel
+ ebrates.com/holiday/festival-for-the-souls-of-dead-whales/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/festival-for-the-souls-of
+ -dead-whales/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

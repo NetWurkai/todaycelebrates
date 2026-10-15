@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Day of the Programmer
+X-WR-CALNAME:Day of the Programmer
+DESCRIPTION:Day of the Programmer — https://todaycelebrates.com/holiday/d
+ ay-of-the-programmer/
+X-WR-CALDESC:Day of the Programmer — https://todaycelebrates.com/holiday/
+ day-of-the-programmer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-programmer/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-programmer/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:day-of-the-programmer@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270914
+SUMMARY:Day of the Programmer
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 13\, Day of the Programmer gives people across the
+  United States one more reason to mark the day and celebrate programmer.\n
+ \nhttps://todaycelebrates.com/holiday/day-of-the-programmer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-programmer/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

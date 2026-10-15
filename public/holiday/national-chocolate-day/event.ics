@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chocolate Day
+X-WR-CALNAME:National Chocolate Day
+DESCRIPTION:National Chocolate Day — https://todaycelebrates.com/holiday/
+ national-chocolate-day/
+X-WR-CALDESC:National Chocolate Day — https://todaycelebrates.com/holiday
+ /national-chocolate-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chocolate-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:National Chocolate Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for October 28: National Chocolate Day invit
+ es food lovers across the United States to celebrate everything about choc
+ olate\, whether that means cooking it at home or treating yourself at a fa
+ vorite spot.\n\nhttps://todaycelebrates.com/holiday/national-chocolate-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

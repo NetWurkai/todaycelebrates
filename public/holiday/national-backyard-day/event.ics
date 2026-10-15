@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Backyard Day
+X-WR-CALNAME:National Backyard Day
+DESCRIPTION:National Backyard Day — https://todaycelebrates.com/holiday/n
+ ational-backyard-day/
+X-WR-CALDESC:National Backyard Day — https://todaycelebrates.com/holiday/
+ national-backyard-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-backyard-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-backyard-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-backyard-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:National Backyard Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Backyard Day is a nature-focused observance on March 1
+ 9\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /national-backyard-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-backyard-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

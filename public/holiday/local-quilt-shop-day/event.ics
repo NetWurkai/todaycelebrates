@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Local Quilt Shop Day
+X-WR-CALNAME:Local Quilt Shop Day
+DESCRIPTION:Local Quilt Shop Day — https://todaycelebrates.com/holiday/lo
+ cal-quilt-shop-day/
+X-WR-CALDESC:Local Quilt Shop Day — https://todaycelebrates.com/holiday/l
+ ocal-quilt-shop-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/local-quilt-shop-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/local-quilt-shop-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:local-quilt-shop-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Local Quilt Shop Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Local Quilt Shop Day\, observed on January 23\, is a lightheart
+ ed holiday celebrated across the United States.\n\nhttps://todaycelebrates
+ .com/holiday/local-quilt-shop-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/local-quilt-shop-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

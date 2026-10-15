@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chocolate Milk Day
+X-WR-CALNAME:National Chocolate Milk Day
+DESCRIPTION:National Chocolate Milk Day — https://todaycelebrates.com/hol
+ iday/national-chocolate-milk-day/
+X-WR-CALDESC:National Chocolate Milk Day — https://todaycelebrates.com/ho
+ liday/national-chocolate-milk-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-milk-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-mil
+ k-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chocolate-milk-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270927
+DTEND;VALUE=DATE:20270928
+SUMMARY:National Chocolate Milk Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for September 27: National Chocolate Milk Da
+ y invites food lovers across the United States to celebrate everything abo
+ ut chocolate milk\, whether that means cooking it at home or treating your
+ self at a favorite spot.\n\nhttps://todaycelebrates.com/holiday/national-c
+ hocolate-milk-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-milk-d
+ ay/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

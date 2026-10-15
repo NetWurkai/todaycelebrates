@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Absurdity Day
+X-WR-CALNAME:National Absurdity Day
+DESCRIPTION:National Absurdity Day — https://todaycelebrates.com/holiday/
+ national-absurdity-day/
+X-WR-CALDESC:National Absurdity Day — https://todaycelebrates.com/holiday
+ /national-absurdity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-absurdity-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-absurdity-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-absurdity-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:National Absurdity Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Absurdity Day\, observed on November 20\, is a lighthe
+ arted holiday celebrated across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/national-absurdity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-absurdity-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Chocolate Day
+X-WR-CALNAME:Chocolate Day
+DESCRIPTION:Chocolate Day — https://todaycelebrates.com/holiday/chocolate
+ -day/
+X-WR-CALDESC:Chocolate Day — https://todaycelebrates.com/holiday/chocolat
+ e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chocolate-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/chocolate-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:chocolate-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Chocolate Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Chocolate Day is a food-focused observance celebrated across th
+ e United States on February 9\, giving fans of the dish or ingredient an e
+ xcuse to seek it out and share it with others.\n\nhttps://todaycelebrates.
+ com/holiday/chocolate-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chocolate-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

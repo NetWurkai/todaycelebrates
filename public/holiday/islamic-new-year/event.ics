@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Islamic New Year
+X-WR-CALNAME:Islamic New Year
+DESCRIPTION:Islamic New Year — https://todaycelebrates.com/holiday/islami
+ c-new-year/
+X-WR-CALDESC:Islamic New Year — https://todaycelebrates.com/holiday/islam
+ ic-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/islamic-new-year/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/islamic-new-year/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:islamic-new-year-20270606@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:Islamic New Year
+DESCRIPTION:Islamic New Year\, observed on June 6\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/islamic-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/islamic-new-year/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:islamic-new-year-20280525@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280525
+DTEND;VALUE=DATE:20280526
+SUMMARY:Islamic New Year
+DESCRIPTION:Islamic New Year\, observed on June 6\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/islamic-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/islamic-new-year/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:islamic-new-year-20290514@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290514
+DTEND;VALUE=DATE:20290515
+SUMMARY:Islamic New Year
+DESCRIPTION:Islamic New Year\, observed on June 6\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/islamic-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/islamic-new-year/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:islamic-new-year-20300503@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300503
+DTEND;VALUE=DATE:20300504
+SUMMARY:Islamic New Year
+DESCRIPTION:Islamic New Year\, observed on June 6\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/islamic-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/islamic-new-year/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:islamic-new-year-20310423@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310423
+DTEND;VALUE=DATE:20310424
+SUMMARY:Islamic New Year
+DESCRIPTION:Islamic New Year\, observed on June 6\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/islamic-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/islamic-new-year/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:islamic-new-year-20320411@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320411
+DTEND;VALUE=DATE:20320412
+SUMMARY:Islamic New Year
+DESCRIPTION:Islamic New Year\, observed on June 6\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/islamic-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/islamic-new-year/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:islamic-new-year-20330401@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330401
+DTEND;VALUE=DATE:20330402
+SUMMARY:Islamic New Year
+DESCRIPTION:Islamic New Year\, observed on June 6\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/islamic-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/islamic-new-year/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:islamic-new-year-20340321@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340321
+DTEND;VALUE=DATE:20340322
+SUMMARY:Islamic New Year
+DESCRIPTION:Islamic New Year\, observed on June 6\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/islamic-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/islamic-new-year/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:islamic-new-year-20350311@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350311
+DTEND;VALUE=DATE:20350312
+SUMMARY:Islamic New Year
+DESCRIPTION:Islamic New Year\, observed on June 6\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/islamic-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/islamic-new-year/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

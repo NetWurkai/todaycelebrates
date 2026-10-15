@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Take a Walk Outdoors Day
+X-WR-CALNAME:Take a Walk Outdoors Day
+DESCRIPTION:Take a Walk Outdoors Day — https://todaycelebrates.com/holida
+ y/take-a-walk-outdoors-day/
+X-WR-CALDESC:Take a Walk Outdoors Day — https://todaycelebrates.com/holid
+ ay/take-a-walk-outdoors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-a-walk-outdoors-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/take-a-walk-outdoors-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:take-a-walk-outdoors-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Take a Walk Outdoors Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Take a Walk Outdoors Day\, observed on January 20\, encourages 
+ people across the United States to focus on health and wellbeing.\n\nhttps
+ ://todaycelebrates.com/holiday/take-a-walk-outdoors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-a-walk-outdoors-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

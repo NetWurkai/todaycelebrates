@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Armed Forces Day
+X-WR-CALNAME:Armed Forces Day
+DESCRIPTION:Armed Forces Day — https://todaycelebrates.com/holiday/armed-
+ forces-day/
+X-WR-CALDESC:Armed Forces Day — https://todaycelebrates.com/holiday/armed
+ -forces-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/armed-forces-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/armed-forces-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:armed-forces-day-20270515@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:Armed Forces Day
+DESCRIPTION:Armed Forces Day\, observed on May 15\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/armed-forces-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/armed-forces-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:armed-forces-day-20280520@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280520
+DTEND;VALUE=DATE:20280521
+SUMMARY:Armed Forces Day
+DESCRIPTION:Armed Forces Day\, observed on May 15\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/armed-forces-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/armed-forces-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:armed-forces-day-20290519@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290519
+DTEND;VALUE=DATE:20290520
+SUMMARY:Armed Forces Day
+DESCRIPTION:Armed Forces Day\, observed on May 15\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/armed-forces-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/armed-forces-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:armed-forces-day-20300518@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300518
+DTEND;VALUE=DATE:20300519
+SUMMARY:Armed Forces Day
+DESCRIPTION:Armed Forces Day\, observed on May 15\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/armed-forces-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/armed-forces-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:armed-forces-day-20310517@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310517
+DTEND;VALUE=DATE:20310518
+SUMMARY:Armed Forces Day
+DESCRIPTION:Armed Forces Day\, observed on May 15\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/armed-forces-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/armed-forces-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:armed-forces-day-20320515@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320515
+DTEND;VALUE=DATE:20320516
+SUMMARY:Armed Forces Day
+DESCRIPTION:Armed Forces Day\, observed on May 15\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/armed-forces-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/armed-forces-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:armed-forces-day-20330521@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330521
+DTEND;VALUE=DATE:20330522
+SUMMARY:Armed Forces Day
+DESCRIPTION:Armed Forces Day\, observed on May 15\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/armed-forces-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/armed-forces-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:armed-forces-day-20340520@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340520
+DTEND;VALUE=DATE:20340521
+SUMMARY:Armed Forces Day
+DESCRIPTION:Armed Forces Day\, observed on May 15\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/armed-forces-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/armed-forces-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:armed-forces-day-20350519@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350519
+DTEND;VALUE=DATE:20350520
+SUMMARY:Armed Forces Day
+DESCRIPTION:Armed Forces Day\, observed on May 15\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/armed-forces-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/armed-forces-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

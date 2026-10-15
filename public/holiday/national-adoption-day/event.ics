@@ -1,0 +1,177 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Adoption Day
+X-WR-CALNAME:National Adoption Day
+DESCRIPTION:National Adoption Day — https://todaycelebrates.com/holiday/n
+ ational-adoption-day/
+X-WR-CALDESC:National Adoption Day — https://todaycelebrates.com/holiday/
+ national-adoption-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-adoption-day-20261121@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:National Adoption Day
+DESCRIPTION:National Adoption Day\, observed on November 21\, encourages pe
+ ople across the United States to pause and recognize the people and causes
+  behind the day.\n\nhttps://todaycelebrates.com/holiday/national-adoption-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-adoption-day-20271120@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
+SUMMARY:National Adoption Day
+DESCRIPTION:National Adoption Day\, observed on November 21\, encourages pe
+ ople across the United States to pause and recognize the people and causes
+  behind the day.\n\nhttps://todaycelebrates.com/holiday/national-adoption-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-adoption-day-20281118@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281118
+DTEND;VALUE=DATE:20281119
+SUMMARY:National Adoption Day
+DESCRIPTION:National Adoption Day\, observed on November 21\, encourages pe
+ ople across the United States to pause and recognize the people and causes
+  behind the day.\n\nhttps://todaycelebrates.com/holiday/national-adoption-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-adoption-day-20291117@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291117
+DTEND;VALUE=DATE:20291118
+SUMMARY:National Adoption Day
+DESCRIPTION:National Adoption Day\, observed on November 21\, encourages pe
+ ople across the United States to pause and recognize the people and causes
+  behind the day.\n\nhttps://todaycelebrates.com/holiday/national-adoption-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-adoption-day-20301123@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301123
+DTEND;VALUE=DATE:20301124
+SUMMARY:National Adoption Day
+DESCRIPTION:National Adoption Day\, observed on November 21\, encourages pe
+ ople across the United States to pause and recognize the people and causes
+  behind the day.\n\nhttps://todaycelebrates.com/holiday/national-adoption-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-adoption-day-20311122@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311122
+DTEND;VALUE=DATE:20311123
+SUMMARY:National Adoption Day
+DESCRIPTION:National Adoption Day\, observed on November 21\, encourages pe
+ ople across the United States to pause and recognize the people and causes
+  behind the day.\n\nhttps://todaycelebrates.com/holiday/national-adoption-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-adoption-day-20321120@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321120
+DTEND;VALUE=DATE:20321121
+SUMMARY:National Adoption Day
+DESCRIPTION:National Adoption Day\, observed on November 21\, encourages pe
+ ople across the United States to pause and recognize the people and causes
+  behind the day.\n\nhttps://todaycelebrates.com/holiday/national-adoption-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-adoption-day-20331119@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331119
+DTEND;VALUE=DATE:20331120
+SUMMARY:National Adoption Day
+DESCRIPTION:National Adoption Day\, observed on November 21\, encourages pe
+ ople across the United States to pause and recognize the people and causes
+  behind the day.\n\nhttps://todaycelebrates.com/holiday/national-adoption-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-adoption-day-20341118@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341118
+DTEND;VALUE=DATE:20341119
+SUMMARY:National Adoption Day
+DESCRIPTION:National Adoption Day\, observed on November 21\, encourages pe
+ ople across the United States to pause and recognize the people and causes
+  behind the day.\n\nhttps://todaycelebrates.com/holiday/national-adoption-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-adoption-day-20351117@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351117
+DTEND;VALUE=DATE:20351118
+SUMMARY:National Adoption Day
+DESCRIPTION:National Adoption Day\, observed on November 21\, encourages pe
+ ople across the United States to pause and recognize the people and causes
+  behind the day.\n\nhttps://todaycelebrates.com/holiday/national-adoption-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

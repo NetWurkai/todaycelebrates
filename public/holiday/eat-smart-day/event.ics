@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Eat Smart Day
+X-WR-CALNAME:Eat Smart Day
+DESCRIPTION:Eat Smart Day — https://todaycelebrates.com/holiday/eat-smart
+ -day/
+X-WR-CALDESC:Eat Smart Day — https://todaycelebrates.com/holiday/eat-smar
+ t-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eat-smart-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/eat-smart-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:eat-smart-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Eat Smart Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Eat Smart Day is a health-awareness observance on November 4\, 
+ marked across the United States to spotlight a wellness topic worth a seco
+ nd look.\n\nhttps://todaycelebrates.com/holiday/eat-smart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eat-smart-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

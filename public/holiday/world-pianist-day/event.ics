@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Pianist Day
+X-WR-CALNAME:World Pianist Day
+DESCRIPTION:World Pianist Day — https://todaycelebrates.com/holiday/world
+ -pianist-day/
+X-WR-CALDESC:World Pianist Day — https://todaycelebrates.com/holiday/worl
+ d-pianist-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-pianist-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-pianist-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-pianist-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:World Pianist Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Pianist Day is a music-focused observance on November 8\,
+  celebrated by fans across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/world-pianist-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-pianist-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

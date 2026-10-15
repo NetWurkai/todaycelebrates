@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Global Movie Day
+X-WR-CALNAME:Global Movie Day
+DESCRIPTION:Global Movie Day — https://todaycelebrates.com/holiday/global
+ -movie-day/
+X-WR-CALDESC:Global Movie Day — https://todaycelebrates.com/holiday/globa
+ l-movie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-movie-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/global-movie-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:global-movie-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Global Movie Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Movie Day\, observed on February 13\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/global-movie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-movie-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

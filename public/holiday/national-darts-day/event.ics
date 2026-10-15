@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Darts Day
+X-WR-CALNAME:National Darts Day
+DESCRIPTION:National Darts Day — https://todaycelebrates.com/holiday/nati
+ onal-darts-day/
+X-WR-CALDESC:National Darts Day — https://todaycelebrates.com/holiday/nat
+ ional-darts-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-darts-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-darts-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-darts-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:National Darts Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Darts Day\, observed on June 29\, is celebrated by spo
+ rts fans across the United States.\n\nhttps://todaycelebrates.com/holiday/
+ national-darts-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-darts-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

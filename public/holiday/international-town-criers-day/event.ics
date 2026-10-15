@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Town Criers Day
+X-WR-CALNAME:International Town Criers Day
+DESCRIPTION:International Town Criers Day — https://todaycelebrates.com/h
+ oliday/international-town-criers-day/
+X-WR-CALDESC:International Town Criers Day — https://todaycelebrates.com/
+ holiday/international-town-criers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-town-criers
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-town-cri
+ ers-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-town-criers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:International Town Criers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Town Criers Day\, observed on July 12\, encourage
+ s people across the United States to pause and recognize the people and ca
+ uses behind the day.\n\nhttps://todaycelebrates.com/holiday/international-
+ town-criers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-town-criers
+ -day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

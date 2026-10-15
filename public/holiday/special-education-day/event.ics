@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Special Education Day
+X-WR-CALNAME:Special Education Day
+DESCRIPTION:Special Education Day — https://todaycelebrates.com/holiday/s
+ pecial-education-day/
+X-WR-CALDESC:Special Education Day — https://todaycelebrates.com/holiday/
+ special-education-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/special-education-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/special-education-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:special-education-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Special Education Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Special Education Day\, observed on December 2\, is a lighthear
+ ted\, family-friendly day celebrated across the United States.\n\nhttps://
+ todaycelebrates.com/holiday/special-education-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/special-education-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

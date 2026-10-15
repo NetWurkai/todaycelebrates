@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Consignment Day
+X-WR-CALNAME:National Consignment Day
+DESCRIPTION:National Consignment Day — https://todaycelebrates.com/holida
+ y/national-consignment-day/
+X-WR-CALDESC:National Consignment Day — https://todaycelebrates.com/holid
+ ay/national-consignment-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-consignment-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-consignment-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-consignment-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271005
+DTEND;VALUE=DATE:20271006
+SUMMARY:National Consignment Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 5\, National Consignment Day gives people across the
+  United States one more reason to mark the day and celebrate consignment.\
+ n\nhttps://todaycelebrates.com/holiday/national-consignment-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-consignment-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

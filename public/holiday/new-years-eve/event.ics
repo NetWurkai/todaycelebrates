@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:New Year's Eve
+X-WR-CALNAME:New Year's Eve
+DESCRIPTION:New Year's Eve — https://todaycelebrates.com/holiday/new-year
+ s-eve/
+X-WR-CALDESC:New Year's Eve — https://todaycelebrates.com/holiday/new-yea
+ rs-eve/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-years-eve/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/new-years-eve/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:new-years-eve@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:New Year's Eve
+RRULE:FREQ=YEARLY
+DESCRIPTION:New Year's Eve is December 31\, and in the United States it hol
+ ds two very different midnights. One is a commercial spectacle a newspaper
+  owner invented in 1904 to publicize his new building. The other is a vigi
+ l that Black congregations have kept since the night of December 31\, 1862
+ \, when people waited in the dark for the Emancipation Proclamation to tak
+ e effect.\n\nhttps://todaycelebrates.com/holiday/new-years-eve/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/new-years-eve/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

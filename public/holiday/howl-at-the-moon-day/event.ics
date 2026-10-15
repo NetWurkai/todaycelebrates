@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Howl At The Moon Day
+X-WR-CALNAME:Howl At The Moon Day
+DESCRIPTION:Howl At The Moon Day — https://todaycelebrates.com/holiday/ho
+ wl-at-the-moon-day/
+X-WR-CALDESC:Howl At The Moon Day — https://todaycelebrates.com/holiday/h
+ owl-at-the-moon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/howl-at-the-moon-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/howl-at-the-moon-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:howl-at-the-moon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Howl At The Moon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Howl At The Moon Day is one of the spookier stops on the Octobe
+ r calendar\, celebrated on October 26 in the run-up to Halloween.\n\nhttps
+ ://todaycelebrates.com/holiday/howl-at-the-moon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/howl-at-the-moon-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Day of Forgiveness
+X-WR-CALNAME:National Day of Forgiveness
+DESCRIPTION:National Day of Forgiveness — https://todaycelebrates.com/hol
+ iday/national-day-of-forgiveness/
+X-WR-CALDESC:National Day of Forgiveness — https://todaycelebrates.com/ho
+ liday/national-day-of-forgiveness/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-forgivene
+ ss/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-forgiv
+ eness/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-day-of-forgiveness@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270927
+DTEND;VALUE=DATE:20270928
+SUMMARY:National Day of Forgiveness
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 27\, National Day of Forgiveness encourages people
+  across the United States to pause and think about forgiveness — and to 
+ act on it in their own communities.\n\nhttps://todaycelebrates.com/holiday
+ /national-day-of-forgiveness/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-forgivene
+ ss/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Have a Party With Your Bear Day
+X-WR-CALNAME:Have a Party With Your Bear Day
+DESCRIPTION:Have a Party With Your Bear Day — https://todaycelebrates.com
+ /holiday/have-a-party-with-your-bear-day/
+X-WR-CALDESC:Have a Party With Your Bear Day — https://todaycelebrates.co
+ m/holiday/have-a-party-with-your-bear-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/have-a-party-with-your-be
+ ar-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/have-a-party-with-your
+ -bear-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:have-a-party-with-your-bear-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Have a Party With Your Bear Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Have a Party With Your Bear Day\, observed on November 16\, is 
+ a lighthearted\, family-friendly day celebrated across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/have-a-party-with-your-bear-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/have-a-party-with-your-be
+ ar-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

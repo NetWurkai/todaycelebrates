@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Super Saturday
+X-WR-CALNAME:Super Saturday
+DESCRIPTION:Super Saturday — https://todaycelebrates.com/holiday/super-sa
+ turday/
+X-WR-CALDESC:Super Saturday — https://todaycelebrates.com/holiday/super-s
+ aturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-saturday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/super-saturday/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:super-saturday-20261219@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Super Saturday
+DESCRIPTION:Super Saturday\, observed on December 19\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/super-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-saturday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:super-saturday-20271218@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271218
+DTEND;VALUE=DATE:20271219
+SUMMARY:Super Saturday
+DESCRIPTION:Super Saturday\, observed on December 19\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/super-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-saturday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:super-saturday-20281223@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281223
+DTEND;VALUE=DATE:20281224
+SUMMARY:Super Saturday
+DESCRIPTION:Super Saturday\, observed on December 19\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/super-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-saturday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:super-saturday-20291222@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291222
+DTEND;VALUE=DATE:20291223
+SUMMARY:Super Saturday
+DESCRIPTION:Super Saturday\, observed on December 19\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/super-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-saturday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:super-saturday-20301221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301221
+DTEND;VALUE=DATE:20301222
+SUMMARY:Super Saturday
+DESCRIPTION:Super Saturday\, observed on December 19\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/super-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-saturday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:super-saturday-20311220@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311220
+DTEND;VALUE=DATE:20311221
+SUMMARY:Super Saturday
+DESCRIPTION:Super Saturday\, observed on December 19\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/super-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-saturday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:super-saturday-20321218@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321218
+DTEND;VALUE=DATE:20321219
+SUMMARY:Super Saturday
+DESCRIPTION:Super Saturday\, observed on December 19\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/super-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-saturday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:super-saturday-20331224@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331224
+DTEND;VALUE=DATE:20331225
+SUMMARY:Super Saturday
+DESCRIPTION:Super Saturday\, observed on December 19\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/super-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-saturday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:super-saturday-20341223@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341223
+DTEND;VALUE=DATE:20341224
+SUMMARY:Super Saturday
+DESCRIPTION:Super Saturday\, observed on December 19\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/super-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-saturday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:super-saturday-20351222@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351222
+DTEND;VALUE=DATE:20351223
+SUMMARY:Super Saturday
+DESCRIPTION:Super Saturday\, observed on December 19\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/super-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/super-saturday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

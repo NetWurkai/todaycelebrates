@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Tapioca Day
+X-WR-CALNAME:National Tapioca Day
+DESCRIPTION:National Tapioca Day — https://todaycelebrates.com/holiday/na
+ tional-tapioca-day/
+X-WR-CALDESC:National Tapioca Day — https://todaycelebrates.com/holiday/n
+ ational-tapioca-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tapioca-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-tapioca-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-tapioca-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+SUMMARY:National Tapioca Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tapioca Day is a food-focused observance celebrated ac
+ ross the United States on June 28\, giving fans of the dish or ingredient 
+ an excuse to seek it out and share it with others.\n\nhttps://todaycelebra
+ tes.com/holiday/national-tapioca-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tapioca-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

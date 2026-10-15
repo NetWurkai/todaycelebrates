@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Malaria Day
+X-WR-CALNAME:World Malaria Day
+DESCRIPTION:World Malaria Day — https://todaycelebrates.com/holiday/world
+ -malaria-day/
+X-WR-CALDESC:World Malaria Day — https://todaycelebrates.com/holiday/worl
+ d-malaria-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-malaria-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-malaria-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-malaria-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:World Malaria Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Malaria Day\, observed on April 25\, encourages people ac
+ ross the United States to focus on health and wellbeing.\n\nhttps://todayc
+ elebrates.com/holiday/world-malaria-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-malaria-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

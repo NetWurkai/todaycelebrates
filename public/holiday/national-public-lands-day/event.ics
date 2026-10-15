@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Public Lands Day
+X-WR-CALNAME:National Public Lands Day
+DESCRIPTION:National Public Lands Day — https://todaycelebrates.com/holid
+ ay/national-public-lands-day/
+X-WR-CALDESC:National Public Lands Day — https://todaycelebrates.com/holi
+ day/national-public-lands-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-public-lands-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-public-lands-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-public-lands-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:National Public Lands Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Public Lands Day falls on September 26 and celebrates 
+ public lands\, drawing attention across the United States to the natural w
+ orld and our place in it.\n\nhttps://todaycelebrates.com/holiday/national-
+ public-lands-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-public-lands-day
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

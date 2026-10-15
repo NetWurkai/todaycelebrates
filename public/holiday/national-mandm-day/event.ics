@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National M&M Day
+X-WR-CALNAME:National M&M Day
+DESCRIPTION:National M&M Day — https://todaycelebrates.com/holiday/nation
+ al-mandm-day/
+X-WR-CALDESC:National M&M Day — https://todaycelebrates.com/holiday/natio
+ nal-mandm-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mandm-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mandm-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mandm-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271013
+DTEND;VALUE=DATE:20271014
+SUMMARY:National M&M Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National M&M Day is observed across the United States on Octobe
+ r 13\, a small but fun addition to the calendar worth celebrating in its o
+ wn way.\n\nhttps://todaycelebrates.com/holiday/national-mandm-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mandm-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Fresh Squeezed Juice Day
+X-WR-CALNAME:National Fresh Squeezed Juice Day
+DESCRIPTION:National Fresh Squeezed Juice Day — https://todaycelebrates.c
+ om/holiday/national-fresh-squeezed-juice-day/
+X-WR-CALDESC:National Fresh Squeezed Juice Day — https://todaycelebrates.
+ com/holiday/national-fresh-squeezed-juice-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fresh-squeezed-j
+ uice-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-fresh-squeeze
+ d-juice-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-fresh-squeezed-juice-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:National Fresh Squeezed Juice Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Fresh Squeezed Juice Day is a food-focused observance 
+ celebrated across the United States on January 15\, giving fans of the dis
+ h or ingredient an excuse to seek it out and share it with others.\n\nhttp
+ s://todaycelebrates.com/holiday/national-fresh-squeezed-juice-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fresh-squeezed-j
+ uice-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

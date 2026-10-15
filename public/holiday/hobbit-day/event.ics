@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Hobbit Day
+X-WR-CALNAME:Hobbit Day
+DESCRIPTION:Hobbit Day — https://todaycelebrates.com/holiday/hobbit-day/
+X-WR-CALDESC:Hobbit Day — https://todaycelebrates.com/holiday/hobbit-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hobbit-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/hobbit-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:hobbit-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:Hobbit Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Hobbit Day falls on September 22 and celebrates hobbit\, drawin
+ g attention across the United States to the natural world and our place in
+  it.\n\nhttps://todaycelebrates.com/holiday/hobbit-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hobbit-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

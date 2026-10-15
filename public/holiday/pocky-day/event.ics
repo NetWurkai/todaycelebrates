@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pocky Day
+X-WR-CALNAME:Pocky Day
+DESCRIPTION:Pocky Day — https://todaycelebrates.com/holiday/pocky-day/
+X-WR-CALDESC:Pocky Day — https://todaycelebrates.com/holiday/pocky-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pocky-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pocky-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pocky-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Pocky Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pocky Day is a food-focused observance celebrated across the Un
+ ited States on November 11\, giving fans of the dish or ingredient an excu
+ se to seek it out and share it with others.\n\nhttps://todaycelebrates.com
+ /holiday/pocky-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pocky-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

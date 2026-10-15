@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bologna Day
+X-WR-CALNAME:National Bologna Day
+DESCRIPTION:National Bologna Day — https://todaycelebrates.com/holiday/na
+ tional-bologna-day/
+X-WR-CALDESC:National Bologna Day — https://todaycelebrates.com/holiday/n
+ ational-bologna-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bologna-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bologna-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bologna-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:National Bologna Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bologna Day is observed across the United States on Oc
+ tober 24\, a small but fun addition to the calendar worth celebrating in i
+ ts own way.\n\nhttps://todaycelebrates.com/holiday/national-bologna-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bologna-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Big Word Day
+X-WR-CALNAME:Big Word Day
+DESCRIPTION:Big Word Day — https://todaycelebrates.com/holiday/big-word-d
+ ay/
+X-WR-CALDESC:Big Word Day — https://todaycelebrates.com/holiday/big-word-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/big-word-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/big-word-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:big-word-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:Big Word Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Big Word Day is a reading- and writing-focused observance on Ap
+ ril 21\, celebrated by book lovers across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/big-word-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/big-word-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

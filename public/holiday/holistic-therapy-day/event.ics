@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Holistic Therapy Day
+X-WR-CALNAME:Holistic Therapy Day
+DESCRIPTION:Holistic Therapy Day — https://todaycelebrates.com/holiday/ho
+ listic-therapy-day/
+X-WR-CALDESC:Holistic Therapy Day — https://todaycelebrates.com/holiday/h
+ olistic-therapy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holistic-therapy-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/holistic-therapy-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:holistic-therapy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270727
+SUMMARY:Holistic Therapy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Holistic Therapy Day\, observed on July 26\, encourages people 
+ across the United States to focus on health and wellbeing.\n\nhttps://toda
+ ycelebrates.com/holiday/holistic-therapy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/holistic-therapy-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

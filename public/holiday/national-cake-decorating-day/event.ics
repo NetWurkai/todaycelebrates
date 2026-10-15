@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cake Decorating Day
+X-WR-CALNAME:National Cake Decorating Day
+DESCRIPTION:National Cake Decorating Day — https://todaycelebrates.com/ho
+ liday/national-cake-decorating-day/
+X-WR-CALDESC:National Cake Decorating Day — https://todaycelebrates.com/h
+ oliday/national-cake-decorating-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cake-decorating-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cake-decorati
+ ng-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cake-decorating-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:National Cake Decorating Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 10\, National Cake Decorating Day gives people acros
+ s the United States one more reason to mark the day and celebrate cake dec
+ orating.\n\nhttps://todaycelebrates.com/holiday/national-cake-decorating-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cake-decorating-
+ day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

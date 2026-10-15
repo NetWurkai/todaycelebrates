@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Vitamin C Day
+X-WR-CALNAME:National Vitamin C Day
+DESCRIPTION:National Vitamin C Day — https://todaycelebrates.com/holiday/
+ national-vitamin-c-day/
+X-WR-CALDESC:National Vitamin C Day — https://todaycelebrates.com/holiday
+ /national-vitamin-c-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-vitamin-c-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-vitamin-c-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-vitamin-c-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:National Vitamin C Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Vitamin C Day\, observed on April 4\, encourages peopl
+ e across the United States to focus on health and wellbeing.\n\nhttps://to
+ daycelebrates.com/holiday/national-vitamin-c-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-vitamin-c-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

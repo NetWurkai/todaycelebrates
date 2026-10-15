@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chocolate Cupcake Day
+X-WR-CALNAME:National Chocolate Cupcake Day
+DESCRIPTION:National Chocolate Cupcake Day — https://todaycelebrates.com/
+ holiday/national-chocolate-cupcake-day/
+X-WR-CALDESC:National Chocolate Cupcake Day — https://todaycelebrates.com
+ /holiday/national-chocolate-cupcake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-cupcak
+ e-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-cup
+ cake-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chocolate-cupcake-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:National Chocolate Cupcake Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for October 18: National Chocolate Cupcake D
+ ay invites food lovers across the United States to celebrate everything ab
+ out chocolate cupcake\, whether that means cooking it at home or treating 
+ yourself at a favorite spot.\n\nhttps://todaycelebrates.com/holiday/nation
+ al-chocolate-cupcake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-cupcak
+ e-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

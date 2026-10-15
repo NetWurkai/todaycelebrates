@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Skip the Straw Day
+X-WR-CALNAME:National Skip the Straw Day
+DESCRIPTION:National Skip the Straw Day — https://todaycelebrates.com/hol
+ iday/national-skip-the-straw-day/
+X-WR-CALDESC:National Skip the Straw Day — https://todaycelebrates.com/ho
+ liday/national-skip-the-straw-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-skip-the-straw-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-skip-the-stra
+ w-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-skip-the-straw-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:National Skip the Straw Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Skip the Straw Day is a nature-focused observance on F
+ ebruary 26\, celebrated across the United States to draw attention to the 
+ plant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.co
+ m/holiday/national-skip-the-straw-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-skip-the-straw-d
+ ay/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Milk Day
+X-WR-CALNAME:National Milk Day
+DESCRIPTION:National Milk Day — https://todaycelebrates.com/holiday/natio
+ nal-milk-day/
+X-WR-CALDESC:National Milk Day — https://todaycelebrates.com/holiday/nati
+ onal-milk-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-milk-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-milk-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-milk-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:National Milk Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Milk Day is a food-focused observance celebrated acros
+ s the United States on January 11\, giving fans of the dish or ingredient 
+ an excuse to seek it out and share it with others.\n\nhttps://todaycelebra
+ tes.com/holiday/national-milk-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-milk-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

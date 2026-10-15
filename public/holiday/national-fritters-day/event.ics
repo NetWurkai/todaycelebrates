@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Fritters Day
+X-WR-CALNAME:National Fritters Day
+DESCRIPTION:National Fritters Day — https://todaycelebrates.com/holiday/n
+ ational-fritters-day/
+X-WR-CALDESC:National Fritters Day — https://todaycelebrates.com/holiday/
+ national-fritters-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fritters-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-fritters-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-fritters-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:National Fritters Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Fritters Day is a food-focused observance celebrated a
+ cross the United States on December 2\, giving fans of the dish or ingredi
+ ent an excuse to seek it out and share it with others.\n\nhttps://todaycel
+ ebrates.com/holiday/national-fritters-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fritters-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

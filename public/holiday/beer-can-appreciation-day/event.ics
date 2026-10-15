@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Beer Can Appreciation Day
+X-WR-CALNAME:Beer Can Appreciation Day
+DESCRIPTION:Beer Can Appreciation Day — https://todaycelebrates.com/holid
+ ay/beer-can-appreciation-day/
+X-WR-CALDESC:Beer Can Appreciation Day — https://todaycelebrates.com/holi
+ day/beer-can-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beer-can-appreciation-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/beer-can-appreciation-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:beer-can-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Beer Can Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Beer Can Appreciation Day is a drinks-focused observance on Jan
+ uary 24\, celebrated by beer and craft-brewery fans across the United Stat
+ es.\n\nhttps://todaycelebrates.com/holiday/beer-can-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beer-can-appreciation-day
+ /
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

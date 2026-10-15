@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Brown Butter Day
+X-WR-CALNAME:National Brown Butter Day
+DESCRIPTION:National Brown Butter Day — https://todaycelebrates.com/holid
+ ay/national-brown-butter-day/
+X-WR-CALDESC:National Brown Butter Day — https://todaycelebrates.com/holi
+ day/national-brown-butter-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-brown-butter-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-brown-butter-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-brown-butter-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:National Brown Butter Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 22\, National Brown Butter Day gives people across
+  the United States one more reason to mark the day and celebrate brown but
+ ter.\n\nhttps://todaycelebrates.com/holiday/national-brown-butter-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-brown-butter-day
+ /
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Learn About Butterflies Day
+X-WR-CALNAME:Learn About Butterflies Day
+DESCRIPTION:Learn About Butterflies Day — https://todaycelebrates.com/hol
+ iday/learn-about-butterflies-day/
+X-WR-CALDESC:Learn About Butterflies Day — https://todaycelebrates.com/ho
+ liday/learn-about-butterflies-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/learn-about-butterflies-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/learn-about-butterflie
+ s-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:learn-about-butterflies-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Learn About Butterflies Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Learn About Butterflies Day is a nature-focused observance on M
+ arch 14\, celebrated across the United States to draw attention to the pla
+ nt\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/h
+ oliday/learn-about-butterflies-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/learn-about-butterflies-d
+ ay/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

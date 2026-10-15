@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chia Day
+X-WR-CALNAME:National Chia Day
+DESCRIPTION:National Chia Day — https://todaycelebrates.com/holiday/natio
+ nal-chia-day/
+X-WR-CALDESC:National Chia Day — https://todaycelebrates.com/holiday/nati
+ onal-chia-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chia-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chia-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chia-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:National Chia Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chia Day is a food-focused observance celebrated acros
+ s the United States on March 23\, giving fans of the dish or ingredient an
+  excuse to seek it out and share it with others.\n\nhttps://todaycelebrate
+ s.com/holiday/national-chia-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chia-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

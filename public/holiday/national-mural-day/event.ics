@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Mural Day
+X-WR-CALNAME:National Mural Day
+DESCRIPTION:National Mural Day — https://todaycelebrates.com/holiday/nati
+ onal-mural-day/
+X-WR-CALDESC:National Mural Day — https://todaycelebrates.com/holiday/nat
+ ional-mural-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mural-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mural-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mural-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:National Mural Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mural Day\, observed on May 7\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/national-mural-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mural-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

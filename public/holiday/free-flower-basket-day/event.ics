@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Free Flower Basket Day
+X-WR-CALNAME:Free Flower Basket Day
+DESCRIPTION:Free Flower Basket Day — https://todaycelebrates.com/holiday/
+ free-flower-basket-day/
+X-WR-CALDESC:Free Flower Basket Day — https://todaycelebrates.com/holiday
+ /free-flower-basket-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/free-flower-basket-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/free-flower-basket-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:free-flower-basket-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Free Flower Basket Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Free Flower Basket Day is a nature-focused observance on Januar
+ y 4\, celebrated across the United States to draw attention to the plant\,
+  animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holid
+ ay/free-flower-basket-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/free-flower-basket-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

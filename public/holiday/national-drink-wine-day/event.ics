@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Drink Wine Day
+X-WR-CALNAME:National Drink Wine Day
+DESCRIPTION:National Drink Wine Day — https://todaycelebrates.com/holiday
+ /national-drink-wine-day/
+X-WR-CALDESC:National Drink Wine Day — https://todaycelebrates.com/holida
+ y/national-drink-wine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-drink-wine-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-drink-wine-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-drink-wine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:National Drink Wine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Drink Wine Day is a drinks-focused observance on Febru
+ ary 18\, celebrated by beer and craft-brewery fans across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/national-drink-wine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-drink-wine-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

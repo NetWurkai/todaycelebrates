@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Juggling Day
+X-WR-CALNAME:World Juggling Day
+DESCRIPTION:World Juggling Day — https://todaycelebrates.com/holiday/worl
+ d-juggling-day/
+X-WR-CALDESC:World Juggling Day — https://todaycelebrates.com/holiday/wor
+ ld-juggling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-juggling-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-juggling-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-juggling-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:World Juggling Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Juggling Day\, observed on June 19\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/world-juggling-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-juggling-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

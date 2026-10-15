@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day for the Elderly
+X-WR-CALNAME:International Day for the Elderly
+DESCRIPTION:International Day for the Elderly — https://todaycelebrates.c
+ om/holiday/international-day-for-the-elderly/
+X-WR-CALDESC:International Day for the Elderly — https://todaycelebrates.
+ com/holiday/international-day-for-the-elderly/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-the
+ -elderly/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-
+ the-elderly/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-for-the-elderly@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:International Day for the Elderly
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day for the Elderly is observed around the world 
+ on October 1\, a small but fun addition to the calendar worth celebrating 
+ in its own way.\n\nhttps://todaycelebrates.com/holiday/international-day-f
+ or-the-elderly/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-the
+ -elderly/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:College Radio Day
+X-WR-CALNAME:College Radio Day
+DESCRIPTION:College Radio Day — https://todaycelebrates.com/holiday/colle
+ ge-radio-day/
+X-WR-CALDESC:College Radio Day — https://todaycelebrates.com/holiday/coll
+ ege-radio-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/college-radio-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/college-radio-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:college-radio-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:College Radio Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:College Radio Day is observed across the United States on Octob
+ er 2\, a small but fun addition to the calendar worth celebrating in its o
+ wn way.\n\nhttps://todaycelebrates.com/holiday/college-radio-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/college-radio-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

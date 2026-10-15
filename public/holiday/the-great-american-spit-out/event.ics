@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:The Great American Spit Out
+X-WR-CALNAME:The Great American Spit Out
+DESCRIPTION:The Great American Spit Out — https://todaycelebrates.com/hol
+ iday/the-great-american-spit-out/
+X-WR-CALDESC:The Great American Spit Out — https://todaycelebrates.com/ho
+ liday/the-great-american-spit-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-great-american-spit-o
+ ut/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/the-great-american-spi
+ t-out/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:the-great-american-spit-out@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:The Great American Spit Out
+RRULE:FREQ=YEARLY
+DESCRIPTION:The Great American Spit Out\, observed on February 25\, encoura
+ ges people across the United States to focus on health and wellbeing.\n\nh
+ ttps://todaycelebrates.com/holiday/the-great-american-spit-out/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-great-american-spit-o
+ ut/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

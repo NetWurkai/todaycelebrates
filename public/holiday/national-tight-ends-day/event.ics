@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Tight Ends Day
+X-WR-CALNAME:National Tight Ends Day
+DESCRIPTION:National Tight Ends Day — https://todaycelebrates.com/holiday
+ /national-tight-ends-day/
+X-WR-CALDESC:National Tight Ends Day — https://todaycelebrates.com/holida
+ y/national-tight-ends-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tight-ends-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-tight-ends-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-tight-ends-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:National Tight Ends Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 25\, National Tight Ends Day gives people across the
+  United States one more reason to mark the day and celebrate tight ends.\n
+ \nhttps://todaycelebrates.com/holiday/national-tight-ends-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tight-ends-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

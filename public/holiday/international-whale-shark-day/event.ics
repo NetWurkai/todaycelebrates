@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Whale Shark Day
+X-WR-CALNAME:International Whale Shark Day
+DESCRIPTION:International Whale Shark Day — https://todaycelebrates.com/h
+ oliday/international-whale-shark-day/
+X-WR-CALDESC:International Whale Shark Day — https://todaycelebrates.com/
+ holiday/international-whale-shark-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-whale-shark
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-whale-sh
+ ark-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-whale-shark-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270831
+SUMMARY:International Whale Shark Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Whale Shark Day is a nature-focused observance on
+  August 30\, celebrated across the United States to draw attention to the 
+ plant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.co
+ m/holiday/international-whale-shark-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-whale-shark
+ -day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

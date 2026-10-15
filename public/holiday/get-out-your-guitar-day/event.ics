@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Get Out Your Guitar Day
+X-WR-CALNAME:Get Out Your Guitar Day
+DESCRIPTION:Get Out Your Guitar Day — https://todaycelebrates.com/holiday
+ /get-out-your-guitar-day/
+X-WR-CALDESC:Get Out Your Guitar Day — https://todaycelebrates.com/holida
+ y/get-out-your-guitar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/get-out-your-guitar-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/get-out-your-guitar-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:get-out-your-guitar-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Get Out Your Guitar Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Get Out Your Guitar Day is a music-focused observance on Februa
+ ry 11\, celebrated by fans across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/get-out-your-guitar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/get-out-your-guitar-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

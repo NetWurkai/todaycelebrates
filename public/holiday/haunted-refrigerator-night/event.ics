@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Haunted Refrigerator Night
+X-WR-CALNAME:Haunted Refrigerator Night
+DESCRIPTION:Haunted Refrigerator Night — https://todaycelebrates.com/holi
+ day/haunted-refrigerator-night/
+X-WR-CALDESC:Haunted Refrigerator Night — https://todaycelebrates.com/hol
+ iday/haunted-refrigerator-night/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/haunted-refrigerator-nigh
+ t/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/haunted-refrigerator-n
+ ight/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:haunted-refrigerator-night@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Haunted Refrigerator Night
+RRULE:FREQ=YEARLY
+DESCRIPTION:Haunted Refrigerator Night is one of the spookier stops on the 
+ October calendar\, celebrated on October 30 in the run-up to Halloween.\n\
+ nhttps://todaycelebrates.com/holiday/haunted-refrigerator-night/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/haunted-refrigerator-nigh
+ t/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

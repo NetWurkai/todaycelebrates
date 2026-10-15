@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Real Sugar Day
+X-WR-CALNAME:National Real Sugar Day
+DESCRIPTION:National Real Sugar Day — https://todaycelebrates.com/holiday
+ /national-real-sugar-day/
+X-WR-CALDESC:National Real Sugar Day — https://todaycelebrates.com/holida
+ y/national-real-sugar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-real-sugar-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-real-sugar-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-real-sugar-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+SUMMARY:National Real Sugar Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Real Sugar Day is observed across the United States on
+  October 14\, a small but fun addition to the calendar worth celebrating i
+ n its own way.\n\nhttps://todaycelebrates.com/holiday/national-real-sugar-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-real-sugar-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

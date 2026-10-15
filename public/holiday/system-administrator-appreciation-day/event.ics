@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:System Administrator Appreciation Day
+X-WR-CALNAME:System Administrator Appreciation Day
+DESCRIPTION:System Administrator Appreciation Day — https://todaycelebrat
+ es.com/holiday/system-administrator-appreciation-day/
+X-WR-CALDESC:System Administrator Appreciation Day — https://todaycelebra
+ tes.com/holiday/system-administrator-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/system-administrator-appr
+ eciation-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/system-administrator-a
+ ppreciation-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:system-administrator-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:System Administrator Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:System Administrator Appreciation Day\, observed on July 30\, c
+ elebrates a piece of technology or digital culture that's become part of e
+ veryday life across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/system-administrator-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/system-administrator-appr
+ eciation-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

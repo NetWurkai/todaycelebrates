@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Dance Day
+X-WR-CALNAME:International Dance Day
+DESCRIPTION:International Dance Day — https://todaycelebrates.com/holiday
+ /international-dance-day/
+X-WR-CALDESC:International Dance Day — https://todaycelebrates.com/holida
+ y/international-dance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-dance-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-dance-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-dance-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:International Dance Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Dance Day is a music-focused observance on April 
+ 29\, celebrated by fans across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/international-dance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-dance-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

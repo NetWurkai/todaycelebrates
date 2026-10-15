@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Fibromyalgia Awareness Day
+X-WR-CALNAME:National Fibromyalgia Awareness Day
+DESCRIPTION:National Fibromyalgia Awareness Day — https://todaycelebrates
+ .com/holiday/national-fibromyalgia-awareness-day/
+X-WR-CALDESC:National Fibromyalgia Awareness Day — https://todaycelebrate
+ s.com/holiday/national-fibromyalgia-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fibromyalgia-awa
+ reness-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-fibromyalgia-
+ awareness-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-fibromyalgia-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:National Fibromyalgia Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Fibromyalgia Awareness Day\, observed on May 12\, enco
+ urages people across the United States to focus on health and wellbeing.\n
+ \nhttps://todaycelebrates.com/holiday/national-fibromyalgia-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fibromyalgia-awa
+ reness-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

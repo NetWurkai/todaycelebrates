@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Hazelnut Cake Day
+X-WR-CALNAME:National Hazelnut Cake Day
+DESCRIPTION:National Hazelnut Cake Day — https://todaycelebrates.com/holi
+ day/national-hazelnut-cake-day/
+X-WR-CALDESC:National Hazelnut Cake Day — https://todaycelebrates.com/hol
+ iday/national-hazelnut-cake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hazelnut-cake-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-hazelnut-cake
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-hazelnut-cake-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:National Hazelnut Cake Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hazelnut Cake Day is a food-focused observance celebra
+ ted across the United States on June 1\, giving fans of the dish or ingred
+ ient an excuse to seek it out and share it with others.\n\nhttps://todayce
+ lebrates.com/holiday/national-hazelnut-cake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hazelnut-cake-da
+ y/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

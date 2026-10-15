@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Coconut Day
+X-WR-CALNAME:World Coconut Day
+DESCRIPTION:World Coconut Day — https://todaycelebrates.com/holiday/world
+ -coconut-day/
+X-WR-CALDESC:World Coconut Day — https://todaycelebrates.com/holiday/worl
+ d-coconut-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-coconut-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-coconut-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-coconut-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270902
+DTEND;VALUE=DATE:20270903
+SUMMARY:World Coconut Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for September 2: World Coconut Day invites f
+ ood lovers around the globe to celebrate everything about coconut\, whethe
+ r that means cooking it at home or treating yourself at a favorite spot.\n
+ \nhttps://todaycelebrates.com/holiday/world-coconut-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-coconut-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

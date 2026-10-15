@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Spine Day
+X-WR-CALNAME:World Spine Day
+DESCRIPTION:World Spine Day — https://todaycelebrates.com/holiday/world-s
+ pine-day/
+X-WR-CALDESC:World Spine Day — https://todaycelebrates.com/holiday/world-
+ spine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-spine-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-spine-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-spine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:World Spine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 16\, World Spine Day gives people around the globe o
+ ne more reason to mark the day and celebrate spine.\n\nhttps://todaycelebr
+ ates.com/holiday/world-spine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-spine-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

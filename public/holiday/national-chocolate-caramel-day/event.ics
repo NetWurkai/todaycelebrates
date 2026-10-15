@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chocolate Caramel Day
+X-WR-CALNAME:National Chocolate Caramel Day
+DESCRIPTION:National Chocolate Caramel Day — https://todaycelebrates.com/
+ holiday/national-chocolate-caramel-day/
+X-WR-CALDESC:National Chocolate Caramel Day — https://todaycelebrates.com
+ /holiday/national-chocolate-caramel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-carame
+ l-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-car
+ amel-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chocolate-caramel-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:National Chocolate Caramel Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chocolate Caramel Day is a food-focused observance cel
+ ebrated across the United States on March 19\, giving fans of the dish or 
+ ingredient an excuse to seek it out and share it with others.\n\nhttps://t
+ odaycelebrates.com/holiday/national-chocolate-caramel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-carame
+ l-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Frankenstein Day
+X-WR-CALNAME:National Frankenstein Day
+DESCRIPTION:National Frankenstein Day — https://todaycelebrates.com/holid
+ ay/national-frankenstein-day/
+X-WR-CALDESC:National Frankenstein Day — https://todaycelebrates.com/holi
+ day/national-frankenstein-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-frankenstein-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-frankenstein-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-frankenstein-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:National Frankenstein Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Frankenstein Day honors Mary Shelley's birthday and he
+ r novel Frankenstein\, the gothic classic that gave rise to one of literat
+ ure's most enduring monsters.\n\nhttps://todaycelebrates.com/holiday/natio
+ nal-frankenstein-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-frankenstein-day
+ /
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

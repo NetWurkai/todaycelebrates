@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Milk Day
+X-WR-CALNAME:World Milk Day
+DESCRIPTION:World Milk Day — https://todaycelebrates.com/holiday/world-mi
+ lk-day/
+X-WR-CALDESC:World Milk Day — https://todaycelebrates.com/holiday/world-m
+ ilk-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-milk-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-milk-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-milk-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:World Milk Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Milk Day is a food-focused observance celebrated across t
+ he United States on June 1\, giving fans of the dish or ingredient an excu
+ se to seek it out and share it with others.\n\nhttps://todaycelebrates.com
+ /holiday/world-milk-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-milk-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

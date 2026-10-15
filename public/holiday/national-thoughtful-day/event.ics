@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Thoughtful Day
+X-WR-CALNAME:National Thoughtful Day
+DESCRIPTION:National Thoughtful Day — https://todaycelebrates.com/holiday
+ /national-thoughtful-day/
+X-WR-CALDESC:National Thoughtful Day — https://todaycelebrates.com/holida
+ y/national-thoughtful-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-thoughtful-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-thoughtful-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-thoughtful-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:National Thoughtful Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Thoughtful Day\, observed on August 28\, is a lighthea
+ rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/national-thoughtful-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-thoughtful-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

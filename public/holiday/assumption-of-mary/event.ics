@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Assumption of Mary
+X-WR-CALNAME:Assumption of Mary
+DESCRIPTION:Assumption of Mary — https://todaycelebrates.com/holiday/assu
+ mption-of-mary/
+X-WR-CALDESC:Assumption of Mary — https://todaycelebrates.com/holiday/ass
+ umption-of-mary/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/assumption-of-mary/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/assumption-of-mary/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:assumption-of-mary@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:Assumption of Mary
+RRULE:FREQ=YEARLY
+DESCRIPTION:Assumption of Mary\, observed on August 15\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/assumption-of-mary/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/assumption-of-mary/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

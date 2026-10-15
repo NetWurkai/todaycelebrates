@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day for Tolerance
+X-WR-CALNAME:International Day for Tolerance
+DESCRIPTION:International Day for Tolerance — https://todaycelebrates.com
+ /holiday/international-day-for-tolerance/
+X-WR-CALDESC:International Day for Tolerance — https://todaycelebrates.co
+ m/holiday/international-day-for-tolerance/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-tol
+ erance/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-
+ tolerance/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-for-tolerance@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:International Day for Tolerance
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day for Tolerance\, observed on November 16\, enc
+ ourages people across the United States to pause and recognize the people 
+ and causes behind the day.\n\nhttps://todaycelebrates.com/holiday/internat
+ ional-day-for-tolerance/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-tol
+ erance/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

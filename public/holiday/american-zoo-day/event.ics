@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:American Zoo Day
+X-WR-CALNAME:American Zoo Day
+DESCRIPTION:American Zoo Day — https://todaycelebrates.com/holiday/americ
+ an-zoo-day/
+X-WR-CALDESC:American Zoo Day — https://todaycelebrates.com/holiday/ameri
+ can-zoo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-zoo-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/american-zoo-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:american-zoo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:American Zoo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:American Zoo Day is a nature-focused observance on July 1\, cel
+ ebrated across the United States to draw attention to the plant\, animal\,
+  or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/americ
+ an-zoo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-zoo-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

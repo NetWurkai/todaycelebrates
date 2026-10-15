@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Clean Your Floors Day
+X-WR-CALNAME:Clean Your Floors Day
+DESCRIPTION:Clean Your Floors Day — https://todaycelebrates.com/holiday/c
+ lean-your-floors-day/
+X-WR-CALDESC:Clean Your Floors Day — https://todaycelebrates.com/holiday/
+ clean-your-floors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/clean-your-floors-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/clean-your-floors-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:clean-your-floors-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270803
+DTEND;VALUE=DATE:20270804
+SUMMARY:Clean Your Floors Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Clean Your Floors Day\, observed on August 3\, is a lighthearte
+ d holiday celebrated across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/clean-your-floors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/clean-your-floors-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

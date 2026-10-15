@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Museum Lover's Day
+X-WR-CALNAME:Museum Lover's Day
+DESCRIPTION:Museum Lover's Day — https://todaycelebrates.com/holiday/muse
+ um-lovers-day/
+X-WR-CALDESC:Museum Lover's Day — https://todaycelebrates.com/holiday/mus
+ eum-lovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/museum-lovers-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/museum-lovers-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:museum-lovers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:Museum Lover's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Museum Lover's Day\, observed on May 5\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/museum-lovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/museum-lovers-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

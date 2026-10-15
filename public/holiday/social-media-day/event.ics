@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Social Media Day
+X-WR-CALNAME:Social Media Day
+DESCRIPTION:Social Media Day — https://todaycelebrates.com/holiday/social
+ -media-day/
+X-WR-CALDESC:Social Media Day — https://todaycelebrates.com/holiday/socia
+ l-media-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/social-media-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/social-media-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:social-media-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Social Media Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Social Media Day\, observed on June 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/social-media-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/social-media-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

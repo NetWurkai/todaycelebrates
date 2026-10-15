@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Morse Code Day
+X-WR-CALNAME:Morse Code Day
+DESCRIPTION:Morse Code Day — https://todaycelebrates.com/holiday/morse-co
+ de-day/
+X-WR-CALDESC:Morse Code Day — https://todaycelebrates.com/holiday/morse-c
+ ode-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/morse-code-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/morse-code-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:morse-code-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Morse Code Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Morse Code Day\, observed on April 27\, celebrates a piece of t
+ echnology or digital culture that's become part of everyday life across th
+ e United States.\n\nhttps://todaycelebrates.com/holiday/morse-code-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/morse-code-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

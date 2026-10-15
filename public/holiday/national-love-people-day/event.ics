@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Love People Day
+X-WR-CALNAME:National Love People Day
+DESCRIPTION:National Love People Day — https://todaycelebrates.com/holida
+ y/national-love-people-day/
+X-WR-CALDESC:National Love People Day — https://todaycelebrates.com/holid
+ ay/national-love-people-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-love-people-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-love-people-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-love-people-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:National Love People Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Love People Day is observed across the United States o
+ n September 30\, a small but fun addition to the calendar worth celebratin
+ g in its own way.\n\nhttps://todaycelebrates.com/holiday/national-love-peo
+ ple-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-love-people-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

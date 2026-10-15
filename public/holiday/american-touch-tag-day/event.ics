@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:American Touch Tag Day
+X-WR-CALNAME:American Touch Tag Day
+DESCRIPTION:American Touch Tag Day — https://todaycelebrates.com/holiday/
+ american-touch-tag-day/
+X-WR-CALDESC:American Touch Tag Day — https://todaycelebrates.com/holiday
+ /american-touch-tag-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-touch-tag-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/american-touch-tag-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:american-touch-tag-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+SUMMARY:American Touch Tag Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 8\, American Touch Tag Day gives people across the U
+ nited States one more reason to mark the day and celebrate touch tag.\n\nh
+ ttps://todaycelebrates.com/holiday/american-touch-tag-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-touch-tag-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

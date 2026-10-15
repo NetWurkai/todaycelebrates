@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Play Music on the Porch Day
+X-WR-CALNAME:Play Music on the Porch Day
+DESCRIPTION:Play Music on the Porch Day — https://todaycelebrates.com/hol
+ iday/play-music-on-the-porch-day/
+X-WR-CALDESC:Play Music on the Porch Day — https://todaycelebrates.com/ho
+ liday/play-music-on-the-porch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/play-music-on-the-porch-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/play-music-on-the-porc
+ h-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:play-music-on-the-porch-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:Play Music on the Porch Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Play Music on the Porch Day is a music-focused observance on Au
+ gust 28\, celebrated by fans across the United States.\n\nhttps://todaycel
+ ebrates.com/holiday/play-music-on-the-porch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/play-music-on-the-porch-d
+ ay/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

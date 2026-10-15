@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pioneer Day
+X-WR-CALNAME:Pioneer Day
+DESCRIPTION:Pioneer Day — https://todaycelebrates.com/holiday/pioneer-day
+ /
+X-WR-CALDESC:Pioneer Day — https://todaycelebrates.com/holiday/pioneer-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pioneer-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pioneer-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pioneer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:Pioneer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pioneer Day\, observed on July 24\, encourages people across th
+ e United States to pause and recognize the people and causes behind the da
+ y.\n\nhttps://todaycelebrates.com/holiday/pioneer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pioneer-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

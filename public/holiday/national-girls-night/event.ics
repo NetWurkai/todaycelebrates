@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Girls' Night
+X-WR-CALNAME:National Girls' Night
+DESCRIPTION:National Girls' Night — https://todaycelebrates.com/holiday/n
+ ational-girls-night/
+X-WR-CALDESC:National Girls' Night — https://todaycelebrates.com/holiday/
+ national-girls-night/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-girls-night/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-girls-night/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-girls-night@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:National Girls' Night
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Girls' Night falls on September 22 and celebrates girl
+ s' night\, drawing attention across the United States to the natural world
+  and our place in it.\n\nhttps://todaycelebrates.com/holiday/national-girl
+ s-night/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-girls-night/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

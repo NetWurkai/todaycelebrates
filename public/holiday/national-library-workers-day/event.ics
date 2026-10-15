@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Library Workers Day
+X-WR-CALNAME:National Library Workers Day
+DESCRIPTION:National Library Workers Day — https://todaycelebrates.com/ho
+ liday/national-library-workers-day/
+X-WR-CALDESC:National Library Workers Day — https://todaycelebrates.com/h
+ oliday/national-library-workers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-library-workers-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-library-worke
+ rs-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-library-workers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:National Library Workers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Library Workers Day is a reading- and writing-focused 
+ observance on April 13\, celebrated by book lovers across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/national-library-workers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-library-workers-
+ day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

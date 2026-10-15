@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National AI in Work Day
+X-WR-CALNAME:National AI in Work Day
+DESCRIPTION:National AI in Work Day — https://todaycelebrates.com/holiday
+ /national-ai-in-work-day/
+X-WR-CALDESC:National AI in Work Day — https://todaycelebrates.com/holida
+ y/national-ai-in-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ai-in-work-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-ai-in-work-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-ai-in-work-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:National AI in Work Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National AI in Work Day\, marked on September 30\, celebrates a
+ i in work and its growing role in everyday life across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/national-ai-in-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ai-in-work-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

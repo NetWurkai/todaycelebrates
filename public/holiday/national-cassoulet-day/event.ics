@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cassoulet Day
+X-WR-CALNAME:National Cassoulet Day
+DESCRIPTION:National Cassoulet Day — https://todaycelebrates.com/holiday/
+ national-cassoulet-day/
+X-WR-CALDESC:National Cassoulet Day — https://todaycelebrates.com/holiday
+ /national-cassoulet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cassoulet-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cassoulet-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cassoulet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:National Cassoulet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cassoulet Day is a food-focused observance celebrated 
+ across the United States on January 9\, giving fans of the dish or ingredi
+ ent an excuse to seek it out and share it with others.\n\nhttps://todaycel
+ ebrates.com/holiday/national-cassoulet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cassoulet-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

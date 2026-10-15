@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day for Universal Access to Information
+X-WR-CALNAME:International Day for Universal Access to Information
+DESCRIPTION:International Day for Universal Access to Information — https
+ ://todaycelebrates.com/holiday/international-day-for-universal-access-to-i
+ nformation/
+X-WR-CALDESC:International Day for Universal Access to Information — http
+ s://todaycelebrates.com/holiday/international-day-for-universal-access-to-
+ information/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-uni
+ versal-access-to-information/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-
+ universal-access-to-information/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-for-universal-access-to-information@todaycelebrates.c
+ om
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+SUMMARY:International Day for Universal Access to Information
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day for Universal Access to Information is observ
+ ed around the world on September 28\, a small but fun addition to the cale
+ ndar worth celebrating in its own way.\n\nhttps://todaycelebrates.com/holi
+ day/international-day-for-universal-access-to-information/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-uni
+ versal-access-to-information/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Frankenstein Day
+X-WR-CALNAME:Frankenstein Day
+DESCRIPTION:Frankenstein Day — https://todaycelebrates.com/holiday/franke
+ nstein-day/
+X-WR-CALDESC:Frankenstein Day — https://todaycelebrates.com/holiday/frank
+ enstein-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/frankenstein-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/frankenstein-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:frankenstein-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270831
+SUMMARY:Frankenstein Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Frankenstein Day\, observed on August 30\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/frankenstein-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/frankenstein-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

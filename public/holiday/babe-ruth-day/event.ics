@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Babe Ruth Day
+X-WR-CALNAME:Babe Ruth Day
+DESCRIPTION:Babe Ruth Day — https://todaycelebrates.com/holiday/babe-ruth
+ -day/
+X-WR-CALDESC:Babe Ruth Day — https://todaycelebrates.com/holiday/babe-rut
+ h-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/babe-ruth-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/babe-ruth-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:babe-ruth-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Babe Ruth Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Babe Ruth Day\, observed on April 27\, is celebrated by sports 
+ fans across the United States.\n\nhttps://todaycelebrates.com/holiday/babe
+ -ruth-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/babe-ruth-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

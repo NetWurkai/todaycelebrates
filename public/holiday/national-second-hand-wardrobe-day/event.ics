@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Second-hand Wardrobe Day
+X-WR-CALNAME:National Second-hand Wardrobe Day
+DESCRIPTION:National Second-hand Wardrobe Day — https://todaycelebrates.c
+ om/holiday/national-second-hand-wardrobe-day/
+X-WR-CALDESC:National Second-hand Wardrobe Day — https://todaycelebrates.
+ com/holiday/national-second-hand-wardrobe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-second-hand-ward
+ robe-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-second-hand-w
+ ardrobe-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-second-hand-wardrobe-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:National Second-hand Wardrobe Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Second-hand Wardrobe Day\, observed on August 25\, is 
+ a lighthearted holiday celebrated across the United States.\n\nhttps://tod
+ aycelebrates.com/holiday/national-second-hand-wardrobe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-second-hand-ward
+ robe-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

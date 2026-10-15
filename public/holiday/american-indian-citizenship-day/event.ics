@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:American Indian Citizenship Day
+X-WR-CALNAME:American Indian Citizenship Day
+DESCRIPTION:American Indian Citizenship Day — https://todaycelebrates.com
+ /holiday/american-indian-citizenship-day/
+X-WR-CALDESC:American Indian Citizenship Day — https://todaycelebrates.co
+ m/holiday/american-indian-citizenship-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-indian-citizensh
+ ip-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/american-indian-citize
+ nship-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:american-indian-citizenship-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:American Indian Citizenship Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:American Indian Citizenship Day\, observed on June 2\, encourag
+ es people across the United States to pause and recognize the people and c
+ auses behind the day.\n\nhttps://todaycelebrates.com/holiday/american-indi
+ an-citizenship-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-indian-citizensh
+ ip-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

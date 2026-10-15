@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Jeep 4x4 Day
+X-WR-CALNAME:Jeep 4x4 Day
+DESCRIPTION:Jeep 4x4 Day — https://todaycelebrates.com/holiday/jeep-4x4-d
+ ay/
+X-WR-CALDESC:Jeep 4x4 Day — https://todaycelebrates.com/holiday/jeep-4x4-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/jeep-4x4-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/jeep-4x4-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:jeep-4x4-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Jeep 4x4 Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Jeep 4x4 Day\, observed on April 4\, is a lighthearted holiday 
+ celebrated across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/jeep-4x4-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/jeep-4x4-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

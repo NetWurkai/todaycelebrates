@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:School Lunch Hero Day
+X-WR-CALNAME:School Lunch Hero Day
+DESCRIPTION:School Lunch Hero Day — https://todaycelebrates.com/holiday/s
+ chool-lunch-hero-day/
+X-WR-CALDESC:School Lunch Hero Day — https://todaycelebrates.com/holiday/
+ school-lunch-hero-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/school-lunch-hero-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/school-lunch-hero-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:school-lunch-hero-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:School Lunch Hero Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:School Lunch Hero Day\, observed on May 7\, is a lighthearted\,
+  family-friendly day celebrated across the United States.\n\nhttps://today
+ celebrates.com/holiday/school-lunch-hero-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/school-lunch-hero-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

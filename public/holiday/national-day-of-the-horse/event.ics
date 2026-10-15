@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Day of the Horse
+X-WR-CALNAME:National Day of the Horse
+DESCRIPTION:National Day of the Horse — https://todaycelebrates.com/holid
+ ay/national-day-of-the-horse/
+X-WR-CALDESC:National Day of the Horse — https://todaycelebrates.com/holi
+ day/national-day-of-the-horse/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-the-horse
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-the-ho
+ rse/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-day-of-the-horse@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:National Day of the Horse
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Day of the Horse is a nature-focused observance on Dec
+ ember 13\, celebrated across the United States to draw attention to the pl
+ ant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/
+ holiday/national-day-of-the-horse/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-of-the-horse
+ /
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

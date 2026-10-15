@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Sunflower Day
+X-WR-CALNAME:National Sunflower Day
+DESCRIPTION:National Sunflower Day — https://todaycelebrates.com/holiday/
+ national-sunflower-day/
+X-WR-CALDESC:National Sunflower Day — https://todaycelebrates.com/holiday
+ /national-sunflower-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sunflower-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-sunflower-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-sunflower-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:National Sunflower Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sunflower Day is a nature-focused observance on August
+  7\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/national-sunflower-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sunflower-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

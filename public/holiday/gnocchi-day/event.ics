@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Gnocchi Day
+X-WR-CALNAME:Gnocchi Day
+DESCRIPTION:Gnocchi Day — https://todaycelebrates.com/holiday/gnocchi-day
+ /
+X-WR-CALDESC:Gnocchi Day — https://todaycelebrates.com/holiday/gnocchi-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/gnocchi-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/gnocchi-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:gnocchi-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Gnocchi Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Gnocchi Day is a food-focused observance celebrated across the 
+ United States on January 29\, giving fans of the dish or ingredient an exc
+ use to seek it out and share it with others.\n\nhttps://todaycelebrates.co
+ m/holiday/gnocchi-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/gnocchi-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

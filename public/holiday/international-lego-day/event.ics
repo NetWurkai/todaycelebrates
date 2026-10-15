@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International LEGO Day
+X-WR-CALNAME:International LEGO Day
+DESCRIPTION:International LEGO Day — https://todaycelebrates.com/holiday/
+ international-lego-day/
+X-WR-CALDESC:International LEGO Day — https://todaycelebrates.com/holiday
+ /international-lego-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-lego-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-lego-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-lego-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:International LEGO Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International LEGO Day\, observed on January 28\, is a lighthea
+ rted\, family-friendly day celebrated across the United States.\n\nhttps:/
+ /todaycelebrates.com/holiday/international-lego-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-lego-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

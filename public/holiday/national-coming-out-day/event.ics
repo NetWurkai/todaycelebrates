@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Coming Out Day
+X-WR-CALNAME:National Coming Out Day
+DESCRIPTION:National Coming Out Day — https://todaycelebrates.com/holiday
+ /national-coming-out-day/
+X-WR-CALDESC:National Coming Out Day — https://todaycelebrates.com/holida
+ y/national-coming-out-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coming-out-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-coming-out-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-coming-out-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:National Coming Out Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Marked every October 11 since 1988\, National Coming Out Day ce
+ lebrates coming out as an LGBTQ+ person and the visibility and support tha
+ t comes with living openly.\n\nhttps://todaycelebrates.com/holiday/nationa
+ l-coming-out-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coming-out-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

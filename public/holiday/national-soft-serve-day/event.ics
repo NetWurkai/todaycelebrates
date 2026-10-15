@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Soft Serve Day
+X-WR-CALNAME:National Soft Serve Day
+DESCRIPTION:National Soft Serve Day — https://todaycelebrates.com/holiday
+ /national-soft-serve-day/
+X-WR-CALDESC:National Soft Serve Day — https://todaycelebrates.com/holida
+ y/national-soft-serve-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-soft-serve-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-soft-serve-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-soft-serve-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270819
+DTEND;VALUE=DATE:20270820
+SUMMARY:National Soft Serve Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Soft Serve Day is a food-focused observance celebrated
+  across the United States on August 19\, giving fans of the dish or ingred
+ ient an excuse to seek it out and share it with others.\n\nhttps://todayce
+ lebrates.com/holiday/national-soft-serve-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-soft-serve-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Helen Keller Day
+X-WR-CALNAME:Helen Keller Day
+DESCRIPTION:Helen Keller Day — https://todaycelebrates.com/holiday/helen-
+ keller-day/
+X-WR-CALDESC:Helen Keller Day — https://todaycelebrates.com/holiday/helen
+ -keller-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/helen-keller-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/helen-keller-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:helen-keller-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:Helen Keller Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Helen Keller Day\, observed on June 27\, encourages people acro
+ ss the United States to pause and recognize the people and causes behind t
+ he day.\n\nhttps://todaycelebrates.com/holiday/helen-keller-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/helen-keller-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

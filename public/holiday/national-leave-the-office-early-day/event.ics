@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Leave the Office Early Day
+X-WR-CALNAME:National Leave the Office Early Day
+DESCRIPTION:National Leave the Office Early Day — https://todaycelebrates
+ .com/holiday/national-leave-the-office-early-day/
+X-WR-CALDESC:National Leave the Office Early Day — https://todaycelebrate
+ s.com/holiday/national-leave-the-office-early-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leave-the-office
+ -early-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-leave-the-off
+ ice-early-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-leave-the-office-early-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:National Leave the Office Early Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Leave the Office Early Day\, observed on June 2\, is a
+  lighthearted holiday celebrated across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/national-leave-the-office-early-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leave-the-office
+ -early-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

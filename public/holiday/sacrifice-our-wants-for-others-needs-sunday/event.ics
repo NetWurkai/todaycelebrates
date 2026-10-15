@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Sacrifice Our Wants for Other's Needs Sunday
+X-WR-CALNAME:Sacrifice Our Wants for Other's Needs Sunday
+DESCRIPTION:Sacrifice Our Wants for Other's Needs Sunday — https://todayc
+ elebrates.com/holiday/sacrifice-our-wants-for-others-needs-sunday/
+X-WR-CALDESC:Sacrifice Our Wants for Other's Needs Sunday — https://today
+ celebrates.com/holiday/sacrifice-our-wants-for-others-needs-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sacrifice-our-wants-for-o
+ thers-needs-sunday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/sacrifice-our-wants-fo
+ r-others-needs-sunday/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:sacrifice-our-wants-for-others-needs-sunday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270830
+SUMMARY:Sacrifice Our Wants for Other's Needs Sunday
+RRULE:FREQ=YEARLY
+DESCRIPTION:Sacrifice Our Wants for Other's Needs Sunday\, observed on Augu
+ st 29\, encourages people across the United States to pause and recognize 
+ the people and causes behind the day.\n\nhttps://todaycelebrates.com/holid
+ ay/sacrifice-our-wants-for-others-needs-sunday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/sacrifice-our-wants-for-o
+ thers-needs-sunday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

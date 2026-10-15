@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Spunky Old Broads Day
+X-WR-CALNAME:Spunky Old Broads Day
+DESCRIPTION:Spunky Old Broads Day — https://todaycelebrates.com/holiday/s
+ punky-old-broads-day/
+X-WR-CALDESC:Spunky Old Broads Day — https://todaycelebrates.com/holiday/
+ spunky-old-broads-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/spunky-old-broads-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/spunky-old-broads-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:spunky-old-broads-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Spunky Old Broads Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Spunky Old Broads Day\, observed on February 1\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/spunky-old-broads-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/spunky-old-broads-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

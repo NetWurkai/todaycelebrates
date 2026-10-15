@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Grits Day
+X-WR-CALNAME:National Grits Day
+DESCRIPTION:National Grits Day — https://todaycelebrates.com/holiday/nati
+ onal-grits-day/
+X-WR-CALDESC:National Grits Day — https://todaycelebrates.com/holiday/nat
+ ional-grits-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-grits-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-grits-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-grits-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:National Grits Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Grits Day is a food-focused observance celebrated acro
+ ss the United States on April 14\, giving fans of the dish or ingredient a
+ n excuse to seek it out and share it with others.\n\nhttps://todaycelebrat
+ es.com/holiday/national-grits-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-grits-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

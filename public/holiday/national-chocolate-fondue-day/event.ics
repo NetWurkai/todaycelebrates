@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chocolate Fondue Day
+X-WR-CALNAME:National Chocolate Fondue Day
+DESCRIPTION:National Chocolate Fondue Day — https://todaycelebrates.com/h
+ oliday/national-chocolate-fondue-day/
+X-WR-CALDESC:National Chocolate Fondue Day — https://todaycelebrates.com/
+ holiday/national-chocolate-fondue-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-fondue
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-fon
+ due-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chocolate-fondue-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:National Chocolate Fondue Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chocolate Fondue Day is a food-focused observance cele
+ brated across the United States on February 5\, giving fans of the dish or
+  ingredient an excuse to seek it out and share it with others.\n\nhttps://
+ todaycelebrates.com/holiday/national-chocolate-fondue-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-fondue
+ -day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

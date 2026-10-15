@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Transgender Day of Remembrance
+X-WR-CALNAME:Transgender Day of Remembrance
+DESCRIPTION:Transgender Day of Remembrance — https://todaycelebrates.com/
+ holiday/transgender-day-of-remembrance/
+X-WR-CALDESC:Transgender Day of Remembrance — https://todaycelebrates.com
+ /holiday/transgender-day-of-remembrance/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/transgender-day-of-rememb
+ rance/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/transgender-day-of-rem
+ embrance/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:transgender-day-of-remembrance@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Transgender Day of Remembrance
+RRULE:FREQ=YEARLY
+DESCRIPTION:Transgender Day of Remembrance\, observed on November 20\, enco
+ urages people across the United States to pause and recognize the people a
+ nd causes behind the day.\n\nhttps://todaycelebrates.com/holiday/transgend
+ er-day-of-remembrance/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/transgender-day-of-rememb
+ rance/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

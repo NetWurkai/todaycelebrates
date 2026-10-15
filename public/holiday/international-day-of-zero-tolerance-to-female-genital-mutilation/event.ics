@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Day of Zero Tolerance to Female Genital Mutilation
+X-WR-CALNAME:International Day of Zero Tolerance to Female Genital Mutilati
+ on
+DESCRIPTION:International Day of Zero Tolerance to Female Genital Mutilatio
+ n — https://todaycelebrates.com/holiday/international-day-of-zero-tolera
+ nce-to-female-genital-mutilation/
+X-WR-CALDESC:International Day of Zero Tolerance to Female Genital Mutilati
+ on — https://todaycelebrates.com/holiday/international-day-of-zero-toler
+ ance-to-female-genital-mutilation/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-zero
+ -tolerance-to-female-genital-mutilation/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-z
+ ero-tolerance-to-female-genital-mutilation/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-day-of-zero-tolerance-to-female-genital-mutilation@todayc
+ elebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:International Day of Zero Tolerance to Female Genital Mutilation
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day of Zero Tolerance to Female Genital Mutilatio
+ n\, observed on February 6\, encourages people across the United States to
+  pause and recognize the people and causes behind the day.\n\nhttps://toda
+ ycelebrates.com/holiday/international-day-of-zero-tolerance-to-female-geni
+ tal-mutilation/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-zero
+ -tolerance-to-female-genital-mutilation/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

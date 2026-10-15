@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Nutella Day
+X-WR-CALNAME:World Nutella Day
+DESCRIPTION:World Nutella Day — https://todaycelebrates.com/holiday/world
+ -nutella-day/
+X-WR-CALDESC:World Nutella Day — https://todaycelebrates.com/holiday/worl
+ d-nutella-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-nutella-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-nutella-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-nutella-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:World Nutella Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Nutella Day is a food-focused observance celebrated acros
+ s the United States on February 5\, giving fans of the dish or ingredient 
+ an excuse to seek it out and share it with others.\n\nhttps://todaycelebra
+ tes.com/holiday/world-nutella-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-nutella-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

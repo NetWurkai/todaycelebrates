@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Talk Like a Grizzled Prospector Day
+X-WR-CALNAME:Talk Like a Grizzled Prospector Day
+DESCRIPTION:Talk Like a Grizzled Prospector Day — https://todaycelebrates
+ .com/holiday/talk-like-a-grizzled-prospector-day/
+X-WR-CALDESC:Talk Like a Grizzled Prospector Day — https://todaycelebrate
+ s.com/holiday/talk-like-a-grizzled-prospector-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/talk-like-a-grizzled-pros
+ pector-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/talk-like-a-grizzled-p
+ rospector-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:talk-like-a-grizzled-prospector-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Talk Like a Grizzled Prospector Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Talk Like a Grizzled Prospector Day\, observed on January 24\, 
+ is a lighthearted holiday celebrated across the United States.\n\nhttps://
+ todaycelebrates.com/holiday/talk-like-a-grizzled-prospector-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/talk-like-a-grizzled-pros
+ pector-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pancake Day
+X-WR-CALNAME:National Pancake Day
+DESCRIPTION:National Pancake Day — https://todaycelebrates.com/holiday/na
+ tional-pancake-day/
+X-WR-CALDESC:National Pancake Day — https://todaycelebrates.com/holiday/n
+ ational-pancake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pancake-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pancake-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pancake-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:National Pancake Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for September 26: National Pancake Day invit
+ es food lovers across the United States to celebrate everything about panc
+ ake\, whether that means cooking it at home or treating yourself at a favo
+ rite spot.\n\nhttps://todaycelebrates.com/holiday/national-pancake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pancake-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Book Day (UK & Ireland)
+X-WR-CALNAME:World Book Day (UK & Ireland)
+DESCRIPTION:World Book Day (UK & Ireland) — https://todaycelebrates.com/h
+ oliday/world-book-day-uk-and-ireland/
+X-WR-CALDESC:World Book Day (UK & Ireland) — https://todaycelebrates.com/
+ holiday/world-book-day-uk-and-ireland/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-book-day-uk-and-ire
+ land/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-book-day-uk-and-
+ ireland/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-book-day-uk-and-ireland@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:World Book Day (UK & Ireland)
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Book Day (UK & Ireland) is a reading- and writing-focused
+  observance on March 4\, celebrated by book lovers across the United State
+ s.\n\nhttps://todaycelebrates.com/holiday/world-book-day-uk-and-ireland/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-book-day-uk-and-ire
+ land/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

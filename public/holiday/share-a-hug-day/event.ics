@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Share a Hug Day
+X-WR-CALNAME:Share a Hug Day
+DESCRIPTION:Share a Hug Day — https://todaycelebrates.com/holiday/share-a
+ -hug-day/
+X-WR-CALDESC:Share a Hug Day — https://todaycelebrates.com/holiday/share-
+ a-hug-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/share-a-hug-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/share-a-hug-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:share-a-hug-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:Share a Hug Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Share a Hug Day\, observed on July 30\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/share-a-hug-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/share-a-hug-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

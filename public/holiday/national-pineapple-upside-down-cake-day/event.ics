@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pineapple Upside-down Cake Day
+X-WR-CALNAME:National Pineapple Upside-down Cake Day
+DESCRIPTION:National Pineapple Upside-down Cake Day — https://todaycelebr
+ ates.com/holiday/national-pineapple-upside-down-cake-day/
+X-WR-CALDESC:National Pineapple Upside-down Cake Day — https://todayceleb
+ rates.com/holiday/national-pineapple-upside-down-cake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pineapple-upside
+ -down-cake-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pineapple-ups
+ ide-down-cake-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pineapple-upside-down-cake-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:National Pineapple Upside-down Cake Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pineapple Upside-down Cake Day is a food-focused obser
+ vance celebrated across the United States on April 20\, giving fans of the
+  dish or ingredient an excuse to seek it out and share it with others.\n\n
+ https://todaycelebrates.com/holiday/national-pineapple-upside-down-cake-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pineapple-upside
+ -down-cake-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

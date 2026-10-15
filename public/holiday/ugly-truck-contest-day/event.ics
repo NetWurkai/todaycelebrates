@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Ugly Truck Contest Day
+X-WR-CALNAME:Ugly Truck Contest Day
+DESCRIPTION:Ugly Truck Contest Day — https://todaycelebrates.com/holiday/
+ ugly-truck-contest-day/
+X-WR-CALDESC:Ugly Truck Contest Day — https://todaycelebrates.com/holiday
+ /ugly-truck-contest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ugly-truck-contest-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/ugly-truck-contest-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ugly-truck-contest-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:Ugly Truck Contest Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Ugly Truck Contest Day\, observed on July 20\, is a lighthearte
+ d holiday celebrated across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/ugly-truck-contest-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ugly-truck-contest-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

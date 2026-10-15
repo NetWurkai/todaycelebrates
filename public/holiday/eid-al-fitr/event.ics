@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Eid al-Fitr
+X-WR-CALNAME:Eid al-Fitr
+DESCRIPTION:Eid al-Fitr — https://todaycelebrates.com/holiday/eid-al-fitr
+ /
+X-WR-CALDESC:Eid al-Fitr — https://todaycelebrates.com/holiday/eid-al-fit
+ r/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eid-al-fitr/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/eid-al-fitr/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:eid-al-fitr-20270309@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:Eid al-Fitr
+DESCRIPTION:Eid al-Fitr\, observed on March 10\, encourages people across t
+ he United States to pause and recognize the people and causes behind the d
+ ay.\n\nhttps://todaycelebrates.com/holiday/eid-al-fitr/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eid-al-fitr/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:eid-al-fitr-20280226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280226
+DTEND;VALUE=DATE:20280227
+SUMMARY:Eid al-Fitr
+DESCRIPTION:Eid al-Fitr\, observed on March 10\, encourages people across t
+ he United States to pause and recognize the people and causes behind the d
+ ay.\n\nhttps://todaycelebrates.com/holiday/eid-al-fitr/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eid-al-fitr/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:eid-al-fitr-20290214@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290214
+DTEND;VALUE=DATE:20290215
+SUMMARY:Eid al-Fitr
+DESCRIPTION:Eid al-Fitr\, observed on March 10\, encourages people across t
+ he United States to pause and recognize the people and causes behind the d
+ ay.\n\nhttps://todaycelebrates.com/holiday/eid-al-fitr/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eid-al-fitr/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:eid-al-fitr-20300204@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300204
+DTEND;VALUE=DATE:20300205
+SUMMARY:Eid al-Fitr
+DESCRIPTION:Eid al-Fitr\, observed on March 10\, encourages people across t
+ he United States to pause and recognize the people and causes behind the d
+ ay.\n\nhttps://todaycelebrates.com/holiday/eid-al-fitr/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eid-al-fitr/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:eid-al-fitr-20310124@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310124
+DTEND;VALUE=DATE:20310125
+SUMMARY:Eid al-Fitr
+DESCRIPTION:Eid al-Fitr\, observed on March 10\, encourages people across t
+ he United States to pause and recognize the people and causes behind the d
+ ay.\n\nhttps://todaycelebrates.com/holiday/eid-al-fitr/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eid-al-fitr/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:eid-al-fitr-20320114@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320114
+DTEND;VALUE=DATE:20320115
+SUMMARY:Eid al-Fitr
+DESCRIPTION:Eid al-Fitr\, observed on March 10\, encourages people across t
+ he United States to pause and recognize the people and causes behind the d
+ ay.\n\nhttps://todaycelebrates.com/holiday/eid-al-fitr/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eid-al-fitr/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:eid-al-fitr-20330102@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330102
+DTEND;VALUE=DATE:20330103
+SUMMARY:Eid al-Fitr
+DESCRIPTION:Eid al-Fitr\, observed on March 10\, encourages people across t
+ he United States to pause and recognize the people and causes behind the d
+ ay.\n\nhttps://todaycelebrates.com/holiday/eid-al-fitr/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eid-al-fitr/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:eid-al-fitr-20341212@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341212
+DTEND;VALUE=DATE:20341213
+SUMMARY:Eid al-Fitr
+DESCRIPTION:Eid al-Fitr\, observed on March 10\, encourages people across t
+ he United States to pause and recognize the people and causes behind the d
+ ay.\n\nhttps://todaycelebrates.com/holiday/eid-al-fitr/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eid-al-fitr/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:eid-al-fitr-20351201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351201
+DTEND;VALUE=DATE:20351202
+SUMMARY:Eid al-Fitr
+DESCRIPTION:Eid al-Fitr\, observed on March 10\, encourages people across t
+ he United States to pause and recognize the people and causes behind the d
+ ay.\n\nhttps://todaycelebrates.com/holiday/eid-al-fitr/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eid-al-fitr/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

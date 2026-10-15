@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Loving Day
+X-WR-CALNAME:Loving Day
+DESCRIPTION:Loving Day — https://todaycelebrates.com/holiday/loving-day/
+X-WR-CALDESC:Loving Day — https://todaycelebrates.com/holiday/loving-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/loving-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/loving-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:loving-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Loving Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Loving Day\, observed on June 12\, encourages people across the
+  United States to pause and recognize the people and causes behind the day
+ .\n\nhttps://todaycelebrates.com/holiday/loving-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/loving-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Kidney Day
+X-WR-CALNAME:World Kidney Day
+DESCRIPTION:World Kidney Day — https://todaycelebrates.com/holiday/world-
+ kidney-day/
+X-WR-CALDESC:World Kidney Day — https://todaycelebrates.com/holiday/world
+ -kidney-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-kidney-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-kidney-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-kidney-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:World Kidney Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Kidney Day\, observed on March 11\, encourages people acr
+ oss the United States to focus on health and wellbeing.\n\nhttps://todayce
+ lebrates.com/holiday/world-kidney-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-kidney-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

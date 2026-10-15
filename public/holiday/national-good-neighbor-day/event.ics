@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Good Neighbor Day
+X-WR-CALNAME:National Good Neighbor Day
+DESCRIPTION:National Good Neighbor Day — https://todaycelebrates.com/holi
+ day/national-good-neighbor-day/
+X-WR-CALDESC:National Good Neighbor Day — https://todaycelebrates.com/hol
+ iday/national-good-neighbor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-good-neighbor-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-good-neighbor
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-good-neighbor-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+SUMMARY:National Good Neighbor Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Good Neighbor Day\, observed on September 28\, is a da
+ y for reflection and small acts of kindness centered on good neighbor\, ce
+ lebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/
+ national-good-neighbor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-good-neighbor-da
+ y/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

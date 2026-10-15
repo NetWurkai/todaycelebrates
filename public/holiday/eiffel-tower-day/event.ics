@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Eiffel Tower Day
+X-WR-CALNAME:Eiffel Tower Day
+DESCRIPTION:Eiffel Tower Day — https://todaycelebrates.com/holiday/eiffel
+ -tower-day/
+X-WR-CALDESC:Eiffel Tower Day — https://todaycelebrates.com/holiday/eiffe
+ l-tower-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eiffel-tower-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/eiffel-tower-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:eiffel-tower-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Eiffel Tower Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Eiffel Tower Day\, observed on March 31\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/eiffel-tower-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/eiffel-tower-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

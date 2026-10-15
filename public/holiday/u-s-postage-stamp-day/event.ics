@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:U.S. Postage Stamp Day
+X-WR-CALNAME:U.S. Postage Stamp Day
+DESCRIPTION:U.S. Postage Stamp Day — https://todaycelebrates.com/holiday/
+ u-s-postage-stamp-day/
+X-WR-CALDESC:U.S. Postage Stamp Day — https://todaycelebrates.com/holiday
+ /u-s-postage-stamp-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-postage-stamp-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/u-s-postage-stamp-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:u-s-postage-stamp-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:U.S. Postage Stamp Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:U.S. Postage Stamp Day\, observed on July 1\, is a lighthearted
+  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/u-s-postage-stamp-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-postage-stamp-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Tell a Fairy Tale Day
+X-WR-CALNAME:Tell a Fairy Tale Day
+DESCRIPTION:Tell a Fairy Tale Day — https://todaycelebrates.com/holiday/t
+ ell-a-fairy-tale-day/
+X-WR-CALDESC:Tell a Fairy Tale Day — https://todaycelebrates.com/holiday/
+ tell-a-fairy-tale-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tell-a-fairy-tale-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/tell-a-fairy-tale-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:tell-a-fairy-tale-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:Tell a Fairy Tale Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Tell a Fairy Tale Day\, observed on February 26\, is a lighthea
+ rted\, family-friendly day celebrated across the United States.\n\nhttps:/
+ /todaycelebrates.com/holiday/tell-a-fairy-tale-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tell-a-fairy-tale-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

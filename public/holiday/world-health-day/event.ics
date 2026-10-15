@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Health Day
+X-WR-CALNAME:World Health Day
+DESCRIPTION:World Health Day — https://todaycelebrates.com/holiday/world-
+ health-day/
+X-WR-CALDESC:World Health Day — https://todaycelebrates.com/holiday/world
+ -health-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-health-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-health-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-health-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:World Health Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Health Day\, observed on April 7\, encourages people acro
+ ss the United States to focus on health and wellbeing.\n\nhttps://todaycel
+ ebrates.com/holiday/world-health-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-health-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

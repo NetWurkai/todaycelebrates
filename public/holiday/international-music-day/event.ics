@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Music Day
+X-WR-CALNAME:International Music Day
+DESCRIPTION:International Music Day — https://todaycelebrates.com/holiday
+ /international-music-day/
+X-WR-CALDESC:International Music Day — https://todaycelebrates.com/holida
+ y/international-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-music-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-music-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-music-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:International Music Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Music Day celebrates music on October 1\, giving 
+ music lovers around the world a reason to turn up the volume.\n\nhttps://t
+ odaycelebrates.com/holiday/international-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-music-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

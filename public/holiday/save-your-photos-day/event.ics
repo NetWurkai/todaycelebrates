@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Save Your Photos Day
+X-WR-CALNAME:Save Your Photos Day
+DESCRIPTION:Save Your Photos Day — https://todaycelebrates.com/holiday/sa
+ ve-your-photos-day/
+X-WR-CALDESC:Save Your Photos Day — https://todaycelebrates.com/holiday/s
+ ave-your-photos-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/save-your-photos-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/save-your-photos-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:save-your-photos-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:Save Your Photos Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 26\, Save Your Photos Day gives people across the 
+ United States one more reason to mark the day and celebrate save your phot
+ os.\n\nhttps://todaycelebrates.com/holiday/save-your-photos-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/save-your-photos-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

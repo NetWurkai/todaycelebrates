@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National No Rhyme (nor Reason) Day
+X-WR-CALNAME:National No Rhyme (nor Reason) Day
+DESCRIPTION:National No Rhyme (nor Reason) Day — https://todaycelebrates.
+ com/holiday/national-no-rhyme-nor-reason-day/
+X-WR-CALDESC:National No Rhyme (nor Reason) Day — https://todaycelebrates
+ .com/holiday/national-no-rhyme-nor-reason-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-no-rhyme-nor-rea
+ son-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-no-rhyme-nor-
+ reason-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-no-rhyme-nor-reason-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:National No Rhyme (nor Reason) Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 1\, National No Rhyme (nor Reason) Day gives peopl
+ e across the United States one more reason to mark the day and celebrate n
+ o rhyme (nor reason).\n\nhttps://todaycelebrates.com/holiday/national-no-r
+ hyme-nor-reason-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-no-rhyme-nor-rea
+ son-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

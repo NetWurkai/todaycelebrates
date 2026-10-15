@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Sexual Health Day
+X-WR-CALNAME:World Sexual Health Day
+DESCRIPTION:World Sexual Health Day — https://todaycelebrates.com/holiday
+ /world-sexual-health-day/
+X-WR-CALDESC:World Sexual Health Day — https://todaycelebrates.com/holida
+ y/world-sexual-health-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sexual-health-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-sexual-health-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-sexual-health-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:World Sexual Health Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Sexual Health Day\, marked around the globe on September 
+ 4\, raises awareness around sexual health and supports those affected by i
+ t.\n\nhttps://todaycelebrates.com/holiday/world-sexual-health-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-sexual-health-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

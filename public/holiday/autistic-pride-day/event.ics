@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Autistic Pride Day
+X-WR-CALNAME:Autistic Pride Day
+DESCRIPTION:Autistic Pride Day — https://todaycelebrates.com/holiday/auti
+ stic-pride-day/
+X-WR-CALDESC:Autistic Pride Day — https://todaycelebrates.com/holiday/aut
+ istic-pride-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/autistic-pride-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/autistic-pride-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:autistic-pride-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:Autistic Pride Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Autistic Pride Day\, observed on June 18\, encourages people ac
+ ross the United States to pause and recognize the people and causes behind
+  the day.\n\nhttps://todaycelebrates.com/holiday/autistic-pride-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/autistic-pride-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

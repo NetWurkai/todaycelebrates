@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Canadian Beer Day
+X-WR-CALNAME:Canadian Beer Day
+DESCRIPTION:Canadian Beer Day — https://todaycelebrates.com/holiday/canad
+ ian-beer-day/
+X-WR-CALDESC:Canadian Beer Day — https://todaycelebrates.com/holiday/cana
+ dian-beer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-beer-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/canadian-beer-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:canadian-beer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:Canadian Beer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Canadian Beer Day falls on October 7 and celebrates beer cultur
+ e\, brewing traditions\, and the simple pleasure of sharing a cold one wit
+ h friends.\n\nhttps://todaycelebrates.com/holiday/canadian-beer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/canadian-beer-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

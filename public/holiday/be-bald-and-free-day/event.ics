@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Be Bald and Free Day
+X-WR-CALNAME:Be Bald and Free Day
+DESCRIPTION:Be Bald and Free Day — https://todaycelebrates.com/holiday/be
+ -bald-and-free-day/
+X-WR-CALDESC:Be Bald and Free Day — https://todaycelebrates.com/holiday/b
+ e-bald-and-free-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/be-bald-and-free-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/be-bald-and-free-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:be-bald-and-free-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+SUMMARY:Be Bald and Free Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Be Bald and Free Day is observed across the United States on Oc
+ tober 14\, a small but fun addition to the calendar worth celebrating in i
+ ts own way.\n\nhttps://todaycelebrates.com/holiday/be-bald-and-free-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/be-bald-and-free-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

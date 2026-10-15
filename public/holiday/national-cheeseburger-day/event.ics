@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cheeseburger Day
+X-WR-CALNAME:National Cheeseburger Day
+DESCRIPTION:National Cheeseburger Day — https://todaycelebrates.com/holid
+ ay/national-cheeseburger-day/
+X-WR-CALDESC:National Cheeseburger Day — https://todaycelebrates.com/holi
+ day/national-cheeseburger-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cheeseburger-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cheeseburger-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cheeseburger-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:National Cheeseburger Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cheeseburger Day is a lighthearted food holiday celebr
+ ated across the United States on September 18\, giving fans of cheeseburge
+ r an excuse to seek it out and share it with others.\n\nhttps://todayceleb
+ rates.com/holiday/national-cheeseburger-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cheeseburger-day
+ /
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pledge of Allegiance Day
+X-WR-CALNAME:Pledge of Allegiance Day
+DESCRIPTION:Pledge of Allegiance Day — https://todaycelebrates.com/holida
+ y/pledge-of-allegiance-day/
+X-WR-CALDESC:Pledge of Allegiance Day — https://todaycelebrates.com/holid
+ ay/pledge-of-allegiance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pledge-of-allegiance-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pledge-of-allegiance-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pledge-of-allegiance-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Pledge of Allegiance Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pledge of Allegiance Day\, observed on December 28\, is a light
+ hearted holiday celebrated across the United States.\n\nhttps://todayceleb
+ rates.com/holiday/pledge-of-allegiance-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pledge-of-allegiance-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

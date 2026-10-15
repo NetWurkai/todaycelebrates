@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Finisher's Medal Day
+X-WR-CALNAME:Finisher's Medal Day
+DESCRIPTION:Finisher's Medal Day — https://todaycelebrates.com/holiday/fi
+ nishers-medal-day/
+X-WR-CALDESC:Finisher's Medal Day — https://todaycelebrates.com/holiday/f
+ inishers-medal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/finishers-medal-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/finishers-medal-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:finishers-medal-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Finisher's Medal Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Finisher's Medal Day\, observed on March 7\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/finishers-medal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/finishers-medal-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

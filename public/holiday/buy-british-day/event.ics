@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Buy British Day
+X-WR-CALNAME:Buy British Day
+DESCRIPTION:Buy British Day — https://todaycelebrates.com/holiday/buy-bri
+ tish-day/
+X-WR-CALDESC:Buy British Day — https://todaycelebrates.com/holiday/buy-br
+ itish-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-british-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/buy-british-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:buy-british-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271004
+SUMMARY:Buy British Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Buy British Day is observed across the United States on October
+  3\, a small but fun addition to the calendar worth celebrating in its own
+  way.\n\nhttps://todaycelebrates.com/holiday/buy-british-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/buy-british-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

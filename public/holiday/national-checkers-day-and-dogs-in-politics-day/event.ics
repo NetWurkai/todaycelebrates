@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Checkers Day and Dogs in Politics Day
+X-WR-CALNAME:National Checkers Day and Dogs in Politics Day
+DESCRIPTION:National Checkers Day and Dogs in Politics Day — https://toda
+ ycelebrates.com/holiday/national-checkers-day-and-dogs-in-politics-day/
+X-WR-CALDESC:National Checkers Day and Dogs in Politics Day — https://tod
+ aycelebrates.com/holiday/national-checkers-day-and-dogs-in-politics-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-checkers-day-and
+ -dogs-in-politics-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-checkers-day-
+ and-dogs-in-politics-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-checkers-day-and-dogs-in-politics-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+SUMMARY:National Checkers Day and Dogs in Politics Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Checkers Day and Dogs in Politics Day is celebrated ac
+ ross the United States on September 23\, honoring dogs and the bond they s
+ hare with the people who love them.\n\nhttps://todaycelebrates.com/holiday
+ /national-checkers-day-and-dogs-in-politics-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-checkers-day-and
+ -dogs-in-politics-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

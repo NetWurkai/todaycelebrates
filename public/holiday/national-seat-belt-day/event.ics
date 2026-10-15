@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Seat Belt Day
+X-WR-CALNAME:National Seat Belt Day
+DESCRIPTION:National Seat Belt Day — https://todaycelebrates.com/holiday/
+ national-seat-belt-day/
+X-WR-CALDESC:National Seat Belt Day — https://todaycelebrates.com/holiday
+ /national-seat-belt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-seat-belt-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-seat-belt-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-seat-belt-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:National Seat Belt Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Seat Belt Day is a health-awareness observance on Nove
+ mber 14\, marked across the United States to spotlight a wellness topic wo
+ rth a second look.\n\nhttps://todaycelebrates.com/holiday/national-seat-be
+ lt-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-seat-belt-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

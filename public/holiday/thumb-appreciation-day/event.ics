@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Thumb Appreciation Day
+X-WR-CALNAME:Thumb Appreciation Day
+DESCRIPTION:Thumb Appreciation Day — https://todaycelebrates.com/holiday/
+ thumb-appreciation-day/
+X-WR-CALDESC:Thumb Appreciation Day — https://todaycelebrates.com/holiday
+ /thumb-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/thumb-appreciation-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/thumb-appreciation-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:thumb-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:Thumb Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Thumb Appreciation Day\, observed on February 18\, is a lighthe
+ arted holiday celebrated across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/thumb-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/thumb-appreciation-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

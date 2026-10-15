@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National C60 Day
+X-WR-CALNAME:National C60 Day
+DESCRIPTION:National C60 Day — https://todaycelebrates.com/holiday/nation
+ al-c60-day/
+X-WR-CALDESC:National C60 Day — https://todaycelebrates.com/holiday/natio
+ nal-c60-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-c60-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-c60-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-c60-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271009
+DTEND;VALUE=DATE:20271010
+SUMMARY:National C60 Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 9\, National C60 Day gives people across the United 
+ States one more reason to mark the day and celebrate c60.\n\nhttps://today
+ celebrates.com/holiday/national-c60-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-c60-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

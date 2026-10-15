@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Chinese Language Day
+X-WR-CALNAME:Chinese Language Day
+DESCRIPTION:Chinese Language Day — https://todaycelebrates.com/holiday/ch
+ inese-language-day/
+X-WR-CALDESC:Chinese Language Day — https://todaycelebrates.com/holiday/c
+ hinese-language-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-language-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/chinese-language-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:chinese-language-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Chinese Language Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Chinese Language Day is a reading- and writing-focused observan
+ ce on April 20\, celebrated by book lovers across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/chinese-language-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-language-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

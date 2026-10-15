@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Dog Biscuit Appreciation Day
+X-WR-CALNAME:International Dog Biscuit Appreciation Day
+DESCRIPTION:International Dog Biscuit Appreciation Day — https://todaycel
+ ebrates.com/holiday/international-dog-biscuit-appreciation-day/
+X-WR-CALDESC:International Dog Biscuit Appreciation Day — https://todayce
+ lebrates.com/holiday/international-dog-biscuit-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-dog-biscuit
+ -appreciation-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-dog-bisc
+ uit-appreciation-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-dog-biscuit-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:International Dog Biscuit Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Dog Biscuit Appreciation Day\, observed on Februa
+ ry 23\, is celebrated by dog lovers across the United States.\n\nhttps://t
+ odaycelebrates.com/holiday/international-dog-biscuit-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-dog-biscuit
+ -appreciation-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

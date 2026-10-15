@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Snack Stick Day
+X-WR-CALNAME:National Snack Stick Day
+DESCRIPTION:National Snack Stick Day — https://todaycelebrates.com/holida
+ y/national-snack-stick-day/
+X-WR-CALDESC:National Snack Stick Day — https://todaycelebrates.com/holid
+ ay/national-snack-stick-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-snack-stick-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-snack-stick-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-snack-stick-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+SUMMARY:National Snack Stick Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for September 23: National Snack Stick Day i
+ nvites food lovers across the United States to celebrate everything about 
+ snack stick\, whether that means cooking it at home or treating yourself a
+ t a favorite spot.\n\nhttps://todaycelebrates.com/holiday/national-snack-s
+ tick-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-snack-stick-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

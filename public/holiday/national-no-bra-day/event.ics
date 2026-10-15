@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National No Bra Day
+X-WR-CALNAME:National No Bra Day
+DESCRIPTION:National No Bra Day — https://todaycelebrates.com/holiday/nat
+ ional-no-bra-day/
+X-WR-CALDESC:National No Bra Day — https://todaycelebrates.com/holiday/na
+ tional-no-bra-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-no-bra-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-no-bra-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-no-bra-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271013
+DTEND;VALUE=DATE:20271014
+SUMMARY:National No Bra Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National No Bra Day is observed across the United States on Oct
+ ober 13\, a small but fun addition to the calendar worth celebrating in it
+ s own way.\n\nhttps://todaycelebrates.com/holiday/national-no-bra-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-no-bra-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

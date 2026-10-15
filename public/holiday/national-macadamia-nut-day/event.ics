@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Macadamia Nut Day
+X-WR-CALNAME:National Macadamia Nut Day
+DESCRIPTION:National Macadamia Nut Day — https://todaycelebrates.com/holi
+ day/national-macadamia-nut-day/
+X-WR-CALDESC:National Macadamia Nut Day — https://todaycelebrates.com/hol
+ iday/national-macadamia-nut-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-macadamia-nut-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-macadamia-nut
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-macadamia-nut-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:National Macadamia Nut Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Macadamia Nut Day is a lighthearted food holiday celeb
+ rated across the United States on September 4\, giving fans of macadamia n
+ ut an excuse to seek it out and share it with others.\n\nhttps://todaycele
+ brates.com/holiday/national-macadamia-nut-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-macadamia-nut-da
+ y/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

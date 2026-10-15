@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Brunch for Lunch Day
+X-WR-CALNAME:Brunch for Lunch Day
+DESCRIPTION:Brunch for Lunch Day — https://todaycelebrates.com/holiday/br
+ unch-for-lunch-day/
+X-WR-CALDESC:Brunch for Lunch Day — https://todaycelebrates.com/holiday/b
+ runch-for-lunch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/brunch-for-lunch-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/brunch-for-lunch-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:brunch-for-lunch-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:Brunch for Lunch Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Brunch for Lunch Day is a food-focused observance celebrated ac
+ ross the United States on May 8\, giving fans of the dish or ingredient an
+  excuse to seek it out and share it with others.\n\nhttps://todaycelebrate
+ s.com/holiday/brunch-for-lunch-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/brunch-for-lunch-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

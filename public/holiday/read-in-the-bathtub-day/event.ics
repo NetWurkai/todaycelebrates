@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Read in the Bathtub Day
+X-WR-CALNAME:Read in the Bathtub Day
+DESCRIPTION:Read in the Bathtub Day — https://todaycelebrates.com/holiday
+ /read-in-the-bathtub-day/
+X-WR-CALDESC:Read in the Bathtub Day — https://todaycelebrates.com/holida
+ y/read-in-the-bathtub-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/read-in-the-bathtub-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/read-in-the-bathtub-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:read-in-the-bathtub-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Read in the Bathtub Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Read in the Bathtub Day is a reading- and writing-focused obser
+ vance on February 9\, celebrated by book lovers across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/read-in-the-bathtub-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/read-in-the-bathtub-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pop Art Day
+X-WR-CALNAME:Pop Art Day
+DESCRIPTION:Pop Art Day — https://todaycelebrates.com/holiday/pop-art-day
+ /
+X-WR-CALDESC:Pop Art Day — https://todaycelebrates.com/holiday/pop-art-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pop-art-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pop-art-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pop-art-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Pop Art Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pop Art Day\, observed on January 28\, is a lighthearted holida
+ y celebrated across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/pop-art-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pop-art-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

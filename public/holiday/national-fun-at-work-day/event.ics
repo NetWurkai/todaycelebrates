@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Fun at Work Day
+X-WR-CALNAME:National Fun at Work Day
+DESCRIPTION:National Fun at Work Day — https://todaycelebrates.com/holida
+ y/national-fun-at-work-day/
+X-WR-CALDESC:National Fun at Work Day — https://todaycelebrates.com/holid
+ ay/national-fun-at-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fun-at-work-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-fun-at-work-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-fun-at-work-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:National Fun at Work Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Fun at Work Day\, observed on January 29\, is a lighth
+ earted holiday celebrated across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/national-fun-at-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fun-at-work-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

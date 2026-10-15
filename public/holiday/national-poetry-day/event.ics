@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Poetry Day
+X-WR-CALNAME:National Poetry Day
+DESCRIPTION:National Poetry Day — https://todaycelebrates.com/holiday/nat
+ ional-poetry-day/
+X-WR-CALDESC:National Poetry Day — https://todaycelebrates.com/holiday/na
+ tional-poetry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-poetry-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-poetry-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-poetry-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:National Poetry Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 1\, National Poetry Day gives people across the Unit
+ ed States one more reason to mark the day and celebrate poetry.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-poetry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-poetry-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

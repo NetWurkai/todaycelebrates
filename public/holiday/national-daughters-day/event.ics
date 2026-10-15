@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Daughters Day
+X-WR-CALNAME:National Daughters Day
+DESCRIPTION:National Daughters Day — https://todaycelebrates.com/holiday/
+ national-daughters-day/
+X-WR-CALDESC:National Daughters Day — https://todaycelebrates.com/holiday
+ /national-daughters-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-daughters-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-daughters-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-daughters-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+SUMMARY:National Daughters Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Daughters Day\, observed across the United States on S
+ eptember 25\, celebrates daughters and the role it plays in family life.\n
+ \nhttps://todaycelebrates.com/holiday/national-daughters-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-daughters-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

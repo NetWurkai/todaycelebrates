@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Yom Kippur
+X-WR-CALNAME:Yom Kippur
+DESCRIPTION:Yom Kippur — https://todaycelebrates.com/holiday/yom-kippur/
+X-WR-CALDESC:Yom Kippur — https://todaycelebrates.com/holiday/yom-kippur/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yom-kippur/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/yom-kippur/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:yom-kippur-20271011@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:Yom Kippur
+DESCRIPTION:Yom Kippur\, the Day of Atonement\, is the most solemn day of t
+ he Jewish year\, observed on 10 Tishrei - nine days after Rosh Hashanah\, 
+ beginning at sunset the evening before the date shown here. It is kept wit
+ h a full day of fasting\, rest\, and prayer.\n\nhttps://todaycelebrates.co
+ m/holiday/yom-kippur/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yom-kippur/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yom-kippur-20280930@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280930
+DTEND;VALUE=DATE:20281001
+SUMMARY:Yom Kippur
+DESCRIPTION:Yom Kippur\, the Day of Atonement\, is the most solemn day of t
+ he Jewish year\, observed on 10 Tishrei - nine days after Rosh Hashanah\, 
+ beginning at sunset the evening before the date shown here. It is kept wit
+ h a full day of fasting\, rest\, and prayer.\n\nhttps://todaycelebrates.co
+ m/holiday/yom-kippur/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yom-kippur/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yom-kippur-20290919@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290919
+DTEND;VALUE=DATE:20290920
+SUMMARY:Yom Kippur
+DESCRIPTION:Yom Kippur\, the Day of Atonement\, is the most solemn day of t
+ he Jewish year\, observed on 10 Tishrei - nine days after Rosh Hashanah\, 
+ beginning at sunset the evening before the date shown here. It is kept wit
+ h a full day of fasting\, rest\, and prayer.\n\nhttps://todaycelebrates.co
+ m/holiday/yom-kippur/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yom-kippur/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yom-kippur-20301007@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301007
+DTEND;VALUE=DATE:20301008
+SUMMARY:Yom Kippur
+DESCRIPTION:Yom Kippur\, the Day of Atonement\, is the most solemn day of t
+ he Jewish year\, observed on 10 Tishrei - nine days after Rosh Hashanah\, 
+ beginning at sunset the evening before the date shown here. It is kept wit
+ h a full day of fasting\, rest\, and prayer.\n\nhttps://todaycelebrates.co
+ m/holiday/yom-kippur/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yom-kippur/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yom-kippur-20310927@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310927
+DTEND;VALUE=DATE:20310928
+SUMMARY:Yom Kippur
+DESCRIPTION:Yom Kippur\, the Day of Atonement\, is the most solemn day of t
+ he Jewish year\, observed on 10 Tishrei - nine days after Rosh Hashanah\, 
+ beginning at sunset the evening before the date shown here. It is kept wit
+ h a full day of fasting\, rest\, and prayer.\n\nhttps://todaycelebrates.co
+ m/holiday/yom-kippur/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yom-kippur/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yom-kippur-20320915@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320915
+DTEND;VALUE=DATE:20320916
+SUMMARY:Yom Kippur
+DESCRIPTION:Yom Kippur\, the Day of Atonement\, is the most solemn day of t
+ he Jewish year\, observed on 10 Tishrei - nine days after Rosh Hashanah\, 
+ beginning at sunset the evening before the date shown here. It is kept wit
+ h a full day of fasting\, rest\, and prayer.\n\nhttps://todaycelebrates.co
+ m/holiday/yom-kippur/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yom-kippur/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yom-kippur-20331003@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331003
+DTEND;VALUE=DATE:20331004
+SUMMARY:Yom Kippur
+DESCRIPTION:Yom Kippur\, the Day of Atonement\, is the most solemn day of t
+ he Jewish year\, observed on 10 Tishrei - nine days after Rosh Hashanah\, 
+ beginning at sunset the evening before the date shown here. It is kept wit
+ h a full day of fasting\, rest\, and prayer.\n\nhttps://todaycelebrates.co
+ m/holiday/yom-kippur/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yom-kippur/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yom-kippur-20340923@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340923
+DTEND;VALUE=DATE:20340924
+SUMMARY:Yom Kippur
+DESCRIPTION:Yom Kippur\, the Day of Atonement\, is the most solemn day of t
+ he Jewish year\, observed on 10 Tishrei - nine days after Rosh Hashanah\, 
+ beginning at sunset the evening before the date shown here. It is kept wit
+ h a full day of fasting\, rest\, and prayer.\n\nhttps://todaycelebrates.co
+ m/holiday/yom-kippur/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yom-kippur/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:yom-kippur-20351013@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351013
+DTEND;VALUE=DATE:20351014
+SUMMARY:Yom Kippur
+DESCRIPTION:Yom Kippur\, the Day of Atonement\, is the most solemn day of t
+ he Jewish year\, observed on 10 Tishrei - nine days after Rosh Hashanah\, 
+ beginning at sunset the evening before the date shown here. It is kept wit
+ h a full day of fasting\, rest\, and prayer.\n\nhttps://todaycelebrates.co
+ m/holiday/yom-kippur/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yom-kippur/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

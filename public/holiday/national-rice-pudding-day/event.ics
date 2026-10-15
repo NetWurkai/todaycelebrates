@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Rice Pudding Day
+X-WR-CALNAME:National Rice Pudding Day
+DESCRIPTION:National Rice Pudding Day — https://todaycelebrates.com/holid
+ ay/national-rice-pudding-day/
+X-WR-CALDESC:National Rice Pudding Day — https://todaycelebrates.com/holi
+ day/national-rice-pudding-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-rice-pudding-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-rice-pudding-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-rice-pudding-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270809
+DTEND;VALUE=DATE:20270810
+SUMMARY:National Rice Pudding Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Rice Pudding Day is a food-focused observance celebrat
+ ed across the United States on August 9\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-rice-pudding-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-rice-pudding-day
+ /
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

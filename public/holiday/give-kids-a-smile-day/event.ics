@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Give Kids a Smile Day
+X-WR-CALNAME:Give Kids a Smile Day
+DESCRIPTION:Give Kids a Smile Day — https://todaycelebrates.com/holiday/g
+ ive-kids-a-smile-day/
+X-WR-CALDESC:Give Kids a Smile Day — https://todaycelebrates.com/holiday/
+ give-kids-a-smile-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/give-kids-a-smile-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/give-kids-a-smile-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:give-kids-a-smile-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:Give Kids a Smile Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Give Kids a Smile Day\, observed on February 5\, is a lighthear
+ ted\, family-friendly day celebrated across the United States.\n\nhttps://
+ todaycelebrates.com/holiday/give-kids-a-smile-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/give-kids-a-smile-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

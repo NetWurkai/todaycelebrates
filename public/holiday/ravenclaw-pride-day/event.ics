@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Ravenclaw Pride Day
+X-WR-CALNAME:Ravenclaw Pride Day
+DESCRIPTION:Ravenclaw Pride Day — https://todaycelebrates.com/holiday/rav
+ enclaw-pride-day/
+X-WR-CALDESC:Ravenclaw Pride Day — https://todaycelebrates.com/holiday/ra
+ venclaw-pride-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ravenclaw-pride-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/ravenclaw-pride-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ravenclaw-pride-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:Ravenclaw Pride Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Ravenclaw Pride Day\, observed on March 23\, is a lighthearted\
+ , family-friendly day celebrated across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/ravenclaw-pride-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ravenclaw-pride-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

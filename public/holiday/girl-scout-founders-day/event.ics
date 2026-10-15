@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Girl Scout Founder's Day
+X-WR-CALNAME:Girl Scout Founder's Day
+DESCRIPTION:Girl Scout Founder's Day — https://todaycelebrates.com/holida
+ y/girl-scout-founders-day/
+X-WR-CALDESC:Girl Scout Founder's Day — https://todaycelebrates.com/holid
+ ay/girl-scout-founders-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/girl-scout-founders-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/girl-scout-founders-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:girl-scout-founders-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Girl Scout Founder's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 31\, Girl Scout Founder's Day gives people across th
+ e United States one more reason to mark the day and celebrate girl scout f
+ ounder's.\n\nhttps://todaycelebrates.com/holiday/girl-scout-founders-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/girl-scout-founders-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

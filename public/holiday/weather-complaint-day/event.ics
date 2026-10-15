@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Weather Complaint Day
+X-WR-CALNAME:Weather Complaint Day
+DESCRIPTION:Weather Complaint Day — https://todaycelebrates.com/holiday/w
+ eather-complaint-day/
+X-WR-CALDESC:Weather Complaint Day — https://todaycelebrates.com/holiday/
+ weather-complaint-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/weather-complaint-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/weather-complaint-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:weather-complaint-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270825
+SUMMARY:Weather Complaint Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Weather Complaint Day\, observed on August 24\, is a lightheart
+ ed holiday celebrated across the United States.\n\nhttps://todaycelebrates
+ .com/holiday/weather-complaint-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/weather-complaint-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

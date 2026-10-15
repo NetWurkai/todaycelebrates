@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Start a Rumor Day
+X-WR-CALNAME:Start a Rumor Day
+DESCRIPTION:Start a Rumor Day — https://todaycelebrates.com/holiday/start
+ -a-rumor-day/
+X-WR-CALDESC:Start a Rumor Day — https://todaycelebrates.com/holiday/star
+ t-a-rumor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/start-a-rumor-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/start-a-rumor-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:start-a-rumor-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Start a Rumor Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Start a Rumor Day\, observed on November 13\, is a lighthearted
+  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/start-a-rumor-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/start-a-rumor-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

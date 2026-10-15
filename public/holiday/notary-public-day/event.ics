@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Notary Public Day
+X-WR-CALNAME:Notary Public Day
+DESCRIPTION:Notary Public Day — https://todaycelebrates.com/holiday/notar
+ y-public-day/
+X-WR-CALDESC:Notary Public Day — https://todaycelebrates.com/holiday/nota
+ ry-public-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/notary-public-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/notary-public-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:notary-public-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Notary Public Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Notary Public Day\, observed on November 7\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/notary-public-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/notary-public-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

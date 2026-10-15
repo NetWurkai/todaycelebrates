@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cherries Jubilee Day
+X-WR-CALNAME:National Cherries Jubilee Day
+DESCRIPTION:National Cherries Jubilee Day — https://todaycelebrates.com/h
+ oliday/national-cherries-jubilee-day/
+X-WR-CALDESC:National Cherries Jubilee Day — https://todaycelebrates.com/
+ holiday/national-cherries-jubilee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cherries-jubilee
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cherries-jubi
+ lee-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cherries-jubilee-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:National Cherries Jubilee Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cherries Jubilee Day is a lighthearted food holiday ce
+ lebrated across the United States on September 24\, giving fans of cherrie
+ s jubilee an excuse to seek it out and share it with others.\n\nhttps://to
+ daycelebrates.com/holiday/national-cherries-jubilee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cherries-jubilee
+ -day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

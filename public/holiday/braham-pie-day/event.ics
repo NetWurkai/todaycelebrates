@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Braham Pie Day
+X-WR-CALNAME:Braham Pie Day
+DESCRIPTION:Braham Pie Day — https://todaycelebrates.com/holiday/braham-p
+ ie-day/
+X-WR-CALDESC:Braham Pie Day — https://todaycelebrates.com/holiday/braham-
+ pie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/braham-pie-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/braham-pie-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:braham-pie-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270806
+DTEND;VALUE=DATE:20270807
+SUMMARY:Braham Pie Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Braham Pie Day is a food-focused observance celebrated across t
+ he United States on August 6\, giving fans of the dish or ingredient an ex
+ cuse to seek it out and share it with others.\n\nhttps://todaycelebrates.c
+ om/holiday/braham-pie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/braham-pie-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

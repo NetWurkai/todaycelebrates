@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bat Appreciation Day
+X-WR-CALNAME:Bat Appreciation Day
+DESCRIPTION:Bat Appreciation Day — https://todaycelebrates.com/holiday/ba
+ t-appreciation-day/
+X-WR-CALDESC:Bat Appreciation Day — https://todaycelebrates.com/holiday/b
+ at-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bat-appreciation-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bat-appreciation-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bat-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Bat Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bat Appreciation Day is a nature-focused observance on April 17
+ \, celebrated across the United States to draw attention to the plant\, an
+ imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
+ bat-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bat-appreciation-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

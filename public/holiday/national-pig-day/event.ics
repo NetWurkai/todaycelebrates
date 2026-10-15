@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pig Day
+X-WR-CALNAME:National Pig Day
+DESCRIPTION:National Pig Day — https://todaycelebrates.com/holiday/nation
+ al-pig-day/
+X-WR-CALDESC:National Pig Day — https://todaycelebrates.com/holiday/natio
+ nal-pig-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pig-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pig-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pig-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:National Pig Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pig Day is a nature-focused observance on March 1\, ce
+ lebrated across the United States to draw attention to the plant\, animal\
+ , or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/natio
+ nal-pig-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pig-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

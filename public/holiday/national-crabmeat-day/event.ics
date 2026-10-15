@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Crabmeat Day
+X-WR-CALNAME:National Crabmeat Day
+DESCRIPTION:National Crabmeat Day — https://todaycelebrates.com/holiday/n
+ ational-crabmeat-day/
+X-WR-CALDESC:National Crabmeat Day — https://todaycelebrates.com/holiday/
+ national-crabmeat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-crabmeat-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-crabmeat-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-crabmeat-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:National Crabmeat Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Crabmeat Day is a food-focused observance celebrated a
+ cross the United States on March 9\, giving fans of the dish or ingredient
+  an excuse to seek it out and share it with others.\n\nhttps://todaycelebr
+ ates.com/holiday/national-crabmeat-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-crabmeat-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

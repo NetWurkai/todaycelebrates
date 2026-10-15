@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Tiger Day
+X-WR-CALNAME:International Tiger Day
+DESCRIPTION:International Tiger Day — https://todaycelebrates.com/holiday
+ /international-tiger-day/
+X-WR-CALDESC:International Tiger Day — https://todaycelebrates.com/holida
+ y/international-tiger-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tiger-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-tiger-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-tiger-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:International Tiger Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Tiger Day is a nature-focused observance on July 
+ 29\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/international-tiger-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tiger-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

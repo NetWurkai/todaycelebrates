@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pet Memorial Day
+X-WR-CALNAME:National Pet Memorial Day
+DESCRIPTION:National Pet Memorial Day — https://todaycelebrates.com/holid
+ ay/national-pet-memorial-day/
+X-WR-CALDESC:National Pet Memorial Day — https://todaycelebrates.com/holi
+ day/national-pet-memorial-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-memorial-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-memorial-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pet-memorial-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270914
+SUMMARY:National Pet Memorial Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pet Memorial Day is celebrated across the United State
+ s on September 13\, honoring dogs and the bond they share with the people 
+ who love them.\n\nhttps://todaycelebrates.com/holiday/national-pet-memoria
+ l-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-memorial-day
+ /
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

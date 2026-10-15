@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Hooray for Kids Day
+X-WR-CALNAME:Hooray for Kids Day
+DESCRIPTION:Hooray for Kids Day — https://todaycelebrates.com/holiday/hoo
+ ray-for-kids-day/
+X-WR-CALDESC:Hooray for Kids Day — https://todaycelebrates.com/holiday/ho
+ oray-for-kids-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hooray-for-kids-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/hooray-for-kids-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:hooray-for-kids-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270805
+SUMMARY:Hooray for Kids Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Hooray for Kids Day\, observed on August 4\, is a lighthearted\
+ , family-friendly day celebrated across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/hooray-for-kids-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hooray-for-kids-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

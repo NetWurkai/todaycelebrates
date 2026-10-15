@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Carnation Day
+X-WR-CALNAME:National Carnation Day
+DESCRIPTION:National Carnation Day — https://todaycelebrates.com/holiday/
+ national-carnation-day/
+X-WR-CALDESC:National Carnation Day — https://todaycelebrates.com/holiday
+ /national-carnation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-carnation-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-carnation-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-carnation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:National Carnation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Carnation Day is a nature-focused observance on Januar
+ y 29\, celebrated across the United States to draw attention to the plant\
+ , animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holi
+ day/national-carnation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-carnation-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

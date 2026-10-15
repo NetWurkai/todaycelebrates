@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Strawberry Parfait Day
+X-WR-CALNAME:National Strawberry Parfait Day
+DESCRIPTION:National Strawberry Parfait Day — https://todaycelebrates.com
+ /holiday/national-strawberry-parfait-day/
+X-WR-CALDESC:National Strawberry Parfait Day — https://todaycelebrates.co
+ m/holiday/national-strawberry-parfait-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-strawberry-parfa
+ it-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-strawberry-pa
+ rfait-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-strawberry-parfait-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:National Strawberry Parfait Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Strawberry Parfait Day is a food-focused observance ce
+ lebrated across the United States on June 25\, giving fans of the dish or 
+ ingredient an excuse to seek it out and share it with others.\n\nhttps://t
+ odaycelebrates.com/holiday/national-strawberry-parfait-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-strawberry-parfa
+ it-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

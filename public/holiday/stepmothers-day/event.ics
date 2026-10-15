@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Stepmother's Day
+X-WR-CALNAME:Stepmother's Day
+DESCRIPTION:Stepmother's Day — https://todaycelebrates.com/holiday/stepmo
+ thers-day/
+X-WR-CALDESC:Stepmother's Day — https://todaycelebrates.com/holiday/stepm
+ others-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stepmothers-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/stepmothers-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:stepmothers-day-20270516@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:Stepmother's Day
+DESCRIPTION:Stepmother's Day\, observed on May 16\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/stepmothers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stepmothers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stepmothers-day-20280521@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280521
+DTEND;VALUE=DATE:20280522
+SUMMARY:Stepmother's Day
+DESCRIPTION:Stepmother's Day\, observed on May 16\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/stepmothers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stepmothers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stepmothers-day-20290520@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290520
+DTEND;VALUE=DATE:20290521
+SUMMARY:Stepmother's Day
+DESCRIPTION:Stepmother's Day\, observed on May 16\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/stepmothers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stepmothers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stepmothers-day-20300519@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300519
+DTEND;VALUE=DATE:20300520
+SUMMARY:Stepmother's Day
+DESCRIPTION:Stepmother's Day\, observed on May 16\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/stepmothers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stepmothers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stepmothers-day-20310518@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310518
+DTEND;VALUE=DATE:20310519
+SUMMARY:Stepmother's Day
+DESCRIPTION:Stepmother's Day\, observed on May 16\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/stepmothers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stepmothers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stepmothers-day-20320516@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320516
+DTEND;VALUE=DATE:20320517
+SUMMARY:Stepmother's Day
+DESCRIPTION:Stepmother's Day\, observed on May 16\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/stepmothers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stepmothers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stepmothers-day-20330515@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330515
+DTEND;VALUE=DATE:20330516
+SUMMARY:Stepmother's Day
+DESCRIPTION:Stepmother's Day\, observed on May 16\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/stepmothers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stepmothers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stepmothers-day-20340521@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340521
+DTEND;VALUE=DATE:20340522
+SUMMARY:Stepmother's Day
+DESCRIPTION:Stepmother's Day\, observed on May 16\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/stepmothers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stepmothers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:stepmothers-day-20350520@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350520
+DTEND;VALUE=DATE:20350521
+SUMMARY:Stepmother's Day
+DESCRIPTION:Stepmother's Day\, observed on May 16\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/stepmothers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/stepmothers-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

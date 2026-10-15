@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Internaut Day
+X-WR-CALNAME:Internaut Day
+DESCRIPTION:Internaut Day — https://todaycelebrates.com/holiday/internaut
+ -day/
+X-WR-CALDESC:Internaut Day — https://todaycelebrates.com/holiday/internau
+ t-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/internaut-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/internaut-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:internaut-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270824
+SUMMARY:Internaut Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Internaut Day\, observed on August 23\, celebrates a piece of t
+ echnology or digital culture that's become part of everyday life across th
+ e United States.\n\nhttps://todaycelebrates.com/holiday/internaut-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/internaut-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

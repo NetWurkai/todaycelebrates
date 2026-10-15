@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Religious Freedom Day
+X-WR-CALNAME:Religious Freedom Day
+DESCRIPTION:Religious Freedom Day — https://todaycelebrates.com/holiday/r
+ eligious-freedom-day/
+X-WR-CALDESC:Religious Freedom Day — https://todaycelebrates.com/holiday/
+ religious-freedom-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/religious-freedom-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/religious-freedom-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:religious-freedom-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Religious Freedom Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Religious Freedom Day\, observed on January 16\, encourages peo
+ ple across the United States to pause and recognize the people and causes 
+ behind the day.\n\nhttps://todaycelebrates.com/holiday/religious-freedom-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/religious-freedom-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

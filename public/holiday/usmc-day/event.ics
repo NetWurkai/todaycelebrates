@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:USMC Day
+X-WR-CALNAME:USMC Day
+DESCRIPTION:USMC Day — https://todaycelebrates.com/holiday/usmc-day/
+X-WR-CALDESC:USMC Day — https://todaycelebrates.com/holiday/usmc-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/usmc-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/usmc-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:usmc-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:USMC Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:USMC Day\, observed on November 10\, is a lighthearted holiday 
+ celebrated across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/usmc-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/usmc-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

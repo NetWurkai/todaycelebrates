@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Global Sleep Under the Stars Night
+X-WR-CALNAME:Global Sleep Under the Stars Night
+DESCRIPTION:Global Sleep Under the Stars Night — https://todaycelebrates.
+ com/holiday/global-sleep-under-the-stars-night/
+X-WR-CALDESC:Global Sleep Under the Stars Night — https://todaycelebrates
+ .com/holiday/global-sleep-under-the-stars-night/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-sleep-under-the-st
+ ars-night/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/global-sleep-under-the
+ -stars-night/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:global-sleep-under-the-stars-night@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+SUMMARY:Global Sleep Under the Stars Night
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Sleep Under the Stars Night\, observed on August 8\, is 
+ a lighthearted\, family-friendly day celebrated across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/global-sleep-under-the-stars-night/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-sleep-under-the-st
+ ars-night/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Remember the Maine Day
+X-WR-CALNAME:Remember the Maine Day
+DESCRIPTION:Remember the Maine Day — https://todaycelebrates.com/holiday/
+ remember-the-maine-day/
+X-WR-CALDESC:Remember the Maine Day — https://todaycelebrates.com/holiday
+ /remember-the-maine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/remember-the-maine-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/remember-the-maine-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:remember-the-maine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Remember the Maine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Remember the Maine Day\, observed on February 15\, is a lighthe
+ arted holiday celebrated across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/remember-the-maine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/remember-the-maine-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

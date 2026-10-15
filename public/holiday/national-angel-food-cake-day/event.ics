@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Angel Food Cake Day
+X-WR-CALNAME:National Angel Food Cake Day
+DESCRIPTION:National Angel Food Cake Day — https://todaycelebrates.com/ho
+ liday/national-angel-food-cake-day/
+X-WR-CALDESC:National Angel Food Cake Day — https://todaycelebrates.com/h
+ oliday/national-angel-food-cake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-angel-food-cake-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-angel-food-ca
+ ke-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-angel-food-cake-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:National Angel Food Cake Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 10\, National Angel Food Cake Day gives people acros
+ s the United States one more reason to mark the day and celebrate angel fo
+ od cake.\n\nhttps://todaycelebrates.com/holiday/national-angel-food-cake-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-angel-food-cake-
+ day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

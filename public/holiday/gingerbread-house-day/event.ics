@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Gingerbread House Day
+X-WR-CALNAME:Gingerbread House Day
+DESCRIPTION:Gingerbread House Day — https://todaycelebrates.com/holiday/g
+ ingerbread-house-day/
+X-WR-CALDESC:Gingerbread House Day — https://todaycelebrates.com/holiday/
+ gingerbread-house-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/gingerbread-house-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/gingerbread-house-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:gingerbread-house-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Gingerbread House Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Gingerbread House Day is a food-focused observance celebrated a
+ cross the United States on December 12\, giving fans of the dish or ingred
+ ient an excuse to seek it out and share it with others.\n\nhttps://todayce
+ lebrates.com/holiday/gingerbread-house-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/gingerbread-house-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

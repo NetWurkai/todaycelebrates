@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Psoriasis Day
+X-WR-CALNAME:World Psoriasis Day
+DESCRIPTION:World Psoriasis Day — https://todaycelebrates.com/holiday/wor
+ ld-psoriasis-day/
+X-WR-CALDESC:World Psoriasis Day — https://todaycelebrates.com/holiday/wo
+ rld-psoriasis-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-psoriasis-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-psoriasis-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-psoriasis-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:World Psoriasis Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 29\, World Psoriasis Day gives people around the glo
+ be one more reason to mark the day and celebrate psoriasis.\n\nhttps://tod
+ aycelebrates.com/holiday/world-psoriasis-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-psoriasis-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

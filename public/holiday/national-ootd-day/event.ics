@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National OOTD Day
+X-WR-CALNAME:National OOTD Day
+DESCRIPTION:National OOTD Day — https://todaycelebrates.com/holiday/natio
+ nal-ootd-day/
+X-WR-CALDESC:National OOTD Day — https://todaycelebrates.com/holiday/nati
+ onal-ootd-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ootd-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-ootd-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-ootd-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:National OOTD Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National OOTD Day\, observed on June 30\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/national-ootd-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ootd-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

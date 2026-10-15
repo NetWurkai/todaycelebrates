@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Cook Something Bold Day
+X-WR-CALNAME:Cook Something Bold Day
+DESCRIPTION:Cook Something Bold Day — https://todaycelebrates.com/holiday
+ /cook-something-bold-day/
+X-WR-CALDESC:Cook Something Bold Day — https://todaycelebrates.com/holida
+ y/cook-something-bold-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cook-something-bold-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/cook-something-bold-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cook-something-bold-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Cook Something Bold Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Cook Something Bold Day is a food-focused observance celebrated
+  across the United States on November 8\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/cook-something-bold-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cook-something-bold-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Aunt and Uncles Day
+X-WR-CALNAME:Aunt and Uncles Day
+DESCRIPTION:Aunt and Uncles Day — https://todaycelebrates.com/holiday/aun
+ t-and-uncles-day/
+X-WR-CALDESC:Aunt and Uncles Day — https://todaycelebrates.com/holiday/au
+ nt-and-uncles-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/aunt-and-uncles-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/aunt-and-uncles-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aunt-and-uncles-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270727
+SUMMARY:Aunt and Uncles Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Aunt and Uncles Day\, observed on July 26\, encourages people a
+ cross the United States to pause and recognize the people and causes behin
+ d the day.\n\nhttps://todaycelebrates.com/holiday/aunt-and-uncles-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/aunt-and-uncles-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

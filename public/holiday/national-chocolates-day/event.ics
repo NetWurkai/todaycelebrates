@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chocolates Day
+X-WR-CALNAME:National Chocolates Day
+DESCRIPTION:National Chocolates Day — https://todaycelebrates.com/holiday
+ /national-chocolates-day/
+X-WR-CALDESC:National Chocolates Day — https://todaycelebrates.com/holida
+ y/national-chocolates-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolates-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolates-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chocolates-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:National Chocolates Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chocolates Day is a food-focused observance celebrated
+  across the United States on November 29\, giving fans of the dish or ingr
+ edient an excuse to seek it out and share it with others.\n\nhttps://today
+ celebrates.com/holiday/national-chocolates-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolates-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

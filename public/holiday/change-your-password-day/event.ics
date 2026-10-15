@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Change Your Password Day
+X-WR-CALNAME:Change Your Password Day
+DESCRIPTION:Change Your Password Day — https://todaycelebrates.com/holida
+ y/change-your-password-day/
+X-WR-CALDESC:Change Your Password Day — https://todaycelebrates.com/holid
+ ay/change-your-password-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/change-your-password-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/change-your-password-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:change-your-password-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Change Your Password Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Change Your Password Day\, observed on February 1\, celebrates 
+ a piece of technology or digital culture that's become part of everyday li
+ fe across the United States.\n\nhttps://todaycelebrates.com/holiday/change
+ -your-password-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/change-your-password-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

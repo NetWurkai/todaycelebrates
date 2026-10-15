@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Crêpe Day
+X-WR-CALNAME:Crêpe Day
+DESCRIPTION:Crêpe Day — https://todaycelebrates.com/holiday/cr-pe-day/
+X-WR-CALDESC:Crêpe Day — https://todaycelebrates.com/holiday/cr-pe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cr-pe-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/cr-pe-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cr-pe-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:Crêpe Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Crêpe Day is a food-focused observance celebrated across the U
+ nited States on February 2\, giving fans of the dish or ingredient an excu
+ se to seek it out and share it with others.\n\nhttps://todaycelebrates.com
+ /holiday/cr-pe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cr-pe-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

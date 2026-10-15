@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Forgive Your Foe Friday
+X-WR-CALNAME:Forgive Your Foe Friday
+DESCRIPTION:Forgive Your Foe Friday — https://todaycelebrates.com/holiday
+ /forgive-your-foe-friday/
+X-WR-CALDESC:Forgive Your Foe Friday — https://todaycelebrates.com/holida
+ y/forgive-your-foe-friday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/forgive-your-foe-friday/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/forgive-your-foe-frida
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:forgive-your-foe-friday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270828
+SUMMARY:Forgive Your Foe Friday
+RRULE:FREQ=YEARLY
+DESCRIPTION:Forgive Your Foe Friday\, observed on August 27\, is a lighthea
+ rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/forgive-your-foe-friday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/forgive-your-foe-friday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

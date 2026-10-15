@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chocolate Soufflé Day
+X-WR-CALNAME:National Chocolate Soufflé Day
+DESCRIPTION:National Chocolate Soufflé Day — https://todaycelebrates.com
+ /holiday/national-chocolate-souffl-day/
+X-WR-CALDESC:National Chocolate Soufflé Day — https://todaycelebrates.co
+ m/holiday/national-chocolate-souffl-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-souffl
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-sou
+ ffl-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chocolate-souffl-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:National Chocolate Soufflé Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chocolate Soufflé Day is a food-focused observance ce
+ lebrated across the United States on February 28\, giving fans of the dish
+  or ingredient an excuse to seek it out and share it with others.\n\nhttps
+ ://todaycelebrates.com/holiday/national-chocolate-souffl-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-souffl
+ -day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Volunteer Day
+X-WR-CALNAME:International Volunteer Day
+DESCRIPTION:International Volunteer Day — https://todaycelebrates.com/hol
+ iday/international-volunteer-day/
+X-WR-CALDESC:International Volunteer Day — https://todaycelebrates.com/ho
+ liday/international-volunteer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-volunteer-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-voluntee
+ r-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-volunteer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:International Volunteer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Volunteer Day\, observed on December 5\, encourag
+ es people across the United States to pause and recognize the people and c
+ auses behind the day.\n\nhttps://todaycelebrates.com/holiday/international
+ -volunteer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-volunteer-d
+ ay/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

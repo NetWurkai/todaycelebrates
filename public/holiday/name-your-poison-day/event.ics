@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Name Your Poison Day
+X-WR-CALNAME:Name Your Poison Day
+DESCRIPTION:Name Your Poison Day — https://todaycelebrates.com/holiday/na
+ me-your-poison-day/
+X-WR-CALDESC:Name Your Poison Day — https://todaycelebrates.com/holiday/n
+ ame-your-poison-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/name-your-poison-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/name-your-poison-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:name-your-poison-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:Name Your Poison Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Name Your Poison Day is a drinks-focused observance on June 8\,
+  celebrated by beer and craft-brewery fans across the United States.\n\nht
+ tps://todaycelebrates.com/holiday/name-your-poison-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/name-your-poison-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

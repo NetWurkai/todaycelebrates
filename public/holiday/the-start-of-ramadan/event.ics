@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:The Start of Ramadan
+X-WR-CALNAME:The Start of Ramadan
+DESCRIPTION:The Start of Ramadan — https://todaycelebrates.com/holiday/th
+ e-start-of-ramadan/
+X-WR-CALDESC:The Start of Ramadan — https://todaycelebrates.com/holiday/t
+ he-start-of-ramadan/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-ramadan/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-ramadan/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:the-start-of-ramadan-20270208@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:The Start of Ramadan
+DESCRIPTION:The Start of Ramadan\, observed on February 8\, encourages peop
+ le across the United States to pause and recognize the people and causes b
+ ehind the day.\n\nhttps://todaycelebrates.com/holiday/the-start-of-ramadan
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-ramadan/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-ramadan-20280128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280128
+DTEND;VALUE=DATE:20280129
+SUMMARY:The Start of Ramadan
+DESCRIPTION:The Start of Ramadan\, observed on February 8\, encourages peop
+ le across the United States to pause and recognize the people and causes b
+ ehind the day.\n\nhttps://todaycelebrates.com/holiday/the-start-of-ramadan
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-ramadan/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-ramadan-20290116@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290116
+DTEND;VALUE=DATE:20290117
+SUMMARY:The Start of Ramadan
+DESCRIPTION:The Start of Ramadan\, observed on February 8\, encourages peop
+ le across the United States to pause and recognize the people and causes b
+ ehind the day.\n\nhttps://todaycelebrates.com/holiday/the-start-of-ramadan
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-ramadan/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-ramadan-20300105@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300105
+DTEND;VALUE=DATE:20300106
+SUMMARY:The Start of Ramadan
+DESCRIPTION:The Start of Ramadan\, observed on February 8\, encourages peop
+ le across the United States to pause and recognize the people and causes b
+ ehind the day.\n\nhttps://todaycelebrates.com/holiday/the-start-of-ramadan
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-ramadan/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-ramadan-20311215@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311215
+DTEND;VALUE=DATE:20311216
+SUMMARY:The Start of Ramadan
+DESCRIPTION:The Start of Ramadan\, observed on February 8\, encourages peop
+ le across the United States to pause and recognize the people and causes b
+ ehind the day.\n\nhttps://todaycelebrates.com/holiday/the-start-of-ramadan
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-ramadan/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-ramadan-20321204@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321204
+DTEND;VALUE=DATE:20321205
+SUMMARY:The Start of Ramadan
+DESCRIPTION:The Start of Ramadan\, observed on February 8\, encourages peop
+ le across the United States to pause and recognize the people and causes b
+ ehind the day.\n\nhttps://todaycelebrates.com/holiday/the-start-of-ramadan
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-ramadan/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-ramadan-20331123@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331123
+DTEND;VALUE=DATE:20331124
+SUMMARY:The Start of Ramadan
+DESCRIPTION:The Start of Ramadan\, observed on February 8\, encourages peop
+ le across the United States to pause and recognize the people and causes b
+ ehind the day.\n\nhttps://todaycelebrates.com/holiday/the-start-of-ramadan
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-ramadan/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-ramadan-20341112@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341112
+DTEND;VALUE=DATE:20341113
+SUMMARY:The Start of Ramadan
+DESCRIPTION:The Start of Ramadan\, observed on February 8\, encourages peop
+ le across the United States to pause and recognize the people and causes b
+ ehind the day.\n\nhttps://todaycelebrates.com/holiday/the-start-of-ramadan
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-ramadan/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:the-start-of-ramadan-20351101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351101
+DTEND;VALUE=DATE:20351102
+SUMMARY:The Start of Ramadan
+DESCRIPTION:The Start of Ramadan\, observed on February 8\, encourages peop
+ le across the United States to pause and recognize the people and causes b
+ ehind the day.\n\nhttps://todaycelebrates.com/holiday/the-start-of-ramadan
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-ramadan/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

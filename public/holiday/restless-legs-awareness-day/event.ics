@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Restless Legs Awareness Day
+X-WR-CALNAME:Restless Legs Awareness Day
+DESCRIPTION:Restless Legs Awareness Day — https://todaycelebrates.com/hol
+ iday/restless-legs-awareness-day/
+X-WR-CALDESC:Restless Legs Awareness Day — https://todaycelebrates.com/ho
+ liday/restless-legs-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/restless-legs-awareness-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/restless-legs-awarenes
+ s-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:restless-legs-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+SUMMARY:Restless Legs Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Restless Legs Awareness Day\, marked across the United States o
+ n September 23\, raises awareness around restless legs awareness and suppo
+ rts those affected by it.\n\nhttps://todaycelebrates.com/holiday/restless-
+ legs-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/restless-legs-awareness-d
+ ay/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

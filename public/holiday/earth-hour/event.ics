@@ -1,0 +1,157 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Earth Hour
+X-WR-CALNAME:Earth Hour
+DESCRIPTION:Earth Hour — https://todaycelebrates.com/holiday/earth-hour/
+X-WR-CALDESC:Earth Hour — https://todaycelebrates.com/holiday/earth-hour/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:earth-hour-20270327@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20280325@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280325
+DTEND;VALUE=DATE:20280326
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20290331@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290331
+DTEND;VALUE=DATE:20290401
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20300330@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300330
+DTEND;VALUE=DATE:20300331
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20310329@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310329
+DTEND;VALUE=DATE:20310330
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20320327@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320327
+DTEND;VALUE=DATE:20320328
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20330326@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330326
+DTEND;VALUE=DATE:20330327
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20340325@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340325
+DTEND;VALUE=DATE:20340326
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:earth-hour-20350331@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350331
+DTEND;VALUE=DATE:20350401
+SUMMARY:Earth Hour
+DESCRIPTION:Earth Hour is a nature-focused observance on March 27\, celebra
+ ted across the United States to draw attention to the plant\, animal\, or 
+ landscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-hour
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-hour/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

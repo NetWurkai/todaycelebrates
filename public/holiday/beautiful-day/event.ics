@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Beautiful Day
+X-WR-CALNAME:Beautiful Day
+DESCRIPTION:Beautiful Day — https://todaycelebrates.com/holiday/beautiful
+ -day/
+X-WR-CALDESC:Beautiful Day — https://todaycelebrates.com/holiday/beautifu
+ l-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beautiful-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/beautiful-day/event.ic
+ s
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:beautiful-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Beautiful Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Beautiful Day\, observed on November 20\, is a lighthearted hol
+ iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/beautiful-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/beautiful-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

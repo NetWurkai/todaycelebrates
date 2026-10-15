@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Own Business Day
+X-WR-CALNAME:Own Business Day
+DESCRIPTION:Own Business Day — https://todaycelebrates.com/holiday/own-bu
+ siness-day/
+X-WR-CALDESC:Own Business Day — https://todaycelebrates.com/holiday/own-b
+ usiness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/own-business-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/own-business-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:own-business-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271013
+DTEND;VALUE=DATE:20271014
+SUMMARY:Own Business Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 13\, Own Business Day gives people across the United
+  States one more reason to mark the day and celebrate own business.\n\nhtt
+ ps://todaycelebrates.com/holiday/own-business-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/own-business-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

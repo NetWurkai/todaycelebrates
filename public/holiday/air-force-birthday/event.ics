@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Air Force Birthday
+X-WR-CALNAME:Air Force Birthday
+DESCRIPTION:Air Force Birthday — https://todaycelebrates.com/holiday/air-
+ force-birthday/
+X-WR-CALDESC:Air Force Birthday — https://todaycelebrates.com/holiday/air
+ -force-birthday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/air-force-birthday/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/air-force-birthday/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:air-force-birthday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:Air Force Birthday
+RRULE:FREQ=YEARLY
+DESCRIPTION:The U.S. Air Force Birthday commemorates the September 18\, 194
+ 7 founding of the Air Force as a separate branch of the U.S. military\, ho
+ noring the service and sacrifice of airmen and airwomen.\n\nhttps://todayc
+ elebrates.com/holiday/air-force-birthday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/air-force-birthday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

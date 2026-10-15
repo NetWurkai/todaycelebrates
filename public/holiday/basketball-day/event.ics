@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Basketball Day
+X-WR-CALNAME:Basketball Day
+DESCRIPTION:Basketball Day — https://todaycelebrates.com/holiday/basketba
+ ll-day/
+X-WR-CALDESC:Basketball Day — https://todaycelebrates.com/holiday/basketb
+ all-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/basketball-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/basketball-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:basketball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Basketball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Basketball Day\, observed on November 6\, is celebrated by spor
+ ts fans across the United States.\n\nhttps://todaycelebrates.com/holiday/b
+ asketball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/basketball-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

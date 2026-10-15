@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pet Day
+X-WR-CALNAME:National Pet Day
+DESCRIPTION:National Pet Day — https://todaycelebrates.com/holiday/nation
+ al-pet-day/
+X-WR-CALDESC:National Pet Day — https://todaycelebrates.com/holiday/natio
+ nal-pet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:National Pet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pet Day\, observed on April 11\, is celebrated by dog 
+ lovers across the United States.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-pet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pet-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

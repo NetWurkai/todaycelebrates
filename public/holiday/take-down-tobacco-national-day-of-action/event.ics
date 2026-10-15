@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Take Down Tobacco National Day of Action
+X-WR-CALNAME:Take Down Tobacco National Day of Action
+DESCRIPTION:Take Down Tobacco National Day of Action — https://todayceleb
+ rates.com/holiday/take-down-tobacco-national-day-of-action/
+X-WR-CALDESC:Take Down Tobacco National Day of Action — https://todaycele
+ brates.com/holiday/take-down-tobacco-national-day-of-action/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-down-tobacco-nationa
+ l-day-of-action/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/take-down-tobacco-nati
+ onal-day-of-action/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:take-down-tobacco-national-day-of-action@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Take Down Tobacco National Day of Action
+RRULE:FREQ=YEARLY
+DESCRIPTION:Take Down Tobacco National Day of Action\, observed on March 17
+ \, encourages people across the United States to focus on health and wellb
+ eing.\n\nhttps://todaycelebrates.com/holiday/take-down-tobacco-national-da
+ y-of-action/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/take-down-tobacco-nationa
+ l-day-of-action/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

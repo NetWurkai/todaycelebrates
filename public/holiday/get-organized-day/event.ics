@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Get Organized Day
+X-WR-CALNAME:Get Organized Day
+DESCRIPTION:Get Organized Day — https://todaycelebrates.com/holiday/get-o
+ rganized-day/
+X-WR-CALDESC:Get Organized Day — https://todaycelebrates.com/holiday/get-
+ organized-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/get-organized-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/get-organized-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:get-organized-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:Get Organized Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Get Organized Day\, observed on April 26\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/get-organized-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/get-organized-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:The Stars and Stripes Forever Day
+X-WR-CALNAME:The Stars and Stripes Forever Day
+DESCRIPTION:The Stars and Stripes Forever Day — https://todaycelebrates.c
+ om/holiday/the-stars-and-stripes-forever-day/
+X-WR-CALDESC:The Stars and Stripes Forever Day — https://todaycelebrates.
+ com/holiday/the-stars-and-stripes-forever-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-stars-and-stripes-for
+ ever-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/the-stars-and-stripes-
+ forever-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:the-stars-and-stripes-forever-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270515
+SUMMARY:The Stars and Stripes Forever Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:The Stars and Stripes Forever Day is a music-focused observance
+  on May 14\, celebrated by fans across the United States.\n\nhttps://today
+ celebrates.com/holiday/the-stars-and-stripes-forever-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-stars-and-stripes-for
+ ever-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

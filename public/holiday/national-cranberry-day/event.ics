@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cranberry Day
+X-WR-CALNAME:National Cranberry Day
+DESCRIPTION:National Cranberry Day — https://todaycelebrates.com/holiday/
+ national-cranberry-day/
+X-WR-CALDESC:National Cranberry Day — https://todaycelebrates.com/holiday
+ /national-cranberry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cranberry-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cranberry-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cranberry-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:National Cranberry Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cranberry Day is a food-focused observance celebrated 
+ across the United States on November 21\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-cranberry-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cranberry-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Jackie Robinson Day
+X-WR-CALNAME:Jackie Robinson Day
+DESCRIPTION:Jackie Robinson Day — https://todaycelebrates.com/holiday/jac
+ kie-robinson-day/
+X-WR-CALDESC:Jackie Robinson Day — https://todaycelebrates.com/holiday/ja
+ ckie-robinson-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/jackie-robinson-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/jackie-robinson-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:jackie-robinson-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Jackie Robinson Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Jackie Robinson Day\, observed on April 15\, is celebrated by s
+ ports fans across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/jackie-robinson-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/jackie-robinson-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

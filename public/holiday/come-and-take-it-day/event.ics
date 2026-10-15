@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Come and Take It Day
+X-WR-CALNAME:Come and Take It Day
+DESCRIPTION:Come and Take It Day — https://todaycelebrates.com/holiday/co
+ me-and-take-it-day/
+X-WR-CALDESC:Come and Take It Day — https://todaycelebrates.com/holiday/c
+ ome-and-take-it-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/come-and-take-it-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/come-and-take-it-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:come-and-take-it-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271006
+DTEND;VALUE=DATE:20271007
+SUMMARY:Come and Take It Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 6\, Come and Take It Day gives people across the Uni
+ ted States one more reason to mark the day and celebrate come and take it.
+ \n\nhttps://todaycelebrates.com/holiday/come-and-take-it-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/come-and-take-it-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

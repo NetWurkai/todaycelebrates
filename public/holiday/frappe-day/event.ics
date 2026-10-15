@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Frappe Day
+X-WR-CALNAME:Frappe Day
+DESCRIPTION:Frappe Day — https://todaycelebrates.com/holiday/frappe-day/
+X-WR-CALDESC:Frappe Day — https://todaycelebrates.com/holiday/frappe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/frappe-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/frappe-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:frappe-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:Frappe Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 7\, Frappe Day gives people across the United States
+  one more reason to mark the day and celebrate frappe.\n\nhttps://todaycel
+ ebrates.com/holiday/frappe-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/frappe-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

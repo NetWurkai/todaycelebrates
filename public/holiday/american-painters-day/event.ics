@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:American Painters Day
+X-WR-CALNAME:American Painters Day
+DESCRIPTION:American Painters Day — https://todaycelebrates.com/holiday/a
+ merican-painters-day/
+X-WR-CALDESC:American Painters Day — https://todaycelebrates.com/holiday/
+ american-painters-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-painters-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/american-painters-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:american-painters-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:American Painters Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:American Painters Day\, observed on February 3\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/american-painters-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-painters-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

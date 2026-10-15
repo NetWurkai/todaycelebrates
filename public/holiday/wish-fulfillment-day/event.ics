@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Wish Fulfillment Day
+X-WR-CALNAME:Wish Fulfillment Day
+DESCRIPTION:Wish Fulfillment Day — https://todaycelebrates.com/holiday/wi
+ sh-fulfillment-day/
+X-WR-CALDESC:Wish Fulfillment Day — https://todaycelebrates.com/holiday/w
+ ish-fulfillment-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/wish-fulfillment-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/wish-fulfillment-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:wish-fulfillment-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:Wish Fulfillment Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Wish Fulfillment Day\, observed on June 16\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/wish-fulfillment-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/wish-fulfillment-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

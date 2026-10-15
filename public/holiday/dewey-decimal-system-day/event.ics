@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Dewey Decimal System Day
+X-WR-CALNAME:Dewey Decimal System Day
+DESCRIPTION:Dewey Decimal System Day — https://todaycelebrates.com/holida
+ y/dewey-decimal-system-day/
+X-WR-CALDESC:Dewey Decimal System Day — https://todaycelebrates.com/holid
+ ay/dewey-decimal-system-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dewey-decimal-system-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/dewey-decimal-system-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:dewey-decimal-system-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Dewey Decimal System Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Dewey Decimal System Day is a reading- and writing-focused obse
+ rvance on December 10\, celebrated by book lovers across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/dewey-decimal-system-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dewey-decimal-system-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

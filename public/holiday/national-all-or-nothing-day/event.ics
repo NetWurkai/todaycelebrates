@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National All Or Nothing Day
+X-WR-CALNAME:National All Or Nothing Day
+DESCRIPTION:National All Or Nothing Day — https://todaycelebrates.com/hol
+ iday/national-all-or-nothing-day/
+X-WR-CALDESC:National All Or Nothing Day — https://todaycelebrates.com/ho
+ liday/national-all-or-nothing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-all-or-nothing-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-all-or-nothin
+ g-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-all-or-nothing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270727
+SUMMARY:National All Or Nothing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National All Or Nothing Day\, observed on July 26\, is a lighth
+ earted holiday celebrated across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/national-all-or-nothing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-all-or-nothing-d
+ ay/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

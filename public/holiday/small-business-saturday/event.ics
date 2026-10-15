@@ -1,0 +1,177 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Small Business Saturday
+X-WR-CALNAME:Small Business Saturday
+DESCRIPTION:Small Business Saturday — https://todaycelebrates.com/holiday
+ /small-business-saturday/
+X-WR-CALDESC:Small Business Saturday — https://todaycelebrates.com/holida
+ y/small-business-saturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-business-saturday/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/small-business-saturda
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:small-business-saturday-20261128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Small Business Saturday
+DESCRIPTION:Small Business Saturday\, observed on November 28\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/small-business-s
+ aturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-business-saturday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-business-saturday-20271127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271127
+DTEND;VALUE=DATE:20271128
+SUMMARY:Small Business Saturday
+DESCRIPTION:Small Business Saturday\, observed on November 28\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/small-business-s
+ aturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-business-saturday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-business-saturday-20281125@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281125
+DTEND;VALUE=DATE:20281126
+SUMMARY:Small Business Saturday
+DESCRIPTION:Small Business Saturday\, observed on November 28\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/small-business-s
+ aturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-business-saturday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-business-saturday-20291124@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291124
+DTEND;VALUE=DATE:20291125
+SUMMARY:Small Business Saturday
+DESCRIPTION:Small Business Saturday\, observed on November 28\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/small-business-s
+ aturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-business-saturday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-business-saturday-20301130@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301130
+DTEND;VALUE=DATE:20301201
+SUMMARY:Small Business Saturday
+DESCRIPTION:Small Business Saturday\, observed on November 28\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/small-business-s
+ aturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-business-saturday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-business-saturday-20311129@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311129
+DTEND;VALUE=DATE:20311130
+SUMMARY:Small Business Saturday
+DESCRIPTION:Small Business Saturday\, observed on November 28\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/small-business-s
+ aturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-business-saturday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-business-saturday-20321127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321127
+DTEND;VALUE=DATE:20321128
+SUMMARY:Small Business Saturday
+DESCRIPTION:Small Business Saturday\, observed on November 28\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/small-business-s
+ aturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-business-saturday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-business-saturday-20331126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331126
+DTEND;VALUE=DATE:20331127
+SUMMARY:Small Business Saturday
+DESCRIPTION:Small Business Saturday\, observed on November 28\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/small-business-s
+ aturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-business-saturday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-business-saturday-20341125@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341125
+DTEND;VALUE=DATE:20341126
+SUMMARY:Small Business Saturday
+DESCRIPTION:Small Business Saturday\, observed on November 28\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/small-business-s
+ aturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-business-saturday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:small-business-saturday-20351124@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351124
+DTEND;VALUE=DATE:20351125
+SUMMARY:Small Business Saturday
+DESCRIPTION:Small Business Saturday\, observed on November 28\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/small-business-s
+ aturday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/small-business-saturday/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Blues Music Day
+X-WR-CALNAME:International Blues Music Day
+DESCRIPTION:International Blues Music Day — https://todaycelebrates.com/h
+ oliday/international-blues-music-day/
+X-WR-CALDESC:International Blues Music Day — https://todaycelebrates.com/
+ holiday/international-blues-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-blues-music
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-blues-mu
+ sic-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-blues-music-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:International Blues Music Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Blues Music Day is a music-focused observance on 
+ August 7\, celebrated by fans across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/international-blues-music-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-blues-music
+ -day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Hawaiian Pizza Day
+X-WR-CALNAME:International Hawaiian Pizza Day
+DESCRIPTION:International Hawaiian Pizza Day — https://todaycelebrates.co
+ m/holiday/international-hawaiian-pizza-day/
+X-WR-CALDESC:International Hawaiian Pizza Day — https://todaycelebrates.c
+ om/holiday/international-hawaiian-pizza-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-hawaiian-pi
+ zza-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-hawaiian
+ -pizza-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-hawaiian-pizza-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:International Hawaiian Pizza Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Hawaiian Pizza Day is a food-focused observance c
+ elebrated across the United States on August 20\, giving fans of the dish 
+ or ingredient an excuse to seek it out and share it with others.\n\nhttps:
+ //todaycelebrates.com/holiday/international-hawaiian-pizza-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-hawaiian-pi
+ zza-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Stroke Day
+X-WR-CALNAME:World Stroke Day
+DESCRIPTION:World Stroke Day — https://todaycelebrates.com/holiday/world-
+ stroke-day/
+X-WR-CALDESC:World Stroke Day — https://todaycelebrates.com/holiday/world
+ -stroke-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-stroke-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-stroke-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-stroke-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:World Stroke Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Stroke Day raises awareness of stroke prevention\, the im
+ portance of recognizing symptoms quickly\, and support for survivors and t
+ heir families.\n\nhttps://todaycelebrates.com/holiday/world-stroke-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-stroke-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

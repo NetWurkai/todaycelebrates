@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Celebrate Your Unique Talent Day
+X-WR-CALNAME:Celebrate Your Unique Talent Day
+DESCRIPTION:Celebrate Your Unique Talent Day — https://todaycelebrates.co
+ m/holiday/celebrate-your-unique-talent-day/
+X-WR-CALDESC:Celebrate Your Unique Talent Day — https://todaycelebrates.c
+ om/holiday/celebrate-your-unique-talent-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/celebrate-your-unique-tal
+ ent-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/celebrate-your-unique-
+ talent-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:celebrate-your-unique-talent-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Celebrate Your Unique Talent Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Celebrate Your Unique Talent Day\, observed on November 24\, is
+  a lighthearted holiday celebrated across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/celebrate-your-unique-talent-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/celebrate-your-unique-tal
+ ent-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

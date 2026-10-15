@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Prosecco Day
+X-WR-CALNAME:National Prosecco Day
+DESCRIPTION:National Prosecco Day — https://todaycelebrates.com/holiday/n
+ ational-prosecco-day/
+X-WR-CALDESC:National Prosecco Day — https://todaycelebrates.com/holiday/
+ national-prosecco-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-prosecco-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-prosecco-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-prosecco-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270813
+DTEND;VALUE=DATE:20270814
+SUMMARY:National Prosecco Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Prosecco Day is a drinks-focused observance on August 
+ 13\, celebrated by beer and craft-brewery fans across the United States.\n
+ \nhttps://todaycelebrates.com/holiday/national-prosecco-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-prosecco-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Gorgeous Grandma Day
+X-WR-CALNAME:Gorgeous Grandma Day
+DESCRIPTION:Gorgeous Grandma Day — https://todaycelebrates.com/holiday/go
+ rgeous-grandma-day/
+X-WR-CALDESC:Gorgeous Grandma Day — https://todaycelebrates.com/holiday/g
+ orgeous-grandma-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/gorgeous-grandma-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/gorgeous-grandma-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:gorgeous-grandma-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:Gorgeous Grandma Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Gorgeous Grandma Day\, observed on July 23\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/gorgeous-grandma-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/gorgeous-grandma-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

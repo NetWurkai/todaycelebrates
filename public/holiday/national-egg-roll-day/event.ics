@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Egg Roll Day
+X-WR-CALNAME:National Egg Roll Day
+DESCRIPTION:National Egg Roll Day — https://todaycelebrates.com/holiday/n
+ ational-egg-roll-day/
+X-WR-CALDESC:National Egg Roll Day — https://todaycelebrates.com/holiday/
+ national-egg-roll-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-egg-roll-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-egg-roll-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-egg-roll-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:National Egg Roll Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Egg Roll Day is a food-focused observance celebrated a
+ cross the United States on June 10\, giving fans of the dish or ingredient
+  an excuse to seek it out and share it with others.\n\nhttps://todaycelebr
+ ates.com/holiday/national-egg-roll-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-egg-roll-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

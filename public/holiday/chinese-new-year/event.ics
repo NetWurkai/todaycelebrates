@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Chinese New Year
+X-WR-CALNAME:Chinese New Year
+DESCRIPTION:Chinese New Year — https://todaycelebrates.com/holiday/chines
+ e-new-year/
+X-WR-CALDESC:Chinese New Year — https://todaycelebrates.com/holiday/chine
+ se-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:chinese-new-year-20270206@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Chinese New Year
+DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/chinese-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-new-year-20280126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280126
+DTEND;VALUE=DATE:20280127
+SUMMARY:Chinese New Year
+DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/chinese-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-new-year-20290213@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290213
+DTEND;VALUE=DATE:20290214
+SUMMARY:Chinese New Year
+DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/chinese-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-new-year-20300203@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300203
+DTEND;VALUE=DATE:20300204
+SUMMARY:Chinese New Year
+DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/chinese-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-new-year-20310123@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310123
+DTEND;VALUE=DATE:20310124
+SUMMARY:Chinese New Year
+DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/chinese-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-new-year-20320211@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320211
+DTEND;VALUE=DATE:20320212
+SUMMARY:Chinese New Year
+DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/chinese-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-new-year-20330131@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330131
+DTEND;VALUE=DATE:20330201
+SUMMARY:Chinese New Year
+DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/chinese-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-new-year-20340219@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340219
+DTEND;VALUE=DATE:20340220
+SUMMARY:Chinese New Year
+DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/chinese-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:chinese-new-year-20350208@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350208
+DTEND;VALUE=DATE:20350209
+SUMMARY:Chinese New Year
+DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
+ oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
+ /holiday/chinese-new-year/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

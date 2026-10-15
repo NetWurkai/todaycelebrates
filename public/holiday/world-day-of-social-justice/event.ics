@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Day of Social Justice
+X-WR-CALNAME:World Day of Social Justice
+DESCRIPTION:World Day of Social Justice — https://todaycelebrates.com/hol
+ iday/world-day-of-social-justice/
+X-WR-CALDESC:World Day of Social Justice — https://todaycelebrates.com/ho
+ liday/world-day-of-social-justice/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-day-of-social-justi
+ ce/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-day-of-social-ju
+ stice/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-day-of-social-justice@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:World Day of Social Justice
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Day of Social Justice\, observed on February 20\, encoura
+ ges people across the United States to pause and recognize the people and 
+ causes behind the day.\n\nhttps://todaycelebrates.com/holiday/world-day-of
+ -social-justice/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-day-of-social-justi
+ ce/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

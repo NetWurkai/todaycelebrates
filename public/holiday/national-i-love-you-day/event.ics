@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National I Love You Day
+X-WR-CALNAME:National I Love You Day
+DESCRIPTION:National I Love You Day — https://todaycelebrates.com/holiday
+ /national-i-love-you-day/
+X-WR-CALDESC:National I Love You Day — https://todaycelebrates.com/holida
+ y/national-i-love-you-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-i-love-you-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-i-love-you-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-i-love-you-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+SUMMARY:National I Love You Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 14\, National I Love You Day gives people across the
+  United States one more reason to mark the day and celebrate i love you.\n
+ \nhttps://todaycelebrates.com/holiday/national-i-love-you-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-i-love-you-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

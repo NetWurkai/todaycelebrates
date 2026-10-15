@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pfeffernusse Day
+X-WR-CALNAME:National Pfeffernusse Day
+DESCRIPTION:National Pfeffernusse Day — https://todaycelebrates.com/holid
+ ay/national-pfeffernusse-day/
+X-WR-CALDESC:National Pfeffernusse Day — https://todaycelebrates.com/holi
+ day/national-pfeffernusse-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pfeffernusse-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pfeffernusse-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pfeffernusse-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:National Pfeffernusse Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pfeffernusse Day is a food-focused observance celebrat
+ ed across the United States on December 23\, giving fans of the dish or in
+ gredient an excuse to seek it out and share it with others.\n\nhttps://tod
+ aycelebrates.com/holiday/national-pfeffernusse-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pfeffernusse-day
+ /
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

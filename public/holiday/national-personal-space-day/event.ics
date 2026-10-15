@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Personal Space Day
+X-WR-CALNAME:National Personal Space Day
+DESCRIPTION:National Personal Space Day — https://todaycelebrates.com/hol
+ iday/national-personal-space-day/
+X-WR-CALDESC:National Personal Space Day — https://todaycelebrates.com/ho
+ liday/national-personal-space-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-personal-space-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-personal-spac
+ e-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-personal-space-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:National Personal Space Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Personal Space Day\, observed on November 30\, is a li
+ ghthearted holiday celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/national-personal-space-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-personal-space-d
+ ay/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

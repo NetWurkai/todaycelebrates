@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Teacher Appreciation Week
+X-WR-CALNAME:National Teacher Appreciation Week
+DESCRIPTION:National Teacher Appreciation Week — https://todaycelebrates.
+ com/holiday/national-teacher-appreciation-week/
+X-WR-CALDESC:National Teacher Appreciation Week — https://todaycelebrates
+ .com/holiday/national-teacher-appreciation-week/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
+ tion-week/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-appre
+ ciation-week/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-teacher-appreciation-week-20270503@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:National Teacher Appreciation Week
+DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
+ f the first full week of May\, with National Teacher Appreciation Day on t
+ he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
+ odaycelebrates.com/holiday/national-teacher-appreciation-week/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
+ tion-week/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-teacher-appreciation-week-20280508@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280508
+DTEND;VALUE=DATE:20280509
+SUMMARY:National Teacher Appreciation Week
+DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
+ f the first full week of May\, with National Teacher Appreciation Day on t
+ he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
+ odaycelebrates.com/holiday/national-teacher-appreciation-week/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
+ tion-week/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-teacher-appreciation-week-20290507@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290507
+DTEND;VALUE=DATE:20290508
+SUMMARY:National Teacher Appreciation Week
+DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
+ f the first full week of May\, with National Teacher Appreciation Day on t
+ he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
+ odaycelebrates.com/holiday/national-teacher-appreciation-week/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
+ tion-week/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-teacher-appreciation-week-20300506@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300506
+DTEND;VALUE=DATE:20300507
+SUMMARY:National Teacher Appreciation Week
+DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
+ f the first full week of May\, with National Teacher Appreciation Day on t
+ he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
+ odaycelebrates.com/holiday/national-teacher-appreciation-week/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
+ tion-week/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-teacher-appreciation-week-20310505@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310505
+DTEND;VALUE=DATE:20310506
+SUMMARY:National Teacher Appreciation Week
+DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
+ f the first full week of May\, with National Teacher Appreciation Day on t
+ he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
+ odaycelebrates.com/holiday/national-teacher-appreciation-week/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
+ tion-week/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-teacher-appreciation-week-20320503@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320503
+DTEND;VALUE=DATE:20320504
+SUMMARY:National Teacher Appreciation Week
+DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
+ f the first full week of May\, with National Teacher Appreciation Day on t
+ he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
+ odaycelebrates.com/holiday/national-teacher-appreciation-week/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
+ tion-week/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-teacher-appreciation-week-20330502@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330502
+DTEND;VALUE=DATE:20330503
+SUMMARY:National Teacher Appreciation Week
+DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
+ f the first full week of May\, with National Teacher Appreciation Day on t
+ he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
+ odaycelebrates.com/holiday/national-teacher-appreciation-week/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
+ tion-week/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-teacher-appreciation-week-20340508@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340508
+DTEND;VALUE=DATE:20340509
+SUMMARY:National Teacher Appreciation Week
+DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
+ f the first full week of May\, with National Teacher Appreciation Day on t
+ he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
+ odaycelebrates.com/holiday/national-teacher-appreciation-week/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
+ tion-week/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-teacher-appreciation-week-20350507@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350507
+DTEND;VALUE=DATE:20350508
+SUMMARY:National Teacher Appreciation Week
+DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
+ f the first full week of May\, with National Teacher Appreciation Day on t
+ he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
+ odaycelebrates.com/holiday/national-teacher-appreciation-week/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
+ tion-week/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

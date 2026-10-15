@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Apple II Day
+X-WR-CALNAME:Apple II Day
+DESCRIPTION:Apple II Day — https://todaycelebrates.com/holiday/apple-ii-d
+ ay/
+X-WR-CALDESC:Apple II Day — https://todaycelebrates.com/holiday/apple-ii-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/apple-ii-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/apple-ii-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:apple-ii-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:Apple II Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Apple II Day\, observed on June 5\, celebrates a piece of techn
+ ology or digital culture that's become part of everyday life across the Un
+ ited States.\n\nhttps://todaycelebrates.com/holiday/apple-ii-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/apple-ii-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

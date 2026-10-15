@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Unicorn Day
+X-WR-CALNAME:National Unicorn Day
+DESCRIPTION:National Unicorn Day — https://todaycelebrates.com/holiday/na
+ tional-unicorn-day/
+X-WR-CALDESC:National Unicorn Day — https://todaycelebrates.com/holiday/n
+ ational-unicorn-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-unicorn-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-unicorn-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-unicorn-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:National Unicorn Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Unicorn Day\, observed on April 9\, is a lighthearted\
+ , family-friendly day celebrated across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/national-unicorn-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-unicorn-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

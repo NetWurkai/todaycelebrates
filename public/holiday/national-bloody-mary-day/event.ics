@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bloody Mary Day
+X-WR-CALNAME:National Bloody Mary Day
+DESCRIPTION:National Bloody Mary Day — https://todaycelebrates.com/holida
+ y/national-bloody-mary-day/
+X-WR-CALDESC:National Bloody Mary Day — https://todaycelebrates.com/holid
+ ay/national-bloody-mary-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bloody-mary-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bloody-mary-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bloody-mary-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:National Bloody Mary Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bloody Mary Day is a drinks-focused observance on Janu
+ ary 1\, celebrated by beer and craft-brewery fans across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/national-bloody-mary-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bloody-mary-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

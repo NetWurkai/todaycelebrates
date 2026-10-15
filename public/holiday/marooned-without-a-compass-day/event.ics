@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Marooned Without a Compass Day
+X-WR-CALNAME:Marooned Without a Compass Day
+DESCRIPTION:Marooned Without a Compass Day — https://todaycelebrates.com/
+ holiday/marooned-without-a-compass-day/
+X-WR-CALDESC:Marooned Without a Compass Day — https://todaycelebrates.com
+ /holiday/marooned-without-a-compass-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/marooned-without-a-compas
+ s-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/marooned-without-a-com
+ pass-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:marooned-without-a-compass-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Marooned Without a Compass Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Marooned Without a Compass Day\, observed on November 6\, is a 
+ lighthearted holiday celebrated across the United States.\n\nhttps://today
+ celebrates.com/holiday/marooned-without-a-compass-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/marooned-without-a-compas
+ s-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

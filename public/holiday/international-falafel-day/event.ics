@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Falafel Day
+X-WR-CALNAME:International Falafel Day
+DESCRIPTION:International Falafel Day — https://todaycelebrates.com/holid
+ ay/international-falafel-day/
+X-WR-CALDESC:International Falafel Day — https://todaycelebrates.com/holi
+ day/international-falafel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-falafel-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-falafel-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-falafel-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:International Falafel Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Falafel Day is a food-focused observance celebrat
+ ed across the United States on June 12\, giving fans of the dish or ingred
+ ient an excuse to seek it out and share it with others.\n\nhttps://todayce
+ lebrates.com/holiday/international-falafel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-falafel-day
+ /
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

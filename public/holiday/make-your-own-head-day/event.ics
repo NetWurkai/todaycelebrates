@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Make Your Own Head Day
+X-WR-CALNAME:Make Your Own Head Day
+DESCRIPTION:Make Your Own Head Day — https://todaycelebrates.com/holiday/
+ make-your-own-head-day/
+X-WR-CALDESC:Make Your Own Head Day — https://todaycelebrates.com/holiday
+ /make-your-own-head-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/make-your-own-head-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/make-your-own-head-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:make-your-own-head-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Make Your Own Head Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Make Your Own Head Day\, observed on November 28\, is a lighthe
+ arted holiday celebrated across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/make-your-own-head-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/make-your-own-head-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

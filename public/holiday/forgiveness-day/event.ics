@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Forgiveness Day
+X-WR-CALNAME:Forgiveness Day
+DESCRIPTION:Forgiveness Day — https://todaycelebrates.com/holiday/forgive
+ ness-day/
+X-WR-CALDESC:Forgiveness Day — https://todaycelebrates.com/holiday/forgiv
+ eness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/forgiveness-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/forgiveness-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:forgiveness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:Forgiveness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Forgiveness Day\, observed on June 26\, encourages people acros
+ s the United States to pause and recognize the people and causes behind th
+ e day.\n\nhttps://todaycelebrates.com/holiday/forgiveness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/forgiveness-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

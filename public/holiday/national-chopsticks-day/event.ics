@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chopsticks Day
+X-WR-CALNAME:National Chopsticks Day
+DESCRIPTION:National Chopsticks Day — https://todaycelebrates.com/holiday
+ /national-chopsticks-day/
+X-WR-CALDESC:National Chopsticks Day — https://todaycelebrates.com/holida
+ y/national-chopsticks-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chopsticks-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chopsticks-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chopsticks-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:National Chopsticks Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chopsticks Day is a food-focused observance celebrated
+  across the United States on February 6\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-chopsticks-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chopsticks-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

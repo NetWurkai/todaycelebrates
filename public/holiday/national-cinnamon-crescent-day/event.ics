@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Cinnamon Crescent Day
+X-WR-CALNAME:National Cinnamon Crescent Day
+DESCRIPTION:National Cinnamon Crescent Day — https://todaycelebrates.com/
+ holiday/national-cinnamon-crescent-day/
+X-WR-CALDESC:National Cinnamon Crescent Day — https://todaycelebrates.com
+ /holiday/national-cinnamon-crescent-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cinnamon-crescen
+ t-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-cinnamon-cres
+ cent-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-cinnamon-crescent-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:National Cinnamon Crescent Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cinnamon Crescent Day is a food-focused observance cel
+ ebrated across the United States on April 10\, giving fans of the dish or 
+ ingredient an excuse to seek it out and share it with others.\n\nhttps://t
+ odaycelebrates.com/holiday/national-cinnamon-crescent-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cinnamon-crescen
+ t-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

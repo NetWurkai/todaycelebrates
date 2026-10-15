@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Sugar Cookie Day
+X-WR-CALNAME:National Sugar Cookie Day
+DESCRIPTION:National Sugar Cookie Day — https://todaycelebrates.com/holid
+ ay/national-sugar-cookie-day/
+X-WR-CALDESC:National Sugar Cookie Day — https://todaycelebrates.com/holi
+ day/national-sugar-cookie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sugar-cookie-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-sugar-cookie-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-sugar-cookie-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:National Sugar Cookie Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sugar Cookie Day is a food-focused observance celebrat
+ ed across the United States on July 9\, giving fans of the dish or ingredi
+ ent an excuse to seek it out and share it with others.\n\nhttps://todaycel
+ ebrates.com/holiday/national-sugar-cookie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sugar-cookie-day
+ /
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

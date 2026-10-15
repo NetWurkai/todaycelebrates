@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Junk Food Day
+X-WR-CALNAME:National Junk Food Day
+DESCRIPTION:National Junk Food Day — https://todaycelebrates.com/holiday/
+ national-junk-food-day/
+X-WR-CALDESC:National Junk Food Day — https://todaycelebrates.com/holiday
+ /national-junk-food-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-junk-food-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-junk-food-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-junk-food-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+SUMMARY:National Junk Food Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Junk Food Day is a food-focused observance celebrated 
+ across the United States on July 21\, giving fans of the dish or ingredien
+ t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
+ rates.com/holiday/national-junk-food-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-junk-food-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

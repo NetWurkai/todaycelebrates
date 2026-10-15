@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Dream Day
+X-WR-CALNAME:Dream Day
+DESCRIPTION:Dream Day — https://todaycelebrates.com/holiday/dream-day/
+X-WR-CALDESC:Dream Day — https://todaycelebrates.com/holiday/dream-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dream-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/dream-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:dream-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:Dream Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Dream Day\, observed on March 11\, is a lighthearted holiday ce
+ lebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/
+ dream-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dream-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

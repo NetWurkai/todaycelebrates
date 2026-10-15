@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Kids and Pets Day
+X-WR-CALNAME:National Kids and Pets Day
+DESCRIPTION:National Kids and Pets Day — https://todaycelebrates.com/holi
+ day/national-kids-and-pets-day/
+X-WR-CALDESC:National Kids and Pets Day — https://todaycelebrates.com/hol
+ iday/national-kids-and-pets-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kids-and-pets-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-kids-and-pets
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-kids-and-pets-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:National Kids and Pets Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Kids and Pets Day\, observed on April 26\, is a lighth
+ earted\, family-friendly day celebrated across the United States.\n\nhttps
+ ://todaycelebrates.com/holiday/national-kids-and-pets-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kids-and-pets-da
+ y/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

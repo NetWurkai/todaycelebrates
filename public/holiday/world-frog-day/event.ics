@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Frog Day
+X-WR-CALNAME:World Frog Day
+DESCRIPTION:World Frog Day — https://todaycelebrates.com/holiday/world-fr
+ og-day/
+X-WR-CALDESC:World Frog Day — https://todaycelebrates.com/holiday/world-f
+ rog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-frog-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-frog-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-frog-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:World Frog Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Frog Day is a nature-focused observance on March 20\, cel
+ ebrated across the United States to draw attention to the plant\, animal\,
+  or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world-
+ frog-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-frog-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

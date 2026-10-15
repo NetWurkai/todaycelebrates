@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pen Pal Day
+X-WR-CALNAME:National Pen Pal Day
+DESCRIPTION:National Pen Pal Day — https://todaycelebrates.com/holiday/na
+ tional-pen-pal-day/
+X-WR-CALDESC:National Pen Pal Day — https://todaycelebrates.com/holiday/n
+ ational-pen-pal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pen-pal-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pen-pal-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pen-pal-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:National Pen Pal Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pen Pal Day is a reading- and writing-focused observan
+ ce on June 1\, celebrated by book lovers across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/national-pen-pal-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pen-pal-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

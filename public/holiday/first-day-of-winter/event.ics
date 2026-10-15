@@ -1,0 +1,177 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:First Day of Winter
+X-WR-CALNAME:First Day of Winter
+DESCRIPTION:First Day of Winter — https://todaycelebrates.com/holiday/fir
+ st-day-of-winter/
+X-WR-CALDESC:First Day of Winter — https://todaycelebrates.com/holiday/fi
+ rst-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:first-day-of-winter-20261221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20271221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271221
+DTEND;VALUE=DATE:20271222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20281221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281221
+DTEND;VALUE=DATE:20281222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20291221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291221
+DTEND;VALUE=DATE:20291222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20301221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301221
+DTEND;VALUE=DATE:20301222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20311221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311221
+DTEND;VALUE=DATE:20311222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20321221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321221
+DTEND;VALUE=DATE:20321222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20331221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331221
+DTEND;VALUE=DATE:20331222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20341221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341221
+DTEND;VALUE=DATE:20341222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:first-day-of-winter-20351221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351221
+DTEND;VALUE=DATE:20351222
+SUMMARY:First Day of Winter
+DESCRIPTION:First Day of Winter is a nature-focused observance on December 
+ 21\, celebrated across the United States to draw attention to the plant\, 
+ animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holida
+ y/first-day-of-winter/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/first-day-of-winter/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

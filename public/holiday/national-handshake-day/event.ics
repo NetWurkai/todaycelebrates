@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Handshake Day
+X-WR-CALNAME:National Handshake Day
+DESCRIPTION:National Handshake Day — https://todaycelebrates.com/holiday/
+ national-handshake-day/
+X-WR-CALDESC:National Handshake Day — https://todaycelebrates.com/holiday
+ /national-handshake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-handshake-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-handshake-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-handshake-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270625
+SUMMARY:National Handshake Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Handshake Day\, observed on June 24\, is a lighthearte
+ d holiday celebrated across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/national-handshake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-handshake-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

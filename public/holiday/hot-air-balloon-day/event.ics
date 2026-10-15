@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Hot Air Balloon Day
+X-WR-CALNAME:Hot Air Balloon Day
+DESCRIPTION:Hot Air Balloon Day — https://todaycelebrates.com/holiday/hot
+ -air-balloon-day/
+X-WR-CALDESC:Hot Air Balloon Day — https://todaycelebrates.com/holiday/ho
+ t-air-balloon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hot-air-balloon-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/hot-air-balloon-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:hot-air-balloon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:Hot Air Balloon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Hot Air Balloon Day\, observed on June 5\, is a lighthearted ho
+ liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
+ holiday/hot-air-balloon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hot-air-balloon-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

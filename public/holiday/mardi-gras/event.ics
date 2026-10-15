@@ -1,0 +1,148 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Mardi Gras
+X-WR-CALNAME:Mardi Gras
+DESCRIPTION:Mardi Gras — https://todaycelebrates.com/holiday/mardi-gras/
+X-WR-CALDESC:Mardi Gras — https://todaycelebrates.com/holiday/mardi-gras/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mardi-gras-20270209@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Mardi Gras
+DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/mardi-gras/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mardi-gras-20280229@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280229
+DTEND;VALUE=DATE:20280301
+SUMMARY:Mardi Gras
+DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/mardi-gras/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mardi-gras-20290213@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290213
+DTEND;VALUE=DATE:20290214
+SUMMARY:Mardi Gras
+DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/mardi-gras/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mardi-gras-20300305@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300305
+DTEND;VALUE=DATE:20300306
+SUMMARY:Mardi Gras
+DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/mardi-gras/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mardi-gras-20310225@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310225
+DTEND;VALUE=DATE:20310226
+SUMMARY:Mardi Gras
+DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/mardi-gras/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mardi-gras-20320210@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320210
+DTEND;VALUE=DATE:20320211
+SUMMARY:Mardi Gras
+DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/mardi-gras/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mardi-gras-20330301@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330301
+DTEND;VALUE=DATE:20330302
+SUMMARY:Mardi Gras
+DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/mardi-gras/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mardi-gras-20340221@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340221
+DTEND;VALUE=DATE:20340222
+SUMMARY:Mardi Gras
+DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/mardi-gras/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mardi-gras-20350206@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350206
+DTEND;VALUE=DATE:20350207
+SUMMARY:Mardi Gras
+DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/mardi-gras/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

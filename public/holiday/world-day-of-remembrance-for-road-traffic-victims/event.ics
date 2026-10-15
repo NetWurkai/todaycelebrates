@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Day of Remembrance for Road Traffic Victims
+X-WR-CALNAME:World Day of Remembrance for Road Traffic Victims
+DESCRIPTION:World Day of Remembrance for Road Traffic Victims — https://t
+ odaycelebrates.com/holiday/world-day-of-remembrance-for-road-traffic-victi
+ ms/
+X-WR-CALDESC:World Day of Remembrance for Road Traffic Victims — https://
+ todaycelebrates.com/holiday/world-day-of-remembrance-for-road-traffic-vict
+ ims/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-day-of-remembrance-
+ for-road-traffic-victims/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-day-of-remembran
+ ce-for-road-traffic-victims/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-day-of-remembrance-for-road-traffic-victims@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:World Day of Remembrance for Road Traffic Victims
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Day of Remembrance for Road Traffic Victims\, observed on
+  November 15\, encourages people across the United States to pause and rec
+ ognize the people and causes behind the day.\n\nhttps://todaycelebrates.co
+ m/holiday/world-day-of-remembrance-for-road-traffic-victims/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-day-of-remembrance-
+ for-road-traffic-victims/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

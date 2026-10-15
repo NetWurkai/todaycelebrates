@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Mole Day
+X-WR-CALNAME:National Mole Day
+DESCRIPTION:National Mole Day — https://todaycelebrates.com/holiday/natio
+ nal-mole-day/
+X-WR-CALDESC:National Mole Day — https://todaycelebrates.com/holiday/nati
+ onal-mole-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mole-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mole-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mole-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:National Mole Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mole Day is celebrated by chemistry teachers and stude
+ nts at 6:02 on 10/23\, a nod to Avogadro's number (6.02 x 10^23)\, which d
+ efines the mole unit in chemistry.\n\nhttps://todaycelebrates.com/holiday/
+ national-mole-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mole-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

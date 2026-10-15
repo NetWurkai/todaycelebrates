@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Apricot Day
+X-WR-CALNAME:National Apricot Day
+DESCRIPTION:National Apricot Day — https://todaycelebrates.com/holiday/na
+ tional-apricot-day/
+X-WR-CALDESC:National Apricot Day — https://todaycelebrates.com/holiday/n
+ ational-apricot-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-apricot-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-apricot-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-apricot-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:National Apricot Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Apricot Day is a food-focused observance celebrated ac
+ ross the United States on January 9\, giving fans of the dish or ingredien
+ t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
+ rates.com/holiday/national-apricot-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-apricot-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

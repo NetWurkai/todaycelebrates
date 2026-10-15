@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Malbec World Day
+X-WR-CALNAME:Malbec World Day
+DESCRIPTION:Malbec World Day — https://todaycelebrates.com/holiday/malbec
+ -world-day/
+X-WR-CALDESC:Malbec World Day — https://todaycelebrates.com/holiday/malbe
+ c-world-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/malbec-world-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/malbec-world-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:malbec-world-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Malbec World Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Malbec World Day is a drinks-focused observance on April 17\, c
+ elebrated by beer and craft-brewery fans across the United States.\n\nhttp
+ s://todaycelebrates.com/holiday/malbec-world-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/malbec-world-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

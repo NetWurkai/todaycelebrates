@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Day on Writing
+X-WR-CALNAME:National Day on Writing
+DESCRIPTION:National Day on Writing — https://todaycelebrates.com/holiday
+ /national-day-on-writing/
+X-WR-CALDESC:National Day on Writing — https://todaycelebrates.com/holida
+ y/national-day-on-writing/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-on-writing/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-day-on-writin
+ g/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-day-on-writing@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:National Day on Writing
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Day on Writing is observed across the United States on
+  October 20\, a small but fun addition to the calendar worth celebrating i
+ n its own way.\n\nhttps://todaycelebrates.com/holiday/national-day-on-writ
+ ing/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-day-on-writing/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

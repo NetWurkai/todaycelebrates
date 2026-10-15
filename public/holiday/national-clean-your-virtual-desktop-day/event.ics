@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Clean Your Virtual Desktop Day
+X-WR-CALNAME:National Clean Your Virtual Desktop Day
+DESCRIPTION:National Clean Your Virtual Desktop Day — https://todaycelebr
+ ates.com/holiday/national-clean-your-virtual-desktop-day/
+X-WR-CALDESC:National Clean Your Virtual Desktop Day — https://todayceleb
+ rates.com/holiday/national-clean-your-virtual-desktop-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-clean-your-virtu
+ al-desktop-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-clean-your-vi
+ rtual-desktop-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-clean-your-virtual-desktop-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:National Clean Your Virtual Desktop Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Clean Your Virtual Desktop Day is observed across the 
+ United States on October 19\, a small but fun addition to the calendar wor
+ th celebrating in its own way.\n\nhttps://todaycelebrates.com/holiday/nati
+ onal-clean-your-virtual-desktop-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-clean-your-virtu
+ al-desktop-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

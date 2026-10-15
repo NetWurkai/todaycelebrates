@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Halloween
+X-WR-CALNAME:Halloween
+DESCRIPTION:Halloween — https://todaycelebrates.com/holiday/halloween/
+X-WR-CALDESC:Halloween — https://todaycelebrates.com/holiday/halloween/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/halloween/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/halloween/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:halloween@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloween
+RRULE:FREQ=YEARLY
+DESCRIPTION:Halloween falls on October 31 and is\, by most measures\, the m
+ ost widely observed non-federal holiday in the United States. It is also o
+ ne of the least historically tidy: what Americans do on October 31 is a co
+ mposite of a Gaelic harvest festival\, a Catholic feast\, Scottish and Iri
+ sh neighborhood customs\, and a twentieth-century American candy industry 
+ that found the whole thing extremely useful.\n\nhttps://todaycelebrates.co
+ m/holiday/halloween/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/halloween/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

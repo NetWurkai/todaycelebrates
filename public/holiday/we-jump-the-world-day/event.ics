@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:We Jump the World Day
+X-WR-CALNAME:We Jump the World Day
+DESCRIPTION:We Jump the World Day — https://todaycelebrates.com/holiday/w
+ e-jump-the-world-day/
+X-WR-CALDESC:We Jump the World Day — https://todaycelebrates.com/holiday/
+ we-jump-the-world-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/we-jump-the-world-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/we-jump-the-world-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:we-jump-the-world-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:We Jump the World Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:We Jump the World Day\, observed on April 29\, is a lighthearte
+ d\, family-friendly day celebrated across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/we-jump-the-world-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/we-jump-the-world-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

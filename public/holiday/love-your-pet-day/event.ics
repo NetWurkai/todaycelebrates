@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Love Your Pet Day
+X-WR-CALNAME:Love Your Pet Day
+DESCRIPTION:Love Your Pet Day — https://todaycelebrates.com/holiday/love-
+ your-pet-day/
+X-WR-CALDESC:Love Your Pet Day — https://todaycelebrates.com/holiday/love
+ -your-pet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/love-your-pet-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/love-your-pet-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:love-your-pet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Love Your Pet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Love Your Pet Day\, observed on February 20\, is celebrated by 
+ dog lovers across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/love-your-pet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/love-your-pet-day/
+CATEGORIES:Dogs
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

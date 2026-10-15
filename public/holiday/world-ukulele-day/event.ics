@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Ukulele Day
+X-WR-CALNAME:World Ukulele Day
+DESCRIPTION:World Ukulele Day — https://todaycelebrates.com/holiday/world
+ -ukulele-day/
+X-WR-CALDESC:World Ukulele Day — https://todaycelebrates.com/holiday/worl
+ d-ukulele-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-ukulele-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-ukulele-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-ukulele-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:World Ukulele Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Ukulele Day is a music-focused observance on February 2\,
+  celebrated by fans across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/world-ukulele-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-ukulele-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

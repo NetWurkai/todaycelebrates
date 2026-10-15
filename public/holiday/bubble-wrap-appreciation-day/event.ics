@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bubble Wrap Appreciation Day
+X-WR-CALNAME:Bubble Wrap Appreciation Day
+DESCRIPTION:Bubble Wrap Appreciation Day — https://todaycelebrates.com/ho
+ liday/bubble-wrap-appreciation-day/
+X-WR-CALDESC:Bubble Wrap Appreciation Day — https://todaycelebrates.com/h
+ oliday/bubble-wrap-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bubble-wrap-appreciation-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bubble-wrap-appreciati
+ on-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bubble-wrap-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:Bubble Wrap Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bubble Wrap Appreciation Day\, observed on January 25\, is a li
+ ghthearted holiday celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/bubble-wrap-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bubble-wrap-appreciation-
+ day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Jersey Friday
+X-WR-CALNAME:National Jersey Friday
+DESCRIPTION:National Jersey Friday — https://todaycelebrates.com/holiday/
+ national-jersey-friday/
+X-WR-CALDESC:National Jersey Friday — https://todaycelebrates.com/holiday
+ /national-jersey-friday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-jersey-friday/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-jersey-friday
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-jersey-friday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:National Jersey Friday
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Jersey Friday\, observed on November 6\, is celebrated
+  by sports fans across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/national-jersey-friday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-jersey-friday/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

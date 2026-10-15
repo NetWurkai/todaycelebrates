@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Increase Your Psychic Powers Day
+X-WR-CALNAME:Increase Your Psychic Powers Day
+DESCRIPTION:Increase Your Psychic Powers Day — https://todaycelebrates.co
+ m/holiday/increase-your-psychic-powers-day/
+X-WR-CALDESC:Increase Your Psychic Powers Day — https://todaycelebrates.c
+ om/holiday/increase-your-psychic-powers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/increase-your-psychic-pow
+ ers-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/increase-your-psychic-
+ powers-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:increase-your-psychic-powers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Increase Your Psychic Powers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Increase Your Psychic Powers Day is one of the spookier stops o
+ n the October calendar\, celebrated on October 31 in the run-up to Hallowe
+ en.\n\nhttps://todaycelebrates.com/holiday/increase-your-psychic-powers-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/increase-your-psychic-pow
+ ers-day/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

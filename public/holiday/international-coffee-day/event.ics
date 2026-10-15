@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Coffee Day
+X-WR-CALNAME:International Coffee Day
+DESCRIPTION:International Coffee Day — https://todaycelebrates.com/holida
+ y/international-coffee-day/
+X-WR-CALDESC:International Coffee Day — https://todaycelebrates.com/holid
+ ay/international-coffee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-coffee-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-coffee-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-coffee-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:International Coffee Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Coffee Day\, promoted globally by the Internation
+ al Coffee Organization\, celebrates coffee as a beverage and raises awaren
+ ess of the farmers who grow it and the fair-trade issues that affect their
+  livelihoods.\n\nhttps://todaycelebrates.com/holiday/international-coffee-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-coffee-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

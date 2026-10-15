@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Disobedience Day
+X-WR-CALNAME:Disobedience Day
+DESCRIPTION:Disobedience Day — https://todaycelebrates.com/holiday/disobe
+ dience-day/
+X-WR-CALDESC:Disobedience Day — https://todaycelebrates.com/holiday/disob
+ edience-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/disobedience-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/disobedience-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:disobedience-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:Disobedience Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Disobedience Day\, observed on July 3\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/disobedience-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/disobedience-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

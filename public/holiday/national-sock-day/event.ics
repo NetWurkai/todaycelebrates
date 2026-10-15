@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Sock Day
+X-WR-CALNAME:National Sock Day
+DESCRIPTION:National Sock Day — https://todaycelebrates.com/holiday/natio
+ nal-sock-day/
+X-WR-CALDESC:National Sock Day — https://todaycelebrates.com/holiday/nati
+ onal-sock-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sock-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-sock-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-sock-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:National Sock Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sock Day\, observed on December 4\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/national-sock-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sock-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

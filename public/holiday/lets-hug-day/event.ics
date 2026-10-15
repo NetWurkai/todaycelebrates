@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Let's Hug Day
+X-WR-CALNAME:Let's Hug Day
+DESCRIPTION:Let's Hug Day — https://todaycelebrates.com/holiday/lets-hug-
+ day/
+X-WR-CALDESC:Let's Hug Day — https://todaycelebrates.com/holiday/lets-hug
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lets-hug-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/lets-hug-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:lets-hug-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Let's Hug Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Let's Hug Day\, observed on December 3\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/lets-hug-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lets-hug-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

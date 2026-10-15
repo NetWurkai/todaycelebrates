@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Men Make Dinner Day
+X-WR-CALNAME:National Men Make Dinner Day
+DESCRIPTION:National Men Make Dinner Day — https://todaycelebrates.com/ho
+ liday/national-men-make-dinner-day/
+X-WR-CALDESC:National Men Make Dinner Day — https://todaycelebrates.com/h
+ oliday/national-men-make-dinner-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-men-make-dinner-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-men-make-dinn
+ er-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-men-make-dinner-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:National Men Make Dinner Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Men Make Dinner Day\, observed on November 5\, is a li
+ ghthearted holiday celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/national-men-make-dinner-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-men-make-dinner-
+ day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chocolate Covered Anything Day
+X-WR-CALNAME:National Chocolate Covered Anything Day
+DESCRIPTION:National Chocolate Covered Anything Day — https://todaycelebr
+ ates.com/holiday/national-chocolate-covered-anything-day/
+X-WR-CALDESC:National Chocolate Covered Anything Day — https://todayceleb
+ rates.com/holiday/national-chocolate-covered-anything-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-covere
+ d-anything-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-cov
+ ered-anything-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chocolate-covered-anything-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:National Chocolate Covered Anything Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chocolate Covered Anything Day is a food-focused obser
+ vance celebrated across the United States on December 16\, giving fans of 
+ the dish or ingredient an excuse to seek it out and share it with others.\
+ n\nhttps://todaycelebrates.com/holiday/national-chocolate-covered-anything
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-covere
+ d-anything-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

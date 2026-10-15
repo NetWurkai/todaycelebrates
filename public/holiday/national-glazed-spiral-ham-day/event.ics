@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Glazed Spiral Ham Day
+X-WR-CALNAME:National Glazed Spiral Ham Day
+DESCRIPTION:National Glazed Spiral Ham Day — https://todaycelebrates.com/
+ holiday/national-glazed-spiral-ham-day/
+X-WR-CALDESC:National Glazed Spiral Ham Day — https://todaycelebrates.com
+ /holiday/national-glazed-spiral-ham-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-glazed-spiral-ha
+ m-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-glazed-spiral
+ -ham-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-glazed-spiral-ham-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:National Glazed Spiral Ham Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Glazed Spiral Ham Day is a food-focused observance cel
+ ebrated across the United States on April 15\, giving fans of the dish or 
+ ingredient an excuse to seek it out and share it with others.\n\nhttps://t
+ odaycelebrates.com/holiday/national-glazed-spiral-ham-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-glazed-spiral-ha
+ m-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

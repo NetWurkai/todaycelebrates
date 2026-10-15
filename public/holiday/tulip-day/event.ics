@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Tulip Day
+X-WR-CALNAME:Tulip Day
+DESCRIPTION:Tulip Day — https://todaycelebrates.com/holiday/tulip-day/
+X-WR-CALDESC:Tulip Day — https://todaycelebrates.com/holiday/tulip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tulip-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/tulip-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:tulip-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Tulip Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Tulip Day is a nature-focused observance on May 13\, celebrated
+  across the United States to draw attention to the plant\, animal\, or lan
+ dscape at its center.\n\nhttps://todaycelebrates.com/holiday/tulip-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tulip-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

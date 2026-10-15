@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Crayon Day
+X-WR-CALNAME:National Crayon Day
+DESCRIPTION:National Crayon Day — https://todaycelebrates.com/holiday/nat
+ ional-crayon-day/
+X-WR-CALDESC:National Crayon Day — https://todaycelebrates.com/holiday/na
+ tional-crayon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-crayon-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-crayon-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-crayon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:National Crayon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Crayon Day\, observed on March 31\, is a lighthearted\
+ , family-friendly day celebrated across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/national-crayon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-crayon-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

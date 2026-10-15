@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Philosophy Day
+X-WR-CALNAME:World Philosophy Day
+DESCRIPTION:World Philosophy Day — https://todaycelebrates.com/holiday/wo
+ rld-philosophy-day/
+X-WR-CALDESC:World Philosophy Day — https://todaycelebrates.com/holiday/w
+ orld-philosophy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-philosophy-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-philosophy-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-philosophy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:World Philosophy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Philosophy Day\, observed on November 19\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/world-philosophy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-philosophy-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

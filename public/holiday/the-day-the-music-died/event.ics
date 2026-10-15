@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:The Day the Music Died
+X-WR-CALNAME:The Day the Music Died
+DESCRIPTION:The Day the Music Died — https://todaycelebrates.com/holiday/
+ the-day-the-music-died/
+X-WR-CALDESC:The Day the Music Died — https://todaycelebrates.com/holiday
+ /the-day-the-music-died/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-day-the-music-died/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/the-day-the-music-died
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:the-day-the-music-died@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:The Day the Music Died
+RRULE:FREQ=YEARLY
+DESCRIPTION:The Day the Music Died is a music-focused observance on Februar
+ y 3\, celebrated by fans across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/the-day-the-music-died/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/the-day-the-music-died/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

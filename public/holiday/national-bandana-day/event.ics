@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Bandana Day
+X-WR-CALNAME:National Bandana Day
+DESCRIPTION:National Bandana Day — https://todaycelebrates.com/holiday/na
+ tional-bandana-day/
+X-WR-CALDESC:National Bandana Day — https://todaycelebrates.com/holiday/n
+ ational-bandana-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bandana-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-bandana-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-bandana-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:National Bandana Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bandana Day is observed across the United States on Oc
+ tober 29\, a small but fun addition to the calendar worth celebrating in i
+ ts own way.\n\nhttps://todaycelebrates.com/holiday/national-bandana-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bandana-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

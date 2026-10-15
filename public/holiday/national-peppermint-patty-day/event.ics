@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Peppermint Patty Day
+X-WR-CALNAME:National Peppermint Patty Day
+DESCRIPTION:National Peppermint Patty Day — https://todaycelebrates.com/h
+ oliday/national-peppermint-patty-day/
+X-WR-CALDESC:National Peppermint Patty Day — https://todaycelebrates.com/
+ holiday/national-peppermint-patty-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-peppermint-patty
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-peppermint-pa
+ tty-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-peppermint-patty-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:National Peppermint Patty Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Peppermint Patty Day is a food-focused observance cele
+ brated across the United States on February 11\, giving fans of the dish o
+ r ingredient an excuse to seek it out and share it with others.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-peppermint-patty-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-peppermint-patty
+ -day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chai Day
+X-WR-CALNAME:National Chai Day
+DESCRIPTION:National Chai Day — https://todaycelebrates.com/holiday/natio
+ nal-chai-day/
+X-WR-CALDESC:National Chai Day — https://todaycelebrates.com/holiday/nati
+ onal-chai-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chai-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chai-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chai-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+SUMMARY:National Chai Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chai Day celebrates chai on September 21\, giving musi
+ c lovers across the United States a reason to turn up the volume.\n\nhttps
+ ://todaycelebrates.com/holiday/national-chai-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chai-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

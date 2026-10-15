@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Promise Day
+X-WR-CALNAME:Promise Day
+DESCRIPTION:Promise Day — https://todaycelebrates.com/holiday/promise-day
+ /
+X-WR-CALDESC:Promise Day — https://todaycelebrates.com/holiday/promise-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/promise-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/promise-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:promise-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Promise Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Promise Day\, observed on February 11\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/promise-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/promise-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

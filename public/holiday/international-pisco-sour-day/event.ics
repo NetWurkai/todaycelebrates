@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Pisco Sour Day
+X-WR-CALNAME:International Pisco Sour Day
+DESCRIPTION:International Pisco Sour Day — https://todaycelebrates.com/ho
+ liday/international-pisco-sour-day/
+X-WR-CALDESC:International Pisco Sour Day — https://todaycelebrates.com/h
+ oliday/international-pisco-sour-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-pisco-sour-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-pisco-so
+ ur-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-pisco-sour-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:International Pisco Sour Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Pisco Sour Day is a drinks-focused observance on 
+ February 6\, celebrated by beer and craft-brewery fans across the United S
+ tates.\n\nhttps://todaycelebrates.com/holiday/international-pisco-sour-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-pisco-sour-
+ day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

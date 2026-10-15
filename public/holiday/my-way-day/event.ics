@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:My Way Day
+X-WR-CALNAME:My Way Day
+DESCRIPTION:My Way Day — https://todaycelebrates.com/holiday/my-way-day/
+X-WR-CALDESC:My Way Day — https://todaycelebrates.com/holiday/my-way-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/my-way-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/my-way-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:my-way-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:My Way Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:My Way Day is a music-focused observance on February 17\, celeb
+ rated by fans across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/my-way-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/my-way-day/
+CATEGORIES:Music
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

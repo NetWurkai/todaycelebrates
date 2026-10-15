@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Stepfamily Day
+X-WR-CALNAME:National Stepfamily Day
+DESCRIPTION:National Stepfamily Day — https://todaycelebrates.com/holiday
+ /national-stepfamily-day/
+X-WR-CALDESC:National Stepfamily Day — https://todaycelebrates.com/holida
+ y/national-stepfamily-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-stepfamily-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-stepfamily-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-stepfamily-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:National Stepfamily Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Stepfamily Day\, observed across the United States on 
+ September 16\, celebrates stepfamily and the role it plays in family life.
+ \n\nhttps://todaycelebrates.com/holiday/national-stepfamily-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-stepfamily-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

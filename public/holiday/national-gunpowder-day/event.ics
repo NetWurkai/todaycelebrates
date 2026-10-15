@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Gunpowder Day
+X-WR-CALNAME:National Gunpowder Day
+DESCRIPTION:National Gunpowder Day — https://todaycelebrates.com/holiday/
+ national-gunpowder-day/
+X-WR-CALDESC:National Gunpowder Day — https://todaycelebrates.com/holiday
+ /national-gunpowder-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gunpowder-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-gunpowder-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-gunpowder-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:National Gunpowder Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Gunpowder Day\, observed on November 5\, is a lighthea
+ rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/national-gunpowder-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gunpowder-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pinot Noir Day
+X-WR-CALNAME:Pinot Noir Day
+DESCRIPTION:Pinot Noir Day — https://todaycelebrates.com/holiday/pinot-no
+ ir-day/
+X-WR-CALDESC:Pinot Noir Day — https://todaycelebrates.com/holiday/pinot-n
+ oir-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pinot-noir-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pinot-noir-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pinot-noir-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270819
+SUMMARY:Pinot Noir Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pinot Noir Day is a drinks-focused observance on August 18\, ce
+ lebrated by beer and craft-brewery fans across the United States.\n\nhttps
+ ://todaycelebrates.com/holiday/pinot-noir-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pinot-noir-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

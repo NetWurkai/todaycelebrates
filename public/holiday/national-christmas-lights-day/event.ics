@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Christmas Lights Day
+X-WR-CALNAME:National Christmas Lights Day
+DESCRIPTION:National Christmas Lights Day — https://todaycelebrates.com/h
+ oliday/national-christmas-lights-day/
+X-WR-CALDESC:National Christmas Lights Day — https://todaycelebrates.com/
+ holiday/national-christmas-lights-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-christmas-lights
+ -day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-christmas-lig
+ hts-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-christmas-lights-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:National Christmas Lights Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Christmas Lights Day\, observed on December 1\, is a l
+ ighthearted holiday celebrated across the United States.\n\nhttps://todayc
+ elebrates.com/holiday/national-christmas-lights-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-christmas-lights
+ -day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

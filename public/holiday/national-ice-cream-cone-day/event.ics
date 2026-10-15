@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Ice Cream Cone Day
+X-WR-CALNAME:National Ice Cream Cone Day
+DESCRIPTION:National Ice Cream Cone Day — https://todaycelebrates.com/hol
+ iday/national-ice-cream-cone-day/
+X-WR-CALDESC:National Ice Cream Cone Day — https://todaycelebrates.com/ho
+ liday/national-ice-cream-cone-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ice-cream-cone-d
+ ay/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-ice-cream-con
+ e-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-ice-cream-cone-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:National Ice Cream Cone Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mark your calendar for September 22: National Ice Cream Cone Da
+ y invites food lovers across the United States to celebrate everything abo
+ ut ice cream cone\, whether that means cooking it at home or treating your
+ self at a favorite spot.\n\nhttps://todaycelebrates.com/holiday/national-i
+ ce-cream-cone-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ice-cream-cone-d
+ ay/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

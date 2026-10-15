@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Doge Day
+X-WR-CALNAME:Doge Day
+DESCRIPTION:Doge Day — https://todaycelebrates.com/holiday/doge-day/
+X-WR-CALDESC:Doge Day — https://todaycelebrates.com/holiday/doge-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/doge-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/doge-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:doge-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Doge Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Doge Day\, observed on April 20\, is a lighthearted holiday cel
+ ebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/d
+ oge-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/doge-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

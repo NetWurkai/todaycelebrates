@@ -1,0 +1,2152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Today Celebrates: Tech
+X-WR-CALNAME:Today Celebrates: Tech
+DESCRIPTION:118 tech observances from https://todaycelebrates.com/category/
+ tech/. Rebuilt daily.
+X-WR-CALDESC:118 tech observances from https://todaycelebrates.com/category
+ /tech/. Rebuilt daily.
+URL;VALUE=URI:https://todaycelebrates.com/category/tech/calendar.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/category/tech/calendar.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:404-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:404 Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:404 Day\, observed on April 4\, celebrates a piece of technolog
+ y or digital culture that's become part of everyday life across the United
+  States.\n\nhttps://todaycelebrates.com/holiday/404-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/404-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:apple-ii-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:Apple II Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Apple II Day\, observed on June 5\, celebrates a piece of techn
+ ology or digital culture that's become part of everyday life across the Un
+ ited States.\n\nhttps://todaycelebrates.com/holiday/apple-ii-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/apple-ii-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:blogger-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270805
+DTEND;VALUE=DATE:20270806
+SUMMARY:Blogger Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Blogger Day\, observed on August 5\, celebrates a piece of tech
+ nology or digital culture that's become part of everyday life across the U
+ nited States.\n\nhttps://todaycelebrates.com/holiday/blogger-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/blogger-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cable-car-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Cable Car Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Cable Car Day\, observed on January 17\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cable-car-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cable-car-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:camcorder-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Camcorder Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Camcorder Day\, observed on January 20\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/camcorder-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/camcorder-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:carl-sagan-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Carl Sagan Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Carl Sagan Day\, observed on November 9\, celebrates a piece of
+  technology or digital culture that's become part of everyday life across 
+ the United States.\n\nhttps://todaycelebrates.com/holiday/carl-sagan-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/carl-sagan-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cathode-ray-tube-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Cathode-Ray Tube Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Cathode-Ray Tube Day\, observed on December 20\, celebrates a p
+ iece of technology or digital culture that's become part of everyday life 
+ across the United States.\n\nhttps://todaycelebrates.com/holiday/cathode-r
+ ay-tube-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cathode-ray-tube-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:celebrate-scientists-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Celebrate Scientists Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Celebrate Scientists Day\, observed on March 14\, celebrates a 
+ piece of technology or digital culture that's become part of everyday life
+  across the United States.\n\nhttps://todaycelebrates.com/holiday/celebrat
+ e-scientists-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/celebrate-scientists-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:change-your-password-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Change Your Password Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Change Your Password Day\, observed on February 1\, celebrates 
+ a piece of technology or digital culture that's become part of everyday li
+ fe across the United States.\n\nhttps://todaycelebrates.com/holiday/change
+ -your-password-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/change-your-password-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:clean-out-your-computer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:Clean Out Your Computer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Clean Out Your Computer Day\, observed on February 8\, celebrat
+ es a piece of technology or digital culture that's become part of everyday
+  life across the United States.\n\nhttps://todaycelebrates.com/holiday/cle
+ an-out-your-computer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/clean-out-your-computer-d
+ ay/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:color-tv-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:Color TV Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Color TV Day\, observed on June 25\, celebrates a piece of tech
+ nology or digital culture that's become part of everyday life across the U
+ nited States.\n\nhttps://todaycelebrates.com/holiday/color-tv-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/color-tv-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:comic-sans-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:Comic Sans Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Comic Sans Day\, observed on July 2\, celebrates a piece of tec
+ hnology or digital culture that's become part of everyday life across the 
+ United States.\n\nhttps://todaycelebrates.com/holiday/comic-sans-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/comic-sans-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:computer-security-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Computer Security Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Computer Security Day\, observed on November 30\, celebrates a 
+ piece of technology or digital culture that's become part of everyday life
+  across the United States.\n\nhttps://todaycelebrates.com/holiday/computer
+ -security-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/computer-security-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:crowdfunding-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Crowdfunding Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Crowdfunding Day\, observed on March 14\, celebrates a piece of
+  technology or digital culture that's become part of everyday life across 
+ the United States.\n\nhttps://todaycelebrates.com/holiday/crowdfunding-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/crowdfunding-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20261130@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20271129@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271129
+DTEND;VALUE=DATE:20271130
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20281127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281127
+DTEND;VALUE=DATE:20281128
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20291126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291126
+DTEND;VALUE=DATE:20291127
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20301202@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301202
+DTEND;VALUE=DATE:20301203
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20311201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311201
+DTEND;VALUE=DATE:20311202
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20321129@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321129
+DTEND;VALUE=DATE:20321130
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20331128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331128
+DTEND;VALUE=DATE:20331129
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20341127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341127
+DTEND;VALUE=DATE:20341128
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20351126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351126
+DTEND;VALUE=DATE:20351127
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:data-privacy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Data Privacy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Data Privacy Day\, observed on January 28\, celebrates a piece 
+ of technology or digital culture that's become part of everyday life acros
+ s the United States.\n\nhttps://todaycelebrates.com/holiday/data-privacy-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/data-privacy-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:diesel-engine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:Diesel Engine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Diesel Engine Day\, observed on February 23\, celebrates a piec
+ e of technology or digital culture that's become part of everyday life acr
+ oss the United States.\n\nhttps://todaycelebrates.com/holiday/diesel-engin
+ e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/diesel-engine-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:digital-learning-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Digital Learning Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Digital Learning Day\, observed on February 25\, celebrates a p
+ iece of technology or digital culture that's become part of everyday life 
+ across the United States.\n\nhttps://todaycelebrates.com/holiday/digital-l
+ earning-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/digital-learning-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dna-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:DNA Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:DNA Day\, observed on April 25\, celebrates a piece of technolo
+ gy or digital culture that's become part of everyday life across the Unite
+ d States.\n\nhttps://todaycelebrates.com/holiday/dna-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dna-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:e-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:"e" Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:"e" Day\, observed on February 7\, celebrates a piece of techno
+ logy or digital culture that's become part of everyday life across the Uni
+ ted States.\n\nhttps://todaycelebrates.com/holiday/e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/e-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:fibonacci-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Fibonacci Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Fibonacci Day\, observed on November 23\, celebrates a piece of
+  technology or digital culture that's become part of everyday life across 
+ the United States.\n\nhttps://todaycelebrates.com/holiday/fibonacci-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/fibonacci-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:free-shipping-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Free Shipping Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Free Shipping Day\, observed on December 14\, celebrates a piec
+ e of technology or digital culture that's become part of everyday life acr
+ oss the United States.\n\nhttps://todaycelebrates.com/holiday/free-shippin
+ g-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/free-shipping-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:geographic-information-systems-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Geographic Information Systems Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Geographic Information Systems Day\, observed on November 18\, 
+ celebrates a piece of technology or digital culture that's become part of 
+ everyday life across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/geographic-information-systems-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/geographic-information-sy
+ stems-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ghost-in-the-machine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Ghost in the Machine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Ghost in the Machine Day\, observed on June 12\, celebrates a p
+ iece of technology or digital culture that's become part of everyday life 
+ across the United States.\n\nhttps://todaycelebrates.com/holiday/ghost-in-
+ the-machine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ghost-in-the-machine-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:global-day-of-the-engineer@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:Global Day of the Engineer
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Day of the Engineer\, observed on April 7\, celebrates a
+  piece of technology or digital culture that's become part of everyday lif
+ e across the United States.\n\nhttps://todaycelebrates.com/holiday/global-
+ day-of-the-engineer/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-day-of-the-enginee
+ r/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:global-work-from-home-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Global Work From Home Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Work From Home Day\, observed on April 10\, celebrates a
+  piece of technology or digital culture that's become part of everyday lif
+ e across the United States.\n\nhttps://todaycelebrates.com/holiday/global-
+ work-from-home-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-work-from-home-day
+ /
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:goddard-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:Goddard Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Goddard Day\, observed on March 16\, celebrates a piece of tech
+ nology or digital culture that's become part of everyday life across the U
+ nited States.\n\nhttps://todaycelebrates.com/holiday/goddard-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/goddard-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ibm-pc-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:IBM PC Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:IBM PC Day\, observed on August 12\, celebrates a piece of tech
+ nology or digital culture that's become part of everyday life across the U
+ nited States.\n\nhttps://todaycelebrates.com/holiday/ibm-pc-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/ibm-pc-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-amateur-radio-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:International Amateur Radio Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Amateur Radio Day\, observed on April 18\, celebr
+ ates a piece of technology or digital culture that's become part of everyd
+ ay life across the United States.\n\nhttps://todaycelebrates.com/holiday/i
+ nternational-amateur-radio-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-amateur-rad
+ io-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-asteroid-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:International Asteroid Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Asteroid Day\, observed on June 30\, celebrates a
+  piece of technology or digital culture that's become part of everyday lif
+ e across the United States.\n\nhttps://todaycelebrates.com/holiday/interna
+ tional-asteroid-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-asteroid-da
+ y/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-caps-lock-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+SUMMARY:INTERNATIONAL CAPS LOCK DAY
+RRULE:FREQ=YEARLY
+DESCRIPTION:INTERNATIONAL CAPS LOCK DAY\, observed on June 28\, celebrates 
+ a piece of technology or digital culture that's become part of everyday li
+ fe across the United States.\n\nhttps://todaycelebrates.com/holiday/intern
+ ational-caps-lock-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-caps-lock-d
+ ay/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-civil-aviation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:International Civil Aviation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Civil Aviation Day\, observed on December 7\, cel
+ ebrates a piece of technology or digital culture that's become part of eve
+ ryday life across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/international-civil-aviation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-civil-aviat
+ ion-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-day-of-human-space-flight@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:International Day of Human Space Flight
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Day of Human Space Flight\, observed on April 12\
+ , celebrates a piece of technology or digital culture that's become part o
+ f everyday life across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/international-day-of-human-space-flight/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-of-huma
+ n-space-flight/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-doge-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:International Doge Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Doge Day\, observed on November 2\, celebrates a 
+ piece of technology or digital culture that's become part of everyday life
+  across the United States.\n\nhttps://todaycelebrates.com/holiday/internat
+ ional-doge-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-doge-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-dot-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:International Dot Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Dot Day\, marked on September 15\, celebrates dot
+  and its growing role in everyday life around the world.\n\nhttps://todayc
+ elebrates.com/holiday/international-dot-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-dot-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-open-data-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:International Open Data Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Open Data Day\, observed on March 6\, celebrates 
+ a piece of technology or digital culture that's become part of everyday li
+ fe across the United States.\n\nhttps://todaycelebrates.com/holiday/intern
+ ational-open-data-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-open-data-d
+ ay/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-programmers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:International Programmers' Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Programmers' Day\, observed on January 7\, celebr
+ ates a piece of technology or digital culture that's become part of everyd
+ ay life across the United States.\n\nhttps://todaycelebrates.com/holiday/i
+ nternational-programmers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-programmers
+ -day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-space-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:International Space Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Space Day\, observed on May 7\, celebrates a piec
+ e of technology or digital culture that's become part of everyday life acr
+ oss the United States.\n\nhttps://todaycelebrates.com/holiday/internationa
+ l-space-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-space-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:international-vlogging-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:International Vlogging Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Vlogging Day\, observed on August 10\, celebrates
+  a piece of technology or digital culture that's become part of everyday l
+ ife across the United States.\n\nhttps://todaycelebrates.com/holiday/inter
+ national-vlogging-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-vlogging-da
+ y/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:internaut-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270824
+SUMMARY:Internaut Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Internaut Day\, observed on August 23\, celebrates a piece of t
+ echnology or digital culture that's become part of everyday life across th
+ e United States.\n\nhttps://todaycelebrates.com/holiday/internaut-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/internaut-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:landline-telephone-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Landline Telephone Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Landline Telephone Day\, observed on March 10\, celebrates a pi
+ ece of technology or digital culture that's become part of everyday life a
+ cross the United States.\n\nhttps://todaycelebrates.com/holiday/landline-t
+ elephone-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/landline-telephone-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:learn-your-name-in-morse-code-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:Learn Your Name in Morse Code Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Learn Your Name in Morse Code Day\, observed on January 11\, ce
+ lebrates a piece of technology or digital culture that's become part of ev
+ eryday life across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/learn-your-name-in-morse-code-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/learn-your-name-in-morse-
+ code-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lotus-1-2-3-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Lotus 1-2-3 Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Lotus 1-2-3 Day\, observed on January 26\, celebrates a piece o
+ f technology or digital culture that's become part of everyday life across
+  the United States.\n\nhttps://todaycelebrates.com/holiday/lotus-1-2-3-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lotus-1-2-3-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:macintosh-computer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Macintosh Computer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Macintosh Computer Day\, observed on January 24\, celebrates a 
+ piece of technology or digital culture that's become part of everyday life
+  across the United States.\n\nhttps://todaycelebrates.com/holiday/macintos
+ h-computer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/macintosh-computer-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mario-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Mario Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mario Day\, observed on March 10\, celebrates a piece of techno
+ logy or digital culture that's become part of everyday life across the Uni
+ ted States.\n\nhttps://todaycelebrates.com/holiday/mario-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mario-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:math-2-0-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:Math 2.0 Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Math 2.0 Day\, observed on July 8\, celebrates a piece of techn
+ ology or digital culture that's become part of everyday life across the Un
+ ited States.\n\nhttps://todaycelebrates.com/holiday/math-2-0-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/math-2-0-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:mechanical-pencil-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:Mechanical Pencil Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mechanical Pencil Day\, observed on July 5\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/mechanical-pe
+ ncil-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mechanical-pencil-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:moon-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:Moon Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Moon Day\, observed on July 20\, celebrates a piece of technolo
+ gy or digital culture that's become part of everyday life across the Unite
+ d States.\n\nhttps://todaycelebrates.com/holiday/moon-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/moon-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:morse-code-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Morse Code Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Morse Code Day\, observed on April 27\, celebrates a piece of t
+ echnology or digital culture that's become part of everyday life across th
+ e United States.\n\nhttps://todaycelebrates.com/holiday/morse-code-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/morse-code-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:name-your-pc-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Name Your PC Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Name Your PC Day\, observed on November 20\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/name-your-pc-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/name-your-pc-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-ai-in-work-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:National AI in Work Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National AI in Work Day\, marked on September 30\, celebrates a
+ i in work and its growing role in everyday life across the United States.\
+ n\nhttps://todaycelebrates.com/holiday/national-ai-in-work-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-ai-in-work-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-app-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:National App Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National App Day\, observed on December 11\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/national-app-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-app-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-aviation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270819
+DTEND;VALUE=DATE:20270820
+SUMMARY:National Aviation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Aviation Day\, observed on August 19\, celebrates a pi
+ ece of technology or digital culture that's become part of everyday life a
+ cross the United States.\n\nhttps://todaycelebrates.com/holiday/national-a
+ viation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-aviation-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-barcode-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:National Barcode Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Barcode Day\, observed on June 26\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/national-barc
+ ode-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-barcode-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-battery-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:National Battery Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Battery Day\, observed on February 18\, celebrates a p
+ iece of technology or digital culture that's become part of everyday life 
+ across the United States.\n\nhttps://todaycelebrates.com/holiday/national-
+ battery-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-battery-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-biodiesel-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:National Biodiesel Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Biodiesel Day\, observed on March 18\, celebrates a pi
+ ece of technology or digital culture that's become part of everyday life a
+ cross the United States.\n\nhttps://todaycelebrates.com/holiday/national-b
+ iodiesel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-biodiesel-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-bunsen-burner-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:National Bunsen Burner Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Bunsen Burner Day\, observed on March 31\, celebrates 
+ a piece of technology or digital culture that's become part of everyday li
+ fe across the United States.\n\nhttps://todaycelebrates.com/holiday/nation
+ al-bunsen-burner-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bunsen-burner-da
+ y/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-cad-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+SUMMARY:National CAD Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National CAD Day\, observed on August 2\, celebrates a piece of
+  technology or digital culture that's become part of everyday life across 
+ the United States.\n\nhttps://todaycelebrates.com/holiday/national-cad-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cad-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-camera-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:National Camera Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Camera Day\, observed on June 29\, celebrates a piece 
+ of technology or digital culture that's become part of everyday life acros
+ s the United States.\n\nhttps://todaycelebrates.com/holiday/national-camer
+ a-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-camera-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-cut-the-cord-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:National Cut the Cord Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cut the Cord Day\, observed on February 9\, celebrates
+  a piece of technology or digital culture that's become part of everyday l
+ ife across the United States.\n\nhttps://todaycelebrates.com/holiday/natio
+ nal-cut-the-cord-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cut-the-cord-day
+ /
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-dash-cam-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270805
+DTEND;VALUE=DATE:20270806
+SUMMARY:National Dash Cam Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dash Cam Day\, observed on August 5\, celebrates a pie
+ ce of technology or digital culture that's become part of everyday life ac
+ ross the United States.\n\nhttps://todaycelebrates.com/holiday/national-da
+ sh-cam-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dash-cam-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-download-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:National Download Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Download Day\, observed on December 28\, celebrates a 
+ piece of technology or digital culture that's become part of everyday life
+  across the United States.\n\nhttps://todaycelebrates.com/holiday/national
+ -download-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-download-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-eight-track-tape-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:National Eight-Track Tape Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Eight-Track Tape Day\, observed on April 11\, celebrat
+ es a piece of technology or digital culture that's become part of everyday
+  life across the United States.\n\nhttps://todaycelebrates.com/holiday/nat
+ ional-eight-track-tape-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-eight-track-tape
+ -day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-electricity-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:National Electricity Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Electricity Day\, observed on June 15\, celebrates a p
+ iece of technology or digital culture that's become part of everyday life 
+ across the United States.\n\nhttps://todaycelebrates.com/holiday/national-
+ electricity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-electricity-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-flash-drive-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:National Flash Drive Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Flash Drive Day\, observed on April 5\, celebrates a p
+ iece of technology or digital culture that's become part of everyday life 
+ across the United States.\n\nhttps://todaycelebrates.com/holiday/national-
+ flash-drive-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-flash-drive-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-flashlight-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:National Flashlight Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Flashlight Day\, observed on December 21\, celebrates 
+ a piece of technology or digital culture that's become part of everyday li
+ fe across the United States.\n\nhttps://todaycelebrates.com/holiday/nation
+ al-flashlight-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-flashlight-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-freebsd-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:National FreeBSD Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National FreeBSD Day\, observed on June 19\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/national-free
+ bsd-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-freebsd-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-innovation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:National Innovation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Innovation Day\, observed on February 16\, celebrates 
+ a piece of technology or digital culture that's become part of everyday li
+ fe across the United States.\n\nhttps://todaycelebrates.com/holiday/nation
+ al-innovation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-innovation-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-inventors-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:National Inventors' Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Inventors' Day\, observed on February 11\, celebrates 
+ a piece of technology or digital culture that's become part of everyday li
+ fe across the United States.\n\nhttps://todaycelebrates.com/holiday/nation
+ al-inventors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-inventors-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-it-professionals-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:National IT Professionals Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National IT Professionals Day\, marked on September 15\, celebr
+ ates it professionals and its growing role in everyday life across the Uni
+ ted States.\n\nhttps://todaycelebrates.com/holiday/national-it-professiona
+ ls-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-it-professionals
+ -day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-microwave-oven-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:National Microwave Oven Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Microwave Oven Day\, observed on December 6\, celebrat
+ es a piece of technology or digital culture that's become part of everyday
+  life across the United States.\n\nhttps://todaycelebrates.com/holiday/nat
+ ional-microwave-oven-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-microwave-oven-d
+ ay/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-model-aviation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:National Model Aviation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Model Aviation Day\, observed on August 14\, celebrate
+ s a piece of technology or digital culture that's become part of everyday 
+ life across the United States.\n\nhttps://todaycelebrates.com/holiday/nati
+ onal-model-aviation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-model-aviation-d
+ ay/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-online-learning-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:National Online Learning Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Online Learning Day\, marked on September 15\, celebra
+ tes online learning and its growing role in everyday life across the Unite
+ d States.\n\nhttps://todaycelebrates.com/holiday/national-online-learning-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-online-learning-
+ day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-online-recovery-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:National Online Recovery Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Online Recovery Day\, marked on September 22\, celebra
+ tes online recovery and its growing role in everyday life across the Unite
+ d States.\n\nhttps://todaycelebrates.com/holiday/national-online-recovery-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-online-recovery-
+ day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-periodic-table-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:National Periodic Table Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Periodic Table Day\, observed on February 7\, celebrat
+ es a piece of technology or digital culture that's become part of everyday
+  life across the United States.\n\nhttps://todaycelebrates.com/holiday/nat
+ ional-periodic-table-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-periodic-table-d
+ ay/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-public-science-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:National Public Science Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Public Science Day\, observed on February 17\, celebra
+ tes a piece of technology or digital culture that's become part of everyda
+ y life across the United States.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-public-science-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-public-science-d
+ ay/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-radio-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:National Radio Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Radio Day\, observed on August 20\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/national-radi
+ o-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-radio-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-science-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:National Science Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Science Day\, observed on February 28\, celebrates a p
+ iece of technology or digital culture that's become part of everyday life 
+ across the United States.\n\nhttps://todaycelebrates.com/holiday/national-
+ science-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-science-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-silent-e-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20270930
+SUMMARY:National Silent E Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Silent E Day\, marked on September 29\, celebrates sil
+ ent e and its growing role in everyday life across the United States.\n\nh
+ ttps://todaycelebrates.com/holiday/national-silent-e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-silent-e-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-static-electricity-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:National Static Electricity Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Static Electricity Day\, observed on January 9\, celeb
+ rates a piece of technology or digital culture that's become part of every
+ day life across the United States.\n\nhttps://todaycelebrates.com/holiday/
+ national-static-electricity-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-static-electrici
+ ty-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-steam-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:National STEAM Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National STEAM Day\, observed on November 8\, celebrates a piec
+ e of technology or digital culture that's become part of everyday life acr
+ oss the United States.\n\nhttps://todaycelebrates.com/holiday/national-ste
+ am-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-steam-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-tape-measure-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+SUMMARY:National Tape Measure Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tape Measure Day\, observed on July 14\, celebrates a 
+ piece of technology or digital culture that's become part of everyday life
+  across the United States.\n\nhttps://todaycelebrates.com/holiday/national
+ -tape-measure-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tape-measure-day
+ /
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-telephone-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:National Telephone Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Telephone Day\, observed on April 25\, celebrates a pi
+ ece of technology or digital culture that's become part of everyday life a
+ cross the United States.\n\nhttps://todaycelebrates.com/holiday/national-t
+ elephone-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-telephone-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-video-games-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:National Video Games Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Video Games Day\, marked on September 12\, celebrates 
+ video games and its growing role in everyday life across the United States
+ .\n\nhttps://todaycelebrates.com/holiday/national-video-games-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-video-games-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-words-with-friends-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270720
+SUMMARY:National Words With Friends Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Words With Friends Day\, observed on July 19\, celebra
+ tes a piece of technology or digital culture that's become part of everyda
+ y life across the United States.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-words-with-friends-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-words-with-frien
+ ds-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pan-american-aviation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Pan American Aviation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pan American Aviation Day\, observed on December 17\, celebrate
+ s a piece of technology or digital culture that's become part of everyday 
+ life across the United States.\n\nhttps://todaycelebrates.com/holiday/pan-
+ american-aviation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pan-american-aviation-day
+ /
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-approximation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270722
+DTEND;VALUE=DATE:20270723
+SUMMARY:Pi Approximation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pi Approximation Day\, observed on July 22\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/pi-approximat
+ ion-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pi-approximation-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:printing-ink-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:Printing Ink Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Printing Ink Day\, observed on January 19\, celebrates a piece 
+ of technology or digital culture that's become part of everyday life acros
+ s the United States.\n\nhttps://todaycelebrates.com/holiday/printing-ink-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/printing-ink-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:public-television-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:Public Television Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Public Television Day\, observed on April 7\, celebrates a piec
+ e of technology or digital culture that's become part of everyday life acr
+ oss the United States.\n\nhttps://todaycelebrates.com/holiday/public-telev
+ ision-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/public-television-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:push-button-phone-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Push-Button Phone Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Push-Button Phone Day\, observed on November 18\, celebrates a 
+ piece of technology or digital culture that's become part of everyday life
+  across the United States.\n\nhttps://todaycelebrates.com/holiday/push-but
+ ton-phone-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/push-button-phone-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:red-planet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Red Planet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Red Planet Day\, observed on November 28\, celebrates a piece o
+ f technology or digital culture that's become part of everyday life across
+  the United States.\n\nhttps://todaycelebrates.com/holiday/red-planet-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/red-planet-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:safer-internet-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Safer Internet Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Safer Internet Day\, observed on February 9\, celebrates a piec
+ e of technology or digital culture that's become part of everyday life acr
+ oss the United States.\n\nhttps://todaycelebrates.com/holiday/safer-intern
+ et-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/safer-internet-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:social-media-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Social Media Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Social Media Day\, observed on June 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/social-media-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/social-media-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:space-exploration-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:Space Exploration Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Space Exploration Day\, observed on July 20\, celebrates a piec
+ e of technology or digital culture that's become part of everyday life acr
+ oss the United States.\n\nhttps://todaycelebrates.com/holiday/space-explor
+ ation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/space-exploration-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:submarine-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Submarine Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Submarine Day\, observed on March 17\, celebrates a piece of te
+ chnology or digital culture that's become part of everyday life across the
+  United States.\n\nhttps://todaycelebrates.com/holiday/submarine-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/submarine-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:system-administrator-appreciation-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:System Administrator Appreciation Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:System Administrator Appreciation Day\, observed on July 30\, c
+ elebrates a piece of technology or digital culture that's become part of e
+ veryday life across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/system-administrator-appreciation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/system-administrator-appr
+ eciation-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tau-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+SUMMARY:Tau Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Tau Day\, observed on June 28\, celebrates a piece of technolog
+ y or digital culture that's become part of everyday life across the United
+  States.\n\nhttps://todaycelebrates.com/holiday/tau-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tau-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:techies-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271004
+SUMMARY:Techies Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Techies Day\, marked on October 3\, celebrates techies and its 
+ growing role in everyday life across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/techies-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/techies-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:thank-a-plugin-developer-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Thank a Plugin Developer Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Thank a Plugin Developer Day\, observed on January 28\, celebra
+ tes a piece of technology or digital culture that's become part of everyda
+ y life across the United States.\n\nhttps://todaycelebrates.com/holiday/th
+ ank-a-plugin-developer-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/thank-a-plugin-developer-
+ day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:tin-can-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:Tin Can Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Tin Can Day\, observed on January 19\, celebrates a piece of te
+ chnology or digital culture that's become part of everyday life across the
+  United States.\n\nhttps://todaycelebrates.com/holiday/tin-can-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/tin-can-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:typewriter-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:Typewriter Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Typewriter Day\, observed on June 23\, celebrates a piece of te
+ chnology or digital culture that's become part of everyday life across the
+  United States.\n\nhttps://todaycelebrates.com/holiday/typewriter-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/typewriter-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:vcr-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270608
+SUMMARY:VCR Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:VCR Day\, observed on June 7\, celebrates a piece of technology
+  or digital culture that's become part of everyday life across the United 
+ States.\n\nhttps://todaycelebrates.com/holiday/vcr-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/vcr-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:viral-video-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Viral Video Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Viral Video Day\, observed on April 29\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/viral-video-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/viral-video-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:virtual-worlds-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:Virtual Worlds Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Virtual Worlds Day\, observed on August 20\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/virtual-world
+ s-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/virtual-worlds-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wikipedia-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Wikipedia Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Wikipedia Day\, observed on January 15\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/wikipedia-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/wikipedia-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-ampersand-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270909
+SUMMARY:World Ampersand Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Ampersand Day\, marked on September 8\, celebrates ampers
+ and and its growing role in everyday life around the globe.\n\nhttps://tod
+ aycelebrates.com/holiday/world-ampersand-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-ampersand-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-backup-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:World Backup Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Backup Day\, observed on March 31\, celebrates a piece of
+  technology or digital culture that's become part of everyday life across 
+ the United States.\n\nhttps://todaycelebrates.com/holiday/world-backup-day
+ /
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-backup-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-day-against-cyber-censorship@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:World Day Against Cyber Censorship
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Day Against Cyber Censorship\, observed on March 12\, cel
+ ebrates a piece of technology or digital culture that's become part of eve
+ ryday life across the United States.\n\nhttps://todaycelebrates.com/holida
+ y/world-day-against-cyber-censorship/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-day-against-cyber-c
+ ensorship/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-emoji-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+SUMMARY:World Emoji Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Emoji Day\, observed on July 17\, celebrates a piece of t
+ echnology or digital culture that's become part of everyday life across th
+ e United States.\n\nhttps://todaycelebrates.com/holiday/world-emoji-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-emoji-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-intellectual-property-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:World Intellectual Property Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Intellectual Property Day\, observed on April 26\, celebr
+ ates a piece of technology or digital culture that's become part of everyd
+ ay life across the United States.\n\nhttps://todaycelebrates.com/holiday/w
+ orld-intellectual-property-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-intellectual-proper
+ ty-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-password-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:World Password Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Password Day\, observed on May 6\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/world-password-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-password-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-plumbing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:World Plumbing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Plumbing Day\, observed on March 11\, celebrates a piece 
+ of technology or digital culture that's become part of everyday life acros
+ s the United States.\n\nhttps://todaycelebrates.com/holiday/world-plumbing
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-plumbing-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-telecommunication-and-information-society-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:World Telecommunication and Information Society Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Telecommunication and Information Society Day\, observed 
+ on May 17\, celebrates a piece of technology or digital culture that's bec
+ ome part of everyday life across the United States.\n\nhttps://todaycelebr
+ ates.com/holiday/world-telecommunication-and-information-society-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-telecommunication-a
+ nd-information-society-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-television-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:World Television Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Television Day\, observed on November 21\, celebrates a p
+ iece of technology or digital culture that's become part of everyday life 
+ across the United States.\n\nhttps://todaycelebrates.com/holiday/world-tel
+ evision-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-television-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-typing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:World Typing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Typing Day\, observed on January 8\, celebrates a piece o
+ f technology or digital culture that's become part of everyday life across
+  the United States.\n\nhttps://todaycelebrates.com/holiday/world-typing-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-typing-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-usability-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:World Usability Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Usability Day\, observed on November 12\, celebrates a pi
+ ece of technology or digital culture that's become part of everyday life a
+ cross the United States.\n\nhttps://todaycelebrates.com/holiday/world-usab
+ ility-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-usability-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:world-wide-web-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:World Wide Web Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Wide Web Day\, observed on August 1\, celebrates a piece 
+ of technology or digital culture that's become part of everyday life acros
+ s the United States.\n\nhttps://todaycelebrates.com/holiday/world-wide-web
+ -day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-wide-web-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:wright-brothers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Wright Brothers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Wright Brothers Day\, observed on December 17\, celebrates a pi
+ ece of technology or digital culture that's become part of everyday life a
+ cross the United States.\n\nhttps://todaycelebrates.com/holiday/wright-bro
+ thers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/wright-brothers-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

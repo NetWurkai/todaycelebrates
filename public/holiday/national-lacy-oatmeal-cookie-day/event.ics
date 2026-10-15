@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Lacy Oatmeal Cookie Day
+X-WR-CALNAME:National Lacy Oatmeal Cookie Day
+DESCRIPTION:National Lacy Oatmeal Cookie Day — https://todaycelebrates.co
+ m/holiday/national-lacy-oatmeal-cookie-day/
+X-WR-CALDESC:National Lacy Oatmeal Cookie Day — https://todaycelebrates.c
+ om/holiday/national-lacy-oatmeal-cookie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lacy-oatmeal-coo
+ kie-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-lacy-oatmeal-
+ cookie-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-lacy-oatmeal-cookie-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:National Lacy Oatmeal Cookie Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Lacy Oatmeal Cookie Day is a food-focused observance c
+ elebrated across the United States on March 18\, giving fans of the dish o
+ r ingredient an excuse to seek it out and share it with others.\n\nhttps:/
+ /todaycelebrates.com/holiday/national-lacy-oatmeal-cookie-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lacy-oatmeal-coo
+ kie-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

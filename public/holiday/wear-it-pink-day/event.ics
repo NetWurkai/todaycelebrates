@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Wear it Pink Day
+X-WR-CALNAME:Wear it Pink Day
+DESCRIPTION:Wear it Pink Day — https://todaycelebrates.com/holiday/wear-i
+ t-pink-day/
+X-WR-CALDESC:Wear it Pink Day — https://todaycelebrates.com/holiday/wear-
+ it-pink-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/wear-it-pink-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/wear-it-pink-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:wear-it-pink-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Wear it Pink Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 24\, Wear it Pink Day gives people across the United
+  States one more reason to mark the day and celebrate wear it pink.\n\nhtt
+ ps://todaycelebrates.com/holiday/wear-it-pink-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/wear-it-pink-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

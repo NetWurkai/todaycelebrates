@@ -1,0 +1,332 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Today Celebrates: Coffee
+X-WR-CALNAME:Today Celebrates: Coffee
+DESCRIPTION:19 coffee observances from https://todaycelebrates.com/category
+ /coffee/. Rebuilt daily.
+X-WR-CALDESC:19 coffee observances from https://todaycelebrates.com/categor
+ y/coffee/. Rebuilt daily.
+URL;VALUE=URI:https://todaycelebrates.com/category/coffee/calendar.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/category/coffee/calendar.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-coffee-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:International Coffee Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Coffee Day\, promoted globally by the Internation
+ al Coffee Organization\, celebrates coffee as a beverage and raises awaren
+ ess of the farmers who grow it and the fair-trade issues that affect their
+  livelihoods.\n\nhttps://todaycelebrates.com/holiday/international-coffee-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-coffee-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-caf-au-lait-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:National Café au Lait Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Café au Lait Day\, observed on February 17\, is celeb
+ rated by coffee lovers across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-caf-au-lait-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-caf-au-lait-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-cappuccino-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:National Cappuccino Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cappuccino Day\, observed on November 8\, gives coffee
+  lovers across the United States a reason to slow down and enjoy a favorit
+ e cup.\n\nhttps://todaycelebrates.com/holiday/national-cappuccino-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cappuccino-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-cocoa-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:National Cocoa Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cocoa Day\, observed on December 13\, gives coffee lov
+ ers across the United States a reason to slow down and enjoy a favorite cu
+ p.\n\nhttps://todaycelebrates.com/holiday/national-cocoa-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cocoa-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-coffee-break-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:National Coffee Break Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Coffee Break Day\, observed on January 20\, is celebra
+ ted by coffee lovers across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/national-coffee-break-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coffee-break-day
+ /
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-coffee-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20270930
+SUMMARY:National Coffee Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Coffee Day celebrates one of the world's most beloved 
+ beverages\, honoring the growers\, roasters\, and baristas behind every cu
+ p and the ritual coffee brings to mornings everywhere.\n\nhttps://todaycel
+ ebrates.com/holiday/national-coffee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coffee-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-coffee-ice-cream-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20270907
+SUMMARY:National Coffee Ice Cream Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Coffee Ice Cream Day\, observed across the United Stat
+ es on September 6\, celebrates coffee culture and gives coffee lovers one 
+ more reason to savor their favorite cup.\n\nhttps://todaycelebrates.com/ho
+ liday/national-coffee-ice-cream-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coffee-ice-cream
+ -day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-coffee-milkshake-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270727
+SUMMARY:National Coffee Milkshake Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Coffee Milkshake Day\, observed on July 26\, is celebr
+ ated by coffee lovers across the United States.\n\nhttps://todaycelebrates
+ .com/holiday/national-coffee-milkshake-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coffee-milkshake
+ -day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-coffee-with-a-cop-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:National Coffee with a Cop Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Coffee with a Cop Day\, observed across the United Sta
+ tes on October 7\, celebrates coffee culture and gives coffee lovers one m
+ ore reason to savor their favorite cup.\n\nhttps://todaycelebrates.com/hol
+ iday/national-coffee-with-a-cop-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coffee-with-a-co
+ p-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-cold-brew-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:National Cold Brew Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Cold Brew Day\, observed on April 20\, is celebrated b
+ y coffee lovers across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/national-cold-brew-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cold-brew-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-espresso-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:National Espresso Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Espresso Day\, observed on November 23\, gives coffee 
+ lovers across the United States a reason to slow down and enjoy a favorite
+  cup.\n\nhttps://todaycelebrates.com/holiday/national-espresso-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-espresso-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-gourmet-coffee-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:National Gourmet Coffee Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Gourmet Coffee Day\, observed on January 18\, is celeb
+ rated by coffee lovers across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-gourmet-coffee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gourmet-coffee-d
+ ay/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-iced-tea-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:National Iced Tea Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Iced Tea Day\, observed on June 10\, is celebrated by 
+ coffee lovers across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/national-iced-tea-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-iced-tea-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-irish-coffee-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:National Irish Coffee Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Irish Coffee Day\, observed on January 25\, is celebra
+ ted by coffee lovers across the United States.\n\nhttps://todaycelebrates.
+ com/holiday/national-irish-coffee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-irish-coffee-day
+ /
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-latte-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:National Latte Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Latte Day\, observed on February 11\, is celebrated by
+  coffee lovers across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/national-latte-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-latte-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-macchiato-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:National Macchiato Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Macchiato Day\, observed on November 19\, gives coffee
+  lovers across the United States a reason to slow down and enjoy a favorit
+ e cup.\n\nhttps://todaycelebrates.com/holiday/national-macchiato-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-macchiato-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-mocha-torte-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:National Mocha Torte Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mocha Torte Day\, observed on May 11\, is celebrated b
+ y coffee lovers across the United States.\n\nhttps://todaycelebrates.com/h
+ oliday/national-mocha-torte-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mocha-torte-day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-peppermint-latte-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:National Peppermint Latte Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Peppermint Latte Day\, observed on December 3\, gives 
+ coffee lovers across the United States a reason to slow down and enjoy a f
+ avorite cup.\n\nhttps://todaycelebrates.com/holiday/national-peppermint-la
+ tte-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-peppermint-latte
+ -day/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-tea-day-uk@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:National Tea Day (UK)
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Tea Day (UK)\, observed on April 21\, is celebrated by
+  coffee lovers across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/national-tea-day-uk/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-tea-day-uk/
+CATEGORIES:Coffee
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Chocolate-Covered Peanuts Day
+X-WR-CALNAME:National Chocolate-Covered Peanuts Day
+DESCRIPTION:National Chocolate-Covered Peanuts Day — https://todaycelebra
+ tes.com/holiday/national-chocolate-covered-peanuts-day/
+X-WR-CALDESC:National Chocolate-Covered Peanuts Day — https://todaycelebr
+ ates.com/holiday/national-chocolate-covered-peanuts-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-covere
+ d-peanuts-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-cov
+ ered-peanuts-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-chocolate-covered-peanuts-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:National Chocolate-Covered Peanuts Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Chocolate-Covered Peanuts Day is a food-focused observ
+ ance celebrated across the United States on February 25\, giving fans of t
+ he dish or ingredient an excuse to seek it out and share it with others.\n
+ \nhttps://todaycelebrates.com/holiday/national-chocolate-covered-peanuts-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chocolate-covere
+ d-peanuts-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

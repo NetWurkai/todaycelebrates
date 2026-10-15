@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Count Your Buttons Day
+X-WR-CALNAME:Count Your Buttons Day
+DESCRIPTION:Count Your Buttons Day — https://todaycelebrates.com/holiday/
+ count-your-buttons-day/
+X-WR-CALDESC:Count Your Buttons Day — https://todaycelebrates.com/holiday
+ /count-your-buttons-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/count-your-buttons-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/count-your-buttons-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:count-your-buttons-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Count Your Buttons Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On October 21\, Count Your Buttons Day gives people across the 
+ United States one more reason to mark the day and celebrate count your but
+ tons.\n\nhttps://todaycelebrates.com/holiday/count-your-buttons-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/count-your-buttons-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

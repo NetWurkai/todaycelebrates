@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Yellow Pigs Day
+X-WR-CALNAME:Yellow Pigs Day
+DESCRIPTION:Yellow Pigs Day — https://todaycelebrates.com/holiday/yellow-
+ pigs-day/
+X-WR-CALDESC:Yellow Pigs Day — https://todaycelebrates.com/holiday/yellow
+ -pigs-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yellow-pigs-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/yellow-pigs-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:yellow-pigs-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+SUMMARY:Yellow Pigs Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Yellow Pigs Day\, observed on July 17\, is a lighthearted holid
+ ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
+ iday/yellow-pigs-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/yellow-pigs-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

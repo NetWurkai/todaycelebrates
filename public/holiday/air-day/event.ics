@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Air Day
+X-WR-CALNAME:Air Day
+DESCRIPTION:Air Day — https://todaycelebrates.com/holiday/air-day/
+X-WR-CALDESC:Air Day — https://todaycelebrates.com/holiday/air-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/air-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/air-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:air-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Air Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Air Day\, observed on November 11\, is a lighthearted holiday c
+ elebrated across the United States.\n\nhttps://todaycelebrates.com/holiday
+ /air-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/air-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

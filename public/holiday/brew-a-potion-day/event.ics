@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Brew a Potion Day
+X-WR-CALNAME:Brew a Potion Day
+DESCRIPTION:Brew a Potion Day — https://todaycelebrates.com/holiday/brew-
+ a-potion-day/
+X-WR-CALDESC:Brew a Potion Day — https://todaycelebrates.com/holiday/brew
+ -a-potion-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/brew-a-potion-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/brew-a-potion-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:brew-a-potion-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:Brew a Potion Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Brew a Potion Day\, observed on January 19\, is a lighthearted\
+ , family-friendly day celebrated across the United States.\n\nhttps://toda
+ ycelebrates.com/holiday/brew-a-potion-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/brew-a-potion-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

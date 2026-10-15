@@ -1,0 +1,177 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Leftovers Day
+X-WR-CALNAME:National Leftovers Day
+DESCRIPTION:National Leftovers Day — https://todaycelebrates.com/holiday/
+ national-leftovers-day/
+X-WR-CALDESC:National Leftovers Day — https://todaycelebrates.com/holiday
+ /national-leftovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leftovers-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-leftovers-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-leftovers-day-20261127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:National Leftovers Day
+DESCRIPTION:National Leftovers Day is a food-focused observance celebrated 
+ across the United States on November 27\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-leftovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leftovers-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-leftovers-day-20271126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271126
+DTEND;VALUE=DATE:20271127
+SUMMARY:National Leftovers Day
+DESCRIPTION:National Leftovers Day is a food-focused observance celebrated 
+ across the United States on November 27\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-leftovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leftovers-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-leftovers-day-20281124@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281124
+DTEND;VALUE=DATE:20281125
+SUMMARY:National Leftovers Day
+DESCRIPTION:National Leftovers Day is a food-focused observance celebrated 
+ across the United States on November 27\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-leftovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leftovers-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-leftovers-day-20291123@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291123
+DTEND;VALUE=DATE:20291124
+SUMMARY:National Leftovers Day
+DESCRIPTION:National Leftovers Day is a food-focused observance celebrated 
+ across the United States on November 27\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-leftovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leftovers-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-leftovers-day-20301129@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301129
+DTEND;VALUE=DATE:20301130
+SUMMARY:National Leftovers Day
+DESCRIPTION:National Leftovers Day is a food-focused observance celebrated 
+ across the United States on November 27\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-leftovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leftovers-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-leftovers-day-20311128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311128
+DTEND;VALUE=DATE:20311129
+SUMMARY:National Leftovers Day
+DESCRIPTION:National Leftovers Day is a food-focused observance celebrated 
+ across the United States on November 27\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-leftovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leftovers-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-leftovers-day-20321126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321126
+DTEND;VALUE=DATE:20321127
+SUMMARY:National Leftovers Day
+DESCRIPTION:National Leftovers Day is a food-focused observance celebrated 
+ across the United States on November 27\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-leftovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leftovers-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-leftovers-day-20331125@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331125
+DTEND;VALUE=DATE:20331126
+SUMMARY:National Leftovers Day
+DESCRIPTION:National Leftovers Day is a food-focused observance celebrated 
+ across the United States on November 27\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-leftovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leftovers-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-leftovers-day-20341124@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341124
+DTEND;VALUE=DATE:20341125
+SUMMARY:National Leftovers Day
+DESCRIPTION:National Leftovers Day is a food-focused observance celebrated 
+ across the United States on November 27\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-leftovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leftovers-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-leftovers-day-20351123@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351123
+DTEND;VALUE=DATE:20351124
+SUMMARY:National Leftovers Day
+DESCRIPTION:National Leftovers Day is a food-focused observance celebrated 
+ across the United States on November 27\, giving fans of the dish or ingre
+ dient an excuse to seek it out and share it with others.\n\nhttps://todayc
+ elebrates.com/holiday/national-leftovers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-leftovers-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

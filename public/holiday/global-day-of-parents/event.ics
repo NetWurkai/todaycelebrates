@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Global Day of Parents
+X-WR-CALNAME:Global Day of Parents
+DESCRIPTION:Global Day of Parents — https://todaycelebrates.com/holiday/g
+ lobal-day-of-parents/
+X-WR-CALDESC:Global Day of Parents — https://todaycelebrates.com/holiday/
+ global-day-of-parents/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-day-of-parents/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/global-day-of-parents/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:global-day-of-parents@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:Global Day of Parents
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Day of Parents\, observed on June 1\, encourages people 
+ across the United States to pause and recognize the people and causes behi
+ nd the day.\n\nhttps://todaycelebrates.com/holiday/global-day-of-parents/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-day-of-parents/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

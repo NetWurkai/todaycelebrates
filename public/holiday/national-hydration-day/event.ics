@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Hydration Day
+X-WR-CALNAME:National Hydration Day
+DESCRIPTION:National Hydration Day — https://todaycelebrates.com/holiday/
+ national-hydration-day/
+X-WR-CALDESC:National Hydration Day — https://todaycelebrates.com/holiday
+ /national-hydration-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hydration-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-hydration-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-hydration-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:National Hydration Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hydration Day\, observed on June 23\, encourages peopl
+ e across the United States to focus on health and wellbeing.\n\nhttps://to
+ daycelebrates.com/holiday/national-hydration-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hydration-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

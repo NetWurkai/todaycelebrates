@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Pluto Day
+X-WR-CALNAME:Pluto Day
+DESCRIPTION:Pluto Day — https://todaycelebrates.com/holiday/pluto-day/
+X-WR-CALDESC:Pluto Day — https://todaycelebrates.com/holiday/pluto-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pluto-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/pluto-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:pluto-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:Pluto Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Pluto Day is a nature-focused observance on February 18\, celeb
+ rated across the United States to draw attention to the plant\, animal\, o
+ r landscape at its center.\n\nhttps://todaycelebrates.com/holiday/pluto-da
+ y/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/pluto-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

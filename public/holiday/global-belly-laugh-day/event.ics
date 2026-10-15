@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Global Belly Laugh Day
+X-WR-CALNAME:Global Belly Laugh Day
+DESCRIPTION:Global Belly Laugh Day — https://todaycelebrates.com/holiday/
+ global-belly-laugh-day/
+X-WR-CALDESC:Global Belly Laugh Day — https://todaycelebrates.com/holiday
+ /global-belly-laugh-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-belly-laugh-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/global-belly-laugh-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:global-belly-laugh-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Global Belly Laugh Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Belly Laugh Day\, observed on January 24\, is a lighthea
+ rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/global-belly-laugh-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-belly-laugh-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Free Slurpee Day
+X-WR-CALNAME:Free Slurpee Day
+DESCRIPTION:Free Slurpee Day — https://todaycelebrates.com/holiday/free-s
+ lurpee-day/
+X-WR-CALDESC:Free Slurpee Day — https://todaycelebrates.com/holiday/free-
+ slurpee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/free-slurpee-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/free-slurpee-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:free-slurpee-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:Free Slurpee Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Free Slurpee Day\, observed on July 11\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/free-slurpee-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/free-slurpee-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

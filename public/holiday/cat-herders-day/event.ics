@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Cat Herders' Day
+X-WR-CALNAME:Cat Herders' Day
+DESCRIPTION:Cat Herders' Day — https://todaycelebrates.com/holiday/cat-he
+ rders-day/
+X-WR-CALDESC:Cat Herders' Day — https://todaycelebrates.com/holiday/cat-h
+ erders-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cat-herders-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/cat-herders-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cat-herders-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Cat Herders' Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Cat Herders' Day\, observed on December 15\, is a lighthearted 
+ holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
+ m/holiday/cat-herders-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cat-herders-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

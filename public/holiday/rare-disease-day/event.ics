@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Rare Disease Day
+X-WR-CALNAME:Rare Disease Day
+DESCRIPTION:Rare Disease Day — https://todaycelebrates.com/holiday/rare-d
+ isease-day/
+X-WR-CALDESC:Rare Disease Day — https://todaycelebrates.com/holiday/rare-
+ disease-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rare-disease-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/rare-disease-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:rare-disease-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Rare Disease Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Rare Disease Day\, observed on February 28\, encourages people 
+ across the United States to focus on health and wellbeing.\n\nhttps://toda
+ ycelebrates.com/holiday/rare-disease-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/rare-disease-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

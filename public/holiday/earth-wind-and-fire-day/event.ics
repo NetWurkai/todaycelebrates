@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Earth\, Wind & Fire Day
+X-WR-CALNAME:Earth\, Wind & Fire Day
+DESCRIPTION:Earth\, Wind & Fire Day — https://todaycelebrates.com/holiday
+ /earth-wind-and-fire-day/
+X-WR-CALDESC:Earth\, Wind & Fire Day — https://todaycelebrates.com/holida
+ y/earth-wind-and-fire-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-wind-and-fire-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/earth-wind-and-fire-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:earth-wind-and-fire-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+SUMMARY:Earth\, Wind & Fire Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Earth\, Wind & Fire Day is observed across the United States on
+  September 21\, a small but fun addition to the calendar worth celebrating
+  in its own way.\n\nhttps://todaycelebrates.com/holiday/earth-wind-and-fir
+ e-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-wind-and-fire-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

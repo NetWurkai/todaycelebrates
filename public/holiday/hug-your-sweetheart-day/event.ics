@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Hug Your Sweetheart Day
+X-WR-CALNAME:Hug Your Sweetheart Day
+DESCRIPTION:Hug Your Sweetheart Day — https://todaycelebrates.com/holiday
+ /hug-your-sweetheart-day/
+X-WR-CALDESC:Hug Your Sweetheart Day — https://todaycelebrates.com/holida
+ y/hug-your-sweetheart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hug-your-sweetheart-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/hug-your-sweetheart-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:hug-your-sweetheart-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270824
+SUMMARY:Hug Your Sweetheart Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Hug Your Sweetheart Day\, observed on August 23\, is a lighthea
+ rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/hug-your-sweetheart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/hug-your-sweetheart-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

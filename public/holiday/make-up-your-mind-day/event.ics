@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Make Up Your Mind Day
+X-WR-CALNAME:Make Up Your Mind Day
+DESCRIPTION:Make Up Your Mind Day — https://todaycelebrates.com/holiday/m
+ ake-up-your-mind-day/
+X-WR-CALDESC:Make Up Your Mind Day — https://todaycelebrates.com/holiday/
+ make-up-your-mind-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/make-up-your-mind-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/make-up-your-mind-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:make-up-your-mind-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Make Up Your Mind Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Make Up Your Mind Day\, observed on December 31\, is a lighthea
+ rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
+ es.com/holiday/make-up-your-mind-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/make-up-your-mind-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

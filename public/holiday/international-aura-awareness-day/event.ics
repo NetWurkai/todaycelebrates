@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Aura Awareness Day
+X-WR-CALNAME:International Aura Awareness Day
+DESCRIPTION:International Aura Awareness Day — https://todaycelebrates.co
+ m/holiday/international-aura-awareness-day/
+X-WR-CALDESC:International Aura Awareness Day — https://todaycelebrates.c
+ om/holiday/international-aura-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-aura-awaren
+ ess-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-aura-awa
+ reness-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-aura-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:International Aura Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Aura Awareness Day\, observed on November 28\, is
+  a lighthearted holiday celebrated across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/international-aura-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-aura-awaren
+ ess-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

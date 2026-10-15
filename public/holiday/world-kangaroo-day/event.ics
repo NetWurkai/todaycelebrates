@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Kangaroo Day
+X-WR-CALNAME:World Kangaroo Day
+DESCRIPTION:World Kangaroo Day — https://todaycelebrates.com/holiday/worl
+ d-kangaroo-day/
+X-WR-CALDESC:World Kangaroo Day — https://todaycelebrates.com/holiday/wor
+ ld-kangaroo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-kangaroo-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-kangaroo-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-kangaroo-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:World Kangaroo Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Kangaroo Day celebrates kangaroos and raises awareness of
+  conservation efforts to protect the species and its habitat.\n\nhttps://t
+ odaycelebrates.com/holiday/world-kangaroo-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-kangaroo-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

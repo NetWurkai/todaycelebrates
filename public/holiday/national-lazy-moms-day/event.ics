@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Lazy Mom's Day
+X-WR-CALNAME:National Lazy Mom's Day
+DESCRIPTION:National Lazy Mom's Day — https://todaycelebrates.com/holiday
+ /national-lazy-moms-day/
+X-WR-CALDESC:National Lazy Mom's Day — https://todaycelebrates.com/holida
+ y/national-lazy-moms-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lazy-moms-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-lazy-moms-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-lazy-moms-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:National Lazy Mom's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:On September 4\, National Lazy Mom's Day gives people across th
+ e United States one more reason to mark the day and celebrate lazy mom's.\
+ n\nhttps://todaycelebrates.com/holiday/national-lazy-moms-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-lazy-moms-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

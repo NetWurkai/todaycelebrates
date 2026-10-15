@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Frankenstein Friday
+X-WR-CALNAME:Frankenstein Friday
+DESCRIPTION:Frankenstein Friday — https://todaycelebrates.com/holiday/fra
+ nkenstein-friday/
+X-WR-CALDESC:Frankenstein Friday — https://todaycelebrates.com/holiday/fr
+ ankenstein-friday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/frankenstein-friday/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/frankenstein-friday/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:frankenstein-friday@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Frankenstein Friday
+RRULE:FREQ=YEARLY
+DESCRIPTION:Frankenstein Friday is one of the spookier stops on the October
+  calendar\, celebrated on October 30 in the run-up to Halloween.\n\nhttps:
+ //todaycelebrates.com/holiday/frankenstein-friday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/frankenstein-friday/
+CATEGORIES:Halloween
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

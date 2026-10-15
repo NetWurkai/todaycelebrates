@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Biodiesel Day
+X-WR-CALNAME:National Biodiesel Day
+DESCRIPTION:National Biodiesel Day — https://todaycelebrates.com/holiday/
+ national-biodiesel-day/
+X-WR-CALDESC:National Biodiesel Day — https://todaycelebrates.com/holiday
+ /national-biodiesel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-biodiesel-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-biodiesel-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-biodiesel-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:National Biodiesel Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Biodiesel Day\, observed on March 18\, celebrates a pi
+ ece of technology or digital culture that's become part of everyday life a
+ cross the United States.\n\nhttps://todaycelebrates.com/holiday/national-b
+ iodiesel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-biodiesel-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

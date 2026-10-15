@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Dash Cam Day
+X-WR-CALNAME:National Dash Cam Day
+DESCRIPTION:National Dash Cam Day — https://todaycelebrates.com/holiday/n
+ ational-dash-cam-day/
+X-WR-CALDESC:National Dash Cam Day — https://todaycelebrates.com/holiday/
+ national-dash-cam-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dash-cam-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-dash-cam-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-dash-cam-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270805
+DTEND;VALUE=DATE:20270806
+SUMMARY:National Dash Cam Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Dash Cam Day\, observed on August 5\, celebrates a pie
+ ce of technology or digital culture that's become part of everyday life ac
+ ross the United States.\n\nhttps://todaycelebrates.com/holiday/national-da
+ sh-cam-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dash-cam-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

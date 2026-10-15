@@ -1,0 +1,165 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Cyber Monday
+X-WR-CALNAME:Cyber Monday
+DESCRIPTION:Cyber Monday — https://todaycelebrates.com/holiday/cyber-mond
+ ay/
+X-WR-CALDESC:Cyber Monday — https://todaycelebrates.com/holiday/cyber-mon
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:cyber-monday-20261130@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20271129@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271129
+DTEND;VALUE=DATE:20271130
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20281127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281127
+DTEND;VALUE=DATE:20281128
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20291126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291126
+DTEND;VALUE=DATE:20291127
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20301202@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301202
+DTEND;VALUE=DATE:20301203
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20311201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311201
+DTEND;VALUE=DATE:20311202
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20321129@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321129
+DTEND;VALUE=DATE:20321130
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20331128@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331128
+DTEND;VALUE=DATE:20331129
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20341127@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341127
+DTEND;VALUE=DATE:20341128
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cyber-monday-20351126@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351126
+DTEND;VALUE=DATE:20351127
+SUMMARY:Cyber Monday
+DESCRIPTION:Cyber Monday\, observed on November 30\, celebrates a piece of 
+ technology or digital culture that's become part of everyday life across t
+ he United States.\n\nhttps://todaycelebrates.com/holiday/cyber-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cyber-monday/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

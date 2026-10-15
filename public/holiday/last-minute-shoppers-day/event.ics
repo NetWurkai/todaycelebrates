@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Last-Minute Shopper's Day
+X-WR-CALNAME:Last-Minute Shopper's Day
+DESCRIPTION:Last-Minute Shopper's Day — https://todaycelebrates.com/holid
+ ay/last-minute-shoppers-day/
+X-WR-CALDESC:Last-Minute Shopper's Day — https://todaycelebrates.com/holi
+ day/last-minute-shoppers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/last-minute-shoppers-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/last-minute-shoppers-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:last-minute-shoppers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Last-Minute Shopper's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Last-Minute Shopper's Day\, observed on December 24\, is a ligh
+ thearted holiday celebrated across the United States.\n\nhttps://todaycele
+ brates.com/holiday/last-minute-shoppers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/last-minute-shoppers-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

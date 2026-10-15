@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Human Spirit Day
+X-WR-CALNAME:World Human Spirit Day
+DESCRIPTION:World Human Spirit Day — https://todaycelebrates.com/holiday/
+ world-human-spirit-day/
+X-WR-CALDESC:World Human Spirit Day — https://todaycelebrates.com/holiday
+ /world-human-spirit-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-human-spirit-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-human-spirit-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-human-spirit-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:World Human Spirit Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Human Spirit Day\, observed on February 17\, is a lighthe
+ arted holiday celebrated across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/world-human-spirit-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-human-spirit-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

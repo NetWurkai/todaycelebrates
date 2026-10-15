@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Wheelchair Day
+X-WR-CALNAME:International Wheelchair Day
+DESCRIPTION:International Wheelchair Day — https://todaycelebrates.com/ho
+ liday/international-wheelchair-day/
+X-WR-CALDESC:International Wheelchair Day — https://todaycelebrates.com/h
+ oliday/international-wheelchair-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-wheelchair-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-wheelcha
+ ir-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-wheelchair-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:International Wheelchair Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Wheelchair Day\, observed on March 1\, encourages
+  people across the United States to pause and recognize the people and cau
+ ses behind the day.\n\nhttps://todaycelebrates.com/holiday/international-w
+ heelchair-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-wheelchair-
+ day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

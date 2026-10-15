@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Global Wind Day
+X-WR-CALNAME:Global Wind Day
+DESCRIPTION:Global Wind Day — https://todaycelebrates.com/holiday/global-
+ wind-day/
+X-WR-CALDESC:Global Wind Day — https://todaycelebrates.com/holiday/global
+ -wind-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-wind-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/global-wind-day/event.
+ ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:global-wind-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:Global Wind Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Global Wind Day is a nature-focused observance on June 15\, cel
+ ebrated across the United States to draw attention to the plant\, animal\,
+  or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/global
+ -wind-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/global-wind-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

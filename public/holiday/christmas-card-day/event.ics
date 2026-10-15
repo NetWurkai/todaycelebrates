@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Christmas Card Day
+X-WR-CALNAME:Christmas Card Day
+DESCRIPTION:Christmas Card Day — https://todaycelebrates.com/holiday/chri
+ stmas-card-day/
+X-WR-CALDESC:Christmas Card Day — https://todaycelebrates.com/holiday/chr
+ istmas-card-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/christmas-card-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/christmas-card-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:christmas-card-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Christmas Card Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Christmas Card Day\, observed on December 9\, is a lighthearted
+  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
+ om/holiday/christmas-card-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/christmas-card-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

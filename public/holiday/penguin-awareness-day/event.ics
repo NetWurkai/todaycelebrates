@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Penguin Awareness Day
+X-WR-CALNAME:Penguin Awareness Day
+DESCRIPTION:Penguin Awareness Day — https://todaycelebrates.com/holiday/p
+ enguin-awareness-day/
+X-WR-CALDESC:Penguin Awareness Day — https://todaycelebrates.com/holiday/
+ penguin-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/penguin-awareness-day/eve
+ nt.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/penguin-awareness-day/
+ event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:penguin-awareness-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Penguin Awareness Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Penguin Awareness Day is a nature-focused observance on January
+  20\, celebrated across the United States to draw attention to the plant\,
+  animal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holid
+ ay/penguin-awareness-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/penguin-awareness-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

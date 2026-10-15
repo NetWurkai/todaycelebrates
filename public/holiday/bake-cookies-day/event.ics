@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Bake Cookies Day
+X-WR-CALNAME:Bake Cookies Day
+DESCRIPTION:Bake Cookies Day — https://todaycelebrates.com/holiday/bake-c
+ ookies-day/
+X-WR-CALDESC:Bake Cookies Day — https://todaycelebrates.com/holiday/bake-
+ cookies-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bake-cookies-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/bake-cookies-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bake-cookies-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Bake Cookies Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Bake Cookies Day is a food-focused observance celebrated across
+  the United States on December 18\, giving fans of the dish or ingredient 
+ an excuse to seek it out and share it with others.\n\nhttps://todaycelebra
+ tes.com/holiday/bake-cookies-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/bake-cookies-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Flannel Day
+X-WR-CALNAME:National Flannel Day
+DESCRIPTION:National Flannel Day — https://todaycelebrates.com/holiday/na
+ tional-flannel-day/
+X-WR-CALDESC:National Flannel Day — https://todaycelebrates.com/holiday/n
+ ational-flannel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-flannel-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-flannel-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-flannel-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:National Flannel Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Flannel Day\, observed on February 10\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-flannel-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-flannel-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

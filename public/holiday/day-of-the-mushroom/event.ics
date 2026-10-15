@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Day of the Mushroom
+X-WR-CALNAME:Day of the Mushroom
+DESCRIPTION:Day of the Mushroom — https://todaycelebrates.com/holiday/day
+ -of-the-mushroom/
+X-WR-CALDESC:Day of the Mushroom — https://todaycelebrates.com/holiday/da
+ y-of-the-mushroom/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-mushroom/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-mushroom/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:day-of-the-mushroom@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:Day of the Mushroom
+RRULE:FREQ=YEARLY
+DESCRIPTION:Day of the Mushroom is a nature-focused observance on April 16\
+ , celebrated across the United States to draw attention to the plant\, ani
+ mal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/d
+ ay-of-the-mushroom/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-mushroom/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

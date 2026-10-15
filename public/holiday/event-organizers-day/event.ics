@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Event Organizers Day
+X-WR-CALNAME:Event Organizers Day
+DESCRIPTION:Event Organizers Day — https://todaycelebrates.com/holiday/ev
+ ent-organizers-day/
+X-WR-CALDESC:Event Organizers Day — https://todaycelebrates.com/holiday/e
+ vent-organizers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/event-organizers-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/event-organizers-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:event-organizers-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Event Organizers Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Event Organizers Day is observed across the United States on Oc
+ tober 23\, a small but fun addition to the calendar worth celebrating in i
+ ts own way.\n\nhttps://todaycelebrates.com/holiday/event-organizers-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/event-organizers-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

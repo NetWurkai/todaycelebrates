@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Author's Day
+X-WR-CALNAME:National Author's Day
+DESCRIPTION:National Author's Day — https://todaycelebrates.com/holiday/n
+ ational-authors-day/
+X-WR-CALDESC:National Author's Day — https://todaycelebrates.com/holiday/
+ national-authors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-authors-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-authors-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-authors-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:National Author's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Author's Day is a reading- and writing-focused observa
+ nce on November 1\, celebrated by book lovers across the United States.\n\
+ nhttps://todaycelebrates.com/holiday/national-authors-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-authors-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

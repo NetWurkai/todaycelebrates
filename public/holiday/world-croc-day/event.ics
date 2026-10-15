@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Croc Day
+X-WR-CALNAME:World Croc Day
+DESCRIPTION:World Croc Day — https://todaycelebrates.com/holiday/world-cr
+ oc-day/
+X-WR-CALDESC:World Croc Day — https://todaycelebrates.com/holiday/world-c
+ roc-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-croc-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-croc-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-croc-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+SUMMARY:World Croc Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Croc Day is a nature-focused observance on June 17\, cele
+ brated across the United States to draw attention to the plant\, animal\, 
+ or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/world-c
+ roc-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-croc-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

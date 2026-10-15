@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Letter Writing Day
+X-WR-CALNAME:World Letter Writing Day
+DESCRIPTION:World Letter Writing Day — https://todaycelebrates.com/holida
+ y/world-letter-writing-day/
+X-WR-CALDESC:World Letter Writing Day — https://todaycelebrates.com/holid
+ ay/world-letter-writing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-letter-writing-day/
+ event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-letter-writing-d
+ ay/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-letter-writing-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:World Letter Writing Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Letter Writing Day celebrates letter writing on September
+  1\, giving readers and writers around the globe a reason to pick up a fav
+ orite book or try something new.\n\nhttps://todaycelebrates.com/holiday/wo
+ rld-letter-writing-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-letter-writing-day/
+CATEGORIES:Books
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Thomas Jefferson Day
+X-WR-CALNAME:Thomas Jefferson Day
+DESCRIPTION:Thomas Jefferson Day — https://todaycelebrates.com/holiday/th
+ omas-jefferson-day/
+X-WR-CALDESC:Thomas Jefferson Day — https://todaycelebrates.com/holiday/t
+ homas-jefferson-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/thomas-jefferson-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/thomas-jefferson-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:thomas-jefferson-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Thomas Jefferson Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Thomas Jefferson Day\, observed on April 13\, encourages people
+  across the United States to pause and recognize the people and causes beh
+ ind the day.\n\nhttps://todaycelebrates.com/holiday/thomas-jefferson-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/thomas-jefferson-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

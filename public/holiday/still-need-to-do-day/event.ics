@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Still Need to Do Day
+X-WR-CALNAME:Still Need to Do Day
+DESCRIPTION:Still Need to Do Day — https://todaycelebrates.com/holiday/st
+ ill-need-to-do-day/
+X-WR-CALDESC:Still Need to Do Day — https://todaycelebrates.com/holiday/s
+ till-need-to-do-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/still-need-to-do-day/even
+ t.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/still-need-to-do-day/e
+ vent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:still-need-to-do-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Still Need to Do Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Still Need to Do Day\, observed on December 29\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/still-need-to-do-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/still-need-to-do-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

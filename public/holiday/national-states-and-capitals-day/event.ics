@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National States and Capitals Day
+X-WR-CALNAME:National States and Capitals Day
+DESCRIPTION:National States and Capitals Day — https://todaycelebrates.co
+ m/holiday/national-states-and-capitals-day/
+X-WR-CALDESC:National States and Capitals Day — https://todaycelebrates.c
+ om/holiday/national-states-and-capitals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-states-and-capit
+ als-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-states-and-ca
+ pitals-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-states-and-capitals-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:National States and Capitals Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National States and Capitals Day is observed across the United 
+ States on September 22\, a small but fun addition to the calendar worth ce
+ lebrating in its own way.\n\nhttps://todaycelebrates.com/holiday/national-
+ states-and-capitals-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-states-and-capit
+ als-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

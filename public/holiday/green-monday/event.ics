@@ -1,0 +1,165 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Green Monday
+X-WR-CALNAME:Green Monday
+DESCRIPTION:Green Monday — https://todaycelebrates.com/holiday/green-mond
+ ay/
+X-WR-CALDESC:Green Monday — https://todaycelebrates.com/holiday/green-mon
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/green-monday/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/green-monday/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:green-monday-20261214@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Green Monday
+DESCRIPTION:Green Monday\, observed on December 14\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/green-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/green-monday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:green-monday-20271213@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271213
+DTEND;VALUE=DATE:20271214
+SUMMARY:Green Monday
+DESCRIPTION:Green Monday\, observed on December 14\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/green-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/green-monday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:green-monday-20281211@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281211
+DTEND;VALUE=DATE:20281212
+SUMMARY:Green Monday
+DESCRIPTION:Green Monday\, observed on December 14\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/green-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/green-monday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:green-monday-20291210@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291210
+DTEND;VALUE=DATE:20291211
+SUMMARY:Green Monday
+DESCRIPTION:Green Monday\, observed on December 14\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/green-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/green-monday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:green-monday-20301209@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301209
+DTEND;VALUE=DATE:20301210
+SUMMARY:Green Monday
+DESCRIPTION:Green Monday\, observed on December 14\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/green-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/green-monday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:green-monday-20311208@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311208
+DTEND;VALUE=DATE:20311209
+SUMMARY:Green Monday
+DESCRIPTION:Green Monday\, observed on December 14\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/green-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/green-monday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:green-monday-20321213@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321213
+DTEND;VALUE=DATE:20321214
+SUMMARY:Green Monday
+DESCRIPTION:Green Monday\, observed on December 14\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/green-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/green-monday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:green-monday-20331212@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331212
+DTEND;VALUE=DATE:20331213
+SUMMARY:Green Monday
+DESCRIPTION:Green Monday\, observed on December 14\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/green-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/green-monday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:green-monday-20341211@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341211
+DTEND;VALUE=DATE:20341212
+SUMMARY:Green Monday
+DESCRIPTION:Green Monday\, observed on December 14\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/green-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/green-monday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:green-monday-20351210@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351210
+DTEND;VALUE=DATE:20351211
+SUMMARY:Green Monday
+DESCRIPTION:Green Monday\, observed on December 14\, is a lighthearted holi
+ day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+ liday/green-monday/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/green-monday/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

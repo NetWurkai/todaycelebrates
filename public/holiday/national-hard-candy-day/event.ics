@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Hard Candy Day
+X-WR-CALNAME:National Hard Candy Day
+DESCRIPTION:National Hard Candy Day — https://todaycelebrates.com/holiday
+ /national-hard-candy-day/
+X-WR-CALDESC:National Hard Candy Day — https://todaycelebrates.com/holida
+ y/national-hard-candy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hard-candy-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-hard-candy-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-hard-candy-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:National Hard Candy Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Hard Candy Day is a food-focused observance celebrated
+  across the United States on December 19\, giving fans of the dish or ingr
+ edient an excuse to seek it out and share it with others.\n\nhttps://today
+ celebrates.com/holiday/national-hard-candy-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hard-candy-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

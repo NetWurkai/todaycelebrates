@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Kindergarten Day
+X-WR-CALNAME:Kindergarten Day
+DESCRIPTION:Kindergarten Day — https://todaycelebrates.com/holiday/kinder
+ garten-day/
+X-WR-CALDESC:Kindergarten Day — https://todaycelebrates.com/holiday/kinde
+ rgarten-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kindergarten-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/kindergarten-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:kindergarten-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:Kindergarten Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Kindergarten Day\, observed on April 21\, is a lighthearted\, f
+ amily-friendly day celebrated across the United States.\n\nhttps://todayce
+ lebrates.com/holiday/kindergarten-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kindergarten-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

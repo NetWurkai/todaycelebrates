@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Grilled Chicken Day
+X-WR-CALNAME:National Grilled Chicken Day
+DESCRIPTION:National Grilled Chicken Day — https://todaycelebrates.com/ho
+ liday/national-grilled-chicken-day/
+X-WR-CALDESC:National Grilled Chicken Day — https://todaycelebrates.com/h
+ oliday/national-grilled-chicken-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-grilled-chicken-
+ day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-grilled-chick
+ en-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-grilled-chicken-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:National Grilled Chicken Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Grilled Chicken Day is a lighthearted food holiday cel
+ ebrated across the United States on September 9\, giving fans of grilled c
+ hicken an excuse to seek it out and share it with others.\n\nhttps://today
+ celebrates.com/holiday/national-grilled-chicken-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-grilled-chicken-
+ day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

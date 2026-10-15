@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Virtual Worlds Day
+X-WR-CALNAME:Virtual Worlds Day
+DESCRIPTION:Virtual Worlds Day — https://todaycelebrates.com/holiday/virt
+ ual-worlds-day/
+X-WR-CALDESC:Virtual Worlds Day — https://todaycelebrates.com/holiday/vir
+ tual-worlds-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/virtual-worlds-day/event.
+ ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/virtual-worlds-day/eve
+ nt.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:virtual-worlds-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:Virtual Worlds Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Virtual Worlds Day\, observed on August 20\, celebrates a piece
+  of technology or digital culture that's become part of everyday life acro
+ ss the United States.\n\nhttps://todaycelebrates.com/holiday/virtual-world
+ s-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/virtual-worlds-day/
+CATEGORIES:Tech
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

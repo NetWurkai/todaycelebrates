@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Play Basketball Day
+X-WR-CALNAME:Play Basketball Day
+DESCRIPTION:Play Basketball Day — https://todaycelebrates.com/holiday/pla
+ y-basketball-day/
+X-WR-CALDESC:Play Basketball Day — https://todaycelebrates.com/holiday/pl
+ ay-basketball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/play-basketball-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/play-basketball-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:play-basketball-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Play Basketball Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Play Basketball Day\, observed on December 2\, is celebrated by
+  sports fans across the United States.\n\nhttps://todaycelebrates.com/holi
+ day/play-basketball-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/play-basketball-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

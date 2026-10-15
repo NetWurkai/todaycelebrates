@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Bipolar Day
+X-WR-CALNAME:World Bipolar Day
+DESCRIPTION:World Bipolar Day — https://todaycelebrates.com/holiday/world
+ -bipolar-day/
+X-WR-CALDESC:World Bipolar Day — https://todaycelebrates.com/holiday/worl
+ d-bipolar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-bipolar-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-bipolar-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-bipolar-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:World Bipolar Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Bipolar Day\, observed on March 30\, encourages people ac
+ ross the United States to focus on health and wellbeing.\n\nhttps://todayc
+ elebrates.com/holiday/world-bipolar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-bipolar-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

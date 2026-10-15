@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Woman's Heart Day
+X-WR-CALNAME:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day — https://todaycelebrates.com/holi
+ day/national-womans-heart-day/
+X-WR-CALDESC:National Woman's Heart Day — https://todaycelebrates.com/hol
+ iday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-
+ day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-womans-heart-day-20270205@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20280204@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280204
+DTEND;VALUE=DATE:20280205
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20290202@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290202
+DTEND;VALUE=DATE:20290203
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20300201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300201
+DTEND;VALUE=DATE:20300202
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20310207@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310207
+DTEND;VALUE=DATE:20310208
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20320206@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320206
+DTEND;VALUE=DATE:20320207
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20330204@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330204
+DTEND;VALUE=DATE:20330205
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20340203@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340203
+DTEND;VALUE=DATE:20340204
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-womans-heart-day-20350202@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350202
+DTEND;VALUE=DATE:20350203
+SUMMARY:National Woman's Heart Day
+DESCRIPTION:National Woman's Heart Day\, observed on February 19\, encourag
+ es people across the United States to focus on health and wellbeing.\n\nht
+ tps://todaycelebrates.com/holiday/national-womans-heart-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-womans-heart-day
+ /
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

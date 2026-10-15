@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Clean Up Your Room Day
+X-WR-CALNAME:Clean Up Your Room Day
+DESCRIPTION:Clean Up Your Room Day — https://todaycelebrates.com/holiday/
+ clean-up-your-room-day/
+X-WR-CALDESC:Clean Up Your Room Day — https://todaycelebrates.com/holiday
+ /clean-up-your-room-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/clean-up-your-room-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/clean-up-your-room-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:clean-up-your-room-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:Clean Up Your Room Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Clean Up Your Room Day\, observed on May 10\, is a lighthearted
+ \, family-friendly day celebrated across the United States.\n\nhttps://tod
+ aycelebrates.com/holiday/clean-up-your-room-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/clean-up-your-room-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Freedom of Information Day
+X-WR-CALNAME:Freedom of Information Day
+DESCRIPTION:Freedom of Information Day — https://todaycelebrates.com/holi
+ day/freedom-of-information-day/
+X-WR-CALDESC:Freedom of Information Day — https://todaycelebrates.com/hol
+ iday/freedom-of-information-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/freedom-of-information-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/freedom-of-information
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:freedom-of-information-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:Freedom of Information Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Freedom of Information Day\, observed on March 16\, encourages 
+ people across the United States to pause and recognize the people and caus
+ es behind the day.\n\nhttps://todaycelebrates.com/holiday/freedom-of-infor
+ mation-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/freedom-of-information-da
+ y/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

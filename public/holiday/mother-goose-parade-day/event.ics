@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Mother Goose Parade Day
+X-WR-CALNAME:Mother Goose Parade Day
+DESCRIPTION:Mother Goose Parade Day — https://todaycelebrates.com/holiday
+ /mother-goose-parade-day/
+X-WR-CALDESC:Mother Goose Parade Day — https://todaycelebrates.com/holida
+ y/mother-goose-parade-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mother-goose-parade-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/mother-goose-parade-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:mother-goose-parade-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Mother Goose Parade Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Mother Goose Parade Day\, observed on November 22\, is a lighth
+ earted\, family-friendly day celebrated across the United States.\n\nhttps
+ ://todaycelebrates.com/holiday/mother-goose-parade-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/mother-goose-parade-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

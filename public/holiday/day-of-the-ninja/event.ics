@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Day of the Ninja
+X-WR-CALNAME:Day of the Ninja
+DESCRIPTION:Day of the Ninja — https://todaycelebrates.com/holiday/day-of
+ -the-ninja/
+X-WR-CALDESC:Day of the Ninja — https://todaycelebrates.com/holiday/day-o
+ f-the-ninja/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-ninja/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-ninja/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:day-of-the-ninja@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Day of the Ninja
+RRULE:FREQ=YEARLY
+DESCRIPTION:Day of the Ninja\, observed on December 5\, is a lighthearted\,
+  family-friendly day celebrated across the United States.\n\nhttps://today
+ celebrates.com/holiday/day-of-the-ninja/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-ninja/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

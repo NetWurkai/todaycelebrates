@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Slow Art Day
+X-WR-CALNAME:Slow Art Day
+DESCRIPTION:Slow Art Day — https://todaycelebrates.com/holiday/slow-art-d
+ ay/
+X-WR-CALDESC:Slow Art Day — https://todaycelebrates.com/holiday/slow-art-
+ day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/slow-art-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/slow-art-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:slow-art-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Slow Art Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Slow Art Day\, observed on April 10\, is a lighthearted holiday
+  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/slow-art-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/slow-art-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

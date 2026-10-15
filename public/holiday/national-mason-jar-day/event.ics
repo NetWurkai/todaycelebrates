@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Mason Jar Day
+X-WR-CALNAME:National Mason Jar Day
+DESCRIPTION:National Mason Jar Day — https://todaycelebrates.com/holiday/
+ national-mason-jar-day/
+X-WR-CALDESC:National Mason Jar Day — https://todaycelebrates.com/holiday
+ /national-mason-jar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mason-jar-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-mason-jar-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-mason-jar-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:National Mason Jar Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Mason Jar Day\, observed on November 30\, is a lighthe
+ arted holiday celebrated across the United States.\n\nhttps://todaycelebra
+ tes.com/holiday/national-mason-jar-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-mason-jar-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

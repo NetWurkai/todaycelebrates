@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Margarita Day
+X-WR-CALNAME:National Margarita Day
+DESCRIPTION:National Margarita Day — https://todaycelebrates.com/holiday/
+ national-margarita-day/
+X-WR-CALDESC:National Margarita Day — https://todaycelebrates.com/holiday
+ /national-margarita-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-margarita-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-margarita-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-margarita-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:National Margarita Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Margarita Day falls on February 22 and is observed mos
+ tly through bar and restaurant promotions. The origin of this observance i
+ s not well documented.\n\nhttps://todaycelebrates.com/holiday/national-mar
+ garita-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-margarita-day/
+CATEGORIES:Beer
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

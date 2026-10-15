@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Nature Photography Day
+X-WR-CALNAME:Nature Photography Day
+DESCRIPTION:Nature Photography Day — https://todaycelebrates.com/holiday/
+ nature-photography-day/
+X-WR-CALDESC:Nature Photography Day — https://todaycelebrates.com/holiday
+ /nature-photography-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/nature-photography-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/nature-photography-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:nature-photography-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:Nature Photography Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Nature Photography Day is a nature-focused observance on June 1
+ 5\, celebrated across the United States to draw attention to the plant\, a
+ nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
+ /nature-photography-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/nature-photography-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

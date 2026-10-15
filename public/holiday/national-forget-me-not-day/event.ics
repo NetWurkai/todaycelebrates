@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Forget-Me-Not Day
+X-WR-CALNAME:National Forget-Me-Not Day
+DESCRIPTION:National Forget-Me-Not Day — https://todaycelebrates.com/holi
+ day/national-forget-me-not-day/
+X-WR-CALDESC:National Forget-Me-Not Day — https://todaycelebrates.com/hol
+ iday/national-forget-me-not-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-forget-me-not-da
+ y/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-forget-me-not
+ -day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-forget-me-not-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:National Forget-Me-Not Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Forget-Me-Not Day is a nature-focused observance on No
+ vember 10\, celebrated across the United States to draw attention to the p
+ lant\, animal\, or landscape at its center.\n\nhttps://todaycelebrates.com
+ /holiday/national-forget-me-not-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-forget-me-not-da
+ y/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:International Men's Day
+X-WR-CALNAME:International Men's Day
+DESCRIPTION:International Men's Day — https://todaycelebrates.com/holiday
+ /international-mens-day/
+X-WR-CALDESC:International Men's Day — https://todaycelebrates.com/holida
+ y/international-mens-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-mens-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/international-mens-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:international-mens-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:International Men's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:International Men's Day is a health-awareness observance on Nov
+ ember 19\, marked across the United States to spotlight a wellness topic w
+ orth a second look.\n\nhttps://todaycelebrates.com/holiday/international-m
+ ens-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/international-mens-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

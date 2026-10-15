@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Nut Day
+X-WR-CALNAME:National Nut Day
+DESCRIPTION:National Nut Day — https://todaycelebrates.com/holiday/nation
+ al-nut-day/
+X-WR-CALDESC:National Nut Day — https://todaycelebrates.com/holiday/natio
+ nal-nut-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-nut-day/event.ic
+ s
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-nut-day/event
+ .ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-nut-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:National Nut Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Nut Day is a lighthearted food holiday celebrated acro
+ ss the United States on October 22\, giving fans of nut an excuse to seek 
+ it out and share it with others.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-nut-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-nut-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

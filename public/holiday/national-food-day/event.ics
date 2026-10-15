@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Food Day
+X-WR-CALNAME:National Food Day
+DESCRIPTION:National Food Day — https://todaycelebrates.com/holiday/natio
+ nal-food-day/
+X-WR-CALDESC:National Food Day — https://todaycelebrates.com/holiday/nati
+ onal-food-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-food-day/event.i
+ cs
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-food-day/even
+ t.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-food-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:National Food Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Food Day is observed across the United States on Octob
+ er 24\, a small but fun addition to the calendar worth celebrating in its 
+ own way.\n\nhttps://todaycelebrates.com/holiday/national-food-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-food-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

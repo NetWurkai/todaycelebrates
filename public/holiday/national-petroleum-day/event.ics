@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Petroleum Day
+X-WR-CALNAME:National Petroleum Day
+DESCRIPTION:National Petroleum Day — https://todaycelebrates.com/holiday/
+ national-petroleum-day/
+X-WR-CALDESC:National Petroleum Day — https://todaycelebrates.com/holiday
+ /national-petroleum-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-petroleum-day/ev
+ ent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-petroleum-day
+ /event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-petroleum-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270828
+SUMMARY:National Petroleum Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Petroleum Day\, observed on August 27\, is a lighthear
+ ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
+ s.com/holiday/national-petroleum-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-petroleum-day/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

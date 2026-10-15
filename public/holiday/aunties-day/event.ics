@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Auntie's Day
+X-WR-CALNAME:Auntie's Day
+DESCRIPTION:Auntie's Day — https://todaycelebrates.com/holiday/aunties-da
+ y/
+X-WR-CALDESC:Auntie's Day — https://todaycelebrates.com/holiday/aunties-d
+ ay/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/aunties-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/aunties-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:aunties-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+SUMMARY:Auntie's Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Auntie's Day\, observed on July 25\, encourages people across t
+ he United States to pause and recognize the people and causes behind the d
+ ay.\n\nhttps://todaycelebrates.com/holiday/aunties-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/aunties-day/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

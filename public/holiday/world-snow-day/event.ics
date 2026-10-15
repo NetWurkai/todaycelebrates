@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:World Snow Day
+X-WR-CALNAME:World Snow Day
+DESCRIPTION:World Snow Day — https://todaycelebrates.com/holiday/world-sn
+ ow-day/
+X-WR-CALDESC:World Snow Day — https://todaycelebrates.com/holiday/world-s
+ now-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-snow-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/world-snow-day/event.i
+ cs
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:world-snow-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:World Snow Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:World Snow Day is a nature-focused observance on January 17\, c
+ elebrated across the United States to draw attention to the plant\, animal
+ \, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/worl
+ d-snow-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/world-snow-day/
+CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

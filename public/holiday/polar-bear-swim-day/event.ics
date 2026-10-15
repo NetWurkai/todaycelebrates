@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Polar Bear Swim Day
+X-WR-CALNAME:Polar Bear Swim Day
+DESCRIPTION:Polar Bear Swim Day — https://todaycelebrates.com/holiday/pol
+ ar-bear-swim-day/
+X-WR-CALDESC:Polar Bear Swim Day — https://todaycelebrates.com/holiday/po
+ lar-bear-swim-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/polar-bear-swim-day/event
+ .ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/polar-bear-swim-day/ev
+ ent.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:polar-bear-swim-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Polar Bear Swim Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:Polar Bear Swim Day\, observed on January 1\, is celebrated by 
+ sports fans across the United States.\n\nhttps://todaycelebrates.com/holid
+ ay/polar-bear-swim-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/polar-bear-swim-day/
+CATEGORIES:Sports
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

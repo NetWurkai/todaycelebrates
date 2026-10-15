@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Sea Monkey Day
+X-WR-CALNAME:National Sea Monkey Day
+DESCRIPTION:National Sea Monkey Day — https://todaycelebrates.com/holiday
+ /national-sea-monkey-day/
+X-WR-CALDESC:National Sea Monkey Day — https://todaycelebrates.com/holida
+ y/national-sea-monkey-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sea-monkey-day/e
+ vent.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-sea-monkey-da
+ y/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-sea-monkey-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:National Sea Monkey Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Sea Monkey Day\, observed on May 16\, is a lighthearte
+ d\, family-friendly day celebrated across the United States.\n\nhttps://to
+ daycelebrates.com/holiday/national-sea-monkey-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sea-monkey-day/
+CATEGORIES:Kids & Family
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

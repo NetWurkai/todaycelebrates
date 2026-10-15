@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:National Pigs-in-a-Blanket Day
+X-WR-CALNAME:National Pigs-in-a-Blanket Day
+DESCRIPTION:National Pigs-in-a-Blanket Day — https://todaycelebrates.com/
+ holiday/national-pigs-in-a-blanket-day/
+X-WR-CALDESC:National Pigs-in-a-Blanket Day — https://todaycelebrates.com
+ /holiday/national-pigs-in-a-blanket-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pigs-in-a-blanke
+ t-day/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/national-pigs-in-a-bla
+ nket-day/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:national-pigs-in-a-blanket-day@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:National Pigs-in-a-Blanket Day
+RRULE:FREQ=YEARLY
+DESCRIPTION:National Pigs-in-a-Blanket Day is a food-focused observance cel
+ ebrated across the United States on April 24\, giving fans of the dish or 
+ ingredient an excuse to seek it out and share it with others.\n\nhttps://t
+ odaycelebrates.com/holiday/national-pigs-in-a-blanket-day/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pigs-in-a-blanke
+ t-day/
+CATEGORIES:Food
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
