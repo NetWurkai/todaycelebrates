@@ -111,6 +111,51 @@ PEOPLE_DAY_LIMIT = 4         # names per sub-block on /day/2026-10-10/
 # file is older than this, and the fix is to re-run scripts/build_people.py.
 PEOPLE_STALE_DAYS = 45
 
+# ---- submitted occasions (E6) ----
+#
+# Paid listings people submit and buy a place for. They are NOT observances
+# and the whole design is about keeping that true:
+#
+#   - they come from their own Notion database, exported by
+#     scripts/export_occasions_from_notion.py to scripts/occasions.json, and
+#     are never merged into `holidays`;
+#   - they live at /occasions/<slug>/, never under /holiday/;
+#   - they are rendered from templates/page.html, which has no JSON-LD slot at
+#     all, so an occasion page cannot carry Event structured data even if a
+#     later edit tried to give it some. occasion_page_html() checks the
+#     rendered bytes for one anyway and refuses to write the page if it finds
+#     it -- E6 asks for "cannot appear in Event structured data even if
+#     misconfigured", and one belt plus one pair of braces is what that means;
+#   - on a date page they sit in their own labelled block BELOW the real
+#     observances, never interleaved with them, and never in that page's
+#     ItemList JSON-LD (which is built from `items`, i.e. from holidays only);
+#   - they are in no calendar feed, for the same reason: the feeds are built
+#     from `holidays`.
+#
+# Absent occasions.json -> the feature is simply off and every page is
+# byte-identical to what it was before E6, exactly like people.json.
+DEFAULT_OCCASIONS_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "occasions.json"
+)
+# Launch tier only (E6). A row carrying anything else is dropped with a
+# warning rather than rendered by guesswork.
+OCCASION_TIERS = ("Listed",)
+OCCASION_SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+# The two disclosure lines. Saying this plainly is not a legal formality: the
+# site's whole position is that it is the trustworthy one, and an unlabelled
+# paid listing sitting next to Thanksgiving would cost more than the listing
+# is worth. Checkiday sells rank inside the real list; this is the opposite.
+OCCASIONS_LIST_NOTICE = (
+    "Paid listings submitted by readers and businesses, each reviewed before "
+    "publication. They are not national, international or official "
+    "observances and are not part of the calendar above."
+)
+OCCASIONS_PAGE_NOTICE = (
+    "This is a submitted occasion: a paid listing, reviewed before "
+    "publication. It is not a national, international or official "
+    "observance, and it is not part of the Today Celebrates calendar."
+)
+
 DEFAULT_TEMPLATES_DIR = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "templates"
 )
@@ -1099,6 +1144,192 @@ def cal_feed_links_html(label, path, count):
 
 
 # ---------------------------------------------------------------------------
+# Submitted occasions (E6) -- see the OCCASION_* constants at the top of this
+# file for the constraints every one of these functions exists to hold.
+# ---------------------------------------------------------------------------
+
+def occasion_path(slug):
+    return f"/occasions/{slug}/"
+
+
+def load_occasions(path):
+    """scripts/occasions.json -> a list of occasion dicts, or [].
+
+    Never raises: a missing or damaged file turns the feature off for this run
+    (with a warning for the damaged case) rather than failing the daily build,
+    same as load_people().
+    """
+    if not path or not os.path.exists(path):
+        return []
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        if not isinstance(data, list):
+            raise ValueError("not a JSON list")
+        return data
+    except (OSError, ValueError, AttributeError) as e:
+        print(f"WARNING: {path} could not be read ({e}); submitted occasions "
+              f"are off for this run.", file=sys.stderr)
+        return []
+
+
+def validate_occasions(occasions, holiday_slugs):
+    """Returns (usable, problems).
+
+    The exporter checks all of this too. It is checked again here because
+    occasions.json is a file on disk that a person can edit, and because the
+    one thing that must never happen -- a paid listing passing itself off as
+    an observance -- is cheap to re-check and expensive to get wrong.
+    """
+    usable, problems, seen = [], [], set()
+    for o in occasions:
+        name = (o.get("name") or "").strip() if isinstance(o, dict) else ""
+        if not isinstance(o, dict) or not name:
+            problems.append("an occasion entry has no name -- dropped")
+            continue
+        slug = (o.get("slug") or "").strip()
+        if not OCCASION_SLUG_RE.match(slug):
+            problems.append(f"{name!r}: slug {slug!r} is not a usable URL slug -- dropped")
+            continue
+        if slug in holiday_slugs:
+            problems.append(
+                f"{name!r}: slug {slug!r} is also a holiday slug -- dropped. A paid "
+                f"listing must not share a name with a real observance."
+            )
+            continue
+        if slug in seen:
+            problems.append(f"{name!r}: duplicate slug {slug!r} -- dropped")
+            continue
+        if o.get("tier") not in OCCASION_TIERS:
+            problems.append(
+                f"{name!r}: tier {o.get('tier')!r} is not one of "
+                f"{', '.join(OCCASION_TIERS)} -- dropped"
+            )
+            continue
+        try:
+            datetime.date.fromisoformat(o.get("date", ""))
+        except (TypeError, ValueError):
+            problems.append(f"{name!r}: date {o.get('date')!r} is not a date -- dropped")
+            continue
+        if not (o.get("blurb") or "").strip():
+            problems.append(f"{name!r}: no blurb -- dropped")
+            continue
+        link = o.get("link")
+        if link and not str(link).startswith(("http://", "https://")):
+            problems.append(f"{name!r}: link {link!r} is not an http(s) URL -- link dropped")
+            o = {k: v for k, v in o.items() if k != "link"}
+        seen.add(slug)
+        usable.append(o)
+    usable.sort(key=lambda o: (o["date"], o["name"].lower(), o["slug"]))
+    return usable, problems
+
+
+def occasions_block_html(occasions):
+    """The labelled block of paid listings, below a date page's observances."""
+    if not occasions:
+        return ""
+    lis = "".join(
+        f'<li><a href="{occasion_path(o["slug"])}">{esc_text(o["name"])}</a>'
+        f'<span class="occ-blurb">{esc_text(o["blurb"])}</span></li>'
+        for o in sorted(occasions, key=lambda o: (o["name"].lower(), o["slug"]))
+    )
+    return (
+        '<section class="occ" aria-labelledby="occ-h">'
+        '<h2 class="eyebrow" id="occ-h">Submitted occasions</h2>'
+        f'<p class="occ-notice">{OCCASIONS_LIST_NOTICE}</p>'
+        f'<ul class="occ-list">{lis}</ul>'
+        "</section>"
+    )
+
+
+def occasion_body_html(o, published_days):
+    """The body of one /occasions/<slug>/ page."""
+    d = datetime.date.fromisoformat(o["date"])
+    when = esc_text(long_date(d))
+    if o.get("recurs"):
+        when += f" &middot; and every {esc_text(month_day(d))} after it"
+    parts = [
+        '<div class="plain">',
+        f'<p class="occ-notice">{OCCASIONS_PAGE_NOTICE}</p>',
+        f'<p class="occ-when"><strong>{when}</strong></p>',
+        f"<p>{esc_text(o['blurb'])}</p>",
+    ]
+    if o.get("body"):
+        parts.extend(render_md_blocks(md_blocks(o["body"]), indent=""))
+    if o.get("link"):
+        href = esc_href(esc_text(o["link"]))
+        # rel="sponsored nofollow": this link was paid for. Declaring that is
+        # Google's documented requirement for paid links, and passing ranking
+        # signals to whoever bought a listing is precisely the business this
+        # site is not in.
+        parts.append(
+            f'<p><a href="{href}" rel="sponsored nofollow noopener">'
+            f"{esc_text(o['link'])}</a></p>"
+        )
+    links = [
+        f'<a href="{perennial_path(d.month, d.day)}">What else falls on '
+        f"{esc_text(month_day(d))}</a>"
+    ]
+    if d in published_days:
+        links.append(f'<a href="{day_path(d)}">{esc_text(long_date(d))} in full</a>')
+    parts.append("<p>" + " &middot; ".join(links) + "</p>")
+    parts.append("</div>")
+    return "".join(parts)
+
+
+def occasion_page_html(o, page_template, chrome, published_days):
+    """Returns (html, problem_or_None).
+
+    The Event check is the fail-safe for E6's "cannot appear in Event
+    structured data even if misconfigured": page.html has no JSON-LD slot, so
+    this can only fire if someone changes the template or this function, and
+    when it fires the page is not written at all.
+    """
+    name = o["name"]
+    d = datetime.date.fromisoformat(o["date"])
+    html_out = render_simple_page(
+        page_template, chrome,
+        title=f"{name}: a submitted occasion | Today Celebrates",
+        description=(
+            f"{name} — a submitted, paid listing for {long_date(d)}. "
+            f"Not a national or official observance."
+        ),
+        path=occasion_path(o["slug"]),
+        headline=name,
+        body=occasion_body_html(o, published_days),
+        side="",
+        crumbs=crumbs_html(("Submitted occasions", "/occasions/"), (name, None)),
+    )
+    if re.search(r'"@type"\s*:\s*"Event"', html_out):
+        return None, (
+            f"{name!r}: the rendered occasion page contains Event structured "
+            f"data, which a paid listing must never carry. Page NOT written. "
+            f"This is a code or template bug -- see E6 in docs/EXECUTION_PLAN.md."
+        )
+    return html_out, None
+
+
+def occasions_index_body(occasions, today):
+    """The body of /occasions/, the directory of every live paid listing."""
+    rows = []
+    for o in occasions:
+        d = datetime.date.fromisoformat(o["date"])
+        rows.append(
+            f'<li><a href="{occasion_path(o["slug"])}">'
+            f"<span>{esc_text(o['name'])}</span>"
+            f'<span class="mono">{MONTH_ABBR[d.month]} {d.day}</span></a></li>'
+        )
+    return (
+        f'<p class="intro">{OCCASIONS_LIST_NOTICE}</p>'
+        f'<p class="occ-notice">Every listing here was read by a person before '
+        f"it went up. Nothing on this page is part of the "
+        f'<a href="/dates/">calendar of observances</a>, and none of it appears '
+        f"in the calendar feeds.</p>"
+        f'<ul class="cat-list">{"".join(rows)}</ul>'
+    )
+
+
+# ---------------------------------------------------------------------------
 # Long-form content (E1)
 #
 # The Notion long-form fields (Body, Timeline, FAQ, Sources) hold plain text in
@@ -1729,8 +1960,13 @@ def people_block_html(people, month, day, limit, full_page=False):
 
 
 def render_day_page(date, items, prev_date, next_date, template, by_slug, memo,
-                    chrome, day_index, published_days, people=None):
-    """Render one permanent /day/YYYY-MM-DD/ page."""
+                    chrome, day_index, published_days, people=None, occasions=()):
+    """Render one permanent /day/YYYY-MM-DD/ page.
+
+    `occasions` is any submitted paid listing claiming this date (E6). They
+    render in their own labelled block after everything else on the page and
+    are deliberately absent from `items`, so they reach neither the observance
+    table nor its ItemList structured data."""
     n = len(items)
     lead = items[0]
     hero_rel = f"/images/hero/{lead['category']}.jpg"
@@ -1832,6 +2068,7 @@ def render_day_page(date, items, prev_date, next_date, template, by_slug, memo,
         "PEOPLE_BLOCK": people_block_html(
             people, date.month, date.day, PEOPLE_DAY_LIMIT
         ),
+        "OCCASIONS": occasions_block_html(occasions),
         "DAY_NAV": stepper,
         "DAY_PN": "".join(nav),
         "HTML_CLASS": html_class(),
@@ -2171,8 +2408,13 @@ def year_index_html(year, dates, day_index, years, gaps):
 
 
 def render_perennial_page(key, bucket, prev_key, next_key, template, chrome,
-                          month_days, perennial_index, dated, today, people=None):
-    """Render one permanent /<month>-<day>/ page."""
+                          month_days, perennial_index, dated, today, people=None,
+                          occasions=()):
+    """Render one permanent /<month>-<day>/ page.
+
+    `occasions` is the submitted paid listings that recur on this month-day
+    (E6); a one-off listing appears only on its dated page. Same separation as
+    on the dated pages: own block, below everything, never in the table."""
     month, day = key
     label = month_day_label(month, day)
     path = perennial_path(month, day)
@@ -2318,6 +2560,7 @@ def render_perennial_page(key, bucket, prev_key, next_key, template, chrome,
             people, month, day, PEOPLE_PERENNIAL_LIMIT, full_page=True
         ),
         "YEARS_NOTE": perennial_years_html(label, dated),
+        "OCCASIONS": occasions_block_html(occasions),
         "DATE_NAV": stepper,
         "DATE_PN": pn,
         "HTML_CLASS": html_class(),
@@ -2487,11 +2730,14 @@ def read_sitemap_lastmods(path):
 
 
 def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
-             people=None):
+             people=None, occasions=None):
     """Returns a report dict describing what changed.
 
     `people` is the parsed scripts/people.json (see load_people), or None to
-    render the date pages without the "born on this day" blocks."""
+    render the date pages without the "born on this day" blocks.
+    `occasions` is the parsed scripts/occasions.json (see load_occasions), or
+    None for no submitted occasions -- in which case every page this function
+    writes is byte-identical to what it wrote before E6."""
     templates_dir = templates_dir or DEFAULT_TEMPLATES_DIR
     by_slug = {h["slug"]: h for h in holidays}
     memo = {}  # (slug, year) -> date.date, shared across all holidays this run
@@ -2526,6 +2772,30 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
     published_days = set(day_dates)
 
     chromes = {k: chrome_for(templates_dir, k) for k in (None,) + NAV_KEYS}
+
+    # ---- submitted occasions (E6) ----
+    # Indexed before the pages are written, and kept rigorously apart from
+    # `holidays`, `day_index` and `occurrences`: an occasion contributes no
+    # date to the archive horizon (one paid listing dated 2031 must not
+    # backfill five years of /day/ pages), no entry to the month data files,
+    # no row to search.json and no event to any feed.
+    occasions, occasion_problems = validate_occasions(
+        occasions or [], set(by_slug)
+    )
+    occ_by_date, occ_by_md = {}, {}
+    for o in occasions:
+        od = datetime.date.fromisoformat(o["date"])
+        occ_by_date.setdefault(od, []).append(o)
+        if o.get("recurs"):
+            occ_by_md.setdefault((od.month, od.day), []).append(o)
+    # A listing whose date has no dated page and which does not recur is
+    # reachable only from /occasions/ and its own URL. That is a thing someone
+    # paid for, so it is reported rather than left to be noticed.
+    occasions_unlisted = sorted(
+        o["slug"] for o in occasions
+        if not o.get("recurs")
+        and datetime.date.fromisoformat(o["date"]) not in published_days
+    )
 
     # ---- month data files (v2): [name, slug, category, yearly] per day ----
     # Written to data/v2/ rather than over the old data/YYYY-MM.json: pages the
@@ -2591,6 +2861,7 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         new_html = render_day_page(
             d, day_index[d], prev_d, next_d, day_template, by_slug, memo,
             chromes["CALENDAR"], day_index, published_days, people=people,
+            occasions=occ_by_date.get(d, ()),
         )
         page_dir = os.path.join(site_dir, "day", d.isoformat())
         page_path = os.path.join(page_dir, "index.html")
@@ -2651,7 +2922,7 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         html = render_perennial_page(
             key, bucket, prev_key, next_key, perennial_template, chromes["CALENDAR"],
             perennial_mds, perennial_index, dated_by_md.get(key, []), today,
-            people=people,
+            people=people, occasions=occ_by_md.get(key, ()),
         )
         changed, created = write_if_changed(
             os.path.join(site_dir, path.strip("/"), "index.html"), html, dry_run
@@ -2854,6 +3125,49 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             crumbs=crumbs_html(("Categories", "/categories/"), (title, None)),
         )
 
+    # ---- /occasions/ and /occasions/<slug>/ (E6) ----
+    # Routed through simple_pages so they are written, diffed and sitemapped
+    # by the same code every other static page uses -- and so they are
+    # rendered from page.html, the one template with no JSON-LD slot.
+    # With no approved occasions neither the index nor any page is created, so
+    # the site gains nothing: no files, no sitemap URLs, no bytes.
+    occasion_pages = []
+    for o in occasions:
+        html_out, problem = occasion_page_html(
+            o, page_template, chromes[None], published_days
+        )
+        if problem:
+            occasion_problems.append(problem)
+            continue
+        simple_pages[occasion_path(o["slug"])] = html_out
+        occasion_pages.append(occasion_path(o["slug"]))
+    if occasion_pages:
+        simple_pages["/occasions/"] = render_simple_page(
+            page_template, chromes[None],
+            title="Submitted Occasions | Today Celebrates",
+            description=(
+                "Paid listings submitted by readers and businesses, reviewed "
+                "before publication. Not national or official observances."
+            ),
+            path="/occasions/", headline="Submitted occasions",
+            body=occasions_index_body(occasions, today),
+            side="",
+            crumbs=crumbs_html(("Submitted occasions", None)),
+        )
+    # Pages on disk for listings that are no longer approved. The generator
+    # never deletes generated output, so a withdrawn paid listing would
+    # otherwise stay up silently -- which is the one kind of stale page that
+    # really matters here. Reported, and main() warns.
+    occasions_stale = []
+    occ_dir = os.path.join(site_dir, "occasions")
+    if os.path.isdir(occ_dir):
+        live = {o["slug"] for o in occasions}
+        occasions_stale = sorted(
+            name for name in os.listdir(occ_dir)
+            if name not in live
+            and os.path.isfile(os.path.join(occ_dir, name, "index.html"))
+        )
+
     simple_changed = set()
     for path, html in simple_pages.items():
         changed, _created = write_if_changed(
@@ -3050,6 +3364,11 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         "ics_observances": len(ics_events),
         "ics_main_feed_bytes": ics_sizes.get("/calendar.ics", 0),
         "ics_total_bytes": sum(ics_sizes.values()),
+        "occasions_total": len(occasions),
+        "occasions_pages": occasion_pages,
+        "occasions_problems": occasion_problems,
+        "occasions_unlisted": occasions_unlisted,
+        "occasions_stale_pages": occasions_stale,
         "sitemap_changed": sitemap_changed,
         "occurrences": {slug: d.isoformat() for slug, d in occurrences.items()},
     }
@@ -3065,6 +3384,11 @@ def main():
     ap.add_argument("--templates", default=DEFAULT_TEMPLATES_DIR,
                     help="directory holding index.html and day.html templates "
                          "(default: scripts/templates/ next to this script)")
+    ap.add_argument("--occasions", default=DEFAULT_OCCASIONS_PATH,
+                    help="path to occasions.json, the approved submitted "
+                         "occasions built by export_occasions_from_notion.py "
+                         "(default: scripts/occasions.json; the feature is "
+                         "simply off if the file is absent)")
     ap.add_argument("--people", default=DEFAULT_PEOPLE_PATH,
                     help="path to people.json, the born-on-this-day data built by "
                          "build_people.py (default: scripts/people.json; the "
@@ -3074,9 +3398,11 @@ def main():
     holidays = json.load(open(args.holidays, encoding="utf-8"))
     today = datetime.date.fromisoformat(args.today)
     people = load_people(args.people)
+    occasions = load_occasions(args.occasions)
 
     report = generate(holidays, today, args.site, dry_run=args.dry_run,
-                      templates_dir=args.templates, people=people)
+                      templates_dir=args.templates, people=people,
+                      occasions=occasions)
 
     # people.json ages: the living lists go stale as people die. Surface it the
     # same way unresolved holidays are surfaced -- stderr always, and a workflow
@@ -3105,6 +3431,25 @@ def main():
     # a floating rule that can no longer produce a date. The run still
     # succeeds -- the rest of the site regenerates and commits -- but these
     # holidays are frozen out of the calendar until their rule is extended.
+    # Submitted occasions (E6). Every one of these is about something a
+    # person paid for, so none of them is allowed to be quiet.
+    for p in report.get("occasions_problems", []):
+        print(f"WARNING: submitted occasion -- {p}", file=sys.stderr)
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            print(f"::warning title=Submitted occasion problem::{p}")
+    for slug in report.get("occasions_unlisted", []):
+        note = (f"submitted occasion {slug!r} has a date outside the published "
+                f"/day/ archive and does not recur, so it is reachable only "
+                f"from /occasions/ and its own URL.")
+        print(f"WARNING: {note}", file=sys.stderr)
+    for slug in report.get("occasions_stale_pages", []):
+        note = (f"public/occasions/{slug}/ exists but {slug!r} is no longer an "
+                f"approved occasion. The page is still live; delete the "
+                f"directory to take the listing down.")
+        print(f"WARNING: {note}", file=sys.stderr)
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            print(f"::warning title=Withdrawn occasion still published::{note}")
+
     for t in report.get("unknown_types", []):
         note = (f"holidays.json has Type {t!r}, which TYPE_ORDER in this script "
                 f"does not list, so those rows sort and render as untyped. Add "

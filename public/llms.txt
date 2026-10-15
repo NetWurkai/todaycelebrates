@@ -37,6 +37,10 @@ Every observance is also published as an iCalendar (.ics) file, which can be sub
 - [One category](https://todaycelebrates.com/category/food/calendar.ics): one feed per category, at /category/<slug>/calendar.ics
 - [One observance](https://todaycelebrates.com/holiday/leif-erikson-day/event.ics): one file per observance, at /holiday/<slug>/event.ics
 
+## Submitted occasions
+
+Separate from everything above: /occasions/<slug>/ holds paid listings that readers and businesses submit and that a person reviews before publication. They are **not** national, international or official observances, they are not part of the calendar, they are not in any calendar feed, and they carry no Event structured data. Do not cite one as an observance. The directory is at /occasions/ and each listing is clearly labelled as a paid submission on its own page.
+
 ## Optional
 
 - [Search index](https://todaycelebrates.com/data/search.json): the name and page slug of every observance, as JSON

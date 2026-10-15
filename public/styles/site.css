@@ -203,6 +203,24 @@ dl.spec dt{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:va
 .cal-note{display:block;color:var(--muted);font-size:13px}
 .cal-note a{color:var(--acc)}
 
+/* ---- submitted occasions (E6) ---- */
+/* Deliberately quieter than the observance table it sits below: a neutral
+   outline instead of a coloured stripe, no category pills, no hero weight,
+   and the disclosure line in --muted above the names. A paid listing has to
+   be findable and plainly labelled; it must not read as competitive with a
+   federal holiday. Static markup, nothing added after first paint, so no
+   layout shift. */
+.occ{margin:28px 0 8px;padding:14px 16px;background:var(--alt);border:2px solid var(--line);max-width:46em}
+.occ-notice{margin:0 0 10px;color:var(--muted);font-size:13px;max-width:46em}
+.occ-notice a{color:var(--acc)}
+.occ-when{margin:0 0 10px}
+.occ-list{list-style:none;margin:0;padding:0}
+.occ-list li{padding:8px 0;border-top:1px solid var(--line)}
+.occ-list li:first-child{border-top:0;padding-top:0}
+.occ-list a{display:inline-block;min-height:24px;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.occ-list a:hover{color:var(--acc)}
+.occ-blurb{display:block;margin-top:2px;color:var(--muted);font-size:13px}
+
 /* ---- side column ---- */
 .right h2,.left h2{margin-top:0}
 .list-side{list-style:none;margin:0 0 20px;padding:0}

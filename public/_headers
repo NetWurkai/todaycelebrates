@@ -60,6 +60,13 @@
 /about/*
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
+# Submitted occasions (E6): the directory and one page per paid listing.
+# Shorter window than the observance pages -- a listing that is withdrawn or
+# rejected should leave the edge quickly, because it is the one page type
+# whose removal is time-sensitive.
+/occasions/*
+  Cache-Control: public, max-age=600, stale-while-revalidate=3600
+
 /
   Cache-Control: public, max-age=300, stale-while-revalidate=3600
 

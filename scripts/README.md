@@ -87,6 +87,7 @@ queries:
 | `/dates/` | **The hub for the 366.** Every date of the year grouped by month, with each date's fixed-date count. Linked from the header nav and the footer on every page. | Evergreen |
 | `/holidays/<year>/` | **One year of the dated archive** (`/holidays/2027/`). Every date that year has a `/day/` page for, grouped by month, with each date's weekday and observance count. The index of the archive, not a page that competes for a query. | Evergreen; the current year's grows daily |
 | `/category/<slug>/`, `/categories/`, `/about/` | Browse-by-theme lists and the About page. | Evergreen |
+| `/occasions/<slug>/`, `/occasions/` | **Submitted occasions (E6).** Paid listings people buy a place for, each reviewed by a person before publication. Not observances, never under `/holiday/`, never in Event structured data, never in a calendar feed. | As long as the listing is approved |
 
 Calendar feeds (`/calendar.ics`, `/category/<slug>/calendar.ics`,
 `/holiday/<slug>/event.ics`) sit alongside these but are not pages and are not
@@ -851,6 +852,108 @@ browser for the "Add to calendar" button in the `.tool` row, independently of
 these files. It is now redundant with `/holiday/<slug>/event.ics`, which works
 without JavaScript and can be linked and subscribed to. Collapsing the two is
 a design call, not a bug — see `docs/REVIEW.md` for 2026-10-14.
+
+## Submitted occasions (E6)
+
+Paid listings. The pipeline is: submission form -> Stripe Checkout -> a
+Cloudflare Worker -> a row in the **"Today Celebrates — Submitted Occasions"**
+Notion database at `Review Status = Pending` -> Jay approves -> the next daily
+regeneration publishes it. **Only the last two steps of that exist so far** —
+see "What is not built yet" at the end of this section.
+
+### Why it is a second database
+
+Database id `7c9d328c-0360-4feb-aabf-998f6402eed9`, exported by
+`export_occasions_from_notion.py` to `scripts/occasions.json`. It is separate
+from the Holidays database on purpose, and the separation *is* the safety
+argument rather than a tidiness preference:
+
+E6's acceptance criteria say a paid occasion must not be able to appear in
+Event structured data **even if misconfigured**. If occasions were rows in the
+Holidays database behind a checkbox, "misconfigured" would be one wrong click.
+Because they are a different database feeding a different file that is never
+merged into `holidays`, a paid listing cannot reach the observance list, a
+`/holiday/` URL, the month data files, `search.json`, any `.ics` feed or any
+`Event` JSON-LD at all — there is no code path from one to the other.
+
+On top of that structural separation there are four more guards:
+
+| Guard | What it stops |
+| --- | --- |
+| Occasion pages render from `templates/page.html` | That template has **no JSON-LD slot**, so an occasion page cannot carry structured data of any kind |
+| `occasion_page_html()` greps its own output for `"@type": "Event"` and refuses to write the page if it finds one | A future template or code change silently reintroducing it |
+| `validate_occasions()` re-checks everything the exporter checked | A hand-edited `occasions.json` |
+| A slug that already belongs to a holiday is dropped, in both the exporter and the generator | A paid listing passing itself off as a real observance by name |
+
+### The review gate
+
+`Review Status` is the gate: the exporter carries **`Approved` only**. `Pending`
+is where a new row lands, and `Rejected` / `Withdrawn` are terminal. Setting an
+approved row back to `Pending` is the revert — the listing leaves the date pages
+and the sitemap at the next regeneration.
+
+Unlike `export_from_notion.py`, this exporter has **no empty-file guard and no
+shrink guard**. Zero approved occasions is the normal state of the database, and
+a withdrawn listing *should* disappear at once; refusing to write a short file
+here would keep a withdrawn paid listing live.
+
+One thing the generator cannot do on its own: it never deletes generated
+output, so `public/occasions/<slug>/index.html` for a withdrawn listing stays on
+disk even after it leaves every list and the sitemap. The run **warns** for each
+such directory (`occasions_stale_pages` in the report) and the fix is to delete
+the directory. For a paid listing that someone asked to have taken down, that
+warning is the thing to act on.
+
+### Where a listing appears
+
+- `/occasions/<slug>/` — its own page: the disclosure line, the date, the blurb,
+  the optional body (same Markdown subset as a holiday `Body`), and its link.
+- `/occasions/` — the directory of every approved listing. Not generated at all
+  when there are none, so the site gains no empty page.
+- On its dated `/day/YYYY-MM-DD/` page, in a labelled `.occ` block **below**
+  everything else on the page. Never interleaved with the observance table and
+  never in that page's `ItemList` JSON-LD.
+- On the year-less `/<month>-<day>/` page **only if `Recurs Yearly` is ticked**.
+  Which of the two the Listed tier actually sells is a pricing decision; the
+  field records it per row rather than the code assuming it.
+
+An occasion contributes **no** date to the archive horizon. `day_end` is still
+`max(occurrences)` over holidays alone, so a listing dated years out cannot
+backfill hundreds of `/day/` pages (see the note in docs/EXECUTION_PLAN.md §7).
+The cost is that a non-recurring listing dated outside the published archive is
+reachable only from `/occasions/` and its own URL — the run warns
+(`occasions_unlisted`) when that happens.
+
+The submitter's own link is rendered `rel="sponsored nofollow noopener"`.
+It was paid for; declaring that is Google's documented requirement, and passing
+ranking signals to whoever bought a listing is the business this site is not in.
+
+### Disclosure
+
+Two sentences, in `OCCASIONS_LIST_NOTICE` and `OCCASIONS_PAGE_NOTICE` at the top
+of `generate.py`, and a paragraph in `llms.txt`. They say in plain words that
+these are paid listings, reviewed before publication, and not national,
+international or official observances. The `.occ` styling is deliberately
+quieter than the observance table above it: neutral outline, no category pills,
+no hero weight.
+
+### What is not built yet
+
+Everything upstream of the Notion row:
+
+1. The public submission form (`/submit/`).
+2. The Stripe Checkout session — which needs a price and a product, i.e. a
+   decision about what the Listed tier costs and what it includes.
+3. The Cloudflare Worker that takes the Stripe webhook and creates the Notion
+   row. Note that `wrangler.jsonc` currently declares **assets only** (no
+   `main`), so adding a Worker changes how the site deploys; that is not a
+   change to make without a deliberate decision.
+4. A daily-workflow step running `export_occasions_from_notion.py`. The
+   integration token also has to be shared with the new database in Notion
+   (database -> ... -> Connections), exactly as it was for the Holidays one.
+
+Until (4) is done the feature is dormant: no `occasions.json`, so every page
+the generator writes is byte-identical to what it wrote before E6.
 
 ## Long-form holiday content (E1)
 

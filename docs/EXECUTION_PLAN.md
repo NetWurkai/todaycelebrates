@@ -82,7 +82,7 @@ public/index.html       public/holiday/**       public/day/**
 public/<month>-<day>/** public/dates/**         public/about/**
 public/categories/**    public/category/**      public/holidays/**
 public/data/**          public/sitemap.xml      scripts/holidays.json
-public/calendar.ics
+public/calendar.ics     public/occasions/**     scripts/occasions.json
 ```
 
 `public/holidays/**` (the year indexes, E3) and `public/calendar.ics` plus the
@@ -98,6 +98,13 @@ git-ignored.
 
 `scripts/holidays.json` is a build artifact pulled from Notion. To change holiday
 data, change Notion, not this file.
+
+`scripts/occasions.json` is likewise a build artifact, pulled from the separate
+**"Today Celebrates — Submitted Occasions"** database by
+`scripts/export_occasions_from_notion.py` (source, safe to edit). To change a
+paid listing, change that Notion row; `public/occasions/**` is generated from it.
+The file does not exist yet, which is exactly why E6's publication half is
+dormant: with no `occasions.json` the generator writes a byte-identical site.
 
 ---
 
@@ -450,6 +457,45 @@ Checkiday sells rank *inside* the real list; that is the thing to avoid, not cop
 **Done when:** end-to-end works with Stripe test keys, the review gate holds, and
 a paid occasion cannot appear in Event structured data even if misconfigured.
 
+**STATUS: PARTLY DONE 2026-10-15** — the **publication half** is built
+(uncommitted; the new Notion database is live and empty). Tree was clean at the
+gate; E4's remaining ~2,410 rows are still blocked on an assignment rule from
+Jay, so this was the next unblocked item per §5.
+
+What exists: a separate Notion database **"Today Celebrates — Submitted
+Occasions"** (id `7c9d328c-0360-4feb-aabf-998f6402eed9`, 17 properties, every one
+with a description, **zero rows**); `scripts/export_occasions_from_notion.py`,
+carrying `Review Status = Approved` rows only into `scripts/occasions.json`;
+`generate.py` rendering `/occasions/<slug>/` and `/occasions/`, plus a labelled
+`.occ` block below everything else on the dated page (and on the perennial page
+when the row's `Recurs Yearly` is ticked); `rel="sponsored nofollow noopener"` on
+the paid link; disclosure copy on both page types and in `llms.txt`.
+
+**The two non-negotiables are structural, not asserted.** A separate database
+feeding a separate file that is never merged into `holidays` means there is no
+code path by which a paid listing can reach the observance list, a `/holiday/`
+URL, the month data files, `search.json`, a calendar feed or any `Event` JSON-LD.
+On top of that: occasion pages render from `templates/page.html`, which has no
+JSON-LD slot at all; the generator greps its own rendered output for
+`"@type": "Event"` and refuses to write the page if it ever finds one; and a slug
+that already belongs to a holiday is dropped by both the exporter and the
+generator. The labelled block is appended after every other block on the page and
+is absent from that page's `ItemList` — verified, not assumed.
+
+**What is left of E6 — the upstream half, and most of it needs Jay:**
+1. The public submission form (`/submit/`).
+2. Stripe Checkout — needs a **price and a product**: what the Listed tier costs
+   and what it includes. Not an unattended decision.
+3. The Cloudflare Worker for the Stripe webhook. Note `wrangler.jsonc` declares
+   **assets only** (no `main`): adding a Worker changes how the live site
+   deploys, which is Jay's call to make deliberately.
+4. A daily-workflow step running the occasions exporter, and sharing the Notion
+   integration with the new database (database → … → Connections). Until this is
+   done the feature is dormant and the site stays byte-identical.
+
+**Do not rebuild the publication half.** With a price and a decision on the
+Worker, the next engineering run can take (1)–(4).
+
 ### E7 — Share cards + Featured tier
 Build-time card image per occasion, doubling as the OG image. Feed-native 9:16.
 Free to view and share; the listing is what costs money.
@@ -484,9 +530,9 @@ Ties broken by date proximity, so pages go live before their occurrence.
 **Tier 2 — federal and civic**
 - [x] 13. Veterans Day  *(published 2026-10-14, content run; Live)*
 - [x] 14. Memorial Day  *(published 2026-10-14, content run; Live)*
-- [ ] 15. Labor Day
-- [ ] 16. Martin Luther King, Jr. Day
-- [ ] 17. Presidents' Day
+- [x] 15. Labor Day  *(published 2026-10-15, content run; Live)*
+- [x] 16. Martin Luther King, Jr. Day  *(published 2026-10-15, content run; Live)*
+- [x] 17. Presidents' Day  *(published 2026-10-15, content run; Live)*
 - [ ] 18. Juneteenth
 - [ ] 19. Columbus Day
 - [ ] 20. Indigenous Peoples' Day
@@ -903,3 +949,53 @@ Newest last. One line per run: date, type, item, outcome. Keep it terse.
   rule 6's "overwrite" was applied to the engineering review only — the content run's section
   was kept at the bottom of the file rather than destroyed. Its "tree was dirty outside
   `docs/`" warning refers to **this run's own work in progress**, not a second unreviewed run.
+- 2026-10-15 · engineering · **E6 partly done — submitted occasions, publication half** · tree
+  clean at the gate; E4 still blocked on an assignment rule, so took E6 per §5. Notion: new
+  **"Today Celebrates — Submitted Occasions"** database (id `7c9d328c-0360-4feb-aabf-998f6402eed9`),
+  17 described properties, **zero rows**; separate from the Holidays database on purpose, which is
+  what makes "cannot appear in Event structured data even if misconfigured" structural rather than a
+  checkbox. Holidays database untouched. Code: new `scripts/export_occasions_from_notion.py` (266 lines)
+  carrying `Review Status = Approved` only, with slug-collision and tier guards and deliberately no
+  shrink guard (a withdrawn listing must disappear at once); `generate.py` (+353/-8) `OCCASION_*`
+  constants and disclosure copy, `load_occasions` / `validate_occasions` / `occasions_block_html` /
+  `occasion_body_html` / `occasion_page_html` / `occasions_index_body`, the occ indexes in
+  `generate()`, pages routed through `simple_pages` (so they render from page.html, the one template
+  with no JSON-LD slot), 5 report keys and 3 warning paths; `templates/day.html` and
+  `templates/perennial.html` (+1 marker each); `site.css` (+18) `.occ`; `_headers` (+7) a 10-minute
+  `/occasions/*` rule; `llms.txt` (+4); `scripts/README.md` (+103); §3 boundary now names
+  `public/occasions/**` and `scripts/occasions.json`. Verified: with no `occasions.json` the patched
+  generator's output is **byte-identical to the pre-patch generator across all 5,670 files** (diff -r,
+  zero differences), and the same for a damaged or an absent file; with a 9-row fixture exercising
+  every reject path, exactly **5 new files and 5 changed** (3 dated pages, 1 perennial page, the
+  sitemap) — no `.ics`, no data file, no holiday, perennial, year, hub or home page — and
+  reverse-transform (removing the `.occ` section) restores all 4 changed pages byte-identically;
+  sitemap gained exactly 5 URLs and lost none; the `ItemList` on each affected dated page is unchanged
+  and names no occasion; no occasion page contains JSON-LD of any kind; **52 structural checks and 34
+  unit assertions (18 generator, 16 exporter), 0 failures**; second run 0 changed (idempotent);
+  withdrawal drops the listing from the pages and the sitemap and warns that the orphan directory is
+  still live. Exit 0, **zero WARNINGs** on the dormant path. Nothing committed. **The exporter could
+  not be run against live Notion — no NOTION_TOKEN in this run's shell** (unit-tested against
+  synthetic Notion payloads instead). 4 decisions in docs/REVIEW.md, three of them E6's upstream half:
+  the price and what the Listed tier includes, the Worker vs the assets-only `wrangler.jsonc`, and
+  whether a listing is one-off or perennial. Next engineering run: E4 with a rule, else E6's upstream
+  half once the price is set, else E7.
+- 2026-10-15 · content · queue 15–17 (Labor Day, Martin Luther King, Jr. Day, Presidents' Day) ·
+  all three written and **published Live** in Notion; `Published` untouched on every row. Step-0 check
+  passed (committed exporter has `LONGFORM_RELEASED_STATUSES`, count 2). No duplicate rows for any of
+  the three (`Child Labor Day` and `Presidential Joke Day` are separate observances, not duplicates).
+  Word counts ~854 / ~898 / ~860, inside §4's 600–900 — all three were trimmed from a first pass at
+  ~1,000–1,050, which is the cap issue raised as REVIEW item 13 on 2026-10-14; this run enforced the
+  cap rather than exceeding it. All three FAQs verified against `generate.py`'s own `parse_faq()`:
+  **5 pairs each**, unbolded, blank-line separated. Sources are bare URLs, no `[text](url)` anywhere.
+  **Omitted for lack of a source:** the standard claim that Labor Day sits in September to avoid the
+  international May 1 labor day (no primary source found — said so in the FAQ rather than guessing);
+  the 1983 House/Senate vote counts for the King holiday; and "South Carolina was the last state" to
+  adopt it. **Conflicts resolved toward the more primary source:** the Obama White House archive page
+  gives both Nov 2 and Nov 20, 1983 for Reagan's signature — followed the Statutes at Large (97 Stat.
+  917), Nov 2; LOC says the 1894 act was "approved" where DOL says Cleveland signed it — followed DOL.
+  **Least confident claim:** Mount Vernon's free admission on the holiday, documented for the 2026
+  observance only, so the page tells readers to check the year's schedule. Generator verified into a
+  throwaway dir: exit 0, zero WARNINGs, `occasions_problems` empty. The exporter could not be run
+  against live Notion — no `NOTION_TOKEN` in this run's shell. Nothing committed. Also checked, for
+  REVIEW item 13: **all 14 previously written rows still hold their long-form content and are Live**
+  (Body 2.6–3.7 KB each), so the "rows found empty" symptom is not present now.
