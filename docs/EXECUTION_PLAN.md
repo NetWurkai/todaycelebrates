@@ -106,6 +106,12 @@ paid listing, change that Notion row; `public/occasions/**` is generated from it
 The file does not exist yet, which is exactly why E6's publication half is
 dormant: with no `occasions.json` the generator writes a byte-identical site.
 
+The E7 share cards (`public/holiday/<slug>/card.png`) are generated too, by
+`generate.py` on the same run as the pages -- but only when cards are switched
+on (`--cards` / `SHARE_CARDS`), which they are not. `docs/card-samples/` is
+**source**: four cards checked in so the design can be reviewed without
+running anything.
+
 ---
 
 ## 4. Content specification
@@ -500,6 +506,37 @@ Worker, the next engineering run can take (1)–(4).
 Build-time card image per occasion, doubling as the OG image. Feed-native 9:16.
 Free to view and share; the listing is what costs money.
 
+**STATUS: PARTLY DONE 2026-10-16** — the **OG share card** is built
+(uncommitted, and switched off). Tree was clean at the gate; E4's remaining
+~2,410 rows are still blocked on an assignment rule and E6's upstream half on a
+price, so this was the next unblocked item per §5.
+
+What exists: `generate.py` draws a 1200x630 PNG per observance at
+`/holiday/<slug>/card.png` — the site's four-colour band, the coral mark and
+wordmark, a date pill in the observance's own category colour, the name set as
+large as it fits, one muted line and the domain — and points that page's
+`og:image`, `twitter:image` and Event JSON-LD `image` at it. It replaces the
+fourteen stock hero photographs that currently make every page's link preview
+look the same. Four examples are checked in at `docs/card-samples/`.
+
+**It is off**, and the switch is the item's real content: drawing the cards
+needs Pillow, which the daily workflow does not install, and 2,450 cards are
+~33 MB of committed PNG. Both are deployment calls, so `SHARE_CARDS` is False,
+`--cards` turns it on, and with it off every file the generator writes is
+byte-identical to a build without the feature (proven by `diff -r` over all
+5,671 files, not asserted). `.github/workflows/daily-regenerate.yml` was **not**
+edited — it is not on §3's source list, and it is how the live site deploys;
+the two-line change is written out in `docs/REVIEW.md` for Jay to apply.
+
+**What is left of E7:**
+1. The **9:16 feed-native card** — the renderer generalizes to it, but nothing
+   on the page offers a reader a card to download, and adding that affordance
+   to 2,450 pages is a UI decision.
+2. The **Featured tier** — a pricing decision, blocked on the same answer E6's
+   Listed tier is waiting for.
+3. Cards for dated, perennial, year and category pages (they still use the
+   stock hero).
+
 ### Queue empty?
 Report it in the Run Log and stop. Candidates for the re-plan conversation, **not
 for an unattended run to start on its own:** the deferred holiday fidelity audit
@@ -533,9 +570,9 @@ Ties broken by date proximity, so pages go live before their occurrence.
 - [x] 15. Labor Day  *(published 2026-10-15, content run; Live)*
 - [x] 16. Martin Luther King, Jr. Day  *(published 2026-10-15, content run; Live)*
 - [x] 17. Presidents' Day  *(published 2026-10-15, content run; Live)*
-- [ ] 18. Juneteenth
-- [ ] 19. Columbus Day
-- [ ] 20. Indigenous Peoples' Day
+- [x] 18. Juneteenth  *(published 2026-10-16, content run; Live)*
+- [x] 19. Columbus Day  *(published 2026-10-16, content run; Live)*
+- [x] 20. Indigenous Peoples' Day  *(published 2026-10-16, content run; Live)*
 - [ ] 21. U.S. General Election Day
 - [ ] 22. Flag Day
 - [ ] 23. Patriot Day — National Day of Service & Remembrance
@@ -999,3 +1036,58 @@ Newest last. One line per run: date, type, item, outcome. Keep it terse.
   against live Notion — no `NOTION_TOKEN` in this run's shell. Nothing committed. Also checked, for
   REVIEW item 13: **all 14 previously written rows still hold their long-form content and are Live**
   (Body 2.6–3.7 KB each), so the "rows found empty" symptom is not present now.
+- 2026-10-16 · engineering · **E7 partly done — share cards, the OG half** · tree clean at
+  the gate; E4 still blocked on an assignment rule and E6's upstream half on a price, so took
+  E7 per §5. No Notion change. `generate.py` (+316/-5) `SHARE_CARDS`/`CARD_*` constants,
+  `write_raw_if_changed`, `card_rel_path`, `card_fonts` (the Pillow + pinned-DejaVu gate),
+  `card_wrap`/`card_ellipsize`/`card_fit`/`card_draw_tracked`, `card_png_bytes`, the card plan
+  and write in `generate()`, `card_url` on `render_page`, 7 report keys and a warning path;
+  `public/_headers` (+8) a longer cache for `/holiday/*/card.png`; `scripts/README.md` (+75)
+  "Share cards (E7)"; new `docs/card-samples/` with 4 checked-in examples. **Switched off**:
+  cards need Pillow, which the daily workflow does not install, and 2,450 of them are ~33 MB
+  of committed PNG — both deployment calls, so `.github/` was left alone and the two-line
+  workflow change is written out in docs/REVIEW.md. Verified: pre-patch vs patched with cards
+  off — `diff -r` over all **5,671 files, zero differences**; with `--cards`, exactly **2,450
+  new card.png and 2,450 changed files**, every one of them a `/holiday/` page and every change
+  exactly three lines (og:image, twitter:image, the Event JSON-LD image) — no dated, perennial,
+  year, hub, data, category or home page, no `.ics`, **sitemap byte-identical**;
+  reverse-transform (card URL -> the category hero URL, rebuilt from holidays.json) restores
+  all 2,450 pages **byte-identically**; all 2,450 PNGs decode at 1200x630 (33.0 MB, median
+  13 KB, max 18 KB); second run 0 changed (idempotent); no-Pillow and no-font runs both WARN
+  and produce output byte-identical to cards-off; every one of the 2,450 names is covered by
+  the pinned font's glyph set and none is clipped (2,314 set at the full 92 px). Exit 0,
+  **zero WARNINGs** on the default path. Nothing committed. **The device bridge dropped four
+  times mid-run**; everything above was re-run or re-checked after it came back, but the
+  date-roll churn measurement did not finish. 4 decisions in docs/REVIEW.md; next engineering
+  run: E4 with a rule, else E6's upstream half once the price is set, else E7's 9:16 card once
+  the affordance question is answered.
+
+- 2026-10-16 · content · Tier 2 items 18-20 — **Juneteenth, Columbus Day, Indigenous Peoples' Day
+  published Live** (860 / 899 / 891 words, every origin, founder, date and statute claim sourced).
+  STEP 0 passed (committed exporter carries LONGFORM_RELEASED_STATUSES, count 2). One clean Notion
+  row per item; `Published` untouched on all three. **Nothing omitted for want of a source**, but
+  four claims were deliberately left out and are named in docs/REVIEW.md: the 1977 UN Geneva origin
+  story for Indigenous Peoples' Day, "first-ever proclamation" for Proclamation 10283, the sponsor
+  of Texas HB 1016, and any count of enslaved Texans in 1865. **Two source conflicts resolved
+  toward the more primary text**, both disclosed on the pages themselves: LOC's "FDR designated
+  Columbus Day a national holiday in 1934" vs the 1934 resolution's own words (annual proclamation
+  + flag display only — followed the statute, 1968 treated as the holiday's start); and 1866 vs
+  1865 for the first Juneteenth celebration (took 1866, NARA + Texas State Archives, over the LOC
+  law blog). **Also corrected a citation error carried in from a search result: the Monday-holiday
+  act is Pub. L. 90-363, not 90-361** — 90-361 is a flood-control act on the same Statutes page.
+  Verified end-to-end with the **committed** generator into a throwaway dir: exit 0, Juneteenth
+  page renders all six sections, **FAQPage JSON-LD carries 4 Question entities** (the bug fixed on
+  2026-10-10, now confirmed working on new copy), all source URLs became live anchors, no literal
+  asterisks leaked, Opening replaced the boilerplate Description. Nothing committed; no generated
+  output touched.
+- 2026-10-16 · digest · **Friday digest written** (09:49 UTC) · read §5/§6/§8, `docs/REVIEW.md`,
+  `docs/FIDELITY_AUDIT.md` and the Notion Holidays database. Week of 10-10 to 10-16: 7 engineering
+  runs (E2 partly, E3 done, E4 partly, E5 done, E6 partly, E7 partly), all 7 found a clean tree at
+  the gate; 18 content pages published Live (queue items 3-20), **20 rows now carry long-form, 0 at
+  Draft, 0 reverted**. Flagged to Jay: this morning's E7 diff is uncommitted (`scripts/generate.py`,
+  `scripts/README.md`, `public/_headers`, `?? docs/card-samples/`) and **will stop tonight's
+  engineering run on rule 2 unless he commits**; the 2026-10-16 regeneration had not landed at
+  09:49 UTC (cron is 08:00, historical landings 13:00-17:30, so late not broken) and today's three
+  pages are still short pages on the live site; the REVIEW.md write race between the two nightly
+  runs; and five open decisions, the Listed-tier price now blocking two queue items. No repo source
+  or Notion change by this run. Digest filed at `claude/digest-2026-10-16-friday.md`.

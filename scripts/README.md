@@ -955,6 +955,81 @@ Everything upstream of the Notion row:
 Until (4) is done the feature is dormant: no `occasions.json`, so every page
 the generator writes is byte-identical to what it wrote before E6.
 
+## Share cards (E7)
+
+A build-time PNG per observance at `/holiday/<slug>/card.png`, 1200x630, used
+as that page's `og:image`, `twitter:image` and the `image` in its Event
+JSON-LD. **Off by default.** Turn it on with `--cards` on the command line, or
+by setting `SHARE_CARDS = True` in `generate.py`.
+
+### Why
+
+Every holiday page currently shares one of fourteen stock hero photographs
+keyed to its category, so a link to National Pizza Day and a link to
+Thanksgiving look identical when someone pastes either into Slack, iMessage,
+Facebook or X. The card carries the observance's name, its next date and the
+wordmark, drawn in the site's own palette -- it is the part of the page that
+actually travels.
+
+### What a card is
+
+White paper, the header's four-colour band across the top, the coral `.mark`
+square and the wordmark, a date pill filled in the observance's own category
+colour, the name set as large as it fits, one muted line (`Category - Every
+year on March 14`, or `The date changes each year`), a hard rule and the
+domain. No photograph, no gradient, nothing that needs a designer in the loop
+to add an observance. Four checked-in examples are in `docs/card-samples/`,
+which is source, not generated -- they are there so the design can be reviewed
+without running anything.
+
+Sizing: the name is set at the largest of 92 / 82 / 74 / 66 / 58 / 52 / 46 px
+that wraps into at most three lines inside the box. Across the current 2,450
+rows that is 92 px for 2,314 of them, and no name is clipped.
+
+### What it costs, which is why it is a switch and not a default
+
+- **A dependency.** The cards are drawn with Pillow, which the daily GitHub
+  Action does not install. Turning cards on means adding one step to
+  `.github/workflows/daily-regenerate.yml` (`python3 -m pip install Pillow`
+  before the regenerate step) and the `--cards` flag to the generator call.
+  That workflow is how the live site deploys, so it is a deliberate change,
+  not a tweak.
+- **Repo weight.** 2,450 cards is **~33 MB** of PNG (median 13 KB, max 18 KB),
+  committed, and the daily workflow commits what changes. A card is rewritten
+  only when its observance's date rolls into a new year, so the steady-state
+  daily churn is small -- but the first run that turns this on is a 33 MB
+  commit, and a change to the card *design* rewrites all of them.
+
+### How it stays safe to leave off
+
+`card_fonts()` is the gate. With `SHARE_CARDS` off, Pillow missing, or neither
+pinned font file present, no card is written, `IMAGE_ABS` stays the stock
+category hero, and every file the generator writes is byte-identical to a
+build without the feature -- verified by `diff -r` over all 5,671 files.
+Asking for `--cards` and not getting them prints a WARNING (and a GitHub
+Actions annotation) rather than failing quietly, because the half-failure --
+pages keeping the stock image -- is invisible otherwise.
+
+### The pinned font
+
+`CARD_FONT_FILES` names DejaVu Sans and DejaVu Sans Bold by absolute path
+rather than asking the system for "a sans". A PNG's bytes depend on the exact
+font file, so a machine with a different face would rewrite all 2,450 cards
+and churn the repo; if neither candidate path exists the feature disables
+itself rather than substituting a face. DejaVu ships on `ubuntu-latest`, which
+is where the daily workflow runs. Every one of the current 2,450 names is
+fully covered by its glyph set (checked, not assumed). **Vendoring a font into
+the repo instead** would make the output independent of the build box, at the
+cost of a binary and a licence file -- open question, see `docs/REVIEW.md`.
+
+### What is not built
+
+E7's other two halves: the **9:16 feed-native card**, which needs somewhere on
+the page for a reader to get it from, and the **Featured tier**, which is a
+pricing decision and blocked on the same answer E6's Listed tier is waiting
+for. Only `/holiday/` pages get a card; dated, perennial, year and category
+pages still use the stock hero.
+
 ## Long-form holiday content (E1)
 
 A holiday page has two shapes. Without long-form content it is the short page

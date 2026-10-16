@@ -39,6 +39,7 @@ Usage:
 import argparse
 import calendar
 import datetime
+import io
 import json
 import os
 import re
@@ -215,6 +216,71 @@ ICS_PRODID = "-//Today Celebrates//Site Generator//EN"
 # Asked of subscribing clients: re-fetch daily, which is how often the site is
 # rebuilt. REFRESH-INTERVAL is RFC 7986; X-PUBLISHED-TTL is what Outlook reads.
 ICS_REFRESH = "P1D"
+
+
+# ---- share cards (E7) ----
+#
+# One 1200x630 PNG per observance, drawn at build time in the site's own
+# palette, written beside its page as /holiday/<slug>/card.png and used as
+# that page's og:image, twitter:image and Event JSON-LD image.
+#
+# Why: every page today shares one of 14 stock hero photographs, so a link to
+# National Pizza Day and a link to Thanksgiving look identical in a feed. The
+# card carries the observance's name, its next date and the wordmark, which is
+# the part that actually travels.
+#
+# OFF by default, and that gate is deliberate rather than unfinished: turning
+# it on adds a Pillow dependency to the daily GitHub Action and ~2,450 binary
+# files to the repo, and both of those are deployment decisions (see
+# "Share cards (E7)" in scripts/README.md). With cards off -- or with Pillow
+# or the pinned font absent -- every file this generator writes is
+# byte-identical to a build without the feature and the pages keep their stock
+# hero image.
+SHARE_CARDS = False
+CARD_W, CARD_H = 1200, 630          # the og:image aspect every platform crops to
+CARD_STRIPE_H = 16                  # the header's four-colour band, .site-head::before
+
+# Pinned faces, not "whatever sans this box has". A PNG's bytes depend on the
+# exact font file, so a second machine with a different face would rewrite all
+# 2,450 cards and churn the repo. If none of the candidates exists the feature
+# disables itself with a warning rather than substituting a face.
+CARD_FONT_FILES = {
+    "bold": (
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/dejavu/DejaVuSans-Bold.ttf",
+    ),
+    "regular": (
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/dejavu/DejaVuSans.ttf",
+    ),
+}
+
+# site.css's :root, as RGB. Colour is fill, never thin text: the headline and
+# the wordmark are --ink on white, exactly as on the page.
+CARD_PAPER = (255, 255, 255)
+CARD_INK = (35, 25, 66)        # --ink    #231942
+CARD_MUTED = (91, 85, 117)     # --muted  #5b5575
+CARD_CORAL = (255, 138, 99)    # --coral  #ff8a63
+CARD_SUN = (255, 209, 102)     # --sun    #ffd166
+CARD_MINT = (143, 227, 207)    # --mint   #8fe3cf
+CARD_LILAC = (205, 180, 255)   # --lilac  #cdb4ff
+CARD_STRIPE = (CARD_CORAL, CARD_SUN, CARD_MINT, CARD_LILAC)
+# CATEGORY_STYLE's pill class -> the same fill the pill uses on the page, so a
+# card and its page agree about what colour a category is.
+CARD_PASTEL = {"cor": CARD_CORAL, "sun": CARD_SUN, "mnt": CARD_MINT, "lil": CARD_LILAC}
+
+# Flat art in a handful of colours: a palette PNG is a third the size of an
+# RGB one and visually identical. 64 keeps the antialiasing on the headline
+# smooth.
+CARD_PNG_COLORS = 64
+
+CARD_MARGIN = 64
+CARD_NAME_SIZES = (92, 82, 74, 66, 58, 52, 46)
+# The headline sits in the band between the date pill and the muted line,
+# vertically centred in it, so a one-word name and a three-line one both look
+# placed rather than top-aligned against a pool of white.
+CARD_NAME_TOP = 248
+CARD_NAME_MAX_H = 248
 
 
 def ics_host():
@@ -1111,6 +1177,199 @@ def write_bytes_if_changed(path, content, dry_run=False):
     return changed, old is None
 
 
+def write_raw_if_changed(path, data, dry_run=False):
+    """write_bytes_if_changed's twin for data that is already bytes.
+
+    Used for the PNG share cards: there is nothing to encode, and a card whose
+    date has not rolled must not be rewritten (2,450 rewritten images a night
+    would churn the repo and tell every CDN that everything had changed).
+    """
+    old = None
+    if os.path.exists(path):
+        with open(path, "rb") as f:
+            old = f.read()
+    changed = old != data
+    if changed and not dry_run:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "wb") as f:
+            f.write(data)
+    return changed, old is None
+
+
+def card_rel_path(slug):
+    """The card sits inside the page's own directory, like its event.ics."""
+    return f"/holiday/{slug}/card.png"
+
+
+_CARD_STATE = None
+
+
+def card_fonts():
+    """(loader, None) or (None, reason).
+
+    `loader(face, size)` returns a cached PIL font. The answer cannot change
+    inside one run, so it is worked out once: either both pinned faces and
+    Pillow are present, or cards are off and the reason says why.
+    """
+    global _CARD_STATE
+    if _CARD_STATE is not None:
+        return _CARD_STATE
+    try:
+        from PIL import ImageFont
+    except ImportError:
+        _CARD_STATE = (None, "Pillow is not installed in this environment "
+                             "(python3 -m pip install Pillow)")
+        return _CARD_STATE
+    chosen = {}
+    for face, candidates in CARD_FONT_FILES.items():
+        for path in candidates:
+            if os.path.exists(path):
+                chosen[face] = path
+                break
+        else:
+            _CARD_STATE = (None, f"no pinned {face} font file found; looked for "
+                                 + ", ".join(candidates))
+            return _CARD_STATE
+    cache = {}
+
+    def loader(face, size):
+        key = (face, size)
+        if key not in cache:
+            cache[key] = ImageFont.truetype(chosen[face], size)
+        return cache[key]
+
+    _CARD_STATE = (loader, None)
+    return _CARD_STATE
+
+
+def card_wrap(draw, text, font, max_w):
+    """Greedy word wrap at pixel width. A single word wider than the box gets
+    its own line and is ellipsized later rather than silently overflowing."""
+    lines, cur = [], ""
+    for word in text.split():
+        trial = f"{cur} {word}".strip()
+        if cur and draw.textlength(trial, font=font) > max_w:
+            lines.append(cur)
+            cur = word
+        else:
+            cur = trial
+    if cur:
+        lines.append(cur)
+    return lines or [""]
+
+
+def card_ellipsize(draw, text, font, max_w):
+    if draw.textlength(text, font=font) <= max_w:
+        return text
+    cut = text
+    while cut and draw.textlength(cut + "…", font=font) > max_w:
+        cut = cut[:-1]
+    return (cut.rstrip() + "…") if cut else ""
+
+
+def card_fit(draw, text, loader, face, sizes, max_w, max_lines, max_h):
+    """Largest size from `sizes` whose wrap fits the box in both axes."""
+    for size in sizes:
+        font = loader(face, size)
+        lines = card_wrap(draw, text, font, max_w)
+        if (len(lines) <= max_lines
+                and len(lines) * round(size * 1.12) <= max_h
+                and all(draw.textlength(ln, font=font) <= max_w for ln in lines)):
+            return font, lines
+    # Nothing fits: smallest size, clipped to the line budget, last line
+    # ellipsized. A name long enough to reach here is a data problem, and a
+    # clipped card is still a card.
+    font = loader(face, sizes[-1])
+    lines = card_wrap(draw, text, font, max_w)[:max_lines]
+    lines = [card_ellipsize(draw, ln, font, max_w) for ln in lines]
+    return font, lines
+
+
+def card_draw_tracked(draw, xy, text, font, fill, track=0.0):
+    """Letter-spaced text, for the wordmark only."""
+    x, y = xy
+    if not track:
+        draw.text((x, y), text, font=font, fill=fill)
+        return
+    for ch in text:
+        draw.text((x, y), ch, font=font, fill=fill)
+        x += draw.textlength(ch, font=font) + track
+
+
+def card_png_bytes(holiday, occ_date, loader):
+    """One share card, as PNG bytes.
+
+    Deterministic: the same row on the same date renders the same bytes, which
+    is what lets write_raw_if_changed leave an unchanged card alone.
+    """
+    from PIL import Image, ImageDraw
+
+    img = Image.new("RGB", (CARD_W, CARD_H), CARD_PAPER)
+    d = ImageDraw.Draw(img)
+    M = CARD_MARGIN
+    inner_w = CARD_W - 2 * M
+
+    # The header's four-colour band.
+    band = CARD_W / len(CARD_STRIPE)
+    for i, colour in enumerate(CARD_STRIPE):
+        d.rectangle([round(i * band), 0, round((i + 1) * band) - 1,
+                     CARD_STRIPE_H - 1], fill=colour)
+
+    # Wordmark: the coral .mark square with its offset shadow, then the name.
+    mark, my = 34, 72
+    d.rectangle([M + 5, my + 5, M + mark + 5, my + mark + 5], fill=CARD_INK)
+    d.rectangle([M, my, M + mark, my + mark], fill=CARD_CORAL,
+                outline=CARD_INK, width=3)
+    f_brand = loader("bold", 26)
+    card_draw_tracked(d, (M + mark + 20, my + 3), "TODAY CELEBRATES",
+                      f_brand, CARD_INK, track=2.5)
+
+    # Date pill, filled in the category's own colour.
+    cat = holiday.get("category") or "celebration"
+    pastel = CARD_PASTEL.get((CATEGORY_STYLE.get(cat) or ("", "lil"))[1], CARD_LILAC)
+    date_text = (f"{WEEKDAY_NAMES[occ_date.weekday()]}, "
+                 f"{MONTH_NAMES[occ_date.month]} {occ_date.day}, "
+                 f"{occ_date.year}").upper()
+    f_date = loader("bold", 27)
+    pill_y = 168
+    pill_w = min(d.textlength(date_text, font=f_date) + 44, inner_w)
+    d.rounded_rectangle([M, pill_y, M + pill_w, pill_y + 56], radius=8,
+                        fill=pastel, outline=CARD_INK, width=3)
+    d.text((M + 22, pill_y + 13), date_text, font=f_date, fill=CARD_INK)
+
+    # Headline.
+    f_name, lines = card_fit(d, holiday["name"], loader, "bold",
+                             CARD_NAME_SIZES, inner_w, 3, CARD_NAME_MAX_H)
+    line_h = round(f_name.size * 1.12)
+    y = CARD_NAME_TOP + max(0, (CARD_NAME_MAX_H - len(lines) * line_h) // 2)
+    for line in lines:
+        d.text((M, y), line, font=f_name, fill=CARD_INK)
+        y += line_h
+
+    # One muted line: what kind of thing this is, and whether the date moves.
+    if holiday.get("recurrence") == "Annual":
+        if holiday.get("month") == 2 and holiday.get("day") == 29:
+            recurs = "Every February 29, in leap years"
+        else:
+            recurs = (f"Every year on {MONTH_NAMES[occ_date.month]} "
+                      f"{occ_date.day}")
+    else:
+        recurs = "The date changes each year"
+    f_sub = loader("regular", 26)
+    sub = card_ellipsize(d, f"{cat_title(cat)} · {recurs}", f_sub, inner_w)
+    d.text((M, 512), sub, font=f_sub, fill=CARD_MUTED)
+
+    # Footer rule and the domain, in the page's own hard-rule idiom.
+    d.rectangle([M, 562, CARD_W - M, 564], fill=CARD_INK)
+    f_foot = loader("bold", 27)
+    d.text((M, 582), "todaycelebrates.com", font=f_foot, fill=CARD_INK)
+
+    out = img.convert("P", palette=Image.ADAPTIVE, colors=CARD_PNG_COLORS)
+    buf = io.BytesIO()
+    out.save(buf, format="PNG", optimize=True)
+    return buf.getvalue()
+
+
 def cal_links_html(holiday, occurrence_count):
     """The "Add to your calendar" line on a /holiday/<slug>/ page."""
     ics = f"/holiday/{holiday['slug']}/event.ics"
@@ -1649,13 +1908,16 @@ def faq_ld_json(faq_pairs):
 
 
 def render_page(holiday, occ_date, day_link, by_slug, memo, template, chrome,
-                same_day=(), day_published=False, ics_dates=()):
+                same_day=(), day_published=False, ics_dates=(), card_url=None):
     """Render one /holiday/<slug>/ page.
 
     `same_day` is every observance on this holiday's date (for the "Also on"
     sidebar); `day_published` says whether that date has a /day/ page to link.
     `ics_dates` is this observance's occurrences inside the calendar-feed
     window (E5), used only to say how many dates its .ics file carries.
+    `card_url` is this observance's share card (E7) when cards are being
+    generated this run; absent, the page keeps the stock category hero as its
+    og:image exactly as before.
     """
     slug = holiday["slug"]
     name = holiday["name"]
@@ -1663,7 +1925,7 @@ def render_page(holiday, occ_date, day_link, by_slug, memo, template, chrome,
     description = holiday["description"]
     path = f"/holiday/{slug}/"
     url = f"{SITE_BASE_URL}{path}"
-    image = f"{SITE_BASE_URL}/images/hero/{category}.jpg"
+    image = card_url or f"{SITE_BASE_URL}/images/hero/{category}.jpg"
     iso_date = occ_date.isoformat()
     date_long = f"{MONTH_NAMES[occ_date.month]} {occ_date.day}, {occ_date.year}"
     date_short = f"{MONTH_NAMES[occ_date.month]} {occ_date.day}"
@@ -2730,14 +2992,17 @@ def read_sitemap_lastmods(path):
 
 
 def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
-             people=None, occasions=None):
+             people=None, occasions=None, cards=SHARE_CARDS):
     """Returns a report dict describing what changed.
 
     `people` is the parsed scripts/people.json (see load_people), or None to
     render the date pages without the "born on this day" blocks.
     `occasions` is the parsed scripts/occasions.json (see load_occasions), or
     None for no submitted occasions -- in which case every page this function
-    writes is byte-identical to what it wrote before E6."""
+    writes is byte-identical to what it wrote before E6.
+    `cards` turns the E7 share cards on (default SHARE_CARDS, i.e. off). Off,
+    or with Pillow or the pinned font missing, every file written is
+    byte-identical to a build without that feature."""
     templates_dir = templates_dir or DEFAULT_TEMPLATES_DIR
     by_slug = {h["slug"]: h for h in holidays}
     memo = {}  # (slug, year) -> date.date, shared across all holidays this run
@@ -2941,6 +3206,17 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         perennial_path(*k) for k in perennial_mds if k in perennial_published
     ]
 
+    # ---- share cards (E7) ----
+    #
+    # Worked out before the page loop, because a page's og:image depends on
+    # whether its card is being written this run: the switch moves the pages
+    # and the images together or not at all.
+    card_loader, card_off_reason = card_fonts() if cards else (None, "SHARE_CARDS is off")
+    card_slugs = ({h["slug"] for h in holidays if h["slug"] in occurrences}
+                  if card_loader else set())
+    card_diffs = {"created": [], "changed": [], "unchanged": 0}
+    card_bytes_total = 0
+
     # ---- per-holiday pages ----
     holiday_template = load_template(templates_dir, "holiday.html")
     page_diffs = {"changed": [], "unchanged": [], "created": [], "skipped": []}
@@ -2962,6 +3238,8 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             h, occ, day_link, by_slug, memo, holiday_template, chromes[None],
             same_day=day_index.get(occ, []), day_published=occ in published_days,
             ics_dates=ics_occ.get(slug, ()),
+            card_url=(f"{SITE_BASE_URL}{card_rel_path(slug)}"
+                      if slug in card_slugs else None),
         )
         page_dir = os.path.join(site_dir, "holiday", slug)
         page_path = os.path.join(page_dir, "index.html")
@@ -2978,6 +3256,17 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             os.makedirs(page_dir, exist_ok=True)
             with open(page_path, "w", encoding="utf-8") as f:
                 f.write(new_html)
+        if slug in card_slugs:
+            card_data = card_png_bytes(h, occ, card_loader)
+            card_bytes_total += len(card_data)
+            c_changed, c_created = write_raw_if_changed(
+                os.path.join(page_dir, "card.png"), card_data, dry_run)
+            if c_created:
+                card_diffs["created"].append(slug)
+            elif c_changed:
+                card_diffs["changed"].append(slug)
+            else:
+                card_diffs["unchanged"] += 1
 
     # ---- homepage: today's content baked into the HTML ----
     home_items = day_index.get(today, [])
@@ -3332,6 +3621,13 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         "unknown_types": sorted(unknown_types),
         "month_diffs": month_diffs,
         "stale_month_files": sorted(stale_month_files),
+        "cards_enabled": bool(card_loader),
+        "cards_disabled_reason": None if card_loader else card_off_reason,
+        "cards_total": len(card_slugs),
+        "cards_created": len(card_diffs["created"]),
+        "cards_changed": sorted(card_diffs["changed"]),
+        "cards_unchanged_count": card_diffs["unchanged"],
+        "cards_bytes_total": card_bytes_total,
         "pages_created": sorted(page_diffs["created"]),
         "pages_changed": sorted(page_diffs["changed"]),
         "pages_unchanged_count": len(page_diffs["unchanged"]),
@@ -3389,6 +3685,11 @@ def main():
                          "occasions built by export_occasions_from_notion.py "
                          "(default: scripts/occasions.json; the feature is "
                          "simply off if the file is absent)")
+    ap.add_argument("--cards", action="store_true", default=SHARE_CARDS,
+                    help="generate the E7 share cards (/holiday/<slug>/card.png) "
+                         "and use each as its page's og:image. Needs Pillow and "
+                         "the pinned DejaVu faces; off by default, because "
+                         "turning it on adds ~2,450 images to the repo")
     ap.add_argument("--people", default=DEFAULT_PEOPLE_PATH,
                     help="path to people.json, the born-on-this-day data built by "
                          "build_people.py (default: scripts/people.json; the "
@@ -3402,7 +3703,17 @@ def main():
 
     report = generate(holidays, today, args.site, dry_run=args.dry_run,
                       templates_dir=args.templates, people=people,
-                      occasions=occasions)
+                      occasions=occasions, cards=args.cards)
+
+    # Asked for cards and did not get them: the pages silently keep the stock
+    # hero image, which is a quiet half-failure, so say it out loud.
+    if args.cards and not report.get("cards_enabled"):
+        note = ("--cards was requested but no share cards were generated: "
+                f"{report.get('cards_disabled_reason')}. Every page kept its "
+                "stock category hero as its og:image.")
+        print(f"WARNING: {note}", file=sys.stderr)
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            print(f"::warning title=Share cards disabled::{note}")
 
     # people.json ages: the living lists go stale as people die. Surface it the
     # same way unresolved holidays are surfaced -- stderr always, and a workflow
