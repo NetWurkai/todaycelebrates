@@ -20,8 +20,8 @@ BEGIN:VEVENT
 UID:international-pregnancy-and-infant-loss-remembrance-day@todaycelebrates
  .com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
 SUMMARY:International Pregnancy and Infant Loss Remembrance Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 15\, International Pregnancy and Infant Loss Remembr
