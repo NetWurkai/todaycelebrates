@@ -3508,8 +3508,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bosses-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:Bosses Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Boss's Day\, started in 1958\, gives employees a chance to than
@@ -6861,8 +6861,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dictionary-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:Dictionary Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 16\, Dictionary Day gives people across the United S
@@ -9275,9 +9275,12 @@ DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270615
 SUMMARY:Flag Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Flag Day\, observed on June 14\, is a lighthearted holiday cele
- brated across the United States.\n\nhttps://todaycelebrates.com/holiday/fl
- ag-day/
+DESCRIPTION:Flag Day falls on June 14\, the anniversary of the 1777 resolut
+ ion in which the Continental Congress declared that the flag of the United
+  States be thirteen stripes and thirteen stars. The observance is far youn
+ ger than the flag\, and its origin is contested: three men have been calle
+ d the father of Flag Day by sources as official as Congress and the Common
+ wealth of Pennsylvania.\n\nhttps://todaycelebrates.com/holiday/flag-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/flag-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10620,8 +10623,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:global-cat-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:Global Cat Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Global Cat Day (also known as National Feral Cat Day) raises aw
@@ -22246,8 +22249,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-boss-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:National Boss' Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Boss's Day gives employees a chance to thank their man
@@ -27808,8 +27811,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-feral-cat-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:National Feral Cat Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Feral Cat Day is observed across the United States on 
@@ -31950,8 +31953,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-liqueur-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:National Liqueur Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 16\, National Liqueur Day gives people across the Un
@@ -32343,8 +32346,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mammography-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:National Mammography Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Mammography Day is observed across the United States o
@@ -42439,11 +42442,12 @@ DTSTART;VALUE=DATE:20270911
 DTEND;VALUE=DATE:20270912
 SUMMARY:Patriot Day — National Day of Service & Remembrance
 RRULE:FREQ=YEARLY
-DESCRIPTION:Patriot Day\, observed every September 11\, honors the nearly 3
- \,000 people killed in the terrorist attacks of September 11\, 2001. Flags
-  are flown at half-staff\, and Americans are encouraged to mark the day wi
- th a moment of silence and acts of community service.\n\nhttps://todaycele
- brates.com/holiday/patriot-day-national-day-of-service-and-remembrance/
+DESCRIPTION:Patriot Day falls on September 11 and honors the 2\,977 people 
+ killed in the terrorist attacks of 2001. Congress designated it by joint r
+ esolution in December of that year\, which means the first Patriot Day was
+  September 11\, 2002. It is a day of remembrance and\, since 2009\, of ser
+ vice\; it is not a holiday\, and nothing closes.\n\nhttps://todaycelebrate
+ s.com/holiday/patriot-day-national-day-of-service-and-remembrance/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/patriot-day-national-day-
  of-service-and-remembrance/
 CATEGORIES:Celebration
@@ -46737,8 +46741,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:steve-jobs-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:Steve Jobs Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Steve Jobs Day\, observed in California\, honors the Apple co-f
@@ -49783,9 +49787,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -49798,9 +49806,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271102
 DTEND;VALUE=DATE:20271103
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -49813,9 +49825,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20281107
 DTEND;VALUE=DATE:20281108
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -49828,9 +49844,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20291106
 DTEND;VALUE=DATE:20291107
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -49843,9 +49863,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20301105
 DTEND;VALUE=DATE:20301106
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -49858,9 +49882,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20311104
 DTEND;VALUE=DATE:20311105
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -49873,9 +49901,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20321102
 DTEND;VALUE=DATE:20321103
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -49888,9 +49920,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20331108
 DTEND;VALUE=DATE:20331109
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -49903,9 +49939,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20341107
 DTEND;VALUE=DATE:20341108
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -49918,9 +49958,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20351106
 DTEND;VALUE=DATE:20351107
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -51705,8 +51749,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-food-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:World Food Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Food Day marks the founding of the UN Food and Agricultur
@@ -53441,8 +53485,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-spine-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:World Spine Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 16\, World Spine Day gives people around the globe o
