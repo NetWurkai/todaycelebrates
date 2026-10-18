@@ -231,8 +231,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:adventure-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:Adventure Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Adventure Day is observed across the United States on October 1
@@ -834,9 +834,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -849,9 +854,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271126
 DTEND;VALUE=DATE:20271127
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -864,9 +874,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20281124
 DTEND;VALUE=DATE:20281125
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -879,9 +894,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20291123
 DTEND;VALUE=DATE:20291124
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -894,9 +914,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20301129
 DTEND;VALUE=DATE:20301130
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -909,9 +934,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20311128
 DTEND;VALUE=DATE:20311129
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -924,9 +954,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20321126
 DTEND;VALUE=DATE:20321127
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -939,9 +974,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20331125
 DTEND;VALUE=DATE:20331126
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -954,9 +994,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20341124
 DTEND;VALUE=DATE:20341125
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -969,9 +1014,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20351123
 DTEND;VALUE=DATE:20351124
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -1347,8 +1397,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bridge-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:Bridge Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Bridge Day is observed across the United States on October 17\,
@@ -5974,8 +6024,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-sloth-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:International Sloth Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 17\, International Sloth Day gives people around the
@@ -9984,8 +10034,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mulligan-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:National Mulligan Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 17\, National Mulligan Day gives people across the U
@@ -12941,8 +12991,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rakija-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:Rakija Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Rakija Day is observed across the United States on October 17\,
@@ -14322,22 +14372,6 @@ DESCRIPTION:Suspenders Day is observed across the United States on October
  20\, a small but fun addition to the calendar worth celebrating in its own
   way.\n\nhttps://todaycelebrates.com/holiday/suspenders-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/suspenders-day/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:sweetest-day-20261017@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Sweetest Day
-DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
-  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
- s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
- s://todaycelebrates.com/holiday/sweetest-day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
@@ -15914,8 +15948,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wear-something-gaudy-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:Wear Something Gaudy Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 17\, Wear Something Gaudy Day gives people across th
@@ -16077,8 +16111,8 @@ BEGIN:VEVENT
 UID:women-in-military-service-for-america-memorial-anniversary@todaycelebra
  tes.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:Women in Military Service for America Memorial Anniversary
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 17\, Women in Military Service for America Memorial 
