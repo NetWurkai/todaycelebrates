@@ -17,8 +17,8 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:national-clean-your-virtual-desktop-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
+DTSTART;VALUE=DATE:20271019
+DTEND;VALUE=DATE:20271020
 SUMMARY:National Clean Your Virtual Desktop Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Clean Your Virtual Desktop Day is observed across the 
