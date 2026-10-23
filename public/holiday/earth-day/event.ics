@@ -17,9 +17,13 @@ DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Earth Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Earth Day is a nature-focused observance on April 22\, celebrat
- ed across the United States to draw attention to the plant\, animal\, or l
- andscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-day/
+DESCRIPTION:Earth Day falls on April 22 and began as one day of American pr
+ otest in 1970\, proposed by Senator Gaylord Nelson of Wisconsin and organi
+ zed in about six months. The U.S. Senate's own history puts the turnout at
+  roughly 20 million people\, across some 2\,000 college campuses and 10\,0
+ 00 schools\, though no source names who counted. It has been international
+  since 1990\, and it has never been a federal holiday.\n\nhttps://todaycel
+ ebrates.com/holiday/earth-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-day/
 CATEGORIES:Nature
 TRANSP:TRANSPARENT

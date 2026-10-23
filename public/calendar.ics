@@ -1512,8 +1512,12 @@ DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:April Fools' Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:April Fools' Day\, observed on April 1\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+DESCRIPTION:April Fools' Day falls on April 1 and is kept across much of th
+ e Western world with no agreed account of where it came from. Asked the or
+ igin question directly\, a Library of Congress folklorist answered: "The s
+ hort answer is that nobody knows for sure." The uncertainty is not a moder
+ n failing — an almanac verse printed in 1760 already conceded that the p
+ eople keeping the day could not say why.\n\nhttps://todaycelebrates.com/ho
  liday/april-fools-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/april-fools-day/
 CATEGORIES:Celebration
@@ -7888,9 +7892,13 @@ DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Earth Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Earth Day is a nature-focused observance on April 22\, celebrat
- ed across the United States to draw attention to the plant\, animal\, or l
- andscape at its center.\n\nhttps://todaycelebrates.com/holiday/earth-day/
+DESCRIPTION:Earth Day falls on April 22 and began as one day of American pr
+ otest in 1970\, proposed by Senator Gaylord Nelson of Wisconsin and organi
+ zed in about six months. The U.S. Senate's own history puts the turnout at
+  roughly 20 million people\, across some 2\,000 college campuses and 10\,0
+ 00 schools\, though no source names who counted. It has been international
+  since 1990\, and it has never been a federal holiday.\n\nhttps://todaycel
+ ebrates.com/holiday/earth-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/earth-day/
 CATEGORIES:Nature
 TRANSP:TRANSPARENT
@@ -12100,9 +12108,14 @@ DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:Groundhog Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Groundhog Day\, observed on February 2\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/groundhog-day/
+DESCRIPTION:Groundhog Day falls on February 2\, when a groundhog is lifted 
+ from a stump on a hill outside Punxsutawney\, Pennsylvania and a man in a 
+ top hat announces whether winter has six more weeks to run. The custom arr
+ ived with German-speaking immigrants to Pennsylvania\, who had attached th
+ e same Candlemas weather lore to a badger. It is also the rare American tr
+ adition whose central claim a federal agency has tested and rejected: NOAA
+ 's published track record finds no predictive skill in it.\n\nhttps://toda
+ ycelebrates.com/holiday/groundhog-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/groundhog-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -32661,8 +32674,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-make-a-dogs-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
 SUMMARY:National Make a Dog's Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Make a Dog's Day is celebrated across the United State
@@ -34154,8 +34167,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-nut-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
 SUMMARY:National Nut Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Nut Day is a lighthearted food holiday celebrated acro
@@ -46583,8 +46596,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:smart-is-cool-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
 SUMMARY:Smart is Cool Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 22\, Smart is Cool Day gives people across the Unite
@@ -51344,8 +51357,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wombat-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
 SUMMARY:Wombat Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Wombat Day is observed across the United States on October 22\,
