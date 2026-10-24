@@ -17,9 +17,13 @@ DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Pi Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Pi Day\, observed on March 14\, is a lighthearted holiday celeb
- rated across the United States.\n\nhttps://todaycelebrates.com/holiday/pi-
- day/
+DESCRIPTION:Pi Day falls on March 14\, because 3/14 matches the first three
+  digits of pi\, the ratio of a circle's circumference to its diameter. It 
+ began in 1988 as an in-house celebration at the Exploratorium\, San Franci
+ sco's hands-on science museum\, and spread from there into classrooms worl
+ dwide. It is one of the few modern holidays whose origin is fully document
+ ed\, down to the man who thought of it and the pies on the table.\n\nhttps
+ ://todaycelebrates.com/holiday/pi-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/pi-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT

@@ -8898,8 +8898,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-organizers-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:Event Organizers Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Event Organizers Day is observed across the United States on Oc
@@ -9960,9 +9960,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -9975,9 +9978,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20270813
 DTEND;VALUE=DATE:20270814
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -9990,9 +9996,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20281013
 DTEND;VALUE=DATE:20281014
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10005,9 +10014,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20290413
 DTEND;VALUE=DATE:20290414
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10020,9 +10032,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20290713
 DTEND;VALUE=DATE:20290714
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10035,9 +10050,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20300913
 DTEND;VALUE=DATE:20300914
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10050,9 +10068,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20301213
 DTEND;VALUE=DATE:20301214
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10065,9 +10086,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20310613
 DTEND;VALUE=DATE:20310614
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10080,9 +10104,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20320213
 DTEND;VALUE=DATE:20320214
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10095,9 +10122,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20320813
 DTEND;VALUE=DATE:20320814
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10110,9 +10140,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20330513
 DTEND;VALUE=DATE:20330514
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10125,9 +10158,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20340113
 DTEND;VALUE=DATE:20340114
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10140,9 +10176,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20341013
 DTEND;VALUE=DATE:20341014
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10155,9 +10194,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20350413
 DTEND;VALUE=DATE:20350414
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10170,9 +10212,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20350713
 DTEND;VALUE=DATE:20350714
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10960,8 +11005,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:global-champagne-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:Global Champagne Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 23\, Global Champagne Day gives people around the gl
@@ -16957,8 +17002,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-snow-leopard-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:International Snow Leopard Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 23\, International Snow Leopard Day gives people aro
@@ -18130,11 +18175,13 @@ DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Kwanzaa
 RRULE:FREQ=YEARLY
-DESCRIPTION:Kwanzaa is a seven-day celebration of African American family\,
-  community\, and culture that runs from December 26 through January 1. Mau
- lana Karenga created it in 1966\, and each day is given to one of the Nguz
- o Saba\, the seven principles at the center of the holiday.\n\nhttps://tod
- aycelebrates.com/holiday/kwanzaa/
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -19819,8 +19866,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:medical-assistants-recognition-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:Medical Assistants Recognition Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Medical Assistants Recognition Day\, marked across the United S
@@ -22680,8 +22727,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-boston-cream-pie-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:National Boston Cream Pie Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Mark your calendar for October 23: National Boston Cream Pie Da
@@ -26253,8 +26300,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-croc-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:National Croc Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Croc Day is observed across the United States on Octob
@@ -30416,8 +30463,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-horror-movie-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:National Horror Movie Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Horror Movie Day is observed across the United States 
@@ -31291,8 +31338,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-ipod-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:National iPod Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National iPod Day is observed across the United States on Octob
@@ -33439,8 +33486,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mole-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:National Mole Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Mole Day is celebrated by chemistry teachers and stude
@@ -34576,8 +34623,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-paralegal-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:National Paralegal Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 23\, National Paralegal Day gives people across the 
@@ -43443,9 +43490,13 @@ DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Pi Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Pi Day\, observed on March 14\, is a lighthearted holiday celeb
- rated across the United States.\n\nhttps://todaycelebrates.com/holiday/pi-
- day/
+DESCRIPTION:Pi Day falls on March 14\, because 3/14 matches the first three
+  digits of pi\, the ratio of a circle's circumference to its diameter. It 
+ began in 1988 as an in-house celebration at the Exploratorium\, San Franci
+ sco's hands-on science museum\, and spread from there into classrooms worl
+ dwide. It is one of the few modern holidays whose origin is fully document
+ ed\, down to the man who thought of it and the pies on the table.\n\nhttps
+ ://todaycelebrates.com/holiday/pi-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/pi-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -50291,8 +50342,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tv-talk-show-host-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:TV Talk Show Host Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:TV Talk Show Host Day is observed across the United States on O
