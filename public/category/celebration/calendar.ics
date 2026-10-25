@@ -2597,11 +2597,14 @@ DTEND;VALUE=DATE:20261103
 SUMMARY:Day of the Dead
 RRULE:FREQ=YEARLY
 DESCRIPTION:Day of the Dead - Dia de Muertos - is the Mexican observance in
-  which families welcome the dead back with home altars\, favorite foods\, 
- marigolds\, and visits to the cemetery. Events run on November 1 and 2\, a
- nd UNESCO added the festivity to its Representative List of the Intangible
-  Cultural Heritage of Humanity in 2008.\n\nhttps://todaycelebrates.com/hol
- iday/day-of-the-dead/
+  which families prepare for the return of their dead: a home altar\, the d
+ ead person's own favorite dishes\, flower petals laid along the route from
+  the cemetery\, and time spent at the grave. It runs from the end of Octob
+ er into the first days of November\, and in 2008 UNESCO added the indigeno
+ us form of it to the Representative List of the Intangible Cultural Herita
+ ge of Humanity. It is not a Mexican Halloween\, and the name most American
+ s use for it turns out to be a translation of a translation.\n\nhttps://to
+ daycelebrates.com/holiday/day-of-the-dead/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-dead/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6854,8 +6857,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:make-a-difference-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:Make a Difference Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Make a Difference Day is observed across the United States on O
@@ -7904,8 +7907,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-bologna-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:National Bologna Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Bologna Day is observed across the United States on Oc
@@ -9088,8 +9091,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-food-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:National Food Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Food Day is observed across the United States on Octob
@@ -13466,11 +13469,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271002
 DTEND;VALUE=DATE:20271003
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13483,11 +13488,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20280921
 DTEND;VALUE=DATE:20280922
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13500,11 +13507,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20290910
 DTEND;VALUE=DATE:20290911
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13517,11 +13526,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20300928
 DTEND;VALUE=DATE:20300929
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13534,11 +13545,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20310918
 DTEND;VALUE=DATE:20310919
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13551,11 +13564,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20320906
 DTEND;VALUE=DATE:20320907
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13568,11 +13583,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20330924
 DTEND;VALUE=DATE:20330925
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13585,11 +13602,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20340914
 DTEND;VALUE=DATE:20340915
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13602,11 +13621,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20351004
 DTEND;VALUE=DATE:20351005
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -14787,8 +14808,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:take-back-your-time-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:Take Back Your Time Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 24\, Take Back Your Time Day gives people across the
@@ -16051,8 +16072,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:united-nations-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:United Nations Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:United Nations Day commemorates the entry into force of the UN 
@@ -16238,8 +16259,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wear-it-pink-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:Wear it Pink Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 24\, Wear it Pink Day gives people across the United
@@ -16778,8 +16799,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-kangaroo-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:World Kangaroo Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Kangaroo Day celebrates kangaroos and raises awareness of
@@ -16989,8 +17010,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-polio-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:World Polio Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Polio Day\, established by Rotary International\, marks p
