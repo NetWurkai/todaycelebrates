@@ -39,6 +39,7 @@ Usage:
 import argparse
 import calendar
 import datetime
+import hashlib
 import io
 import json
 import os
@@ -884,6 +885,48 @@ def category_json():
     )
 
 
+# ---- asset versioning ----
+#
+# /styles/*, /js/* and /ads/* are cached for a day by the browser (see
+# public/_headers), so a stylesheet change would otherwise reach a returning
+# visitor up to 24 hours late -- the hero band shipped and the first viewer
+# saw it unstyled. Every <link>/<script> to one of these files carries
+# ?v=<8 hex chars of the file's SHA-256>: the URL changes exactly when the
+# file does, so a change is picked up at once and an unchanged file keeps its
+# cache. The hash comes from the file's bytes, never from a timestamp, so a
+# build with nothing changed is still byte-identical.
+VERSIONED_ASSET_RE = re.compile(
+    r'((?:href|src)=")(/(?:styles|js|ads)/[^"?#]+\.(?:css|js))(")'
+)
+
+
+def asset_versions(site_dir):
+    """{site path: short hash} for every versionable file under site_dir."""
+    out = {}
+    for sub in ("styles", "js", "ads"):
+        root = os.path.join(site_dir, sub)
+        for dirpath, _, files in os.walk(root):
+            for fn in files:
+                if not fn.endswith((".css", ".js")):
+                    continue
+                full = os.path.join(dirpath, fn)
+                rel = "/" + os.path.relpath(full, site_dir).replace(os.sep, "/")
+                with open(full, "rb") as f:
+                    out[rel] = hashlib.sha256(f.read()).hexdigest()[:8]
+    return out
+
+
+def version_assets(html, versions):
+    """Append ?v=<hash> to each versionable asset link in `html`.
+
+    A link to a file that is not on disk is left alone rather than failing
+    the build: the page still works, it just caches the old way."""
+    def sub(m):
+        v = versions.get(m.group(2))
+        return f"{m.group(1)}{m.group(2)}?v={v}{m.group(3)}" if v else m.group(0)
+    return VERSIONED_ASSET_RE.sub(sub, html)
+
+
 def load_partial(templates_dir, name):
     key = (templates_dir, name)
     if key not in _partial_cache:
@@ -891,7 +934,7 @@ def load_partial(templates_dir, name):
     return _partial_cache[key]
 
 
-def chrome_for(templates_dir, active=None):
+def chrome_for(templates_dir, active=None, versions=None):
     """Shared page furniture as template-marker values.
 
     `active` names the nav tab to mark current (one of NAV_KEYS), or None for
@@ -908,11 +951,14 @@ def chrome_for(templates_dir, active=None):
         "ICONS": load_partial(templates_dir, "icons.html").rstrip("\n"),
         **nav,
     })
+    versions = versions or {}
     return {
-        "HEAD_COMMON": load_partial(templates_dir, "head.html").rstrip("\n"),
+        "HEAD_COMMON": version_assets(
+            load_partial(templates_dir, "head.html").rstrip("\n"), versions),
         "SITE_HEADER": header.rstrip("\n"),
         "SITE_FOOTER": load_partial(templates_dir, "footer.html").rstrip("\n"),
-        "SITE_SCRIPTS": load_partial(templates_dir, "scripts.html").rstrip("\n"),
+        "SITE_SCRIPTS": version_assets(
+            load_partial(templates_dir, "scripts.html").rstrip("\n"), versions),
     }
 
 
@@ -3226,7 +3272,8 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
     day_dates = [d for d in sorted(day_index) if d >= DAY_ARCHIVE_START]
     published_days = set(day_dates)
 
-    chromes = {k: chrome_for(templates_dir, k) for k in (None,) + NAV_KEYS}
+    versions = asset_versions(site_dir)
+    chromes = {k: chrome_for(templates_dir, k, versions) for k in (None,) + NAV_KEYS}
 
     # ---- submitted occasions (E6) ----
     # Indexed before the pages are written, and kept rigorously apart from

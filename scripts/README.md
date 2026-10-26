@@ -955,6 +955,18 @@ Everything upstream of the Notion row:
 Until (4) is done the feature is dormant: no `occasions.json`, so every page
 the generator writes is byte-identical to what it wrote before E6.
 
+## Asset versioning
+
+Every `<link>`/`<script>` to a file under `/styles/`, `/js/` or `/ads/` in the
+shared head and scripts partials is written as `/styles/site.css?v=41bc4d17`:
+the first 8 hex characters of the file's SHA-256 (`asset_versions()` /
+`version_assets()` in `generate.py`). The URL changes exactly when the file
+does, so a CSS or JS change reaches every browser on the next page view while
+an unchanged file keeps its day-long cache (`public/_headers`). The hash comes
+from bytes, not a timestamp, so a run with nothing changed stays byte-identical.
+Editing `site.css` therefore rewrites every page (the link changes); that is
+the intended cost and the daily action absorbs it.
+
 ## Hero poster band
 
 Every home, observance, dated and perennial page opens with a hero band:
