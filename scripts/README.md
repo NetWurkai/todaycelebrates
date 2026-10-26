@@ -955,6 +955,28 @@ Everything upstream of the Notion row:
 Until (4) is done the feature is dormant: no `occasions.json`, so every page
 the generator writes is byte-identical to what it wrote before E6.
 
+## Hero poster band
+
+Every home, observance, dated and perennial page opens with a hero band:
+the category's fill, a ghost numeral, the date tile and the four-colour
+stripe, drawn from text and CSS only (`.hero` in `public/styles/site.css`).
+No image is requested, so a page gains about 500 bytes and nothing can shift
+after first paint. Dated and perennial pages use the ink variant
+(`.hero.f-ink`) so the archive reads as its own layer. On the home page the
+band replaced the yellow "Leading celebration" box and keeps its ids
+(`leadBox`, `leadName`, `leadOpen`, `leadShareLabel`), which `index.html`'s
+inline script still updates when the visitor picks another day.
+
+**Phase 2 hook (posters).** A holiday row with a `poster` value, a
+site-relative path to an image committed under `public/` (for example
+`/images/posters/halloween.jpg`), renders that image behind the type in the
+band's `.hero-art` layer and uses it as the page's `og:image`. The export
+reads it from an optional Notion property called **Poster** (URL or text; a
+Notion-hosted file is refused because its signed URL expires). No row has
+one today, so every page is the typographic band and the output is identical
+to a build before the field existed. Keep a poster under ~80 KB at 1600 px
+wide (AVIF/WebP preferred); the band crops it with `object-fit: cover`.
+
 ## Share cards (E7)
 
 A build-time PNG beside each page it belongs to, 1200x630, used as that

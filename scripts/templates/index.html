@@ -39,10 +39,16 @@
   <div class="layout">
     <main id="main" data-day-from="<!--TC:DAY_FROM-->" data-day-to="<!--TC:DAY_TO-->" data-today="<!--TC:TODAY_KEY-->">
       <div class="pagehead"><h1 id="listTitle"><!--TC:H1_TEXT--></h1><span class="count mono" id="listCount"><!--TC:COUNT_TEXT--></span></div>
-      <div class="lead" id="leadBox" data-u="<!--TC:LEAD_SHARE_URL-->" data-n="<!--TC:LEAD_SHARE_TITLE-->"<!--TC:LEAD_HIDDEN-->>
-        <div><small>Leading celebration</small><b id="leadName"><!--TC:LEAD_NAME--></b></div>
-        <div class="acts"><a class="btn pri" id="leadOpen" href="<!--TC:LEAD_HREF-->">Open</a><button type="button" class="btn" data-a="share"><svg width="16" height="16" aria-hidden="true"><use href="#i-share"/></svg><span id="leadShareLabel"><!--TC:LEAD_SHARE_LABEL--></span></button></div>
-      </div>
+      <section class="hero <!--TC:HERO_FILL-->" id="leadBox" data-u="<!--TC:LEAD_SHARE_URL-->" data-n="<!--TC:LEAD_SHARE_TITLE-->"<!--TC:LEAD_HIDDEN--> aria-label="Leading celebration">
+        <div class="hero-ghost" id="heroGhost" aria-hidden="true"><!--TC:HERO_DAY--></div>
+        <div>
+          <p class="hero-eyebrow"><span class="tag" id="heroTag"><!--TC:HERO_TAG--></span><span id="heroDate"><!--TC:HERO_DATE--></span></p>
+          <h2 class="hero-name" id="leadName"><!--TC:LEAD_NAME--></h2>
+          <div class="hero-meta"><span id="heroCat"><!--TC:HERO_CAT_PILL--></span><span>Leading celebration</span><span class="dot" aria-hidden="true">&middot;</span><span id="heroCount"><!--TC:COUNT_TEXT--></span></div>
+          <div class="hero-acts"><a class="btn pri" id="leadOpen" href="<!--TC:LEAD_HREF-->">Open</a><button type="button" class="btn" data-a="share"><svg width="16" height="16" aria-hidden="true"><use href="#i-share"/></svg><span id="leadShareLabel"><!--TC:LEAD_SHARE_LABEL--></span></button></div>
+        </div>
+        <div class="tile" aria-hidden="true"><div class="m" id="heroTileM"><!--TC:HERO_MON--></div><div class="n" id="heroTileN"><!--TC:HERO_DAY--></div><div class="w" id="heroTileW"><!--TC:HERO_WEEKDAY--></div></div>
+      </section>
       <table class="obs" id="obsTable"<!--TC:TABLE_HIDDEN-->>
         <thead><tr><th scope="col">#</th><th scope="col">Observance</th><th scope="col">Category</th><th scope="col"><span class="sr">Actions</span></th></tr></thead>
         <tbody id="obsBody"><!--TC:ROWS--></tbody>
@@ -149,6 +155,16 @@
       lead.hidden = false; table.hidden = false; empty.hidden = true;
       document.getElementById("leadName").textContent = l[0];
       document.getElementById("leadOpen").href = "/holiday/" + l[1] + "/";
+      var lc = CATS[l[2]] || [l[2], "lil"];
+      lead.className = "hero f-" + lc[1];
+      document.getElementById("heroCat").innerHTML = '<span class="pill ' + lc[1] + '">' + esc(lc[0]) + '</span>';
+      document.getElementById("heroTag").textContent = k === todayKey ? "Today" : "On this day";
+      document.getElementById("heroDate").textContent = WEEKDAYS[dt.getDay()] + ", " + MONTHS[p[1] - 1] + " " + p[2] + ", " + p[0];
+      document.getElementById("heroCount").textContent = events.length + (events.length === 1 ? " observance" : " observances");
+      document.getElementById("heroGhost").textContent = p[2];
+      document.getElementById("heroTileM").textContent = MON[p[1] - 1].toUpperCase();
+      document.getElementById("heroTileN").textContent = p[2];
+      document.getElementById("heroTileW").textContent = WEEKDAYS[dt.getDay()];
       var inRange = isoDate >= DAY_FROM && isoDate <= DAY_TO;
       lead.dataset.u = k === todayKey ? "/" : (inRange ? "/day/" + isoDate + "/" : "/#" + k);
       lead.dataset.n = k === todayKey ? "What holiday is today? " + dayText : "Holidays on " + dayText;

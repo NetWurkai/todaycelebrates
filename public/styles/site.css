@@ -97,6 +97,58 @@ h1.title{font-size:40px;letter-spacing:-.03em;margin:8px 0 6px}
 a.pill:hover{box-shadow:2px 2px 0 var(--ink)}
 .lbl{font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:800;color:var(--sun);background:var(--ink);padding:2px 6px;margin-left:8px;vertical-align:middle}
 
+/* ---- hero poster band ----
+   One band on the home, observance, dated and perennial pages, drawn from
+   text and CSS alone (no image request): a category-coloured field, a dot
+   texture, a ghost numeral, the date tile and the four-colour stripe. The
+   fill class is the category's pill class (.f-lil/.f-sun/.f-cor/.f-mnt);
+   .f-ink is the dated/perennial archive variant. The band is sized by its
+   own text at build time, so nothing moves after paint, and a poster image
+   dropped into .hero-art later (phase 2) covers whatever box that is. Text stays --ink on a pastel
+   or #fff on ink: the pastels are fills here, never thin text. */
+.hero{position:relative;overflow:hidden;isolation:isolate;border:2px solid var(--ink);border-radius:12px;box-shadow:6px 6px 0 var(--ink);margin:12px 6px 20px 0;min-height:clamp(220px,30cqi,300px);container-type:inline-size;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:24px;padding:24px 28px 32px;background:var(--lilac);color:var(--ink)}
+.hero.f-lil{background:var(--lilac)}.hero.f-sun{background:var(--sun)}.hero.f-cor{background:var(--coral)}.hero.f-mnt{background:var(--mint)}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background-image:radial-gradient(var(--ink) 1.2px,transparent 1.6px);background-size:16px 16px;opacity:.14}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:10px;background:linear-gradient(90deg,var(--coral) 0 25%,var(--sun) 25% 50%,var(--mint) 50% 75%,var(--lilac) 75% 100%);border-top:2px solid var(--ink)}
+.hero-art{position:absolute;inset:0;z-index:-2}
+.hero-art img{width:100%;height:100%;object-fit:cover;display:block}
+.hero-ghost{position:absolute;right:-6cqi;top:-14cqi;z-index:-1;font-size:clamp(220px,46cqi,400px);font-weight:900;letter-spacing:-.08em;line-height:1;color:var(--ink);opacity:.07;pointer-events:none;user-select:none}
+.hero-eyebrow{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;margin:0 0 10px}
+.hero-eyebrow .tag{background:var(--ink);color:var(--sun);padding:3px 8px;border-radius:3px}
+.hero h1,.hero-name{margin:0 0 12px;font-size:clamp(30px,7.2cqi,60px);font-weight:900;letter-spacing:-.04em;line-height:.98;max-width:11em}
+.hero h1 a{text-decoration:none}
+.hero-meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0;font-size:14px;font-weight:600}
+.hero-meta .dot{opacity:.6}
+.hero-acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.hero-stepper{position:absolute;right:24px;top:22px;display:flex;gap:6px;z-index:1}
+.hero-stepper .btn{min-width:44px;font-size:20px;padding:0 12px}
+.hero:has(.hero-stepper){padding-top:80px}
+.hero[hidden]{display:none}
+.tile{display:grid;grid-template-rows:auto 1fr auto;width:clamp(100px,18cqi,150px);background:#fff;border:2px solid var(--ink);border-radius:10px;box-shadow:4px 4px 0 var(--ink);overflow:hidden;text-align:center;align-self:end;color:var(--ink)}
+.tile .m{background:var(--ink);color:#fff;font-size:13px;letter-spacing:.18em;font-weight:800;padding:8px 0}
+.tile .n{display:grid;place-items:center;font-size:clamp(52px,10cqi,84px);font-weight:900;letter-spacing:-.06em;line-height:1;padding:10px 0 4px}
+.tile .w{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;padding:0 0 12px}
+/* archive variant: dated and perennial pages */
+.hero.f-ink{background:var(--ink);color:#fff;box-shadow:6px 6px 0 var(--lilac)}
+.hero.f-ink::before{background-image:radial-gradient(#fff 1.2px,transparent 1.6px);opacity:.12}
+.hero.f-ink::after{border-top:0}
+.hero.f-ink .hero-ghost{color:#fff;opacity:.06}
+.hero.f-ink .hero-eyebrow .tag{background:var(--sun);color:var(--ink)}
+.hero.f-ink .hero-meta{color:#e9e4f7}
+.hero.f-ink .hero-meta .pill{border-color:#fff}
+.hero.f-ink .tile{box-shadow:4px 4px 0 var(--sun)}
+.hero.f-ink .tile .m{background:var(--coral);color:var(--ink);border-bottom:2px solid var(--ink)}
+@media (max-width:760px){
+  .hero{min-height:0;margin-right:0;padding:16px 16px 26px;gap:14px}
+  .hero h1,.hero-name{max-width:none}
+  .hero:has(.hero-stepper){padding-top:16px}
+  .hero-stepper{position:static;grid-column:1 / -1;justify-content:flex-end;margin-bottom:-6px}
+  .tile{width:92px;align-self:end}
+  .tile .n{font-size:48px;padding:6px 0 2px}
+  .tile .m{font-size:11px;letter-spacing:.14em;padding:5px 0}.tile .w{font-size:10px;padding-bottom:7px}
+}
+}
+
 /* ---- observance tables ---- */
 .lead{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--sun);border:2px solid var(--ink);border-radius:10px;box-shadow:4px 4px 0 var(--ink);padding:14px 16px;margin:16px 4px 20px 0}
 .lead[hidden]{display:none}

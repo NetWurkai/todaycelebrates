@@ -498,6 +498,21 @@ def extract_holiday(page):
     if obs_type:
         entry["type"] = obs_type
 
+    # ---- hero poster (phase 2 of the hero band) ----
+    #
+    # Optional "Poster" property: a site-relative path to an image already in
+    # the repo (e.g. "/images/posters/halloween.jpg"), which generate.py draws
+    # behind the observance page's hero band and uses as its og:image. Left
+    # OUT when unset, for the same byte-identity reason as the fields below.
+    # A URL (Notion "url" type) or plain text both work; a Notion-hosted file
+    # is deliberately not accepted, because its signed URL expires.
+    poster_prop = props.get("Poster", {})
+    poster = (poster_prop.get("url")
+              or plain_text(poster_prop.get("rich_text", []))).strip() \
+        if poster_prop else ""
+    if poster.startswith("/"):
+        entry["poster"] = poster
+
     # ---- long-form content fields (E1) ----
     #
     # All of these are optional, and an absent or empty one is left OUT of the

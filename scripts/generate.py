@@ -218,6 +218,67 @@ ICS_PRODID = "-//Today Celebrates//Site Generator//EN"
 ICS_REFRESH = "P1D"
 
 
+
+# ---- hero poster band ----
+#
+# Every home, observance, dated and perennial page opens with a hero band drawn
+# from text and CSS alone: the category's fill, a ghost numeral, the date tile
+# and the stripe (public/styles/site.css, ".hero"). No image is requested, so
+# it costs a page ~1 KB and nothing can shift after first paint.
+#
+# Phase 2 hook: a holiday row carrying a `poster` value (a site-relative image
+# path, e.g. "/images/posters/halloween.jpg") renders that image into the
+# band's .hero-art layer behind the type, and that image becomes the page's
+# og:image. Rows without one -- all of them today -- get the typographic band
+# only, and the output is identical to a build before the field existed.
+
+def hero_date_values(d, weekday=True):
+    """The tile and ghost-numeral slots for one date."""
+    return {
+        "HERO_MON": MONTH_ABBR[d.month].upper(),
+        "HERO_DAY": str(d.day),
+        "HERO_WEEKDAY": WEEKDAY_NAMES[d.weekday()] if weekday else "",
+        "HERO_YEAR": str(d.year),
+    }
+
+
+def hero_art_html(holiday, name):
+    """The .hero-art layer for a row with a poster, else nothing."""
+    poster = (holiday or {}).get("poster")
+    if not poster:
+        return ""
+    return (
+        f'<div class="hero-art"><img src="{esc_attr(poster)}" alt="" '
+        f'width="1600" height="667" loading="eager" fetchpriority="high" '
+        f'decoding="async"></div>'
+    )
+
+
+def hero_poster_abs(holiday):
+    """Absolute URL of a row's poster, or None when it has none."""
+    poster = (holiday or {}).get("poster")
+    return f"{SITE_BASE_URL}{poster}" if poster else None
+
+
+def hero_day_meta(items, n, floating=0):
+    """The dated/perennial band's one-line summary: the count, then one pill
+    per category present, in the order the list introduces them."""
+    if n:
+        text = f"{n} national, international and world {plural(n, 'observance')}"
+    else:
+        text = "No observances on record"
+    if floating:
+        text += f", plus {floating} that {plural(floating, 'moves', 'move')}"
+    seen = []
+    for h in items:
+        if h["category"] not in seen:
+            seen.append(h["category"])
+    pills = "".join(cat_pill(c) for c in seen[:4])
+    if pills:
+        return (f"<span>{esc_attr(text)}</span>"
+                f'<span class="dot" aria-hidden="true">&middot;</span>{pills}')
+    return f"<span>{esc_attr(text)}</span>"
+
 # ---- share cards (E7) ----
 #
 # One 1200x630 PNG per page, drawn at build time in the site's own palette,
@@ -2027,7 +2088,8 @@ def render_page(holiday, occ_date, day_link, by_slug, memo, template, chrome,
     description = holiday["description"]
     path = f"/holiday/{slug}/"
     url = f"{SITE_BASE_URL}{path}"
-    image = card_url or f"{SITE_BASE_URL}/images/hero/{category}.jpg"
+    image = (hero_poster_abs(holiday) or card_url
+             or f"{SITE_BASE_URL}/images/hero/{category}.jpg")
     iso_date = occ_date.isoformat()
     date_long = f"{MONTH_NAMES[occ_date.month]} {occ_date.day}, {occ_date.year}"
     date_short = f"{MONTH_NAMES[occ_date.month]} {occ_date.day}"
@@ -2104,6 +2166,10 @@ def render_page(holiday, occ_date, day_link, by_slug, memo, template, chrome,
         "SHARE_TEXT": esc_attr(share_text),
         "SHARE_LINKS": share_links(path, share_text),
         "ALSO_ON": also_on_html(occ_date, same_day, slug, day_published),
+        "HERO_FILL": f"f-{cat_pill_class(category)}",
+        "HERO_ART": hero_art_html(holiday, name),
+        "HERO_DATE": esc_attr(weekday_long_date(occ_date)),
+        **hero_date_values(occ_date),
         **chrome,
     })
 
@@ -2425,8 +2491,9 @@ def render_day_page(date, items, prev_date, next_date, template, by_slug, memo,
         # og:image/twitter:image want an absolute URL -- several scrapers won't
         # resolve a site-relative one.
         "HERO_IMAGE_ABS": card_url or f"{SITE_BASE_URL}{hero_rel}",
-        "WEEKDAY_LINE": esc_attr(weekday_long_date(date)).upper(),
         "HEADLINE": esc_attr(share_title),
+        "HERO_META": hero_day_meta(items, n),
+        **hero_date_values(date),
         "INTRO": (
             f"{n} national, international, and world {plural(n, 'observance')} "
             f"{plural(n, 'is', 'are')} on the calendar for "
@@ -2923,8 +2990,11 @@ def render_perennial_page(key, bucket, prev_key, next_key, template, chrome,
         "PATH": path,
         "HERO_IMAGE_ABS": card_url or f"{SITE_BASE_URL}{hero_rel}",
         "CRUMBS": crumbs_html(("Calendar", "/dates/"), (label, None)),
-        "EYEBROW": esc_attr(f"EVERY {label}").upper(),
         "HEADLINE": esc_attr(share_title),
+        "HERO_LABEL": esc_attr(label),
+        "HERO_META": hero_day_meta(annual, n, floating=nf),
+        "HERO_MON": MONTH_ABBR[month].upper(),
+        "HERO_DAY": str(day),
         "INTRO": intro,
         "LIST_BLOCK": list_block,
         "MOVES_NOTE": perennial_moves_html(label, floating),
@@ -3002,6 +3072,11 @@ def render_home(date, items, template, chrome, has_day_page, month_days,
         "LEAD_SHARE_URL": "/",
         "LEAD_SHARE_TITLE": esc_attr(f"What holiday is today? {base}"),
         "LEAD_SHARE_LABEL": "Share today",
+        "HERO_FILL": f"f-{cat_pill_class(lead['category'])}" if lead else "f-lil",
+        "HERO_TAG": "Today",
+        "HERO_DATE": esc_attr(weekday_long_date(date)),
+        "HERO_CAT_PILL": cat_pill(lead["category"]) if lead else "",
+        **hero_date_values(date),
         "TABLE_HIDDEN": "" if lead else " hidden",
         "EMPTY_HIDDEN": " hidden" if lead else "",
         "ROWS": "".join(obs_row(h, i, iso) for i, h in enumerate(items)),
