@@ -13,22 +13,6 @@ SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/event.ics
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:sweetest-day-20261017@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Sweetest Day
-DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
-  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
- s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
- s://todaycelebrates.com/holiday/sweetest-day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:sweetest-day-20271016@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271016

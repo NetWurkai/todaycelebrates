@@ -231,8 +231,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:adventure-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:Adventure Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Adventure Day is observed across the United States on October 1
@@ -481,8 +481,12 @@ DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:April Fools' Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:April Fools' Day\, observed on April 1\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
+DESCRIPTION:April Fools' Day falls on April 1 and is kept across much of th
+ e Western world with no agreed account of where it came from. Asked the or
+ igin question directly\, a Library of Congress folklorist answered: "The s
+ hort answer is that nobody knows for sure." The uncertainty is not a moder
+ n failing — an almanac verse printed in 1760 already conceded that the p
+ eople keeping the day could not say why.\n\nhttps://todaycelebrates.com/ho
  liday/april-fools-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/april-fools-day/
 CATEGORIES:Celebration
@@ -525,8 +529,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:babbling-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271022
 SUMMARY:Babbling Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Babbling Day is observed across the United States on October 21
@@ -541,8 +545,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:back-to-the-future-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271022
 SUMMARY:Back To The Future Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Back to the Future Day celebrates October 21\, 2015 — the exa
@@ -834,9 +838,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -849,9 +858,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271126
 DTEND;VALUE=DATE:20271127
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -864,9 +878,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20281124
 DTEND;VALUE=DATE:20281125
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -879,9 +898,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20291123
 DTEND;VALUE=DATE:20291124
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -894,9 +918,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20301129
 DTEND;VALUE=DATE:20301130
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -909,9 +938,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20311128
 DTEND;VALUE=DATE:20311129
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -924,9 +958,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20321126
 DTEND;VALUE=DATE:20321127
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -939,9 +978,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20331125
 DTEND;VALUE=DATE:20331126
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -954,9 +998,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20341124
 DTEND;VALUE=DATE:20341125
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -969,9 +1018,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20351123
 DTEND;VALUE=DATE:20351124
 SUMMARY:Black Friday
-DESCRIPTION:Black Friday\, observed on November 27\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/black-friday/
+DESCRIPTION:Black Friday is the Friday after Thanksgiving and the conventio
+ nal opening of the American Christmas shopping season. The tidy explanatio
+ n of its name — that it marks the day retailers' books finally turn from
+  red ink to black — is not where the term came from\, and Britannica cal
+ ls that version untrue. The phrase began as a complaint about crowds\, in 
+ Philadelphia\, and was rebranded into a compliment by retailers roughly a 
+ quarter of a century later.\n\nhttps://todaycelebrates.com/holiday/black-f
+ riday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/black-friday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -1148,8 +1202,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bosses-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:Bosses Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Boss's Day\, started in 1958\, gives employees a chance to than
@@ -1196,8 +1250,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:brandied-fruit-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
 SUMMARY:Brandied Fruit Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 20\, Brandied Fruit Day gives people across the Unit
@@ -1347,8 +1401,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bridge-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:Bridge Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Bridge Day is observed across the United States on October 17\,
@@ -1797,9 +1851,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Chinese New Year
-DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
- oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
- /holiday/chinese-new-year/
+DESCRIPTION:Chinese New Year\, also called the Spring Festival\, opens the 
+ year in the traditional Chinese lunisolar calendar and runs fifteen days\,
+  from the reunion dinner on New Year's Eve to the Lantern Festival. Its da
+ te moves: the Congressional Research Service puts the start at the second 
+ new moon after the winter solstice\, which falls between January 21 and Fe
+ bruary 19. It is not a federal holiday in the United States\, though five 
+ states have given it official recognition of some kind.\n\nhttps://todayce
+ lebrates.com/holiday/chinese-new-year/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -1812,9 +1871,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20280126
 DTEND;VALUE=DATE:20280127
 SUMMARY:Chinese New Year
-DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
- oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
- /holiday/chinese-new-year/
+DESCRIPTION:Chinese New Year\, also called the Spring Festival\, opens the 
+ year in the traditional Chinese lunisolar calendar and runs fifteen days\,
+  from the reunion dinner on New Year's Eve to the Lantern Festival. Its da
+ te moves: the Congressional Research Service puts the start at the second 
+ new moon after the winter solstice\, which falls between January 21 and Fe
+ bruary 19. It is not a federal holiday in the United States\, though five 
+ states have given it official recognition of some kind.\n\nhttps://todayce
+ lebrates.com/holiday/chinese-new-year/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -1827,9 +1891,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20290213
 DTEND;VALUE=DATE:20290214
 SUMMARY:Chinese New Year
-DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
- oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
- /holiday/chinese-new-year/
+DESCRIPTION:Chinese New Year\, also called the Spring Festival\, opens the 
+ year in the traditional Chinese lunisolar calendar and runs fifteen days\,
+  from the reunion dinner on New Year's Eve to the Lantern Festival. Its da
+ te moves: the Congressional Research Service puts the start at the second 
+ new moon after the winter solstice\, which falls between January 21 and Fe
+ bruary 19. It is not a federal holiday in the United States\, though five 
+ states have given it official recognition of some kind.\n\nhttps://todayce
+ lebrates.com/holiday/chinese-new-year/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -1842,9 +1911,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20300203
 DTEND;VALUE=DATE:20300204
 SUMMARY:Chinese New Year
-DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
- oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
- /holiday/chinese-new-year/
+DESCRIPTION:Chinese New Year\, also called the Spring Festival\, opens the 
+ year in the traditional Chinese lunisolar calendar and runs fifteen days\,
+  from the reunion dinner on New Year's Eve to the Lantern Festival. Its da
+ te moves: the Congressional Research Service puts the start at the second 
+ new moon after the winter solstice\, which falls between January 21 and Fe
+ bruary 19. It is not a federal holiday in the United States\, though five 
+ states have given it official recognition of some kind.\n\nhttps://todayce
+ lebrates.com/holiday/chinese-new-year/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -1857,9 +1931,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20310123
 DTEND;VALUE=DATE:20310124
 SUMMARY:Chinese New Year
-DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
- oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
- /holiday/chinese-new-year/
+DESCRIPTION:Chinese New Year\, also called the Spring Festival\, opens the 
+ year in the traditional Chinese lunisolar calendar and runs fifteen days\,
+  from the reunion dinner on New Year's Eve to the Lantern Festival. Its da
+ te moves: the Congressional Research Service puts the start at the second 
+ new moon after the winter solstice\, which falls between January 21 and Fe
+ bruary 19. It is not a federal holiday in the United States\, though five 
+ states have given it official recognition of some kind.\n\nhttps://todayce
+ lebrates.com/holiday/chinese-new-year/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -1872,9 +1951,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20320211
 DTEND;VALUE=DATE:20320212
 SUMMARY:Chinese New Year
-DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
- oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
- /holiday/chinese-new-year/
+DESCRIPTION:Chinese New Year\, also called the Spring Festival\, opens the 
+ year in the traditional Chinese lunisolar calendar and runs fifteen days\,
+  from the reunion dinner on New Year's Eve to the Lantern Festival. Its da
+ te moves: the Congressional Research Service puts the start at the second 
+ new moon after the winter solstice\, which falls between January 21 and Fe
+ bruary 19. It is not a federal holiday in the United States\, though five 
+ states have given it official recognition of some kind.\n\nhttps://todayce
+ lebrates.com/holiday/chinese-new-year/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -1887,9 +1971,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20330131
 DTEND;VALUE=DATE:20330201
 SUMMARY:Chinese New Year
-DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
- oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
- /holiday/chinese-new-year/
+DESCRIPTION:Chinese New Year\, also called the Spring Festival\, opens the 
+ year in the traditional Chinese lunisolar calendar and runs fifteen days\,
+  from the reunion dinner on New Year's Eve to the Lantern Festival. Its da
+ te moves: the Congressional Research Service puts the start at the second 
+ new moon after the winter solstice\, which falls between January 21 and Fe
+ bruary 19. It is not a federal holiday in the United States\, though five 
+ states have given it official recognition of some kind.\n\nhttps://todayce
+ lebrates.com/holiday/chinese-new-year/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -1902,9 +1991,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20340219
 DTEND;VALUE=DATE:20340220
 SUMMARY:Chinese New Year
-DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
- oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
- /holiday/chinese-new-year/
+DESCRIPTION:Chinese New Year\, also called the Spring Festival\, opens the 
+ year in the traditional Chinese lunisolar calendar and runs fifteen days\,
+  from the reunion dinner on New Year's Eve to the Lantern Festival. Its da
+ te moves: the Congressional Research Service puts the start at the second 
+ new moon after the winter solstice\, which falls between January 21 and Fe
+ bruary 19. It is not a federal holiday in the United States\, though five 
+ states have given it official recognition of some kind.\n\nhttps://todayce
+ lebrates.com/holiday/chinese-new-year/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -1917,9 +2011,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20350208
 DTEND;VALUE=DATE:20350209
 SUMMARY:Chinese New Year
-DESCRIPTION:Chinese New Year\, observed on February 7\, is a lighthearted h
- oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
- /holiday/chinese-new-year/
+DESCRIPTION:Chinese New Year\, also called the Spring Festival\, opens the 
+ year in the traditional Chinese lunisolar calendar and runs fifteen days\,
+  from the reunion dinner on New Year's Eve to the Lantern Festival. Its da
+ te moves: the Congressional Research Service puts the start at the second 
+ new moon after the winter solstice\, which falls between January 21 and Fe
+ bruary 19. It is not a federal holiday in the United States\, though five 
+ states have given it official recognition of some kind.\n\nhttps://todayce
+ lebrates.com/holiday/chinese-new-year/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/chinese-new-year/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2007,9 +2106,14 @@ DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270506
 SUMMARY:Cinco de Mayo
 RRULE:FREQ=YEARLY
-DESCRIPTION:Cinco de Mayo\, observed on May 5\, is a lighthearted holiday c
- elebrated across the United States.\n\nhttps://todaycelebrates.com/holiday
- /cinco-de-mayo/
+DESCRIPTION:Cinco de Mayo marks a single day's fighting: on May 5\, 1862\, 
+ a Mexican army stopped an elite French force at Puebla\, a city about 80 m
+ iles southeast of Mexico City. It is not Mexican Independence Day\, which 
+ falls on September 16\, and it is observed far more widely in the United S
+ tates than in Mexico. The American holiday was built in California by Mexi
+ can Americans within a year of the battle\, and reinvented more than a cen
+ tury later by beer companies.\n\nhttps://todaycelebrates.com/holiday/cinco
+ -de-mayo/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/cinco-de-mayo/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2338,8 +2442,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:count-your-buttons-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271022
 SUMMARY:Count Your Buttons Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 21\, Count Your Buttons Day gives people across the 
@@ -2493,11 +2597,14 @@ DTEND;VALUE=DATE:20261103
 SUMMARY:Day of the Dead
 RRULE:FREQ=YEARLY
 DESCRIPTION:Day of the Dead - Dia de Muertos - is the Mexican observance in
-  which families welcome the dead back with home altars\, favorite foods\, 
- marigolds\, and visits to the cemetery. Events run on November 1 and 2\, a
- nd UNESCO added the festivity to its Representative List of the Intangible
-  Cultural Heritage of Humanity in 2008.\n\nhttps://todaycelebrates.com/hol
- iday/day-of-the-dead/
+  which families prepare for the return of their dead: a home altar\, the d
+ ead person's own favorite dishes\, flower petals laid along the route from
+  the cemetery\, and time spent at the grave. It runs from the end of Octob
+ er into the first days of November\, and in 2008 UNESCO added the indigeno
+ us form of it to the Representative List of the Intangible Cultural Herita
+ ge of Humanity. It is not a Mexican Halloween\, and the name most American
+ s use for it turns out to be a translation of a translation.\n\nhttps://to
+ daycelebrates.com/holiday/day-of-the-dead/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/day-of-the-dead/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2526,9 +2633,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Daylight Saving Time Ends
-DESCRIPTION:Daylight Saving Time Ends\, observed on November 1\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/daylight-saving-time-ends/
+DESCRIPTION:Daylight Saving Time ends on the first Sunday in November\, whe
+ n clocks across most of the United States are set back one hour at 2:00 a.
+ m. daylight time\, which becomes 1:00 a.m. standard time. The schedule is 
+ federal law rather than custom: the dates have been fixed in the U.S. Code
+  since 1966 and have taken their present form since 2007. Hawaii and most 
+ of Arizona never moved their clocks forward in March\, so they have nothin
+ g to set back.\n\nhttps://todaycelebrates.com/holiday/daylight-saving-time
+ -ends/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/daylight-saving-time-ends
  /
 CATEGORIES:Celebration
@@ -2542,9 +2654,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271107
 DTEND;VALUE=DATE:20271108
 SUMMARY:Daylight Saving Time Ends
-DESCRIPTION:Daylight Saving Time Ends\, observed on November 1\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/daylight-saving-time-ends/
+DESCRIPTION:Daylight Saving Time ends on the first Sunday in November\, whe
+ n clocks across most of the United States are set back one hour at 2:00 a.
+ m. daylight time\, which becomes 1:00 a.m. standard time. The schedule is 
+ federal law rather than custom: the dates have been fixed in the U.S. Code
+  since 1966 and have taken their present form since 2007. Hawaii and most 
+ of Arizona never moved their clocks forward in March\, so they have nothin
+ g to set back.\n\nhttps://todaycelebrates.com/holiday/daylight-saving-time
+ -ends/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/daylight-saving-time-ends
  /
 CATEGORIES:Celebration
@@ -2558,9 +2675,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20281105
 DTEND;VALUE=DATE:20281106
 SUMMARY:Daylight Saving Time Ends
-DESCRIPTION:Daylight Saving Time Ends\, observed on November 1\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/daylight-saving-time-ends/
+DESCRIPTION:Daylight Saving Time ends on the first Sunday in November\, whe
+ n clocks across most of the United States are set back one hour at 2:00 a.
+ m. daylight time\, which becomes 1:00 a.m. standard time. The schedule is 
+ federal law rather than custom: the dates have been fixed in the U.S. Code
+  since 1966 and have taken their present form since 2007. Hawaii and most 
+ of Arizona never moved their clocks forward in March\, so they have nothin
+ g to set back.\n\nhttps://todaycelebrates.com/holiday/daylight-saving-time
+ -ends/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/daylight-saving-time-ends
  /
 CATEGORIES:Celebration
@@ -2574,9 +2696,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20291104
 DTEND;VALUE=DATE:20291105
 SUMMARY:Daylight Saving Time Ends
-DESCRIPTION:Daylight Saving Time Ends\, observed on November 1\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/daylight-saving-time-ends/
+DESCRIPTION:Daylight Saving Time ends on the first Sunday in November\, whe
+ n clocks across most of the United States are set back one hour at 2:00 a.
+ m. daylight time\, which becomes 1:00 a.m. standard time. The schedule is 
+ federal law rather than custom: the dates have been fixed in the U.S. Code
+  since 1966 and have taken their present form since 2007. Hawaii and most 
+ of Arizona never moved their clocks forward in March\, so they have nothin
+ g to set back.\n\nhttps://todaycelebrates.com/holiday/daylight-saving-time
+ -ends/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/daylight-saving-time-ends
  /
 CATEGORIES:Celebration
@@ -2590,9 +2717,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20301103
 DTEND;VALUE=DATE:20301104
 SUMMARY:Daylight Saving Time Ends
-DESCRIPTION:Daylight Saving Time Ends\, observed on November 1\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/daylight-saving-time-ends/
+DESCRIPTION:Daylight Saving Time ends on the first Sunday in November\, whe
+ n clocks across most of the United States are set back one hour at 2:00 a.
+ m. daylight time\, which becomes 1:00 a.m. standard time. The schedule is 
+ federal law rather than custom: the dates have been fixed in the U.S. Code
+  since 1966 and have taken their present form since 2007. Hawaii and most 
+ of Arizona never moved their clocks forward in March\, so they have nothin
+ g to set back.\n\nhttps://todaycelebrates.com/holiday/daylight-saving-time
+ -ends/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/daylight-saving-time-ends
  /
 CATEGORIES:Celebration
@@ -2606,9 +2738,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20311102
 DTEND;VALUE=DATE:20311103
 SUMMARY:Daylight Saving Time Ends
-DESCRIPTION:Daylight Saving Time Ends\, observed on November 1\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/daylight-saving-time-ends/
+DESCRIPTION:Daylight Saving Time ends on the first Sunday in November\, whe
+ n clocks across most of the United States are set back one hour at 2:00 a.
+ m. daylight time\, which becomes 1:00 a.m. standard time. The schedule is 
+ federal law rather than custom: the dates have been fixed in the U.S. Code
+  since 1966 and have taken their present form since 2007. Hawaii and most 
+ of Arizona never moved their clocks forward in March\, so they have nothin
+ g to set back.\n\nhttps://todaycelebrates.com/holiday/daylight-saving-time
+ -ends/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/daylight-saving-time-ends
  /
 CATEGORIES:Celebration
@@ -2622,9 +2759,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20321107
 DTEND;VALUE=DATE:20321108
 SUMMARY:Daylight Saving Time Ends
-DESCRIPTION:Daylight Saving Time Ends\, observed on November 1\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/daylight-saving-time-ends/
+DESCRIPTION:Daylight Saving Time ends on the first Sunday in November\, whe
+ n clocks across most of the United States are set back one hour at 2:00 a.
+ m. daylight time\, which becomes 1:00 a.m. standard time. The schedule is 
+ federal law rather than custom: the dates have been fixed in the U.S. Code
+  since 1966 and have taken their present form since 2007. Hawaii and most 
+ of Arizona never moved their clocks forward in March\, so they have nothin
+ g to set back.\n\nhttps://todaycelebrates.com/holiday/daylight-saving-time
+ -ends/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/daylight-saving-time-ends
  /
 CATEGORIES:Celebration
@@ -2638,9 +2780,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20331106
 DTEND;VALUE=DATE:20331107
 SUMMARY:Daylight Saving Time Ends
-DESCRIPTION:Daylight Saving Time Ends\, observed on November 1\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/daylight-saving-time-ends/
+DESCRIPTION:Daylight Saving Time ends on the first Sunday in November\, whe
+ n clocks across most of the United States are set back one hour at 2:00 a.
+ m. daylight time\, which becomes 1:00 a.m. standard time. The schedule is 
+ federal law rather than custom: the dates have been fixed in the U.S. Code
+  since 1966 and have taken their present form since 2007. Hawaii and most 
+ of Arizona never moved their clocks forward in March\, so they have nothin
+ g to set back.\n\nhttps://todaycelebrates.com/holiday/daylight-saving-time
+ -ends/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/daylight-saving-time-ends
  /
 CATEGORIES:Celebration
@@ -2654,9 +2801,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20341105
 DTEND;VALUE=DATE:20341106
 SUMMARY:Daylight Saving Time Ends
-DESCRIPTION:Daylight Saving Time Ends\, observed on November 1\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/daylight-saving-time-ends/
+DESCRIPTION:Daylight Saving Time ends on the first Sunday in November\, whe
+ n clocks across most of the United States are set back one hour at 2:00 a.
+ m. daylight time\, which becomes 1:00 a.m. standard time. The schedule is 
+ federal law rather than custom: the dates have been fixed in the U.S. Code
+  since 1966 and have taken their present form since 2007. Hawaii and most 
+ of Arizona never moved their clocks forward in March\, so they have nothin
+ g to set back.\n\nhttps://todaycelebrates.com/holiday/daylight-saving-time
+ -ends/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/daylight-saving-time-ends
  /
 CATEGORIES:Celebration
@@ -2670,9 +2822,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20351104
 DTEND;VALUE=DATE:20351105
 SUMMARY:Daylight Saving Time Ends
-DESCRIPTION:Daylight Saving Time Ends\, observed on November 1\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/daylight-saving-time-ends/
+DESCRIPTION:Daylight Saving Time ends on the first Sunday in November\, whe
+ n clocks across most of the United States are set back one hour at 2:00 a.
+ m. daylight time\, which becomes 1:00 a.m. standard time. The schedule is 
+ federal law rather than custom: the dates have been fixed in the U.S. Code
+  since 1966 and have taken their present form since 2007. Hawaii and most 
+ of Arizona never moved their clocks forward in March\, so they have nothin
+ g to set back.\n\nhttps://todaycelebrates.com/holiday/daylight-saving-time
+ -ends/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/daylight-saving-time-ends
  /
 CATEGORIES:Celebration
@@ -2683,8 +2840,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dictionary-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:Dictionary Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 16\, Dictionary Day gives people across the United S
@@ -2767,9 +2924,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Diwali
-DESCRIPTION:Diwali\, observed on November 8\, is a lighthearted holiday cel
- ebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/d
- iwali/
+DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
+  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
+ pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
+ an the Gregorian one\, so it moves between mid-October and mid-November. I
+ n the United States it has recently become a legislated holiday as well as
+  a domestic one — New York City closes its public schools for it\, and P
+ ennsylvania has designated a state Diwali Day\, though without requiring a
+ nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2782,9 +2944,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271029
 DTEND;VALUE=DATE:20271030
 SUMMARY:Diwali
-DESCRIPTION:Diwali\, observed on November 8\, is a lighthearted holiday cel
- ebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/d
- iwali/
+DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
+  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
+ pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
+ an the Gregorian one\, so it moves between mid-October and mid-November. I
+ n the United States it has recently become a legislated holiday as well as
+  a domestic one — New York City closes its public schools for it\, and P
+ ennsylvania has designated a state Diwali Day\, though without requiring a
+ nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2797,9 +2964,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20281017
 DTEND;VALUE=DATE:20281018
 SUMMARY:Diwali
-DESCRIPTION:Diwali\, observed on November 8\, is a lighthearted holiday cel
- ebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/d
- iwali/
+DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
+  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
+ pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
+ an the Gregorian one\, so it moves between mid-October and mid-November. I
+ n the United States it has recently become a legislated holiday as well as
+  a domestic one — New York City closes its public schools for it\, and P
+ ennsylvania has designated a state Diwali Day\, though without requiring a
+ nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2812,9 +2984,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20291105
 DTEND;VALUE=DATE:20291106
 SUMMARY:Diwali
-DESCRIPTION:Diwali\, observed on November 8\, is a lighthearted holiday cel
- ebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/d
- iwali/
+DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
+  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
+ pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
+ an the Gregorian one\, so it moves between mid-October and mid-November. I
+ n the United States it has recently become a legislated holiday as well as
+  a domestic one — New York City closes its public schools for it\, and P
+ ennsylvania has designated a state Diwali Day\, though without requiring a
+ nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2827,9 +3004,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20301026
 DTEND;VALUE=DATE:20301027
 SUMMARY:Diwali
-DESCRIPTION:Diwali\, observed on November 8\, is a lighthearted holiday cel
- ebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/d
- iwali/
+DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
+  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
+ pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
+ an the Gregorian one\, so it moves between mid-October and mid-November. I
+ n the United States it has recently become a legislated holiday as well as
+  a domestic one — New York City closes its public schools for it\, and P
+ ennsylvania has designated a state Diwali Day\, though without requiring a
+ nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2842,9 +3024,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20311114
 DTEND;VALUE=DATE:20311115
 SUMMARY:Diwali
-DESCRIPTION:Diwali\, observed on November 8\, is a lighthearted holiday cel
- ebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/d
- iwali/
+DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
+  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
+ pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
+ an the Gregorian one\, so it moves between mid-October and mid-November. I
+ n the United States it has recently become a legislated holiday as well as
+  a domestic one — New York City closes its public schools for it\, and P
+ ennsylvania has designated a state Diwali Day\, though without requiring a
+ nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2857,9 +3044,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20321102
 DTEND;VALUE=DATE:20321103
 SUMMARY:Diwali
-DESCRIPTION:Diwali\, observed on November 8\, is a lighthearted holiday cel
- ebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/d
- iwali/
+DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
+  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
+ pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
+ an the Gregorian one\, so it moves between mid-October and mid-November. I
+ n the United States it has recently become a legislated holiday as well as
+  a domestic one — New York City closes its public schools for it\, and P
+ ennsylvania has designated a state Diwali Day\, though without requiring a
+ nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2872,9 +3064,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20331022
 DTEND;VALUE=DATE:20331023
 SUMMARY:Diwali
-DESCRIPTION:Diwali\, observed on November 8\, is a lighthearted holiday cel
- ebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/d
- iwali/
+DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
+  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
+ pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
+ an the Gregorian one\, so it moves between mid-October and mid-November. I
+ n the United States it has recently become a legislated holiday as well as
+  a domestic one — New York City closes its public schools for it\, and P
+ ennsylvania has designated a state Diwali Day\, though without requiring a
+ nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2887,9 +3084,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20341110
 DTEND;VALUE=DATE:20341111
 SUMMARY:Diwali
-DESCRIPTION:Diwali\, observed on November 8\, is a lighthearted holiday cel
- ebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/d
- iwali/
+DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
+  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
+ pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
+ an the Gregorian one\, so it moves between mid-October and mid-November. I
+ n the United States it has recently become a legislated holiday as well as
+  a domestic one — New York City closes its public schools for it\, and P
+ ennsylvania has designated a state Diwali Day\, though without requiring a
+ nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2902,9 +3104,14 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20351030
 DTEND;VALUE=DATE:20351031
 SUMMARY:Diwali
-DESCRIPTION:Diwali\, observed on November 8\, is a lighthearted holiday cel
- ebrated across the United States.\n\nhttps://todaycelebrates.com/holiday/d
- iwali/
+DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
+  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
+ pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
+ an the Gregorian one\, so it moves between mid-October and mid-November. I
+ n the United States it has recently become a legislated holiday as well as
+  a domestic one — New York City closes its public schools for it\, and P
+ ennsylvania has designated a state Diwali Day\, though without requiring a
+ nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3212,8 +3419,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:evaluate-your-life-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
+DTSTART;VALUE=DATE:20271019
+DTEND;VALUE=DATE:20271020
 SUMMARY:Evaluate Your Life Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 19\, Evaluate Your Life Day gives people across the 
@@ -3228,8 +3435,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-organizers-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:Event Organizers Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Event Organizers Day is observed across the United States on Oc
@@ -3542,9 +3749,12 @@ DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270615
 SUMMARY:Flag Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Flag Day\, observed on June 14\, is a lighthearted holiday cele
- brated across the United States.\n\nhttps://todaycelebrates.com/holiday/fl
- ag-day/
+DESCRIPTION:Flag Day falls on June 14\, the anniversary of the 1777 resolut
+ ion in which the Continental Congress declared that the flag of the United
+  States be thirteen stripes and thirteen stars. The observance is far youn
+ ger than the flag\, and its origin is contested: three men have been calle
+ d the father of Flag Day by sources as official as Congress and the Common
+ wealth of Pennsylvania.\n\nhttps://todaycelebrates.com/holiday/flag-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/flag-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3653,9 +3863,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3668,9 +3881,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20270813
 DTEND;VALUE=DATE:20270814
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3683,9 +3899,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20281013
 DTEND;VALUE=DATE:20281014
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3698,9 +3917,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20290413
 DTEND;VALUE=DATE:20290414
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3713,9 +3935,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20290713
 DTEND;VALUE=DATE:20290714
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3728,9 +3953,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20300913
 DTEND;VALUE=DATE:20300914
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3743,9 +3971,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20301213
 DTEND;VALUE=DATE:20301214
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3758,9 +3989,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20310613
 DTEND;VALUE=DATE:20310614
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3773,9 +4007,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20320213
 DTEND;VALUE=DATE:20320214
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3788,9 +4025,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20320813
 DTEND;VALUE=DATE:20320814
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3803,9 +4043,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20330513
 DTEND;VALUE=DATE:20330514
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3818,9 +4061,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20340113
 DTEND;VALUE=DATE:20340114
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3833,9 +4079,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20341013
 DTEND;VALUE=DATE:20341014
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3848,9 +4097,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20350413
 DTEND;VALUE=DATE:20350414
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -3863,9 +4115,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20350713
 DTEND;VALUE=DATE:20350714
 SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th\, observed on August 13\, is a lighthearted hol
- iday celebrated across the United States.\n\nhttps://todaycelebrates.com/h
- oliday/friday-the-13th/
+DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
+  and nearly everything commonly said about where it came from is wrong. It
+  is not medieval\, it has no demonstrable link to the Knights Templar\, an
+ d Library of Congress folklorists trace the belief no further back than 18
+ 30s France. Every year holds at least one and never more than three\; 2026
+  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -4123,8 +4378,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:geelong-cup-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271022
 SUMMARY:Geelong Cup Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 21\, Geelong Cup Day gives people across the United 
@@ -4222,8 +4477,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:global-cat-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:Global Cat Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Global Cat Day (also known as National Feral Cat Day) raises aw
@@ -4239,8 +4494,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:global-champagne-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:Global Champagne Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 23\, Global Champagne Day gives people around the gl
@@ -4255,8 +4510,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:global-dignity-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271022
 SUMMARY:Global Dignity Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 21\, Global Dignity Day gives people around the glob
@@ -4538,9 +4793,14 @@ DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:Groundhog Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Groundhog Day\, observed on February 2\, is a lighthearted holi
- day celebrated across the United States.\n\nhttps://todaycelebrates.com/ho
- liday/groundhog-day/
+DESCRIPTION:Groundhog Day falls on February 2\, when a groundhog is lifted 
+ from a stump on a hill outside Punxsutawney\, Pennsylvania and a man in a 
+ top hat announces whether winter has six more weeks to run. The custom arr
+ ived with German-speaking immigrants to Pennsylvania\, who had attached th
+ e same Candlemas weather lore to a badger. It is also the rare American tr
+ adition whose central claim a federal agency has tested and rejected: NOAA
+ 's published track record finds no predictive skill in it.\n\nhttps://toda
+ ycelebrates.com/holiday/groundhog-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/groundhog-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -5097,8 +5357,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:information-overload-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
 SUMMARY:Information Overload Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 20\, Information Overload Day gives people across th
@@ -5330,8 +5590,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-chefs-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
 SUMMARY:International Chefs Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Chefs Day is observed around the world on October
@@ -5648,8 +5908,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-day-of-the-nacho@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271022
 SUMMARY:International Day of the Nacho
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 21\, International Day of the Nacho gives people aro
@@ -5765,8 +6025,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-gin-and-tonic-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
+DTSTART;VALUE=DATE:20271019
+DTEND;VALUE=DATE:20271020
 SUMMARY:International Gin and Tonic Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Gin and Tonic Day is observed around the world on
@@ -5799,8 +6059,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-nacho-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271022
 SUMMARY:International Nacho Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 21\, International Nacho Day gives people around the
@@ -5971,8 +6231,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-sloth-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:International Sloth Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 17\, International Sloth Day gives people around the
@@ -5987,8 +6247,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-snow-leopard-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:International Snow Leopard Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 23\, International Snow Leopard Day gives people aro
@@ -6186,11 +6446,13 @@ DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Kwanzaa
 RRULE:FREQ=YEARLY
-DESCRIPTION:Kwanzaa is a seven-day celebration of African American family\,
-  community\, and culture that runs from December 26 through January 1. Mau
- lana Karenga created it in 1966\, and each day is given to one of the Nguz
- o Saba\, the seven principles at the center of the holiday.\n\nhttps://tod
- aycelebrates.com/holiday/kwanzaa/
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6595,8 +6857,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:make-a-difference-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:Make a Difference Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Make a Difference Day is observed across the United States on O
@@ -6711,9 +6973,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:Mardi Gras
-DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
-  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
- ay/mardi-gras/
+DESCRIPTION:Mardi Gras is Shrove Tuesday\, the day immediately before Ash W
+ ednesday\, and the last day of the Carnival season. In Louisiana it is not
+  a figure of speech but a statutory one: state law lists "the day of Mardi
+  Gras" among the state's days of public rest and legal holidays. Almost ev
+ erything Americans picture when they hear the word — krewes\, floats\, p
+ urple and green and gold — was worked out in New Orleans between the 185
+ 0s and the 1880s.\n\nhttps://todaycelebrates.com/holiday/mardi-gras/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6726,9 +6992,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20280229
 DTEND;VALUE=DATE:20280301
 SUMMARY:Mardi Gras
-DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
-  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
- ay/mardi-gras/
+DESCRIPTION:Mardi Gras is Shrove Tuesday\, the day immediately before Ash W
+ ednesday\, and the last day of the Carnival season. In Louisiana it is not
+  a figure of speech but a statutory one: state law lists "the day of Mardi
+  Gras" among the state's days of public rest and legal holidays. Almost ev
+ erything Americans picture when they hear the word — krewes\, floats\, p
+ urple and green and gold — was worked out in New Orleans between the 185
+ 0s and the 1880s.\n\nhttps://todaycelebrates.com/holiday/mardi-gras/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6741,9 +7011,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20290213
 DTEND;VALUE=DATE:20290214
 SUMMARY:Mardi Gras
-DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
-  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
- ay/mardi-gras/
+DESCRIPTION:Mardi Gras is Shrove Tuesday\, the day immediately before Ash W
+ ednesday\, and the last day of the Carnival season. In Louisiana it is not
+  a figure of speech but a statutory one: state law lists "the day of Mardi
+  Gras" among the state's days of public rest and legal holidays. Almost ev
+ erything Americans picture when they hear the word — krewes\, floats\, p
+ urple and green and gold — was worked out in New Orleans between the 185
+ 0s and the 1880s.\n\nhttps://todaycelebrates.com/holiday/mardi-gras/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6756,9 +7030,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20300305
 DTEND;VALUE=DATE:20300306
 SUMMARY:Mardi Gras
-DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
-  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
- ay/mardi-gras/
+DESCRIPTION:Mardi Gras is Shrove Tuesday\, the day immediately before Ash W
+ ednesday\, and the last day of the Carnival season. In Louisiana it is not
+  a figure of speech but a statutory one: state law lists "the day of Mardi
+  Gras" among the state's days of public rest and legal holidays. Almost ev
+ erything Americans picture when they hear the word — krewes\, floats\, p
+ urple and green and gold — was worked out in New Orleans between the 185
+ 0s and the 1880s.\n\nhttps://todaycelebrates.com/holiday/mardi-gras/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6771,9 +7049,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20310225
 DTEND;VALUE=DATE:20310226
 SUMMARY:Mardi Gras
-DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
-  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
- ay/mardi-gras/
+DESCRIPTION:Mardi Gras is Shrove Tuesday\, the day immediately before Ash W
+ ednesday\, and the last day of the Carnival season. In Louisiana it is not
+  a figure of speech but a statutory one: state law lists "the day of Mardi
+  Gras" among the state's days of public rest and legal holidays. Almost ev
+ erything Americans picture when they hear the word — krewes\, floats\, p
+ urple and green and gold — was worked out in New Orleans between the 185
+ 0s and the 1880s.\n\nhttps://todaycelebrates.com/holiday/mardi-gras/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6786,9 +7068,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20320210
 DTEND;VALUE=DATE:20320211
 SUMMARY:Mardi Gras
-DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
-  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
- ay/mardi-gras/
+DESCRIPTION:Mardi Gras is Shrove Tuesday\, the day immediately before Ash W
+ ednesday\, and the last day of the Carnival season. In Louisiana it is not
+  a figure of speech but a statutory one: state law lists "the day of Mardi
+  Gras" among the state's days of public rest and legal holidays. Almost ev
+ erything Americans picture when they hear the word — krewes\, floats\, p
+ urple and green and gold — was worked out in New Orleans between the 185
+ 0s and the 1880s.\n\nhttps://todaycelebrates.com/holiday/mardi-gras/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6801,9 +7087,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20330301
 DTEND;VALUE=DATE:20330302
 SUMMARY:Mardi Gras
-DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
-  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
- ay/mardi-gras/
+DESCRIPTION:Mardi Gras is Shrove Tuesday\, the day immediately before Ash W
+ ednesday\, and the last day of the Carnival season. In Louisiana it is not
+  a figure of speech but a statutory one: state law lists "the day of Mardi
+  Gras" among the state's days of public rest and legal holidays. Almost ev
+ erything Americans picture when they hear the word — krewes\, floats\, p
+ urple and green and gold — was worked out in New Orleans between the 185
+ 0s and the 1880s.\n\nhttps://todaycelebrates.com/holiday/mardi-gras/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6816,9 +7106,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20340221
 DTEND;VALUE=DATE:20340222
 SUMMARY:Mardi Gras
-DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
-  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
- ay/mardi-gras/
+DESCRIPTION:Mardi Gras is Shrove Tuesday\, the day immediately before Ash W
+ ednesday\, and the last day of the Carnival season. In Louisiana it is not
+  a figure of speech but a statutory one: state law lists "the day of Mardi
+  Gras" among the state's days of public rest and legal holidays. Almost ev
+ erything Americans picture when they hear the word — krewes\, floats\, p
+ urple and green and gold — was worked out in New Orleans between the 185
+ 0s and the 1880s.\n\nhttps://todaycelebrates.com/holiday/mardi-gras/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6831,9 +7125,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20350206
 DTEND;VALUE=DATE:20350207
 SUMMARY:Mardi Gras
-DESCRIPTION:Mardi Gras\, observed on February 9\, is a lighthearted holiday
-  celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
- ay/mardi-gras/
+DESCRIPTION:Mardi Gras is Shrove Tuesday\, the day immediately before Ash W
+ ednesday\, and the last day of the Carnival season. In Louisiana it is not
+  a figure of speech but a statutory one: state law lists "the day of Mardi
+  Gras" among the state's days of public rest and legal holidays. Almost ev
+ erything Americans picture when they hear the word — krewes\, floats\, p
+ urple and green and gold — was worked out in New Orleans between the 185
+ 0s and the 1880s.\n\nhttps://todaycelebrates.com/holiday/mardi-gras/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/mardi-gras/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -7346,8 +7644,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-apple-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271022
 SUMMARY:National Apple Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 21\, National Apple Day gives people across the Unit
@@ -7609,8 +7907,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-bologna-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:National Bologna Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Bologna Day is observed across the United States on Oc
@@ -7625,8 +7923,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-boss-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:National Boss' Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Boss's Day gives employees a chance to thank their man
@@ -8293,8 +8591,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-clean-your-virtual-desktop-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
+DTSTART;VALUE=DATE:20271019
+DTEND;VALUE=DATE:20271020
 SUMMARY:National Clean Your Virtual Desktop Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Clean Your Virtual Desktop Day is observed across the 
@@ -8412,8 +8710,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-croc-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:National Croc Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Croc Day is observed across the United States on Octob
@@ -8512,8 +8810,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-day-on-writing@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
 SUMMARY:National Day on Writing
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Day on Writing is observed across the United States on
@@ -8709,8 +9007,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-feral-cat-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:National Feral Cat Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Feral Cat Day is observed across the United States on 
@@ -8793,8 +9091,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-food-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:National Food Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Food Day is observed across the United States on Octob
@@ -9139,8 +9437,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-horror-movie-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:National Horror Movie Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Horror Movie Day is observed across the United States 
@@ -9345,8 +9643,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-ipod-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:National iPod Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National iPod Day is observed across the United States on Octob
@@ -9595,8 +9893,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-liqueur-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:National Liqueur Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 16\, National Liqueur Day gives people across the Un
@@ -9746,8 +10044,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mammography-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:National Mammography Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Mammography Day is observed across the United States o
@@ -9779,8 +10077,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mashed-potato-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
+DTSTART;VALUE=DATE:20271018
+DTEND;VALUE=DATE:20271019
 SUMMARY:National Mashed Potato Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 18\, National Mashed Potato Day gives people across 
@@ -9896,8 +10194,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mole-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:National Mole Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Mole Day is celebrated by chemistry teachers and stude
@@ -9981,8 +10279,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mulligan-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:National Mulligan Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 17\, National Mulligan Day gives people across the U
@@ -10047,8 +10345,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-new-friends-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
+DTSTART;VALUE=DATE:20271019
+DTEND;VALUE=DATE:20271020
 SUMMARY:National New Friends Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National New Friends Day is observed across the United States o
@@ -10335,8 +10633,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-paralegal-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:National Paralegal Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 23\, National Paralegal Day gives people across the 
@@ -10901,8 +11199,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-seafood-bisque-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
+DTSTART;VALUE=DATE:20271019
+DTEND;VALUE=DATE:20271020
 SUMMARY:National Seafood Bisque Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 19\, National Seafood Bisque Day gives people across
@@ -11748,8 +12046,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:necktie-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
+DTSTART;VALUE=DATE:20271018
+DTEND;VALUE=DATE:20271019
 SUMMARY:Necktie Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Necktie Day is observed across the United States on October 18\
@@ -11819,8 +12117,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:no-beard-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
+DTSTART;VALUE=DATE:20271018
+DTEND;VALUE=DATE:20271019
 SUMMARY:No Beard Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 18\, No Beard Day gives people across the United Sta
@@ -12530,11 +12828,12 @@ DTSTART;VALUE=DATE:20270911
 DTEND;VALUE=DATE:20270912
 SUMMARY:Patriot Day — National Day of Service & Remembrance
 RRULE:FREQ=YEARLY
-DESCRIPTION:Patriot Day\, observed every September 11\, honors the nearly 3
- \,000 people killed in the terrorist attacks of September 11\, 2001. Flags
-  are flown at half-staff\, and Americans are encouraged to mark the day wi
- th a moment of silence and acts of community service.\n\nhttps://todaycele
- brates.com/holiday/patriot-day-national-day-of-service-and-remembrance/
+DESCRIPTION:Patriot Day falls on September 11 and honors the 2\,977 people 
+ killed in the terrorist attacks of 2001. Congress designated it by joint r
+ esolution in December of that year\, which means the first Patriot Day was
+  September 11\, 2002. It is a day of remembrance and\, since 2009\, of ser
+ vice\; it is not a holiday\, and nothing closes.\n\nhttps://todaycelebrate
+ s.com/holiday/patriot-day-national-day-of-service-and-remembrance/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/patriot-day-national-day-
  of-service-and-remembrance/
 CATEGORIES:Celebration
@@ -12598,9 +12897,13 @@ DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Pi Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Pi Day\, observed on March 14\, is a lighthearted holiday celeb
- rated across the United States.\n\nhttps://todaycelebrates.com/holiday/pi-
- day/
+DESCRIPTION:Pi Day falls on March 14\, because 3/14 matches the first three
+  digits of pi\, the ratio of a circle's circumference to its diameter. It 
+ began in 1988 as an in-house celebration at the Exploratorium\, San Franci
+ sco's hands-on science museum\, and spread from there into classrooms worl
+ dwide. It is one of the few modern holidays whose origin is fully document
+ ed\, down to the man who thought of it and the pies on the table.\n\nhttps
+ ://todaycelebrates.com/holiday/pi-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/pi-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -12821,8 +13124,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pro-life-day-of-silent-solidarity@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
 SUMMARY:Pro-Life Day of Silent Solidarity
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 20\, Pro-Life Day of Silent Solidarity gives people 
@@ -12937,8 +13240,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rakija-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:Rakija Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Rakija Day is observed across the United States on October 17\,
@@ -13099,8 +13402,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ride-to-work-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
+DTSTART;VALUE=DATE:20271018
+DTEND;VALUE=DATE:20271019
 SUMMARY:Ride To Work Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 18\, Ride To Work Day gives people across the United
@@ -13166,11 +13469,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271002
 DTEND;VALUE=DATE:20271003
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13183,11 +13488,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20280921
 DTEND;VALUE=DATE:20280922
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13200,11 +13507,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20290910
 DTEND;VALUE=DATE:20290911
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13217,11 +13526,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20300928
 DTEND;VALUE=DATE:20300929
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13234,11 +13545,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20310918
 DTEND;VALUE=DATE:20310919
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13251,11 +13564,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20320906
 DTEND;VALUE=DATE:20320907
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13268,11 +13583,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20330924
 DTEND;VALUE=DATE:20330925
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13285,11 +13602,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20340914
 DTEND;VALUE=DATE:20340915
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13302,11 +13621,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20351004
 DTEND;VALUE=DATE:20351005
 SUMMARY:Rosh Hashanah
-DESCRIPTION:Rosh Hashanah is the Jewish New Year and the first of the High 
- Holy Days\, observed on 1 and 2 Tishrei and beginning at sunset the evenin
- g before the date shown here. It opens the ten days of repentance that clo
- se with Yom Kippur\, and the shofar is sounded through it.\n\nhttps://toda
- ycelebrates.com/holiday/rosh-hashanah/
+DESCRIPTION:Rosh Hashanah is the Jewish New Year\, observed on the first an
+ d second days of Tishri and beginning at sunset the evening before the dat
+ e a civil calendar shows. It opens the ten days of repentance that close w
+ ith Yom Kippur\, and it falls in the seventh month of the Hebrew calendar 
+ rather than the first. The Torah commands the day but never calls it a new
+  year\; the name\, and the idea\, belong to the rabbis who compiled the Mi
+ shnah.\n\nhttps://todaycelebrates.com/holiday/rosh-hashanah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/rosh-hashanah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -13677,8 +13998,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:smart-is-cool-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
 SUMMARY:Smart is Cool Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 22\, Smart is Cool Day gives people across the Unite
@@ -13945,8 +14266,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:steve-jobs-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:Steve Jobs Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Steve Jobs Day\, observed in California\, honors the Apple co-f
@@ -14310,30 +14631,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:suspenders-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
 SUMMARY:Suspenders Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Suspenders Day is observed across the United States on October 
  20\, a small but fun addition to the calendar worth celebrating in its own
   way.\n\nhttps://todaycelebrates.com/holiday/suspenders-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/suspenders-day/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:sweetest-day-20261017@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Sweetest Day
-DESCRIPTION:Sweetest Day\, observed the third Saturday of October mainly in
-  the Midwest and Northeast U.S.\, is a day to show appreciation for friend
- s\, family\, and loved ones with small acts of kindness or sweets.\n\nhttp
- s://todaycelebrates.com/holiday/sweetest-day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/sweetest-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
@@ -14503,8 +14808,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:take-back-your-time-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:Take Back Your Time Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 24\, Take Back Your Time Day gives people across the
@@ -14979,9 +15284,15 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:The Start of Hanukkah
-DESCRIPTION:The Start of Hanukkah\, observed on December 5\, is a lighthear
- ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
- s.com/holiday/the-start-of-hanukkah/
+DESCRIPTION:Hanukkah is an eight-night festival that begins on 25 Kislev an
+ d marks the rededication of the Second Temple in Jerusalem after the Macca
+ bean revolt. A day in the Hebrew calendar begins at sundown\, so the first
+  candle is lit on the evening the festival opens — the date listed here 
+ — while 25 Kislev itself is the Gregorian day that follows. It was for m
+ ost of its history a minor holiday\; its prominence in American life is a 
+ nineteenth- and twentieth-century development\, and its nearness to Decemb
+ er 25 has a good deal to do with that.\n\nhttps://todaycelebrates.com/holi
+ day/the-start-of-hanukkah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-hanukkah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -14994,9 +15305,15 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271224
 DTEND;VALUE=DATE:20271225
 SUMMARY:The Start of Hanukkah
-DESCRIPTION:The Start of Hanukkah\, observed on December 5\, is a lighthear
- ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
- s.com/holiday/the-start-of-hanukkah/
+DESCRIPTION:Hanukkah is an eight-night festival that begins on 25 Kislev an
+ d marks the rededication of the Second Temple in Jerusalem after the Macca
+ bean revolt. A day in the Hebrew calendar begins at sundown\, so the first
+  candle is lit on the evening the festival opens — the date listed here 
+ — while 25 Kislev itself is the Gregorian day that follows. It was for m
+ ost of its history a minor holiday\; its prominence in American life is a 
+ nineteenth- and twentieth-century development\, and its nearness to Decemb
+ er 25 has a good deal to do with that.\n\nhttps://todaycelebrates.com/holi
+ day/the-start-of-hanukkah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-hanukkah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15009,9 +15326,15 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20281212
 DTEND;VALUE=DATE:20281213
 SUMMARY:The Start of Hanukkah
-DESCRIPTION:The Start of Hanukkah\, observed on December 5\, is a lighthear
- ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
- s.com/holiday/the-start-of-hanukkah/
+DESCRIPTION:Hanukkah is an eight-night festival that begins on 25 Kislev an
+ d marks the rededication of the Second Temple in Jerusalem after the Macca
+ bean revolt. A day in the Hebrew calendar begins at sundown\, so the first
+  candle is lit on the evening the festival opens — the date listed here 
+ — while 25 Kislev itself is the Gregorian day that follows. It was for m
+ ost of its history a minor holiday\; its prominence in American life is a 
+ nineteenth- and twentieth-century development\, and its nearness to Decemb
+ er 25 has a good deal to do with that.\n\nhttps://todaycelebrates.com/holi
+ day/the-start-of-hanukkah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-hanukkah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15024,9 +15347,15 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20291201
 DTEND;VALUE=DATE:20291202
 SUMMARY:The Start of Hanukkah
-DESCRIPTION:The Start of Hanukkah\, observed on December 5\, is a lighthear
- ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
- s.com/holiday/the-start-of-hanukkah/
+DESCRIPTION:Hanukkah is an eight-night festival that begins on 25 Kislev an
+ d marks the rededication of the Second Temple in Jerusalem after the Macca
+ bean revolt. A day in the Hebrew calendar begins at sundown\, so the first
+  candle is lit on the evening the festival opens — the date listed here 
+ — while 25 Kislev itself is the Gregorian day that follows. It was for m
+ ost of its history a minor holiday\; its prominence in American life is a 
+ nineteenth- and twentieth-century development\, and its nearness to Decemb
+ er 25 has a good deal to do with that.\n\nhttps://todaycelebrates.com/holi
+ day/the-start-of-hanukkah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-hanukkah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15039,9 +15368,15 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20301220
 DTEND;VALUE=DATE:20301221
 SUMMARY:The Start of Hanukkah
-DESCRIPTION:The Start of Hanukkah\, observed on December 5\, is a lighthear
- ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
- s.com/holiday/the-start-of-hanukkah/
+DESCRIPTION:Hanukkah is an eight-night festival that begins on 25 Kislev an
+ d marks the rededication of the Second Temple in Jerusalem after the Macca
+ bean revolt. A day in the Hebrew calendar begins at sundown\, so the first
+  candle is lit on the evening the festival opens — the date listed here 
+ — while 25 Kislev itself is the Gregorian day that follows. It was for m
+ ost of its history a minor holiday\; its prominence in American life is a 
+ nineteenth- and twentieth-century development\, and its nearness to Decemb
+ er 25 has a good deal to do with that.\n\nhttps://todaycelebrates.com/holi
+ day/the-start-of-hanukkah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-hanukkah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15054,9 +15389,15 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20311209
 DTEND;VALUE=DATE:20311210
 SUMMARY:The Start of Hanukkah
-DESCRIPTION:The Start of Hanukkah\, observed on December 5\, is a lighthear
- ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
- s.com/holiday/the-start-of-hanukkah/
+DESCRIPTION:Hanukkah is an eight-night festival that begins on 25 Kislev an
+ d marks the rededication of the Second Temple in Jerusalem after the Macca
+ bean revolt. A day in the Hebrew calendar begins at sundown\, so the first
+  candle is lit on the evening the festival opens — the date listed here 
+ — while 25 Kislev itself is the Gregorian day that follows. It was for m
+ ost of its history a minor holiday\; its prominence in American life is a 
+ nineteenth- and twentieth-century development\, and its nearness to Decemb
+ er 25 has a good deal to do with that.\n\nhttps://todaycelebrates.com/holi
+ day/the-start-of-hanukkah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-hanukkah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15069,9 +15410,15 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20321127
 DTEND;VALUE=DATE:20321128
 SUMMARY:The Start of Hanukkah
-DESCRIPTION:The Start of Hanukkah\, observed on December 5\, is a lighthear
- ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
- s.com/holiday/the-start-of-hanukkah/
+DESCRIPTION:Hanukkah is an eight-night festival that begins on 25 Kislev an
+ d marks the rededication of the Second Temple in Jerusalem after the Macca
+ bean revolt. A day in the Hebrew calendar begins at sundown\, so the first
+  candle is lit on the evening the festival opens — the date listed here 
+ — while 25 Kislev itself is the Gregorian day that follows. It was for m
+ ost of its history a minor holiday\; its prominence in American life is a 
+ nineteenth- and twentieth-century development\, and its nearness to Decemb
+ er 25 has a good deal to do with that.\n\nhttps://todaycelebrates.com/holi
+ day/the-start-of-hanukkah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-hanukkah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15084,9 +15431,15 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20331216
 DTEND;VALUE=DATE:20331217
 SUMMARY:The Start of Hanukkah
-DESCRIPTION:The Start of Hanukkah\, observed on December 5\, is a lighthear
- ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
- s.com/holiday/the-start-of-hanukkah/
+DESCRIPTION:Hanukkah is an eight-night festival that begins on 25 Kislev an
+ d marks the rededication of the Second Temple in Jerusalem after the Macca
+ bean revolt. A day in the Hebrew calendar begins at sundown\, so the first
+  candle is lit on the evening the festival opens — the date listed here 
+ — while 25 Kislev itself is the Gregorian day that follows. It was for m
+ ost of its history a minor holiday\; its prominence in American life is a 
+ nineteenth- and twentieth-century development\, and its nearness to Decemb
+ er 25 has a good deal to do with that.\n\nhttps://todaycelebrates.com/holi
+ day/the-start-of-hanukkah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-hanukkah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15099,9 +15452,15 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20341206
 DTEND;VALUE=DATE:20341207
 SUMMARY:The Start of Hanukkah
-DESCRIPTION:The Start of Hanukkah\, observed on December 5\, is a lighthear
- ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
- s.com/holiday/the-start-of-hanukkah/
+DESCRIPTION:Hanukkah is an eight-night festival that begins on 25 Kislev an
+ d marks the rededication of the Second Temple in Jerusalem after the Macca
+ bean revolt. A day in the Hebrew calendar begins at sundown\, so the first
+  candle is lit on the evening the festival opens — the date listed here 
+ — while 25 Kislev itself is the Gregorian day that follows. It was for m
+ ost of its history a minor holiday\; its prominence in American life is a 
+ nineteenth- and twentieth-century development\, and its nearness to Decemb
+ er 25 has a good deal to do with that.\n\nhttps://todaycelebrates.com/holi
+ day/the-start-of-hanukkah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-hanukkah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15114,9 +15473,15 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20351225
 DTEND;VALUE=DATE:20351226
 SUMMARY:The Start of Hanukkah
-DESCRIPTION:The Start of Hanukkah\, observed on December 5\, is a lighthear
- ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
- s.com/holiday/the-start-of-hanukkah/
+DESCRIPTION:Hanukkah is an eight-night festival that begins on 25 Kislev an
+ d marks the rededication of the Second Temple in Jerusalem after the Macca
+ bean revolt. A day in the Hebrew calendar begins at sundown\, so the first
+  candle is lit on the evening the festival opens — the date listed here 
+ — while 25 Kislev itself is the Gregorian day that follows. It was for m
+ ost of its history a minor holiday\; its prominence in American life is a 
+ nineteenth- and twentieth-century development\, and its nearness to Decemb
+ er 25 has a good deal to do with that.\n\nhttps://todaycelebrates.com/holi
+ day/the-start-of-hanukkah/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/the-start-of-hanukkah/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15340,8 +15705,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:trafalgar-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271022
 SUMMARY:Trafalgar Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Trafalgar Day is observed across the United States on October 2
@@ -15388,8 +15753,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tv-talk-show-host-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
 SUMMARY:TV Talk Show Host Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:TV Talk Show Host Day is observed across the United States on O
@@ -15420,8 +15785,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:u-k-national-waiters-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
 SUMMARY:U.K. National Waiters Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:U.K. National Waiters Day is observed across the United States 
@@ -15440,9 +15805,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15455,9 +15824,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271102
 DTEND;VALUE=DATE:20271103
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15470,9 +15843,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20281107
 DTEND;VALUE=DATE:20281108
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15485,9 +15862,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20291106
 DTEND;VALUE=DATE:20291107
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15500,9 +15881,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20301105
 DTEND;VALUE=DATE:20301106
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15515,9 +15900,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20311104
 DTEND;VALUE=DATE:20311105
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15530,9 +15919,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20321102
 DTEND;VALUE=DATE:20321103
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15545,9 +15938,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20331108
 DTEND;VALUE=DATE:20331109
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15560,9 +15957,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20341107
 DTEND;VALUE=DATE:20341108
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15575,9 +15976,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20351106
 DTEND;VALUE=DATE:20351107
 SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day\, observed on November 3\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/u-s-general-election-day/
+DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
+ Monday in November\, which pins it somewhere between November 2 and Novemb
+ er 8. It is the day Americans elect members of Congress and\, every fourth
+  year\, the presidential electors who formally choose the president. Three
+  separate federal statutes\, passed seventy years apart\, are what put all
+  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
+ eneral-election-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15667,8 +16072,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:united-nations-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:United Nations Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:United Nations Day commemorates the entry into force of the UN 
@@ -15854,8 +16259,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wear-it-pink-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:Wear it Pink Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 24\, Wear it Pink Day gives people across the United
@@ -15870,8 +16275,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wear-something-gaudy-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:Wear Something Gaudy Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 17\, Wear Something Gaudy Day gives people across th
@@ -16016,8 +16421,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wombat-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
 SUMMARY:Wombat Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Wombat Day is observed across the United States on October 22\,
@@ -16033,8 +16438,8 @@ BEGIN:VEVENT
 UID:women-in-military-service-for-america-memorial-anniversary@todaycelebra
  tes.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:Women in Military Service for America Memorial Anniversary
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 17\, Women in Military Service for America Memorial 
@@ -16248,8 +16653,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-food-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:World Food Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Food Day marks the founding of the UN Food and Agricultur
@@ -16394,8 +16799,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-kangaroo-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:World Kangaroo Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Kangaroo Day celebrates kangaroos and raises awareness of
@@ -16442,8 +16847,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-menopause-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
+DTSTART;VALUE=DATE:20271018
+DTEND;VALUE=DATE:20271019
 SUMMARY:World Menopause Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Menopause Day is observed around the globe on October 18\
@@ -16490,8 +16895,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-osteoporosis-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
 SUMMARY:World Osteoporosis Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Osteoporosis Day raises awareness of bone health and oste
@@ -16555,8 +16960,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-pediatric-bone-and-joint-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
+DTSTART;VALUE=DATE:20271019
+DTEND;VALUE=DATE:20271020
 SUMMARY:World Pediatric Bone and Joint Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Pediatric Bone and Joint Day is observed around the globe
@@ -16605,8 +17010,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-polio-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
 SUMMARY:World Polio Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Polio Day\, established by Rotary International\, marks p
@@ -16784,8 +17189,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-spine-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
 SUMMARY:World Spine Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 16\, World Spine Day gives people around the globe o

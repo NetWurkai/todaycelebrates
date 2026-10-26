@@ -20,9 +20,14 @@ DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270506
 SUMMARY:Cinco de Mayo
 RRULE:FREQ=YEARLY
-DESCRIPTION:Cinco de Mayo\, observed on May 5\, is a lighthearted holiday c
- elebrated across the United States.\n\nhttps://todaycelebrates.com/holiday
- /cinco-de-mayo/
+DESCRIPTION:Cinco de Mayo marks a single day's fighting: on May 5\, 1862\, 
+ a Mexican army stopped an elite French force at Puebla\, a city about 80 m
+ iles southeast of Mexico City. It is not Mexican Independence Day\, which 
+ falls on September 16\, and it is observed far more widely in the United S
+ tates than in Mexico. The American holiday was built in California by Mexi
+ can Americans within a year of the battle\, and reinvented more than a cen
+ tury later by beer companies.\n\nhttps://todaycelebrates.com/holiday/cinco
+ -de-mayo/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/cinco-de-mayo/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT

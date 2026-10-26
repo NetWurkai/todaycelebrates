@@ -17,9 +17,12 @@ DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270615
 SUMMARY:Flag Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Flag Day\, observed on June 14\, is a lighthearted holiday cele
- brated across the United States.\n\nhttps://todaycelebrates.com/holiday/fl
- ag-day/
+DESCRIPTION:Flag Day falls on June 14\, the anniversary of the 1777 resolut
+ ion in which the Continental Congress declared that the flag of the United
+  States be thirteen stripes and thirteen stars. The observance is far youn
+ ger than the flag\, and its origin is contested: three men have been calle
+ d the father of Flag Day by sources as official as Congress and the Common
+ wealth of Pennsylvania.\n\nhttps://todaycelebrates.com/holiday/flag-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/flag-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT

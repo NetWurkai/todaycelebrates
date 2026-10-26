@@ -20,8 +20,8 @@ BEGIN:VEVENT
 UID:women-in-military-service-for-america-memorial-anniversary@todaycelebra
  tes.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
 SUMMARY:Women in Military Service for America Memorial Anniversary
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 17\, Women in Military Service for America Memorial 

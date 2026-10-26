@@ -17,11 +17,13 @@ DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Kwanzaa
 RRULE:FREQ=YEARLY
-DESCRIPTION:Kwanzaa is a seven-day celebration of African American family\,
-  community\, and culture that runs from December 26 through January 1. Mau
- lana Karenga created it in 1966\, and each day is given to one of the Nguz
- o Saba\, the seven principles at the center of the holiday.\n\nhttps://tod
- aycelebrates.com/holiday/kwanzaa/
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT

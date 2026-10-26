@@ -17,8 +17,8 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:sunday-school-teacher-appreciation-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
+DTSTART;VALUE=DATE:20271018
+DTEND;VALUE=DATE:20271019
 SUMMARY:Sunday School Teacher Appreciation Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Sunday School Teacher Appreciation Day\, observed across the Un
