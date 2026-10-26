@@ -6377,8 +6377,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:crisp-sandwich-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
 SUMMARY:Crisp Sandwich Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 25\, Crisp Sandwich Day gives people across the Unit
@@ -13045,8 +13045,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:howl-at-the-moon-night@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
 SUMMARY:Howl at the Moon Night
 RRULE:FREQ=YEARLY
 DESCRIPTION:Howl at the Moon Night is one of the spookier stops on the Octo
@@ -13798,8 +13798,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-artist-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
 SUMMARY:International Artist Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 25\, International Artist Day gives people around th
@@ -20289,8 +20289,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mother-in-law-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
 SUMMARY:Mother-In-Law Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Mother-In-Law Day is observed across the United States on Octob
@@ -29687,8 +29687,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-greasy-foods-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
 SUMMARY:National Greasy Foods Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Greasy Foods Day is observed across the United States 
@@ -31428,8 +31428,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-jamaican-jerk-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
 SUMMARY:National Jamaican Jerk Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 25\, National Jamaican Jerk Day gives people across 
@@ -38906,10 +38906,13 @@ DTSTART;VALUE=DATE:20270504
 DTEND;VALUE=DATE:20270505
 SUMMARY:National Teacher Appreciation Day
 DESCRIPTION:National Teacher Appreciation Day falls on the Tuesday of the f
- irst full week of May\, in the middle of Teacher Appreciation Week. The Na
- tional Education Association's Representative Assembly set that date in 19
- 85\, moving the observance out of March.\n\nhttps://todaycelebrates.com/ho
- liday/national-teacher-appreciation-day/
+ irst full week of May\, in the middle of National Teacher Appreciation Wee
+ k. It reached that spot in the calendar only in 1985\, after four decades 
+ of false starts\, two single-year acts of Congress\, and a stretch in Marc
+ h that almost nobody remembers. The National Education Association\, which
+  sets the date\, opens its own account of the day by conceding that the or
+ igins are murky.\n\nhttps://todaycelebrates.com/holiday/national-teacher-a
+ ppreciation-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-day/
 CATEGORIES:Kids & Family
@@ -38924,10 +38927,13 @@ DTSTART;VALUE=DATE:20280509
 DTEND;VALUE=DATE:20280510
 SUMMARY:National Teacher Appreciation Day
 DESCRIPTION:National Teacher Appreciation Day falls on the Tuesday of the f
- irst full week of May\, in the middle of Teacher Appreciation Week. The Na
- tional Education Association's Representative Assembly set that date in 19
- 85\, moving the observance out of March.\n\nhttps://todaycelebrates.com/ho
- liday/national-teacher-appreciation-day/
+ irst full week of May\, in the middle of National Teacher Appreciation Wee
+ k. It reached that spot in the calendar only in 1985\, after four decades 
+ of false starts\, two single-year acts of Congress\, and a stretch in Marc
+ h that almost nobody remembers. The National Education Association\, which
+  sets the date\, opens its own account of the day by conceding that the or
+ igins are murky.\n\nhttps://todaycelebrates.com/holiday/national-teacher-a
+ ppreciation-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-day/
 CATEGORIES:Kids & Family
@@ -38942,10 +38948,13 @@ DTSTART;VALUE=DATE:20290508
 DTEND;VALUE=DATE:20290509
 SUMMARY:National Teacher Appreciation Day
 DESCRIPTION:National Teacher Appreciation Day falls on the Tuesday of the f
- irst full week of May\, in the middle of Teacher Appreciation Week. The Na
- tional Education Association's Representative Assembly set that date in 19
- 85\, moving the observance out of March.\n\nhttps://todaycelebrates.com/ho
- liday/national-teacher-appreciation-day/
+ irst full week of May\, in the middle of National Teacher Appreciation Wee
+ k. It reached that spot in the calendar only in 1985\, after four decades 
+ of false starts\, two single-year acts of Congress\, and a stretch in Marc
+ h that almost nobody remembers. The National Education Association\, which
+  sets the date\, opens its own account of the day by conceding that the or
+ igins are murky.\n\nhttps://todaycelebrates.com/holiday/national-teacher-a
+ ppreciation-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-day/
 CATEGORIES:Kids & Family
@@ -38960,10 +38969,13 @@ DTSTART;VALUE=DATE:20300507
 DTEND;VALUE=DATE:20300508
 SUMMARY:National Teacher Appreciation Day
 DESCRIPTION:National Teacher Appreciation Day falls on the Tuesday of the f
- irst full week of May\, in the middle of Teacher Appreciation Week. The Na
- tional Education Association's Representative Assembly set that date in 19
- 85\, moving the observance out of March.\n\nhttps://todaycelebrates.com/ho
- liday/national-teacher-appreciation-day/
+ irst full week of May\, in the middle of National Teacher Appreciation Wee
+ k. It reached that spot in the calendar only in 1985\, after four decades 
+ of false starts\, two single-year acts of Congress\, and a stretch in Marc
+ h that almost nobody remembers. The National Education Association\, which
+  sets the date\, opens its own account of the day by conceding that the or
+ igins are murky.\n\nhttps://todaycelebrates.com/holiday/national-teacher-a
+ ppreciation-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-day/
 CATEGORIES:Kids & Family
@@ -38978,10 +38990,13 @@ DTSTART;VALUE=DATE:20310506
 DTEND;VALUE=DATE:20310507
 SUMMARY:National Teacher Appreciation Day
 DESCRIPTION:National Teacher Appreciation Day falls on the Tuesday of the f
- irst full week of May\, in the middle of Teacher Appreciation Week. The Na
- tional Education Association's Representative Assembly set that date in 19
- 85\, moving the observance out of March.\n\nhttps://todaycelebrates.com/ho
- liday/national-teacher-appreciation-day/
+ irst full week of May\, in the middle of National Teacher Appreciation Wee
+ k. It reached that spot in the calendar only in 1985\, after four decades 
+ of false starts\, two single-year acts of Congress\, and a stretch in Marc
+ h that almost nobody remembers. The National Education Association\, which
+  sets the date\, opens its own account of the day by conceding that the or
+ igins are murky.\n\nhttps://todaycelebrates.com/holiday/national-teacher-a
+ ppreciation-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-day/
 CATEGORIES:Kids & Family
@@ -38996,10 +39011,13 @@ DTSTART;VALUE=DATE:20320504
 DTEND;VALUE=DATE:20320505
 SUMMARY:National Teacher Appreciation Day
 DESCRIPTION:National Teacher Appreciation Day falls on the Tuesday of the f
- irst full week of May\, in the middle of Teacher Appreciation Week. The Na
- tional Education Association's Representative Assembly set that date in 19
- 85\, moving the observance out of March.\n\nhttps://todaycelebrates.com/ho
- liday/national-teacher-appreciation-day/
+ irst full week of May\, in the middle of National Teacher Appreciation Wee
+ k. It reached that spot in the calendar only in 1985\, after four decades 
+ of false starts\, two single-year acts of Congress\, and a stretch in Marc
+ h that almost nobody remembers. The National Education Association\, which
+  sets the date\, opens its own account of the day by conceding that the or
+ igins are murky.\n\nhttps://todaycelebrates.com/holiday/national-teacher-a
+ ppreciation-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-day/
 CATEGORIES:Kids & Family
@@ -39014,10 +39032,13 @@ DTSTART;VALUE=DATE:20330503
 DTEND;VALUE=DATE:20330504
 SUMMARY:National Teacher Appreciation Day
 DESCRIPTION:National Teacher Appreciation Day falls on the Tuesday of the f
- irst full week of May\, in the middle of Teacher Appreciation Week. The Na
- tional Education Association's Representative Assembly set that date in 19
- 85\, moving the observance out of March.\n\nhttps://todaycelebrates.com/ho
- liday/national-teacher-appreciation-day/
+ irst full week of May\, in the middle of National Teacher Appreciation Wee
+ k. It reached that spot in the calendar only in 1985\, after four decades 
+ of false starts\, two single-year acts of Congress\, and a stretch in Marc
+ h that almost nobody remembers. The National Education Association\, which
+  sets the date\, opens its own account of the day by conceding that the or
+ igins are murky.\n\nhttps://todaycelebrates.com/holiday/national-teacher-a
+ ppreciation-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-day/
 CATEGORIES:Kids & Family
@@ -39032,10 +39053,13 @@ DTSTART;VALUE=DATE:20340509
 DTEND;VALUE=DATE:20340510
 SUMMARY:National Teacher Appreciation Day
 DESCRIPTION:National Teacher Appreciation Day falls on the Tuesday of the f
- irst full week of May\, in the middle of Teacher Appreciation Week. The Na
- tional Education Association's Representative Assembly set that date in 19
- 85\, moving the observance out of March.\n\nhttps://todaycelebrates.com/ho
- liday/national-teacher-appreciation-day/
+ irst full week of May\, in the middle of National Teacher Appreciation Wee
+ k. It reached that spot in the calendar only in 1985\, after four decades 
+ of false starts\, two single-year acts of Congress\, and a stretch in Marc
+ h that almost nobody remembers. The National Education Association\, which
+  sets the date\, opens its own account of the day by conceding that the or
+ igins are murky.\n\nhttps://todaycelebrates.com/holiday/national-teacher-a
+ ppreciation-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-day/
 CATEGORIES:Kids & Family
@@ -39050,10 +39074,13 @@ DTSTART;VALUE=DATE:20350508
 DTEND;VALUE=DATE:20350509
 SUMMARY:National Teacher Appreciation Day
 DESCRIPTION:National Teacher Appreciation Day falls on the Tuesday of the f
- irst full week of May\, in the middle of Teacher Appreciation Week. The Na
- tional Education Association's Representative Assembly set that date in 19
- 85\, moving the observance out of March.\n\nhttps://todaycelebrates.com/ho
- liday/national-teacher-appreciation-day/
+ irst full week of May\, in the middle of National Teacher Appreciation Wee
+ k. It reached that spot in the calendar only in 1985\, after four decades 
+ of false starts\, two single-year acts of Congress\, and a stretch in Marc
+ h that almost nobody remembers. The National Education Association\, which
+  sets the date\, opens its own account of the day by conceding that the or
+ igins are murky.\n\nhttps://todaycelebrates.com/holiday/national-teacher-a
+ ppreciation-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-day/
 CATEGORIES:Kids & Family
@@ -39069,8 +39096,10 @@ DTEND;VALUE=DATE:20270504
 SUMMARY:National Teacher Appreciation Week
 DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
  f the first full week of May\, with National Teacher Appreciation Day on t
- he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
- odaycelebrates.com/holiday/national-teacher-appreciation-week/
+ he Tuesday. The National Education Association established the week in 198
+ 5\, in the same decision that moved the single day out of March. The date 
+ on this page is the Monday the week opens.\n\nhttps://todaycelebrates.com/
+ holiday/national-teacher-appreciation-week/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-week/
 CATEGORIES:Kids & Family
@@ -39086,8 +39115,10 @@ DTEND;VALUE=DATE:20280509
 SUMMARY:National Teacher Appreciation Week
 DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
  f the first full week of May\, with National Teacher Appreciation Day on t
- he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
- odaycelebrates.com/holiday/national-teacher-appreciation-week/
+ he Tuesday. The National Education Association established the week in 198
+ 5\, in the same decision that moved the single day out of March. The date 
+ on this page is the Monday the week opens.\n\nhttps://todaycelebrates.com/
+ holiday/national-teacher-appreciation-week/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-week/
 CATEGORIES:Kids & Family
@@ -39103,8 +39134,10 @@ DTEND;VALUE=DATE:20290508
 SUMMARY:National Teacher Appreciation Week
 DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
  f the first full week of May\, with National Teacher Appreciation Day on t
- he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
- odaycelebrates.com/holiday/national-teacher-appreciation-week/
+ he Tuesday. The National Education Association established the week in 198
+ 5\, in the same decision that moved the single day out of March. The date 
+ on this page is the Monday the week opens.\n\nhttps://todaycelebrates.com/
+ holiday/national-teacher-appreciation-week/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-week/
 CATEGORIES:Kids & Family
@@ -39120,8 +39153,10 @@ DTEND;VALUE=DATE:20300507
 SUMMARY:National Teacher Appreciation Week
 DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
  f the first full week of May\, with National Teacher Appreciation Day on t
- he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
- odaycelebrates.com/holiday/national-teacher-appreciation-week/
+ he Tuesday. The National Education Association established the week in 198
+ 5\, in the same decision that moved the single day out of March. The date 
+ on this page is the Monday the week opens.\n\nhttps://todaycelebrates.com/
+ holiday/national-teacher-appreciation-week/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-week/
 CATEGORIES:Kids & Family
@@ -39137,8 +39172,10 @@ DTEND;VALUE=DATE:20310506
 SUMMARY:National Teacher Appreciation Week
 DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
  f the first full week of May\, with National Teacher Appreciation Day on t
- he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
- odaycelebrates.com/holiday/national-teacher-appreciation-week/
+ he Tuesday. The National Education Association established the week in 198
+ 5\, in the same decision that moved the single day out of March. The date 
+ on this page is the Monday the week opens.\n\nhttps://todaycelebrates.com/
+ holiday/national-teacher-appreciation-week/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-week/
 CATEGORIES:Kids & Family
@@ -39154,8 +39191,10 @@ DTEND;VALUE=DATE:20320504
 SUMMARY:National Teacher Appreciation Week
 DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
  f the first full week of May\, with National Teacher Appreciation Day on t
- he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
- odaycelebrates.com/holiday/national-teacher-appreciation-week/
+ he Tuesday. The National Education Association established the week in 198
+ 5\, in the same decision that moved the single day out of March. The date 
+ on this page is the Monday the week opens.\n\nhttps://todaycelebrates.com/
+ holiday/national-teacher-appreciation-week/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-week/
 CATEGORIES:Kids & Family
@@ -39171,8 +39210,10 @@ DTEND;VALUE=DATE:20330503
 SUMMARY:National Teacher Appreciation Week
 DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
  f the first full week of May\, with National Teacher Appreciation Day on t
- he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
- odaycelebrates.com/holiday/national-teacher-appreciation-week/
+ he Tuesday. The National Education Association established the week in 198
+ 5\, in the same decision that moved the single day out of March. The date 
+ on this page is the Monday the week opens.\n\nhttps://todaycelebrates.com/
+ holiday/national-teacher-appreciation-week/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-week/
 CATEGORIES:Kids & Family
@@ -39188,8 +39229,10 @@ DTEND;VALUE=DATE:20340509
 SUMMARY:National Teacher Appreciation Week
 DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
  f the first full week of May\, with National Teacher Appreciation Day on t
- he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
- odaycelebrates.com/holiday/national-teacher-appreciation-week/
+ he Tuesday. The National Education Association established the week in 198
+ 5\, in the same decision that moved the single day out of March. The date 
+ on this page is the Monday the week opens.\n\nhttps://todaycelebrates.com/
+ holiday/national-teacher-appreciation-week/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-week/
 CATEGORIES:Kids & Family
@@ -39205,8 +39248,10 @@ DTEND;VALUE=DATE:20350508
 SUMMARY:National Teacher Appreciation Week
 DESCRIPTION:National Teacher Appreciation Week runs Monday through Friday o
  f the first full week of May\, with National Teacher Appreciation Day on t
- he Tuesday. The date shown here is the Monday the week opens.\n\nhttps://t
- odaycelebrates.com/holiday/national-teacher-appreciation-week/
+ he Tuesday. The National Education Association established the week in 198
+ 5\, in the same decision that moved the single day out of March. The date 
+ on this page is the Monday the week opens.\n\nhttps://todaycelebrates.com/
+ holiday/national-teacher-appreciation-week/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-teacher-apprecia
  tion-week/
 CATEGORIES:Kids & Family
@@ -39436,8 +39481,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-tight-ends-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
 SUMMARY:National Tight Ends Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 25\, National Tight Ends Day gives people across the
@@ -41893,11 +41938,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
 SUMMARY:Oktoberfest (starts in Germany)
-DESCRIPTION:Oktoberfest opens in Munich on the Saturday fifteen days before
-  the first Sunday in October\, which is why most of the festival falls in 
- September. The city's own Oktoberfest regulation fixes the period\, and th
- e fairground is the Theresienwiese.\n\nhttps://todaycelebrates.com/holiday
- /oktoberfest-starts-in-germany/
+DESCRIPTION:Oktoberfest begins in September\, which is the first thing wort
+ h knowing about it. The festival opens on the Theresienwiese in Munich on 
+ the first Saturday after September 15 and runs to the first Sunday in Octo
+ ber — a window the city moved earlier in 1872 to catch better weather. T
+ he name stayed where the calendar used to be.\n\nhttps://todaycelebrates.c
+ om/holiday/oktoberfest-starts-in-germany/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/oktoberfest-starts-in-ger
  many/
 CATEGORIES:Celebration
@@ -41911,11 +41957,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20280916
 DTEND;VALUE=DATE:20280917
 SUMMARY:Oktoberfest (starts in Germany)
-DESCRIPTION:Oktoberfest opens in Munich on the Saturday fifteen days before
-  the first Sunday in October\, which is why most of the festival falls in 
- September. The city's own Oktoberfest regulation fixes the period\, and th
- e fairground is the Theresienwiese.\n\nhttps://todaycelebrates.com/holiday
- /oktoberfest-starts-in-germany/
+DESCRIPTION:Oktoberfest begins in September\, which is the first thing wort
+ h knowing about it. The festival opens on the Theresienwiese in Munich on 
+ the first Saturday after September 15 and runs to the first Sunday in Octo
+ ber — a window the city moved earlier in 1872 to catch better weather. T
+ he name stayed where the calendar used to be.\n\nhttps://todaycelebrates.c
+ om/holiday/oktoberfest-starts-in-germany/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/oktoberfest-starts-in-ger
  many/
 CATEGORIES:Celebration
@@ -41929,11 +41976,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20290922
 DTEND;VALUE=DATE:20290923
 SUMMARY:Oktoberfest (starts in Germany)
-DESCRIPTION:Oktoberfest opens in Munich on the Saturday fifteen days before
-  the first Sunday in October\, which is why most of the festival falls in 
- September. The city's own Oktoberfest regulation fixes the period\, and th
- e fairground is the Theresienwiese.\n\nhttps://todaycelebrates.com/holiday
- /oktoberfest-starts-in-germany/
+DESCRIPTION:Oktoberfest begins in September\, which is the first thing wort
+ h knowing about it. The festival opens on the Theresienwiese in Munich on 
+ the first Saturday after September 15 and runs to the first Sunday in Octo
+ ber — a window the city moved earlier in 1872 to catch better weather. T
+ he name stayed where the calendar used to be.\n\nhttps://todaycelebrates.c
+ om/holiday/oktoberfest-starts-in-germany/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/oktoberfest-starts-in-ger
  many/
 CATEGORIES:Celebration
@@ -41947,11 +41995,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20300921
 DTEND;VALUE=DATE:20300922
 SUMMARY:Oktoberfest (starts in Germany)
-DESCRIPTION:Oktoberfest opens in Munich on the Saturday fifteen days before
-  the first Sunday in October\, which is why most of the festival falls in 
- September. The city's own Oktoberfest regulation fixes the period\, and th
- e fairground is the Theresienwiese.\n\nhttps://todaycelebrates.com/holiday
- /oktoberfest-starts-in-germany/
+DESCRIPTION:Oktoberfest begins in September\, which is the first thing wort
+ h knowing about it. The festival opens on the Theresienwiese in Munich on 
+ the first Saturday after September 15 and runs to the first Sunday in Octo
+ ber — a window the city moved earlier in 1872 to catch better weather. T
+ he name stayed where the calendar used to be.\n\nhttps://todaycelebrates.c
+ om/holiday/oktoberfest-starts-in-germany/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/oktoberfest-starts-in-ger
  many/
 CATEGORIES:Celebration
@@ -41965,11 +42014,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20310920
 DTEND;VALUE=DATE:20310921
 SUMMARY:Oktoberfest (starts in Germany)
-DESCRIPTION:Oktoberfest opens in Munich on the Saturday fifteen days before
-  the first Sunday in October\, which is why most of the festival falls in 
- September. The city's own Oktoberfest regulation fixes the period\, and th
- e fairground is the Theresienwiese.\n\nhttps://todaycelebrates.com/holiday
- /oktoberfest-starts-in-germany/
+DESCRIPTION:Oktoberfest begins in September\, which is the first thing wort
+ h knowing about it. The festival opens on the Theresienwiese in Munich on 
+ the first Saturday after September 15 and runs to the first Sunday in Octo
+ ber — a window the city moved earlier in 1872 to catch better weather. T
+ he name stayed where the calendar used to be.\n\nhttps://todaycelebrates.c
+ om/holiday/oktoberfest-starts-in-germany/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/oktoberfest-starts-in-ger
  many/
 CATEGORIES:Celebration
@@ -41983,11 +42033,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20320918
 DTEND;VALUE=DATE:20320919
 SUMMARY:Oktoberfest (starts in Germany)
-DESCRIPTION:Oktoberfest opens in Munich on the Saturday fifteen days before
-  the first Sunday in October\, which is why most of the festival falls in 
- September. The city's own Oktoberfest regulation fixes the period\, and th
- e fairground is the Theresienwiese.\n\nhttps://todaycelebrates.com/holiday
- /oktoberfest-starts-in-germany/
+DESCRIPTION:Oktoberfest begins in September\, which is the first thing wort
+ h knowing about it. The festival opens on the Theresienwiese in Munich on 
+ the first Saturday after September 15 and runs to the first Sunday in Octo
+ ber — a window the city moved earlier in 1872 to catch better weather. T
+ he name stayed where the calendar used to be.\n\nhttps://todaycelebrates.c
+ om/holiday/oktoberfest-starts-in-germany/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/oktoberfest-starts-in-ger
  many/
 CATEGORIES:Celebration
@@ -42001,11 +42052,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20330917
 DTEND;VALUE=DATE:20330918
 SUMMARY:Oktoberfest (starts in Germany)
-DESCRIPTION:Oktoberfest opens in Munich on the Saturday fifteen days before
-  the first Sunday in October\, which is why most of the festival falls in 
- September. The city's own Oktoberfest regulation fixes the period\, and th
- e fairground is the Theresienwiese.\n\nhttps://todaycelebrates.com/holiday
- /oktoberfest-starts-in-germany/
+DESCRIPTION:Oktoberfest begins in September\, which is the first thing wort
+ h knowing about it. The festival opens on the Theresienwiese in Munich on 
+ the first Saturday after September 15 and runs to the first Sunday in Octo
+ ber — a window the city moved earlier in 1872 to catch better weather. T
+ he name stayed where the calendar used to be.\n\nhttps://todaycelebrates.c
+ om/holiday/oktoberfest-starts-in-germany/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/oktoberfest-starts-in-ger
  many/
 CATEGORIES:Celebration
@@ -42019,11 +42071,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20340916
 DTEND;VALUE=DATE:20340917
 SUMMARY:Oktoberfest (starts in Germany)
-DESCRIPTION:Oktoberfest opens in Munich on the Saturday fifteen days before
-  the first Sunday in October\, which is why most of the festival falls in 
- September. The city's own Oktoberfest regulation fixes the period\, and th
- e fairground is the Theresienwiese.\n\nhttps://todaycelebrates.com/holiday
- /oktoberfest-starts-in-germany/
+DESCRIPTION:Oktoberfest begins in September\, which is the first thing wort
+ h knowing about it. The festival opens on the Theresienwiese in Munich on 
+ the first Saturday after September 15 and runs to the first Sunday in Octo
+ ber — a window the city moved earlier in 1872 to catch better weather. T
+ he name stayed where the calendar used to be.\n\nhttps://todaycelebrates.c
+ om/holiday/oktoberfest-starts-in-germany/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/oktoberfest-starts-in-ger
  many/
 CATEGORIES:Celebration
@@ -42037,11 +42090,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20350922
 DTEND;VALUE=DATE:20350923
 SUMMARY:Oktoberfest (starts in Germany)
-DESCRIPTION:Oktoberfest opens in Munich on the Saturday fifteen days before
-  the first Sunday in October\, which is why most of the festival falls in 
- September. The city's own Oktoberfest regulation fixes the period\, and th
- e fairground is the Theresienwiese.\n\nhttps://todaycelebrates.com/holiday
- /oktoberfest-starts-in-germany/
+DESCRIPTION:Oktoberfest begins in September\, which is the first thing wort
+ h knowing about it. The festival opens on the Theresienwiese in Munich on 
+ the first Saturday after September 15 and runs to the first Sunday in Octo
+ ber — a window the city moved earlier in 1872 to catch better weather. T
+ he name stayed where the calendar used to be.\n\nhttps://todaycelebrates.c
+ om/holiday/oktoberfest-starts-in-germany/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/oktoberfest-starts-in-ger
  many/
 CATEGORIES:Celebration
@@ -44503,8 +44557,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:punk-for-a-day-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
 SUMMARY:Punk for a Day Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Punk for a Day Day is observed across the United States on Octo
@@ -47755,10 +47809,13 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Super Bowl Sunday
-DESCRIPTION:Super Bowl Sunday is the day of the NFL's championship game. Th
- e league schedules it each season rather than fixing it to a calendar date
- \, so it moves from year to year.\n\nhttps://todaycelebrates.com/holiday/s
- uper-bowl-sunday/
+DESCRIPTION:Super Bowl Sunday is the day the National Football League plays
+  its championship game. Nobody declared it a holiday — the league simply
+  schedules the game as part of each season\, and the country rearranged it
+ s Sunday around it. Encyclopædia Britannica describes the day as having b
+ ecome an unofficial American holiday\, which is the closest thing to a for
+ mal status it has.\n\nhttps://todaycelebrates.com/holiday/super-bowl-sunda
+ y/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/super-bowl-sunday/
 CATEGORIES:Sports
 TRANSP:TRANSPARENT
@@ -53137,8 +53194,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-opera-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
 SUMMARY:World Opera Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Opera Day is observed around the globe on October 25\, a 
@@ -53252,8 +53309,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-pasta-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271026
 SUMMARY:World Pasta Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Pasta Day is a lighthearted food holiday celebrated aroun
