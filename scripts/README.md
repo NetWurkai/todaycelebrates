@@ -957,10 +957,24 @@ the generator writes is byte-identical to what it wrote before E6.
 
 ## Share cards (E7)
 
-A build-time PNG per observance at `/holiday/<slug>/card.png`, 1200x630, used
-as that page's `og:image`, `twitter:image` and the `image` in its Event
-JSON-LD. **Off by default.** Turn it on with `--cards` on the command line, or
-by setting `SHARE_CARDS = True` in `generate.py`.
+A build-time PNG beside each page it belongs to, 1200x630, used as that
+page's `og:image` and `twitter:image` (and, on an observance page, the `image`
+in its Event JSON-LD). **Off by default.** Turn it on with `--cards` on the
+command line, or by setting `SHARE_CARDS = True` in `generate.py`.
+
+Five page types carry one, each at `card.png` inside the page's own directory,
+the same convention `event.ics` uses:
+
+| Page | Card | Count today |
+|---|---|---|
+| `/holiday/<slug>/` | the observance's name | 2,450 |
+| `/day/YYYY-MM-DD/` | that date's count and lead names | 356 |
+| `/<month>-<day>/` | the same, year-less | 366 |
+| `/holidays/<year>/` | the year | 2 |
+| `/category/<slug>/` | the category | 14 |
+
+3,188 cards in all. The pages still on the stock hero are the home page,
+`/dates/`, `/categories/`, `/about/` and the occasion pages.
 
 ### Why
 
@@ -974,17 +988,42 @@ actually travels.
 ### What a card is
 
 White paper, the header's four-colour band across the top, the coral `.mark`
-square and the wordmark, a date pill filled in the observance's own category
-colour, the name set as large as it fits, one muted line (`Category - Every
-year on March 14`, or `The date changes each year`), a hard rule and the
+square and the wordmark, a pill filled in the subject's own category colour,
+a headline set as large as it fits, one muted line, a hard rule and the
 domain. No photograph, no gradient, nothing that needs a designer in the loop
 to add an observance. Four checked-in examples are in `docs/card-samples/`,
 which is source, not generated -- they are there so the design can be reviewed
 without running anything.
 
-Sizing: the name is set at the largest of 92 / 82 / 74 / 66 / 58 / 52 / 46 px
-that wraps into at most three lines inside the box. Across the current 2,450
-rows that is 92 px for 2,314 of them, and no name is clipped.
+One grammar, five sets of contents. `card_render()` draws the frame and knows
+nothing about what kind of page it is drawing for; the five
+`*_card_png_bytes()` callers fill the slots:
+
+| | pill | headline | muted line |
+|---|---|---|---|
+| observance | `SATURDAY, MARCH 14, 2027` | the name | `Category - Every year on March 14` |
+| dated | `THURSDAY, OCTOBER 8, 2026` | `12 Holidays & Observances` | the first three names |
+| perennial | `EVERY OCTOBER 8` | `12 Holidays & Observances` | the first three names |
+| year | `THE 2027 CALENDAR` | `Holidays and observances in 2027` | what the index is |
+| category | `FOOD` | `Food holidays and observances` | `214 observances in this category, A to Z` |
+
+Two of those choices are load-bearing rather than cosmetic:
+
+- **A dated page's headline is its count, not its lead observance's name.** A
+  card reading *Halloween* on `/day/2026-10-31/` would be indistinguishable
+  from Halloween's own card and would promise a reader the wrong page. The
+  names go on the muted line, where they inform without impersonating.
+- **The year card carries no count and no coverage range**, though the page
+  states both. Both move every time the archive's forward horizon rolls, which
+  is most nights, so putting them on the card would mean rewriting it nightly
+  for nothing. Measured: rolling `--today` forward one day creates the one new
+  dated card at the horizon and rewrites **zero** cards of any kind.
+
+Sizing: the headline is set at the largest of 92 / 82 / 74 / 66 / 58 / 52 /
+46 px that wraps into at most three lines inside the box. Across the current
+2,450 observance names that is 92 px for 2,314 of them, and no name is
+clipped; across the 738 other headlines it is 92 px for all but one, two lines
+each, none clipped, and no pill is too wide for the card.
 
 ### What it costs, which is why it is a switch and not a default
 
@@ -994,18 +1033,22 @@ rows that is 92 px for 2,314 of them, and no name is clipped.
   before the regenerate step) and the `--cards` flag to the generator call.
   That workflow is how the live site deploys, so it is a deliberate change,
   not a tweak.
-- **Repo weight.** 2,450 cards is **~33 MB** of PNG (median 13 KB, max 18 KB),
-  committed, and the daily workflow commits what changes. A card is rewritten
-  only when its observance's date rolls into a new year, so the steady-state
-  daily churn is small -- but the first run that turns this on is a 33 MB
-  commit, and a change to the card *design* rewrites all of them.
+- **Repo weight.** 3,188 cards is **~45 MB** of PNG -- 33.0 MB for the 2,450
+  observance cards (median 13 KB, max 18 KB) and 11.9 MB for the other 738
+  (median 16 KB, max 18 KB) -- committed, and the daily workflow commits what
+  changes. A card is rewritten only when its own subject changes, so the
+  steady-state daily churn is one new dated card and nothing else -- but the
+  first run that turns this on is a ~45 MB commit, and a change to the card
+  *design* rewrites all of them.
+- **Build time.** Drawing 3,188 cards takes about 2.5 minutes on this machine
+  (~22 cards/second), against a few seconds for the whole site without them.
 
 ### How it stays safe to leave off
 
 `card_fonts()` is the gate. With `SHARE_CARDS` off, Pillow missing, or neither
-pinned font file present, no card is written, `IMAGE_ABS` stays the stock
+pinned font file present, no card is written, every page keeps the stock
 category hero, and every file the generator writes is byte-identical to a
-build without the feature -- verified by `diff -r` over all 5,671 files.
+build without the feature -- verified by `diff -r` over all 5,672 files.
 Asking for `--cards` and not getting them prints a WARNING (and a GitHub
 Actions annotation) rather than failing quietly, because the half-failure --
 pages keeping the stock image -- is invisible otherwise.
@@ -1027,8 +1070,7 @@ cost of a binary and a licence file -- open question, see `docs/REVIEW.md`.
 E7's other two halves: the **9:16 feed-native card**, which needs somewhere on
 the page for a reader to get it from, and the **Featured tier**, which is a
 pricing decision and blocked on the same answer E6's Listed tier is waiting
-for. Only `/holiday/` pages get a card; dated, perennial, year and category
-pages still use the stock hero.
+for.
 
 ## Long-form holiday content (E1)
 

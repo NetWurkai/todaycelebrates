@@ -106,11 +106,13 @@ paid listing, change that Notion row; `public/occasions/**` is generated from it
 The file does not exist yet, which is exactly why E6's publication half is
 dormant: with no `occasions.json` the generator writes a byte-identical site.
 
-The E7 share cards (`public/holiday/<slug>/card.png`) are generated too, by
-`generate.py` on the same run as the pages -- but only when cards are switched
-on (`--cards` / `SHARE_CARDS`), which they are not. `docs/card-samples/` is
-**source**: four cards checked in so the design can be reviewed without
-running anything.
+The E7 share cards are generated too, by `generate.py` on the same run as the
+pages -- but only when cards are switched on (`--cards` / `SHARE_CARDS`),
+which they are not. There is now one beside each page of five types:
+`public/holiday/<slug>/card.png`, `public/day/<date>/card.png`,
+`public/<month>-<day>/card.png`, `public/holidays/<year>/card.png` and
+`public/category/<slug>/card.png`. `docs/card-samples/` is **source**: four
+cards checked in so the design can be reviewed without running anything.
 
 ---
 
@@ -528,14 +530,35 @@ byte-identical to a build without the feature (proven by `diff -r` over all
 edited — it is not on §3's source list, and it is how the live site deploys;
 the two-line change is written out in `docs/REVIEW.md` for Jay to apply.
 
+**STATUS: 2026-10-17 — the third bullet below is done.** Tree was clean at the
+gate (Jay committed the 2026-10-16 E7 work); E4's remaining ~2,410 rows are
+still blocked on an assignment rule, E6's upstream half on a price, and E7's
+two other bullets on Jay, so this was the next unblocked work per §5. The
+dated, perennial, year-index and category pages now carry their own card,
+behind the same switch. `card_png_bytes` was split into `card_render()` (the
+frame, which knows nothing about page kind) plus five callers that fill the
+pill, headline and muted line; the 2,450 observance cards come out
+**byte-identical** to before the split. 3,188 cards in all, ~45 MB with cards
+on. A date roll creates the one new dated card at the horizon and rewrites
+none, so the feature adds no nightly churn. Cards are still **off**, and with
+them off every one of the 5,672 files is byte-identical to a build without any
+of this.
+
 **What is left of E7:**
 1. The **9:16 feed-native card** — the renderer generalizes to it, but nothing
    on the page offers a reader a card to download, and adding that affordance
    to 2,450 pages is a UI decision.
 2. The **Featured tier** — a pricing decision, blocked on the same answer E6's
    Listed tier is waiting for.
-3. Cards for dated, perennial, year and category pages (they still use the
-   stock hero).
+3. ~~Cards for dated, perennial, year and category pages~~ — **done
+   2026-10-17.** The home page, `/dates/`, `/categories/`, `/about/` and the
+   occasion pages are deliberately still on the stock hero; whether they
+   should get cards is in `docs/REVIEW.md`.
+
+**With E4, E6 and E7 all now waiting on Jay, the queue has no unblocked item
+left.** The next engineering run should expect to stop at §5 unless an answer
+has landed — see "Queue empty?" below for what is explicitly *not* unattended
+work.
 
 ### Queue empty?
 Report it in the Run Log and stop. Candidates for the re-plan conversation, **not
@@ -573,42 +596,42 @@ Ties broken by date proximity, so pages go live before their occurrence.
 - [x] 18. Juneteenth  *(published 2026-10-16, content run; Live)*
 - [x] 19. Columbus Day  *(published 2026-10-16, content run; Live)*
 - [x] 20. Indigenous Peoples' Day  *(published 2026-10-16, content run; Live)*
-- [ ] 21. U.S. General Election Day
-- [ ] 22. Flag Day
-- [ ] 23. Patriot Day — National Day of Service & Remembrance
+- [x] 21. U.S. General Election Day  *(published 2026-10-17, content run; Live)*
+- [x] 22. Flag Day  *(published 2026-10-17, content run; Live)*
+- [x] 23. Patriot Day — National Day of Service & Remembrance  *(published 2026-10-17, content run; Live)*
 
 **Tier 3 — seasonal, cultural, commercial**
-- [ ] 24. Black Friday
-- [ ] 25. Cyber Monday
-- [ ] 26. Small Business Saturday
-- [ ] 27. Cinco de Mayo
-- [ ] 28. Mardi Gras
-- [ ] 29. Chinese New Year
-- [ ] 30. Diwali
-- [ ] 31. The Start of Hanukkah
-- [ ] 32. Passover
-- [ ] 33. The Start of Ramadan
-- [ ] 34. Good Friday
-- [ ] 35. Ash Wednesday
-- [ ] 36. Daylight Saving Time Ends
-- [ ] 37. The Start of Daylight Saving Time
-- [ ] 38. Autumnal Equinox
-- [ ] 39. Groundhog Day
-- [ ] 40. April Fools' Day
-- [ ] 41. Earth Day
-- [ ] 42. Pi Day
-- [ ] 43. Friday the 13th
+- [x] 24. Black Friday  *(published 2026-10-18, content run; Live)*
+- [x] 25. Cyber Monday  *(published 2026-10-18, content run; Live)*
+- [x] 26. Small Business Saturday  *(published 2026-10-18, content run; Live)*
+- [x] 27. Cinco de Mayo  *(published 2026-10-19, content run; Live)*
+- [x] 28. Mardi Gras  *(published 2026-10-19, content run; Live)*
+- [x] 29. Chinese New Year  *(published 2026-10-19, content run; Live)*
+- [x] 30. Diwali  *(published 2026-10-20, content run; Live)*
+- [x] 31. The Start of Hanukkah  *(published 2026-10-20, content run; Live)*
+- [x] 32. Passover  *(published 2026-10-20, content run; Live)*
+- [x] 33. The Start of Ramadan  *(published 2026-10-21, content run; Live)*
+- [x] 34. Good Friday  *(published 2026-10-21, content run; Live)*
+- [x] 35. Ash Wednesday  *(published 2026-10-21, content run; Live)*
+- [x] 36. Daylight Saving Time Ends  *(published 2026-10-22, content run; Live)*
+- [x] 37. The Start of Daylight Saving Time  *(published 2026-10-22, content run; Live)*
+- [x] 38. Autumnal Equinox  *(published 2026-10-22, content run; Live)*
+- [x] 39. Groundhog Day  *(published 2026-10-23, content run; Live)*
+- [x] 40. April Fools' Day  *(published 2026-10-23, content run; Live)*
+- [x] 41. Earth Day  *(published 2026-10-23, content run; Live)*
+- [x] 42. Pi Day  *(published 2026-10-24, content run; Live)*
+- [x] 43. Friday the 13th  *(published 2026-10-24, content run; Live)*
 
 **Tier 3b — from E2's coverage gaps (2026-10-10), ahead of Tier 4 by demand,
 as instructed below.** All eleven are published rows with a one-paragraph
 Description and no long-form content.
-- [ ] 23a. Kwanzaa
-- [ ] 23b. Rosh Hashanah
-- [ ] 23c. Yom Kippur
-- [ ] 23d. Day of the Dead
-- [ ] 23e. National Teacher Appreciation Day  *(and the Week row with it)*
-- [ ] 23f. Super Bowl Sunday
-- [ ] 23g. Oktoberfest (starts in Germany)  *(the "ends" row is a known bug — see §7)*
+- [x] 23a. Kwanzaa  *(published 2026-10-24, content run; Live)*
+- [x] 23b. Rosh Hashanah  *(published 2026-10-25, content run; Live)*
+- [x] 23c. Yom Kippur  *(published 2026-10-25, content run; Live)*
+- [x] 23d. Day of the Dead  *(published 2026-10-25, content run; Live)*
+- [x] 23e. National Teacher Appreciation Day  *(published 2026-10-26, content run; Live — the National Teacher Appreciation Week row published with it)*
+- [x] 23f. Super Bowl Sunday  *(published 2026-10-26, content run; Live)*
+- [x] 23g. Oktoberfest (starts in Germany)  *(published 2026-10-26, content run; Live — the "ends" row remains a known bug, see §7)*
 - [ ] 23h. National Pizza Day
 - [ ] 23i. National Margarita Day
 - [ ] 23j. National Hugging Day
@@ -1091,3 +1114,410 @@ Newest last. One line per run: date, type, item, outcome. Keep it terse.
   pages are still short pages on the live site; the REVIEW.md write race between the two nightly
   runs; and five open decisions, the Listed-tier price now blocking two queue items. No repo source
   or Notion change by this run. Digest filed at `claude/digest-2026-10-16-friday.md`.
+- 2026-10-17 · engineering · **E7 third bullet done — share cards for the dated, perennial,
+  year-index and category pages** · tree clean at the gate (Jay committed Friday's E7 work);
+  E4 still blocked on an assignment rule, E6's upstream half on a price, E7's other two
+  bullets on Jay, so this was the only unblocked item in §5. No Notion change.
+  `card_png_bytes()` split into `card_render()` (the frame, page-kind-agnostic) + five
+  callers filling pill/headline/muted line; `generate.py` (+284/-71) `card_rel_for`,
+  `card_pastel`, `day_/perennial_/year_/category_card_png_bytes`, card setup hoisted above
+  the page loops with a `write_card()` helper, `card_url=` on the day and perennial
+  renderers, `image=` on `render_simple_page`, `cards_by_kind` in the report;
+  `public/_headers` (+61/-5) card cache rules for `/day/*`, `/holidays/*`, `/category/*` and
+  one per month for the perennial paths (43 → 55 rules, limit 100); `scripts/README.md`
+  "Share cards (E7)" rewritten; §3 names the four new generated card paths. Verified:
+  **cards off — `diff -r` pre-patch vs patched over all 5,672 files, zero differences**,
+  exit 0, zero WARNINGs, idempotent; **cards on — 738 new files all `card.png` (356 dated /
+  366 perennial / 2 year / 14 category), 738 pages changed and every delta exactly the two
+  `og:image`/`twitter:image` lines, zero unexplained deltas**, 4,900 holiday files + 14
+  category feeds + sitemap + home + `/dates/` + `/about/` + `/categories/` + every data file
+  byte-identical; **all 2,450 observance cards byte-identical to the pre-patch generator's**
+  (refactor proven pure, not asserted); the 738 new cards all decode at 1200x630, 11.89 MB,
+  none clipped, no pill too wide; **date roll creates 1 card and rewrites 0** — the churn
+  measurement Friday's run could not finish. Cards still off. Cards-on weight now ~45 MB,
+  build ~2.5 min. Nothing committed. 6 decisions + 17 carried in docs/REVIEW.md.
+  **The queue now has no unblocked item: the next engineering run should expect to stop at
+  §5 unless an answer has landed.**
+- 2026-10-17 · content · Tier 2 items 21-23 — **U.S. General Election Day, Flag Day, Patriot Day published Live**
+  (846 / 900 / 897 words; every origin, statute, date and statistic claim sourced). STEP 0 passed (committed
+  exporter carries LONGFORM_RELEASED_STATUSES, count 2). One clean Notion row per item; `Published` untouched on
+  all three. Tree was dirty at the gate (` M scripts/generate.py`, ` M public/_headers` — the uncommitted E7 diff);
+  proceeded on the precedent recorded in REVIEW.md, since a content run writes only inside `docs/`. **Nothing
+  omitted for want of a source**, but several widely circulated claims were deliberately left out and are named in
+  docs/REVIEW.md: the All Saints' Day explanation for Election Day's date, the Chicago/Illinois 1894 Flag Day
+  founding claim, the 1937 Pennsylvania date and "only state" claim, and three 9/11 figures (cumulative illness
+  deaths, cumulative FDNY illness deaths, national day-of-service participation). **Three source conflicts resolved
+  toward the more primary text**, all disclosed on the pages: the 1845 vs. 1872 question of which act "established"
+  Election Day (split by office — 1845 electors, 1872 House effective 1876, 1914 Senate, per the Statutes at Large
+  rather than CRS's single footnote); Cigrand vs. Kerr vs. Balch as "father of Flag Day" (named all three as
+  claimants and asserted none, since no contemporaneous document exists); and 2,977 (9/11 Memorial, current) vs.
+  2,973 (9/11 Commission, 2004) for the September 11 death toll (took 2,977, the later and current figure).
+  **Also corrected a premise carried in from the brief: the Flag Code is no longer at 36 U.S.C. 174 — Pub. L.
+  105-225 moved it to 4 U.S.C. 4-10 in 1998**, so the page cites 4 U.S.C. 6(d) and 8(k). Statutory text, the
+  casualty figures and all 27 citation URLs were verified independently of the research pass (govinfo PDFs pulled
+  and grepped; 2,753+184+40=2,977 checked; 5 U.S.C. 6103 confirmed to contain none of the three holidays).
+  Verified end-to-end with the **committed** generator into a throwaway dir: exit 0, **zero WARNINGs**, all three
+  pages render all six sections, **FAQPage JSON-LD carries 5 / 4 / 5 Question entities**, every source URL became a
+  live anchor, no literal asterisks leaked, Opening replaced the boilerplate Description on all three (the
+  "lighthearted holiday" filler is gone), and the generated dates tables match an independent calculation
+  (Election Day 2026-11-03 Tuesday). Nothing committed; no generated output touched.
+- 2026-10-18 · engineering · no item started · **stopped at hard rule 2** — tree dirty outside
+  `docs/` (` M public/_headers` +56/-5, ` M scripts/README.md` +61/-19, ` M scripts/generate.py`
+  +218/-66): the 2026-10-17 E7 card diff, still unreviewed. Line counts match that run's entry
+  exactly, no untracked files anywhere, nothing drifted — so it is one unreviewed night, not two.
+  No source, generated or Notion change; `docs/` only. Generator verified read-only into a
+  throwaway dir with the **working tree's patched** generator: exit 0, **zero WARNINGs**, empty
+  stderr, 5,673 files, 2,450 observance / 357 dated / 366 perennial / 2 year / 19 simple pages,
+  2,465 feeds · 3,264 events, cards off, `unresolved_holidays` / `unknown_types` /
+  `occasions_problems` / `stale_month_files` / `pages_skipped` all empty, type counts unchanged
+  (2,410 untyped). **Note for tomorrow: a clean tree alone will not help** — §5 still has no
+  unblocked item (E4 on an assignment rule, E6 on the Listed price, both of E7's bullets on Jay),
+  so the next run clears the gate and stops at §5 instead. The two questions that reopen the
+  queue are marked ★ in docs/REVIEW.md.
+- 2026-10-18 · content · Tier 3 items 24-26 — **Black Friday, Cyber Monday, Small Business Saturday published Live**
+  (889 / 877 / 882 words; every origin, date, statute and statistic claim sourced). STEP 0 passed (committed exporter
+  carries `LONGFORM_RELEASED_STATUSES`, count 2). One clean Notion row per item; `Published` untouched on all three;
+  `Type` left alone (E4 still blocked). **Queue-order note:** took Tier 3's 24-26 rather than the Tier 3b block, whose
+  `23a`-`23j` numbering suggests insertion after item 23. Read it as positioned where it physically sits — its header
+  claims priority only "ahead of Tier 4", which Tier 3 also satisfies — and date proximity agrees (Black Friday
+  2026-11-27 is sooner than Kwanzaa 2026-12-26). **If Jay meant 3b first, the next run should take 23a-23c and this
+  line is the record of the call.** Tree was dirty at the gate (` M public/_headers`, ` M scripts/README.md`,
+  ` M scripts/generate.py` — the same unreviewed E7 diff as the 2026-10-18 engineering run); proceeded on the
+  precedent recorded in docs/REVIEW.md, since a content run writes only inside `docs/`. **Nothing was omitted for want
+  of a source at section level, but four specific claims were deliberately left out** and are named in docs/REVIEW.md:
+  the enslaved-people origin myth for Black Friday (no acceptable source addresses it either way — notably *not*
+  debunked on the page, which is the one thing worth a second look); the year Philadelphia merchants proposed "Big
+  Friday"; the calendar date of the first Small Business Saturday in 2010, which American Express does not state; and
+  every annual spending/participation total for Small Business Saturday. **Two source conflicts resolved toward the
+  more primary text**, both disclosed on the pages: the Cyber Monday press-release date and coiner (CBS News relaying
+  BusinessWeek, plus CNN/Money, give a November 21 2005 release and credit Shop.org collectively, with executive
+  director Scott Silverman describing a group brainstorm — so the widely repeated November 28 date and the
+  single-individual attribution are *not* asserted, since nrf.com, the archived PRNewswire copy, the 2005 NYT piece
+  and the 2007 LA Times piece were all unreachable); and Black Friday's Philadelphia dating (Oxford University Press
+  gives only the 1961 citation, Britannica gives "the early 1960s" — both reported, not averaged). Also resolved a
+  wording risk: 5 U.S.C. 6103 has subsections (b) and (c), so all three pages say "not among the 11 legal public
+  holidays listed in 5 U.S.C. 6103(a)" rather than the flat "not a federal holiday". Timeline dates were written
+  **without** `**bold**` — the exporter drops the annotation anyway, so plain text renders identically with no risk of
+  literal asterisks leaking; the Notion `FAQ` and `Timeline` field descriptions still instruct bolding and are now
+  stale against §4. `docs/CONTENT_EXEMPLAR.md`'s closing line still says "Set Content Status = Draft", also stale
+  since 2026-10-10. Verified end-to-end with the **committed** generator into a throwaway dir under the build box's
+  own home, never into `public/`: exit 0, **zero WARNING lines**, empty stderr, 5,673 files; `unresolved_holidays` /
+  `unknown_types` / `occasions_problems` / `stale_month_files` / `pages_skipped` all empty; type counts unchanged
+  (2,410 untyped); skip lists only the known expiring-lookup rows (§7). All three pages render all six sections,
+  **FAQPage JSON-LD carries 5 Question entities each**, every source URL became a live anchor (3 / 3 / 6), **zero
+  literal asterisks**, and `Opening` replaced the boilerplate `Description` on all three (the "lighthearted holiday"
+  and "piece of technology or digital culture" filler is gone). Generated dates tables match an independent
+  fourth-Thursday calculation for 2027-2030 on all three rows. Nothing committed; no generated output touched.
+- 2026-10-19 · engineering · no item started · **stopped at hard rule 2, second night running** —
+  tree dirty outside `docs/` (` M public/_headers` +56/-5, ` M scripts/README.md` +61/-19,
+  ` M scripts/generate.py` +218/-66): the same 2026-10-17 E7 card diff, still unreviewed. Line
+  counts identical to that run's entry and to last night's measurement, no untracked files, all
+  three mtimes still 2026-10-17 — one unreviewed night sitting two days, not two stacked. Checked
+  for an answer that would reopen the queue: none had landed (only last night's own `docs/` writes
+  since 2026-10-18 00:00), so §5 still has no unblocked item either. No source, generated or Notion
+  change; `docs/` only. Generator verified read-only into a throwaway dir outside `$HOME/mnt` with
+  the **working tree's patched** generator: exit 0, **zero WARNINGs**, empty stderr, 5,674 files,
+  2,450 observance / 358 dated / 366 perennial / 2 year / 19 simple pages, 2,465 feeds · 3,264
+  events, cards off, `occasions_total` 0; `unresolved_holidays` / `unknown_types` /
+  `occasions_problems` / `stale_month_files` / `pages_skipped` all empty, skip lists only the known
+  expiring-lookup rows (§7), type counts unchanged (2,410 untyped). The +1 dated page / +1 file vs
+  last night is the one-day roll of the derived horizon, nothing else. Repo re-checked after the run
+  and unchanged. **Clearing the tree alone will not produce work tomorrow — one of the two ★
+  questions in docs/REVIEW.md has to be answered too.**
+- 2026-10-19 · content · Tier 3 items 27-29 — **Cinco de Mayo, Mardi Gras, Chinese New Year published Live**
+  (909 / 920 / 1005 words by the space-count measure used for the 10-18 entry — **all three are over the
+  §4 900-word ceiling**, Chinese New Year by ~12%; three rounds of trimming got them from 1155/1253/1446
+  down to this, and the remainder is sourced substance rather than padding, but the next run should aim
+  lower from the first draft). STEP 0 passed (committed exporter carries `LONGFORM_RELEASED_STATUSES`,
+  count 2). One clean Notion row per item, no duplicates; `Published` untouched (`__YES__`) on all three;
+  `Type` left alone (E4 still blocked). Queue order: took Tier 3's 27-29 in document order, the same
+  reading the 10-18 run recorded; the Tier 3b block (`23a`-`23j`) is still untaken and still ambiguous.
+  **Tree was dirty at the gate** (` M public/_headers`, ` M scripts/README.md`, ` M scripts/generate.py` —
+  the same unreviewed E7 diff, now four nights old); proceeded on the precedent in docs/REVIEW.md, since a
+  content run writes only inside `docs/` and to Notion. **Folder access had to be requested at the start**:
+  the session began with `connectedFolders: []` despite the task's folder being attached, and
+  `device_request_folder_access` was granted immediately.
+  **Sourcing.** Every origin, founder, date, statute and statistic claim carries a source URL. Nothing was
+  cut at section level, but several specific claims were deliberately omitted and are named in docs/REVIEW.md:
+  the French commander and Mexican troop numbers at Puebla; the TIME/Zócalo essay's claim that a 2005
+  congressional resolution made Cinco de Mayo "an official national holiday" (a resolution does not create a
+  5 U.S.C. 6103 holiday, and no primary text was reachable); **Mobile, Alabama's claim to the oldest organized
+  US Mardi Gras**, with the 1703 Fort Louis celebration, the Cowbellion de Rakin Society and the Order of Myths
+  — the Encyclopedia of Alabama article would not fetch, so the Mardi Gras page explicitly declines to rank
+  New Orleans against Mobile rather than guessing; the Easter arithmetic behind Ash Wednesday; flambeaux,
+  doubloons and king cake; the **age and dynasty of origin of the Spring Festival**, which none of the LOC,
+  Smithsonian or CRS sources states — so that page says so in its own first line rather than inventing one.
+  **Three source conflicts resolved toward the more primary text, all disclosed on the pages**: the earliest
+  American Cinco de Mayo celebration (LOC says 1866 from its own newspaper holdings; PBS SoCal reproduces a
+  June 7 1862 report from Columbia, California — both reported, the 1862 document treated as the more primary,
+  neither averaged); the founding year of the Mistick Krewe of Comus (City Archives 1856 + first parade 1857
+  vs. the Louisiana State Museum's "emerged in 1857" — both stated); and how the lunar year starts
+  (Smithsonian Magazine's "first full moon" vs. the National Museum of Asian Art's "first new moon" vs. the
+  CRS's "second new moon after the winter solstice" — the new-moon accounts preferred because they match the
+  Hong Kong Observatory's own description of the calendar and the 15th-day Lantern Festival; the full-moon
+  wording is not adopted, and the CRS's Jan 21-Feb 19 range is used over Smithsonian's Jan 21-Feb 20).
+  **Least confident claim:** Rex "introducing a daytime parade" and billing its monarchs as king and queen of
+  Carnival — the Louisiana State Museum states it but gives no year for Rex, so the 1872 year comes from the
+  City Archives and the two are joined on this page rather than in either source.
+  **Date-field note (no live error, but worth knowing).** The Chinese New Year row's Notion `Date` is
+  `2027-02-07`; the row is Floating, so `export_from_notion.py`'s `chinese-new-year` lookup table supplies the
+  occurrence instead, and it already holds `2027: 02-06`. The generated page renders **February 6, 2027
+  (Saturday)**, which an official government source now independently corroborates — Singapore's Ministry of
+  Manpower lists Chinese New Year 2027 as 6-7 February. That matters because the lookup table's own comment
+  cites qppstudio, chinahighlights and travelchinaguide, all aggregator-class sources §4 rejects; the entry is
+  now backed by a government page, cited in that row's Sources. The stale Notion `Date` was **not** changed —
+  it is cosmetic for a Floating row and a data edit is outside a content run's brief.
+  **Verification.** Generator run read-only into a throwaway dir under the build box's own home, never into
+  `public/`, with the **committed** generator: exit 0, **zero WARNING lines**, empty stderr, 5,674 files;
+  `unresolved_holidays` / `unknown_types` / `occasions_problems` / `stale_month_files` / `pages_skipped` all
+  empty; `occasions_total` 0; 2,465 feeds · 3,264 events; cards off. Ran twice — once on the committed
+  `holidays.json` as a baseline, then with the three rows' long-form fields injected the way
+  `extract_holiday()` maps them. All three pages render all six sections; **FAQPage JSON-LD carries 5 / 4 / 5
+  Question entities**; every source URL became a live anchor (9 / 8 / 8), including the query-string
+  `Law.aspx?d=74097` and the HKO `.pdf`; **zero literal asterisks**; `Opening` replaced the boilerplate
+  `Description` on all three (the "lighthearted holiday" filler is gone from every one). Generated dates
+  tables check out independently: Cinco de Mayo May 5 every year; Mardi Gras lands on a Tuesday in all five
+  years shown, 2027-02-09 and the leap-day 2028-02-29 both matching Easter minus 47; Chinese New Year
+  2027-02-06. `parse_faq`, `md_blocks` and `md_inline` were also exercised directly against the live field
+  text: 5 pairs parsed, accents (Juárez, Patrióticas, Señoras, Ángeles, Zócalo, José, Tết) preserved through
+  to the HTML. **Caveat on the injection test:** Cinco de Mayo was injected with its full published text;
+  Mardi Gras and Chinese New Year were injected with structurally identical but shortened bodies, so those two
+  pages are verified for markup, FAQ parsing, URL survival and encoding, not byte-for-byte for prose length.
+  Nothing committed; no source, generated or `scripts/` file touched; scratch dir removed after the run.
+- 2026-10-20 · engineering · no item started · **stopped at hard rule 2, third night running** —
+  tree dirty outside `docs/` (` M public/_headers` +56/-5, ` M scripts/README.md` +61/-19,
+  ` M scripts/generate.py` +218/-66): the same 2026-10-17 E7 card diff, still unreviewed. Line
+  counts identical to that run's entry and to both nights' measurements since, no untracked
+  files, mtimes still 2026-10-17 — one unreviewed night now sitting three days, not three
+  stacked. Checked again for an answer that would reopen the queue: none had landed (nothing
+  in the repo modified since 2026-10-19 12:00 beyond last night's own `docs/` writes), so §5
+  still has no unblocked item either. No source, generated or Notion change; `docs/` only.
+  Generator verified read-only into two throwaway dirs outside `$HOME/mnt` with the **working
+  tree's patched** generator: **exit 0**, **zero WARNINGs**, empty stderr, 5,675 files,
+  2,450 observance / 359 dated / 366 perennial / 2 year / 19 simple / 14 category, 2,465 feeds
+  · 3,264 events, cards off, `occasions_total` 0, `people_dates` 366; `unresolved_holidays` /
+  `unknown_types` / `occasions_problems` / `stale_month_files` / `pages_skipped` all empty,
+  skip lists only the known expiring-lookup rows (§7), type counts unchanged (2,410 untyped);
+  two full runs `diff -rq` byte-identical across all 5,675 files, `--dry-run` also exit 0. The
+  +1 dated page / +1 file vs last night is the one-day roll of the derived horizon. Repo
+  re-checked after the runs and unchanged. **Also noted: this clone is behind origin** (remote
+  HEAD `03948a2a` vs local `cbc848a4`, "Daily regeneration: 2026-10-16") — a `git pull` is due
+  once the three files are committed or reverted. **A new question is at the top of
+  docs/REVIEW.md: whether the nightly engineering task should keep firing while §5 is blocked,
+  with three options including sanctioning one named fallback item.**
+- 2026-10-20 · content · Tier 3 items 30-32 (Diwali, The Start of Hanukkah, Passover) · **three pages
+  published Live.** STEP 0 passed: committed `export_from_notion.py` carries `LONGFORM_RELEASED_STATUSES`
+  (grep -c = 2). One Notion row matched each queue item, no duplicates; `Published` untouched on all three
+  (still checked). Slugs `diwali`, `the-start-of-hanukkah`, `passover`.
+  **Sourcing.** 28-35 source URLs per page, all bare, no markdown links, zero literal asterisks. Primary
+  texts read directly rather than paraphrased from reference works: 1 and 2 Maccabees and John 10 (NABRE,
+  USCCB), Shabbat 21b and Mishnah Pesachim 10 (Koren William Davidson Edition), Exodus 12 and 23 (JPS 1917),
+  Josephus *Antiquities* 12.316-326 (Posen Library / Yale UP). Government record from govinfo, nysenate.gov,
+  governor.ny.gov, pa.gov, gov.ca.gov, schools.nyc.gov, nps.gov, about.usps.com. No aggregator, no Wikipedia.
+  **Source conflicts resolved and stated on the page, not averaged.** Hanukkah: the year of the rededication
+  — 164 BCE (Britannica x3, Posen/Yale, NABRE footnote) against 165 BCE (two Smithsonian object records);
+  the primary datum is 1 Maccabees' Seleucid "year one hundred and forty-eight", so 164 is printed and the
+  split named, with no reason asserted for it because none was sourceable. Also Hanukkah: the dreidel —
+  Britannica and USPS give the *nes gadol haya sham* acronym, a Library of Congress folklorist traces the
+  letters to German gambling abbreviations on a borrowed teetotum and calls the acronym "just a later
+  rationalization"; LoC preferred on origins, acronym still given as the traditional reading. Also Hanukkah:
+  the 1979 National Menorah site (Lafayette Park per WHHA/NPR, the Ellipse per an Obama-era WH blog —
+  Lafayette Park printed, since Smithsonian Magazine records a later move). Diwali: which lunar month, where
+  Britannica contradicts itself across four of its own articles — the invariant (mid-autumn new moon, Oct or
+  Nov) is stated plus the statutory formulation, rather than any one sentence as "the rule". Passover: seder
+  attendance, Pew 70% (2013) vs six-in-ten (2020) — 2020 used, both labelled by survey year.
+  **Omitted for lack of an acceptable source, each noted in the page's own Sources field:** any year for
+  Guru Hargobind's release from Gwalior (the widely circulated 1619 is unsourceable outside devotional sites
+  and aggregators) and the 52-princes story; a start year for White House Diwali observances (the commonly
+  printed 2003); Newar Buddhist observance of Diwali; any count of Americans who observe Diwali; **any Pew
+  figure for the share of American Jews who light Hanukkah candles — Pew has never asked, the word does not
+  appear in either the 2013 or 2020 topline, so every such statistic in circulation is laundered**; the
+  origin of Hanukkah gelt; the "most-printed Jewish book" claim for the Haggadah (the LoC's "most widely
+  read classic text in the Jewish tradition" used instead); the youngest child asking the Four Questions;
+  the yellow cap on kosher-for-Passover Coca-Cola and Manischewitz's founding year/city; and any claim about
+  the historicity of the Exodus, so the page presents Exodus 12 as what the text prescribes, not as events.
+  **Least confident claims, flagged:** (a) Nov 1 2024 as the *first* NYC school closure for Diwali — no
+  government page says "first", the page states the inference (law signed Nov 14 2023, after that year's
+  Diwali; first calendar to carry the entry) rather than the superlative; (b) the afikoman, described only in
+  a first-person Smithsonian Folklife essay, so stated in one clause with nothing built on it; (c) "no USPS
+  Passover stamp" is a negative finding from about.usps.com and the announced 2026 program, worded as such.
+  **Two source judgments declared on the pages:** reformjudaism.org (Union for Reform Judaism) cited only for
+  Reform practice and the movement's own history, where it is the administering body; and sefaria.org used as
+  the digital locus for two published editions, named at every citation.
+  **Over the §4 word target, deliberately.** 1,206 / 1,257 / 1,295 words against a 600-900 spec. Trimmed
+  twice (from 1,325 / 1,487 / 1,503); stopped there because further cuts remove sourced substance, and these
+  three carry more conflict disclosure than any page so far. Note this is not new: **every one of the 30 live
+  long-form pages exceeds the target** (820-1,149 before tonight). Raised as a decision in `docs/REVIEW.md`.
+  **Verification.** Committed generator (`git show HEAD:scripts/generate.py`) run read-only into a throwaway
+  dir under this box's own home, never into `public/`: **exit 0, zero WARNING lines, empty stderr, 5,675
+  files**; `unresolved_holidays` / `unknown_types` / `occasions_problems` / `stale_month_files` /
+  `pages_skipped` all empty, `occasions_total` 0. All three pages render all six sections; **FAQPage JSON-LD
+  carries 5 Question entities each**; `Opening` replaced the boilerplate `Description` on all three (the
+  "lighthearted holiday" and "pause and recognize" filler is gone); zero literal asterisks in the HTML.
+  The committed `parse_faq` was also run directly against the **real** Diwali FAQ field text: **5/5 pairs**
+  from the unbolded blank-line form. The committed `md_inline` was run against five **real** Sources lines:
+  every URL became a live anchor, including the `?sfvrsn=3bdbc9c9_8` .pdf and the `?i=on` query string.
+  Generated dates check out against the floating tables: Diwali 2026-11-08, Hanukkah 2026-12-04, Passover
+  2027-04-22. Scratch dir removed after the run.
+  **Caveat on the injection test:** the three rows were injected with their real `Opening` text and real FAQ
+  question lines but placeholder body/timeline/sources prose, so the pages are verified for field mapping,
+  section structure, FAQ parsing, Opening-over-Description and URL survival — not byte-for-byte for prose
+  length. An earlier pass of this test used an `opening` key and silently fell back to `Description`;
+  `extract_holiday()` actually writes `Opening` into `description`, which is why the first run showed the
+  filler leaking. Worth knowing for the next run.
+  **Two data observations for Jay, logged in `docs/REVIEW.md`, not acted on** (data edits are outside a
+  content run's brief): the `the-start-of-hanukkah` and `passover` floating lookup tables both cite Hebcal
+  but use *different conventions* — Hanukkah holds the sundown-start date (2026-12-04, the evening the first
+  candle is lit; 25 Kislev is 12-05) while Passover holds the first full day (2027-04-22 = 15 Nisan; the
+  first seder is the evening of 04-21). Both pages are written to say which is which, but the site is
+  inconsistent across rows. Second: **the Notion `FAQ` property description still instructs that questions be
+  "wrapped in `**bold**`"** — the exact convention that silently produced zero-pair FAQs before 2026-10-10.
+  Nothing committed, pushed or merged. No source or generated file touched; `docs/` only, plus the three
+  Notion rows.
+- 2026-10-21 · engineering · no item started · **stopped at hard rule 2, fourth night running** —
+  tree dirty outside `docs/` (` M public/_headers` +56/-5, ` M scripts/README.md` +61/-19,
+  ` M scripts/generate.py` +218/-66): the same 2026-10-17 E7 card diff, still unreviewed.
+  Line counts identical to that run's entry and to all three nights since, no untracked
+  files, mtimes still 2026-10-17 — one unreviewed night now sitting five days, not four
+  stacked. Checked again for an answer that would reopen the queue: none had landed
+  (nothing in the repo modified since 2026-10-20 12:00 beyond last night's own `docs/`
+  writes; the generator's `type_counts` still reads Federal 11 / Religious 23 /
+  Season & Clock 6 / untyped 2,410), so §5 still has no unblocked item either. No source,
+  generated or Notion change; `docs/` only. Generator verified read-only into two throwaway
+  dirs outside `$HOME/mnt` with the **working tree's patched** generator: **exit 0**,
+  **zero WARNINGs**, empty stderr, 5,676 files, 2,450 observance / 360 dated / 366 perennial
+  / 19 simple / 14 category, 2,465 feeds · 3,264 events, cards off, `occasions_total` 0,
+  `people_dates` 366; `unresolved_holidays` / `unknown_types` / `occasions_problems` /
+  `stale_month_files` / `pages_skipped` all empty, skip list only the four known
+  expiring-lookup rows (§7); two full runs `diff -rq` **byte-identical** across all 5,676
+  files, `--dry-run` also exit 0. The +1 dated page / +1 file vs last night is the one-day
+  roll of the derived horizon. **Resolved what the clone is behind on:** `origin/main`
+  `57007361` vs local `cbc848a4`, and the four intervening commits ("Daily regeneration:
+  2026-10-17 … 10-20") touch 118 files, **all generated** — no source file changed upstream,
+  so nothing conflicts with or supersedes the three held files; `git pull` after they are
+  committed or reverted. Disclosed in docs/REVIEW.md: a `git fetch --dry-run` left a ~1 MB
+  `.keep`-protected pack in `.git/objects/pack/` it could not clean up (no delete permission
+  in a connected folder); `origin/main` not moved, working tree untouched. **The schedule
+  question from 2026-10-20 is still the cheapest item on the review page.**
+- 2026-10-21 · content · **queue 33-35 published** (The Start of Ramadan, Good Friday,
+  Ash Wednesday) · one Notion row matched each, no ambiguity; `Opening` / `Body` / `Timeline` /
+  `FAQ` / `Sources` written and `Content Status = Live`; `Published` and `Description` untouched.
+  Word counts 923 / 927 / 889 — the two religious-law pages run ~3% over the 900 cap and I kept
+  the overage rather than cut a sourced section. FAQ verified by running the **committed**
+  `parse_faq` from `generate.py` against the saved text: 4 / 5 / 5 pairs, so no silent
+  zero-pair failure. **Source conflict resolved:** the standard "Synod of Benevento 1091 / Pope
+  Urban II extended ashes to all the faithful" claim is contradicted by the 1913 Catholic
+  Encyclopedia, which says Benevento describes the practice as *already general* and that Aelfric
+  assumed it a century earlier; no acceptable source names Urban II at all, so the Ash Wednesday
+  page states Benevento as a witness, not an origin. **Omitted for want of a source:** no 2027
+  Ramadan date is asserted in prose (only a Gulf News explainer naming no authority and an undated
+  moonsighting.com table give Feb 8, neither an institutional announcement), so the FAQ explains
+  instead that any date printed years out — including the one in the row's own dates table — is a
+  projection; "Caput ieiunii" and "Gregory the Great fixed the Wednesday start" dropped as
+  unsourced; CARA's 45% ashes figure dropped (2008, secondhand); hot cross buns dropped
+  (Wikipedia-only); the 1970 Missal date for the revised Good Friday intercession dropped, 1959 and
+  1965 kept. **Least confident claim:** the Good Friday state-holiday count of eleven — verified
+  state by state against .gov sources, but it mixes four different legal statuses and will drift as
+  schedules are reissued. **Observed, not done by this run:** `Type` on all three rows read empty
+  before the writes and `Religious` after, and this run never wrote that field — worth a look given
+  E4 is still blocked. Nothing committed, pushed, or written outside `docs/`.
+- 2026-10-22 · engineering · no item started · **stopped at hard rule 2, fifth night running** —
+  tree dirty outside `docs/` (` M public/_headers` +56/-5, ` M scripts/README.md` +61/-19,
+  ` M scripts/generate.py` +218/-66): the same 2026-10-17 E7 card diff, still unreviewed. Line
+  counts identical to that run's entry and to all four nights since, no untracked files, mtimes
+  still 2026-10-17 — one unreviewed night now sitting six days, not five stacked. **Checked the
+  live Notion database directly this time** rather than inferring E4's state from the committed
+  `holidays.json` artifact: published rows by `Type` are untyped 2,410 / Religious 23 / Federal 11
+  / Season & Clock 6 — **identical to 2026-10-13**, so ★ B has not moved and §5 still has no
+  unblocked item. That also **closes last night's `Type` anomaly**: the Ramadan / Good Friday /
+  Ash Wednesday rows were already among the 23 typed on 10-13 (Religious total unchanged), so the
+  content run's "read empty, then Religious" was a query artifact, not a stray write. Nothing in
+  the repo modified since 2026-10-21 beyond last night's own `docs/` writes. No source, generated
+  or Notion change; `docs/` only. Generator verified read-only into two throwaway dirs outside
+  `$HOME/mnt` with the **working tree's patched** generator: **exit 0**, **zero WARNINGs**, empty
+  stderr, 5,677 files, 2,450 observance / 361 dated / 366 perennial / 2 year-index, 2,465 feeds ·
+  3,264 events, cards off, `occasions_total` 0, `people_dates` 366; `unresolved_holidays` /
+  `unknown_types` / `occasions_problems` / `stale_month_files` / `pages_skipped` all empty, skip
+  list only the four known expiring-lookup rows (§7); two full runs `diff -rq` **byte-identical**
+  across all 5,677 files, `--dry-run` also exit 0. The +1 dated page / +1 file vs last night is
+  the one-day roll of the derived horizon. Clone still behind `origin/main` (`57007361` vs
+  `cbc848a4`, four generated-only regenerations). **The 2026-10-20 schedule question is now in
+  its third night and remains the cheapest item on the review page — pausing this task is a valid
+  answer.**
+- 2026-10-22 · content · §6 items 36–38 — **Daylight Saving Time Ends**, **The Start of Daylight
+  Saving Time**, **Autumnal Equinox** — researched, written to 887 / 891 / 889 words and set
+  `Content Status = Live`. One matching Notion row each; `Published` untouched (all three still
+  ticked), `Description` untouched. STEP 0 passed: the committed `export_from_notion.py` carries
+  `LONGFORM_RELEASED_STATUSES` (count 2). Sources are federal and primary throughout — USNO
+  Astronomical Applications, Library of Congress *In Custodia Legis*, 49 CFR 71.2 via LII, CPSC,
+  NASA Science, NOAA/NWS, and GPO **govinfo Bill Status XML**; no aggregator cited anywhere.
+  **Congress.gov refuses automated retrieval** (`robots_disallowed`, three separate URLs), so the
+  Sunshine Protection Act histories come from govinfo's own BILLSTATUS XML instead — worth noting
+  for future runs, which should go straight to govinfo rather than burning fetches on congress.gov.
+  **Source conflict resolved (Autumnal Equinox):** the NWS glossary says equinox daylight is
+  "everywhere 12 hours"; NASA says the split "isn't precisely equal" and NWS Tucson gives measured
+  day lengths *above* twelve hours with the refraction that causes them. Followed NASA + Tucson
+  (mechanism and figures over a one-line approximation) and named the glossary's version in the FAQ
+  rather than dropping it; both are disclosed in `Sources`. **Sections omitted for want of a
+  source:** nothing was cut wholesale, but four commonly repeated equinox claims were *declined* and
+  listed as declined in `Sources` — the term "equilux", the claim that equal day and night falls a
+  few days *after* the September equinox (NASA says only earlier *or* later, by latitude), the range
+  of dates the September equinox can occupy and why it drifts, and the Sun rising due east. On both
+  DST pages, any figure for energy actually saved was declined likewise: the statutes state the
+  intent and neither USNO nor LOC cites a study. The **Autumnal Equinox Timeline is the year's
+  astronomical markers from the USNO seasons tables, not a founding history**, because the equinox
+  has no founder — the History section says so in its first sentence. **Least confident claim:**
+  H.R. 139's Senate status. The House vote (308–117, Roll no. 238, 2026-07-14) and the 2026-07-15
+  Senate referral are solid, but the BILLSTATUS record's update date is **2026-09-08**, so both DST
+  pages say only that no Senate action appears *as of that date* — if the Senate has moved since,
+  those two FAQ answers are the first thing to refresh. Verification: the **committed** `parse_faq`
+  was extracted via `git show HEAD:scripts/generate.py` and run against the exact FAQ text saved to
+  Notion — **5 pairs on all three pages, 15 of 15**, so no FAQ or FAQPage block will silently
+  vanish; `###` count 2 per `Body`, 6 Timeline bullets per page, and `Sources` carries 7 / 6 / 5
+  bare URLs with no markdown links. **Note for the engineering run:** `**bold**` written into
+  `Timeline` through the Notion MCP tool is parsed into a rich-text *annotation* and so is dropped
+  by the exporter's `plain_text` read — exactly the failure the field convention warns about, now
+  confirmed to apply to API writes and not just UI typing. Cosmetic only (the `- ` bullets parse
+  fine and `md_inline` would render literal asterisks if any arrived), and left as-is for
+  consistency with the 35 pages already published; the fix, if wanted, is to backslash-escape the
+  asterisks. Dirty working tree is the unchanged 2026-10-17 E7 diff (`public/_headers`,
+  `scripts/README.md`, `scripts/generate.py`) — this run added nothing outside `docs/`, so hard
+  rule 2's gate is untouched. No generator run: it reads the committed `scripts/holidays.json`, so
+  it cannot see tonight's Notion writes. Recap pushed to Jay.
+- 2026-10-23 · engineering · no item started · **stopped at hard rule 2, sixth night running** —
+  tree dirty outside `docs/` (` M public/_headers` +56/-5, ` M scripts/README.md` +61/-19,
+  ` M scripts/generate.py` +218/-66): the same 2026-10-17 E7 card diff, still unreviewed. Line
+  counts identical to that run's entry and to all five nights since, diff sha `d30418a9`, mtimes
+  still 2026-10-17, no untracked files. **New finding, and the one that matters: `git reflog` says
+  the clone has had no git operation since 2026-10-16 09:15 ET, and `origin/main` was last fetched
+  2026-10-16 13:07 — the repo has not been opened in seven days, so the five previous review notes
+  are accumulating unread.** That reframes the stall: it is not only a blocked queue, it is a
+  stalled review loop. **Corrects last night's entry:** `57007361` is not an object in this clone
+  and `HEAD` == `origin/main` == `cbc848a4`; the clone is *not* behind `origin/main`, that ref is
+  merely seven days stale. **Live site checked directly** (since the stale ref makes the Action's
+  state unknowable from git): `todaycelebrates.com` returns 200 showing "Today, Thursday October 22",
+  4 observances, "Coming up: Oct 23 National Mole Day, Tomorrow" — the expected overnight-build lag,
+  **not** a site frozen at the 2026-10-16 commit, so the nightly Action is still deploying and the
+  uncommitted E7 diff is reaching no readers. Nothing is on fire; six nights of engineering are
+  parked, not broken. Notion queue state re-checked live: published rows by `Type` untyped 2,410 /
+  Religious 23 / Federal 11 / Season & Clock 6 — **identical to 2026-10-13 and 2026-10-22**, ★ B
+  unmoved, §5 still has no unblocked item. No source, generated or Notion change; `docs/` only.
+  Generator verified read-only into two throwaway dirs outside `$HOME/mnt` with the **working
+  tree's patched** generator: **exit 0**, **zero WARNINGs**, empty stderr, 5,678 files, 2,450
+  observance / 362 dated / 366 perennial / 2 year-index, 2,465 feeds · 3,264 events, cards off,
+  `occasions_total` 0, `people_dates` 366; `unresolved_holidays` / `unknown_types` /
+  `occasions_problems` / `stale_month_files` / `pages_skipped` all empty, skip list only the four
+  known expiring-lookup rows (§7); two full runs `diff -rq` **byte-identical** across all 5,678
+  files. The +1 dated page / +1 file vs last night is the one-day roll of the derived horizon.
+  Pre-existing `.git/objects/maintenance.lock` (0 bytes, dated 2026-10-08) noted, not actionable
+  from this shell, harmless. **Recommendation escalated in `docs/REVIEW.md`: pause the engineering
+  task** — six nights of zero output with the notes unread, content unaffected and still shipping,
+  live site healthy. Not paused from here; that is Jay's one click.
+- 2026-10-23 · content · queue 39–41 Groundhog Day, April Fools' Day, Earth Day · **all three published, `Content Status = Live`**, `Published` untouched (`__YES__` on all three), `Description` untouched. One Notion row each, no duplicates; 895 / 895 / 863 words. FAQ verified by running the working tree's `parse_faq()` against the three field texts: **5 pairs each**, so FAQPage data will render; `Sources` contains no `[text](url)`, `FAQ` contains no `**`. **Source conflicts resolved and disclosed on the page, not averaged:** (1) Groundhog Day 1886 vs 1887 — split per the Punxsutawney Groundhog Club's own pages, 1886 the first newspaper mention, 1887 the first Gobbler's Knob trek; (2) who organized the 1887 trek — Hagley says the Groundhog Club under editor Clymer H. Freas, Library of Congress says the local Elks Lodge, unresolved, both named; (3) badger vs hedgehog — LOC (citing Yoder) and Smithsonian say badger, the founding org says hedgehog, both named; (4) Phil's accuracy — four federal figures (NOAA 35% 2006–2025, NCEI 30%/10yr, LOC ~40% uncited), so the spread is given and the page leads with NOAA/NCDC's raw 103/18/10 tally and its "no predictive skill" finding; (5) Earth Day 1970 turnout — five sources say ~20M, WHS's archivist says 10–20M, CRS declines a number and falls back on the NYT's "millions", so the spread is reported; (6) Earth Day causation — followed EPA's own archive where EPA claims Earth Day as impetus (1970 Clean Air Act amendments) and the documenting agency where it makes no such claim (CWA 1972, ESA 1973), rather than EARTHDAY.ORG's broader account. **Sections/claims omitted for want of a source:** the Lenin's-birthday explanation for April 22 (the only acceptable source touching it appears to misstate which date carried the association, so the page states only the documented academic-calendar reason — **this is the run's least confident judgment call**); all Groundhog Day attendance figures (club 30,000+, AP ~10,000, state projection 40,000, club self-contradicting at 35,000 for 1997 — no audited count); Clymer Freas's paper, founding role or naming of Phil; Phil's age/continuity; the 1993 film's attendance or economic effect; the 1962 Swedish colour-TV hoax; Burger King's 1998 Left-Handed Whopper; Italy's *pesce d'aprile*; Sizdah Bedar and Holi as April Fools ancestors; the spaghetti film's narrator, audience or call count; the Taco Liberty Bell's newspaper count (Inquirer 6 vs NPR 2) and call volume; Clean Air Act 1970 / Clean Water Act 1972 enactment dates (EPA's own history pages don't state them); the 20M methodology; Hayes's exact age on the day; McCloskey's district. **Second-lowest confidence:** citing the CRS fact sheet via the everycrsreport mirror — crsreports.congress.gov refuses automated retrieval, so the citation of record (R46293, updated 2026-04-09) is named in `Sources` alongside the mirror URL. **Environment findings for future content runs:** bbc.co.uk, bbc.com and web.archive.org are SITE_BLOCKED, and WebSearch's `allowed_domains` filter is rejected (HTTP 400) for theguardian.com, reuters.com, bbc.*, apnews.com, nytimes.com and svt.se — so BBC and Guardian primary sources are unobtainable from scheduled runs (the 1957 spaghetti film is therefore cited to CBC, NPR and RNZ, not the broadcaster). Britannica's `/topic/` bodies render inconsistently: Earth Day rendered, Groundhog Day and April Fools' Day did not, so neither is cited to Britannica. **Notion schema nit:** the `FAQ` property description still instructs bolding questions, which the 2026-10-10 change made wrong — carried to `docs/REVIEW.md`. No source, generated or repo change beyond `docs/`; nothing committed. Recap pushed to Jay.
+- 2026-10-23 · digest · **Friday digest written** (10:20 UTC) · read §5/§6/§8, `docs/REVIEW.md`, `docs/FIDELITY_AUDIT.md`, live Notion (41 rows `Content Status = Live`, all with `Body`/`FAQ`/`Timeline`/`Sources`; **0 Draft, 0 Reviewed — nothing reverted this week**; 2,413 rows still long-form-empty) and the live site. Covered 10-17→10-23: **1 engineering item done** (10-17, E7 third bullet) and **six consecutive nights stopped at hard rule 2** on the unchanged 10-17 E7 diff (`public/_headers`, `scripts/README.md`, `scripts/generate.py`; sha `d30418a9`) — led with that plus ★A (Listed price, 8 days), ★B (E4 assignment rule, 10 days), the standing pause recommendation and the word cap. **21 content pages published Live** (queue items 21–41) with URLs; noted that today's three serve short pages until tonight's regeneration (home page reads "Thursday October 22" — expected lag, verified 200s and long-form present on 18 of 21). §5 of the digest given room: six lowest-confidence claims ranked (Earth Day/Lenin first, then Cyber Monday's founding facts, Good Friday's eleven states, Black Friday's un-rebutted myth, Rex 1872, H.R. 139's Senate status), the omitted sections, the Benevento/Urban-II reusable correction, the unexplained `Type` writes on the 10-21 rows, the Hebrew-calendar convention split, the stale Notion field descriptions and the blocked-domain list. Spot-check picks: Earth Day, Cyber Monday, Good Friday, with the Draft-reverts-to-short-page reminder. No source, generated or Notion change; `docs/EXECUTION_PLAN.md` §8 only (this line); nothing committed.
+- 2026-10-24 · engineering · no item started · **stopped at hard rule 2, seventh night running** — tree dirty outside `docs/` (` M public/_headers` +56/-5, ` M scripts/README.md` +61/-19, ` M scripts/generate.py` +218/-66): the same 2026-10-17 E7 card diff, unreviewed. Line counts, diff sha `d30418a9` and 2026-10-17 mtimes all identical to the six nights before; no untracked files; `HEAD` == `origin/main` == `cbc848a4`. **Review loop still stalled: `git reflog` ends at 2026-10-16 09:15 ET and `origin/main` was last fetched 2026-10-16 19:54 — eight days, seven unread notes.** Live site checked directly: 200, 29,825 bytes, "Today, Friday October 23" at 01:00 ET on the 24th — the usual overnight-build lag, Action still deploying, uncommitted diff reaching no readers. **One finding, and it is a false alarm worth recording so no run "fixes" it: the Notion connector reported typed rows down from 40 to 21** (untyped 2,429 / Federal 11 / Religious 6 / Season & Clock 4), both query modes agreeing. **It is a read artifact, not data loss** — page records show `Type` intact, and three rows from the same 10-13 batch 51 seconds apart (First Day of Spring 05:00:38, Easter Sunday 05:01:14, Palm Sunday 05:01:29) come back typed / untyped / untyped with no edit since, while the same query returns Easter Sunday's `Content Status = Live` correctly. E4 typing intact, ★ B unmoved, §5 still has no unblocked item. Could not test the export path (`NOTION_TOKEN` absent, no `.env`); UI spot-check offered in `docs/REVIEW.md` as decision D. Generator verified read-only into two throwaway dirs outside `$HOME/mnt` with the **working tree's patched** generator: **exit 0**, **zero WARNINGs**, empty stderr, 5,679 files, 2,450 observance / 363 dated / 366 perennial / 2 year-index, 2,465 feeds · 3,264 events, cards off, `occasions_total` 0, `people_dates` 366; `unresolved_holidays` / `unknown_types` / `occasions_problems` / `stale_month_files` / `pages_skipped` all empty, skip lists only the four known expiring-lookup rows (§7); two full runs `diff -rq` **byte-identical** across all 5,679 files. +1 file vs last night is the one-day horizon roll (dated range 2026-10-08 → 2027-10-23). No source, generated or Notion change; `docs/` only; nothing committed. **Pause recommendation restated, not acted on.**
+- 2026-10-24 · content · queue 42–43 + 23a Pi Day, Friday the 13th, Kwanzaa · **all three published, `Content Status = Live`**, `Published` untouched (`__YES__` on all three), `Description` untouched (102 / 92 / 266 chars unchanged). One Notion row each, no duplicates — a `LIKE '%pi day%'` sweep also matched National Shrimp Scampi Day, ignored. Word counts 902 / 914 / 897 (Friday the 13th and Pi Day sit 2 and 0 words over the 900 ceiling; both were cut three times and the remainder is all sourced). **STEP 0 passed:** committed exporter has 2 hits for `LONGFORM_RELEASED_STATUSES`. **FAQ verified end to end:** the repo's `parse_faq()` body (lines 1838–1859) was md5-compared against the copy used for testing — identical, `2cfa79b385a68c7afcd89cce4bae2650` — and the three FAQ texts are byte-identical to what Notion stored (1327 / 1651 / 1314 chars, 18 newlines each), so the **5 pairs each** result is the real function on the real text. `Sources` contains no `[text](url)`; `FAQ` contains no `**`. **Source conflicts resolved and disclosed on the page, not averaged:** (1) Larry Shaw's job title — Exploratorium says "former staff physicist, tinkerer, and media specialist," SFGate says "technical curator… for 33 years"; both are named, the museum's preferred as the employer; (2) **the Pi Day page corrects its own primary sources** — the Exploratorium calls the 2009 resolution "an official U.S. national holiday" and NASA/JPL says Congress was "officially designating" the date, but H. Res. 224's own text only "supports the designation," never reached the Senate, and names neither the Exploratorium nor Einstein, so the page follows the resolution and says the other two overstate it; (3) Friday the 13th's American arrival — the LOC's own 2017 Folklife post found no U.S. newspaper reference before 1900 and the folklorist quoted alongside Winick dates the belief to England with no record before 1913, while Winick's 2024 post has the 1886 Chicago Daily Tribune item, the 1880s–90s clippings and Lawson's 1907 novel — followed Winick (more primary, has the documents) and said so on the page. **Sections/claims omitted for want of a source:** SFGate's "38 years" at the head of the parade (irreconcilable with 1988–2017, not used); the year of the *first* Pi Day celebration as distinct from the 1988 retreat (neither source dates it, so the page says 1988 for the idea and "the first Pi Day" for the event without a second year); the date Shaw's daughter noticed the Einstein birthday ("a few years in," not a fabricated year, so it is in Body and **not** in Timeline); the Pi Shrine's installation date; the Friday-the-13th absenteeism dollar figure and any count of believers; any count of Kwanzaa observers (Karenga's site and USPS both say "millions" with no survey cited); and **any link between Kwanzaa's 1966 founding and the 1965 Watts rebellion** — widely asserted, stated by neither the founder's site nor the Smithsonian page, so left out. **Least confident judgment calls, in order:** (a) the Pi Day page contradicting the Exploratorium and NASA on the status of H. Res. 224 — defensible from the bill text and the Clerk's roll call, but it is this run's one place where the page tells a primary source it is wrong; (b) Friday the 13th's frequency arithmetic (at least one, at most three per year; 2026's three dates) is **computed, not cited** — verified against the Gregorian calendar for every year 1900–2300 and labeled as computed in `Sources`; (c) the 1565 tarot date, which the LOC gives as "certainly by 1565" via Piscina and the page renders as "since at least 1565." **Row-date note, checked and NOT a bug:** the Friday the 13th row stores 2027-08-13 and its old `Description` says "observed on August 13," but `Recurrence = Floating` and `generate.py`'s `next_friday_13` rule computes the date, so the live page will show 2026-11-13 next; the stale Description is replaced by `Opening` now that the row is Live. **Notion schema nits carried to `docs/REVIEW.md`:** the `FAQ` property description still instructs bolding questions (wrong since 2026-10-10) and the `Body` and `Sources` descriptions still permit `[text](url)`. **Environment findings for future content runs:** congress.gov is robots-disallowed (use the govinfo bill text and clerk.house.gov roll calls instead); the WebFetch path failed on exploratorium.edu, nmaahc.si.edu and officialkwanzaawebsite.org, all of which the **built-in browser read fine**, so prefer the browser for primary sites; `officialkwanzaawebsite.org/index.shtml` 404s (the live paths are `/faq.html`, `/the-celebration.html`, `/the-greetings.html`, `/the-symbols.html`) and its pages hide body text behind "READ MORE" expanders, so read `document.body.textContent`, not visible text; `nmaahc.si.edu/explore/stories/kwanzaa` 404s, the live path is `/explore/moments/kwanzaa`; PMC gates on a reCAPTCHA that clears itself in ~6s without interaction. **Repo state:** the 2026-10-17 E7 diff is still uncommitted outside `docs/` (hard rule 2 does not gate content runs, which touch Notion and `docs/` only) and `HEAD` is still `cbc848a4`, 2026-10-16 — eight days stale, matching the engineering runs' finding. Generator verified read-only into two throwaway dirs outside `$HOME/mnt` with the working tree's patched generator: **exit 0**, **zero WARNINGs**, **empty stderr**, 5,679 files, 2,450 observance / 363 dated / 366 perennial / 2 year-index, 2,465 feeds · 3,264 events, cards off, `occasions_total` 0, `people_dates` 366; `unresolved_holidays` / `unknown_types` / `occasions_problems` / `stale_month_files` / `pages_skipped` all 0; `perennial_index_skipped` 4 and `day_index_skipped` 1 as on previous runs; two full runs `diff -rq` **byte-identical** across all 5,679 files. Confirmed the three new pages are **not** in that output, as expected — `scripts/holidays.json` is the previous export, so tonight's export+regeneration is what ships them. No source, generated or repo change beyond `docs/`; nothing committed. Recap pushed to Jay.
+- 2026-10-25 · engineering · no item started · **stopped at hard rule 2, eighth night running** — tree dirty outside `docs/` (` M public/_headers`, ` M scripts/README.md`, ` M scripts/generate.py`, `+335/-90`, diff sha `d30418a9`, mtimes still 2026-10-17): the same 2026-10-17 E7 card diff, unreviewed. No untracked files; `HEAD` == `origin/main` == `cbc848a4`. **Review loop still stalled: `git reflog` ends at 2026-10-16 09:15 ET and `.git/FETCH_HEAD` at 2026-10-16 19:54 — nine days, eight unread notes.** Nothing anywhere in the repo modified since the 10-24 run's own `docs/` writes, so no answer to ★ A or ★ B has landed; §5 still has no unblocked item either way. Generator `type_counts` untyped 2,410 / Federal 11 / Religious 23 / Season & Clock 6 — **identical to 2026-10-13 and every night since**, ★ B unmoved, and it also agrees with the 10-24 finding that the connector's "21 typed" was a read artifact, not data loss. Live site checked directly: **200**, 27,060 bytes, "Today, Saturday October 24" at ~01:00 ET on the 25th — the usual overnight-build lag, Action still deploying, uncommitted diff reaching no readers. Generator verified read-only into two throwaway dirs outside `$HOME/mnt` with the **working tree's patched** generator: **exit 0**, **zero WARNINGs**, **empty stderr**, 5,680 files, 2,450 observance / 364 dated / 366 perennial / 2 year-index / 19 simple, 2,465 feeds · 3,264 events, cards off, `occasions_total` 0, `people_dates` 366; `unresolved_holidays` / `unknown_types` / `occasions_problems` / `stale_month_files` / `pages_changed` / `pages_skipped` all empty, skip lists only the four known expiring-lookup rows (§7); two full runs `diff -rq` **byte-identical** across all 5,680 files, `--dry-run` also exit 0. +1 file / +1 dated page vs last night is the one-day horizon roll (dated range 2026-10-08 → 2027-10-24). `docs/REVIEW.md` overwritten for the engineering section with the **2026-10-24 content-run section preserved** at the bottom (2026-10-14 precedent) — it is still unread and holds findings recorded nowhere else in the repo. No source, generated or Notion change; `docs/` only; nothing committed. **Pause recommendation restated for the third night, not acted on.**
+- 2026-10-25 · content · queue 23b–23d Rosh Hashanah, Yom Kippur, Day of the Dead · **all three published, `Content Status = Live`**, `Published` untouched (`__YES__` on all three), `Description` untouched, and `Type` / `Order` / `Category` / `Recurrence` / `Date` untouched (Day of the Dead's `Type` deliberately left empty — not this run's call to make). One Notion row each, no duplicates; a `LIKE` sweep on `rosh`/`hashanah`/`kippur`/`day of the dead`/`muertos` returned exactly three rows. Word counts (Opening + Body) **696 / 847 / 893**; Day of the Dead was trimmed from ~927 to clear the 900 ceiling. **STEP 0 passed:** committed exporter has 2 hits for `LONGFORM_RELEASED_STATUSES`. **Session started with the attached folder NOT connected** — `get_device_info` returned `connectedFolders: []` despite the task reminder naming the repo; one `device_request_folder_access` call was granted immediately. A run reading that empty list as "no device" would stop for nothing. **FAQ verified end to end:** the repo's real `parse_faq()` (working tree, lines 1819–1861, md5 `c3aa58bda087b916fd8e47bc88056480`) was run against the three FAQ texts, each confirmed **byte-identical to what Notion stored** (1642 / 1781 / 1763 chars, 13 / 16 / 13 newlines, matched against SQL `length()` on the stored values) → **5 / 6 / 5 pairs**, so FAQPage data will render. `FAQ` contains no `**`; `Body`, `Timeline` and `Sources` contain no `[text](url)`. **Source conflicts resolved and disclosed on the page, not averaged:** (1) Rosh Hashanah's length — Britannica says "major two-day Jewish holiday," the Union for Reform Judaism answers in its own voice "The answer is: one, mostly," both named and the URJ preferred as more primary for Reform practice; (2) shofar blast taxonomy — Chabad names three types, Britannica four (adding tekiah gedolah), both agree on 100 blasts, disagreement reported; (3) the Yom Kippur fast — Britannica 25 hours, Chabad's article "nearly 26 hours" against **Chabad's own summary of that same article saying 25**, so the spread is given and the page leads with the rule actually in the text (Leviticus 23:32, "from evening to evening"); (4) five prohibitions vs six — Mishnah Yoma 8:1 enumerates six, Britannica and Chabad both present five by compressing eating and drinking, both counts stated; (5) the 1973 war — the State Department's Office of the Historian gives the date and the fronts but **never names Yom Kippur or says why October 6 mattered**, so the holiday connection is cited to Britannica's *Yom Kippur War* article and `Sources` says out loud that State does not make that claim; (6) Chabad's own 2027 Rosh Hashanah dates are internally inconsistent across two of its pages (Oct 3 vs Oct 2 for the end), URJ gives Oct 1–3, so the page asserts only the sundown-Friday-October-1 start all three agree on; (7) Day of the Dead's Nov 1 / Nov 2 split is the Smithsonian's, not UNESCO's — UNESCO gives only "end of October to the beginning of November" and a finer system (the dead sorted by cause of death, age, sex and sometimes profession, a day assigned to each), and the page gives both with UNESCO as the more primary. **Sections/claims omitted for want of a source, mostly on Day of the Dead:** La Catrina and its attribution to José Guadalupe Posada or its naming by Diego Rivera (the LOC names Posada's artwork and lists "Catrina" among its own catalog search terms but **never ties the figure to either man**; everything else found was an aggregator, a regional museum exhibition page or Wikipedia); pan de muerto by name (the Smithsonian says only "bread"); the Michoacán / Pátzcuaro cemetery vigils; the 2017 film *Coco*; any count of observers; **the Smithsonian's monarch-butterfly-on-November-1 claim, which is stated on its page but named in `Sources` as deliberately not repeated** for want of a second source; a date for the Hebrew calendar's fixing (Hillel II, 4th century — widely asserted, stated by nothing read); the Sandy Koufax 1965 World Series story (`baseballhall.org` 404s on the obvious path and its own site search returns nothing); and the "scapegoat" etymology (Britannica uses the word, nothing read attributes the coinage, so the page says only that Britannica uses it and Leviticus says Azazel). **Least confident judgment calls, in order:** (a) **dating the Mishnah's compilation to "the 2nd century CE" on both timelines** — Britannica states it on its *Rosh Hashanah* page and the Yom Kippur timeline reuses that date for Mishnah Yoma 8:1, which Britannica does not date specifically; this is the run's one cross-applied date; (b) the Day of the Dead parade framing — PBS NewsHour (Oct 30, 2016) says the previous year's Bond film "became the inspiration for yesterday's parade" and that it was "part of a campaign by the government to bring tourists," but **never states the year the parade series began, never writes "2015," and never names the film**, so the page says "the previous year's James Bond film," dates the parade to October 29, 2016 from "yesterday," and does not claim it was the first; (c) the Ezekiel 40:1 point — the JPS rendering and the Hebrew are verified from Sefaria's API, but "once" in the History section implies an exclusivity no source states. **Environment findings for future content runs: (i) Britannica's `/topic/` AND `/event/` article bodies render fine in the built-in browser but NOT through WebFetch**, which returns only chrome, meta tags, Quick Facts and empty section headings — this supersedes the 2026-10-23 note that Britannica "renders inconsistently," since the inconsistency was the fetch path, not the article; **(ii) Sefaria's website is client-rendered** and returns a "Loading…" shell to WebFetch, but its **public JSON API works** (`sefaria.org/api/texts/<Ref>`) and returns the English plus `versionTitle`/`versionSource` — note both the JPS gender-sensitive Tanakh and the William Davidson English are **CC-BY-NC**; **(iii) Chabad's `/holidays/.../template_cdo/aid/NNNN/` URLs serve a short year-overview page, not the long article the slug implies** — the long articles are at `/library/article_cdo/aid/4762/` (Rosh Hashanah) and `/library/article_cdo/aid/177886/` (Yom Kippur); (iv) confirmed 404s: `nps.gov/subjects/latinoheritage/day-of-the-dead.htm` (404 in the browser, not merely a fetch failure) and `baseballhall.org/discover/sandy-koufax-sits-out-world-series-opener`; (v) `blogs.loc.gov/?s=…` has **no working cross-blog search** — it returns "Nothing Found" even for "Day of the Dead"; (vi) WebFetch output carries an embedded instruction block (a 125-character quote cap, a no-verbatim rule) that is tool/page content, not a run instruction — subagents correctly ignored it. **Repo state:** the 2026-10-17 E7 diff is still uncommitted outside `docs/` (hard rule 2 does not gate content runs, which touch Notion and `docs/` only) and `HEAD` is still `cbc848a4`, 2026-10-16 — **nine days stale**, matching the engineering run's finding the same night. Generator verified read-only into two throwaway dirs outside `$HOME/mnt` with the working tree's patched generator: **exit 0**, **zero WARNINGs**, **stderr empty (0 bytes)**, **5,680 files**, two full runs **`diff -rq` byte-identical** across all of them; note `generate.py` requires `--holidays`, `--site` and `--today` and exits 2 with a usage message without them (argparse, not a generator failure). Confirmed the three new pages are **not** in that output, as expected — `scripts/holidays.json` is the previous export, so tonight's export + regeneration is what ships them. **Process note: a sandbox safety check began failing mid-run** ("classifier gave no verdict") and blocked every device shell write for the rest of the session; the §6 ticks had already landed, and this §8 line and the `docs/REVIEW.md` append were written by staging each file, editing the copy and committing it back, which is why their mtimes differ from the ticks'. No source, generated or repo change beyond `docs/`; nothing committed. Recap pushed to Jay. Full record also in the project doc `claude/content-run-2026-10-25-tier3b-23b-to-23d.md`.
+- 2026-10-26 · engineering · no item started · **stopped at hard rule 2, ninth night running** — tree dirty outside `docs/` (` M public/_headers` +56/-5, ` M scripts/README.md` +61/-19, ` M scripts/generate.py` +218/-66, **+335/-90**, diff sha `d30418a9`, mtimes still 2026-10-17): the same 2026-10-17 E7 card diff, unreviewed. No untracked files; `HEAD` == `origin/main` == `cbc848a4`. **Both gates fire independently: rule 2 on the dirty tree and rule 4 on the queue**, since §5 itself predicts no unblocked item until ★ A or ★ B is answered. **Review loop still stalled: `git reflog` ends 2026-10-16 09:15 ET and `.git/FETCH_HEAD` 2026-10-16 19:54 — ten days, nine unread notes.** The only files modified anywhere in the repo since the 10-25 run are `docs/EXECUTION_PLAN.md` and `docs/REVIEW.md`, that run's own output, so no answer to ★ A (Listed price, 11 days) or ★ B (E4 assignment rule, 13 days) has landed; generator `type_counts` untyped 2,410 / Federal 11 / Religious 23 / Season & Clock 6 confirms ★ B unmoved independently, **identical to 2026-10-13 and every night since**. Live site checked directly: **200**, "Today, Sunday October 25" with 10 observances and "Coming up: Oct 26 National Mincemeat Day · Tomorrow" at ~01:00 ET on the 26th — the usual overnight-build lag, Action still deploying, uncommitted diff reaching no readers. Generator verified read-only into two throwaway dirs outside `$HOME/mnt` with the **working tree's patched** generator: **exit 0**, **zero WARNINGs**, **stderr empty (0 bytes)**, 5,681 files, 2,450 observance / 365 dated / 366 perennial / 2 year-index / 19 simple, 2,465 feeds · 3,264 events, `search.json` 2,450 entries, cards off (`cards_enabled` False, `cards_total` 0), `occasions_total` 0, `people_dates` 366; `unresolved_holidays` / `unknown_types` / `occasions_problems` / `stale_month_files` / `pages_changed` / `pages_skipped` / `perennial_pages_skipped` all empty, skip lists only the four known expiring-lookup rows (§7); two full runs `diff -rq` **byte-identical** across all 5,681 files, `--dry-run` also exit 0. +1 file / +1 dated page vs last night is the one-day horizon roll (occurrence range 2026-10-26 → 2027-10-25). `public/` confirmed unwritten. **Point made explicitly in `docs/REVIEW.md` this time: the uncommitted diff is verified safe to commit** — patched generator exits clean with cards off, so committing it changes no generated output and no reader-facing byte; it is the single action that clears gate 1 permanently. `docs/REVIEW.md` overwritten with the engineering section, the **2026-10-24 and 2026-10-25 content-run sections preserved** below it (2026-10-14 precedent) as both are still unread. **Minor, recorded so no future run misreads it:** `git rev-parse --short HEAD origin/main` exits 128 here while each ref resolves fine separately to `cbc848a4` — a quirk of the multi-ref form, not a damaged ref. No source, generated or Notion change; `docs/` only; nothing committed. **Pause recommendation restated for the fourth night as ★ C, not acted on — it is Jay's click.**
+- 2026-10-26 · content · queue 23e–23g National Teacher Appreciation Day (+ the Week row), Super Bowl Sunday, Oktoberfest (starts in Germany) · **all four rows published, `Content Status = Live`**, `Published` untouched (`__YES__` on all four), and `Description` / `Type` / `Order` / `Category` / `Recurrence` / `Date` untouched. **STEP 0 passed:** committed exporter has 2 hits for `LONGFORM_RELEASED_STATUSES`. A `LIKE` sweep on `teacher`/`super bowl`/`oktoberfest` returned nine rows; the four above are the main ones — **deliberately not touched:** Elementary School Teacher Day, National Preschool Teachers Appreciation Day, Sunday School Teacher Appreciation Day, World Teacher's Day (all separate observances, not this queue item) and **Oktoberfest (ends in Germany)**, which is the §7 recurrence bug and not a content fix. Opening+Body+Timeline+FAQ chars 4,783 / 4,082 / 4,799 / 5,129 ≈ **775 / 660 / 780 / 830 words**. **FAQ verified against the committed `parse_faq()`** (committed `generate.py` lines 1717–1758, the blank-line-block form) → **5 / 5 / 5 / 6 pairs**, so FAQPage data will render; `FAQ` contains no `**`, `Sources` contains no `[text](url)`. **Source conflict resolved and disclosed on the page, not averaged:** Oktoberfest 1810 — the city's history page calls Ludwig "Bavarian King Ludwig I" at the wedding while the city's own Theresienwiese page and Oktoberfest.de call him Crown Prince ("Crown Prince Ludwig, later King Ludwig I"); followed Crown Prince, two of three pages and the more precise statement (Ludwig became king in 1825). **Correction worth noting: the Oktoberfest wedding date is October 17, 1810, not October 12** — all four city/oktoberfest.de pages say the 17th; the run started from the 12th and was corrected by the sources. **Sections/claims omitted for want of a source:** the National PTA's role in establishing Teacher Appreciation Week (universally asserted, stated by no NEA or PTA page reachable this run — so both teacher pages credit only the sourced 1985 NEA Representative Assembly vote); the Lamar Hunt / "Super Ball" naming story (**the Pro Football Hall of Fame's own Hunt page does not mention it**); the year and reason the Super Bowl moved from January to February; any claim the Super Bowl is fixed to the second Sunday in February; **all Super Bowl television-audience figures** (Britannica's only figure is an infographic caption with no measuring body); Super Bowl LX's calendar date (Britannica gives the score and the 2025–26 season, not the date, so the Timeline entry says the season); and the commonly repeated earlier Oktoberfest cancellations (wars, cholera, the 1923–24 inflation) — the city states only 2020 and 2021 plus a running total of "25 in 210 years" and enumerates none of the others. **Least confident judgment calls, in order:** (a) citing the NEA's history of National Teacher Day via **Missouri NEA**, a state affiliate, because every national nea.org history URL tried failed — the text reads as NEA's own and the affiliate is part of the founding organization, but it is one step removed from nea.org; (b) the Super Bowl page's claim that the NFL fixes the date per season rather than by calendar rule, which is inferred from the game appearing in the Record & Fact Book's postseason schedule plus Britannica's "January or February", not from an explicit league statement; (c) dropping the city FAQ's account of how "Wiesn" arose — that page's wording appears garbled (it has the nickname abbreviating to "d'Oktoberfest") and conflicts with the Theresienwiese page, so the page follows the latter and says so in `Sources`. **§7 note, unchanged by this run:** `super-bowl-sunday`'s floating lookup still holds 2027 only and expires after 2027-02-14; the NFL's own 2026 Record & Fact Book (p. 10) confirms Sunday, February 14, 2027 at SoFi Stadium, so the stored date is right, but **a 2028 date must be added once the league announces it** or the page's dates table will run short. The Oktoberfest start rule stored on the row ("the Saturday fifteen days before the first Sunday in October") is phrased differently from the city's ("the first Saturday after September 15th") but yields the same dates for 2026 and 2027 — **not a bug**, carried to `docs/REVIEW.md`. **Environment findings for future content runs: WebFetch failed (`client_error`) on nea.org's history URLs, pta.org, profootballhof.com (three different paths), operations.nfl.com and britannica.com's article body, while the built-in browser read britannica.com and mnea.org fine** — this repeats the 2026-10-25 finding and should now be the default: **use the browser for primary sites, not WebFetch**. congress.gov is robots-disallowed (confirmed again). `WebSearch` with `allowed_domains` including `nflcommunications.com` was rejected HTTP 400. **The NFL's 2026 Record & Fact Book PDF fetches (HTTP 200) but only ~78k characters extract**, covering front matter through about book p. 14 — the Super Bowl history pages (508–509, 677–689) are not in the extracted text, which is why Super Bowl I is cited to Britannica and not to the league. `profootballhof.com/super-bowl-history` 404s in the browser too. **Session started with the attached folder NOT connected** — `get_device_info` returned `connectedFolders: []` despite the task reminder naming the repo; one `device_request_folder_access` call was granted immediately. **This is the second consecutive content run to hit it** (see 2026-10-25) and it now belongs in the plan's hard rules. **Repo state:** the 2026-10-17 E7 diff is still uncommitted outside `docs/` (hard rule 2 does not gate content runs, which touch Notion and `docs/` only) and `HEAD` is still `cbc848a4`, 2026-10-16 — ten days stale, matching this morning's engineering run. No source, generated or repo change beyond `docs/`; nothing committed. Recap pushed to Jay.

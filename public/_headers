@@ -86,12 +86,63 @@
   Content-Type: text/calendar; charset=utf-8
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
-# Share cards (E7): /holiday/<slug>/card.png, the PNG used as that page's
-# og:image. Cached harder than the page because the image changes only when
-# the observance's date rolls into a new year -- and like the .ics rule above,
-# this sits after /holiday/* deliberately, so the more specific rule is the
-# one that wins. Matches nothing until SHARE_CARDS is turned on.
+# Share cards (E7): the card.png written beside an observance, date,
+# year-index or category page, used as that page's og:image. Cached harder
+# than the page because the image changes only when its subject does -- and
+# like the .ics rule above, each of these sits after its page's own rule
+# deliberately, so the more specific rule is the one that wins. All of them
+# match nothing until SHARE_CARDS is turned on.
 /holiday/*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/day/*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/holidays/*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/category/*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+# The perennial cards need one rule per month for the same reason the pages
+# above do: their paths are /<month>-<day>/, so there is no single prefix that
+# reaches them without also catching every other page. Each of these sits
+# after its month's page rule, so the card gets the card cache and not the
+# page's shorter one.
+/january-*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/february-*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/march-*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/april-*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/may-*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/june-*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/july-*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/august-*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/september-*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/october-*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/november-*/card.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/december-*/card.png
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
 /sitemap.xml

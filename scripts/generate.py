@@ -220,17 +220,25 @@ ICS_REFRESH = "P1D"
 
 # ---- share cards (E7) ----
 #
-# One 1200x630 PNG per observance, drawn at build time in the site's own
-# palette, written beside its page as /holiday/<slug>/card.png and used as
-# that page's og:image, twitter:image and Event JSON-LD image.
+# One 1200x630 PNG per page, drawn at build time in the site's own palette,
+# written beside its page as card.png and used as that page's og:image,
+# twitter:image and (on an observance page) Event JSON-LD image.
 #
 # Why: every page today shares one of 14 stock hero photographs, so a link to
 # National Pizza Day and a link to Thanksgiving look identical in a feed. The
-# card carries the observance's name, its next date and the wordmark, which is
-# the part that actually travels.
+# card carries the page's own subject and the wordmark, which is the part that
+# actually travels.
+#
+# Five page types carry one: the observance pages (/holiday/<slug>/), the
+# dated and perennial date pages, the year indexes and the category pages.
+# All five are the same card grammar -- band, wordmark, pill, headline, one
+# muted line, rule, domain -- with different slot contents, drawn by
+# card_render() and filled by the five *_card_png_bytes() callers. The pages
+# that are still on the stock hero are the home page, /dates/, /categories/,
+# /about/ and the occasion pages.
 #
 # OFF by default, and that gate is deliberate rather than unfinished: turning
-# it on adds a Pillow dependency to the daily GitHub Action and ~2,450 binary
+# it on adds a Pillow dependency to the daily GitHub Action and ~3,200 binary
 # files to the repo, and both of those are deployment decisions (see
 # "Share cards (E7)" in scripts/README.md). With cards off -- or with Pillow
 # or the pinned font absent -- every file this generator writes is
@@ -1201,6 +1209,22 @@ def card_rel_path(slug):
     return f"/holiday/{slug}/card.png"
 
 
+def card_rel_for(page_path):
+    """The same convention for every other page type that has a card.
+
+    The image lives beside the page it belongs to, exactly as `event.ics`
+    does, so `/day/2026-10-08/` gets `/day/2026-10-08/card.png`. Used by the
+    dated, perennial, year-index and category pages; every one of those paths
+    already ends in a slash.
+    """
+    return f"{page_path}card.png"
+
+
+def card_pastel(category):
+    """The fill this category's pill uses on the page, as RGB."""
+    return CARD_PASTEL.get(cat_pill_class(category), CARD_LILAC)
+
+
 _CARD_STATE = None
 
 
@@ -1296,11 +1320,17 @@ def card_draw_tracked(draw, xy, text, font, fill, track=0.0):
         x += draw.textlength(ch, font=font) + track
 
 
-def card_png_bytes(holiday, occ_date, loader):
-    """One share card, as PNG bytes.
+def card_render(loader, pill_text, pill_colour, headline, subline):
+    """One share card, as PNG bytes: the band, the wordmark, a pill, the
+    headline, one muted line, the rule and the domain.
 
-    Deterministic: the same row on the same date renders the same bytes, which
-    is what lets write_raw_if_changed leave an unchanged card alone.
+    Every card type is that same grammar with different slot contents, which
+    is what keeps a date's card and an observance's card recognizably the same
+    object. The callers below fill the slots; nothing here knows what kind of
+    page it is drawing for.
+
+    Deterministic: the same arguments render the same bytes, which is what
+    lets write_raw_if_changed leave an unchanged card alone.
     """
     from PIL import Image, ImageDraw
 
@@ -1324,21 +1354,17 @@ def card_png_bytes(holiday, occ_date, loader):
     card_draw_tracked(d, (M + mark + 20, my + 3), "TODAY CELEBRATES",
                       f_brand, CARD_INK, track=2.5)
 
-    # Date pill, filled in the category's own colour.
-    cat = holiday.get("category") or "celebration"
-    pastel = CARD_PASTEL.get((CATEGORY_STYLE.get(cat) or ("", "lil"))[1], CARD_LILAC)
-    date_text = (f"{WEEKDAY_NAMES[occ_date.weekday()]}, "
-                 f"{MONTH_NAMES[occ_date.month]} {occ_date.day}, "
-                 f"{occ_date.year}").upper()
+    # The pill: a date on an observance's or a date page's card, the scope on
+    # the others, filled in whatever colour that page uses for its subject.
     f_date = loader("bold", 27)
     pill_y = 168
-    pill_w = min(d.textlength(date_text, font=f_date) + 44, inner_w)
+    pill_w = min(d.textlength(pill_text, font=f_date) + 44, inner_w)
     d.rounded_rectangle([M, pill_y, M + pill_w, pill_y + 56], radius=8,
-                        fill=pastel, outline=CARD_INK, width=3)
-    d.text((M + 22, pill_y + 13), date_text, font=f_date, fill=CARD_INK)
+                        fill=pill_colour, outline=CARD_INK, width=3)
+    d.text((M + 22, pill_y + 13), pill_text, font=f_date, fill=CARD_INK)
 
     # Headline.
-    f_name, lines = card_fit(d, holiday["name"], loader, "bold",
+    f_name, lines = card_fit(d, headline, loader, "bold",
                              CARD_NAME_SIZES, inner_w, 3, CARD_NAME_MAX_H)
     line_h = round(f_name.size * 1.12)
     y = CARD_NAME_TOP + max(0, (CARD_NAME_MAX_H - len(lines) * line_h) // 2)
@@ -1346,17 +1372,9 @@ def card_png_bytes(holiday, occ_date, loader):
         d.text((M, y), line, font=f_name, fill=CARD_INK)
         y += line_h
 
-    # One muted line: what kind of thing this is, and whether the date moves.
-    if holiday.get("recurrence") == "Annual":
-        if holiday.get("month") == 2 and holiday.get("day") == 29:
-            recurs = "Every February 29, in leap years"
-        else:
-            recurs = (f"Every year on {MONTH_NAMES[occ_date.month]} "
-                      f"{occ_date.day}")
-    else:
-        recurs = "The date changes each year"
+    # One muted line: this card's secondary fact, whatever its subject is.
     f_sub = loader("regular", 26)
-    sub = card_ellipsize(d, f"{cat_title(cat)} · {recurs}", f_sub, inner_w)
+    sub = card_ellipsize(d, subline, f_sub, inner_w)
     d.text((M, 512), sub, font=f_sub, fill=CARD_MUTED)
 
     # Footer rule and the domain, in the page's own hard-rule idiom.
@@ -1368,6 +1386,90 @@ def card_png_bytes(holiday, occ_date, loader):
     buf = io.BytesIO()
     out.save(buf, format="PNG", optimize=True)
     return buf.getvalue()
+
+
+def card_png_bytes(holiday, occ_date, loader):
+    """The card for one /holiday/<slug>/ page: the observance's own name."""
+    cat = holiday.get("category") or "celebration"
+    pill = (f"{WEEKDAY_NAMES[occ_date.weekday()]}, "
+            f"{MONTH_NAMES[occ_date.month]} {occ_date.day}, "
+            f"{occ_date.year}").upper()
+    if holiday.get("recurrence") == "Annual":
+        if holiday.get("month") == 2 and holiday.get("day") == 29:
+            recurs = "Every February 29, in leap years"
+        else:
+            recurs = (f"Every year on {MONTH_NAMES[occ_date.month]} "
+                      f"{occ_date.day}")
+    else:
+        recurs = "The date changes each year"
+    return card_render(loader, pill, card_pastel(cat), holiday["name"],
+                       f"{cat_title(cat)} · {recurs}")
+
+
+def day_card_png_bytes(date, items, loader):
+    """The card for a /day/YYYY-MM-DD/ page.
+
+    The headline is the count in the words the page's own <title> uses, not
+    the lead observance's name -- a dated page whose card said "Halloween"
+    would be indistinguishable from Halloween's own card, and would promise a
+    reader the wrong page. The names go on the muted line instead.
+    """
+    n = len(items)
+    pill = (f"{WEEKDAY_NAMES[date.weekday()]}, {MONTH_NAMES[date.month]} "
+            f"{date.day}, {date.year}").upper()
+    cat = (items[0].get("category") or "celebration") if items else "celebration"
+    return card_render(
+        loader, pill, card_pastel(cat),
+        f"{n} {plural(n, 'Holiday')} & Observances",
+        join_names([h["name"] for h in items[:3]]) if items else "",
+    )
+
+
+def perennial_card_png_bytes(month, day, annual, floating, loader):
+    """The card for a /<month>-<day>/ page.
+
+    The pill carries the month-day with no year, which is the whole
+    difference between this page and the dated one -- so it is the difference
+    between their two cards too.
+    """
+    label = month_day_label(month, day)
+    n, nf = len(annual), len(floating)
+    cat = (annual[0].get("category") or "celebration") if annual else "celebration"
+    if n:
+        headline = f"{n} {plural(n, 'Holiday')} & Observances"
+        sub = join_names([h["name"] for h in annual[:3]])
+    elif nf:
+        headline = "Nothing Every Year"
+        sub = (f"{nf} rule-dated {plural(nf, 'observance')} "
+               f"{plural(nf, 'lands', 'land')} on {label} in some years")
+    else:
+        headline = "No Observances on Record"
+        sub = "The site keeps a page for every date of the calendar"
+    return card_render(loader, f"EVERY {label}".upper(), card_pastel(cat),
+                       headline, sub)
+
+
+def year_card_png_bytes(year, loader):
+    """The card for a /holidays/<year>/ page.
+
+    Carries no count and no coverage range on purpose. Both move every time
+    the archive's forward horizon rolls, which is most nights, and a card that
+    is rewritten nightly is a repo diff and a CDN invalidation for nothing.
+    The page itself states its own coverage.
+    """
+    return card_render(loader, f"THE {year} CALENDAR", CARD_LILAC,
+                       f"Holidays and observances in {year}",
+                       "A date-by-date index of every day with something "
+                       "on the calendar")
+
+
+def category_card_png_bytes(category, count, loader):
+    """The card for a /category/<slug>/ page, in that category's own colour."""
+    title = cat_title(category)
+    return card_render(loader, title.upper(), card_pastel(category),
+                       f"{title} holidays and observances",
+                       f"{count} {plural(count, 'observance')} in this "
+                       f"category, A to Z")
 
 
 def cal_links_html(holiday, occurrence_count):
@@ -2222,13 +2324,18 @@ def people_block_html(people, month, day, limit, full_page=False):
 
 
 def render_day_page(date, items, prev_date, next_date, template, by_slug, memo,
-                    chrome, day_index, published_days, people=None, occasions=()):
+                    chrome, day_index, published_days, people=None, occasions=(),
+                    card_url=None):
     """Render one permanent /day/YYYY-MM-DD/ page.
 
     `occasions` is any submitted paid listing claiming this date (E6). They
     render in their own labelled block after everything else on the page and
     are deliberately absent from `items`, so they reach neither the observance
-    table nor its ItemList structured data."""
+    table nor its ItemList structured data.
+
+    `card_url` is this date's share card (E7) when cards are being generated
+    this run; without one the page keeps the lead observance's stock category
+    hero as its og:image, exactly as before."""
     n = len(items)
     lead = items[0]
     hero_rel = f"/images/hero/{lead['category']}.jpg"
@@ -2317,7 +2424,7 @@ def render_day_page(date, items, prev_date, next_date, template, by_slug, memo,
         "PATH": path,
         # og:image/twitter:image want an absolute URL -- several scrapers won't
         # resolve a site-relative one.
-        "HERO_IMAGE_ABS": f"{SITE_BASE_URL}{hero_rel}",
+        "HERO_IMAGE_ABS": card_url or f"{SITE_BASE_URL}{hero_rel}",
         "WEEKDAY_LINE": esc_attr(weekday_long_date(date)).upper(),
         "HEADLINE": esc_attr(share_title),
         "INTRO": (
@@ -2671,12 +2778,15 @@ def year_index_html(year, dates, day_index, years, gaps):
 
 def render_perennial_page(key, bucket, prev_key, next_key, template, chrome,
                           month_days, perennial_index, dated, today, people=None,
-                          occasions=()):
+                          occasions=(), card_url=None):
     """Render one permanent /<month>-<day>/ page.
 
     `occasions` is the submitted paid listings that recur on this month-day
     (E6); a one-off listing appears only on its dated page. Same separation as
-    on the dated pages: own block, below everything, never in the table."""
+    on the dated pages: own block, below everything, never in the table.
+
+    `card_url` is this date's share card (E7) when cards are being generated
+    this run; without one the page keeps its stock category hero."""
     month, day = key
     label = month_day_label(month, day)
     path = perennial_path(month, day)
@@ -2811,7 +2921,7 @@ def render_perennial_page(key, bucket, prev_key, next_key, template, chrome,
         "DESCRIPTION": esc_attr(description),
         "URL": url,
         "PATH": path,
-        "HERO_IMAGE_ABS": f"{SITE_BASE_URL}{hero_rel}",
+        "HERO_IMAGE_ABS": card_url or f"{SITE_BASE_URL}{hero_rel}",
         "CRUMBS": crumbs_html(("Calendar", "/dates/"), (label, None)),
         "EYEBROW": esc_attr(f"EVERY {label}").upper(),
         "HEADLINE": esc_attr(share_title),
@@ -2907,14 +3017,19 @@ def render_home(date, items, template, chrome, has_day_page, month_days,
 
 
 def render_simple_page(template, chrome, *, title, description, path, headline,
-                       body, side="", crumbs=""):
-    """/about/, /categories/ and /category/<slug>/."""
+                       body, side="", crumbs="", image=None):
+    """/about/, /categories/, /category/<slug>/, /dates/, the year indexes and
+    the occasion pages.
+
+    `image` overrides the stock og:image; the year-index and category pages
+    pass their own share card (E7) when cards are being generated this run.
+    """
     return fill(template, {
         "HTML_CLASS": html_class(),
         "TITLE": esc_attr(title),
         "DESCRIPTION": esc_attr(description),
         "URL": f"{SITE_BASE_URL}{path}",
-        "IMAGE_ABS": f"{SITE_BASE_URL}/images/hero/celebration.jpg",
+        "IMAGE_ABS": image or f"{SITE_BASE_URL}/images/hero/celebration.jpg",
         "HEADLINE": esc_attr(headline),
         "BODY": body,
         "SIDE": side,
@@ -3117,16 +3232,49 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         dry_run,
     )
 
+    # ---- share cards (E7) ----
+    #
+    # Worked out before any page loop, because a page's og:image depends on
+    # whether its card is being written this run: the switch moves the pages
+    # and the images together or not at all. Five page types carry a card --
+    # the observance pages, the dated and perennial date pages, the year
+    # indexes and the category pages -- and all five go through write_card so
+    # one run has one set of totals.
+    card_loader, card_off_reason = card_fonts() if cards else (None, "SHARE_CARDS is off")
+    card_on = card_loader is not None
+    card_slugs = ({h["slug"] for h in holidays if h["slug"] in occurrences}
+                  if card_on else set())
+    card_diffs = {"created": [], "changed": [], "unchanged": 0}
+    card_kinds = {k: 0 for k in
+                  ("holiday", "day", "perennial", "year", "category")}
+    card_bytes_total = 0
+
+    def write_card(rel_path, data, kind):
+        """Write one card beside its page and book it against the totals."""
+        nonlocal card_bytes_total
+        card_bytes_total += len(data)
+        card_kinds[kind] += 1
+        changed, created = write_raw_if_changed(
+            os.path.join(site_dir, rel_path.strip("/")), data, dry_run)
+        if created:
+            card_diffs["created"].append(rel_path)
+        elif changed:
+            card_diffs["changed"].append(rel_path)
+        else:
+            card_diffs["unchanged"] += 1
+
     # ---- /day/YYYY-MM-DD/ permanent dated pages ----
     day_template = load_template(templates_dir, "day.html")
     day_diffs = {"created": [], "changed": [], "unchanged": 0}
     for i, d in enumerate(day_dates):
         prev_d = day_dates[i - 1] if i > 0 else None
         next_d = day_dates[i + 1] if i + 1 < len(day_dates) else None
+        day_card = card_rel_for(day_path(d))
         new_html = render_day_page(
             d, day_index[d], prev_d, next_d, day_template, by_slug, memo,
             chromes["CALENDAR"], day_index, published_days, people=people,
             occasions=occ_by_date.get(d, ()),
+            card_url=f"{SITE_BASE_URL}{day_card}" if card_on else None,
         )
         page_dir = os.path.join(site_dir, "day", d.isoformat())
         page_path = os.path.join(page_dir, "index.html")
@@ -3141,6 +3289,9 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             os.makedirs(page_dir, exist_ok=True)
             with open(page_path, "w", encoding="utf-8") as f:
                 f.write(new_html)
+        if card_on:
+            write_card(day_card,
+                       day_card_png_bytes(d, day_index[d], card_loader), "day")
 
     # ---- perennial /<month>-<day>/ pages (E3) ----
     # A second, wider index pass: the year-less page has to know which
@@ -3188,6 +3339,8 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             key, bucket, prev_key, next_key, perennial_template, chromes["CALENDAR"],
             perennial_mds, perennial_index, dated_by_md.get(key, []), today,
             people=people, occasions=occ_by_md.get(key, ()),
+            card_url=(f"{SITE_BASE_URL}{card_rel_for(path)}"
+                      if card_on else None),
         )
         changed, created = write_if_changed(
             os.path.join(site_dir, path.strip("/"), "index.html"), html, dry_run
@@ -3198,6 +3351,11 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             perennial_diffs["changed"].append(path)
         else:
             perennial_diffs["unchanged"] += 1
+        if card_on:
+            write_card(card_rel_for(path),
+                       perennial_card_png_bytes(key[0], key[1], bucket["annual"],
+                                                bucket["floating"], card_loader),
+                       "perennial")
     perennial_skipped_paths = set(perennial_diffs["skipped"])
     perennial_published = {
         k for k in perennial_mds if perennial_path(*k) not in perennial_skipped_paths
@@ -3205,17 +3363,6 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
     perennial_paths = [
         perennial_path(*k) for k in perennial_mds if k in perennial_published
     ]
-
-    # ---- share cards (E7) ----
-    #
-    # Worked out before the page loop, because a page's og:image depends on
-    # whether its card is being written this run: the switch moves the pages
-    # and the images together or not at all.
-    card_loader, card_off_reason = card_fonts() if cards else (None, "SHARE_CARDS is off")
-    card_slugs = ({h["slug"] for h in holidays if h["slug"] in occurrences}
-                  if card_loader else set())
-    card_diffs = {"created": [], "changed": [], "unchanged": 0}
-    card_bytes_total = 0
 
     # ---- per-holiday pages ----
     holiday_template = load_template(templates_dir, "holiday.html")
@@ -3257,16 +3404,8 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             with open(page_path, "w", encoding="utf-8") as f:
                 f.write(new_html)
         if slug in card_slugs:
-            card_data = card_png_bytes(h, occ, card_loader)
-            card_bytes_total += len(card_data)
-            c_changed, c_created = write_raw_if_changed(
-                os.path.join(page_dir, "card.png"), card_data, dry_run)
-            if c_created:
-                card_diffs["created"].append(slug)
-            elif c_changed:
-                card_diffs["changed"].append(slug)
-            else:
-                card_diffs["unchanged"] += 1
+            write_card(card_rel_path(slug), card_png_bytes(h, occ, card_loader),
+                       "holiday")
 
     # ---- homepage: today's content baked into the HTML ----
     home_items = day_index.get(today, [])
@@ -3348,7 +3487,12 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             body=ybody,
             side=yside,
             crumbs=crumbs_html(("Calendar", "/dates/"), (str(y), None)),
+            image=(f"{SITE_BASE_URL}{card_rel_for(year_index_path(y))}"
+                   if card_on else None),
         )
+        if card_on:
+            write_card(card_rel_for(year_index_path(y)),
+                       year_card_png_bytes(y, card_loader), "year")
 
     simple_pages["/about/"] = render_simple_page(
         page_template, chromes["ABOUT"],
@@ -3412,7 +3556,13 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             ),
             side=category_side_html(category_counts, current=c),
             crumbs=crumbs_html(("Categories", "/categories/"), (title, None)),
+            image=(f"{SITE_BASE_URL}{card_rel_for(f'/category/{c}/')}"
+                   if card_on else None),
         )
+        if card_on:
+            write_card(card_rel_for(f"/category/{c}/"),
+                       category_card_png_bytes(c, len(members), card_loader),
+                       "category")
 
     # ---- /occasions/ and /occasions/<slug>/ (E6) ----
     # Routed through simple_pages so they are written, diffed and sitemapped
@@ -3621,9 +3771,10 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         "unknown_types": sorted(unknown_types),
         "month_diffs": month_diffs,
         "stale_month_files": sorted(stale_month_files),
-        "cards_enabled": bool(card_loader),
-        "cards_disabled_reason": None if card_loader else card_off_reason,
-        "cards_total": len(card_slugs),
+        "cards_enabled": card_on,
+        "cards_disabled_reason": None if card_on else card_off_reason,
+        "cards_total": sum(card_kinds.values()),
+        "cards_by_kind": dict(card_kinds),
         "cards_created": len(card_diffs["created"]),
         "cards_changed": sorted(card_diffs["changed"]),
         "cards_unchanged_count": card_diffs["unchanged"],
@@ -3686,10 +3837,11 @@ def main():
                          "(default: scripts/occasions.json; the feature is "
                          "simply off if the file is absent)")
     ap.add_argument("--cards", action="store_true", default=SHARE_CARDS,
-                    help="generate the E7 share cards (/holiday/<slug>/card.png) "
-                         "and use each as its page's og:image. Needs Pillow and "
+                    help="generate the E7 share cards (a card.png beside every "
+                         "observance, date, year-index and category page) and "
+                         "use each as its page's og:image. Needs Pillow and "
                          "the pinned DejaVu faces; off by default, because "
-                         "turning it on adds ~2,450 images to the repo")
+                         "turning it on adds ~3,200 images to the repo")
     ap.add_argument("--people", default=DEFAULT_PEOPLE_PATH,
                     help="path to people.json, the born-on-this-day data built by "
                          "build_people.py (default: scripts/people.json; the "
