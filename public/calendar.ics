@@ -13029,8 +13029,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:howl-at-the-moon-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
 SUMMARY:Howl At The Moon Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Howl At The Moon Day is one of the spookier stops on the Octobe
@@ -17591,8 +17591,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:intersex-awareness-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
 SUMMARY:Intersex Awareness Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Intersex Awareness Day\, marked across the United States on Oct
@@ -24679,8 +24679,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-chicken-fried-steak-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
 SUMMARY:National Chicken Fried Steak Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Chicken Fried Steak Day is observed across the United 
@@ -26910,8 +26910,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-day-of-the-deployed@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
 SUMMARY:National Day of the Deployed
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 26\, National Day of the Deployed gives people acros
@@ -30750,10 +30750,13 @@ DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:National Hugging Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Hugging Day is observed on January 21. Kevin Zaborney 
- founded it in 1986 to prompt people to hug the family and friends they wou
- ld otherwise only greet.\n\nhttps://todaycelebrates.com/holiday/national-h
- ugging-day/
+DESCRIPTION:National Hugging Day falls on January 21 and is one of the rare
+  modern observances whose founder is both known and still running it. Kevi
+ n Zaborney created it in 1986 in Caro\, Michigan\, and placed it deliberat
+ ely in late January\, when the holidays are over and winter is not. Four d
+ ecades on\, its organizers spend as much effort on consent\, and on altern
+ atives for people who do not want to be touched\, as on hugging itself.\n\
+ nhttps://todaycelebrates.com/holiday/national-hugging-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-hugging-day/
 CATEGORIES:Community
 TRANSP:TRANSPARENT
@@ -32864,10 +32867,13 @@ DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270223
 SUMMARY:National Margarita Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Margarita Day falls on February 22 and is observed mos
- tly through bar and restaurant promotions. The origin of this observance i
- s not well documented.\n\nhttps://todaycelebrates.com/holiday/national-mar
- garita-day/
+DESCRIPTION:National Margarita Day falls on February 22 and lives almost en
+ tirely in bars and restaurants\, in specials priced to the date and frozen
+ -machine promotions. Britannica dates the observance itself to 2008 but na
+ mes no founder. The drink behind it has an origin even less settled: at le
+ ast seven people have been credited with inventing the margarita\, and the
+  evidence decisively favors none of them.\n\nhttps://todaycelebrates.com/h
+ oliday/national-margarita-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-margarita-day/
 CATEGORIES:Beer
 TRANSP:TRANSPARENT
@@ -33370,8 +33376,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mincemeat-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
 SUMMARY:National Mincemeat Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Mincemeat Day is observed across the United States on 
@@ -33659,8 +33665,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mule-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
 SUMMARY:National Mule Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Mule Day is observed across the United States on Octob
@@ -35709,10 +35715,13 @@ DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:National Pizza Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Pizza Day is marked every February 9\, largely through
-  chain promotions and free-slice deals. The origin of this observance is n
- ot well documented.\n\nhttps://todaycelebrates.com/holiday/national-pizza-
- day/
+DESCRIPTION:National Pizza Day falls on February 9\, and what it mostly con
+ sists of is discounts: chains\, pizzerias and frozen-pizza brands use the 
+ date to run free-slice and two-for-one offers. Nobody has documented who s
+ tarted it or when. The food itself is better recorded — though less sett
+ led than it looks\, because the standard story of how pizza reached Americ
+ a has been seriously challenged in the last decade.\n\nhttps://todaycelebr
+ ates.com/holiday/national-pizza-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pizza-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -36375,8 +36384,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-pumpkin-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
 SUMMARY:National Pumpkin Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Pumpkin Day is one of the spookier stops on the Octobe
