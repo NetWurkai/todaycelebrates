@@ -3122,8 +3122,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:black-cat-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:Black Cat Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Black Cat Day is one of the spookier stops on the October calen
@@ -21172,8 +21172,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-american-beer-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:National American Beer Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National American Beer Day falls on October 27 and celebrates b
@@ -23953,9 +23953,13 @@ DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:National Cat Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Cat Day celebrates cats of all kinds and encourages ad
- opting cats in need of homes from shelters and rescues.\n\nhttps://todayce
- lebrates.com/holiday/national-cat-day/
+DESCRIPTION:National Cat Day falls on October 29 and was founded in 2005 by
+  Colleen Paige\, the pet lifestyle expert who created National Dog Day the
+  year before. Unlike the dog day\, this one comes with no explanation for 
+ its date: the founding site says what the day is for but never says why Oc
+ tober 29. What it is for is adoption\, and specifically the number of cats
+  sitting in American shelters.\n\nhttps://todaycelebrates.com/holiday/nati
+ onal-cat-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cat-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -25634,10 +25638,13 @@ DTSTART;VALUE=DATE:20270929
 DTEND;VALUE=DATE:20270930
 SUMMARY:National Coffee Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Coffee Day celebrates one of the world's most beloved 
- beverages\, honoring the growers\, roasters\, and baristas behind every cu
- p and the ritual coffee brings to mornings everywhere.\n\nhttps://todaycel
- ebrates.com/holiday/national-coffee-day/
+DESCRIPTION:National Coffee Day falls on September 29 in the United States\
+ , and what it mostly consists of is free coffee: chains and roasters use t
+ he date for giveaways and discounts. Nobody has documented who created it 
+ or why the date is September 29. The adjacent International Coffee Day\, o
+ n October 1\, does have a paper trail\, and the contrast between the two i
+ s the most interesting thing about either.\n\nhttps://todaycelebrates.com/
+ holiday/national-coffee-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coffee-day/
 CATEGORIES:Coffee
 TRANSP:TRANSPARENT
@@ -27164,9 +27171,13 @@ DTSTART;VALUE=DATE:20270826
 DTEND;VALUE=DATE:20270827
 SUMMARY:National Dog Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Dog Day\, observed on August 26\, is celebrated by dog
-  lovers across the United States.\n\nhttps://todaycelebrates.com/holiday/n
- ational-dog-day/
+DESCRIPTION:National Dog Day falls on August 26 and is one of the few "nati
+ onal days" with both a documented founder and a documented reason for its 
+ date. Colleen Paige\, a pet lifestyle expert and animal welfare advocate\,
+  founded it in 2004 and chose August 26 because it was the day her family 
+ adopted her first dog from a shelter\, when she was ten. The day's stated 
+ purpose is narrower than general dog appreciation: it is an adoption campa
+ ign.\n\nhttps://todaycelebrates.com/holiday/national-dog-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-dog-day/
 CATEGORIES:Dogs
 TRANSP:TRANSPARENT
@@ -33205,8 +33216,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mentoring-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:National Mentoring Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Mentoring Day is observed across the United States on 
@@ -34699,8 +34710,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-parmigiano-reggiano-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:National Parmigiano Reggiano Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Parmigiano Reggiano Day is observed across the United 
@@ -39321,8 +39332,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-tell-a-story-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:National Tell a Story Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 27\, National Tell a Story Day gives people across t
@@ -41459,8 +41470,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:navy-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:Navy Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 27\, Navy Day gives people across the United States 
@@ -52189,8 +52200,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-day-for-audiovisual-heritage@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:World Day for Audiovisual Heritage
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Day for Audiovisual Heritage is observed around the globe
