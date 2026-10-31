@@ -2353,10 +2353,13 @@ DTSTART;VALUE=DATE:20271010
 DTEND;VALUE=DATE:20271011
 SUMMARY:World Mental Health Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:First observed in 1992 and backed by the World Health Organizat
- ion\, World Mental Health Day raises awareness of mental health issues aro
- und the world and mobilizes support for better access to care.\n\nhttps://
- todaycelebrates.com/holiday/world-mental-health-day/
+DESCRIPTION:World Mental Health Day is marked on October 10 every year. It 
+ was created in 1992 by the World Federation for Mental Health\, not by the
+  World Health Organization\, though WHO has since become the day's largest
+  amplifier. Its first incarnation was a two-hour television broadcast beam
+ ed out of a studio in Tallahassee\, Florida\, to whichever countries could
+  receive it.\n\nhttps://todaycelebrates.com/holiday/world-mental-health-da
+ y/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-mental-health-day/
 CATEGORIES:Health
 TRANSP:TRANSPARENT

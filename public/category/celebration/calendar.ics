@@ -8025,8 +8025,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-breadstick-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTART;VALUE=DATE:20271030
+DTEND;VALUE=DATE:20271031
 SUMMARY:National Breadstick Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Breadstick Day is observed across the United States on
@@ -8358,8 +8358,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-checklist-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTART;VALUE=DATE:20271030
+DTEND;VALUE=DATE:20271031
 SUMMARY:National Checklist Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Checklist Day is observed across the United States on 
@@ -8654,10 +8654,13 @@ DTSTART;VALUE=DATE:20271011
 DTEND;VALUE=DATE:20271012
 SUMMARY:National Coming Out Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Marked every October 11 since 1988\, National Coming Out Day ce
- lebrates coming out as an LGBTQ+ person and the visibility and support tha
- t comes with living openly.\n\nhttps://todaycelebrates.com/holiday/nationa
- l-coming-out-day/
+DESCRIPTION:National Coming Out Day is observed on October 11\, and has bee
+ n since 1988. The date is not arbitrary: it is the anniversary of the Seco
+ nd National March on Washington for Lesbian and Gay Rights\, held October 
+ 11\, 1987\, the weekend the AIDS Memorial Quilt was unfolded in full for t
+ he first time. The day was built on a single premise one of its founders k
+ ept repeating\, that most people who believe they know no gay person are w
+ rong.\n\nhttps://todaycelebrates.com/holiday/national-coming-out-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coming-out-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -10923,8 +10926,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-publicist-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTART;VALUE=DATE:20271030
+DTEND;VALUE=DATE:20271031
 SUMMARY:National Publicist Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Publicist Day is observed across the United States on 
@@ -11507,8 +11510,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-text-your-ex-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTART;VALUE=DATE:20271030
+DTEND;VALUE=DATE:20271031
 SUMMARY:National Text Your Ex Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Text Your Ex Day is observed across the United States 
@@ -16831,8 +16834,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-lemur-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTART;VALUE=DATE:20271030
+DTEND;VALUE=DATE:20271031
 SUMMARY:World Lemur Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 30\, World Lemur Day gives people around the globe o
