@@ -788,9 +788,14 @@ DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:All Saints' Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:All Saints' Day\, observed on November 1\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/all-saints-day/
+DESCRIPTION:All Saints' Day falls on November 1 in the Western churches and
+  honors all the saints of the church\, both the named and the unknown\, wh
+ o have attained heaven. The Eastern churches keep the same commemoration o
+ n the first Sunday after Pentecost instead. Its origin cannot be traced wi
+ th certainty\, and the November 1 date arrived long after the feast itself
+  — by way of a Roman chapel dedication\, an English monk's calendar\, an
+ d finally a papal order.\n\nhttps://todaycelebrates.com/holiday/all-saints
+ -day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/all-saints-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -4963,8 +4968,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:carve-a-pumpkin-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:Carve a Pumpkin Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Carve a Pumpkin Day is one of the spookier stops on the October
@@ -10754,8 +10759,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:girl-scout-founders-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:Girl Scout Founder's Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 31\, Girl Scout Founder's Day gives people across th
@@ -12251,8 +12256,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:halloween@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:Halloween
 RRULE:FREQ=YEARLY
 DESCRIPTION:Halloween falls on October 31 and is\, by most measures\, the m
@@ -13482,8 +13487,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:increase-your-psychic-powers-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:Increase Your Psychic Powers Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Increase Your Psychic Powers Day is one of the spookier stops o
@@ -21584,9 +21589,12 @@ DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:National Author's Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Author's Day is a reading- and writing-focused observa
- nce on November 1\, celebrated by book lovers across the United States.\n\
- nhttps://todaycelebrates.com/holiday/national-authors-day/
+DESCRIPTION:National Author's Day is marked on November 1 as a day to thank
+  the people who write books. Its own history is the part worth being caref
+ ul about: a single founding story dominates search results for this day\, 
+ and it could not be traced to any primary document\, so this page does not
+  repeat it as fact. What follows is the short\, sourced version instead.\n
+ \nhttps://todaycelebrates.com/holiday/national-authors-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-authors-day/
 CATEGORIES:Books
 TRANSP:TRANSPARENT
@@ -23632,8 +23640,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-caramel-apple-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:National Caramel Apple Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 31\, National Caramel Apple Day gives people across 
@@ -31961,8 +31969,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-knock-knock-joke-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:National Knock Knock Joke Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 31\, National Knock Knock Joke Day gives people acro
@@ -32806,8 +32814,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-magic-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:National Magic Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 31\, National Magic Day gives people across the Unit
@@ -39842,8 +39850,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-trick-or-treat-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:National Trick or Treat Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Trick or Treat Day is one of the spookier stops on the
@@ -45225,8 +45233,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:reformation-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:Reformation Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Reformation Day commemorates Martin Luther's posting of his Nin
@@ -52170,8 +52178,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-cities-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:World Cities Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Cities Day is observed around the globe on October 31\, a
@@ -53966,8 +53974,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-savings-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:World Savings Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 31\, World Savings Day gives people around the globe
@@ -54717,10 +54725,12 @@ DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:World Vegan Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Vegan Day is a food-focused observance celebrated across 
- the United States on November 1\, giving fans of the dish or ingredient an
-  excuse to seek it out and share it with others.\n\nhttps://todaycelebrate
- s.com/holiday/world-vegan-day/
+DESCRIPTION:World Vegan Day falls on November 1 and is\, for once\, a moder
+ n observance whose paperwork is in order. The Vegan Society says the first
+  one was held on November 1\, 1994\, created by Louise Wallis\, to mark th
+ e Society's fiftieth anniversary. November was chosen because November 194
+ 4 is when the Society — and the word vegan itself — came into existenc
+ e.\n\nhttps://todaycelebrates.com/holiday/world-vegan-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-vegan-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
