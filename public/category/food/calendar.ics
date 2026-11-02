@@ -3330,8 +3330,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-cinnamon-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271102
 SUMMARY:National Cinnamon Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Cinnamon Day is a food-focused observance celebrated a
@@ -3950,10 +3950,12 @@ DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:National Deviled Egg Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Deviled Egg Day is a food-focused observance celebrate
- d across the United States on November 2\, giving fans of the dish or ingr
- edient an excuse to seek it out and share it with others.\n\nhttps://today
- celebrates.com/holiday/national-deviled-egg-day/
+DESCRIPTION:National Deviled Egg Day falls on November 2 and marks the halv
+ ed hard-cooked eggs with a seasoned yolk filling that turn up at every Ame
+ rican potluck. Who started the observance\, and when\, does not appear in 
+ any source that cites a document. The word in its name is better documente
+ d than the day is\, and it is older and hotter than the dish it now descri
+ bes.\n\nhttps://todaycelebrates.com/holiday/national-deviled-egg-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-deviled-egg-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -9748,8 +9750,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-vegan-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271102
 SUMMARY:World Vegan Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Vegan Day falls on November 1 and is\, for once\, a moder

@@ -15,27 +15,6 @@ SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/daylight-saving-time-e
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:daylight-saving-time-ends-20261101@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Daylight Saving Time Ends
-DESCRIPTION:Daylight Saving Time ends on the first Sunday in November\, whe
- n clocks across most of the United States are set back one hour at 2:00 a.
- m. daylight time\, which becomes 1:00 a.m. standard time. The schedule is 
- federal law rather than custom: the dates have been fixed in the U.S. Code
-  since 1966 and have taken their present form since 2007. Hawaii and most 
- of Arizona never moved their clocks forward in March\, so they have nothin
- g to set back.\n\nhttps://todaycelebrates.com/holiday/daylight-saving-time
- -ends/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/daylight-saving-time-ends
- /
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:daylight-saving-time-ends-20271107@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271107
