@@ -334,9 +334,14 @@ DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:All Saints' Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:All Saints' Day\, observed on November 1\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/all-saints-day/
+DESCRIPTION:All Saints' Day falls on November 1 in the Western churches and
+  honors all the saints of the church\, both the named and the unknown\, wh
+ o have attained heaven. The Eastern churches keep the same commemoration o
+ n the first Sunday after Pentecost instead. Its origin cannot be traced wi
+ th certainty\, and the November 1 date arrived long after the feast itself
+  — by way of a Roman chapel dedication\, an English monk's calendar\, an
+ d finally a papal order.\n\nhttps://todaycelebrates.com/holiday/all-saints
+ -day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/all-saints-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -4445,8 +4450,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:girl-scout-founders-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:Girl Scout Founder's Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 31\, Girl Scout Founder's Day gives people across th
@@ -4843,8 +4848,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hermit-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
 SUMMARY:Hermit Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 29\, Hermit Day gives people across the United State
@@ -5422,8 +5427,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-animation-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
+DTSTART;VALUE=DATE:20271028
+DTEND;VALUE=DATE:20271029
 SUMMARY:International Animation Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 28\, International Animation Day gives people around
@@ -7694,8 +7699,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-bandana-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
 SUMMARY:National Bandana Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Bandana Day is observed across the United States on Oc
@@ -7927,9 +7932,12 @@ DTSTART;VALUE=DATE:20271016
 DTEND;VALUE=DATE:20271017
 SUMMARY:National Boss' Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Boss's Day gives employees a chance to thank their man
- agers and supervisors for their guidance and support throughout the year.\
- n\nhttps://todaycelebrates.com/holiday/national-boss-day/
+DESCRIPTION:National Boss's Day falls on October 16 and has an unusually sp
+ ecific origin story: a secretary in suburban Illinois created it in 1958 a
+ nd chose the date because it was her father's birthday. It is also a holid
+ ay whose documented record is far thinner than its reach\, which is worth 
+ knowing before anyone organizes a group card.\n\nhttps://todaycelebrates.c
+ om/holiday/national-boss-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-boss-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -8022,8 +8030,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-breadstick-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTART;VALUE=DATE:20271030
+DTEND;VALUE=DATE:20271031
 SUMMARY:National Breadstick Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Breadstick Day is observed across the United States on
@@ -8284,8 +8292,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-caramel-apple-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:National Caramel Apple Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 31\, National Caramel Apple Day gives people across 
@@ -8301,13 +8309,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-cat-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
 SUMMARY:National Cat Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Cat Day celebrates cats of all kinds and encourages ad
- opting cats in need of homes from shelters and rescues.\n\nhttps://todayce
- lebrates.com/holiday/national-cat-day/
+DESCRIPTION:National Cat Day falls on October 29 and was founded in 2005 by
+  Colleen Paige\, the pet lifestyle expert who created National Dog Day the
+  year before. Unlike the dog day\, this one comes with no explanation for 
+ its date: the founding site says what the day is for but never says why Oc
+ tober 29. What it is for is adoption\, and specifically the number of cats
+  sitting in American shelters.\n\nhttps://todaycelebrates.com/holiday/nati
+ onal-cat-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cat-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -8351,8 +8363,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-checklist-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTART;VALUE=DATE:20271030
+DTEND;VALUE=DATE:20271031
 SUMMARY:National Checklist Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Checklist Day is observed across the United States on 
@@ -8436,8 +8448,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-chicken-fried-steak-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
 SUMMARY:National Chicken Fried Steak Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Chicken Fried Steak Day is observed across the United 
@@ -8647,10 +8659,13 @@ DTSTART;VALUE=DATE:20271011
 DTEND;VALUE=DATE:20271012
 SUMMARY:National Coming Out Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Marked every October 11 since 1988\, National Coming Out Day ce
- lebrates coming out as an LGBTQ+ person and the visibility and support tha
- t comes with living openly.\n\nhttps://todaycelebrates.com/holiday/nationa
- l-coming-out-day/
+DESCRIPTION:National Coming Out Day is observed on October 11\, and has bee
+ n since 1988. The date is not arbitrary: it is the anniversary of the Seco
+ nd National March on Washington for Lesbian and Gay Rights\, held October 
+ 11\, 1987\, the weekend the AIDS Memorial Quilt was unfolded in full for t
+ he first time. The day was built on a single premise one of its founders k
+ ept repeating\, that most people who believe they know no gay person are w
+ rong.\n\nhttps://todaycelebrates.com/holiday/national-coming-out-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-coming-out-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -8793,8 +8808,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-day-of-the-deployed@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
 SUMMARY:National Day of the Deployed
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 26\, National Day of the Deployed gives people acros
@@ -9024,8 +9039,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-first-responders-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
+DTSTART;VALUE=DATE:20271028
+DTEND;VALUE=DATE:20271029
 SUMMARY:National First Responders Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National First Responders Day honors the police officers\, fire
@@ -9609,8 +9624,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-internal-medicine-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
+DTSTART;VALUE=DATE:20271028
+DTEND;VALUE=DATE:20271029
 SUMMARY:National Internal Medicine Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Internal Medicine Day is observed across the United St
@@ -9627,8 +9642,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-internet-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
 SUMMARY:National Internet Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Internet Day is observed across the United States on O
@@ -9793,8 +9808,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-knock-knock-joke-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:National Knock Knock Joke Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 31\, National Knock Knock Joke Day gives people acro
@@ -9977,8 +9992,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-magic-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:National Magic Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 31\, National Magic Day gives people across the Unit
@@ -10160,8 +10175,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mentoring-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:National Mentoring Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Mentoring Day is observed across the United States on 
@@ -10177,8 +10192,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mincemeat-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
 SUMMARY:National Mincemeat Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Mincemeat Day is observed across the United States on 
@@ -10263,8 +10278,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-mule-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
 SUMMARY:National Mule Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Mule Day is observed across the United States on Octob
@@ -10531,8 +10546,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-oatmeal-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
 SUMMARY:National Oatmeal Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Oatmeal Day is observed across the United States on Oc
@@ -10649,8 +10664,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-parmigiano-reggiano-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:National Parmigiano Reggiano Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Parmigiano Reggiano Day is observed across the United 
@@ -10916,8 +10931,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-publicist-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTART;VALUE=DATE:20271030
+DTEND;VALUE=DATE:20271031
 SUMMARY:National Publicist Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Publicist Day is observed across the United States on 
@@ -11466,8 +11481,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-tell-a-story-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:National Tell a Story Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 27\, National Tell a Story Day gives people across t
@@ -11500,8 +11515,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-text-your-ex-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTART;VALUE=DATE:20271030
+DTEND;VALUE=DATE:20271031
 SUMMARY:National Text Your Ex Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Text Your Ex Day is observed across the United States 
@@ -12030,8 +12045,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:navy-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:Navy Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 27\, Navy Day gives people across the United States 
@@ -13346,8 +13361,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:reformation-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:Reformation Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Reformation Day commemorates Martin Luther's posting of his Nin
@@ -16382,8 +16397,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wild-foods-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
+DTSTART;VALUE=DATE:20271028
+DTEND;VALUE=DATE:20271029
 SUMMARY:Wild Foods Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Wild Foods Day is observed across the United States on October 
@@ -16563,8 +16578,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-cities-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:World Cities Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Cities Day is observed around the globe on October 31\, a
@@ -16628,8 +16643,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-day-for-audiovisual-heritage@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:World Day for Audiovisual Heritage
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Day for Audiovisual Heritage is observed around the globe
@@ -16824,8 +16839,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-lemur-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTART;VALUE=DATE:20271030
+DTEND;VALUE=DATE:20271031
 SUMMARY:World Lemur Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 30\, World Lemur Day gives people around the globe o
@@ -17084,8 +17099,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-psoriasis-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
 SUMMARY:World Psoriasis Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 29\, World Psoriasis Day gives people around the glo
@@ -17132,8 +17147,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-savings-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
 SUMMARY:World Savings Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:On October 31\, World Savings Day gives people around the globe
@@ -17214,8 +17229,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-stroke-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
 SUMMARY:World Stroke Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Stroke Day raises awareness of stroke prevention\, the im

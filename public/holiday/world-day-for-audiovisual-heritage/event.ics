@@ -17,8 +17,8 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:world-day-for-audiovisual-heritage@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
 SUMMARY:World Day for Audiovisual Heritage
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Day for Audiovisual Heritage is observed around the globe
