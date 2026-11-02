@@ -88,10 +88,27 @@
 
 # Share cards (E7): the card.png written beside an observance, date,
 # year-index or category page, used as that page's og:image. Cached harder
-# than the page because the image changes only when its subject does -- and
-# like the .ics rule above, each of these sits after its page's own rule
-# deliberately, so the more specific rule is the one that wins. All of them
-# match nothing until SHARE_CARDS is turned on.
+# than the page because the image changes only when its subject does. All of
+# them match nothing until SHARE_CARDS is turned on.
+#
+# Correction, measured against the deployed site on 2026-10-28 while verifying
+# E5: a later, more specific rule does NOT replace an earlier broader one.
+# Cloudflare Pages applies every matching rule and concatenates the values, so
+# /category/halloween/calendar.ics is served
+#   Cache-Control: public, max-age=3600, stale-while-revalidate=86400,
+#                  public, max-age=3600, stale-while-revalidate=86400
+# because /category/* and /category/*/calendar.ics both match. That is
+# harmless for the feeds -- both rules set the same value -- and the
+# Content-Type above is set by one rule only, so it arrives clean.
+#
+# It is not harmless for the card rules below, where the values differ:
+# /holiday/* says max-age=3600 and /holiday/*/card.png says 86400, so a card
+# would be served both. RFC 9111 has a recipient use the first occurrence or
+# treat the response as stale, so the intended 86400 is not what applies.
+# Predicted, not measured -- no card.png exists to request while SHARE_CARDS
+# is off. `_headers` globs cannot exclude a path from a broader rule, so there
+# is no in-file fix; whoever turns cards on should decide what to do about it.
+# See docs/REVIEW.md, 2026-10-28.
 /holiday/*/card.png
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 

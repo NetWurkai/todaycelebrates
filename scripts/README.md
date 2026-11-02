@@ -829,6 +829,71 @@ Colons and quotes are legal in a TEXT value; over-escaping them shows up as
 literal backslashes in the event title, which is how you can spot a hand-rolled
 feed.
 
+### Verified against the deployed feeds (2026-10-28)
+
+E5's acceptance criterion -- "feeds validate and subscribe cleanly in Apple
+Calendar and Google Calendar, and UIDs are stable run to run" -- was held open
+from 2026-10-14 for want of a deploy. The deploy exists, so it was measured.
+`validate_ics.py` is not in the repo: it was a throwaway stdlib checker, and
+what it checked is listed here so the next run need not guess.
+
+**Structure.** All 2,465 committed feeds and 29 feeds re-downloaded from
+todaycelebrates.com parse with **zero failures and zero warnings** against RFC
+5545: UTF-8 with no BOM, CRLF throughout including the final line, no folded
+line over 75 octets, balanced components, `VERSION:2.0` / `PRODID` /
+`CALSCALE:GREGORIAN`, every VEVENT carrying `UID` + `DTSTAMP` + `DTSTART`, every
+`DTSTART` a `VALUE=DATE` with `DTEND` exactly one day later, valid `TRANSP` /
+`CLASS` / `SEQUENCE`, only `FREQ=YEARLY` RRULEs, TEXT escaping with no
+unescaped comma or semicolon and no stray escape, no `VTIMEZONE` and no `TZID`
+anywhere, and no duplicate UID inside any feed.
+
+**Counts tie out three ways.** 3,264 events in `/calendar.ics`; the 14 category
+feeds partition that set exactly (same UID+DTSTART multiset, nothing in two
+categories); the 2,450 per-holiday feeds carry the same set again. 4,915 `.ics`
+links across the observance, category and `/about/` pages all resolve to a file
+that exists -- no dangling `webcal://`.
+
+**Transport.** All three shapes return 200 over HTTP/2 with
+`Content-Type: text/calendar; charset=utf-8`, no redirect, no auth, and plain
+`http://` works too (some older clients map `webcal://` to http). Two findings
+worth knowing: the feeds are served **uncompressed** -- Cloudflare is not
+compressing `text/calendar`, so `/calendar.ics` costs a subscriber 1.98 MB on
+every daily refresh where gzip would make it 177 KB (an 8.9% ratio) -- and the
+`Cache-Control` header arrives **doubled** on the category and per-holiday
+feeds, because `_headers` applies every matching rule rather than the most
+specific one. Harmless here (identical values); see the comment in
+`public/_headers` for the case where it is not.
+
+**UIDs are stable run to run**, by two independent comparisons. Committed build
+(`--today 2026-10-26`) against the live build (`data-today="2026-10-27"`), and
+again against a fresh local `--today 2026-10-28`: 3,264 UIDs present in both
+every time, the recurring UID set **identical**, the enumerated set identical
+with **zero added and zero dropped**, and no UID ever carrying a different
+`SUMMARY`.
+
+**What a date roll does cost**, measured by generating 2026-10-27 and
+2026-10-28 and comparing: **11 of 2,465 feed files change** -- the 7 observances
+whose date rolled from 2026 into 2027, the 3 category feeds holding them, and
+the all-feed. Those 7 are fixed-date rows, and the change is `DTSTART` moving a
+year forward under an unchanged UID, which is the documented model above
+(`DTSTART` is the *next* occurrence). The consequence, which the model note does
+not spell out: a subscriber's calendar holds no **past** instance of a
+fixed-date observance -- the day after Black Cat Day, the event's `DTSTART` is
+2027 and October 27 2026 is empty in their calendar, while the site's dated
+archive still shows it. Anchoring `DTSTART` to a fixed past year would keep the
+history and stop the nightly rewrite, at the cost of rewriting every
+subscriber's copy of all 2,348 fixed-date events once. That is a published-model
+change, so it was left alone -- see docs/REVIEW.md, 2026-10-28.
+
+**Not verifiable from an unattended run:** actually subscribing in Apple
+Calendar and Google Calendar. Everything mechanical that makes a subscription
+fail has been ruled out above, including the invitation-shaped properties that
+make a client treat a feed as a meeting request rather than a subscription
+(`METHOD`, `ORGANIZER`, `ATTENDEE`, `RECURRENCE-ID`, `EXDATE`, `VALARM`,
+`STATUS:CANCELLED` -- none present). The remaining risk is Google's handling of
+a 1.98 MB uncompressed feed; the per-category and per-holiday feeds are 10 KB
+to 626 KB and are not exposed to it.
+
 ### Content types
 
 `public/_headers` states `Content-Type: text/calendar; charset=utf-8` for all
