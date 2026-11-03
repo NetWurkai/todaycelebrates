@@ -805,8 +805,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:all-souls-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:All Souls' Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:All Souls' Day falls on November 2 and is the Catholic Church's
@@ -5650,9 +5650,12 @@ DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Cliché Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Cliché Day\, observed on November 3\, is a lighthearted holida
- y celebrated across the United States.\n\nhttps://todaycelebrates.com/holi
- day/clich-day/
+DESCRIPTION:Cliché Day falls on November 3 and has no documented founder\,
+  which is itself a cliché of the national-day calendar. The word it point
+ s at is more interesting than the observance: it began as a piece of print
+ ing hardware\, and it has never entirely stopped meaning one — a cliché
+  is a phrase cast once and stamped out ever after.\n\nhttps://todaycelebra
+ tes.com/holiday/clich-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/clich-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6260,8 +6263,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cookie-monster-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Cookie Monster Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Cookie Monster Day falls on November 2 and marks the blue\, ins
@@ -6856,8 +6859,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:day-of-the-dead@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Day of the Dead
 RRULE:FREQ=YEARLY
 DESCRIPTION:Day of the Dead - Dia de Muertos - is the Mexican observance in
@@ -15541,8 +15544,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-doge-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:International Doge Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Doge Day\, observed on November 2\, celebrates a 
@@ -17912,8 +17915,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:job-action-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Job Action Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Job Action Day\, observed on November 2\, encourages people acr
@@ -18814,8 +18817,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:look-for-circles-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Look for Circles Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Look for Circles Day\, observed on November 2\, is a lightheart
@@ -27068,8 +27071,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-deviled-egg-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:National Deviled Egg Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Deviled Egg Day falls on November 2 and marks the halv
@@ -37243,10 +37246,12 @@ DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:National Sandwich Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Sandwich Day is a food-focused observance celebrated a
- cross the United States on November 3\, giving fans of the dish or ingredi
- ent an excuse to seek it out and share it with others.\n\nhttps://todaycel
- ebrates.com/holiday/national-sandwich-day/
+DESCRIPTION:National Sandwich Day falls on November 3 and honors the most u
+ nremarkable food in the American lunch rotation: a filling between two pie
+ ces of bread\, named for an eighteenth-century British politician who almo
+ st certainly did not invent it. The observance has no documented founder\,
+  and the explanation usually given for its date does not survive a look at
+  the record.\n\nhttps://todaycelebrates.com/holiday/national-sandwich-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sandwich-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -43831,8 +43836,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:plan-your-epitaph-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Plan Your Epitaph Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Plan Your Epitaph Day\, observed on November 2\, is a lighthear
@@ -52890,10 +52895,13 @@ DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:World Jellyfish Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Jellyfish Day is a nature-focused observance on November 
- 3\, celebrated across the United States to draw attention to the plant\, a
- nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
- /world-jellyfish-day/
+DESCRIPTION:World Jellyfish Day falls on November 3 and is marked by aquari
+ ums\, marine labs\, and at least one federal science program: NOAA's ocean
+  exploration office publishes a run of deep-sea jellyfish footage for it. 
+ Who started the day\, and why they chose November 3\, is not recorded anyw
+ here reputable — a shame\, because the animal at its center has one of t
+ he longest records on earth.\n\nhttps://todaycelebrates.com/holiday/world-
+ jellyfish-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-jellyfish-day/
 CATEGORIES:Nature
 TRANSP:TRANSPARENT

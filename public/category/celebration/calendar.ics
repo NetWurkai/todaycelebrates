@@ -351,8 +351,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:all-souls-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:All Souls' Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:All Souls' Day falls on November 2 and is the Catholic Church's
@@ -2169,9 +2169,12 @@ DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Cliché Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Cliché Day\, observed on November 3\, is a lighthearted holida
- y celebrated across the United States.\n\nhttps://todaycelebrates.com/holi
- day/clich-day/
+DESCRIPTION:Cliché Day falls on November 3 and has no documented founder\,
+  which is itself a cliché of the national-day calendar. The word it point
+ s at is more interesting than the observance: it began as a piece of print
+ ing hardware\, and it has never entirely stopped meaning one — a cliché
+  is a phrase cast once and stamped out ever after.\n\nhttps://todaycelebra
+ tes.com/holiday/clich-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/clich-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2601,8 +2604,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:day-of-the-dead@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Day of the Dead
 RRULE:FREQ=YEARLY
 DESCRIPTION:Day of the Dead - Dia de Muertos - is the Mexican observance in
@@ -6781,8 +6784,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:look-for-circles-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Look for Circles Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Look for Circles Day\, observed on November 2\, is a lightheart
@@ -12968,8 +12971,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:plan-your-epitaph-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Plan Your Epitaph Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Plan Your Epitaph Day\, observed on November 2\, is a lighthear

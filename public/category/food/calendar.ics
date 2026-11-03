@@ -3946,8 +3946,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-deviled-egg-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:National Deviled Egg Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Deviled Egg Day falls on November 2 and marks the halv
@@ -8045,10 +8045,12 @@ DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:National Sandwich Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Sandwich Day is a food-focused observance celebrated a
- cross the United States on November 3\, giving fans of the dish or ingredi
- ent an excuse to seek it out and share it with others.\n\nhttps://todaycel
- ebrates.com/holiday/national-sandwich-day/
+DESCRIPTION:National Sandwich Day falls on November 3 and honors the most u
+ nremarkable food in the American lunch rotation: a filling between two pie
+ ces of bread\, named for an eighteenth-century British politician who almo
+ st certainly did not invent it. The observance has no documented founder\,
+  and the explanation usually given for its date does not survive a look at
+  the record.\n\nhttps://todaycelebrates.com/holiday/national-sandwich-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sandwich-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
