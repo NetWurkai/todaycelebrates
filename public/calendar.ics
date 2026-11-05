@@ -8452,8 +8452,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eat-smart-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:Eat Smart Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Eat Smart Day is a health-awareness observance on November 4\, 
@@ -17119,9 +17119,14 @@ DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:International Stout Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:International Stout Day is a drinks-focused observance on Novem
- ber 5\, celebrated by beer and craft-brewery fans across the United States
- .\n\nhttps://todaycelebrates.com/holiday/international-stout-day/
+DESCRIPTION:International Stout Day is kept in early November — November 
+ 5 in 2026 — and it has something most observances of its kind do not: a 
+ founder who says so in print. The beer writer Erin Peters\, who publishes 
+ as The Beer Goddess\, created it\, and wrote in 2017 that the year's editi
+ on was the seventh annual. The beer is much older\, and its name is older 
+ still: "stout" began as a word for strong beer\, attached itself to porter
+ \, and ended up meaning something porter is not.\n\nhttps://todaycelebrate
+ s.com/holiday/international-stout-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/international-stout-day/
 CATEGORIES:Beer
 TRANSP:TRANSPARENT
@@ -17148,8 +17153,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-stress-awareness-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:International Stress Awareness Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Stress Awareness Day is a health-awareness observ
@@ -18098,8 +18103,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-tut-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:King Tut Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:King Tut Day falls on November 4\, the date in 1922 when workme
@@ -23566,8 +23571,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-candy-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:National Candy Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Candy Day is observed on November 4\, and no organizat
@@ -24739,8 +24744,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-chicken-lady-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:National Chicken Lady Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Chicken Lady Day\, observed on November 4\, is a light
@@ -24933,10 +24938,13 @@ DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:National Chinese Take-Out Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Chinese Take-Out Day is a food-focused observance cele
- brated across the United States on November 5\, giving fans of the dish or
-  ingredient an excuse to seek it out and share it with others.\n\nhttps://
- todaycelebrates.com/holiday/national-chinese-take-out-day/
+DESCRIPTION:National Chinese Take-Out Day falls on November 5 and has no do
+ cumented founder — but the object it celebrates has one of the best-docu
+ mented origins in American food. The folded paper carton is a patented inv
+ ention: US Patent 529\,053\, granted in 1894 to a Chicago man\, for a pail
+  to carry oysters. Chinese food arrived in it later\, and the story of how
+  runs through American immigration law as much as through cooking.\n\nhttp
+ s://todaycelebrates.com/holiday/national-chinese-take-out-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chinese-take-out
  -day/
 CATEGORIES:Food
@@ -27665,8 +27673,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-easy-bake-oven-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:National Easy-Bake Oven Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Easy-Bake Oven Day\, observed on November 4\, is a lig
@@ -30026,9 +30034,14 @@ DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:National Gunpowder Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Gunpowder Day\, observed on November 5\, is a lighthea
- rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
- es.com/holiday/national-gunpowder-day/
+DESCRIPTION:National Gunpowder Day falls on November 5\, the anniversary of
+  the night in 1605 when a man was found in a cellar beneath the Palace of 
+ Westminster with 36 barrels of gunpowder and a plan to kill the king and m
+ ost of England's government. Who created the observance\, and whether the 
+ date was chosen for that reason\, is not documented in any reliable source
+ . The plot itself is documented exhaustively\, and it is the reason Novemb
+ er 5 means anything at all.\n\nhttps://todaycelebrates.com/holiday/nationa
+ l-gunpowder-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gunpowder-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -51004,8 +51017,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:use-your-common-sense-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:Use Your Common Sense Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Use Your Common Sense Day is listed on November 4 by daily-holi

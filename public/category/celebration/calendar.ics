@@ -6369,8 +6369,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-tut-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:King Tut Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:King Tut Day falls on November 4\, the date in 1922 when workme
@@ -8455,8 +8455,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-chicken-lady-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:National Chicken Lady Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Chicken Lady Day\, observed on November 4\, is a light
@@ -9297,9 +9297,14 @@ DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:National Gunpowder Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Gunpowder Day\, observed on November 5\, is a lighthea
- rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
- es.com/holiday/national-gunpowder-day/
+DESCRIPTION:National Gunpowder Day falls on November 5\, the anniversary of
+  the night in 1605 when a man was found in a cellar beneath the Palace of 
+ Westminster with 36 barrels of gunpowder and a plan to kill the king and m
+ ost of England's government. Who created the observance\, and whether the 
+ date was chosen for that reason\, is not documented in any reliable source
+ . The plot itself is documented exhaustively\, and it is the reason Novemb
+ er 5 means anything at all.\n\nhttps://todaycelebrates.com/holiday/nationa
+ l-gunpowder-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gunpowder-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -16099,8 +16104,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:use-your-common-sense-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:Use Your Common Sense Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Use Your Common Sense Day is listed on November 4 by daily-holi
