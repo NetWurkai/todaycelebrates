@@ -2882,8 +2882,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-chinese-take-out-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Chinese Take-Out Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Chinese Take-Out Day falls on November 5 and has no do
@@ -4027,8 +4027,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-doughnut-appreciation-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Doughnut Appreciation Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Doughnut Appreciation Day is a food-focused observance
@@ -6704,10 +6704,14 @@ DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:National Nachos Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Nachos Day is a food-focused observance celebrated acr
- oss the United States on November 6\, giving fans of the dish or ingredien
- t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
- rates.com/holiday/national-nachos-day/
+DESCRIPTION:National Nachos Day falls on November 6 and marks a dish with a
+  well-documented inventor and an undocumented holiday. Nachos take their n
+ ame from Ignacio "Nacho" Anaya\, who improvised them at a restaurant on th
+ e Mexican side of the Texas border\, and they became a stadium fixture thr
+ ee decades later because a San Antonio businessman worked out how to pump 
+ cheese. Who chose November 6\, and when\, is not recorded in any source th
+ at can be checked.\n\nhttps://todaycelebrates.com/holiday/national-nachos-
+ day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-nachos-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT

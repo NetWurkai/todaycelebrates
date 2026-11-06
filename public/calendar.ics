@@ -1213,8 +1213,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:american-football-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:American Football Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:American Football Day\, observed on November 5\, is celebrated 
@@ -9755,9 +9755,12 @@ DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Fountain Pen Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Fountain Pen Day is a reading- and writing-focused observance o
- n November 6\, celebrated by book lovers across the United States.\n\nhttp
- s://todaycelebrates.com/holiday/fountain-pen-day/
+DESCRIPTION:Fountain Pen Day is listed on November 6 and asks very little o
+ f anyone: use a fountain pen\, and if you do not own one\, try one. The ob
+ servance's own history is a dead end — the website that ran it has lapse
+ d\, and its domain now points at an unrelated business — so what follows
+  is the part that can be documented: how the fountain pen stopped leaking.
+ \n\nhttps://todaycelebrates.com/holiday/fountain-pen-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/fountain-pen-day/
 CATEGORIES:Books
 TRANSP:TRANSPARENT
@@ -16836,8 +16839,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-project-management-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:International Project Management Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Project Management Day\, observed on November 5\,
@@ -17115,8 +17118,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-stout-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:International Stout Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Stout Day is kept in early November — November 
@@ -24934,8 +24937,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-chinese-take-out-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Chinese Take-Out Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Chinese Take-Out Day falls on November 5 and has no do
@@ -27326,8 +27329,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-doughnut-appreciation-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Doughnut Appreciation Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Doughnut Appreciation Day is a food-focused observance
@@ -30030,8 +30033,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-gunpowder-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Gunpowder Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Gunpowder Day falls on November 5\, the anniversary of
@@ -33319,8 +33322,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-men-make-dinner-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Men Make Dinner Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Men Make Dinner Day\, observed on November 5\, is a li
@@ -33932,10 +33935,14 @@ DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:National Nachos Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Nachos Day is a food-focused observance celebrated acr
- oss the United States on November 6\, giving fans of the dish or ingredien
- t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
- rates.com/holiday/national-nachos-day/
+DESCRIPTION:National Nachos Day falls on November 6 and marks a dish with a
+  well-documented inventor and an undocumented holiday. Nachos take their n
+ ame from Ignacio "Nacho" Anaya\, who improvised them at a restaurant on th
+ e Mexican side of the Texas border\, and they became a stadium fixture thr
+ ee decades later because a San Antonio businessman worked out how to pump 
+ cheese. Who chose November 6\, and when\, is not recorded in any source th
+ at can be checked.\n\nhttps://todaycelebrates.com/holiday/national-nachos-
+ day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-nachos-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -37353,9 +37360,14 @@ DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:National Saxophone Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Saxophone Day is a music-focused observance on Novembe
- r 6\, celebrated by fans across the United States.\n\nhttps://todaycelebra
- tes.com/holiday/national-saxophone-day/
+DESCRIPTION:National Saxophone Day falls on November 6\, the birthday of An
+ toine-Joseph "Adolphe" Sax\, born in Dinant\, in what is now Belgium's Nam
+ ur province\, on November 6\, 1814. The observance's own origin is not doc
+ umented\, but the date is not arbitrary: it is the inventor's\, and the Me
+ tropolitan Museum of Art opened its Sax bicentennial display on November 6
+ \, 2014. Sax patented an instrument that conservatories resisted for most 
+ of a century and jazz made unavoidable.\n\nhttps://todaycelebrates.com/hol
+ iday/national-saxophone-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-saxophone-day/
 CATEGORIES:Music
 TRANSP:TRANSPARENT
