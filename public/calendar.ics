@@ -2589,8 +2589,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basketball-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:Basketball Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Basketball Day\, observed on November 6\, is celebrated by spor
@@ -9751,8 +9751,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:fountain-pen-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:Fountain Pen Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Fountain Pen Day is listed on November 6 and asks very little o
@@ -16422,10 +16422,13 @@ DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:International Merlot Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:International Merlot Day is a food-focused observance celebrate
- d across the United States on November 7\, giving fans of the dish or ingr
- edient an excuse to seek it out and share it with others.\n\nhttps://today
- celebrates.com/holiday/international-merlot-day/
+DESCRIPTION:International Merlot Day is marked on November 7\, and who star
+ ted it is not documented in any source worth citing. The grape\, on the ot
+ her hand\, has a well-documented history that turns out to be surprisingly
+  short: the name first appears in print at the end of the 18th century\, a
+ nd Merlot's parentage was not settled until a 2009 genetic study found the
+  missing parent.\n\nhttps://todaycelebrates.com/holiday/international-merl
+ ot-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/international-merlot-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -18895,8 +18898,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:love-your-lawyer-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:Love Your Lawyer Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Love Your Lawyer Day\, observed on November 6\, is a lightheart
@@ -19422,8 +19425,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:marooned-without-a-compass-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:Marooned Without a Compass Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Marooned Without a Compass Day\, observed on November 6\, is a 
@@ -22305,10 +22308,14 @@ DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:National Bison Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Bison Day is a nature-focused observance on November 7
- \, celebrated across the United States to draw attention to the plant\, an
- imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
- national-bison-day/
+DESCRIPTION:National Bison Day falls on the first Saturday of November — 
+ November 7 in 2026\, the fifteenth annual observance. It marks the animal 
+ Congress adopted as the national mammal of the United States in 2016\, and
+  it exists because of a durable alliance between a tribal organization\, a
+  conservation society and a trade group for bison ranchers. It reads less 
+ as a celebration than as a conservation anniversary: by the late 1800s onl
+ y a few hundred bison were left in the country.\n\nhttps://todaycelebrates
+ .com/holiday/national-bison-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bison-day/
 CATEGORIES:Nature
 TRANSP:TRANSPARENT
@@ -22322,11 +22329,13 @@ DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:National Bittersweet Chocolate with Almonds Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Bittersweet Chocolate with Almonds Day is a food-focus
- ed observance celebrated across the United States on November 7\, giving f
- ans of the dish or ingredient an excuse to seek it out and share it with o
- thers.\n\nhttps://todaycelebrates.com/holiday/national-bittersweet-chocola
- te-with-almonds-day/
+DESCRIPTION:National Bittersweet Chocolate with Almonds Day is marked on No
+ vember 7. Who started it\, and when\, is not documented in any source wort
+ h citing. What can be stated precisely is what the label means: under the 
+ federal standard of identity\, "bittersweet" and "semisweet" chocolate are
+  the same thing — one definition with two interchangeable names.\n\nhttp
+ s://todaycelebrates.com/holiday/national-bittersweet-chocolate-with-almond
+ s-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bittersweet-choc
  olate-with-almonds-day/
 CATEGORIES:Food
@@ -31617,8 +31626,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-jersey-friday@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:National Jersey Friday
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Jersey Friday\, observed on November 6\, is celebrated
@@ -33931,8 +33940,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-nachos-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:National Nachos Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Nachos Day falls on November 6 and marks a dish with a
@@ -37356,8 +37365,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-saxophone-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:National Saxophone Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Saxophone Day falls on November 6\, the birthday of An

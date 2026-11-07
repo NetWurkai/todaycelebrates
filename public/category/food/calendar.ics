@@ -831,10 +831,13 @@ DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:International Merlot Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:International Merlot Day is a food-focused observance celebrate
- d across the United States on November 7\, giving fans of the dish or ingr
- edient an excuse to seek it out and share it with others.\n\nhttps://today
- celebrates.com/holiday/international-merlot-day/
+DESCRIPTION:International Merlot Day is marked on November 7\, and who star
+ ted it is not documented in any source worth citing. The grape\, on the ot
+ her hand\, has a well-documented history that turns out to be surprisingly
+  short: the name first appears in print at the end of the 18th century\, a
+ nd Merlot's parentage was not settled until a 2009 genetic study found the
+  missing parent.\n\nhttps://todaycelebrates.com/holiday/international-merl
+ ot-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/international-merlot-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -1636,11 +1639,13 @@ DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:National Bittersweet Chocolate with Almonds Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Bittersweet Chocolate with Almonds Day is a food-focus
- ed observance celebrated across the United States on November 7\, giving f
- ans of the dish or ingredient an excuse to seek it out and share it with o
- thers.\n\nhttps://todaycelebrates.com/holiday/national-bittersweet-chocola
- te-with-almonds-day/
+DESCRIPTION:National Bittersweet Chocolate with Almonds Day is marked on No
+ vember 7. Who started it\, and when\, is not documented in any source wort
+ h citing. What can be stated precisely is what the label means: under the 
+ federal standard of identity\, "bittersweet" and "semisweet" chocolate are
+  the same thing — one definition with two interchangeable names.\n\nhttp
+ s://todaycelebrates.com/holiday/national-bittersweet-chocolate-with-almond
+ s-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bittersweet-choc
  olate-with-almonds-day/
 CATEGORIES:Food
@@ -6700,8 +6705,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-nachos-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:National Nachos Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Nachos Day falls on November 6 and marks a dish with a
