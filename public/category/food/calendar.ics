@@ -259,10 +259,12 @@ DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Cook Something Bold Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Cook Something Bold Day is a food-focused observance celebrated
-  across the United States on November 8\, giving fans of the dish or ingre
- dient an excuse to seek it out and share it with others.\n\nhttps://todayc
- elebrates.com/holiday/cook-something-bold-day/
+DESCRIPTION:Cook Something Bold Day falls on November 8 and is an instructi
+ on rather than a commemoration: make the thing that fills the whole house 
+ with smell. Its own origin cannot be sourced\, so this page is deliberatel
+ y short\, and spends its words on the part of the subject that is document
+ ed — how cooks and chemists actually measure "bold."\n\nhttps://todaycel
+ ebrates.com/holiday/cook-something-bold-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/cook-something-bold-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -827,8 +829,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-merlot-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
 SUMMARY:International Merlot Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Merlot Day is marked on November 7\, and who star
@@ -1635,8 +1637,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-bittersweet-chocolate-with-almonds-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
 SUMMARY:National Bittersweet Chocolate with Almonds Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Bittersweet Chocolate with Almonds Day is marked on No
@@ -9135,8 +9137,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-wine-tasting-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
 SUMMARY:National Wine Tasting Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Wine Tasting Day is a food-focused observance celebrat
