@@ -17,14 +17,18 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:national-candy-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:National Candy Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Candy Day is a food-focused observance celebrated acro
- ss the United States on November 4\, giving fans of the dish or ingredient
-  an excuse to seek it out and share it with others.\n\nhttps://todaycelebr
- ates.com/holiday/national-candy-day/
+DESCRIPTION:National Candy Day is observed on November 4\, and no organizat
+ ion appears to have put it there: the confectionery industry's own trade b
+ ody does not promote it\, and the date circulates on holiday calendars and
+  in individual retailers' promotions without attribution. There was a genu
+ ine National Candy Day in American history\, created by the candy trade an
+ d documented in contemporary newspapers — but it fell in October\, and i
+ t is not this one.\n\nhttps://todaycelebrates.com/holiday/national-candy-d
+ ay/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-candy-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT

@@ -351,8 +351,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:all-souls-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:All Souls' Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:All Souls' Day falls on November 2 and is the Catholic Church's
@@ -2165,13 +2165,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:clich-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
 SUMMARY:Cliché Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Cliché Day\, observed on November 3\, is a lighthearted holida
- y celebrated across the United States.\n\nhttps://todaycelebrates.com/holi
- day/clich-day/
+DESCRIPTION:Cliché Day falls on November 3 and has no documented founder\,
+  which is itself a cliché of the national-day calendar. The word it point
+ s at is more interesting than the observance: it began as a piece of print
+ ing hardware\, and it has never entirely stopped meaning one — a cliché
+  is a phrase cast once and stamped out ever after.\n\nhttps://todaycelebra
+ tes.com/holiday/clich-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/clich-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -2601,8 +2604,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:day-of-the-dead@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Day of the Dead
 RRULE:FREQ=YEARLY
 DESCRIPTION:Day of the Dead - Dia de Muertos - is the Mexican observance in
@@ -6167,8 +6170,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-project-management-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:International Project Management Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Project Management Day\, observed on November 5\,
@@ -6366,13 +6369,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-tut-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:King Tut Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:King Tut Day\, observed on November 4\, is a lighthearted holid
- ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
- iday/king-tut-day/
+DESCRIPTION:King Tut Day falls on November 4\, the date in 1922 when workme
+ n clearing ground in the Valley of the Kings uncovered the first step of a
+  staircase leading down to the tomb of Tutankhamun. No founder\, founding 
+ year or sponsoring organization for the observance appears in any reliable
+  record — it marks the discovery rather than any decision to commemorate
+  it.\n\nhttps://todaycelebrates.com/holiday/king-tut-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/king-tut-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6781,8 +6787,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:look-for-circles-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Look for Circles Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Look for Circles Day\, observed on November 2\, is a lightheart
@@ -6797,8 +6803,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:love-your-lawyer-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:Love Your Lawyer Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Love Your Lawyer Day\, observed on November 6\, is a lightheart
@@ -7129,8 +7135,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:marooned-without-a-compass-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:Marooned Without a Compass Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Marooned Without a Compass Day\, observed on November 6\, is a 
@@ -8449,8 +8455,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-chicken-lady-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:National Chicken Lady Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Chicken Lady Day\, observed on November 4\, is a light
@@ -9287,13 +9293,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-gunpowder-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Gunpowder Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Gunpowder Day\, observed on November 5\, is a lighthea
- rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
- es.com/holiday/national-gunpowder-day/
+DESCRIPTION:National Gunpowder Day falls on November 5\, the anniversary of
+  the night in 1605 when a man was found in a cellar beneath the Palace of 
+ Westminster with 36 barrels of gunpowder and a plan to kill the king and m
+ ost of England's government. Who created the observance\, and whether the 
+ date was chosen for that reason\, is not documented in any reliable source
+ . The plot itself is documented exhaustively\, and it is the reason Novemb
+ er 5 means anything at all.\n\nhttps://todaycelebrates.com/holiday/nationa
+ l-gunpowder-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gunpowder-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -9489,8 +9500,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-housewife-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
 SUMMARY:National Housewife Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Housewife Day\, observed on November 3\, is a lighthea
@@ -10124,8 +10135,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-men-make-dinner-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Men Make Dinner Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Men Make Dinner Day\, observed on November 5\, is a li
@@ -12179,8 +12190,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:notary-public-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
 SUMMARY:Notary Public Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Notary Public Day\, observed on November 7\, is a lighthearted 
@@ -12968,8 +12979,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:plan-your-epitaph-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Plan Your Epitaph Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Plan Your Epitaph Day\, observed on November 2\, is a lighthear
@@ -15807,25 +15818,6 @@ CLASS:PUBLIC
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:u-s-general-election-day-20261103@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
- Monday in November\, which pins it somewhere between November 2 and Novemb
- er 8. It is the day Americans elect members of Congress and\, every fourth
-  year\, the presidential electors who formally choose the president. Three
-  separate federal statutes\, passed seventy years apart\, are what put all
-  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
- eneral-election-day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:u-s-general-election-day-20271102@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271102
@@ -16112,13 +16104,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:use-your-common-sense-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:Use Your Common Sense Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Use Your Common Sense Day\, observed on November 4\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/use-your-common-sense-day/
+DESCRIPTION:Use Your Common Sense Day is listed on November 4 by daily-holi
+ day calendars that disagree with each other about who created it and canno
+ t show where the date came from. November 4 does carry a real observance\,
+  and a statutory one: Oklahoma has marked Will Rogers Day on that date sin
+ ce 1947\, because it is the humorist's birthday. The link between Rogers a
+ nd the common-sense day\, on the other hand\, exists only on the calendar 
+ sites.\n\nhttps://todaycelebrates.com/holiday/use-your-common-sense-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/use-your-common-sense-day
  /
 CATEGORIES:Celebration

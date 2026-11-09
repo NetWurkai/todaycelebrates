@@ -17,14 +17,17 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:national-chinese-take-out-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Chinese Take-Out Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Chinese Take-Out Day is a food-focused observance cele
- brated across the United States on November 5\, giving fans of the dish or
-  ingredient an excuse to seek it out and share it with others.\n\nhttps://
- todaycelebrates.com/holiday/national-chinese-take-out-day/
+DESCRIPTION:National Chinese Take-Out Day falls on November 5 and has no do
+ cumented founder — but the object it celebrates has one of the best-docu
+ mented origins in American food. The folded paper carton is a patented inv
+ ention: US Patent 529\,053\, granted in 1894 to a Chicago man\, for a pail
+  to carry oysters. Chinese food arrived in it later\, and the story of how
+  runs through American immigration law as much as through cooking.\n\nhttp
+ s://todaycelebrates.com/holiday/national-chinese-take-out-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chinese-take-out
  -day/
 CATEGORIES:Food

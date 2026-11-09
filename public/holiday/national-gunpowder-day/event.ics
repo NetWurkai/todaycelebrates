@@ -17,13 +17,18 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:national-gunpowder-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Gunpowder Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Gunpowder Day\, observed on November 5\, is a lighthea
- rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
- es.com/holiday/national-gunpowder-day/
+DESCRIPTION:National Gunpowder Day falls on November 5\, the anniversary of
+  the night in 1605 when a man was found in a cellar beneath the Palace of 
+ Westminster with 36 barrels of gunpowder and a plan to kill the king and m
+ ost of England's government. Who created the observance\, and whether the 
+ date was chosen for that reason\, is not documented in any reliable source
+ . The plot itself is documented exhaustively\, and it is the reason Novemb
+ er 5 means anything at all.\n\nhttps://todaycelebrates.com/holiday/nationa
+ l-gunpowder-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gunpowder-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT

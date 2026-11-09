@@ -13,13 +13,16 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:clich-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
 SUMMARY:Cliché Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Cliché Day\, observed on November 3\, is a lighthearted holida
- y celebrated across the United States.\n\nhttps://todaycelebrates.com/holi
- day/clich-day/
+DESCRIPTION:Cliché Day falls on November 3 and has no documented founder\,
+  which is itself a cliché of the national-day calendar. The word it point
+ s at is more interesting than the observance: it began as a piece of print
+ ing hardware\, and it has never entirely stopped meaning one — a cliché
+  is a phrase cast once and stamped out ever after.\n\nhttps://todaycelebra
+ tes.com/holiday/clich-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/clich-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT

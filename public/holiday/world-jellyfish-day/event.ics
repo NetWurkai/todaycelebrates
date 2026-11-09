@@ -17,14 +17,17 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:world-jellyfish-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
 SUMMARY:World Jellyfish Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Jellyfish Day is a nature-focused observance on November 
- 3\, celebrated across the United States to draw attention to the plant\, a
- nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
- /world-jellyfish-day/
+DESCRIPTION:World Jellyfish Day falls on November 3 and is marked by aquari
+ ums\, marine labs\, and at least one federal science program: NOAA's ocean
+  exploration office publishes a run of deep-sea jellyfish footage for it. 
+ Who started the day\, and why they chose November 3\, is not recorded anyw
+ here reputable — a shame\, because the animal at its center has one of t
+ he longest records on earth.\n\nhttps://todaycelebrates.com/holiday/world-
+ jellyfish-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-jellyfish-day/
 CATEGORIES:Nature
 TRANSP:TRANSPARENT

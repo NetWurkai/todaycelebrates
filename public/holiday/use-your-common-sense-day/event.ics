@@ -17,13 +17,17 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:use-your-common-sense-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:Use Your Common Sense Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Use Your Common Sense Day\, observed on November 4\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/use-your-common-sense-day/
+DESCRIPTION:Use Your Common Sense Day is listed on November 4 by daily-holi
+ day calendars that disagree with each other about who created it and canno
+ t show where the date came from. November 4 does carry a real observance\,
+  and a statutory one: Oklahoma has marked Will Rogers Day on that date sin
+ ce 1947\, because it is the humorist's birthday. The link between Rogers a
+ nd the common-sense day\, on the other hand\, exists only on the calendar 
+ sites.\n\nhttps://todaycelebrates.com/holiday/use-your-common-sense-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/use-your-common-sense-day
  /
 CATEGORIES:Celebration

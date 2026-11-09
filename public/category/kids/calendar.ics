@@ -386,8 +386,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cookie-monster-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Cookie Monster Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Cookie Monster Day falls on November 2 and marks the blue\, ins
@@ -919,9 +919,13 @@ DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:International Tongue Twister Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:International Tongue Twister Day\, observed on November 8\, is 
- a lighthearted\, family-friendly day celebrated across the United States.\
- n\nhttps://todaycelebrates.com/holiday/international-tongue-twister-day/
+DESCRIPTION:International Tongue Twister Day falls on November 8\, and its 
+ own origin is harder to pin down than anything it celebrates: no founder c
+ an be sourced\, and the pages that promote it do not agree on the date. Th
+ e twisters themselves are far better documented\, and more interesting tha
+ n the day — they are a working instrument in speech research\, not only 
+ a party trick.\n\nhttps://todaycelebrates.com/holiday/international-tongue
+ -twister-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tongue-twis
  ter-day/
 CATEGORIES:Kids & Family
@@ -1342,8 +1346,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-easy-bake-oven-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:National Easy-Bake Oven Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Easy-Bake Oven Day\, observed on November 4\, is a lig

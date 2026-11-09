@@ -805,8 +805,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:all-souls-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:All Souls' Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:All Souls' Day falls on November 2 and is the Catholic Church's
@@ -1213,8 +1213,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:american-football-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:American Football Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:American Football Day\, observed on November 5\, is celebrated 
@@ -2589,8 +2589,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basketball-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:Basketball Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Basketball Day\, observed on November 6\, is celebrated by spor
@@ -3622,8 +3622,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:book-lovers-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
 SUMMARY:Book Lovers Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Book Lovers Day is a reading- and writing-focused observance on
@@ -5646,13 +5646,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:clich-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
 SUMMARY:Cliché Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Cliché Day\, observed on November 3\, is a lighthearted holida
- y celebrated across the United States.\n\nhttps://todaycelebrates.com/holi
- day/clich-day/
+DESCRIPTION:Cliché Day falls on November 3 and has no documented founder\,
+  which is itself a cliché of the national-day calendar. The word it point
+ s at is more interesting than the observance: it began as a piece of print
+ ing hardware\, and it has never entirely stopped meaning one — a cliché
+  is a phrase cast once and stamped out ever after.\n\nhttps://todaycelebra
+ tes.com/holiday/clich-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/clich-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -6230,10 +6233,12 @@ DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Cook Something Bold Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Cook Something Bold Day is a food-focused observance celebrated
-  across the United States on November 8\, giving fans of the dish or ingre
- dient an excuse to seek it out and share it with others.\n\nhttps://todayc
- elebrates.com/holiday/cook-something-bold-day/
+DESCRIPTION:Cook Something Bold Day falls on November 8 and is an instructi
+ on rather than a commemoration: make the thing that fills the whole house 
+ with smell. Its own origin cannot be sourced\, so this page is deliberatel
+ y short\, and spends its words on the part of the subject that is document
+ ed — how cooks and chemists actually measure "bold."\n\nhttps://todaycel
+ ebrates.com/holiday/cook-something-bold-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/cook-something-bold-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -6260,8 +6265,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cookie-monster-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Cookie Monster Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Cookie Monster Day falls on November 2 and marks the blue\, ins
@@ -6856,8 +6861,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:day-of-the-dead@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Day of the Dead
 RRULE:FREQ=YEARLY
 DESCRIPTION:Day of the Dead - Dia de Muertos - is the Mexican observance in
@@ -8449,8 +8454,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eat-smart-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:Eat Smart Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Eat Smart Day is a health-awareness observance on November 4\, 
@@ -9748,13 +9753,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:fountain-pen-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:Fountain Pen Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Fountain Pen Day is a reading- and writing-focused observance o
- n November 6\, celebrated by book lovers across the United States.\n\nhttp
- s://todaycelebrates.com/holiday/fountain-pen-day/
+DESCRIPTION:Fountain Pen Day is listed on November 6 and asks very little o
+ f anyone: use a fountain pen\, and if you do not own one\, try one. The ob
+ servance's own history is a dead end — the website that ran it has lapse
+ d\, and its domain now points at an unrelated business — so what follows
+  is the part that can be documented: how the fountain pen stopped leaking.
+ \n\nhttps://todaycelebrates.com/holiday/fountain-pen-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/fountain-pen-day/
 CATEGORIES:Books
 TRANSP:TRANSPARENT
@@ -10794,8 +10802,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:give-someone-a-dollar-today-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
 SUMMARY:Give Someone a Dollar Today Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Give Someone a Dollar Today Day\, observed on November 3\, enco
@@ -15541,8 +15549,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-doge-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:International Doge Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Doge Day\, observed on November 2\, celebrates a 
@@ -16412,14 +16420,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-merlot-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
 SUMMARY:International Merlot Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:International Merlot Day is a food-focused observance celebrate
- d across the United States on November 7\, giving fans of the dish or ingr
- edient an excuse to seek it out and share it with others.\n\nhttps://today
- celebrates.com/holiday/international-merlot-day/
+DESCRIPTION:International Merlot Day is marked on November 7\, and who star
+ ted it is not documented in any source worth citing. The grape\, on the ot
+ her hand\, has a well-documented history that turns out to be surprisingly
+  short: the name first appears in print at the end of the 18th century\, a
+ nd Merlot's parentage was not settled until a 2009 genetic study found the
+  missing parent.\n\nhttps://todaycelebrates.com/holiday/international-merl
+ ot-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/international-merlot-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -16833,8 +16844,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-project-management-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:International Project Management Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Project Management Day\, observed on November 5\,
@@ -17112,13 +17123,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-stout-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:International Stout Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:International Stout Day is a drinks-focused observance on Novem
- ber 5\, celebrated by beer and craft-brewery fans across the United States
- .\n\nhttps://todaycelebrates.com/holiday/international-stout-day/
+DESCRIPTION:International Stout Day is kept in early November — November 
+ 5 in 2026 — and it has something most observances of its kind do not: a 
+ founder who says so in print. The beer writer Erin Peters\, who publishes 
+ as The Beer Goddess\, created it\, and wrote in 2017 that the year's editi
+ on was the seventh annual. The beer is much older\, and its name is older 
+ still: "stout" began as a word for strong beer\, attached itself to porter
+ \, and ended up meaning something porter is not.\n\nhttps://todaycelebrate
+ s.com/holiday/international-stout-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/international-stout-day/
 CATEGORIES:Beer
 TRANSP:TRANSPARENT
@@ -17145,8 +17161,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-stress-awareness-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:International Stress Awareness Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Stress Awareness Day is a health-awareness observ
@@ -17338,9 +17354,13 @@ DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:International Tongue Twister Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:International Tongue Twister Day\, observed on November 8\, is 
- a lighthearted\, family-friendly day celebrated across the United States.\
- n\nhttps://todaycelebrates.com/holiday/international-tongue-twister-day/
+DESCRIPTION:International Tongue Twister Day falls on November 8\, and its 
+ own origin is harder to pin down than anything it celebrates: no founder c
+ an be sourced\, and the pages that promote it do not agree on the date. Th
+ e twisters themselves are far better documented\, and more interesting tha
+ n the day — they are a working instrument in speech research\, not only 
+ a party trick.\n\nhttps://todaycelebrates.com/holiday/international-tongue
+ -twister-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/international-tongue-twis
  ter-day/
 CATEGORIES:Kids & Family
@@ -17912,8 +17932,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:job-action-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Job Action Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Job Action Day\, observed on November 2\, encourages people acr
@@ -18095,13 +18115,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:king-tut-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:King Tut Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:King Tut Day\, observed on November 4\, is a lighthearted holid
- ay celebrated across the United States.\n\nhttps://todaycelebrates.com/hol
- iday/king-tut-day/
+DESCRIPTION:King Tut Day falls on November 4\, the date in 1922 when workme
+ n clearing ground in the Valley of the Kings uncovered the first step of a
+  staircase leading down to the tomb of Tutankhamun. No founder\, founding 
+ year or sponsoring organization for the observance appears in any reliable
+  record — it marks the discovery rather than any decision to commemorate
+  it.\n\nhttps://todaycelebrates.com/holiday/king-tut-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/king-tut-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -18814,8 +18837,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:look-for-circles-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Look for Circles Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Look for Circles Day\, observed on November 2\, is a lightheart
@@ -18881,8 +18904,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:love-your-lawyer-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:Love Your Lawyer Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Love Your Lawyer Day\, observed on November 6\, is a lightheart
@@ -19408,8 +19431,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:marooned-without-a-compass-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:Marooned Without a Compass Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Marooned Without a Compass Day\, observed on November 6\, is a 
@@ -22287,14 +22310,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-bison-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
 SUMMARY:National Bison Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Bison Day is a nature-focused observance on November 7
- \, celebrated across the United States to draw attention to the plant\, an
- imal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday/
- national-bison-day/
+DESCRIPTION:National Bison Day falls on the first Saturday of November — 
+ November 7 in 2026\, the fifteenth annual observance. It marks the animal 
+ Congress adopted as the national mammal of the United States in 2016\, and
+  it exists because of a durable alliance between a tribal organization\, a
+  conservation society and a trade group for bison ranchers. It reads less 
+ as a celebration than as a conservation anniversary: by the late 1800s onl
+ y a few hundred bison were left in the country.\n\nhttps://todaycelebrates
+ .com/holiday/national-bison-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bison-day/
 CATEGORIES:Nature
 TRANSP:TRANSPARENT
@@ -22304,15 +22331,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-bittersweet-chocolate-with-almonds-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
 SUMMARY:National Bittersweet Chocolate with Almonds Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Bittersweet Chocolate with Almonds Day is a food-focus
- ed observance celebrated across the United States on November 7\, giving f
- ans of the dish or ingredient an excuse to seek it out and share it with o
- thers.\n\nhttps://todaycelebrates.com/holiday/national-bittersweet-chocola
- te-with-almonds-day/
+DESCRIPTION:National Bittersweet Chocolate with Almonds Day is marked on No
+ vember 7. Who started it\, and when\, is not documented in any source wort
+ h citing. What can be stated precisely is what the label means: under the 
+ federal standard of identity\, "bittersweet" and "semisweet" chocolate are
+  the same thing — one definition with two interchangeable names.\n\nhttp
+ s://todaycelebrates.com/holiday/national-bittersweet-chocolate-with-almond
+ s-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bittersweet-choc
  olate-with-almonds-day/
 CATEGORIES:Food
@@ -23560,14 +23589,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-candy-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:National Candy Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Candy Day is a food-focused observance celebrated acro
- ss the United States on November 4\, giving fans of the dish or ingredient
-  an excuse to seek it out and share it with others.\n\nhttps://todaycelebr
- ates.com/holiday/national-candy-day/
+DESCRIPTION:National Candy Day is observed on November 4\, and no organizat
+ ion appears to have put it there: the confectionery industry's own trade b
+ ody does not promote it\, and the date circulates on holiday calendars and
+  in individual retailers' promotions without attribution. There was a genu
+ ine National Candy Day in American history\, created by the candy trade an
+ d documented in contemporary newspapers — but it fell in October\, and i
+ t is not this one.\n\nhttps://todaycelebrates.com/holiday/national-candy-d
+ ay/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-candy-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -23615,9 +23648,12 @@ DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:National Cappuccino Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Cappuccino Day\, observed on November 8\, gives coffee
-  lovers across the United States a reason to slow down and enjoy a favorit
- e cup.\n\nhttps://todaycelebrates.com/holiday/national-cappuccino-day/
+DESCRIPTION:National Cappuccino Day falls on November 8 and has no traceabl
+ e founder\, which is ordinary for a drink-themed observance and worth sayi
+ ng out loud. The drink itself has a much better paper trail: a Viennese an
+ cestor sweetened with whipped cream\, an Italian reinvention that had to w
+ ait on a machine\, and an American arrival that took fifty years to become
+  ordinary.\n\nhttps://todaycelebrates.com/holiday/national-cappuccino-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cappuccino-day/
 CATEGORIES:Coffee
 TRANSP:TRANSPARENT
@@ -24729,8 +24765,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-chicken-lady-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:National Chicken Lady Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Chicken Lady Day\, observed on November 4\, is a light
@@ -24919,14 +24955,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-chinese-take-out-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Chinese Take-Out Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Chinese Take-Out Day is a food-focused observance cele
- brated across the United States on November 5\, giving fans of the dish or
-  ingredient an excuse to seek it out and share it with others.\n\nhttps://
- todaycelebrates.com/holiday/national-chinese-take-out-day/
+DESCRIPTION:National Chinese Take-Out Day falls on November 5 and has no do
+ cumented founder — but the object it celebrates has one of the best-docu
+ mented origins in American food. The folded paper carton is a patented inv
+ ention: US Patent 529\,053\, granted in 1894 to a Chicago man\, for a pail
+  to carry oysters. Chinese food arrived in it later\, and the story of how
+  runs through American immigration law as much as through cooking.\n\nhttp
+ s://todaycelebrates.com/holiday/national-chinese-take-out-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-chinese-take-out
  -day/
 CATEGORIES:Food
@@ -27068,8 +27107,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-deviled-egg-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:National Deviled Egg Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Deviled Egg Day falls on November 2 and marks the halv
@@ -27308,8 +27347,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-doughnut-appreciation-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Doughnut Appreciation Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Doughnut Appreciation Day is a food-focused observance
@@ -27655,8 +27694,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-easy-bake-oven-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:National Easy-Bake Oven Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Easy-Bake Oven Day\, observed on November 4\, is a lig
@@ -30012,13 +30051,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-gunpowder-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Gunpowder Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Gunpowder Day\, observed on November 5\, is a lighthea
- rted holiday celebrated across the United States.\n\nhttps://todaycelebrat
- es.com/holiday/national-gunpowder-day/
+DESCRIPTION:National Gunpowder Day falls on November 5\, the anniversary of
+  the night in 1605 when a man was found in a cellar beneath the Palace of 
+ Westminster with 36 barrels of gunpowder and a plan to kill the king and m
+ ost of England's government. Who created the observance\, and whether the 
+ date was chosen for that reason\, is not documented in any reliable source
+ . The plot itself is documented exhaustively\, and it is the reason Novemb
+ er 5 means anything at all.\n\nhttps://todaycelebrates.com/holiday/nationa
+ l-gunpowder-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gunpowder-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -30758,8 +30802,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-housewife-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
 SUMMARY:National Housewife Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Housewife Day\, observed on November 3\, is a lighthea
@@ -31591,8 +31635,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-jersey-friday@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:National Jersey Friday
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Jersey Friday\, observed on November 6\, is celebrated
@@ -33296,8 +33340,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-men-make-dinner-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
 SUMMARY:National Men Make Dinner Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Men Make Dinner Day\, observed on November 5\, is a li
@@ -33905,14 +33949,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-nachos-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:National Nachos Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Nachos Day is a food-focused observance celebrated acr
- oss the United States on November 6\, giving fans of the dish or ingredien
- t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
- rates.com/holiday/national-nachos-day/
+DESCRIPTION:National Nachos Day falls on November 6 and marks a dish with a
+  well-documented inventor and an undocumented holiday. Nachos take their n
+ ame from Ignacio "Nacho" Anaya\, who improvised them at a restaurant on th
+ e Mexican side of the Texas border\, and they became a stadium fixture thr
+ ee decades later because a San Antonio businessman worked out how to pump 
+ cheese. Who chose November 6\, and when\, is not recorded in any source th
+ at can be checked.\n\nhttps://todaycelebrates.com/holiday/national-nachos-
+ day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-nachos-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -37239,14 +37287,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-sandwich-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
 SUMMARY:National Sandwich Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Sandwich Day is a food-focused observance celebrated a
- cross the United States on November 3\, giving fans of the dish or ingredi
- ent an excuse to seek it out and share it with others.\n\nhttps://todaycel
- ebrates.com/holiday/national-sandwich-day/
+DESCRIPTION:National Sandwich Day falls on November 3 and honors the most u
+ nremarkable food in the American lunch rotation: a filling between two pie
+ ces of bread\, named for an eighteenth-century British politician who almo
+ st certainly did not invent it. The observance has no documented founder\,
+  and the explanation usually given for its date does not survive a look at
+  the record.\n\nhttps://todaycelebrates.com/holiday/national-sandwich-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sandwich-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -37324,13 +37374,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-saxophone-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:National Saxophone Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Saxophone Day is a music-focused observance on Novembe
- r 6\, celebrated by fans across the United States.\n\nhttps://todaycelebra
- tes.com/holiday/national-saxophone-day/
+DESCRIPTION:National Saxophone Day falls on November 6\, the birthday of An
+ toine-Joseph "Adolphe" Sax\, born in Dinant\, in what is now Belgium's Nam
+ ur province\, on November 6\, 1814. The observance's own origin is not doc
+ umented\, but the date is not arbitrary: it is the inventor's\, and the Me
+ tropolitan Museum of Art opened its Sax bicentennial display on November 6
+ \, 2014. Sax patented an instrument that conservatories resisted for most 
+ of a century and jazz made unavoidable.\n\nhttps://todaycelebrates.com/hol
+ iday/national-saxophone-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-saxophone-day/
 CATEGORIES:Music
 TRANSP:TRANSPARENT
@@ -40981,8 +41036,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-wine-tasting-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
 SUMMARY:National Wine Tasting Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Wine Tasting Day is a food-focused observance celebrat
@@ -41989,8 +42044,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:notary-public-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
 SUMMARY:Notary Public Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Notary Public Day\, observed on November 7\, is a lighthearted 
@@ -43831,8 +43886,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:plan-your-epitaph-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
 SUMMARY:Plan Your Epitaph Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Plan Your Epitaph Day\, observed on November 2\, is a lighthear
@@ -50655,25 +50710,6 @@ CLASS:PUBLIC
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:u-s-general-election-day-20261103@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:U.S. General Election Day
-DESCRIPTION:U.S. General Election Day falls on the Tuesday after the first 
- Monday in November\, which pins it somewhere between November 2 and Novemb
- er 8. It is the day Americans elect members of Congress and\, every fourth
-  year\, the presidential electors who formally choose the president. Three
-  separate federal statutes\, passed seventy years apart\, are what put all
-  of that on the same Tuesday.\n\nhttps://todaycelebrates.com/holiday/u-s-g
- eneral-election-day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/u-s-general-election-day/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:u-s-general-election-day-20271102@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271102
@@ -51011,13 +51047,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:use-your-common-sense-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
 SUMMARY:Use Your Common Sense Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Use Your Common Sense Day\, observed on November 4\, is a light
- hearted holiday celebrated across the United States.\n\nhttps://todayceleb
- rates.com/holiday/use-your-common-sense-day/
+DESCRIPTION:Use Your Common Sense Day is listed on November 4 by daily-holi
+ day calendars that disagree with each other about who created it and canno
+ t show where the date came from. November 4 does carry a real observance\,
+  and a statutory one: Oklahoma has marked Will Rogers Day on that date sin
+ ce 1947\, because it is the humorist's birthday. The link between Rogers a
+ nd the common-sense day\, on the other hand\, exists only on the calendar 
+ sites.\n\nhttps://todaycelebrates.com/holiday/use-your-common-sense-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/use-your-common-sense-day
  /
 CATEGORIES:Celebration
@@ -52886,14 +52926,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-jellyfish-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
 SUMMARY:World Jellyfish Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Jellyfish Day is a nature-focused observance on November 
- 3\, celebrated across the United States to draw attention to the plant\, a
- nimal\, or landscape at its center.\n\nhttps://todaycelebrates.com/holiday
- /world-jellyfish-day/
+DESCRIPTION:World Jellyfish Day falls on November 3 and is marked by aquari
+ ums\, marine labs\, and at least one federal science program: NOAA's ocean
+  exploration office publishes a run of deep-sea jellyfish footage for it. 
+ Who started the day\, and why they chose November 3\, is not recorded anyw
+ here reputable — a shame\, because the animal at its center has one of t
+ he longest records on earth.\n\nhttps://todaycelebrates.com/holiday/world-
+ jellyfish-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-jellyfish-day/
 CATEGORIES:Nature
 TRANSP:TRANSPARENT
@@ -53268,8 +53311,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-numbat-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
 SUMMARY:World Numbat Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Numbat Day is a nature-focused observance on November 7\,

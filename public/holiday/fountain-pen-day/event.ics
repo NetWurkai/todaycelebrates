@@ -17,13 +17,16 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:fountain-pen-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:Fountain Pen Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Fountain Pen Day is a reading- and writing-focused observance o
- n November 6\, celebrated by book lovers across the United States.\n\nhttp
- s://todaycelebrates.com/holiday/fountain-pen-day/
+DESCRIPTION:Fountain Pen Day is listed on November 6 and asks very little o
+ f anyone: use a fountain pen\, and if you do not own one\, try one. The ob
+ servance's own history is a dead end — the website that ran it has lapse
+ d\, and its domain now points at an unrelated business — so what follows
+  is the part that can be documented: how the fountain pen stopped leaking.
+ \n\nhttps://todaycelebrates.com/holiday/fountain-pen-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/fountain-pen-day/
 CATEGORIES:Books
 TRANSP:TRANSPARENT

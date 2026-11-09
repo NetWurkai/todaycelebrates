@@ -17,13 +17,18 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:national-saxophone-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
 SUMMARY:National Saxophone Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Saxophone Day is a music-focused observance on Novembe
- r 6\, celebrated by fans across the United States.\n\nhttps://todaycelebra
- tes.com/holiday/national-saxophone-day/
+DESCRIPTION:National Saxophone Day falls on November 6\, the birthday of An
+ toine-Joseph "Adolphe" Sax\, born in Dinant\, in what is now Belgium's Nam
+ ur province\, on November 6\, 1814. The observance's own origin is not doc
+ umented\, but the date is not arbitrary: it is the inventor's\, and the Me
+ tropolitan Museum of Art opened its Sax bicentennial display on November 6
+ \, 2014. Sax patented an instrument that conservatories resisted for most 
+ of a century and jazz made unavoidable.\n\nhttps://todaycelebrates.com/hol
+ iday/national-saxophone-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-saxophone-day/
 CATEGORIES:Music
 TRANSP:TRANSPARENT

@@ -17,14 +17,17 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:international-merlot-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
 SUMMARY:International Merlot Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:International Merlot Day is a food-focused observance celebrate
- d across the United States on November 7\, giving fans of the dish or ingr
- edient an excuse to seek it out and share it with others.\n\nhttps://today
- celebrates.com/holiday/international-merlot-day/
+DESCRIPTION:International Merlot Day is marked on November 7\, and who star
+ ted it is not documented in any source worth citing. The grape\, on the ot
+ her hand\, has a well-documented history that turns out to be surprisingly
+  short: the name first appears in print at the end of the 18th century\, a
+ nd Merlot's parentage was not settled until a 2009 genetic study found the
+  missing parent.\n\nhttps://todaycelebrates.com/holiday/international-merl
+ ot-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/international-merlot-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
