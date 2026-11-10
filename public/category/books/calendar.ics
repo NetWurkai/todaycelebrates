@@ -951,9 +951,14 @@ DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:National Young Readers Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Young Readers Day is a reading- and writing-focused ob
- servance on November 10\, celebrated by book lovers across the United Stat
- es.\n\nhttps://todaycelebrates.com/holiday/national-young-readers-day/
+DESCRIPTION:National Young Readers Day is an American reading observance ma
+ rked in November\, and a useful example of how thin the documentation behi
+ nd a widely listed day can be. The Library of Congress published mentions 
+ of it in 1993 and 1995\, the second describing Pizza Hut — the company b
+ ehind the BOOK IT! classroom reading program — as cosponsor alongside th
+ e Library's own Center for the Book. What no primary source we could find 
+ states is who created the day\, in what year\, or by what date rule.\n\nht
+ tps://todaycelebrates.com/holiday/national-young-readers-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-young-readers-da
  y/
 CATEGORIES:Books

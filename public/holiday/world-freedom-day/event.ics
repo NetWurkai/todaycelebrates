@@ -17,13 +17,18 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:world-freedom-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:World Freedom Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Freedom Day\, observed on November 9\, is a lighthearted 
- holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
- m/holiday/world-freedom-day/
+DESCRIPTION:World Freedom Day falls on November 9\, the anniversary of the 
+ night in 1989 when East Germany opened the Berlin Wall. It is a United Sta
+ tes observance created by presidential proclamation in 2001\, not a federa
+ l holiday\, and presidents of both parties have issued it since. The date 
+ was chosen for a specific reason\, and the reason is slightly uncomfortabl
+ e: the Wall's opening was less a decision carried out on schedule than an 
+ announcement that got away from the government that made it.\n\nhttps://to
+ daycelebrates.com/holiday/world-freedom-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-freedom-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT

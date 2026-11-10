@@ -11,26 +11,6 @@ SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/diwali/event.ics
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:diwali-20261108@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Diwali
-DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
-  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
- pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
- an the Gregorian one\, so it moves between mid-October and mid-November. I
- n the United States it has recently become a legislated holiday as well as
-  a domestic one — New York City closes its public schools for it\, and P
- ennsylvania has designated a state Diwali Day\, though without requiring a
- nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:diwali-20271029@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271029
