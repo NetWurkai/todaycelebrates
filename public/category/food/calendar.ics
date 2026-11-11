@@ -101,8 +101,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:british-pudding-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:British Pudding Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:British Pudding Day is a food-focused observance celebrated acr
@@ -255,8 +255,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cook-something-bold-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271109
 SUMMARY:Cook Something Bold Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Cook Something Bold Day falls on November 8 and is an instructi
@@ -4827,14 +4827,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-fried-chicken-sandwich-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:National Fried Chicken Sandwich Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Fried Chicken Sandwich Day is a food-focused observanc
- e celebrated across the United States on November 9\, giving fans of the d
- ish or ingredient an excuse to seek it out and share it with others.\n\nht
- tps://todaycelebrates.com/holiday/national-fried-chicken-sandwich-day/
+DESCRIPTION:National Fried Chicken Sandwich Day falls on November 9\, and a
+ s far as any reliable record shows it is a marketing occasion rather than 
+ a commemoration: no founding organization\, proclamation or first observan
+ ce can be traced for it. What it points at is real enough. The fried chick
+ en sandwich is the most contested item in American fast food\, and the que
+ stion of who invented it has never been settled by anyone without a stake 
+ in the answer.\n\nhttps://todaycelebrates.com/holiday/national-fried-chick
+ en-sandwich-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fried-chicken-sa
  ndwich-day/
 CATEGORIES:Food
@@ -5124,14 +5128,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-greek-yogurt-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:National Greek Yogurt Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Greek Yogurt Day is a food-focused observance celebrat
- ed across the United States on November 9\, giving fans of the dish or ing
- redient an excuse to seek it out and share it with others.\n\nhttps://toda
- ycelebrates.com/holiday/national-greek-yogurt-day/
+DESCRIPTION:National Greek Yogurt Day falls on November 9\, with no traceab
+ le founder or first observance behind it. The product it marks sits in a s
+ tranger position than the day does. The Food and Drug Administration has o
+ bserved that thicker Greek-style yogurt became "as popular as regular yogu
+ rt" as the category grew — and yet "Greek yogurt" still has no legal def
+ inition in the United States\, which is why in January 2025 the agency for
+ mally asked the industry to explain how the stuff is actually made.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-greek-yogurt-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-greek-yogurt-day
  /
 CATEGORIES:Food
@@ -8114,8 +8122,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-scrapple-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:National Scrapple Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Scrapple Day is a food-focused observance celebrated a
@@ -8662,10 +8670,12 @@ DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:National Sundae Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Sundae Day is a food-focused observance celebrated acr
- oss the United States on November 11\, giving fans of the dish or ingredie
- nt an excuse to seek it out and share it with others.\n\nhttps://todaycele
- brates.com/holiday/national-sundae-day/
+DESCRIPTION:National Sundae Day falls on November 11 and marks a dish whose
+  birthplace two American cities have argued over for more than a century. 
+ Two Rivers\, Wisconsin dates the first ice cream sundae to 1881\; Ithaca\,
+  New York dates it to 1892 and says it has the newspaper advertisement to 
+ prove it. Neither has produced the document that would end the argument.\n
+ \nhttps://todaycelebrates.com/holiday/national-sundae-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sundae-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -8871,8 +8881,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-vanilla-cupcake-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:National Vanilla Cupcake Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Vanilla Cupcake Day is a food-focused observance celeb
@@ -9349,10 +9359,13 @@ DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Pocky Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Pocky Day is a food-focused observance celebrated across the Un
- ited States on November 11\, giving fans of the dish or ingredient an excu
- se to seek it out and share it with others.\n\nhttps://todaycelebrates.com
- /holiday/pocky-day/
+DESCRIPTION:Pocky Day\, known in Japan as Pocky & Pretz Day\, falls on Nove
+ mber 11 because the date written 11/11 looks like a row of the chocolate-c
+ oated biscuit sticks it celebrates. Ezaki Glico\, which makes them\, estab
+ lished the day in 1999 and had it certified as an official anniversary. Th
+ at makes it one of the rare food holidays whose origin is documented\, bec
+ ause the company that invented the snack also invented the day.\n\nhttps:/
+ /todaycelebrates.com/holiday/pocky-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/pocky-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT

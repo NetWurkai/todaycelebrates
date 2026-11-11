@@ -2910,26 +2910,6 @@ CLASS:PUBLIC
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:diwali-20261108@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Diwali
-DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
-  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
- pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
- an the Gregorian one\, so it moves between mid-October and mid-November. I
- n the United States it has recently become a legislated holiday as well as
-  a domestic one — New York City closes its public schools for it\, and P
- ennsylvania has designated a state Diwali Day\, though without requiring a
- nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:diwali-20271029@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271029
@@ -4581,8 +4561,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:go-to-an-art-museum-today-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:Go to an Art Museum Today Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Go to an Art Museum Today Day\, observed on November 9\, is a l
@@ -5396,8 +5376,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-accounting-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:International Accounting Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Accounting Day\, observed on November 10\, is a l
@@ -8895,8 +8875,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-dunce-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271109
 SUMMARY:National Dunce Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Dunce Day\, observed on November 8\, is a lighthearted
@@ -16125,8 +16105,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usmc-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:USMC Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:USMC Day\, observed on November 10\, is a lighthearted holiday 
@@ -16673,13 +16653,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-freedom-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:World Freedom Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Freedom Day\, observed on November 9\, is a lighthearted 
- holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
- m/holiday/world-freedom-day/
+DESCRIPTION:World Freedom Day falls on November 9\, the anniversary of the 
+ night in 1989 when East Germany opened the Berlin Wall. It is a United Sta
+ tes observance created by presidential proclamation in 2001\, not a federa
+ l holiday\, and presidents of both parties have issued it since. The date 
+ was chosen for a specific reason\, and the reason is slightly uncomfortabl
+ e: the Wall's opening was less a decision carried out on schedule than an 
+ announcement that got away from the government that made it.\n\nhttps://to
+ daycelebrates.com/holiday/world-freedom-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-freedom-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -17142,14 +17127,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-science-day-for-peace-and-development@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:World Science Day for Peace and Development
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Science Day for Peace and Development\, observed on Novem
- ber 10\, is a lighthearted holiday celebrated across the United States.\n\
- nhttps://todaycelebrates.com/holiday/world-science-day-for-peace-and-devel
- opment/
+DESCRIPTION:World Science Day for Peace and Development falls on November 1
+ 0 and is a UNESCO international day rather than an American holiday — no
+ thing closes\, and no government marks it with a day off. UNESCO's General
+  Conference proclaimed it in 2001\, and the first observance was held on N
+ ovember 10\, 2002. Its purpose is narrower than the name suggests: it exis
+ ts to keep science and the public in the same conversation\, on the premis
+ e that a public which cannot follow what its scientists do cannot decide w
+ hat they should do.\n\nhttps://todaycelebrates.com/holiday/world-science-d
+ ay-for-peace-and-development/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-science-day-for-pea
  ce-and-development/
 CATEGORIES:Celebration

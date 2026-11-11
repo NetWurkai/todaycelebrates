@@ -4141,8 +4141,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:british-pudding-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:British Pudding Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:British Pudding Day is a food-focused observance celebrated acr
@@ -4940,8 +4940,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:carl-sagan-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:Carl Sagan Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Carl Sagan Day\, observed on November 9\, celebrates a piece of
@@ -6229,8 +6229,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cook-something-bold-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271109
 SUMMARY:Cook Something Bold Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Cook Something Bold Day falls on November 8 and is an instructi
@@ -7277,26 +7277,6 @@ DESCRIPTION:Distaff Day\, observed on January 7\, is a lighthearted holiday
   celebrated across the United States.\n\nhttps://todaycelebrates.com/holid
  ay/distaff-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/distaff-day/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:diwali-20261108@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Diwali
-DESCRIPTION:Diwali is the festival of lights: five days in autumn marked by
-  Hindus\, Jains\, Sikhs and some Buddhists\, and named for the Sanskrit di
- pavali\, a row of lamps. Its date is set by a lunisolar calendar rather th
- an the Gregorian one\, so it moves between mid-October and mid-November. I
- n the United States it has recently become a legislated holiday as well as
-  a domestic one — New York City closes its public schools for it\, and P
- ennsylvania has designated a state Diwali Day\, though without requiring a
- nyone to close.\n\nhttps://todaycelebrates.com/holiday/diwali/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/diwali/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
@@ -11415,8 +11395,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:go-to-an-art-museum-today-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:Go to an Art Museum Today Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Go to an Art Museum Today Day\, observed on November 9\, is a l
@@ -13755,8 +13735,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-accounting-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:International Accounting Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Accounting Day\, observed on November 10\, is a l
@@ -17350,8 +17330,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-tongue-twister-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271109
 SUMMARY:International Tongue Twister Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Tongue Twister Day falls on November 8\, and its 
@@ -23644,8 +23624,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-cappuccino-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271109
 SUMMARY:National Cappuccino Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Cappuccino Day falls on November 8 and has no traceabl
@@ -27661,8 +27641,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-dunce-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271109
 SUMMARY:National Dunce Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Dunce Day\, observed on November 8\, is a lighthearted
@@ -28708,8 +28688,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-forget-me-not-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:National Forget-Me-Not Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Forget-Me-Not Day is a nature-focused observance on No
@@ -28954,14 +28934,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-fried-chicken-sandwich-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:National Fried Chicken Sandwich Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Fried Chicken Sandwich Day is a food-focused observanc
- e celebrated across the United States on November 9\, giving fans of the d
- ish or ingredient an excuse to seek it out and share it with others.\n\nht
- tps://todaycelebrates.com/holiday/national-fried-chicken-sandwich-day/
+DESCRIPTION:National Fried Chicken Sandwich Day falls on November 9\, and a
+ s far as any reliable record shows it is a marketing occasion rather than 
+ a commemoration: no founding organization\, proclamation or first observan
+ ce can be traced for it. What it points at is real enough. The fried chick
+ en sandwich is the most contested item in American fast food\, and the que
+ stion of who invented it has never been settled by anyone without a stake 
+ in the answer.\n\nhttps://todaycelebrates.com/holiday/national-fried-chick
+ en-sandwich-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fried-chicken-sa
  ndwich-day/
 CATEGORIES:Food
@@ -29861,14 +29845,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-greek-yogurt-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:National Greek Yogurt Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Greek Yogurt Day is a food-focused observance celebrat
- ed across the United States on November 9\, giving fans of the dish or ing
- redient an excuse to seek it out and share it with others.\n\nhttps://toda
- ycelebrates.com/holiday/national-greek-yogurt-day/
+DESCRIPTION:National Greek Yogurt Day falls on November 9\, with no traceab
+ le founder or first observance behind it. The product it marks sits in a s
+ tranger position than the day does. The Food and Drug Administration has o
+ bserved that thicker Greek-style yogurt became "as popular as regular yogu
+ rt" as the category grew — and yet "Greek yogurt" still has no legal def
+ inition in the United States\, which is why in January 2025 the agency for
+ mally asked the industry to explain how the stuff is actually made.\n\nhtt
+ ps://todaycelebrates.com/holiday/national-greek-yogurt-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-greek-yogurt-day
  /
 CATEGORIES:Food
@@ -37479,8 +37467,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-scrapple-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:National Scrapple Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Scrapple Day is a food-focused observance celebrated a
@@ -38418,8 +38406,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-steam-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271109
 SUMMARY:National STEAM Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National STEAM Day\, observed on November 8\, celebrates a piec
@@ -38738,10 +38726,12 @@ DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:National Sundae Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Sundae Day is a food-focused observance celebrated acr
- oss the United States on November 11\, giving fans of the dish or ingredie
- nt an excuse to seek it out and share it with others.\n\nhttps://todaycele
- brates.com/holiday/national-sundae-day/
+DESCRIPTION:National Sundae Day falls on November 11 and marks a dish whose
+  birthplace two American cities have argued over for more than a century. 
+ Two Rivers\, Wisconsin dates the first ice cream sundae to 1881\; Ithaca\,
+  New York dates it to 1892 and says it has the newspaper advertisement to 
+ prove it. Neither has produced the document that would end the argument.\n
+ \nhttps://todaycelebrates.com/holiday/national-sundae-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sundae-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -40127,8 +40117,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-vanilla-cupcake-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:National Vanilla Cupcake Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Vanilla Cupcake Day is a food-focused observance celeb
@@ -41557,13 +41547,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-young-readers-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:National Young Readers Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Young Readers Day is a reading- and writing-focused ob
- servance on November 10\, celebrated by book lovers across the United Stat
- es.\n\nhttps://todaycelebrates.com/holiday/national-young-readers-day/
+DESCRIPTION:National Young Readers Day is an American reading observance ma
+ rked in November\, and a useful example of how thin the documentation behi
+ nd a widely listed day can be. The Library of Congress published mentions 
+ of it in 1993 and 1995\, the second describing Pizza Hut — the company b
+ ehind the BOOK IT! classroom reading program — as cosponsor alongside th
+ e Library's own Center for the Book. What no primary source we could find 
+ states is who created the day\, in what year\, or by what date rule.\n\nht
+ tps://todaycelebrates.com/holiday/national-young-readers-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-young-readers-da
  y/
 CATEGORIES:Books
@@ -44120,10 +44115,13 @@ DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Pocky Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Pocky Day is a food-focused observance celebrated across the Un
- ited States on November 11\, giving fans of the dish or ingredient an excu
- se to seek it out and share it with others.\n\nhttps://todaycelebrates.com
- /holiday/pocky-day/
+DESCRIPTION:Pocky Day\, known in Japan as Pocky & Pretz Day\, falls on Nove
+ mber 11 because the date written 11/11 looks like a row of the chocolate-c
+ oated biscuit sticks it celebrates. Ezaki Glico\, which makes them\, estab
+ lished the day in 1999 and had it certified as an official anniversary. Th
+ at makes it one of the rare food holidays whose origin is documented\, bec
+ ause the company that invented the snack also invented the day.\n\nhttps:/
+ /todaycelebrates.com/holiday/pocky-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/pocky-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -46196,13 +46194,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sesame-street-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:Sesame Street Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Sesame Street Day\, observed on November 10\, is a lighthearted
- \, family-friendly day celebrated across the United States.\n\nhttps://tod
- aycelebrates.com/holiday/sesame-street-day/
+DESCRIPTION:Sesame Street Day marks November 10\, 1969\, the day Sesame Str
+ eet began regular broadcast through the National Educational Television sy
+ stem. The show was not entertainment with lessons slipped in: it grew out 
+ of a 1966 feasibility study commissioned by the Carnegie Corporation\, its
+  stated target audience was inner-city disadvantaged children aged three t
+ o five\, and the U.S. Office of Education agreed to cover half its budget.
+  The anniversary is thoroughly documented\; the observance built on it is 
+ not.\n\nhttps://todaycelebrates.com/holiday/sesame-street-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/sesame-street-day/
 CATEGORIES:Kids & Family
 TRANSP:TRANSPARENT
@@ -51068,8 +51071,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usmc-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:USMC Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:USMC Day\, observed on November 10\, is a lighthearted holiday 
@@ -52679,13 +52682,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-freedom-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
+DTSTART;VALUE=DATE:20271109
+DTEND;VALUE=DATE:20271110
 SUMMARY:World Freedom Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Freedom Day\, observed on November 9\, is a lighthearted 
- holiday celebrated across the United States.\n\nhttps://todaycelebrates.co
- m/holiday/world-freedom-day/
+DESCRIPTION:World Freedom Day falls on November 9\, the anniversary of the 
+ night in 1989 when East Germany opened the Berlin Wall. It is a United Sta
+ tes observance created by presidential proclamation in 2001\, not a federa
+ l holiday\, and presidents of both parties have issued it since. The date 
+ was chosen for a specific reason\, and the reason is slightly uncomfortabl
+ e: the Wall's opening was less a decision carried out on schedule than an 
+ announcement that got away from the government that made it.\n\nhttps://to
+ daycelebrates.com/holiday/world-freedom-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-freedom-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -53398,9 +53406,12 @@ DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:World Origami Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Origami Day\, observed on November 11\, is a lighthearted
- \, family-friendly day celebrated across the United States.\n\nhttps://tod
- aycelebrates.com/holiday/world-origami-day/
+DESCRIPTION:November 11 is Origami Day in Japan\, a date the Nippon Origami
+  Association settled on in 1980\, and it is also the closing day of World 
+ Origami Days\, the folding season OrigamiUSA runs from October 24. The dat
+ e was chosen for its arithmetic: written 11/11\, it is four ones\, read as
+  the four sides of a square sheet of paper.\n\nhttps://todaycelebrates.com
+ /holiday/world-origami-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-origami-day/
 CATEGORIES:Kids & Family
 TRANSP:TRANSPARENT
@@ -53610,8 +53621,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-pianist-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271109
 SUMMARY:World Pianist Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Pianist Day is a music-focused observance on November 8\,
@@ -54038,14 +54049,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-science-day-for-peace-and-development@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:World Science Day for Peace and Development
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Science Day for Peace and Development\, observed on Novem
- ber 10\, is a lighthearted holiday celebrated across the United States.\n\
- nhttps://todaycelebrates.com/holiday/world-science-day-for-peace-and-devel
- opment/
+DESCRIPTION:World Science Day for Peace and Development falls on November 1
+ 0 and is a UNESCO international day rather than an American holiday — no
+ thing closes\, and no government marks it with a day off. UNESCO's General
+  Conference proclaimed it in 2001\, and the first observance was held on N
+ ovember 10\, 2002. Its purpose is narrower than the name suggests: it exis
+ ts to keep science and the public in the same conversation\, on the premis
+ e that a public which cannot follow what its scientists do cannot decide w
+ hat they should do.\n\nhttps://todaycelebrates.com/holiday/world-science-d
+ ay-for-peace-and-development/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-science-day-for-pea
  ce-and-development/
 CATEGORIES:Celebration
