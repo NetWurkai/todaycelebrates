@@ -13735,8 +13735,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-accounting-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:International Accounting Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Accounting Day\, observed on November 10\, is a l
@@ -28688,8 +28688,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-forget-me-not-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:National Forget-Me-Not Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Forget-Me-Not Day is a nature-focused observance on No
@@ -38726,10 +38726,12 @@ DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:National Sundae Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Sundae Day is a food-focused observance celebrated acr
- oss the United States on November 11\, giving fans of the dish or ingredie
- nt an excuse to seek it out and share it with others.\n\nhttps://todaycele
- brates.com/holiday/national-sundae-day/
+DESCRIPTION:National Sundae Day falls on November 11 and marks a dish whose
+  birthplace two American cities have argued over for more than a century. 
+ Two Rivers\, Wisconsin dates the first ice cream sundae to 1881\; Ithaca\,
+  New York dates it to 1892 and says it has the newspaper advertisement to 
+ prove it. Neither has produced the document that would end the argument.\n
+ \nhttps://todaycelebrates.com/holiday/national-sundae-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sundae-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -40115,8 +40117,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-vanilla-cupcake-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:National Vanilla Cupcake Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Vanilla Cupcake Day is a food-focused observance celeb
@@ -41545,8 +41547,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-young-readers-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:National Young Readers Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Young Readers Day is an American reading observance ma
@@ -44113,10 +44115,13 @@ DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Pocky Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Pocky Day is a food-focused observance celebrated across the Un
- ited States on November 11\, giving fans of the dish or ingredient an excu
- se to seek it out and share it with others.\n\nhttps://todaycelebrates.com
- /holiday/pocky-day/
+DESCRIPTION:Pocky Day\, known in Japan as Pocky & Pretz Day\, falls on Nove
+ mber 11 because the date written 11/11 looks like a row of the chocolate-c
+ oated biscuit sticks it celebrates. Ezaki Glico\, which makes them\, estab
+ lished the day in 1999 and had it certified as an official anniversary. Th
+ at makes it one of the rare food holidays whose origin is documented\, bec
+ ause the company that invented the snack also invented the day.\n\nhttps:/
+ /todaycelebrates.com/holiday/pocky-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/pocky-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -46189,8 +46194,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sesame-street-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:Sesame Street Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Sesame Street Day marks November 10\, 1969\, the day Sesame Str
@@ -51066,8 +51071,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:usmc-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:USMC Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:USMC Day\, observed on November 10\, is a lighthearted holiday 
@@ -53401,9 +53406,12 @@ DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:World Origami Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Origami Day\, observed on November 11\, is a lighthearted
- \, family-friendly day celebrated across the United States.\n\nhttps://tod
- aycelebrates.com/holiday/world-origami-day/
+DESCRIPTION:November 11 is Origami Day in Japan\, a date the Nippon Origami
+  Association settled on in 1980\, and it is also the closing day of World 
+ Origami Days\, the folding season OrigamiUSA runs from October 24. The dat
+ e was chosen for its arithmetic: written 11/11\, it is four ones\, read as
+  the four sides of a square sheet of paper.\n\nhttps://todaycelebrates.com
+ /holiday/world-origami-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-origami-day/
 CATEGORIES:Kids & Family
 TRANSP:TRANSPARENT
@@ -54041,8 +54049,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-science-day-for-peace-and-development@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:World Science Day for Peace and Development
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Science Day for Peace and Development falls on November 1

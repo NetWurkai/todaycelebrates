@@ -2761,8 +2761,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sesame-street-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
 SUMMARY:Sesame Street Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Sesame Street Day marks November 10\, 1969\, the day Sesame Str
@@ -3232,9 +3232,12 @@ DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:World Origami Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Origami Day\, observed on November 11\, is a lighthearted
- \, family-friendly day celebrated across the United States.\n\nhttps://tod
- aycelebrates.com/holiday/world-origami-day/
+DESCRIPTION:November 11 is Origami Day in Japan\, a date the Nippon Origami
+  Association settled on in 1980\, and it is also the closing day of World 
+ Origami Days\, the folding season OrigamiUSA runs from October 24. The dat
+ e was chosen for its arithmetic: written 11/11\, it is four ones\, read as
+  the four sides of a square sheet of paper.\n\nhttps://todaycelebrates.com
+ /holiday/world-origami-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-origami-day/
 CATEGORIES:Kids & Family
 TRANSP:TRANSPARENT
