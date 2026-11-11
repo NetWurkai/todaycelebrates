@@ -1,170 +1,205 @@
-# Review — 2026-11-09 engineering run
+# Review — 2026-11-11 engineering run
 
-**No engineering item was started. Twelfth consecutive night.** The stop is at
-hard rule 4 (the queue), not the gate. The checkpoint you were due to hold
-yesterday is the thing that would end this, and as of tonight no answer has
-landed.
+**No engineering item was started. Fourteenth consecutive night.** The stop is at
+hard rule 4 (the queue), not the gate. Every §5 item is done or waiting on you,
+and the 11-08 re-plan checkpoint is now three days past.
 
 ## What I changed
 
-**No source file, no generated file, no Notion row.** Only the two artifacts
-rule 6 requires.
+**No source file, no generated file, no Notion row.** Only the two artifacts rule 6
+requires — plus one `.git` housekeeping move described under *Method* below.
 
 ### Files touched
 ```
 docs/REVIEW.md          (this file, overwritten per rule 6)
 docs/EXECUTION_PLAN.md  (§8 Run Log, one appended line)
+.git/stale-fetch-tmp/   (97 temp files git itself left behind; see Method)
 ```
-
-**One thing in the morning diff that is *not* mine, and will look like it is:**
-`find public -newermt 2026-11-09` lists **112 files** with today's timestamp.
-Those are from your own `git pull` at 01:59 (reflog `HEAD@{0}`, merge
-`7553c549`) checking out the daily regeneration's commits. The tree is
-**clean** — they match `HEAD` exactly. I wrote only into
-`$HOME/verify-2026-11-09`, outside the repo, and removed it.
 
 ### Why nothing was started
 
-The gate (`git status --porcelain -- . ':(exclude)docs'`) was **empty**,
-untracked included, before and after. E1 / E3 / E5 are done. Everything else
-waits on you: E2's five leftovers, E4's ~2,410 rows (★ B), E6's upstream half
-(★ A), E7's two bullets. §5's "Queue empty?" names the remaining candidates as
-explicitly *not* unattended work, so nothing was invented.
+The gate (`git status --porcelain -- . ':(exclude)docs'`) was **empty**, untracked
+included, before and after.
 
-I checked this rather than assumed it. A rows-mode filter for the four `Type`
-options ★ B would put into use — `Fun`, `Cultural`, `Observance`, `State` —
-returns **zero rows**, and the generator's own `type_counts` is unchanged at
-`(untyped) 2410 · Religious 23 · Federal 11 · Season & Clock 6`. (Rows mode and
-the generator, not SQL mode — per the 11-08 finding.) Your `9108719e`
-("Nov 8 Update") committed the runs' own `docs/` writes and nothing else; the
-clone is now **in sync with `origin/main`** at `7553c549` for the first time
-since 11-03.
+E1 / E3 / E5 are done. E2's five leftovers, E4's ~2,410 rows (★ B), E6's upstream
+half (★ A) and E7's two bullets all wait on you. §5's "Queue empty?" names the
+remaining candidates as explicitly *not* unattended work, so nothing was invented.
+
+Checked rather than assumed that no answer had landed. A `Type` count over the live
+Notion database returns **(untyped) 2414 · Religious 23 · Federal 11 · Season &
+Clock 6** — zero rows in `Fun`, `Cultural`, `Observance` or `State`, so **★ B has not
+moved**, and the generator's own `type_counts` agrees (2410 of them published).
+
+## One thing that is new tonight: the clone is behind
+
+`origin/main` moved for the first time in three nights, from `fbc9e807` to
+**`023090d6` "Daily regeneration: 2026-11-10"**. It is the GitHub Action's own
+commit — 55 files, all generated (`public/**` plus `scripts/holidays.json`) — and it
+carries the 11-09 and 11-10 content runs' pages onto the live site. Nothing of yours
+is in it and nothing of mine is.
+
+**So `main` is one commit behind and your working tree is not.** Pull before or after
+you commit the two `docs/` files; either order is fine, there is no overlap.
+
+Note this also means tonight's verification ran against the **committed** `holidays.json`
+at `fbc9e807`, one regeneration behind the live data. That is the right input to check
+— it is the state of your clone — but it is why the file counts below are a day's worth
+smaller than what is deployed.
 
 ## What I verified
 
-Generator on committed inputs, `--today 2026-11-09`, into two throwaway
-directories under `$HOME`, outside the mount. `public/` was never a target.
+Committed generator on committed inputs, `--today 2026-11-11`, into two throwaway
+directories under `$HOME`, outside the mount. `public/` was never a target; both
+directories were removed afterwards and the gate re-checked clean.
 
 - **Exit 0, stderr 0 bytes, zero WARNING lines.** Twice.
-- **5,696 files**, and the two runs are **`diff -rq` byte-identical** — idempotent.
-- 2,450 observance / **379 dated** / 366 perennial / 2 year-index / 19 simple.
-  379, up from 378: the horizon rolled a day, to `2027-11-08`.
-- 2,465 `.ics`, 3,261 events. Cards off, `occasions_total` 0 (E6 dormant, as intended).
-- Every problem array empty — `pages_changed`, `pages_skipped`,
-  `unresolved_holidays`, `unknown_types`, `stale_month_files`,
-  `occasions_problems`, `perennial_pages_skipped` — **except** the four known
-  expiring lookup rows in `perennial_index_skipped` (§7's D2), which is not new.
-- Throwaway directories removed. Gate re-checked clean after.
+- **5,698 files**, and the two runs are **`diff -rq` byte-identical** — idempotent.
+- 2,450 observance / **381 dated** (horizon rolled a day, to `2027-11-10`) /
+  366 perennial / 2 year-index / 19 simple.
+- 2,465 `.ics`, 3,261 events, main feed 1,995,454 bytes (flat, as corrected last
+  night). Cards off, `occasions_total` 0 — E6 dormant, as intended.
+- Every problem array empty — `pages_changed`, `pages_skipped`, `unresolved_holidays`,
+  `unknown_types`, `stale_month_files`, `occasions_problems`, `perennial_pages_skipped`
+  — **except** the four known expiring lookup rows in `perennial_index_skipped` and
+  `super-bowl-sunday` in `day_index_skipped` (§7's D2). Not new.
+- `git fsck --connectivity-only` clean afterwards.
+
+## Method — I ran a read-only `git fetch` tonight, which previous runs did not
+
+Previous runs used `ls-remote` only. Tonight `ls-remote` showed a commit I had never
+seen, and a SHA alone cannot tell me whether it is the nightly workflow or **your
+answer to ★ B** — which is the difference between stopping and working. So I fetched.
+No local branch moved, nothing was merged, the working tree was untouched, and the
+answer was "it's the workflow".
+
+One side effect worth knowing about: this session cannot delete files in your folder,
+so the fetch could not clean up after itself and left **97 `tmp_obj_*` files** scattered
+through `.git/objects/`. Git would have removed them itself. I moved all 97 into
+**`.git/stale-fetch-tmp/` (1.4 MB)** so they sit in one place instead of 97 — **delete
+that folder whenever you like**; nothing references it. `.git/objects/maintenance.lock`
+was already there (dated 2026-10-08) and I left it alone.
+
+Whether a nightly run may fetch is a small new question for you, below.
 
 ## What you should check
 
 1. **The diff is two docs files.** Nothing else. If anything under `scripts/`,
    `public/`, `wrangler.jsonc` or `.github/` appears, I did not put it there.
-2. **The 112 public/ timestamps are your pull, not a write.** Explained above.
+2. **Pull** — you are one commit behind `origin/main` (generated output only).
+3. Nothing else. There is no behavior change tonight to spot-check.
 
 ---
 
 ## Needs a decision
 
-Nothing here is new; the point is that it is the twelfth night and the
-checkpoint has now passed. In priority order:
+Only the last one is new. The rest are unchanged, in priority order, with the exact
+change already written out for the two cheapest so a yes costs a sentence.
 
-- **★ B — the E4 `Type` ordering question** (**27 days**). One sentence returns
-  a working item to the queue and keeps it fed for weeks. Because `UNTYPED_RANK`
-  sits *below* `Fun`, typing the 661 easy food/beer/coffee/dog rows as `Fun`
-  today would **promote** them over every row still untyped — 2,752 files, lead
-  observance changed on 471 of 744 list pages. So the answer needed first is the
-  ordering, not the typing: *"move `UNTYPED_RANK` above `Fun`, then type
-  food/beer/coffee/dog as `Fun`"* is one line of code and 661 rows.
-- **The fidelity audit as E8 — go/no-go only.** It is already specified and has
-  ~24 rows of real work, and it is the one option that needs no design judgment
-  from you. It is also the only item with a *visible* defect behind it:
-  `national-bison-day`'s page now states the first-Saturday rule while the
-  generated Dates table will say Nov 7 from 2027. `ascension` (Easter +39,
-  stored fixed May 6, true date 2028-05-25) is a row a run could fix correctly
-  on night one.
-- **★ A — the Listed tier price and what it includes** (**25 days**). Unblocks
-  E6's form / Checkout / Worker and E7's Featured tier.
+- **★ B — the E4 `Type` ordering question** (**29 days**). The one that refills the
+  queue for weeks. The blocker is not the typing: `UNTYPED_RANK` currently sorts
+  *below* `Fun`, so typing the 661 easy food/beer/coffee/dog rows as `Fun` today would
+  **promote** them over every row still untyped — 2,752 files, lead observance changed
+  on 471 of 744 list pages. One line in `scripts/generate.py`, **not** applied:
+
+  ```python
+  # line 821, currently:
+  UNTYPED_RANK = len(TYPE_ORDER) + 1       # no Type at all -- sorts last
+  # would become:
+  UNTYPED_RANK = TYPE_RANK["Fun"] - 0.5    # untyped sorts above Fun, below the rest
+  ```
+
+  Reply *"yes, untyped above Fun"* and the next run lands that line plus the 661
+  unambiguous `Fun` rows, with the before/after lead list in the morning diff.
+
+- **The fidelity audit as E8 — go/no-go only.** Already specified, ~24 rows of real
+  work, the only item needing no design judgment from you, and the only one with a
+  *visible* defect behind it: `national-bison-day`'s published page states the
+  first-Saturday rule while the generated Dates table will say Nov 7 from 2027, so page
+  and table will contradict each other in front of readers. `ascension` (Easter + 39,
+  stored fixed May 6, true 2028-05-25) is a row a run could fix correctly on night one.
+
+- **★ A — the Listed tier price and what it includes** (**27 days**). Unblocks E6's
+  form / Checkout / Worker and E7's Featured tier.
+
 - **D1 — three Notion property descriptions still contradict the code**
-  (**twenty-first flag**, re-read in the live schema tonight: `FAQ` still says
-  the question goes in `**bold**`, `Body` still lists `[text](url)`, `Timeline`
-  still asks for `- **1927** —`). Three description edits, no code, no risk.
-  Unapplied only because rule 4 confines me to §5. Twenty-one flags is the
-  argument for standing permission to fix it.
-- **★ G, now with a date on it.** `/calendar.ics` is **1,995,454 bytes**
-  uncompressed and grows ~3.8 KB a night as the horizon rolls, so it **crosses
-  2 MB in about two days** — roughly 2026-11-11 — at 177 KB gzipped. Cloudflare
-  zone setting, not code.
-- **Carried forward unchanged:** bare `/holidays/` 404s; ★ D (home-page shift in
-  the stale-build window, and whether E3's "CLS stays 0.0000" should become a
-  threshold); ★ E (hero poster band); ★ F (fixed-date feed history); D2 (four
-  lookup tables expiring in 2027, `super-bowl-sunday` first, 2027-02-14);
-  whether method findings become standing §7 notes rather than log lines.
+  (**twenty-fourth flag**, re-read in the live schema tonight: `FAQ` still says the
+  question goes in `**bold**`, `Body` still lists `[text](url)`, `Timeline` still asks
+  for `- **1927** —`). Unapplied only because rule 4 confines me to §5. The whole fix:
+
+  - `FAQ` → *FAQ: 3-5 pairs. Question on its own line as plain text — no bold; bold
+    does not survive the export. Answer on the line(s) below, blank line between pairs.
+    Feeds FAQPage structured data.*
+  - `Body` → same text as now, with `[text](url)` removed from the allowed subset: a
+    markdown link loses its URL on export, so body links must be bare URLs.
+  - `Timeline` → *Timeline: 4-6 dated entries, one per line, as `- 1927 — what
+    happened` (plain text, no bold). Every entry sourced in Sources.*
+
+  Twenty-four flags on a three-field edit is the argument for standing permission to
+  fix documentation that contradicts shipped code.
+
+- **New, small: may a nightly run `git fetch`?** Read-only, no branch moved, no merge —
+  but it is the only way to tell your commit from the workflow's, and tonight it cost
+  97 stray temp files because deletion is blocked in your folder. Three answers are
+  reasonable: *yes, fetch* (and ignore the litter); *yes, and grant this session delete
+  permission in the repo* so it cleans up after itself; or *no, ls-remote only* — in
+  which case a run can see that origin moved but never what moved, and I will stop
+  reporting it as anything more than a SHA.
+
+- **Carried forward unchanged:** bare `/holidays/` 404s; ★ D (home-page shift in the
+  stale-build window, and whether E3's "CLS stays 0.0000" should become a threshold);
+  ★ E (hero poster band); ★ F (fixed-date feed history); ★ G (Cloudflare not
+  compressing `text/calendar` — 1.99 MB per refresh where gzip is 177 KB; a zone
+  setting, no deadline); D2 (four lookup tables expiring in 2027, `super-bowl-sunday`
+  first, 2027-02-14); whether method findings become standing §7 notes.
 
 ### The one structural choice
 
-Twelve nights, twelve clean no-ops. The machinery is working exactly as
-designed — gate clean, generator clean, nothing invented — and that is the
-problem: **the queue is drained of anything an unattended run is permitted to
-do.** Three ways out, and I should not pick for you: promote the fidelity audit
-to E8; answer ★ B's ordering question; or stand the nightly engineering run down
-to weekly until there is an item for it. Doing none of the three means night
-thirteen reads exactly like this one.
+Fourteen nights, fourteen clean no-ops. The machinery is working exactly as designed —
+gate clean, generator clean, nothing invented — and that is the problem: **the queue is
+drained of anything an unattended run is permitted to do.** The three ways out are
+unchanged: promote the fidelity audit to E8, answer ★ B's ordering question, or stand
+the nightly engineering run down to weekly until there is an item for it. I will not
+pick for you, but the cheapest is still: **★ B is one sentence and refills the queue;
+the audit is one word and fixes a defect readers will see.** Doing none of the three
+means night fifteen reads exactly like this one.
 
 ---
 
-## Content run — 2026-11-09 (appended; the engineering run owns this file)
+## Content run — 2026-11-11 · Tier 5 T5-31 to T5-33 (appended; engineering owns this file)
 
-**Published Live, Tier 5 T5-25 to T5-27** (Nov 9, `Order` 1/2/3):
+Published **Live**: National Sundae Day (Nov 11, Order 2), World Origami Day
+(Order 3), Pocky Day (Order 4). `Published` untouched, `Description` untouched.
+901 / 870 / 892 words. Render check: generator exit 0 on a patched throwaway
+`holidays.json` into a throwaway dir outside the mount — 5 FAQ pairs and a
+5-item `FAQPage` block on each page, no literal `**`, no `](http`.
 
-- World Freedom Day — https://todaycelebrates.com/holiday/world-freedom-day/
-- National Fried Chicken Sandwich Day — https://todaycelebrates.com/holiday/national-fried-chicken-sandwich-day/
-- National Greek Yogurt Day — https://todaycelebrates.com/holiday/national-greek-yogurt-day/
+### What to spot-check
 
-897 / 900 / 894 words, five long-form sections each, 5 FAQ pairs each.
-`Published` untouched; `Description` unchanged on all three.
+1. **Sundae — the two-city fight is the page.** Two Rivers (1881) vs. Ithaca
+   (April 3, 1892). The page states that Ithaca's own museum dates its one piece
+   of documentary evidence **two different ways** (April 5, 1892 in text;
+   October 5, 1892 in its own image caption), and that the universally repeated
+   **"July 8, 1881" appears in no acceptable source**. If either reads as too
+   blunt, that is the line to soften — but both are accurate.
+2. **Origami — a sourced origin, with a founder conflict left open.** NOA's own
+   site gives the 1980 designation and both reasons (four 1s; the 1918
+   armistice). OrigamiUSA calls Lillian Oppenheimer a co-founder in one article
+   while its own history page credits Michael Shall and others; a Japanese
+   government page says she founded an Origami Center in 1958 and that
+   OrigamiUSA postdates her death. Page follows OrigamiUSA's history page for
+   the organization's own dates and flags 1958 as single-sourced.
+3. **Pocky — Glico contradicts itself.** Corporate history: "Japan Anniversary
+   Association." US marketing page: "Japan Holiday Association." Resolved toward
+   the corporate history because the Japan Anniversary Association's registry
+   does list the day. The registry's own detail page would not load, so 1999 is
+   labeled Glico's claim.
 
-**Verification went further than usual this run.** Rather than reimplementing
-`parse_faq()`, the generator itself was run on a throwaway copy of
-`holidays.json` patched with the stored FAQ / Timeline / Sources text, into a
-throwaway site dir outside `$HOME/mnt`: **exit 0**, and all three rendered pages
-carry 5 FAQ pairs plus a `FAQPage` JSON-LD block with 5 `mainEntity` items, no
-literal `**`, and Timeline and Sources both rendering. The silent-failure path
-§4 warns about is now closed against rendered output, not against a model of it.
+### Needs a decision (content side, not blocking)
 
-### Worth a look
-
-- **World Freedom Day is the first Tier 5 page with a fully primary-sourced
-  origin** — Proclamation **7499 of November 9, 2001** (115 Stat. 2858), plus
-  **8318 / 8599 / 9673** (2008 / 2010 / 2017) read directly. The page does *not*
-  claim an unbroken annual series; only those four years were verified.
-- **Two conflicts stated rather than resolved.** Wall deaths: State Department
-  "at least 100 and likely more" vs. Library of Congress "over 130" — both cited,
-  neither averaged. Chicken sandwich: Chick-fil-A's **1964** vs. the Georgia
-  Historical Society marker's **"early 1960s"** — and the page says the marker was
-  **co-erected with Chick-fil-A, Inc.**, so the two accounts are not independent.
-  A third date (1967, in the Dwarf House page's own meta description) was rejected
-  as an error against that page's own body text.
-- **Least confident:** the fried-chicken-sandwich page's **$3.99** price and
-  **August 12, 2019** launch rest on CBS News alone, and neither CBS nor Restaurant
-  Dive calls that debut "nationwide" in those words.
-- **Cut for want of a source:** the whole **Chobani founding story**
-  (`chobani.com/about` carries no history at all) and the **USDA school-lunch Greek
-  yogurt pilot** (USDA's own blog post returns a client error). German reunification
-  and Reagan's "tear down this wall" were both left out of the World Freedom Day
-  timeline for the same reason.
-
-### Needs a decision
-
-- **D1, twenty-second flag, now with a near-miss attached.** The `FAQ` property
-  description still tells writers to bold the question. This run almost "fixed"
-  the 2026-11-08 Cappuccino row, which puts a blank line between question and
-  answer — it looked like that would make every answer parse as a question. It
-  does not: `parse_faq()` requires a block-opening line to **end in `?`**, so both
-  spacing styles are safe. No row was touched. But a description that contradicts
-  the code is now actively generating false positives in review, not just
-  confusion at write time.
-- **`connectedFolders` was empty again at session start** despite the task
-  declaring the repo folder — **ninth content run running**. Granted on request,
-  so nothing was lost, but it is a per-run approval prompt that should not exist.
-  Fix belongs at the task definition.
+- **Chronicling America is unreachable from these runs.** Both the legacy API
+  and the loc.gov collection endpoint failed today. That matters beyond this
+  page: the Halloween exemplar recommends Chronicling America to readers, and
+  it is the obvious primary route for any nineteenth-century food or custom
+  claim. Worth knowing whether it is blocked for us permanently.
+- **No new §7 fidelity candidate this run.** All three rows are `Annual` Nov 11
+  with no weekday word and no weekday signature.
