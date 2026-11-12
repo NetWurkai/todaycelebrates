@@ -4760,10 +4760,13 @@ DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:National French Dip Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National French Dip Day is a food-focused observance celebrated
-  across the United States on November 12\, giving fans of the dish or ingr
- edient an excuse to seek it out and share it with others.\n\nhttps://today
- celebrates.com/holiday/national-french-dip-day/
+DESCRIPTION:National French Dip Day marks a sandwich claimed by two Los Ang
+ eles restaurants that both opened in 1908 and have been arguing about it e
+ ver since. Philippe the Original dates the invention to 1918 and tells a s
+ tory about how it happened\; Cole's calls itself the originator and gives 
+ no date at all. Nothing available settles which is right — and the obser
+ vance's own November 12 date has no traceable origin either.\n\nhttps://to
+ daycelebrates.com/holiday/national-french-dip-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-french-dip-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -8666,8 +8669,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-sundae-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
 SUMMARY:National Sundae Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Sundae Day falls on November 11 and marks a dish whose
@@ -9355,8 +9358,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pocky-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
 SUMMARY:Pocky Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Pocky Day\, known in Japan as Pocky & Pretz Day\, falls on Nove
