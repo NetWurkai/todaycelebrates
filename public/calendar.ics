@@ -686,8 +686,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:air-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
 SUMMARY:Air Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Air Day\, observed on November 11\, is a lighthearted holiday c
@@ -5190,9 +5190,13 @@ DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Chicken Soup for the Soul Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Chicken Soup for the Soul Day\, observed on November 12\, is a 
- lighthearted holiday celebrated across the United States.\n\nhttps://today
- celebrates.com/holiday/chicken-soup-for-the-soul-day/
+DESCRIPTION:Chicken Soup for the Soul Day marks a book that almost nobody w
+ anted to publish. The first volume appeared in 1993\, after — by its co-
+ author's own count — 144 publishers had turned the manuscript down\, and
+  the series went on to become one of the largest franchises in American tr
+ ade publishing. The observance itself has no documented origin\; the book'
+ s history\, unusually for a day like this one\, does.\n\nhttps://todaycele
+ brates.com/holiday/chicken-soup-for-the-soul-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/chicken-soup-for-the-soul
  -day/
 CATEGORIES:Celebration
@@ -12201,9 +12205,14 @@ DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Guinness World Records Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Guinness World Records Day\, observed on November 12\, is a lig
- hthearted holiday celebrated across the United States.\n\nhttps://todaycel
- ebrates.com/holiday/guinness-world-records-day/
+DESCRIPTION:Guinness World Records Day is the record company's own annual i
+ nvitation to break something: a day set aside for attempts staged in schoo
+ ls\, offices and town squares\, many of them adjudicated on the spot. Guin
+ ness World Records says it was "first held in 2004 to mark Guinness World 
+ Records becoming the best-selling copyright book of all time." The date is
+  not fixed — the company sets it each year\, and for 2026 its own page g
+ ives Thursday\, November 19.\n\nhttps://todaycelebrates.com/holiday/guinne
+ ss-world-records-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/guinness-world-records-da
  y/
 CATEGORIES:Celebration
@@ -28850,10 +28859,13 @@ DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:National French Dip Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National French Dip Day is a food-focused observance celebrated
-  across the United States on November 12\, giving fans of the dish or ingr
- edient an excuse to seek it out and share it with others.\n\nhttps://today
- celebrates.com/holiday/national-french-dip-day/
+DESCRIPTION:National French Dip Day marks a sandwich claimed by two Los Ang
+ eles restaurants that both opened in 1908 and have been arguing about it e
+ ver since. Philippe the Original dates the invention to 1918 and tells a s
+ tory about how it happened\; Cole's calls itself the originator and gives 
+ no date at all. Nothing available settles which is right — and the obser
+ vance's own November 12 date has no traceable origin either.\n\nhttps://to
+ daycelebrates.com/holiday/national-french-dip-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-french-dip-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -33379,8 +33391,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-metal-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
 SUMMARY:National Metal Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Metal Day is a music-focused observance on November 11
@@ -38722,8 +38734,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-sundae-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
 SUMMARY:National Sundae Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Sundae Day falls on November 11 and marks a dish whose
@@ -44111,8 +44123,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pocky-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
 SUMMARY:Pocky Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Pocky Day\, known in Japan as Pocky & Pretz Day\, falls on Nove
@@ -46379,8 +46391,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:singles-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
 SUMMARY:Singles' Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Singles' Day\, observed on November 11\, is a lighthearted holi
@@ -51171,8 +51183,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:veterans-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
 SUMMARY:Veterans Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Veterans Day falls on November 11 and honors everyone who serve
@@ -53402,8 +53414,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-origami-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
 SUMMARY:World Origami Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:November 11 is Origami Day in Japan\, a date the Nippon Origami

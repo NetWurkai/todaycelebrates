@@ -264,8 +264,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:air-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
 SUMMARY:Air Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Air Day\, observed on November 11\, is a lighthearted holiday c
@@ -1844,9 +1844,13 @@ DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Chicken Soup for the Soul Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Chicken Soup for the Soul Day\, observed on November 12\, is a 
- lighthearted holiday celebrated across the United States.\n\nhttps://today
- celebrates.com/holiday/chicken-soup-for-the-soul-day/
+DESCRIPTION:Chicken Soup for the Soul Day marks a book that almost nobody w
+ anted to publish. The first volume appeared in 1993\, after — by its co-
+ author's own count — 144 publishers had turned the manuscript down\, and
+  the series went on to become one of the largest franchises in American tr
+ ade publishing. The observance itself has no documented origin\; the book'
+ s history\, unusually for a day like this one\, does.\n\nhttps://todaycele
+ brates.com/holiday/chicken-soup-for-the-soul-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/chicken-soup-for-the-soul
  -day/
 CATEGORIES:Celebration
@@ -4785,9 +4789,14 @@ DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Guinness World Records Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Guinness World Records Day\, observed on November 12\, is a lig
- hthearted holiday celebrated across the United States.\n\nhttps://todaycel
- ebrates.com/holiday/guinness-world-records-day/
+DESCRIPTION:Guinness World Records Day is the record company's own annual i
+ nvitation to break something: a day set aside for attempts staged in schoo
+ ls\, offices and town squares\, many of them adjudicated on the spot. Guin
+ ness World Records says it was "first held in 2004 to mark Guinness World 
+ Records becoming the best-selling copyright book of all time." The date is
+  not fixed — the company sets it each year\, and for 2026 its own page g
+ ives Thursday\, November 19.\n\nhttps://todaycelebrates.com/holiday/guinne
+ ss-world-records-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/guinness-world-records-da
  y/
 CATEGORIES:Celebration
@@ -13829,8 +13838,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:singles-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
 SUMMARY:Singles' Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Singles' Day\, observed on November 11\, is a lighthearted holi
@@ -16157,8 +16166,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:veterans-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
 SUMMARY:Veterans Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Veterans Day falls on November 11 and honors everyone who serve
