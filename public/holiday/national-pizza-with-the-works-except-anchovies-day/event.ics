@@ -19,8 +19,8 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:national-pizza-with-the-works-except-anchovies-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:National Pizza with the Works Except Anchovies Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Pizza with the Works Except Anchovies Day is a food-fo

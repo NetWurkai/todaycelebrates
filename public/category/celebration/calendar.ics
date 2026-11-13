@@ -1840,8 +1840,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chicken-soup-for-the-soul-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:Chicken Soup for the Soul Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Chicken Soup for the Soul Day marks a book that almost nobody w
@@ -4785,8 +4785,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:guinness-world-records-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:Guinness World Records Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Guinness World Records Day is the record company's own annual i
@@ -13664,9 +13664,14 @@ DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Sadie Hawkins Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Sadie Hawkins Day\, observed on November 13\, is a lighthearted
-  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
- om/holiday/sadie-hawkins-day/
+DESCRIPTION:Sadie Hawkins Day is observed on November 13 in the United Stat
+ es\, and it began as a running gag in a comic strip. Al Capp introduced it
+  in Li'l Abner in 1937 as an annual event in the invented town of Dogpatch
+ \, where the unmarried women were licensed for one day to chase down the b
+ achelors\, and the Library of Congress — which holds Capp's original dra
+ wings — says it "quickly became a national institution." What it did not
+  have\, for most of its life\, was a fixed date.\n\nhttps://todaycelebrate
+ s.com/holiday/sadie-hawkins-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/sadie-hawkins-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT

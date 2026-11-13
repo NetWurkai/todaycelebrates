@@ -1928,10 +1928,13 @@ DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:National Bread Pudding Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Bread Pudding Day is a food-focused observance celebra
- ted across the United States on November 13\, giving fans of the dish or i
- ngredient an excuse to seek it out and share it with others.\n\nhttps://to
- daycelebrates.com/holiday/national-bread-pudding-day/
+DESCRIPTION:National Bread Pudding Day falls on November 13 and marks a dis
+ h that exists because bread goes stale. The observance itself has no trace
+ able origin — no founding organization\, proclamation or first year appe
+ ars in any reliable source — but the dish it names is among the better-d
+ ocumented desserts in English and American cookbooks\, printed and reprint
+ ed from the 1700s onward.\n\nhttps://todaycelebrates.com/holiday/national-
+ bread-pudding-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bread-pudding-da
  y/
 CATEGORIES:Food
@@ -4756,8 +4759,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-french-dip-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:National French Dip Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National French Dip Day marks a sandwich claimed by two Los Ang
@@ -7582,8 +7585,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-pizza-with-the-works-except-anchovies-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:National Pizza with the Works Except Anchovies Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Pizza with the Works Except Anchovies Day is a food-fo
