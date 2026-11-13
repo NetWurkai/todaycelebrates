@@ -1,12 +1,13 @@
-# Review — 2026-11-12 engineering run
+# Review — 2026-11-13 engineering run
 
-**No engineering item was started. Fifteenth consecutive night.** The stop is at
+**No engineering item was started. Sixteenth consecutive night.** The stop is at
 hard rule 4 (the queue), not the gate. Every §5 item is done or waiting on you.
-The 11-08 re-plan checkpoint is now four days past.
+The 11-08 re-plan checkpoint is five days past.
 
-If you read one thing tonight, read **The one structural choice** at the bottom.
-It is the same choice as the last four nights and it is the only thing that
-changes night sixteen.
+**One thing is new tonight, and it is not good news:** the Guinness World Records
+date contradiction is now **live on the deployed site**, verified rather than
+predicted. Details below under *What I verified*. It is the strongest argument yet
+for the second of the three ways out.
 
 ## What I changed
 
@@ -21,9 +22,9 @@ docs/EXECUTION_PLAN.md  (§8 Run Log, one appended line)
 ## Why nothing was started
 
 The gate (`git status --porcelain -- . ':(exclude)docs'`) was **empty**, untracked
-included, before and after. In fact the whole tree was clean — you committed the
-11-11 `docs/` files as `bfb45696` and merged `origin/main` as `6936c3f8`, so
-**`HEAD` == `origin/main` == `6936c3f8`**. Nothing to pull tonight.
+included, before and after — eleventh clean night running. The whole tree was clean:
+you committed the 11-12 `docs/` files as `41c766aa` and merged `origin/main`, so
+**`HEAD` == `origin/main` == `bfbf70b8`**. Nothing to pull.
 
 E1 / E3 / E5 are done. E2's five leftovers, E4's ~2,410 rows (★ B), E6's upstream
 half (★ A) and E7's two bullets all wait on you. §5's "Queue empty?" names the
@@ -31,58 +32,73 @@ remaining candidates as explicitly *not* unattended work, so nothing was invente
 
 **Checked rather than assumed that no answer had landed.** A live `Type` count over
 the Notion database returns **(untyped) 2414 · Religious 23 · Federal 11 · Season &
-Clock 6** — byte-for-byte last night's figures, **zero** rows in `Fun`, `Cultural`,
-`Observance` or `State`. ★ B has not moved. I also re-read your commit `bfb45696`:
-both hunks are the two runs' own writes (the content-queue ticks and the Run Log),
-so no answer arrived in the plan either.
+Clock 6** — identical to 11-11 and 11-12, with **zero** rows in `Fun`, `Cultural`,
+`Observance` or `State`. ★ B has not moved. I also read `41c766aa` hunk by hunk:
+every line is the two runs' own writes (three content-queue ticks, the §7 GWR
+candidate, two Run Log entries). No answer arrived in the plan either.
 
-**I did not `git fetch` tonight.** That question is still open below, and
-`ls-remote` was enough because it showed no new commit. So no stray temp files this
-time. Last night's **`.git/stale-fetch-tmp/` (97 files, 1.4 MB) is still there** —
-delete it whenever you like, nothing references it.
+**No `git fetch` again tonight** — `ls-remote` showed no new commit, so there was no
+reason to risk it. 11-11's **`.git/stale-fetch-tmp/` is still there (97 files,
+1.4 MB)**; nothing references it, delete it whenever you like.
 
 ## What I verified
 
-Committed generator on committed inputs, `--today 2026-11-12`, into two throwaway
+Committed generator on committed inputs, `--today 2026-11-13`, into two throwaway
 directories under `$HOME`, outside the mount. `public/` was never a target; both
 directories were removed afterwards and the gate re-checked clean.
 
 - **Exit 0, stderr 0 bytes, zero WARNING lines.** Twice.
-- **5,699 files**, and the two runs are **`diff -rq` byte-identical** — idempotent.
-- 2,450 observance / **382 dated** (horizon rolled to `2027-11-11`) / 366 perennial /
-  2 year-index / 14 category / 19 simple.
-- 2,465 `.ics`, 3,261 events, main feed **1,998,252 bytes**. Cards off,
-  `occasions_total` 0 — E6 dormant, as intended.
+- **5,700 files**, and the two runs are **`diff -rq` byte-identical** — idempotent.
+- 2,450 observance / **383 dated** (horizon rolled one day to `2027-11-12`, so one
+  new dated page and nothing rewritten) / 366 perennial / 2 year-index / 14 category
+  / 19 simple.
+- 2,465 `.ics`, 3,261 events, main feed **1,999,149 bytes** (+897 on last night —
+  the ten-year window stepping, not a trend). Cards off, `occasions_total` 0.
 - Every problem array empty — `pages_changed`, `pages_skipped`, `unresolved_holidays`,
   `unknown_types`, `stale_month_files`, `occasions_problems`, `perennial_pages_skipped`
   — **except** the four known expiring lookup rows in `perennial_index_skipped` and
   `super-bowl-sunday` in `day_index_skipped` (§7's D2). Not new.
 
-One number moved: the main feed is **+2,798 bytes** on last night's 1,995,454. That
-is the ten-year window's step-wise behavior corrected on 11-10, plus tonight running
-against the *merged* `holidays.json` rather than one a regeneration behind. **Not a
-trend and not a deadline** — I am not re-extrapolating the 11-09 mistake.
+**And one check that was not part of the routine.** Last night's content run warned
+that `guinness-world-records-day` would contradict itself in front of readers. I
+fetched the deployed page to see whether it actually does. It does:
+`https://todaycelebrates.com/holiday/guinness-world-records-day/` returns 200 and the
+**same page carries both "19 November 2026" (what Guinness publishes) and
+"November 12" (the site's own date field)**. This is the first §7 fidelity defect
+confirmed visible in production rather than inferred — `national-bison-day` is the
+same error class but does not surface until 2027.
 
 ## What you should check
 
 1. **The diff is two docs files.** Nothing else. If anything under `scripts/`,
    `public/`, `wrangler.jsonc` or `.github/` appears, I did not put it there.
-2. Nothing else. There is no behavior change tonight to spot-check, and nothing to
-   pull.
+2. **The live GWR page**, if you want to see the contradiction yourself — it is one
+   page load, and it is the concrete version of the abstract argument below.
 
 ---
 
 ## Needs a decision
 
-Unchanged from last night, in priority order, with the exact change already written
-out for the two cheapest so a yes costs a sentence.
+Unchanged in substance from last night; reordered, because the evidence moved.
 
-- **★ B — the E4 `Type` ordering question** (**30 days**). The one that refills the
+- **The fidelity audit as E8 — go/no-go only.** Promoted to the top tonight. It is
+  already specified (~24 rows in `docs/FIDELITY_AUDIT.md`), needs no design judgment
+  from you, and is now the only open item with a defect **a reader can see today**
+  rather than from 2027. `ascension` (Easter + 39, stored fixed May 6, true
+  2028-05-25) is a row a run could fix correctly on night one. One word unblocks it.
+
+  Note what E8 would *not* settle: `guinness-world-records-day` needs a model choice
+  (a `Floating` lookup of announced dates, like `super-bowl-sunday`, versus an annual
+  refresh), and `international-stout-day`, `fountain-pen-day` and
+  `international-tongue-twister-day` have no acceptable source for their rules at all.
+  E8 fixes the sourceable rows and leaves the rest flagged — which is still a dozen-odd
+  real corrections.
+
+- **★ B — the E4 `Type` ordering question** (**31 days**). The one that refills the
   queue for weeks. The blocker is not the typing: `UNTYPED_RANK` currently sorts
-  *below* `Fun`, so typing the 661 easy food/beer/coffee/dog rows as `Fun` today
-  would **promote** them over every row still untyped — 2,752 files, lead observance
-  changed on 471 of 744 list pages. One line in `scripts/generate.py`, **not**
-  applied:
+  *below* `Fun`, so typing the 661 easy food/beer/coffee/dog rows as `Fun` today would
+  **promote** them over every row still untyped — 2,752 files, lead observance changed
+  on 471 of 744 list pages. One line in `scripts/generate.py`, **not** applied:
 
   ```python
   # line 821, currently:
@@ -94,22 +110,13 @@ out for the two cheapest so a yes costs a sentence.
   Reply *"yes, untyped above Fun"* and the next run lands that line plus the 661
   unambiguous `Fun` rows, with the before/after lead list in the morning diff.
 
-- **The fidelity audit as E8 — go/no-go only.** Already specified, ~24 rows of real
-  work, the only item needing no design judgment from you, and the only one with a
-  *visible* defect behind it: `national-bison-day`'s published page states the
-  first-Saturday rule while the generated Dates table will say Nov 7 from 2027, so
-  page and table will contradict each other in front of readers. `ascension`
-  (Easter + 39, stored fixed May 6, true 2028-05-25) is a row a run could fix
-  correctly on night one.
-
-- **★ A — the Listed tier price and what it includes** (**28 days**). Unblocks E6's
+- **★ A — the Listed tier price and what it includes** (**29 days**). Unblocks E6's
   form / Checkout / Worker and E7's Featured tier.
 
 - **D1 — three Notion property descriptions still contradict the code**
-  (**twenty-sixth flag**, re-read in the live schema tonight: `FAQ` still says the
-  question goes in `**bold**`, `Body` still lists `[text](url)`, `Timeline` still
-  asks for `- **1927** —`). Unapplied only because rule 4 confines me to §5. The
-  whole fix:
+  (**twenty-seventh flag**, re-read in the live schema tonight: `FAQ` still says the
+  question goes in `**bold**`, `Body` still lists `[text](url)`, `Timeline` still asks
+  for `- **1927** —`). Unapplied only because rule 4 confines me to §5. The whole fix:
 
   - `FAQ` → *FAQ: 3-5 pairs. Question on its own line as plain text — no bold; bold
     does not survive the export. Answer on the line(s) below, blank line between
@@ -119,98 +126,91 @@ out for the two cheapest so a yes costs a sentence.
   - `Timeline` → *Timeline: 4-6 dated entries, one per line, as `- 1927 — what
     happened` (plain text, no bold). Every entry sourced in Sources.*
 
-  Twenty-six flags on a three-field edit is the argument for standing permission to
+  Twenty-seven flags on a three-field edit is the argument for standing permission to
   fix documentation that contradicts shipped code.
 
 - **May a nightly run `git fetch`?** Read-only, no branch moved, no merge — but it is
   the only way to tell your commit from the workflow's, and on 11-11 it cost 97 stray
-  temp files because deletion is blocked in your folder. Three answers are reasonable:
+  temp files because deletion is blocked in your folder. Three reasonable answers:
   *yes, fetch* (and ignore the litter); *yes, and grant this session delete permission
-  in the repo* so it cleans up after itself; or *no, ls-remote only* — tonight I
-  defaulted to that third answer.
+  in the repo*; or *no, `ls-remote` only* — I defaulted to the third again.
+
+- **May a content run correct a row's `Date`/`Recurrence` when the founding body
+  itself publishes the right answer?** Raised by the 11-12 content run and now
+  sharpened by the live GWR contradiction. A yes in §4 would have fixed that page
+  last night without waiting for E8.
 
 - **Carried forward unchanged:** bare `/holidays/` 404s; ★ D (home-page shift in the
   stale-build window, and whether E3's "CLS stays 0.0000" should become a threshold);
   ★ E (hero poster band); ★ F (fixed-date feed history); ★ G (Cloudflare not
-  compressing `text/calendar` — ~2 MB per refresh where gzip is ~177 KB; a zone
-  setting, no deadline); D2 (four lookup tables expiring in 2027,
+  compressing `text/calendar`); D2 (four lookup tables expiring in 2027,
   `super-bowl-sunday` first, 2027-02-14); whether content-run method findings become
-  standing §7 notes; and from the 11-11 content run, whether Chronicling America is
-  permanently unreachable from these runs.
+  standing §7 notes; whether Chronicling America is permanently unreachable from
+  these runs.
 
 ### The one structural choice
 
-Fifteen nights, fifteen clean no-ops. The machinery is working exactly as designed —
+Sixteen nights, sixteen clean no-ops. The machinery is working exactly as designed —
 gate clean, generator clean, nothing invented — and that is the problem: **the queue
-is drained of anything an unattended run is permitted to do.** The three ways out are
+is drained of anything an unattended run is permitted to do.** Three ways out,
 unchanged:
 
-1. **Answer ★ B** — one sentence, refills the queue for weeks.
-2. **Promote the fidelity audit to E8** — one word, and it fixes a defect readers
-   will see from 2027.
+1. **Promote the fidelity audit to E8** — one word, and tonight's live-site check
+   turned its justification from "a reader will see this in 2027" into "a reader can
+   see this now."
+2. **Answer ★ B** — one sentence, refills the queue for weeks.
 3. **Stand the nightly engineering run down to weekly** until there is an item for
-   it — which costs nothing and stops producing a review note you have to read.
+   it — costs nothing and stops producing a review note you have to read.
 
-I will not pick for you. But doing none of the three means night sixteen reads
-exactly like this one, and the nightly run is now costing you more attention than it
-is returning.
+I will not pick for you. But night seventeen reads exactly like this one if none of
+the three happens, and the nightly run is now costing you more attention than it is
+returning.
 
 ---
 
-# Appended — 2026-11-12 content run (Tier 5, T5-34 to T5-36)
+## 2026-11-13 · content run · Tier 5 T5-37 to T5-39
 
-The engineering review above is untouched; its open decisions still stand. This
-section is the content run's note and owns nothing in `scripts/` or `public/`.
+**What changed.** Three Notion rows took long-form content and went to `Content Status = Live`,
+so they publish at the next regeneration:
 
-## What I published
+- World Kindness Day — https://todaycelebrates.com/holiday/world-kindness-day/ — 778 words
+- National Bread Pudding Day — https://todaycelebrates.com/holiday/national-bread-pudding-day/ — 856 words
+- Sadie Hawkins Day — https://todaycelebrates.com/holiday/sadie-hawkins-day/ — 794 words
 
-Three Nov 12 rows, selected by the Tier 5 rule (published, `Body` empty,
-`Content Status` empty, ordered by next occurrence). All written to Notion's
-long-form fields and set `Content Status = Live`. **`Published` untouched on
-every row.** They go live at the next regeneration.
+In this repo only `docs/EXECUTION_PLAN.md` changed (three queue ticks in §6, one Run Log line in §8)
+and this file. Nothing in `scripts/`, `public/` or at the root. Nothing committed, pushed or merged.
+`Published` was not touched on any row; `Description` was not touched on any row.
 
-- `/holiday/chicken-soup-for-the-soul-day/` — 919 words
-- `/holiday/national-french-dip-day/` — 949 words
-- `/holiday/guinness-world-records-day/` — 881 words
+**What to check.**
 
-No section was omitted for lack of a source: all three carry a 6-entry Timeline
-and a 5-pair FAQ. That is the first run in a while where nothing had to be cut.
+1. **Sadie Hawkins Day's date is not sourceable.** The Library of Congress holds a Capp original
+   published 25 Sept 1943 whose catalog title reads "Sadie Hawkins Day comes on Nov. 6th". Nothing
+   in an acceptable source explains how Nov 13 became the conventional date, and nothing confirms
+   the universally repeated 15 Nov 1937 first-run date. The page says both of those things out loud.
+   This is a §7 fidelity candidate: our stored date may simply be the aggregator consensus.
+2. **Bread pudding's famous origin story is rejected on the page.** The 11th-century "poor man's
+   pudding" line is everywhere, and its citation trail runs to a personal blog and a user-generated
+   site. The page states that instead of repeating it. If Jay would rather the page stay silent than
+   argue with the internet, that paragraph is the one to cut.
+3. **Three of the bread-pudding citations are contents/index entries, not recipe bodies.** The
+   Glasse 1796, Randolph 1836 and Beeton 1861 scans would not yield their recipe text; only their
+   tables of contents and index were readable. `Sources` says so explicitly. The Simmons 1796 recipe
+   text WAS retrieved and is quoted.
+4. **World Kindness Day rests on one self-published source.** The World Kindness Movement's own site
+   is the only account of the 1997 Tokyo conference and the 13 Nov 1998 launch; no corroborating
+   government, UN or news source could be found. Its two pages word the Tokyo founding slightly
+   differently (one gives the year, one the full date) — consistent, but worth knowing. No founder
+   is named anywhere, and the page says that rather than inventing one.
 
-## What you should check
+**What to watch for.** The device bridge dropped mid-run, after the three Notion writes landed and
+before any `docs/` edit, and reconnected roughly seven minutes later. If a future content run's Notion
+rows are Live but its Run Log line is missing, that is the failure mode — the content shipped and the
+bookkeeping did not.
 
-1. **`guinness-world-records-day` is on the wrong date, and the page now says
-   so.** Guinness World Records' own GWR Day page gives **Thursday, 19 November
-   2026** and dates the observance's founding to **2004**. The Notion row is
-   `Annual` Nov 12 — the second Thursday, not the third. I did not change the
-   date: recurrence belongs to the deferred fidelity audit, and the right fix is
-   a design choice (a `Floating` lookup of announced dates, like
-   `super-bowl-sunday`, versus an annual refresh), not a data edit an unattended
-   run should make. Logged in §7 and added to `docs/FIDELITY_AUDIT.md`.
-   **The consequence is live this week:** the holiday appears on
-   `/day/2026-11-12/` while its own page tells the reader Guinness says Nov 19.
-   Bison Day made this error class visible from 2027; this row makes it visible
-   today. That is now two rows arguing for promoting the audit to a queue item.
-2. **The French dip invention is stated, not resolved.** Philippe the Original
-   dates it to 1918 and tells a story; Cole's calls itself the originator and
-   publishes no date and no account. Both opened in 1908. The LA Conservancy
-   calls Cole's the "self-proclaimed inventor." Nothing acceptable settles it, so
-   the page does not, and says why.
-3. **The 144-rejections figure** on the Chicken Soup page is Forbes (2003)
-   reporting Jack Canfield's own count. The page flags it as a claim by an
-   interested party rather than a publisher's record. It is the least confident
-   claim of the three pages.
-4. **Cole's closing year is derived.** LAist says "it finally shut its doors in
-   March" in an article dated 29 October 2026, after a closure announced in July
-   2025 and postponed several times, so the page says March 2026. If that
-   reading is wrong, it is wrong on the French dip page and in its Timeline.
-5. **The bankruptcy filing day** is written as "late June 2024" because CBS News
-   and the AP both report only that the filing was made "Friday." Neither names
-   a date, so the page does not either.
+**Verification run.** `scripts/generate.py` into a throwaway directory (never `public/`): exit 0,
+2450 holiday pages, all three slugs present. `parse_faq()` from the committed `scripts/generate.py`
+run against the exact submitted FAQ text: 5 / 5 / 5 pairs. Step 0 gate passed
+(`LONGFORM_RELEASED_STATUSES` present in the committed exporter).
 
-## Needs a decision (content side)
-
-Nothing blocking. One standing question, unchanged from previous runs: whether a
-content run may correct a row's `Date`/`Recurrence` when the founding body itself
-publishes the right answer. Today was the clearest case yet — Guinness publishes
-its own date — and the run still left it alone. If the answer is yes, say so in
-§4 and the next run can fix these as it finds them.
+**Revert.** Set a row's `Content Status` back to `Draft` in Notion. At the next regeneration that page
+returns to its short `Description` with nothing lost.
