@@ -1277,3 +1277,54 @@ two Friday the 13ths is 427 days (next instance: 2027-08-13 → 2028-10-13), so
 every daily regeneration between 2027-08-14 and 2028-10-13 would have failed to
 resolve `friday-the-13th`, dropping it out of the calendar with a WARNING for
 fourteen months. The bound is now 460.
+
+## Awareness spans (E8)
+
+Awareness months, weeks and other multi-day observances ("spans") live in the
+same Notion Holidays database as every day, marked by the **Span** property.
+Blank or `Day` is a single-day row, which covers all 2,450 rows that existed
+before E8. `Week`, `Month` and `Range` make the row a span. Plan:
+https://claude.ai/artifact/ShvwtSQeToHxBX7wiph3dB
+
+| Notion | What it does |
+| --- | --- |
+| `Span` | Day · Week · Month · Range |
+| `Date` | Annual spans: start–end of the reference occurrence. `Month` uses only the start month; a `Week` with no end runs 7 days |
+| `Sponsor` | Who designates it or sets the dates |
+| `Verified Through` | Last year the dates were confirmed. The generator warns once a span's next occurrence starts after it |
+| `Part Of` / `Includes` | Links a day to its span (World Diabetes Day → National Diabetes Month) |
+
+**Annual spans need no code.** A **Floating** span needs an entry in
+`SPAN_RULES` in `export_from_notion.py`, keyed by slug, the same way a floating
+day needs `FLOATING_RULES`. Its `start` and `end` can be `{"month", "day"}` or
+any floating rule, so `nth_weekday`, `easter_offset`, `offset_from_slug` (off a
+*day* row such as `thanksgiving-day`), `lookup_table` and the rest all work.
+
+In `holidays.json` a span carries a `span` object instead of `month`/`day` or
+`floating_rule`:
+
+```json
+{"kind": "month", "month": 2, "label": "Month"}
+{"kind": "range", "start": {"month": 5, "day": 6}, "end": {"month": 5, "day": 12}, "label": "Range"}
+{"kind": "days", "start": {"rule": "nth_weekday", "month": 10, "weekday": 6, "n": 1}, "length": 7, "label": "Week"}
+```
+
+A range whose end comes before its start (Kwanzaa, Dec 26 – Jan 1) ends in the
+next year.
+
+### Why spans never touch the day pipeline
+
+`generate()` calls `partition_spans()` before anything else. Span rows never
+enter `holidays`, `by_slug`, `occurrences` or the day index, and
+`resolve_spans()` uses its own memo. A month therefore can't appear on thirty
+day pages, push out the archive horizon, or reach a feed unless span-specific
+code puts it there.
+
+### E8a: resolved, not rendered
+
+`SPANS_RENDER = False`. Each span's next occurrence goes into the generation
+report (`spans_total`, `span_occurrences`, `span_problems`), and problems are
+warned about the same way unresolved holidays are. Nothing is written for a
+span yet. Verified on 2026-11-13: the old and new generators produce
+byte-identical output across every file in `public/`, with or without span rows
+in `holidays.json`. E8b–E8e (see `docs/EXECUTION_PLAN.md` §5) turn on rendering.

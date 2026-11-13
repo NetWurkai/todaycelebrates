@@ -602,10 +602,109 @@ of this.
    occasion pages are deliberately still on the stock hero; whether they
    should get cards is in `docs/REVIEW.md`.
 
-**With E4, E6 and E7 all now waiting on Jay, the queue has no unblocked item
-left.** The next engineering run should expect to stop at §5 unless an answer
-has landed — see "Queue empty?" below for what is explicitly *not* unattended
+**With E4, E6 and E7 all now waiting on Jay, the queue had no unblocked item
+left — until E8 below (added 2026-11-13), which is unblocked and takes
+priority.** See "Queue empty?" below for what is explicitly *not* unattended
 work.
+
+### E8 — Awareness months & weeks ("spans")  ·  DEADLINE Dec 15  ·  approved by Jay 2026-11-13
+Plan (approved in full, every recommended default taken):
+`https://claude.ai/artifact/ShvwtSQeToHxBX7wiph3dB`. **E8 is the only unblocked
+item in §5. Take its sub-items in order, one per run.**
+
+Awareness months, weeks and seasons are rows in the existing Holidays database
+with **Span** = Week / Month / Range (see `scripts/README.md` "Awareness spans").
+They get their own `/holiday/<slug>/` pages and a month hub per calendar month.
+On day pages, a span is listed in the main table only on its **start** day.
+**Decisions taken (do not reopen):**
+1. One database, with a `Span` property. There is no separate database.
+2. Month hub URL is `/<month>/` (`/november/`), plus an `/awareness/` index.
+3. A span counts in a day's "N observances" only on its start day. Continuing
+   spans go in a side block, and a span is never a day's featured hero.
+4. Brand-created promotional periods are out of the editorial list. They go to
+   Submitted Occasions (E6) as paid listings.
+5. Merge the two Oktoberfest rows into one span and 301 the retired slug.
+6. E8 is queued here for the overnight runs.
+
+**Hard deadline.** `/january/` and `/february/` must be live, in the sitemap and
+submitted for indexing **by 2026-12-15**. Kwanzaa must render as a span
+**before 2026-12-26**.
+
+#### E8a — Data model  ·  STATUS: BUILT 2026-11-13 (interactive), uncommitted, awaiting Jay's review
+- Notion: `Span`, `Sponsor`, `Verified Through`, `Part Of` (two-way; the
+  reverse is `Includes`) added to the Holidays data source. **Done, live.**
+- `export_from_notion.py`: `SPAN_KINDS`, `SPAN_RULES` (Lent so far),
+  `build_span()`, `sponsor` / `verified_through` / `part_of` written only when
+  set. Day rows are byte-identical.
+- `generate.py`: `SPANS_RENDER = False`, `partition_spans()`,
+  `span_for_year()`, `next_span_occurrence()`, `resolve_spans()` (own memo),
+  report keys `spans_total` / `spans_rendered` / `span_occurrences` /
+  `span_problems`, and warnings with GitHub annotations.
+- **Verified:** old vs new generator at `--today 2026-11-13` gives `diff -rq`
+  **0 differences** across all of `public/`. New generator with 6 synthetic
+  span rows vs without gives **0 differences**, identical day occurrences, and
+  correct span dates (an Easter-relative range, Lent 2027-02-10→03-25 once corrected to end on Holy Thursday per USCCB, a Dec 26–Jan 1 range current on
+  Jan 1, first-full-week-of-October, Thanksgiving-relative). Expired lookups
+  and lapsed `Verified Through` years were flagged.
+- **Until Jay commits E8a, every span row stays `Published` OFF.** The daily
+  Action exports Notion with the committed exporter. Without span support, a
+  published Month row would ship as a single day.
+
+#### E8b — Span pages, feeds, structured data  ·  next run after E8a is in `origin/main`
+- `SPANS_RENDER = True`. Gate every new code path on it.
+- One `/holiday/<slug>/` per resolved span, from `holiday.html`. Date line:
+  "All of February 2027", "May 6–12, 2027", "Feb 10 – Mar 27, 2027". The hero
+  pill shows `span.label` (Week / Month / Range shown as "Season"). The
+  "Also on this date" aside becomes "Days inside this <month|week|season>",
+  listing rows whose `part_of` contains this slug.
+- JSON-LD `Event` with `startDate` **and** `endDate`. Keep the long-form
+  fields and FAQ JSON-LD exactly as they work for days.
+- `calendar.ics` and the category feeds get all-day `VEVENT`s with
+  `DTEND` = end + 1 day (the exclusive end that iCalendar requires).
+- The sitemap and `search.json` get span pages. `llms.txt` gets a line.
+- **Kwanzaa:** convert the existing row in Notion (`Span` = Range,
+  `Date` 2026-12-26 → 2027-01-01). Keep the slug and the long-form content.
+  Confirm `/holiday/kwanzaa/` regenerates through the span path and is not
+  treated as stale.
+- **Then publish span rows** whose Description, Date/rule, Sponsor and Sources
+  are all complete (`Published` ON).
+- **Done when:** a fixture build shows the pages, `endDate` and `DTEND`.
+  Every page that no span touches is byte-identical to the pre-E8b build.
+
+#### E8c — Spans on existing pages
+- `/day/YYYY-MM-DD/`: spans **starting** that day go in the main table with a
+  Week/Month tag. Spans **continuing** that day go in a new side block, "This
+  week & this month", with a year-specific line ("Day 12 of Movember"). The
+  hero count excludes continuing spans, and `Order` never makes a span the hero.
+- Home `/`: a strip under the hero, "<Month> is …" (up to 6 months) and "This
+  week …" (up to 4 weeks), linking to the month hub. Add spans to the
+  `data/v2/YYYY-MM.json` files in an additive, backward-compatible shape. The
+  home page's inline script and `obs_row()` must stay identical (see the note
+  at the top of `templates/index.html`).
+- Perennial `/<month>-<day>/`: fixed-date spans only, in the side block.
+  Floating spans go in the existing "moves" note.
+- `/category/<name>/`: spans in their own group at the top.
+
+#### E8d — Month hubs  ·  must be live by 2026-12-15
+- `/<month>/` for all 12 months: months first, then weeks in date order, then
+  a link grid to that month's perennial date pages. `ItemList` JSON-LD. Each
+  span shows its next occurrence with the year.
+- `/awareness/` index: all 12 months, one block each. Link it from the main
+  nav and from `/dates/`.
+- Breadcrumbs: Home › November › November 12 on perennial pages.
+- Add the hubs to the sitemap. Then add `/january/` and `/february/` to the
+  daily Search Console indexing task's queue
+  (`claude/indexing-log-*.md`), or request them by hand.
+
+#### E8e — Migrate the remaining multi-day rows
+- National Teacher Appreciation Week becomes a Floating span: Monday of the
+  first full week of May, `length` 5 (Monday–Friday, per its Description).
+  The Start of Hanukkah and The Start of Ramadan become Floating ranges, with
+  sourced start **and** end lookup tables. **Keep their names**: the slug
+  derives from the name, and a rename is a separate decision for Jay.
+- The two Oktoberfest rows merge into one Range span. 301 the retired slug.
+  Check §3 for whether a `public/_redirects` file is hand-owned before
+  creating one.
 
 ### Queue empty?
 Report it in the Run Log and stop. Candidates for the re-plan conversation, **not
@@ -696,6 +795,87 @@ Description and no long-form content.
 - [x] 53. National Grandparents Day  *(published 2026-10-31, content run; Live)*
 - [x] 54. World Mental Health Day  *(published 2026-10-31, content run; Live)*
 - [x] 55. National Coming Out Day  *(published 2026-10-31, content run; Live)*
+
+**Tier S — awareness spans, wave 1 (E8).** Takes priority over Tier 5 until it
+is done. These are **light rows**, not long-form pages, so a run does **six**
+of them, not three. For each span, create or complete a row in the Holidays
+database with the following fields:
+- `Span`: Week, Month or Range.
+- `Recurrence`: Annual for fixed dates. Floating for anything else, and then
+  add a `SPAN_RULES` entry in `export_from_notion.py`. That entry is a source
+  change, so it goes in `docs/REVIEW.md` for Jay, like any code.
+- `Date`: the start–end of the 2026–27 occurrence.
+- `Category` and `Type` (Cultural for heritage months, Observance for health
+  and cause spans).
+- `Description`: one or two sentences, sourced.
+- `Sponsor` and `Verified Through`.
+- `Sources`: the sponsor's own page, or the proclamation, for the dates.
+- `Content Status` left empty. The deep content comes later, through Tier 5
+  rules.
+Then set `Part Of` on any existing day row that clearly belongs to the span
+(World Diabetes Day → National Diabetes Month).
+
+**STEP 0 for this tier.** Check
+`git show origin/main:scripts/export_from_notion.py | grep -c SPAN_KINDS`.
+At 0, create rows with `Published` **OFF** and say so in the Run Log. At 1 or
+more (E8a is committed), set `Published` **ON** for every complete row,
+including rows earlier runs left off. Qualification and sourcing rules are in
+the E8 plan: a proclamation, a federal agency, or the nonprofit or
+professional body that runs the span. No brand promotions. Competitor lists
+are leads, never sources. Confirm each date on the sponsor's page.
+
+Order: by start date from today, so December–March come first. Skip anything
+already in the database (search by name first).
+- [x] S-1. National Impaired Driving Prevention Month (Dec)  *(seeded 2026-11-13, interactive)*
+- [x] S-2. Dry January (Jan)  *(seeded 2026-11-13, interactive)*
+- [x] S-3. Cervical Health Awareness Month (Jan)  *(seeded 2026-11-13, interactive)*
+- [x] S-4. National Blood Donor Month (Jan)  *(seeded 2026-11-13, interactive)*
+- [x] S-5. Black History Month (Feb)  *(seeded 2026-11-13, interactive)*
+- [x] S-6. American Heart Month (Feb)  *(seeded 2026-11-13, interactive)*
+- [x] S-7. Lent (Ash Wednesday – Holy Thursday, per USCCB)  *(seeded 2026-11-13, interactive; SPAN_RULES entry in E8a)*
+- [ ] S-8. Glaucoma Awareness Month (Jan)
+- [ ] S-9. National Mentoring Month (Jan)
+- [ ] S-10. Veganuary (Jan)
+- [ ] S-11. Women's History Month (Mar)
+- [ ] S-12. National Nutrition Month (Mar)
+- [ ] S-13. Colorectal Cancer Awareness Month (Mar)
+- [ ] S-14. Ramadan: leave to E8e (existing row)
+- [ ] S-15. Autism Acceptance Month (Apr)
+- [ ] S-16. National Public Health Week (Apr; floating)
+- [ ] S-17. National Poetry Month (Apr)
+- [ ] S-18. AAPI Heritage Month (May)
+- [ ] S-19. Mental Health Awareness Month (May)
+- [ ] S-20. National Physical Fitness and Sports Month (May)
+- [ ] S-21. Older Americans Month (May)
+- [ ] S-22. National Nurses Week (May 6–12)
+- [ ] S-23. National Police Week (week containing May 15; floating)
+- [ ] S-24. National Small Business Week (SBA; lookup)
+- [ ] S-25. Pride Month (Jun)
+- [ ] S-26. Alzheimer's & Brain Awareness Month (Jun)
+- [ ] S-27. Men's Health Month (Jun)
+- [ ] S-28. Disability Pride Month (Jul)
+- [ ] S-29. National Immunization Awareness Month (Aug)
+- [ ] S-30. Healthy Aging Month (Sep)
+- [ ] S-31. National Hispanic Heritage Month (Sep 15–Oct 15)
+- [ ] S-32. Childhood Cancer Awareness Month (Sep)
+- [ ] S-33. Breast Cancer Awareness Month (Oct)
+- [ ] S-34. Cybersecurity Awareness Month (Oct)
+- [ ] S-35. Health Literacy Month (Oct)
+- [ ] S-36. National Disability Employment Awareness Month (Oct)
+- [ ] S-37. Mental Illness Awareness Week (Oct; floating)
+- [ ] S-38. Fire Prevention Week (Oct; floating)
+- [ ] S-39. Banned Books Week (Oct; lookup)
+- [ ] S-40. Native American Heritage Month (Nov)
+- [ ] S-41. National Diabetes Month (Nov)
+- [ ] S-42. Lung Cancer Awareness Month (Nov)
+- [ ] S-43. National Family Caregivers Month (Nov)
+- [ ] S-44. Movember (Nov)
+- [ ] S-45. International Education Week (Nov; lookup)
+- [ ] S-46. National Hunger and Homelessness Awareness Week (Nov; lookup)
+- [ ] S-47. Advent (Advent Sunday – Dec 24; floating)
+*Wave 1 targets about 100. When S-47 is done, add more from the same three
+pools (heritage months, the major health months and weeks, and cause months
+marketers plan around) by next start date. Log each addition here.*
 
 **Tier 5 — everything else.** When Tiers 1–4 are ticked, keep going without
 being re-planned: take published rows whose `Body` is empty and whose
@@ -1812,3 +1992,6 @@ Newest last. One line per run: date, type, item, outcome. Keep it terse.
 - 2026-11-12 · content · **Tier 5 items T5-34 to T5-36** — the rule selected published rows with empty `Body` and empty `Content Status` by next occurrence: **Chicken Soup for the Soul Day, National French Dip Day, Guinness World Records Day** (all Nov 12, Orders 1-3; one row each, no duplicates). All three written to `Opening`/`Body`/`Timeline`/`FAQ`/`Sources` and set `Content Status = Live`; `Published` untouched on every row. Word counts 919 / 949 / 881 — French Dip is marginally over the 900 target and was left there rather than cut the "what is actually in a French dip" FAQ pair, which is a real query. Sections omitted: **none** — all three carried a full Timeline (6 entries) and FAQ (5 pairs). **Observance origins unsourceable for two of three** (Chicken Soup for the Soul Day, National French Dip Day): the Nov 12 dates appear only on aggregators, and both pages say so in the FAQ. **Guinness World Records Day is the exception — origin fully primary-sourced** to GWR's own page ("First held in 2004 to mark Guinness World Records becoming the best-selling copyright book of all time"), which also **contradicts the stored Nov 12 date, giving Thursday 19 November 2026** — new §7 fidelity candidate, not changed. **Conflicts stated, not resolved:** the French dip invention (Philippe's 1918 account vs. Cole's undated claim, both founded 1908, nothing primary settles it) and Cole's restoration date (LA Conservancy late 2008 / Cole's own site 2008 / LAist 2007 — the reopening year the first two agree on was used). **Least confident claims:** the 144-rejections figure (Forbes 2003, attributed to Canfield's own count, i.e. an interested party — flagged as such on the page) and Cole's closing *year* (LAist gives "in March" only; 2026 follows from its 29 Oct 2026 dateline). Bankruptcy filing day written as "late June 2024" because CBS and the AP both say only "Friday". Rejected along the way: nationaltoday, nationaldaycalendar, checkiday, anydayguide, holidayinsights, Wikipedia and Grokipedia; the GWR "187,000 copies" figure dropped as ambiguous.
 - 2026-11-13 · engineering · no item started · **gate clean eleventh night running; stopped at rule 4 (queue), sixteenth consecutive night with no engineering item — the 11-08 re-plan checkpoint is five days past.** Whole tree clean including untracked and `docs/`; gate query (`git status --porcelain -- . ':(exclude)docs'`) empty before and after. Jay committed the 11-12 `docs/` trio as `41c766aa` and merged `origin/main` as `bfbf70b8`, so local `HEAD` == `origin/main` == `bfbf70b8` (read-only `ls-remote`, no fetch) — nothing to pull. Nothing committed, pushed or merged; no Notion write; nothing outside `docs/`. Checked rather than assumed that no answer had landed: live `Type` count returns `(untyped) 2414 · Religious 23 · Federal 11 · Season & Clock 6`, identical to 11-11 and 11-12 with **zero** `Fun` / `Cultural` / `Observance` / `State`, so ★ B has not moved; `41c766aa` read hunk by hunk is entirely the two runs' own writes (three content-queue ticks, the §7 GWR candidate, two Run Log lines), so no answer arrived in the plan either; E2's five, E6's ★ A and E7's two bullets still waiting. Nothing invented (§5 "Queue empty?"). **New tonight, and verified rather than predicted: the `guinness-world-records-day` contradiction is live on the deployed site** — `/holiday/guinness-world-records-day/` returns 200 and the same page carries both "19 November 2026" (Guinness's own published date) and "November 12" (the site's date field). First §7 fidelity defect confirmed visible in production rather than inferred; `national-bison-day` is the same class but latent until 2027. Verification: committed generator on committed inputs `--today 2026-11-13` into two throwaway dirs under `$HOME` outside the mount — **exit 0, stderr 0 bytes, zero WARNINGs**, twice; **5,700 files** (2,450 observance / **383 dated**, horizon rolled to `2027-11-12`, one new page and nothing rewritten / 366 perennial / 2 year-index / 14 category / 19 simple), two runs **`diff -rq` byte-identical**, 2,465 `.ics` / 3,261 events, main feed **1,999,149 bytes** (+897, window stepping, not a trend), cards off, `occasions_total` 0, all problem arrays empty but the known lookup rows (D2); throwaway dirs removed, `public/` never a target, gate re-checked clean. **D1 re-confirmed unfixed in the live schema — twenty-seventh flag.** No `git fetch`; 11-11's `.git/stale-fetch-tmp/` (97 files, 1.4 MB) untouched and still safe to delete. `docs/REVIEW.md` overwritten — same three ways out, but the fidelity audit promoted to the top of *Needs a decision* on tonight's live-site evidence. **Pushed a notification to Jay.**
 - 2026-11-13 · content · **Tier 5 items T5-37 to T5-39** — the rule selected published rows with empty `Body` and empty `Content Status` by next occurrence: **World Kindness Day, National Bread Pudding Day, Sadie Hawkins Day** (all Nov 13, Orders 1/2/3, not by preference; one row each, no duplicates — the similarly named `Random Acts of Kindness Day` (Feb 17) and `Bread Pudding Recipe Exchange Day` (May 1) are different observances on different dates and were correctly left alone). All three written to `Opening`/`Body`/`Timeline`/`FAQ`/`Sources` and set `Content Status = Live`; **778 / 856 / 794 words**, all inside the 600-900 target; `Published` untouched on every row, `Description` untouched. FAQ at 5 pairs each, **verified by running the committed `parse_faq()` from `scripts/generate.py` against the exact submitted text** — 5/5/5. Step 0 passed (`LONGFORM_RELEASED_STATUSES` present twice in the committed exporter). Rule 7: `generate.py` run into a throwaway dir (`$HOME/tcverify/site`, never `public/`) exited 0, 2450 holiday pages, all three slugs present. **Sourcing notes:** World Kindness Day is the fourth Tier 5 row with a primary-sourced origin — the World Kindness Movement's own Story page gives "Nov. 13 1998: Launch of the World Kindness Day" and dates the movement's formation to a Tokyo conference on 20 Sept 1997 — but no named founder exists anywhere, the WKM's own "Founding Fathers 1997" section being photographs without names, and the page says so. National Bread Pudding Day's observance origin is unsourceable and the ubiquitous 11th-century "poor man's pudding" story is **rejected in the body text**, its citation trail running to a personal blog and a user-generated site; the sourced content is the cookbook record (Simmons 1796 recipe text via Gutenberg; Glasse 1796, Randolph 1836 and Beeton 1861 cited only for contents/index entries, which is stated in `Sources` because the recipe bodies could not be retrieved from those scans). Sadie Hawkins Day's origin IS sourced — the Library of Congress's catalog record for a Capp original credits the 1937 introduction and says he repeated it every November — but **the Nov 13 date is not sourceable at all**, and a Capp drawing published 25 Sept 1943 in that same LoC collection reads "Sadie Hawkins Day comes on Nov. 6th", which is direct evidence against a fixed date; the page states this rather than papering over it, and also states that the universally repeated 15 Nov 1937 first-run date appears in no acceptable source. **Least confident claim across the three:** the WKM's own two pages word the Tokyo founding slightly differently (Story: "a conference in Tokyo in 1997" with a 20 Sept 1997 milestone; Home: "a conference in Tokyo on 20th September 1997") — not a conflict, but the whole founding account rests on one self-published source with no corroboration found. No section was omitted on any of the three. Nothing committed, pushed or merged; nothing written outside `docs/`; `Published` changed on no row. Gate query (`git status --porcelain -- . ':(exclude)docs'`) empty before and after. **Bridge note:** the device link dropped mid-run after the Notion writes landed and before the `docs/` edits; it reconnected about seven minutes later and the run completed — worth knowing if a future run's log stops after the Notion step.
+
+- 2026-11-13 · interactive (Jay + Claude) · **E8 approved and queued; E8a built.** Jay approved the awareness months & weeks plan (`https://claude.ai/artifact/ShvwtSQeToHxBX7wiph3dB`) with every recommended default. Notion Holidays data source gained `Span` / `Sponsor` / `Verified Through` / `Part Of` (+ reverse `Includes`), live. E8a written into the working tree, **uncommitted**: `scripts/export_from_notion.py` (+span export), `scripts/generate.py` (+span resolution, `SPANS_RENDER = False`), `scripts/README.md` (+"Awareness spans (E8)"). Verified in a throwaway tree at `--today 2026-11-13`: old vs new generator `diff -rq` **0 differences**, new generator with vs without 6 synthetic span rows **0 differences**, span dates correct, expired/lapsed problems flagged. §5 gained E8 (E8a–E8e, deadline 2026-12-15); §6 gained Tier S (span rows, six per run, ahead of Tier 5) with seven rows seeded **unpublished** (S-1–S-7) because the committed exporter has no span support yet. `docs/REVIEW.md` overwritten with the E8a review. **E8 is the first unblocked §5 item since 10-28.**
+- 2026-11-13 · digest · **Friday digest written** · covered 11-07 → 11-13 (previous digest 11-06). Read §5 (queues), §6, §7, §8, `docs/REVIEW.md`, `docs/FIDELITY_AUDIT.md`, the live Notion database and HTTP checks against the live site. **Led with the uncommitted E8a diff**: `scripts/export_from_notion.py`, `scripts/generate.py` and `scripts/README.md` are modified in the working tree, so the rule 2 gate (`git status --porcelain -- . ':(exclude)docs'`) is **dirty right now** and tonight's engineering run will stop before starting — said so plainly, with the Dec 15 / Dec 26 E8 deadlines and the span rows held `Published` OFF as the cost. **Notion (rows-mode filters, never SQL, per the 11-08 measurement trap):** 2,461 rows total, **105 `Content Status = Live`**, 105 with `Body`, 105 with `FAQ`, 112 with `Sources`; **zero rows at Draft or Reviewed, so nothing was reverted**; 7 span rows, **0 published**, as E8a intends. Running total up from 84 on 11-06 to **105** (+21, the week's three-a-night runs T5-19→T5-39). All 21 slugs return **HTTP 200**; the 11-13 three are Live in Notion but still render short (regeneration runs ~11am ET, had not fired at 10:50 UTC) — normal lag, reported as such. **New finding, from the commit log rather than any run's own report: the daily regeneration did not run on 2026-11-09.** It is the only gap between 10-16 and 11-12; the 11-09 content sat unrendered until the 11-10 run picked it up, and no run flagged it at the time. Flagged for a look at the Action's history. Also carried: the 11-08 re-plan checkpoint five days past with no answer (E2's five, E6 ★ A, E7's two, ★ B, ★ F, ★ G); the `guinness-world-records-day` contradiction confirmed live; the 11-13 bridge drop; `connectedFolders` empty on all five content runs; D1 unfixed (twenty-seventh flag). Spot-check picks: `guinness-world-records-day` (self-contradicting in production), `sadie-hawkins-day` (Nov 13 unsourceable, 1943 LoC Capp drawing says Nov 6), `national-young-readers-day` (1989 founding refused; Nov 10 is the §7 signature), with the Content Status → Draft revert noted as the undo. **§4 omissions given their own section**: two Timelines cut this week (Bittersweet Chocolate, Cook Something Bold), the dropped-claim list, three claims actively debunked on-page, and six least-confident claims ranked, UNESCO resolution 20 first. Digest saved to the project as `claude/digest-2026-11-13-friday.md`. Nothing committed, pushed or merged; no Notion write; nothing written outside `docs/`. Gate re-checked: still dirty on the three `scripts/` files, unchanged by this run. **Pushed a notification to Jay.**

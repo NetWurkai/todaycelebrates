@@ -390,6 +390,39 @@ FLOATING_RULES = {
 }
 
 
+# ---- spans: awareness months, weeks and other multi-day observances (E8) ----
+#
+# A row whose Notion "Span" is Week, Month or Range is a span, not a day. It is
+# written to holidays.json with a "span" object instead of month/day or
+# floating_rule, and generate.py keeps spans entirely apart from the day index
+# (see partition_spans() there), so a span can never land in a day's list, a
+# /day/ page, the month data files or a feed by accident.
+#
+# Annual spans need no code: their dates come from the Notion Date property.
+# Every span also carries "label": the Notion Span value, for display.
+#   Month              -> {"kind": "month", "month": <start month>}
+#   Week/Range + end   -> {"kind": "range", "start": {m, d}, "end": {m, d}}
+#   Week, no end       -> {"kind": "days", "start": {m, d}, "length": 7}
+# Floating spans need an entry here, keyed by slug, same as FLOATING_RULES.
+# "start" and "end" are either {"month", "day"} or any FLOATING_RULES-style
+# rule dict, so the whole existing rule engine is available to spans:
+#   {"kind": "days",  "start": <rule>, "length": 7}
+#   {"kind": "range", "start": <rule>, "end": <rule>}
+# A range whose end falls before its start in the same year (Kwanzaa) ends in
+# the following year.
+SPAN_KINDS = ("Week", "Month", "Range")
+
+SPAN_RULES = {
+    # Ash Wednesday (Easter - 46) through Holy Thursday (Easter - 3). USCCB:
+    # Lent "begins on Ash Wednesday and ends at sundown on Holy Thursday"
+    # (usccb.org/prayer-worship/liturgical-year/lent; 2026 = Feb 18 - Apr 2).
+    "lent": {"kind": "range",
+             "start": {"rule": "easter_offset", "days": -46},
+             "end": {"rule": "easter_offset", "days": -3}},
+}
+
+
+
 def slugify(name):
     # Mirrors public/index.html's client-side slugify() exactly.
     s = name.lower()
@@ -550,6 +583,32 @@ def extract_holiday(page):
         if opening:
             entry["description"] = " ".join(html.unescape(opening).split())
 
+    # ---- span metadata (E8) ----
+    # Left OUT when unset, so every existing row's JSON stays byte-identical.
+    sponsor = plain_text(props.get("Sponsor", {}).get("rich_text", [])).strip()
+    if sponsor:
+        entry["sponsor"] = html.unescape(sponsor)
+    verified = props.get("Verified Through", {}).get("number")
+    if verified is not None:
+        entry["verified_through"] = int(verified)
+    part_of = [r["id"] for r in props.get("Part Of", {}).get("relation", []) if r.get("id")]
+    if part_of:
+        entry["_part_of_ids"] = part_of  # resolved to slugs in main()
+
+    span_prop = props.get("Span", {}).get("select")
+    span_kind = span_prop["name"] if span_prop else None
+    if span_kind in SPAN_KINDS:
+        span, problem = build_span(span_kind, recurrence, slug, date_prop)
+        if span is None:
+            return None, f"{name!r} (slug {slug!r}): {problem} Skipped for this run."
+        # The Notion label rides along for display ("Week", "Month", "Range"):
+        # a Week stored as a range and a Range are the same shape otherwise.
+        entry["span"] = dict(span, label=span_kind)
+        return entry, None
+    if span_kind not in (None, "Day"):
+        return None, (f"{name!r}: Span is {span_kind!r}, not Day/Week/Month/Range "
+                      f"-- skipped")
+
     if recurrence == "Annual":
         y, m, d = date_start.split("-")
         entry["month"] = int(m)
@@ -567,6 +626,28 @@ def extract_holiday(page):
     return entry, None
 
 
+def build_span(span_kind, recurrence, slug, date_prop):
+    """(span_dict, None) or (None, problem) for a Week/Month/Range row."""
+    if recurrence == "Floating":
+        rule = SPAN_RULES.get(slug)
+        if rule is None:
+            return None, ("is a Floating span but has no entry in SPAN_RULES in "
+                          "this script -- add one by hand, don't guess dates.")
+        return rule, None
+    start = date_prop["start"][:10]
+    _, sm, sd = (int(x) for x in start.split("-"))
+    if span_kind == "Month":
+        return {"kind": "month", "month": sm}, None
+    end = (date_prop.get("end") or "")[:10]
+    if end:
+        _, em, ed = (int(x) for x in end.split("-"))
+        return {"kind": "range", "start": {"month": sm, "day": sd},
+                "end": {"month": em, "day": ed}}, None
+    if span_kind == "Week":
+        return {"kind": "days", "start": {"month": sm, "day": sd}, "length": 7}, None
+    return None, "is an Annual Range span but its Date has no end date."
+
+
 def main():
     if not NOTION_TOKEN:
         print("ERROR: NOTION_TOKEN environment variable is not set.", file=sys.stderr)
@@ -580,6 +661,7 @@ def main():
     holidays = []
     warnings = []
     seen_slugs = {}
+    slug_by_page_id = {}
     for page in pages:
         entry, warning = extract_holiday(page)
         if warning:
@@ -604,7 +686,17 @@ def main():
                 f"unsourced claims."
             )
         seen_slugs[entry["slug"]] = entry["name"]
+        slug_by_page_id[page["id"]] = entry["slug"]
         holidays.append(entry)
+
+    # "Part Of" (E8): Notion relations come back as page ids; the site works in
+    # slugs. A relation to a row that isn't published is dropped quietly.
+    for entry in holidays:
+        ids = entry.pop("_part_of_ids", None)
+        if ids:
+            parents = sorted({slug_by_page_id[i] for i in ids if i in slug_by_page_id})
+            if parents:
+                entry["part_of"] = parents
 
     for w in warnings:
         print(f"WARNING: {w}", file=sys.stderr)

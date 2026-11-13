@@ -750,6 +750,115 @@ def next_occurrence(holiday, today, by_slug=None, memo=None):
 
 
 # ---------------------------------------------------------------------------
+# Spans: awareness months, weeks and other multi-day observances (E8)
+#
+# A span is a holidays.json row carrying a "span" object (see SPAN_RULES in
+# export_from_notion.py for the shapes). Spans are split off from the day rows
+# at the very top of generate() and never enter `holidays`, `by_slug`,
+# `occurrences` or the day index -- so a month can never be listed on thirty
+# day pages, stretch the archive horizon, or reach a feed by accident.
+#
+# E8a (this code) only resolves them: each span's next occurrence is computed
+# and reported, and problems are warned about, but nothing is rendered.
+# SPANS_RENDER is the switch E8b turns on once span pages exist. With it off,
+# every file this script writes is byte-identical to a build without spans.
+# ---------------------------------------------------------------------------
+
+SPANS_RENDER = False
+
+
+def is_span(row):
+    return "span" in row
+
+
+def partition_spans(rows):
+    """holidays.json rows -> (day rows, span rows), order preserved."""
+    days, spans = [], []
+    for r in rows:
+        (spans if is_span(r) else days).append(r)
+    return days, spans
+
+
+def _span_point(spec, year, by_slug, memo):
+    """A span's start or end for one year: {"month", "day"} or a rule dict."""
+    if "rule" in spec:
+        return compute_floating_date(spec, year, by_slug=by_slug, memo=memo)
+    return datetime.date(year, spec["month"], spec["day"])
+
+
+def span_for_year(row, year, by_slug, memo):
+    """(start, end) of the span that STARTS in `year`. Both ends inclusive."""
+    s = row["span"]
+    kind = s.get("kind")
+    if kind == "month":
+        m = s["month"]
+        start = datetime.date(year, m, 1)
+        nxt = datetime.date(year + 1, 1, 1) if m == 12 else datetime.date(year, m + 1, 1)
+        return start, nxt - datetime.timedelta(days=1)
+    if kind == "range":
+        start = _span_point(s["start"], year, by_slug, memo)
+        end = _span_point(s["end"], year, by_slug, memo)
+        if end < start:
+            # Crosses New Year (Kwanzaa, Dec 26 - Jan 1): the end is next year's.
+            end = _span_point(s["end"], year + 1, by_slug, memo)
+        return start, end
+    if kind == "days":
+        length = int(s["length"])
+        if length < 1:
+            raise ValueError(f"span length must be at least 1, got {length}")
+        start = _span_point(s["start"], year, by_slug, memo)
+        return start, start + datetime.timedelta(days=length - 1)
+    raise ValueError(f"unknown span kind: {kind!r}")
+
+
+def next_span_occurrence(row, today, by_slug, memo):
+    """(start, end) of the occurrence running on `today`, else the next one.
+
+    Starts a year back so a span that began last year and is still running
+    (Kwanzaa on Jan 1) is found as current rather than skipped to next year.
+    """
+    last_error = None
+    for year in (today.year - 1, today.year, today.year + 1):
+        try:
+            start, end = span_for_year(row, year, by_slug, memo)
+        except (ValueError, KeyError, RuntimeError) as e:
+            last_error = e
+            continue
+        if end >= today:
+            return start, end
+    if last_error is not None:
+        raise last_error
+    raise RuntimeError(f"could not find a next occurrence for span {row['slug']}")
+
+
+def resolve_spans(spans, today, by_slug):
+    """slug -> (start, end) for every resolvable span, plus a problem list.
+
+    `by_slug` is the DAY rows' index, so a span rule may hang off a day
+    (offset_from_slug thanksgiving-day). Uses its own memo: nothing a span
+    computes may leak into the memo the day pages are built from.
+    """
+    memo = {}
+    found, problems = {}, []
+    for row in spans:
+        try:
+            start, end = next_span_occurrence(row, today, by_slug, memo)
+        except (ValueError, KeyError, RuntimeError) as e:
+            problems.append(f"{row['name']!r} ({row['slug']}): no resolvable "
+                            f"dates -- {e}")
+            continue
+        found[row["slug"]] = (start, end)
+        vt = row.get("verified_through")
+        if vt is not None and start.year > vt:
+            problems.append(
+                f"{row['name']!r} ({row['slug']}): dates are verified only "
+                f"through {vt}, but the next occurrence starts {start.isoformat()}. "
+                f"Confirm them with the sponsor ({row.get('sponsor') or 'unknown'}) "
+                f"and raise Verified Through in Notion.")
+    return found, problems
+
+
+# ---------------------------------------------------------------------------
 # Rendering
 # ---------------------------------------------------------------------------
 
@@ -3240,7 +3349,10 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
     or with Pillow or the pinned font missing, every file written is
     byte-identical to a build without that feature."""
     templates_dir = templates_dir or DEFAULT_TEMPLATES_DIR
+    # Spans (E8) leave here and never touch the day pipeline below.
+    holidays, spans = partition_spans(holidays)
     by_slug = {h["slug"]: h for h in holidays}
+    span_occurrences, span_problems = resolve_spans(spans, today, by_slug)
     memo = {}  # (slug, year) -> date.date, shared across all holidays this run
     occurrences = {}  # slug -> date.date
     unresolved = []   # holidays whose rule could not produce a date this run
@@ -3939,6 +4051,11 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         "occasions_unlisted": occasions_unlisted,
         "occasions_stale_pages": occasions_stale,
         "sitemap_changed": sitemap_changed,
+        "spans_total": len(spans),
+        "spans_rendered": SPANS_RENDER,
+        "span_occurrences": {slug: [a.isoformat(), b.isoformat()]
+                             for slug, (a, b) in sorted(span_occurrences.items())},
+        "span_problems": span_problems,
         "occurrences": {slug: d.isoformat() for slug, d in occurrences.items()},
     }
 
@@ -4034,6 +4151,11 @@ def main():
         print(f"WARNING: {note}", file=sys.stderr)
         if os.environ.get("GITHUB_ACTIONS") == "true":
             print(f"::warning title=Withdrawn occasion still published::{note}")
+
+    for p in report.get("span_problems", []):
+        print(f"WARNING: span -- {p}", file=sys.stderr)
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            print(f"::warning title=Awareness span needs attention::{p}")
 
     for t in report.get("unknown_types", []):
         note = (f"holidays.json has Type {t!r}, which TYPE_ORDER in this script "

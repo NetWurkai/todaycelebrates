@@ -1,216 +1,86 @@
-# Review — 2026-11-13 engineering run
+# Review — 2026-11-13 interactive session: E8a (awareness spans, data model)
 
-**No engineering item was started. Sixteenth consecutive night.** The stop is at
-hard rule 4 (the queue), not the gate. Every §5 item is done or waiting on you.
-The 11-08 re-plan checkpoint is five days past.
+**You approved the awareness months & weeks plan with every recommended
+default.** This diff is its first phase. It **changes nothing on the live
+site**: every file the generator writes is byte-identical before and after.
+Plan: https://claude.ai/artifact/ShvwtSQeToHxBX7wiph3dB
 
-**One thing is new tonight, and it is not good news:** the Guinness World Records
-date contradiction is now **live on the deployed site**, verified rather than
-predicted. Details below under *What I verified*. It is the strongest argument yet
-for the second of the three ways out.
-
-## What I changed
-
-**No source file, no generated file, no Notion row, no `.git` change.** Only the
-two artifacts rule 6 requires.
+## What changed
 
 ```
-docs/REVIEW.md          (this file, overwritten per rule 6)
-docs/EXECUTION_PLAN.md  (§8 Run Log, one appended line)
+scripts/export_from_notion.py   +span export (Span / Sponsor / Verified Through / Part Of)
+scripts/generate.py             +span resolution, SPANS_RENDER = False
+scripts/README.md               +"Awareness spans (E8)" section
+docs/EXECUTION_PLAN.md          §5 E8 (E8a–E8e), §6 Tier S, §8 Run Log line
+docs/REVIEW.md                  this file
 ```
 
-## Why nothing was started
+**In Notion, already live:** the Holidays data source gained four properties,
+`Span` (Day · Week · Month · Range), `Sponsor`, `Verified Through` and
+`Part Of`, plus `Part Of`'s reverse, `Includes`. Every existing row has them
+blank, which means "Day". I also created seven span rows, all **`Published`
+OFF**: National Impaired Driving Prevention Month, Dry January, Cervical Health
+Awareness Month, National Blood Donor Month, Black History Month, American
+Heart Month and Lent. Each one is sourced to its sponsor or a proclamation.
+Two published day rows, Ash Wednesday and Maundy Thursday, now have
+`Part Of` = Lent. The committed exporter ignores `Part Of`, so that changes
+nothing on the site.
 
-The gate (`git status --porcelain -- . ':(exclude)docs'`) was **empty**, untracked
-included, before and after — eleventh clean night running. The whole tree was clean:
-you committed the 11-12 `docs/` files as `41c766aa` and merged `origin/main`, so
-**`HEAD` == `origin/main` == `bfbf70b8`**. Nothing to pull.
+## How it works
 
-E1 / E3 / E5 are done. E2's five leftovers, E4's ~2,410 rows (★ B), E6's upstream
-half (★ A) and E7's two bullets all wait on you. §5's "Queue empty?" names the
-remaining candidates as explicitly *not* unattended work, so nothing was invented.
+- **Exporter.** A row with `Span` = Week, Month or Range is written to
+  `holidays.json` with a `span` object instead of `month`/`day`.
+  - Annual spans take their dates from the Notion `Date` (start–end), so they
+    need no code.
+  - Floating spans need a `SPAN_RULES` entry. There is one so far: Lent, from
+    Ash Wednesday to Holy Thursday, per USCCB.
+  - `sponsor`, `verified_through` and `part_of` are written only when set, so
+    all 2,450 existing rows export byte-identically.
+- **Generator.** `partition_spans()` runs first in `generate()`. Spans never
+  enter the day pipeline (`holidays`, `by_slug`, `occurrences`, the day index,
+  feeds). `resolve_spans()` computes each span's current or next occurrence
+  with its own memo. The results go into the report (`spans_total`,
+  `span_occurrences`, `span_problems`). Problems such as an expired lookup or
+  a lapsed `Verified Through` year print as warnings and GitHub annotations.
+  `SPANS_RENDER = False`: nothing is rendered yet.
 
-**Checked rather than assumed that no answer had landed.** A live `Type` count over
-the Notion database returns **(untyped) 2414 · Religious 23 · Federal 11 · Season &
-Clock 6** — identical to 11-11 and 11-12, with **zero** rows in `Fun`, `Cultural`,
-`Observance` or `State`. ★ B has not moved. I also read `41c766aa` hunk by hunk:
-every line is the two runs' own writes (three content-queue ticks, the §7 GWR
-candidate, two Run Log entries). No answer arrived in the plan either.
+## What I verified (throwaway tree, `--today 2026-11-13`)
 
-**No `git fetch` again tonight** — `ls-remote` showed no new commit, so there was no
-reason to risk it. 11-11's **`.git/stale-fetch-tmp/` is still there (97 files,
-1.4 MB)**; nothing references it, delete it whenever you like.
+1. **Old vs new generator: `diff -rq` reported 0 differences** across all of
+   `public/`. The reports are equal apart from the four new span keys.
+2. **New generator with 6 synthetic span rows vs without: 0 differences**,
+   and day occurrences are identical.
+3. **Span dates are correct:**
+   - Lent 2026 = Feb 18 – Apr 2, which matches USCCB's published dates. Lent
+     2027 = Feb 10 – Mar 25.
+   - A Dec 26 – Jan 1 range is "current" on Jan 1 and rolls over on Jan 2.
+   - "First full week of October" = Oct 3–9, 2027.
+   - A Thanksgiving-relative week = Nov 15–21, 2026.
+   - February 2028 ends on the 29th.
+4. **Problems are flagged:** an expired `lookup_table` and a `Verified
+   Through` of 2025 both raised a warning, and neither stopped the run.
+5. **The exporter was tested on mock Notion pages** for Month, Annual Range
+   with an end date, Week with no end (7 days), Floating with a rule, Floating
+   with no rule (skipped with a warning), Range with no end (skipped), and
+   Day / blank (unchanged).
 
-## What I verified
+## What to check
 
-Committed generator on committed inputs, `--today 2026-11-13`, into two throwaway
-directories under `$HOME`, outside the mount. `public/` was never a target; both
-directories were removed afterwards and the gate re-checked clean.
-
-- **Exit 0, stderr 0 bytes, zero WARNING lines.** Twice.
-- **5,700 files**, and the two runs are **`diff -rq` byte-identical** — idempotent.
-- 2,450 observance / **383 dated** (horizon rolled one day to `2027-11-12`, so one
-  new dated page and nothing rewritten) / 366 perennial / 2 year-index / 14 category
-  / 19 simple.
-- 2,465 `.ics`, 3,261 events, main feed **1,999,149 bytes** (+897 on last night —
-  the ten-year window stepping, not a trend). Cards off, `occasions_total` 0.
-- Every problem array empty — `pages_changed`, `pages_skipped`, `unresolved_holidays`,
-  `unknown_types`, `stale_month_files`, `occasions_problems`, `perennial_pages_skipped`
-  — **except** the four known expiring lookup rows in `perennial_index_skipped` and
-  `super-bowl-sunday` in `day_index_skipped` (§7's D2). Not new.
-
-**And one check that was not part of the routine.** Last night's content run warned
-that `guinness-world-records-day` would contradict itself in front of readers. I
-fetched the deployed page to see whether it actually does. It does:
-`https://todaycelebrates.com/holiday/guinness-world-records-day/` returns 200 and the
-**same page carries both "19 November 2026" (what Guinness publishes) and
-"November 12" (the site's own date field)**. This is the first §7 fidelity defect
-confirmed visible in production rather than inferred — `national-bison-day` is the
-same error class but does not surface until 2027.
-
-## What you should check
-
-1. **The diff is two docs files.** Nothing else. If anything under `scripts/`,
-   `public/`, `wrangler.jsonc` or `.github/` appears, I did not put it there.
-2. **The live GWR page**, if you want to see the contradiction yourself — it is one
-   page load, and it is the concrete version of the abstract argument below.
-
----
+- Skim the two script diffs. They are about 210 added lines and no changed
+  lines.
+- **Commit and push when happy.** Committing E8a does two things:
+  1. Unblocks **E8b** (span pages, feeds and structured data) for the next
+     overnight engineering run. **Deadline: Dec 15** for the January and
+     February month hubs, which come in E8d.
+  2. Lets span rows be **published** safely. Until E8a is in `origin/main`,
+     the daily Action's exporter has no span support, and a published Month
+     row would ship as a one-day holiday. That is why the span rows I seeded
+     today are `Published` OFF. The first content run after your commit turns
+     them on (Tier S, STEP 0).
 
 ## Needs a decision
 
-Unchanged in substance from last night; reordered, because the evidence moved.
-
-- **The fidelity audit as E8 — go/no-go only.** Promoted to the top tonight. It is
-  already specified (~24 rows in `docs/FIDELITY_AUDIT.md`), needs no design judgment
-  from you, and is now the only open item with a defect **a reader can see today**
-  rather than from 2027. `ascension` (Easter + 39, stored fixed May 6, true
-  2028-05-25) is a row a run could fix correctly on night one. One word unblocks it.
-
-  Note what E8 would *not* settle: `guinness-world-records-day` needs a model choice
-  (a `Floating` lookup of announced dates, like `super-bowl-sunday`, versus an annual
-  refresh), and `international-stout-day`, `fountain-pen-day` and
-  `international-tongue-twister-day` have no acceptable source for their rules at all.
-  E8 fixes the sourceable rows and leaves the rest flagged — which is still a dozen-odd
-  real corrections.
-
-- **★ B — the E4 `Type` ordering question** (**31 days**). The one that refills the
-  queue for weeks. The blocker is not the typing: `UNTYPED_RANK` currently sorts
-  *below* `Fun`, so typing the 661 easy food/beer/coffee/dog rows as `Fun` today would
-  **promote** them over every row still untyped — 2,752 files, lead observance changed
-  on 471 of 744 list pages. One line in `scripts/generate.py`, **not** applied:
-
-  ```python
-  # line 821, currently:
-  UNTYPED_RANK = len(TYPE_ORDER) + 1       # no Type at all -- sorts last
-  # would become:
-  UNTYPED_RANK = TYPE_RANK["Fun"] - 0.5    # untyped sorts above Fun, below the rest
-  ```
-
-  Reply *"yes, untyped above Fun"* and the next run lands that line plus the 661
-  unambiguous `Fun` rows, with the before/after lead list in the morning diff.
-
-- **★ A — the Listed tier price and what it includes** (**29 days**). Unblocks E6's
-  form / Checkout / Worker and E7's Featured tier.
-
-- **D1 — three Notion property descriptions still contradict the code**
-  (**twenty-seventh flag**, re-read in the live schema tonight: `FAQ` still says the
-  question goes in `**bold**`, `Body` still lists `[text](url)`, `Timeline` still asks
-  for `- **1927** —`). Unapplied only because rule 4 confines me to §5. The whole fix:
-
-  - `FAQ` → *FAQ: 3-5 pairs. Question on its own line as plain text — no bold; bold
-    does not survive the export. Answer on the line(s) below, blank line between
-    pairs. Feeds FAQPage structured data.*
-  - `Body` → same text as now, with `[text](url)` removed from the allowed subset: a
-    markdown link loses its URL on export, so body links must be bare URLs.
-  - `Timeline` → *Timeline: 4-6 dated entries, one per line, as `- 1927 — what
-    happened` (plain text, no bold). Every entry sourced in Sources.*
-
-  Twenty-seven flags on a three-field edit is the argument for standing permission to
-  fix documentation that contradicts shipped code.
-
-- **May a nightly run `git fetch`?** Read-only, no branch moved, no merge — but it is
-  the only way to tell your commit from the workflow's, and on 11-11 it cost 97 stray
-  temp files because deletion is blocked in your folder. Three reasonable answers:
-  *yes, fetch* (and ignore the litter); *yes, and grant this session delete permission
-  in the repo*; or *no, `ls-remote` only* — I defaulted to the third again.
-
-- **May a content run correct a row's `Date`/`Recurrence` when the founding body
-  itself publishes the right answer?** Raised by the 11-12 content run and now
-  sharpened by the live GWR contradiction. A yes in §4 would have fixed that page
-  last night without waiting for E8.
-
-- **Carried forward unchanged:** bare `/holidays/` 404s; ★ D (home-page shift in the
-  stale-build window, and whether E3's "CLS stays 0.0000" should become a threshold);
-  ★ E (hero poster band); ★ F (fixed-date feed history); ★ G (Cloudflare not
-  compressing `text/calendar`); D2 (four lookup tables expiring in 2027,
-  `super-bowl-sunday` first, 2027-02-14); whether content-run method findings become
-  standing §7 notes; whether Chronicling America is permanently unreachable from
-  these runs.
-
-### The one structural choice
-
-Sixteen nights, sixteen clean no-ops. The machinery is working exactly as designed —
-gate clean, generator clean, nothing invented — and that is the problem: **the queue
-is drained of anything an unattended run is permitted to do.** Three ways out,
-unchanged:
-
-1. **Promote the fidelity audit to E8** — one word, and tonight's live-site check
-   turned its justification from "a reader will see this in 2027" into "a reader can
-   see this now."
-2. **Answer ★ B** — one sentence, refills the queue for weeks.
-3. **Stand the nightly engineering run down to weekly** until there is an item for
-   it — costs nothing and stops producing a review note you have to read.
-
-I will not pick for you. But night seventeen reads exactly like this one if none of
-the three happens, and the nightly run is now costing you more attention than it is
-returning.
-
----
-
-## 2026-11-13 · content run · Tier 5 T5-37 to T5-39
-
-**What changed.** Three Notion rows took long-form content and went to `Content Status = Live`,
-so they publish at the next regeneration:
-
-- World Kindness Day — https://todaycelebrates.com/holiday/world-kindness-day/ — 778 words
-- National Bread Pudding Day — https://todaycelebrates.com/holiday/national-bread-pudding-day/ — 856 words
-- Sadie Hawkins Day — https://todaycelebrates.com/holiday/sadie-hawkins-day/ — 794 words
-
-In this repo only `docs/EXECUTION_PLAN.md` changed (three queue ticks in §6, one Run Log line in §8)
-and this file. Nothing in `scripts/`, `public/` or at the root. Nothing committed, pushed or merged.
-`Published` was not touched on any row; `Description` was not touched on any row.
-
-**What to check.**
-
-1. **Sadie Hawkins Day's date is not sourceable.** The Library of Congress holds a Capp original
-   published 25 Sept 1943 whose catalog title reads "Sadie Hawkins Day comes on Nov. 6th". Nothing
-   in an acceptable source explains how Nov 13 became the conventional date, and nothing confirms
-   the universally repeated 15 Nov 1937 first-run date. The page says both of those things out loud.
-   This is a §7 fidelity candidate: our stored date may simply be the aggregator consensus.
-2. **Bread pudding's famous origin story is rejected on the page.** The 11th-century "poor man's
-   pudding" line is everywhere, and its citation trail runs to a personal blog and a user-generated
-   site. The page states that instead of repeating it. If Jay would rather the page stay silent than
-   argue with the internet, that paragraph is the one to cut.
-3. **Three of the bread-pudding citations are contents/index entries, not recipe bodies.** The
-   Glasse 1796, Randolph 1836 and Beeton 1861 scans would not yield their recipe text; only their
-   tables of contents and index were readable. `Sources` says so explicitly. The Simmons 1796 recipe
-   text WAS retrieved and is quoted.
-4. **World Kindness Day rests on one self-published source.** The World Kindness Movement's own site
-   is the only account of the 1997 Tokyo conference and the 13 Nov 1998 launch; no corroborating
-   government, UN or news source could be found. Its two pages word the Tokyo founding slightly
-   differently (one gives the year, one the full date) — consistent, but worth knowing. No founder
-   is named anywhere, and the page says that rather than inventing one.
-
-**What to watch for.** The device bridge dropped mid-run, after the three Notion writes landed and
-before any `docs/` edit, and reconnected roughly seven minutes later. If a future content run's Notion
-rows are Live but its Run Log line is missing, that is the failure mode — the content shipped and the
-bookkeeping did not.
-
-**Verification run.** `scripts/generate.py` into a throwaway directory (never `public/`): exit 0,
-2450 holiday pages, all three slugs present. `parse_faq()` from the committed `scripts/generate.py`
-run against the exact submitted FAQ text: 5 / 5 / 5 pairs. Step 0 gate passed
-(`LONGFORM_RELEASED_STATUSES` present in the committed exporter).
-
-**Revert.** Set a row's `Content Status` back to `Draft` in Notion. At the next regeneration that page
-returns to its short `Description` with nothing lost.
+None. Every E8 decision is recorded in §5 E8. One later choice is noted
+there: The Start of Hanukkah and The Start of Ramadan keep their names when
+they become spans in E8e, because a rename changes the slug. Say if you'd
+rather rename them.
