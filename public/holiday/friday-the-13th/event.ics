@@ -14,24 +14,6 @@ SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/event.
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:friday-the-13th-20261113@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
-  and nearly everything commonly said about where it came from is wrong. It
-  is not medieval\, it has no demonstrable link to the Knights Templar\, an
- d Library of Congress folklorists trace the belief no further back than 18
- 30s France. Every year holds at least one and never more than three\; 2026
-  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:friday-the-13th-20270813@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20270813
