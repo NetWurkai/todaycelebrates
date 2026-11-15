@@ -861,10 +861,14 @@ DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:America Recycles Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:America Recycles Day\, observed on November 15\, encourages peo
- ple across the United States to pause and recognize the people and causes 
- behind the day.\n\nhttps://todaycelebrates.com/holiday/america-recycles-da
- y/
+DESCRIPTION:America Recycles Day falls on November 15 and is the one day on
+  the American calendar given over entirely to recycling. It began as a sta
+ te campaign in Texas in 1994 and went national three years later\; Keep Am
+ erica Beautiful runs it now\, with the Environmental Protection Agency as 
+ its most visible federal backer. The premise is less celebration than arit
+ hmetic — the most recent federal figures show the national recycling rat
+ e going down\, not up.\n\nhttps://todaycelebrates.com/holiday/america-recy
+ cles-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/america-recycles-day/
 CATEGORIES:Community
 TRANSP:TRANSPARENT
@@ -13307,9 +13311,13 @@ DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:I Love to Write Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:I Love to Write Day is a reading- and writing-focused observanc
- e on November 15\, celebrated by book lovers across the United States.\n\n
- https://todaycelebrates.com/holiday/i-love-to-write-day/
+DESCRIPTION:I Love to Write Day falls on November 15 and asks people of any
+  age to spend part of the day writing something: a poem\, a letter\, the f
+ irst page of a novel. It was created in 2002 by John Riddle\, an author in
+  Bear\, Delaware\, and it is unusually well attested for a grassroots obse
+ rvance: the founder is still at it\, still explaining it on the record\, a
+ nd candid that he picked the date for no reason at all.\n\nhttps://todayce
+ lebrates.com/holiday/i-love-to-write-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/i-love-to-write-day/
 CATEGORIES:Books
 TRANSP:TRANSPARENT
@@ -15946,8 +15954,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-girls-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:International Girls Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Girls Day\, observed on November 14\, is a lighth
@@ -21203,8 +21211,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-american-teddy-bear-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:National American Teddy Bear Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National American Teddy Bear Day is marked on November 14\, the
@@ -23230,10 +23238,12 @@ DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:National Bundt Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Bundt Day is a food-focused observance celebrated acro
- ss the United States on November 15\, giving fans of the dish or ingredien
- t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
- rates.com/holiday/national-bundt-day/
+DESCRIPTION:National Bundt Day falls on November 15 and honors a cake pan: 
+ the fluted\, hollow-centered aluminum ring Nordic Ware has made in Minneap
+ olis since 1950. Who created the observance\, and when\, is not recorded i
+ n any source this page would accept\, and Nordic Ware promotes the date wi
+ thout claiming to have invented it.\n\nhttps://todaycelebrates.com/holiday
+ /national-bundt-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bundt-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -35682,8 +35692,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-pickle-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:National Pickle Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Pickle Day is marked on November 14 and has no documen
@@ -37570,8 +37580,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-seat-belt-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:National Seat Belt Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Seat Belt Day is a health-awareness observance on Nove
@@ -38221,8 +38231,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-spicy-guacamole-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:National Spicy Guacamole Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Spicy Guacamole Day is a food-focused observance celeb
@@ -42378,8 +42388,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:operating-room-nurse-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:Operating Room Nurse Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Operating Room Nurse Day is a health-awareness observance on No
@@ -52510,8 +52520,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-diabetes-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:World Diabetes Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Diabetes Day falls on November 14\, the birthday of Frede

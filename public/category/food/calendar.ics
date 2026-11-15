@@ -2034,10 +2034,12 @@ DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:National Bundt Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Bundt Day is a food-focused observance celebrated acro
- ss the United States on November 15\, giving fans of the dish or ingredien
- t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
- rates.com/holiday/national-bundt-day/
+DESCRIPTION:National Bundt Day falls on November 15 and honors a cake pan: 
+ the fluted\, hollow-centered aluminum ring Nordic Ware has made in Minneap
+ olis since 1950. Who created the observance\, and when\, is not recorded i
+ n any source this page would accept\, and Nordic Ware promotes the date wi
+ thout claiming to have invented it.\n\nhttps://todaycelebrates.com/holiday
+ /national-bundt-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bundt-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -7424,8 +7426,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-pickle-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:National Pickle Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Pickle Day is marked on November 14 and has no documen
@@ -8409,8 +8411,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-spicy-guacamole-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:National Spicy Guacamole Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Spicy Guacamole Day is a food-focused observance celeb
