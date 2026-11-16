@@ -857,8 +857,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:america-recycles-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:America Recycles Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:America Recycles Day falls on November 15 and is the one day on
@@ -5605,8 +5605,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:clean-out-your-refrigerator-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:Clean Out Your Refrigerator Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Clean Out Your Refrigerator Day\, observed on November 15\, is 
@@ -13307,8 +13307,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:i-love-to-write-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:I Love to Write Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:I Love to Write Day falls on November 15 and asks people of any
@@ -14826,10 +14826,14 @@ DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:International Day for Tolerance
 RRULE:FREQ=YEARLY
-DESCRIPTION:International Day for Tolerance\, observed on November 16\, enc
- ourages people across the United States to pause and recognize the people 
- and causes behind the day.\n\nhttps://todaycelebrates.com/holiday/internat
- ional-day-for-tolerance/
+DESCRIPTION:The International Day for Tolerance falls on November 16\, and 
+ it has two founding documents rather than one: UNESCO proclaimed the day i
+ n 1995\, and the United Nations General Assembly invited member states to 
+ observe it the year after. The date was not chosen at random. November 16 
+ is the anniversary of UNESCO's own constitution\, adopted on that day in 1
+ 945\, and the declaration that created the observance was adopted exactly 
+ fifty years later.\n\nhttps://todaycelebrates.com/holiday/international-da
+ y-for-tolerance/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-tol
  erance/
 CATEGORIES:Community
@@ -23234,8 +23238,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-bundt-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:National Bundt Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Bundt Day falls on November 15 and honors a cake pan: 
@@ -23362,9 +23366,12 @@ DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:National Button Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Button Day\, observed on November 16\, is a lightheart
- ed holiday celebrated across the United States.\n\nhttps://todaycelebrates
- .com/holiday/national-button-day/
+DESCRIPTION:National Button Day falls on November 16 and is almost always c
+ redited to the National Button Society\, founded in 1938. The Society's ow
+ n pages make no such claim: they use the day's name without saying who cre
+ ated it or when. The 1938 attached to the day is the organization's foundi
+ ng year\, borrowed.\n\nhttps://todaycelebrates.com/holiday/national-button
+ -day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-button-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -28308,10 +28315,13 @@ DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:National Fast Food Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Fast Food Day is a food-focused observance celebrated 
- across the United States on November 16\, giving fans of the dish or ingre
- dient an excuse to seek it out and share it with others.\n\nhttps://todayc
- elebrates.com/holiday/national-fast-food-day/
+DESCRIPTION:National Fast Food Day falls on November 16\, and nobody appear
+ s to know who started it. No founder\, founding year or sponsoring organiz
+ ation turns up in any government record\, news archive or industry body's 
+ own material. What can be documented is the thing the day points at: an in
+ dustry with a traceable beginning in Wichita\, Kansas\, in 1921 and a meas
+ ured place in what Americans eat now.\n\nhttps://todaycelebrates.com/holid
+ ay/national-fast-food-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fast-food-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -35674,8 +35684,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-philanthropy-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:National Philanthropy Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Philanthropy Day\, observed on November 15\, encourage
@@ -47555,8 +47565,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:steve-irwin-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:Steve Irwin Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Steve Irwin Day is a nature-focused observance on November 15\,
@@ -52468,8 +52478,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-day-of-remembrance-for-road-traffic-victims@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:World Day of Remembrance for Road Traffic Victims
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Day of Remembrance for Road Traffic Victims\, observed on
