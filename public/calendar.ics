@@ -12328,8 +12328,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:have-a-party-with-your-bear-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:Have a Party With Your Bear Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Have a Party With Your Bear Day\, observed on November 16\, is 
@@ -14143,8 +14143,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-check-your-wipers-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:International Check Your Wipers Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Check Your Wipers Day\, observed on November 16\,
@@ -14822,8 +14822,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-day-for-tolerance@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:International Day for Tolerance
 RRULE:FREQ=YEARLY
 DESCRIPTION:The International Day for Tolerance falls on November 16\, and 
@@ -23362,8 +23362,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-button-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:National Button Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Button Day falls on November 16 and is almost always c
@@ -28077,9 +28077,12 @@ DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:National Entrepreneurs' Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Entrepreneurs' Day\, observed on November 17\, is a li
- ghthearted holiday celebrated across the United States.\n\nhttps://todayce
- lebrates.com/holiday/national-entrepreneurs-day/
+DESCRIPTION:National Entrepreneurs' Day falls on the third Tuesday of Novem
+ ber\, which in 2026 is November 17. Three resolutions in Congress proposed
+  that rule and none of them enacted it\; the only federal document that ha
+ s ever named a specific day for it is a presidential proclamation from 202
+ 4. The month around it has firmer standing than the day does.\n\nhttps://t
+ odaycelebrates.com/holiday/national-entrepreneurs-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-entrepreneurs-da
  y/
 CATEGORIES:Celebration
@@ -28311,8 +28314,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-fast-food-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:National Fast Food Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Fast Food Day falls on November 16\, and nobody appear
@@ -30566,10 +30569,13 @@ DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:National Homemade Bread Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Homemade Bread Day is a food-focused observance celebr
- ated across the United States on November 17\, giving fans of the dish or 
- ingredient an excuse to seek it out and share it with others.\n\nhttps://t
- odaycelebrates.com/holiday/national-homemade-bread-day/
+DESCRIPTION:National Homemade Bread Day falls on November 17\, and no organ
+ ization\, agency\, or publication can be found claiming to have started it
+ . What is documented is more interesting than a founding story: bread is a
+ mong the most closely defined staples in American food law\, specified dow
+ n to the weight at which a loaf stops being a loaf. This page covers the p
+ art the record supports.\n\nhttps://todaycelebrates.com/holiday/national-h
+ omemade-bread-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-homemade-bread-d
  ay/
 CATEGORIES:Food
@@ -53563,9 +53569,14 @@ DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:World Peace Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Peace Day\, observed on November 17\, is a lighthearted h
- oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
- /holiday/world-peace-day/
+DESCRIPTION:World Peace Day turns up on November 17 in most American day-of
+ -the-year listings\, and no founding organization\, government page\, or n
+ ews report explains how it got there. The two peace observances that do ha
+ ve documented origins fall elsewhere on the calendar: January 1\, proposed
+  by Pope Paul VI in December 1967\, and September 21\, established by the 
+ United Nations General Assembly. This page gives what the record supports 
+ and leaves the November 17 date where the evidence leaves it.\n\nhttps://t
+ odaycelebrates.com/holiday/world-peace-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-peace-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
