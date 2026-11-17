@@ -257,8 +257,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:actors-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
 SUMMARY:Actor's Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Actor's Day\, observed on November 13\, is a lighthearted holid
@@ -857,14 +857,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:america-recycles-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:America Recycles Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:America Recycles Day\, observed on November 15\, encourages peo
- ple across the United States to pause and recognize the people and causes 
- behind the day.\n\nhttps://todaycelebrates.com/holiday/america-recycles-da
- y/
+DESCRIPTION:America Recycles Day falls on November 15 and is the one day on
+  the American calendar given over entirely to recycling. It began as a sta
+ te campaign in Texas in 1994 and went national three years later\; Keep Am
+ erica Beautiful runs it now\, with the Environmental Protection Agency as 
+ its most visible federal backer. The premise is less celebration than arit
+ hmetic — the most recent federal figures show the national recycling rat
+ e going down\, not up.\n\nhttps://todaycelebrates.com/holiday/america-recy
+ cles-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/america-recycles-day/
 CATEGORIES:Community
 TRANSP:TRANSPARENT
@@ -5186,8 +5190,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chicken-soup-for-the-soul-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:Chicken Soup for the Soul Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Chicken Soup for the Soul Day marks a book that almost nobody w
@@ -5601,8 +5605,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:clean-out-your-refrigerator-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:Clean Out Your Refrigerator Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Clean Out Your Refrigerator Day\, observed on November 15\, is 
@@ -9969,24 +9973,6 @@ CLASS:PUBLIC
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:friday-the-13th-20261113@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
-  and nearly everything commonly said about where it came from is wrong. It
-  is not medieval\, it has no demonstrable link to the Knights Templar\, an
- d Library of Congress folklorists trace the belief no further back than 18
- 30s France. Every year holds at least one and never more than three\; 2026
-  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:friday-the-13th-20270813@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20270813
@@ -12201,8 +12187,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:guinness-world-records-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:Guinness World Records Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Guinness World Records Day is the record company's own annual i
@@ -12293,8 +12279,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:happy-hour-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:Happy Hour Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Happy Hour Day is a drinks-focused observance on November 12\, 
@@ -12342,8 +12328,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:have-a-party-with-your-bear-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:Have a Party With Your Bear Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Have a Party With Your Bear Day\, observed on November 16\, is 
@@ -13321,13 +13307,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:i-love-to-write-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:I Love to Write Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:I Love to Write Day is a reading- and writing-focused observanc
- e on November 15\, celebrated by book lovers across the United States.\n\n
- https://todaycelebrates.com/holiday/i-love-to-write-day/
+DESCRIPTION:I Love to Write Day falls on November 15 and asks people of any
+  age to spend part of the day writing something: a poem\, a letter\, the f
+ irst page of a novel. It was created in 2002 by John Riddle\, an author in
+  Bear\, Delaware\, and it is unusually well attested for a grassroots obse
+ rvance: the founder is still at it\, still explaining it on the record\, a
+ nd candid that he picked the date for no reason at all.\n\nhttps://todayce
+ lebrates.com/holiday/i-love-to-write-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/i-love-to-write-day/
 CATEGORIES:Books
 TRANSP:TRANSPARENT
@@ -14153,8 +14143,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-check-your-wipers-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:International Check Your Wipers Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Check Your Wipers Day\, observed on November 16\,
@@ -14832,14 +14822,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-day-for-tolerance@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:International Day for Tolerance
 RRULE:FREQ=YEARLY
-DESCRIPTION:International Day for Tolerance\, observed on November 16\, enc
- ourages people across the United States to pause and recognize the people 
- and causes behind the day.\n\nhttps://todaycelebrates.com/holiday/internat
- ional-day-for-tolerance/
+DESCRIPTION:The International Day for Tolerance falls on November 16\, and 
+ it has two founding documents rather than one: UNESCO proclaimed the day i
+ n 1995\, and the United Nations General Assembly invited member states to 
+ observe it the year after. The date was not chosen at random. November 16 
+ is the anniversary of UNESCO's own constitution\, adopted on that day in 1
+ 945\, and the declaration that created the observance was adopted exactly 
+ fifty years later.\n\nhttps://todaycelebrates.com/holiday/international-da
+ y-for-tolerance/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-tol
  erance/
 CATEGORIES:Community
@@ -15964,8 +15958,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-girls-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:International Girls Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Girls Day\, observed on November 14\, is a lighth
@@ -21221,13 +21215,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-american-teddy-bear-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:National American Teddy Bear Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National American Teddy Bear Day\, observed on November 14\, is
-  a lighthearted\, family-friendly day celebrated across the United States.
- \n\nhttps://todaycelebrates.com/holiday/national-american-teddy-bear-day/
+DESCRIPTION:National American Teddy Bear Day is marked on November 14\, the
+  date in 1902 when Theodore Roosevelt went bear hunting in Mississippi and
+  refused to shoot the animal his hosts had cornered for him. The observanc
+ e's own origin is undocumented\; the hunt behind it is not. What followed 
+ was a newspaper cartoon\, a Brooklyn candy shop\, and the only American to
+ y named after a president.\n\nhttps://todaycelebrates.com/holiday/national
+ -american-teddy-bear-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-american-teddy-b
  ear-day/
 CATEGORIES:Kids & Family
@@ -22940,14 +22938,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-bread-pudding-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
 SUMMARY:National Bread Pudding Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Bread Pudding Day is a food-focused observance celebra
- ted across the United States on November 13\, giving fans of the dish or i
- ngredient an excuse to seek it out and share it with others.\n\nhttps://to
- daycelebrates.com/holiday/national-bread-pudding-day/
+DESCRIPTION:National Bread Pudding Day falls on November 13 and marks a dis
+ h that exists because bread goes stale. The observance itself has no trace
+ able origin — no founding organization\, proclamation or first year appe
+ ars in any reliable source — but the dish it names is among the better-d
+ ocumented desserts in English and American cookbooks\, printed and reprint
+ ed from the 1700s onward.\n\nhttps://todaycelebrates.com/holiday/national-
+ bread-pudding-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bread-pudding-da
  y/
 CATEGORIES:Food
@@ -23237,14 +23238,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-bundt-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:National Bundt Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Bundt Day is a food-focused observance celebrated acro
- ss the United States on November 15\, giving fans of the dish or ingredien
- t an excuse to seek it out and share it with others.\n\nhttps://todayceleb
- rates.com/holiday/national-bundt-day/
+DESCRIPTION:National Bundt Day falls on November 15 and honors a cake pan: 
+ the fluted\, hollow-centered aluminum ring Nordic Ware has made in Minneap
+ olis since 1950. Who created the observance\, and when\, is not recorded i
+ n any source this page would accept\, and Nordic Ware promotes the date wi
+ thout claiming to have invented it.\n\nhttps://todaycelebrates.com/holiday
+ /national-bundt-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-bundt-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -23359,13 +23362,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-button-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:National Button Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Button Day\, observed on November 16\, is a lightheart
- ed holiday celebrated across the United States.\n\nhttps://todaycelebrates
- .com/holiday/national-button-day/
+DESCRIPTION:National Button Day falls on November 16 and is almost always c
+ redited to the National Button Society\, founded in 1938. The Society's ow
+ n pages make no such claim: they use the day's name without saying who cre
+ ated it or when. The 1938 attached to the day is the organization's foundi
+ ng year\, borrowed.\n\nhttps://todaycelebrates.com/holiday/national-button
+ -day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-button-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -28071,9 +28077,12 @@ DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:National Entrepreneurs' Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Entrepreneurs' Day\, observed on November 17\, is a li
- ghthearted holiday celebrated across the United States.\n\nhttps://todayce
- lebrates.com/holiday/national-entrepreneurs-day/
+DESCRIPTION:National Entrepreneurs' Day falls on the third Tuesday of Novem
+ ber\, which in 2026 is November 17. Three resolutions in Congress proposed
+  that rule and none of them enacted it\; the only federal document that ha
+ s ever named a specific day for it is a presidential proclamation from 202
+ 4. The month around it has firmer standing than the day does.\n\nhttps://t
+ odaycelebrates.com/holiday/national-entrepreneurs-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-entrepreneurs-da
  y/
 CATEGORIES:Celebration
@@ -28305,14 +28314,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-fast-food-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:National Fast Food Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Fast Food Day is a food-focused observance celebrated 
- across the United States on November 16\, giving fans of the dish or ingre
- dient an excuse to seek it out and share it with others.\n\nhttps://todayc
- elebrates.com/holiday/national-fast-food-day/
+DESCRIPTION:National Fast Food Day falls on November 16\, and nobody appear
+ s to know who started it. No founder\, founding year or sponsoring organiz
+ ation turns up in any government record\, news archive or industry body's 
+ own material. What can be documented is the thing the day points at: an in
+ dustry with a traceable beginning in Wichita\, Kansas\, in 1921 and a meas
+ ured place in what Americans eat now.\n\nhttps://todaycelebrates.com/holid
+ ay/national-fast-food-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fast-food-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -28855,8 +28867,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-french-dip-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:National French Dip Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National French Dip Day marks a sandwich claimed by two Los Ang
@@ -30557,10 +30569,13 @@ DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:National Homemade Bread Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Homemade Bread Day is a food-focused observance celebr
- ated across the United States on November 17\, giving fans of the dish or 
- ingredient an excuse to seek it out and share it with others.\n\nhttps://t
- odaycelebrates.com/holiday/national-homemade-bread-day/
+DESCRIPTION:National Homemade Bread Day falls on November 17\, and no organ
+ ization\, agency\, or publication can be found claiming to have started it
+ . What is documented is more interesting than a founding story: bread is a
+ mong the most closely defined staples in American food law\, specified dow
+ n to the weight at which a loaf stops being a loaf. This page covers the p
+ art the record supports.\n\nhttps://todaycelebrates.com/holiday/national-h
+ omemade-bread-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-homemade-bread-d
  ay/
 CATEGORIES:Food
@@ -31394,8 +31409,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-indian-pudding-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
 SUMMARY:National Indian Pudding Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Indian Pudding Day is a food-focused observance celebr
@@ -35675,8 +35690,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-philanthropy-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:National Philanthropy Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Philanthropy Day\, observed on November 15\, encourage
@@ -35693,14 +35708,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-pickle-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:National Pickle Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Pickle Day is a food-focused observance celebrated acr
- oss the United States on November 14\, giving fans of the dish or ingredie
- nt an excuse to seek it out and share it with others.\n\nhttps://todaycele
- brates.com/holiday/national-pickle-day/
+DESCRIPTION:National Pickle Day is marked on November 14 and has no documen
+ ted origin. The pickled-vegetable industry's own trade association\, in bu
+ siness since 1893\, did create a national pickle observance — but it is 
+ a week in May\, and the association's site does not mention November 14 at
+  all. What can be documented is the industry\, which is considerably older
+  than the day attached to it.\n\nhttps://todaycelebrates.com/holiday/natio
+ nal-pickle-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pickle-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -35904,8 +35922,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-pizza-with-the-works-except-anchovies-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:National Pizza with the Works Except Anchovies Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Pizza with the Works Except Anchovies Day is a food-fo
@@ -37578,8 +37596,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-seat-belt-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:National Seat Belt Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Seat Belt Day is a health-awareness observance on Nove
@@ -38229,8 +38247,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-spicy-guacamole-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:National Spicy Guacamole Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Spicy Guacamole Day is a food-focused observance celeb
@@ -42386,8 +42404,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:operating-room-nurse-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:Operating Room Nurse Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Operating Room Nurse Day is a health-awareness observance on No
@@ -45758,13 +45776,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sadie-hawkins-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
 SUMMARY:Sadie Hawkins Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Sadie Hawkins Day\, observed on November 13\, is a lighthearted
-  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
- om/holiday/sadie-hawkins-day/
+DESCRIPTION:Sadie Hawkins Day is observed on November 13 in the United Stat
+ es\, and it began as a running gag in a comic strip. Al Capp introduced it
+  in Li'l Abner in 1937 as an annual event in the invented town of Dogpatch
+ \, where the unmarried women were licensed for one day to chase down the b
+ achelors\, and the Library of Congress — which holds Capp's original dra
+ wings — says it "quickly became a national institution." What it did not
+  have\, for most of its life\, was a fixed date.\n\nhttps://todaycelebrate
+ s.com/holiday/sadie-hawkins-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/sadie-hawkins-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -47313,8 +47336,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:start-a-rumor-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
 SUMMARY:Start a Rumor Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Start a Rumor Day\, observed on November 13\, is a lighthearted
@@ -47548,8 +47571,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:steve-irwin-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:Steve Irwin Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Steve Irwin Day is a nature-focused observance on November 15\,
@@ -48426,8 +48449,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:symphonic-metal-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
 SUMMARY:Symphonic Metal Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Symphonic Metal Day is a music-focused observance on November 1
@@ -52461,8 +52484,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-day-of-remembrance-for-road-traffic-victims@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:World Day of Remembrance for Road Traffic Victims
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Day of Remembrance for Road Traffic Victims\, observed on
@@ -52513,13 +52536,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-diabetes-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:World Diabetes Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Diabetes Day is a health-awareness observance on November
-  14\, marked across the United States to spotlight a wellness topic worth 
- a second look.\n\nhttps://todaycelebrates.com/holiday/world-diabetes-day/
+DESCRIPTION:World Diabetes Day falls on November 14\, the birthday of Frede
+ rick Banting\, who shared the 1923 Nobel Prize for the work that produced 
+ insulin. It is one of the few observances with a complete paper trail: the
+  International Diabetes Federation began marking the date in 1991\, and th
+ e United Nations General Assembly designated it a United Nations Day by re
+ solution in December 2006. The campaign exists because the disease keeps o
+ utrunning the response to it.\n\nhttps://todaycelebrates.com/holiday/world
+ -diabetes-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-diabetes-day/
 CATEGORIES:Health
 TRANSP:TRANSPARENT
@@ -53047,13 +53075,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-kindness-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
 SUMMARY:World Kindness Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Kindness Day\, observed on November 13\, encourages peopl
- e across the United States to pause and recognize the people and causes be
- hind the day.\n\nhttps://todaycelebrates.com/holiday/world-kindness-day/
+DESCRIPTION:World Kindness Day is observed on November 13 by the World Kind
+ ness Movement\, the international NGO that created it and launched it on t
+ hat date in 1998. It is one of the few observances of its kind with a trac
+ eable founding organization and a documented start\, and the movement's ow
+ n account is unusually specific about both. What it asks for is deliberate
+ ly unstructured: do something kind\, and let it count.\n\nhttps://todaycel
+ ebrates.com/holiday/world-kindness-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-kindness-day/
 CATEGORIES:Community
 TRANSP:TRANSPARENT
@@ -53537,9 +53569,14 @@ DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:World Peace Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Peace Day\, observed on November 17\, is a lighthearted h
- oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
- /holiday/world-peace-day/
+DESCRIPTION:World Peace Day turns up on November 17 in most American day-of
+ -the-year listings\, and no founding organization\, government page\, or n
+ ews report explains how it got there. The two peace observances that do ha
+ ve documented origins fall elsewhere on the calendar: January 1\, proposed
+  by Pope Paul VI in December 1967\, and September 21\, established by the 
+ United Nations General Assembly. This page gives what the record supports 
+ and leaves the November 17 date where the evidence leaves it.\n\nhttps://t
+ odaycelebrates.com/holiday/world-peace-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-peace-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -53683,8 +53720,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-pneumonia-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:World Pneumonia Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Pneumonia Day is a health-awareness observance on Novembe
@@ -54764,8 +54801,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-usability-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:World Usability Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Usability Day\, observed on November 12\, celebrates a pi

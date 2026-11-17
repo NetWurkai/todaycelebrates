@@ -48,8 +48,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:actors-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
 SUMMARY:Actor's Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Actor's Day\, observed on November 13\, is a lighthearted holid
@@ -1840,8 +1840,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chicken-soup-for-the-soul-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:Chicken Soup for the Soul Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Chicken Soup for the Soul Day marks a book that almost nobody w
@@ -2136,8 +2136,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:clean-out-your-refrigerator-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:Clean Out Your Refrigerator Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Clean Out Your Refrigerator Day\, observed on November 15\, is 
@@ -3833,24 +3833,6 @@ CLASS:PUBLIC
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:friday-the-13th-20261113@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Friday the 13th
-DESCRIPTION:Friday the 13th is the date most Americans know to be unlucky\,
-  and nearly everything commonly said about where it came from is wrong. It
-  is not medieval\, it has no demonstrable link to the Knights Templar\, an
- d Library of Congress folklorists trace the belief no further back than 18
- 30s France. Every year holds at least one and never more than three\; 2026
-  has three.\n\nhttps://todaycelebrates.com/holiday/friday-the-13th/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/friday-the-13th/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:friday-the-13th-20270813@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20270813
@@ -4785,8 +4767,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:guinness-world-records-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
 SUMMARY:Guinness World Records Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Guinness World Records Day is the record company's own annual i
@@ -5553,8 +5535,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-check-your-wipers-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:International Check Your Wipers Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Check Your Wipers Day\, observed on November 16\,
@@ -8220,13 +8202,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-button-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:National Button Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Button Day\, observed on November 16\, is a lightheart
- ed holiday celebrated across the United States.\n\nhttps://todaycelebrates
- .com/holiday/national-button-day/
+DESCRIPTION:National Button Day falls on November 16 and is almost always c
+ redited to the National Button Society\, founded in 1938. The Society's ow
+ n pages make no such claim: they use the day's name without saying who cre
+ ated it or when. The 1938 attached to the day is the organization's foundi
+ ng year\, borrowed.\n\nhttps://todaycelebrates.com/holiday/national-button
+ -day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-button-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -8904,9 +8889,12 @@ DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:National Entrepreneurs' Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Entrepreneurs' Day\, observed on November 17\, is a li
- ghthearted holiday celebrated across the United States.\n\nhttps://todayce
- lebrates.com/holiday/national-entrepreneurs-day/
+DESCRIPTION:National Entrepreneurs' Day falls on the third Tuesday of Novem
+ ber\, which in 2026 is November 17. Three resolutions in Congress proposed
+  that rule and none of them enacted it\; the only federal document that ha
+ s ever named a specific day for it is a presidential proclamation from 202
+ 4. The month around it has firmer standing than the day does.\n\nhttps://t
+ odaycelebrates.com/holiday/national-entrepreneurs-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-entrepreneurs-da
  y/
 CATEGORIES:Celebration
@@ -13660,13 +13648,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sadie-hawkins-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
 SUMMARY:Sadie Hawkins Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Sadie Hawkins Day\, observed on November 13\, is a lighthearted
-  holiday celebrated across the United States.\n\nhttps://todaycelebrates.c
- om/holiday/sadie-hawkins-day/
+DESCRIPTION:Sadie Hawkins Day is observed on November 13 in the United Stat
+ es\, and it began as a running gag in a comic strip. Al Capp introduced it
+  in Li'l Abner in 1937 as an annual event in the invented town of Dogpatch
+ \, where the unmarried women were licensed for one day to chase down the b
+ achelors\, and the Library of Congress — which holds Capp's original dra
+ wings — says it "quickly became a national institution." What it did not
+  have\, for most of its life\, was a fixed date.\n\nhttps://todaycelebrate
+ s.com/holiday/sadie-hawkins-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/sadie-hawkins-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -14223,8 +14216,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:start-a-rumor-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
 SUMMARY:Start a Rumor Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Start a Rumor Day\, observed on November 13\, is a lighthearted
@@ -16928,9 +16921,14 @@ DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:World Peace Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Peace Day\, observed on November 17\, is a lighthearted h
- oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
- /holiday/world-peace-day/
+DESCRIPTION:World Peace Day turns up on November 17 in most American day-of
+ -the-year listings\, and no founding organization\, government page\, or n
+ ews report explains how it got there. The two peace observances that do ha
+ ve documented origins fall elsewhere on the calendar: January 1\, proposed
+  by Pope Paul VI in December 1967\, and September 21\, established by the 
+ United Nations General Assembly. This page gives what the record supports 
+ and leaves the November 17 date where the evidence leaves it.\n\nhttps://t
+ odaycelebrates.com/holiday/world-peace-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-peace-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT

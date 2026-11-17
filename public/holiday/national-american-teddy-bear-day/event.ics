@@ -17,13 +17,17 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:national-american-teddy-bear-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:National American Teddy Bear Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National American Teddy Bear Day\, observed on November 14\, is
-  a lighthearted\, family-friendly day celebrated across the United States.
- \n\nhttps://todaycelebrates.com/holiday/national-american-teddy-bear-day/
+DESCRIPTION:National American Teddy Bear Day is marked on November 14\, the
+  date in 1902 when Theodore Roosevelt went bear hunting in Mississippi and
+  refused to shoot the animal his hosts had cornered for him. The observanc
+ e's own origin is undocumented\; the hunt behind it is not. What followed 
+ was a newspaper cartoon\, a Brooklyn candy shop\, and the only American to
+ y named after a president.\n\nhttps://todaycelebrates.com/holiday/national
+ -american-teddy-bear-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-american-teddy-b
  ear-day/
 CATEGORIES:Kids & Family

@@ -17,13 +17,18 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:world-diabetes-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:World Diabetes Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Diabetes Day is a health-awareness observance on November
-  14\, marked across the United States to spotlight a wellness topic worth 
- a second look.\n\nhttps://todaycelebrates.com/holiday/world-diabetes-day/
+DESCRIPTION:World Diabetes Day falls on November 14\, the birthday of Frede
+ rick Banting\, who shared the 1923 Nobel Prize for the work that produced 
+ insulin. It is one of the few observances with a complete paper trail: the
+  International Diabetes Federation began marking the date in 1991\, and th
+ e United Nations General Assembly designated it a United Nations Day by re
+ solution in December 2006. The campaign exists because the disease keeps o
+ utrunning the response to it.\n\nhttps://todaycelebrates.com/holiday/world
+ -diabetes-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-diabetes-day/
 CATEGORIES:Health
 TRANSP:TRANSPARENT

@@ -244,14 +244,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:america-recycles-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:America Recycles Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:America Recycles Day\, observed on November 15\, encourages peo
- ple across the United States to pause and recognize the people and causes 
- behind the day.\n\nhttps://todaycelebrates.com/holiday/america-recycles-da
- y/
+DESCRIPTION:America Recycles Day falls on November 15 and is the one day on
+  the American calendar given over entirely to recycling. It began as a sta
+ te campaign in Texas in 1994 and went national three years later\; Keep Am
+ erica Beautiful runs it now\, with the Environmental Protection Agency as 
+ its most visible federal backer. The premise is less celebration than arit
+ hmetic — the most recent federal figures show the national recycling rat
+ e going down\, not up.\n\nhttps://todaycelebrates.com/holiday/america-recy
+ cles-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/america-recycles-day/
 CATEGORIES:Community
 TRANSP:TRANSPARENT
@@ -3627,14 +3631,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-day-for-tolerance@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:International Day for Tolerance
 RRULE:FREQ=YEARLY
-DESCRIPTION:International Day for Tolerance\, observed on November 16\, enc
- ourages people across the United States to pause and recognize the people 
- and causes behind the day.\n\nhttps://todaycelebrates.com/holiday/internat
- ional-day-for-tolerance/
+DESCRIPTION:The International Day for Tolerance falls on November 16\, and 
+ it has two founding documents rather than one: UNESCO proclaimed the day i
+ n 1995\, and the United Nations General Assembly invited member states to 
+ observe it the year after. The date was not chosen at random. November 16 
+ is the anniversary of UNESCO's own constitution\, adopted on that day in 1
+ 945\, and the declaration that created the observance was adopted exactly 
+ fifty years later.\n\nhttps://todaycelebrates.com/holiday/international-da
+ y-for-tolerance/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-tol
  erance/
 CATEGORIES:Community
@@ -6726,8 +6734,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-philanthropy-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:National Philanthropy Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Philanthropy Day\, observed on November 15\, encourage
@@ -9926,8 +9934,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-day-of-remembrance-for-road-traffic-victims@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:World Day of Remembrance for Road Traffic Victims
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Day of Remembrance for Road Traffic Victims\, observed on
@@ -9995,13 +10003,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-kindness-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
 SUMMARY:World Kindness Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Kindness Day\, observed on November 13\, encourages peopl
- e across the United States to pause and recognize the people and causes be
- hind the day.\n\nhttps://todaycelebrates.com/holiday/world-kindness-day/
+DESCRIPTION:World Kindness Day is observed on November 13 by the World Kind
+ ness Movement\, the international NGO that created it and launched it on t
+ hat date in 1998. It is one of the few observances of its kind with a trac
+ eable founding organization and a documented start\, and the movement's ow
+ n account is unusually specific about both. What it asks for is deliberate
+ ly unstructured: do something kind\, and let it count.\n\nhttps://todaycel
+ ebrates.com/holiday/world-kindness-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-kindness-day/
 CATEGORIES:Community
 TRANSP:TRANSPARENT

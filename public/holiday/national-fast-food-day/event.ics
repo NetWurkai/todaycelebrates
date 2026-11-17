@@ -17,14 +17,17 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:national-fast-food-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:National Fast Food Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Fast Food Day is a food-focused observance celebrated 
- across the United States on November 16\, giving fans of the dish or ingre
- dient an excuse to seek it out and share it with others.\n\nhttps://todayc
- elebrates.com/holiday/national-fast-food-day/
+DESCRIPTION:National Fast Food Day falls on November 16\, and nobody appear
+ s to know who started it. No founder\, founding year or sponsoring organiz
+ ation turns up in any government record\, news archive or industry body's 
+ own material. What can be documented is the thing the day points at: an in
+ dustry with a traceable beginning in Wichita\, Kansas\, in 1921 and a meas
+ ured place in what Americans eat now.\n\nhttps://todaycelebrates.com/holid
+ ay/national-fast-food-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-fast-food-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT

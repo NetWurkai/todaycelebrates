@@ -17,14 +17,17 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:national-pickle-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
 SUMMARY:National Pickle Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Pickle Day is a food-focused observance celebrated acr
- oss the United States on November 14\, giving fans of the dish or ingredie
- nt an excuse to seek it out and share it with others.\n\nhttps://todaycele
- brates.com/holiday/national-pickle-day/
+DESCRIPTION:National Pickle Day is marked on November 14 and has no documen
+ ted origin. The pickled-vegetable industry's own trade association\, in bu
+ siness since 1893\, did create a national pickle observance — but it is 
+ a week in May\, and the association's site does not mention November 14 at
+  all. What can be documented is the industry\, which is considerably older
+  than the day attached to it.\n\nhttps://todaycelebrates.com/holiday/natio
+ nal-pickle-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-pickle-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT

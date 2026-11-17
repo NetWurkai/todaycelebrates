@@ -19,8 +19,8 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:world-day-of-remembrance-for-road-traffic-victims@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20271115
+DTEND;VALUE=DATE:20271116
 SUMMARY:World Day of Remembrance for Road Traffic Victims
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Day of Remembrance for Road Traffic Victims\, observed on

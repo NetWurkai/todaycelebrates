@@ -17,14 +17,18 @@ X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:international-day-for-tolerance@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
 SUMMARY:International Day for Tolerance
 RRULE:FREQ=YEARLY
-DESCRIPTION:International Day for Tolerance\, observed on November 16\, enc
- ourages people across the United States to pause and recognize the people 
- and causes behind the day.\n\nhttps://todaycelebrates.com/holiday/internat
- ional-day-for-tolerance/
+DESCRIPTION:The International Day for Tolerance falls on November 16\, and 
+ it has two founding documents rather than one: UNESCO proclaimed the day i
+ n 1995\, and the United Nations General Assembly invited member states to 
+ observe it the year after. The date was not chosen at random. November 16 
+ is the anniversary of UNESCO's own constitution\, adopted on that day in 1
+ 945\, and the declaration that created the observance was adopted exactly 
+ fifty years later.\n\nhttps://todaycelebrates.com/holiday/international-da
+ y-for-tolerance/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/international-day-for-tol
  erance/
 CATEGORIES:Community
