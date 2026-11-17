@@ -28,6 +28,7 @@ Some observances fall on the same date every year. Others are set by a rule (for
 - [Day pages](https://todaycelebrates.com/day/2026-10-09/): one permanent page per calendar date at /day/YYYY-MM-DD/, listing everything on that date in that specific year, with the weekday, from October 8, 2026 through about a year ahead
 - [Year indexes](https://todaycelebrates.com/holidays/2027/): one page per year of the dated archive at /holidays/YYYY/, listing every date that year has a record for, grouped by month. The archive opens on October 8, 2026 and reaches about a year ahead, so the first and last year listed are partial; each page says what range it covers.
 - [Category pages](https://todaycelebrates.com/category/food/): every observance in one category, at /category/<slug>/
+- [Awareness spans](https://todaycelebrates.com/holiday/black-history-month/): awareness months, weeks and seasons share the observance URL (/holiday/<slug>/) but cover a range of dates rather than one day. Their page states the range, and their Event structured data carries both a startDate and an endDate. Cite the span's own page for its dates; a span is not listed among a single day's observances except on the day it starts.
 
 ## Calendar feeds
 

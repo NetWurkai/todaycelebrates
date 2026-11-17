@@ -758,13 +758,15 @@ def next_occurrence(holiday, today, by_slug=None, memo=None):
 # `occurrences` or the day index -- so a month can never be listed on thirty
 # day pages, stretch the archive horizon, or reach a feed by accident.
 #
-# E8a (this code) only resolves them: each span's next occurrence is computed
-# and reported, and problems are warned about, but nothing is rendered.
-# SPANS_RENDER is the switch E8b turns on once span pages exist. With it off,
-# every file this script writes is byte-identical to a build without spans.
+# E8a resolved them without rendering anything. E8b (this code) turns
+# SPANS_RENDER on: a resolved span now gets a /holiday/<slug>/ page, an entry
+# in the sitemap and search index, and all-day VEVENTs in the whole-site, its
+# category's and its own calendar feed. Everything a span touches is reached
+# through span-specific code, so with no span rows in holidays.json every file
+# this script writes is still byte-identical to a build from before E8.
 # ---------------------------------------------------------------------------
 
-SPANS_RENDER = False
+SPANS_RENDER = True
 
 
 def is_span(row):
@@ -1082,6 +1084,13 @@ def row_button(action, label, icon_name, extra=""):
     )
 
 
+ICS_BUTTON_HTML = (
+    '<button type="button" class="btn" data-a="ics">'
+    '<svg width="16" height="16" aria-hidden="true"><use href="#i-cal"/></svg>'
+    'Add to calendar</button>'
+)
+
+
 def obs_row(h, index, iso_date):
     """One observance as a table row: number, name, category pill, actions.
 
@@ -1325,12 +1334,17 @@ def ics_uid(slug, date=None):
     return f"{stem}@{ics_host()}"
 
 
-def ics_event(holiday, start, yearly=False):
-    """One all-day VEVENT as a list of unfolded content lines."""
+def ics_event(holiday, start, yearly=False, last_day=None):
+    """One all-day VEVENT as a list of unfolded content lines.
+
+    `last_day` is the span's inclusive final day (E8b); without it the event
+    covers the single day `start`, which is every pre-E8 caller.
+    """
     slug = holiday["slug"]
     url = f"{SITE_BASE_URL}/holiday/{slug}/"
-    # DTEND is exclusive for DATE values: a one-day event ends the next day.
-    end = start + datetime.timedelta(days=1)
+    # DTEND is exclusive for DATE values: a one-day event ends the next day,
+    # and a span that runs through the 28th ends on the 29th.
+    end = (last_day or start) + datetime.timedelta(days=1)
     lines = [
         "BEGIN:VEVENT",
         f"UID:{ics_uid(slug, None if yearly else start)}",
@@ -2114,9 +2128,13 @@ def next_five_occurrences(holiday, occ_date, by_slug, memo, count=5):
     return dates
 
 
-def render_longform(holiday, occ_date, by_slug, memo):
+def render_longform(holiday, occ_date, by_slug, memo, span_occ=None):
     """Returns (html, faq_pairs). ("", []) when the row has no long-form
-    content, which is what keeps pre-E1 pages byte-identical."""
+    content, which is what keeps pre-E1 pages byte-identical.
+
+    `span_occ` is a span's next few (start, end) pairs (E8b). When it is given
+    the dates table lists ranges and lengths instead of single dates; the day
+    path is untouched."""
     body = (holiday.get("body") or "").strip()
     timeline = (holiday.get("timeline") or "").strip()
     faq_text = (holiday.get("faq") or "").strip()
@@ -2177,6 +2195,15 @@ def render_longform(holiday, occ_date, by_slug, memo):
         out.append("      </section>")
 
     # Dates table, straight off the rule engine -- never typed by hand.
+    if span_occ is not None:
+        out += span_dates_table(holiday, span_occ)
+        if sources:
+            out.append('      <section class="tc-sources">')
+            out.append("        <h2>Sources</h2>")
+            out += render_md_blocks(md_blocks(sources), indent="        ")
+            out.append("      </section>")
+        out.append("    </div>")
+        return "\n" + "\n".join(out), faq_pairs
     dates = next_five_occurrences(holiday, occ_date, by_slug, memo)
     out.append('      <section class="tc-dates">')
     out.append(f"        <h2>When is {md_inline(name)}?</h2>")
@@ -2320,11 +2347,272 @@ def render_page(holiday, occ_date, day_link, by_slug, memo, template, chrome,
         "CATEGORY_PILL": cat_pill(category, link=True),
         "SHARE_TEXT": esc_attr(share_text),
         "SHARE_LINKS": share_links(path, share_text),
+        "ASIDE_LABEL": "Also on this date",
         "ALSO_ON": also_on_html(occ_date, same_day, slug, day_published),
+        "CAL_BUTTON": ICS_BUTTON_HTML,
         "HERO_FILL": f"f-{cat_pill_class(category)}",
         "HERO_ART": hero_art_html(holiday, name),
         "HERO_DATE": esc_attr(weekday_long_date(occ_date)),
+        "HERO_TAG": "Observance",
         **hero_date_values(occ_date),
+        **chrome,
+    })
+
+
+
+# ---------------------------------------------------------------------------
+# Span pages (E8b)
+#
+# A span gets the same /holiday/<slug>/ URL and the same holiday.html template
+# as a day, but it is rendered by its own function rather than by branches
+# inside render_page() -- so a day page is byte-identical to the pre-E8b build
+# by construction rather than by assertion.
+#
+# What a span page says differently: the hero pill carries Week / Month /
+# Season instead of "Observance", the date line is a range, the Event JSON-LD
+# carries an endDate, the dates table lists ranges and lengths, the aside
+# lists the day rows inside the span (Notion "Part Of") instead of the other
+# observances on one date, and the in-browser Add-to-calendar button is gone
+# because /js/site.js would build a one-day event from it. The downloadable
+# .ics is correct and stays.
+# ---------------------------------------------------------------------------
+
+SPAN_TERM = {"Month": "month", "Week": "week", "Range": "season"}
+
+
+def span_label(row):
+    """The word in the hero pill: Week and Month as themselves, Range as
+    "Season" -- nobody calls Lent a range."""
+    label = (row.get("span") or {}).get("label") or "Range"
+    return "Season" if label == "Range" else label
+
+
+def span_term(row):
+    """The lowercase noun for prose: month / week / season."""
+    return SPAN_TERM.get((row.get("span") or {}).get("label"), "season")
+
+
+def span_is_whole_month(row, start, end):
+    return (
+        (row.get("span") or {}).get("kind") == "month"
+        and start.day == 1
+        and (end + datetime.timedelta(days=1)).day == 1
+        and (start.year, start.month) == (end.year, end.month)
+    )
+
+
+def span_date_parts(row, start, end, year=True):
+    """(head, separator, tail) of a span's date line.
+
+    `separator` is "" for a whole calendar month, where the line is one phrase
+    with nothing to split. Joined, the three give the published forms:
+    "All of February 2027", "May 6-12, 2027", "Feb 10 - Mar 27, 2027", and
+    both years spelled out when the span crosses New Year.
+    """
+    yr = f" {start.year}" if year else ""
+    if span_is_whole_month(row, start, end):
+        return f"All of {MONTH_NAMES[start.month]}{yr}", "", ""
+    if start.year != end.year:
+        head = f"{MONTH_ABBR[start.month]} {start.day}"
+        tail = f"{MONTH_ABBR[end.month]} {end.day}"
+        if year:
+            head += f", {start.year}"
+            tail += f", {end.year}"
+        return head, " \u2013 ", tail
+    if start.month == end.month:
+        tail = f"{end.day}" + (f", {start.year}" if year else "")
+        return f"{MONTH_NAMES[start.month]} {start.day}", "\u2013", tail
+    tail = f"{MONTH_ABBR[end.month]} {end.day}" + (f", {start.year}" if year else "")
+    return f"{MONTH_ABBR[start.month]} {start.day}", " \u2013 ", tail
+
+
+def span_date_line(row, start, end, year=True):
+    return "".join(span_date_parts(row, start, end, year))
+
+
+def span_date_spec_html(row, start, end):
+    """The Date row of the spec list, with machine-readable <time> values.
+
+    A whole month is one <time datetime="YYYY-MM">; anything else is two,
+    because HTML has no range-valued time element and the exact bounds are
+    what a reader (and a parser) is after.
+    """
+    head, sep, tail = span_date_parts(row, start, end)
+    if not sep:
+        stamp = f"{start.year:04d}-{start.month:02d}"
+        return f'<time datetime="{stamp}">{esc_text(head)}</time>'
+    return (
+        f'<time datetime="{start.isoformat()}">{esc_text(head)}</time>'
+        f'{esc_text(sep)}'
+        f'<time datetime="{end.isoformat()}">{esc_text(tail)}</time>'
+    )
+
+
+def span_recurs_text(row, start, end):
+    """The Recurs row, and the hero's second line."""
+    if row.get("recurrence") == "Annual":
+        if span_is_whole_month(row, start, end):
+            return f"Every {MONTH_NAMES[start.month]}"
+        return f"Every year, {span_date_line(row, start, end, year=False)}"
+    return "The dates change each year. This page always shows the next ones."
+
+
+def span_occurrences_from(row, start, end, by_slug, memo, count=5):
+    """This span's next `count` occurrences, the one on the page first.
+
+    Never raises: a span whose rule runs out of resolvable years (a lookup
+    table past its last hand-confirmed entry) yields a shorter table, which
+    is honest in the way a guessed sixth row would not be.
+    """
+    out = [(start, end)]
+    year = start.year + 1
+    horizon = start.year + 12
+    while len(out) < count and year <= horizon:
+        try:
+            pair = span_for_year(row, year, by_slug, memo)
+        except (ValueError, RuntimeError, KeyError):
+            break
+        if pair not in out:
+            out.append(pair)
+        year += 1
+    return out
+
+
+def span_dates_table(row, occs):
+    """The "When is X?" table for a span: year, dates, length."""
+    out = ['      <section class="tc-dates">',
+           f"        <h2>When is {md_inline(row['name'])}?</h2>",
+           '        <table class="dates">',
+           "          <thead><tr><th>Year</th><th>Dates</th>"
+           "<th>Length</th></tr></thead>",
+           "          <tbody>"]
+    for n, (s, e) in enumerate(occs):
+        now_cls = ' class="now"' if n == 0 else ""
+        days = (e - s).days + 1
+        out.append(
+            f"            <tr{now_cls}><td>{s.year}</td>"
+            f"<td>{esc_text(span_date_line(row, s, e, year=False))}</td>"
+            f"<td>{days} {plural(days, 'day')}</td></tr>"
+        )
+    out += ["          </tbody>", "        </table>", "      </section>"]
+    return out
+
+
+def span_days_html(row, members):
+    """The aside: the day rows Notion marks as Part Of this span.
+
+    `members` is (day row, its next date) pairs. Empty until the Part Of
+    relations are filled in, and an empty aside renders nothing at all --
+    a heading over no list would be worse than no heading.
+    """
+    if not members:
+        return ""
+    lis = "".join(
+        f'<li><a href="/holiday/{h["slug"]}/"><span>{esc_attr(h["name"])}</span>'
+        f'<span class="mono">{MONTH_ABBR[d.month]} {d.day}</span></a></li>'
+        for h, d in members[:12]
+    )
+    return (f"<h2>Days inside this {span_term(row)}</h2>"
+            f'<ul class="list-side">{lis}</ul>')
+
+
+def span_cal_links_html(row, occurrence_count):
+    """The "Add to your calendar" line on a span page.
+
+    A span is always enumerated rather than carried by an RRULE (a month's
+    last day moves in a leap year, and a floating span has no BYDAY form), so
+    the note says how many occurrences the file holds rather than promising a
+    yearly repeat.
+    """
+    ics = f"/holiday/{row['slug']}/event.ics"
+    webcal = f"webcal://{ics_host()}{ics}"
+    if occurrence_count:
+        note = (f"The file carries the next {occurrence_count} "
+                f"{plural(occurrence_count, 'occurrence')} as all-day events.")
+    else:
+        note = ""
+    return (
+        f'<p class="cal"><a class="cal-add" href="{ics}">Add to your calendar</a>'
+        f'<span class="cal-note">A calendar file for Apple Calendar, Google '
+        f'Calendar or Outlook. {note} You can also '
+        f'<a href="{webcal}">subscribe to this observance</a> or to '
+        f'<a href="/calendar.ics">the whole calendar</a>.</span></p>'
+    )
+
+
+def render_span_page(row, start, end, by_slug, memo, template, chrome,
+                     members=(), ics_count=0):
+    """Render one /holiday/<slug>/ page for an awareness span (E8b)."""
+    slug = row["slug"]
+    name = row["name"]
+    category = row["category"]
+    description = row["description"]
+    path = f"/holiday/{slug}/"
+    url = f"{SITE_BASE_URL}{path}"
+    image = (hero_poster_abs(row)
+             or f"{SITE_BASE_URL}/images/hero/{category}.jpg")
+    date_line = span_date_line(row, start, end)
+
+    # Event with both bounds. startDate alone would tell a search engine that
+    # Black History Month happens on February 1 and is over.
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": name,
+        "description": description,
+        "startDate": start.isoformat(),
+        "endDate": end.isoformat(),
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {"@type": "VirtualLocation", "url": url},
+        "organizer": {"@type": "Organization", "name": "Today Celebrates",
+                      "url": f"{SITE_BASE_URL}/"},
+        "image": [image],
+        "url": url,
+    }
+    ld_json = json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")
+
+    occs = span_occurrences_from(row, start, end, by_slug, memo)
+    longform, faq_pairs = render_longform(row, start, by_slug, memo,
+                                          span_occ=occs)
+    recurs = span_recurs_text(row, start, end)
+    share_text = f"{name} \u2014 {date_line}"
+    month_anchor = MONTH_NAMES[start.month].lower()
+
+    return fill(template, {
+        "HTML_CLASS": html_class(),
+        "NAME": esc_attr(name),
+        "DATE_LONG": date_line,
+        # The back-link reads "See everything <DATE_SHORT> celebrates", which
+        # for a span is its starting month, pointing at that month's block on
+        # /dates/. E8d replaces both with the month hub.
+        "DATE_SHORT": MONTH_NAMES[start.month],
+        "DATE_WEEKDAY": date_line,
+        "ISO_DATE": start.isoformat(),
+        "YEARLY": "0",
+        "DESCRIPTION": esc_attr(description),
+        "URL": url,
+        "PATH": path,
+        "IMAGE_ABS": image,
+        "LD_JSON": ld_json,
+        "EXTRA_LD": faq_ld_json(faq_pairs),
+        "CRUMBS": crumbs_html(("Calendar", "/dates/"), (name, None)),
+        "DATE_SPEC": span_date_spec_html(row, start, end),
+        "PERENNIAL_HREF": f"/dates/#{month_anchor}",
+        "LONGFORM": longform,
+        "CAL_LINKS": span_cal_links_html(row, ics_count),
+        "CAL_BUTTON": "",
+        "RECURS": esc_attr(recurs),
+        "CATEGORY_PILL": cat_pill(category, link=True),
+        "SHARE_TEXT": esc_attr(share_text),
+        "SHARE_LINKS": share_links(path, share_text),
+        "ASIDE_LABEL": f"Days inside this {span_term(row)}",
+        "ALSO_ON": span_days_html(row, members),
+        "HERO_FILL": f"f-{cat_pill_class(category)}",
+        "HERO_ART": hero_art_html(row, name),
+        "HERO_DATE": esc_attr(date_line),
+        "HERO_TAG": esc_attr(span_label(row)),
+        **hero_date_values(start),
         **chrome,
     })
 
@@ -3353,6 +3641,15 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
     holidays, spans = partition_spans(holidays)
     by_slug = {h["slug"]: h for h in holidays}
     span_occurrences, span_problems = resolve_spans(spans, today, by_slug)
+    spans_by_slug = {r["slug"]: r for r in spans}
+    # A span and a day row that share a slug would share /holiday/<slug>/, and
+    # whichever ran second would silently overwrite the other. The exporter
+    # already warns on duplicate slugs; refuse here as well, and keep the day.
+    for dupe in sorted(set(spans_by_slug) & set(by_slug)):
+        span_problems.append(
+            f"{spans_by_slug[dupe]['name']!r} ({dupe}): a day row already owns "
+            f"/holiday/{dupe}/ -- the span page was not written. Rename one.")
+        span_occurrences.pop(dupe, None)
     memo = {}  # (slug, year) -> date.date, shared across all holidays this run
     occurrences = {}  # slug -> date.date
     unresolved = []   # holidays whose rule could not produce a date this run
@@ -3458,8 +3755,16 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             os.path.join(site_dir, "holiday", h["slug"], "index.html")
         )
 
+    search_rows = [h for h in holidays if has_page(h)]
+    # The count /about/ and /categories/ advertise stays the number of
+    # single-day observances, which is what their per-category lists add up
+    # to. Spans get pages and search entries now; they join the category
+    # pages, and these totals, in E8c.
+    day_page_total = len(search_rows)
+    if SPANS_RENDER:
+        search_rows += [spans_by_slug[s] for s in span_occurrences]
     search_index = [[h["name"], h["slug"]]
-                    for h in sorted(holidays, key=lambda h: h["slug"]) if has_page(h)]
+                    for h in sorted(search_rows, key=lambda h: h["slug"])]
     search_changed, _ = write_if_changed(
         os.path.join(site_dir, "data", "search.json"),
         json.dumps(search_index, ensure_ascii=False, separators=(",", ":")),
@@ -3641,6 +3946,70 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             write_card(card_rel_path(slug), card_png_bytes(h, occ, card_loader),
                        "holiday")
 
+    # ---- awareness span pages (E8b) ----
+    # Spans reach the site only through this block and the feed, sitemap and
+    # search-index additions below. Nothing above here has seen them, which is
+    # why a build with no span rows is byte-identical to one from before E8.
+    span_diffs = {"created": [], "changed": [], "unchanged": [], "skipped": []}
+    span_feed = {}     # slug -> [(start, end), ...] inside the feed window
+    span_members = {}  # span slug -> [(day row, its next date), ...]
+    span_memo = {}     # kept apart from `memo`: no span date may reach a day
+    if SPANS_RENDER and span_occurrences:
+        for h in holidays:
+            for parent in h.get("part_of") or ():
+                if parent in span_occurrences and h["slug"] in occurrences:
+                    span_members.setdefault(parent, []).append(
+                        (h, occurrences[h["slug"]]))
+        for parent, members in span_members.items():
+            members.sort(key=lambda hd: (hd[1], hd[0]["name"]))
+            # Part Of is set by hand in Notion. A member whose own next date
+            # falls outside the span is reported rather than hidden: it is
+            # either a mis-set relation or a rule that needs a look, and
+            # silently dropping it would make the data error invisible.
+            lo, hi = span_occurrences[parent]
+            stray = [h["slug"] for h, d in members if not lo <= d <= hi]
+            if stray:
+                span_problems.append(
+                    f"{spans_by_slug[parent]['name']!r} ({parent}): "
+                    f"{len(stray)} row(s) marked Part Of it fall outside "
+                    f"{lo.isoformat()}..{hi.isoformat()} -- "
+                    f"{', '.join(stray[:6])}. Check the Part Of relation.")
+
+        # Feed window: the same ten years the perennial pass covers, so a
+        # subscriber and a date page can never disagree. A span whose rule
+        # runs out part way through contributes fewer occurrences rather than
+        # an extrapolated one -- the rule E5 already follows for lookup tables.
+        for slug in sorted(span_occurrences):
+            row = spans_by_slug[slug]
+            occs = []
+            for year in range(today.year - 1, today.year + PERENNIAL_YEARS):
+                try:
+                    pair = span_for_year(row, year, by_slug, span_memo)
+                except (ValueError, RuntimeError, KeyError):
+                    continue
+                if pair[1] >= today and pair not in occs:
+                    occs.append(pair)
+            span_feed[slug] = sorted(occs)
+
+        for slug in sorted(span_occurrences):
+            row = spans_by_slug[slug]
+            start, end = span_occurrences[slug]
+            html = render_span_page(
+                row, start, end, by_slug, span_memo, holiday_template,
+                chromes[None], members=span_members.get(slug, ()),
+                ics_count=len(span_feed.get(slug, ())),
+            )
+            changed, created = write_if_changed(
+                os.path.join(site_dir, "holiday", slug, "index.html"),
+                html, dry_run,
+            )
+            if created:
+                span_diffs["created"].append(slug)
+            elif changed:
+                span_diffs["changed"].append(slug)
+            else:
+                span_diffs["unchanged"].append(slug)
+
     # ---- homepage: today's content baked into the HTML ----
     home_items = day_index.get(today, [])
     month_days = {d.day for d in day_index if (d.year, d.month) == (today.year, today.month)}
@@ -3736,7 +4105,7 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             "world holidays and observances, with a page for every one."
         ),
         path="/about/", headline="About Today Celebrates",
-        body=render_about_body(len(search_index), len(category_counts)),
+        body=render_about_body(day_page_total, len(category_counts)),
         side=category_side_html(category_counts),
         crumbs=crumbs_html(("About", None)),
     )
@@ -3750,7 +4119,7 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         page_template, chromes["CATEGORIES"],
         title="Holiday Categories | Today Celebrates",
         description=(
-            f"Browse {len(search_index):,} holidays and observances by category: "
+            f"Browse {day_page_total:,} holidays and observances by category: "
             f"food, community, nature, health, music and more."
         ),
         path="/categories/", headline="Browse by category",
@@ -3883,24 +4252,48 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         if evs:
             ics_events[h["slug"]] = evs
 
+    # Spans (E8b) are always enumerated, never carried by an RRULE: a month's
+    # last day moves in a leap year and a floating span has no BYDAY form, so
+    # a recurrence rule would be a second date engine free to disagree with
+    # the site. One all-day VEVENT per occurrence, DTEND exclusive.
+    span_events = {}
+    spans_by_category = {}
+    if SPANS_RENDER:
+        for slug, occs in sorted(span_feed.items()):
+            evs = [ics_event(spans_by_slug[slug], s, last_day=e)
+                   for s, e in occs]
+            if not evs:
+                continue
+            span_events[slug] = evs
+            cat = spans_by_slug[slug]["category"]
+            spans_by_category.setdefault(cat, []).append(slug)
+            if cat not in by_category:
+                span_problems.append(
+                    f"{spans_by_slug[slug]['name']!r} ({slug}): category "
+                    f"{cat!r} has no day rows, so there is no /category/{cat}/ "
+                    f"page or feed to carry it.")
+
     all_events = [e for h in sorted(holidays, key=lambda h: h["slug"])
                   for e in ics_events.get(h["slug"], [])]
+    all_events += [e for slug in sorted(span_events) for e in span_events[slug]]
     write_feed(
         "/calendar.ics", "Today Celebrates",
         f"Every national, international and world observance on Today "
-        f"Celebrates: {len(ics_events):,} of them. Rebuilt daily at "
-        f"{SITE_BASE_URL}/.",
+        f"Celebrates: {len(ics_events) + len(span_events):,} of them. Rebuilt "
+        f"daily at {SITE_BASE_URL}/.",
         all_events,
     )
 
     for c, members in sorted(by_category.items()):
+        cat_spans = sorted(spans_by_category.get(c, ()))
         cat_events = [e for h in sorted(members, key=lambda h: h["slug"])
                       for e in ics_events.get(h["slug"], [])]
+        cat_events += [e for slug in cat_spans for e in span_events[slug]]
         write_feed(
             f"/category/{c}/calendar.ics",
             f"Today Celebrates: {cat_title(c)}",
-            f"{len(members):,} {cat_title(c).lower()} observances from "
-            f"{SITE_BASE_URL}/category/{c}/. Rebuilt daily.",
+            f"{len(members) + len(cat_spans):,} {cat_title(c).lower()} "
+            f"observances from {SITE_BASE_URL}/category/{c}/. Rebuilt daily.",
             cat_events,
         )
 
@@ -3909,6 +4302,15 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         write_feed(
             f"/holiday/{slug}/event.ics", h["name"],
             f"{h['name']} — {SITE_BASE_URL}/holiday/{slug}/",
+            evs,
+        )
+
+    # A span page offers the same download, so the file has to exist.
+    for slug, evs in sorted(span_events.items()):
+        row = spans_by_slug[slug]
+        write_feed(
+            f"/holiday/{slug}/event.ics", row["name"],
+            f"{row['name']} — {SITE_BASE_URL}/holiday/{slug}/",
             evs,
         )
 
@@ -3969,6 +4371,14 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
             f'  <url><loc>{loc}</loc>'
             f'<lastmod>{lastmod_for(loc, slug in touched)}</lastmod></url>'
         )
+    touched_spans = set(span_diffs["created"]) | set(span_diffs["changed"])
+    for slug in sorted(span_occurrences if SPANS_RENDER else ()):
+        loc = f"{SITE_BASE_URL}/holiday/{slug}/"
+        urls.append(
+            f'  <url><loc>{loc}</loc>'
+            f'<lastmod>{lastmod_for(loc, slug in touched_spans)}</lastmod></url>'
+        )
+
     for path in sorted(simple_pages):
         loc = f"{SITE_BASE_URL}{path}"
         urls.append(
@@ -4056,6 +4466,8 @@ def generate(holidays, today, site_dir, dry_run=False, templates_dir=None,
         "span_occurrences": {slug: [a.isoformat(), b.isoformat()]
                              for slug, (a, b) in sorted(span_occurrences.items())},
         "span_problems": span_problems,
+        "span_pages": span_diffs,
+        "span_feed_events": sum(len(v) for v in span_events.values()),
         "occurrences": {slug: d.isoformat() for slug, d in occurrences.items()},
     }
 

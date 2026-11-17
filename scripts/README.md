@@ -1322,9 +1322,86 @@ code puts it there.
 
 ### E8a: resolved, not rendered
 
-`SPANS_RENDER = False`. Each span's next occurrence goes into the generation
-report (`spans_total`, `span_occurrences`, `span_problems`), and problems are
-warned about the same way unresolved holidays are. Nothing is written for a
-span yet. Verified on 2026-11-13: the old and new generators produce
+`SPANS_RENDER = False`. Each span's next occurrence went into the generation
+report (`spans_total`, `span_occurrences`, `span_problems`), and problems were
+warned about the same way unresolved holidays are. Nothing was written for a
+span. Verified on 2026-11-13: the old and new generators produce
 byte-identical output across every file in `public/`, with or without span rows
-in `holidays.json`. E8b–E8e (see `docs/EXECUTION_PLAN.md` §5) turn on rendering.
+in `holidays.json`.
+
+### E8b: span pages, feeds and structured data
+
+`SPANS_RENDER = True`. A resolved span now gets:
+
+| What | Where |
+| --- | --- |
+| A page | `/holiday/<slug>/`, from `templates/holiday.html` |
+| A feed | `/holiday/<slug>/event.ics`, plus its events in `/calendar.ics` and `/category/<slug>/calendar.ics` |
+| An index entry | `sitemap.xml` and `data/search.json` |
+
+**Rendered by its own function.** `render_span_page()` is a sibling of
+`render_page()`, not a set of branches inside it, so a day page is
+byte-identical to the pre-E8b build by construction. `holiday.html` gained
+three markers — `HERO_TAG`, `CAL_BUTTON`, `ASIDE_LABEL` — each filled with
+exactly the literal that used to be hard-coded there, so a day page's bytes do
+not move.
+
+**What a span page says differently.** The hero pill reads Week / Month /
+Season (a `Range` shows as "Season"; nobody calls Lent a range). The date line
+is `All of February 2027`, `May 6–12, 2027`, `Feb 10 – Mar 25, 2027`, or both
+years when the span crosses New Year. The spec list's Date row carries
+`<time datetime="YYYY-MM">` for a whole month and two `<time>` elements
+otherwise, because HTML has no range-valued time element. The dates table
+lists ranges and lengths instead of single dates. The aside becomes "Days
+inside this month / week / season", listing the day rows whose Notion
+**Part Of** points at this span, and rendering nothing at all when none do; a
+member whose own next date falls outside the span is reported as a span problem
+rather than hidden, because that is a mis-set relation, not a display case.
+Breadcrumbs are `Today / Calendar / <Name>` and the back-link points at the
+start month's block on `/dates/` — E8d replaces both with the month hub.
+
+**`Event` JSON-LD carries `startDate` and `endDate`.** `startDate` alone would
+tell a search engine that Black History Month happens on February 1 and is
+over. The long-form fields and `FAQPage` JSON-LD work exactly as they do for a
+day.
+
+**Feeds: enumerated, never an RRULE.** A month's last day moves in a leap year
+(Black History Month ends Feb 28 in 2027 and Feb 29 in 2028) and a floating
+span has no `BYDAY` form, so a recurrence rule would be a second date engine
+free to disagree with the site. One all-day `VEVENT` per occurrence, over the
+same ten-year window (`PERENNIAL_YEARS`) the perennial pass covers, with
+`DTEND` = last day + 1 (the exclusive end iCalendar requires) and the existing
+`<slug>-YYYYMMDD@` UID scheme. A span whose rule runs out part way through the
+window contributes fewer events rather than an extrapolated date.
+
+**No in-browser Add-to-calendar button on a span page.** `/js/site.js` builds a
+one-day event out of `data-d`, which is wrong for a month, and that script is
+shared chrome that must not change for every other page on the site. The
+downloadable `.ics` is correct and stays.
+
+**Two counts deliberately left alone.** `/about/` and `/categories/` still
+advertise the number of single-day observances, which is what their
+per-category lists add up to; spans join the category pages, and those totals,
+in E8c.
+
+**Verified 2026-11-14**, generator run into throwaway directories, `public/`
+never written. With no span rows the new generator reproduces the committed
+generator's output across all **5,733** files with **0 differences**. The
+committed generator gives **0 differences** with span rows present or absent —
+which is why span rows can be published in Notion before E8b is committed. With
+10 span rows (the 7 real Notion rows plus 3 fixtures for the shapes they do not
+cover: a fixed week inside one month, a year-crossing range, a floating
+seven-day week) exactly **six** existing files change — `calendar.ics`, three
+category feeds, `data/search.json`, `sitemap.xml` — and 10 page-and-feed pairs
+are added. **136,182 structural checks, 0 failures**: RFC 5545 shape, `DTEND`
+exclusive, no `RRULE` / `VTIMEZONE` / `TZID` / `METHOD`, UIDs unique, every span
+event present exactly once in the whole-site and category feeds, both JSON-LD
+dates present and distinct, every internal link on a span page resolving, no
+unfilled template marker, sitemap free of duplicates and of feed URLs,
+`search.json` sorted and unique. Two runs byte-identical; a one-day roll changes
+no span feed; `--today 2027-03-26` rolls Lent to 2028-03-01–2028-04-13 and
+Black History Month to a 29-day February.
+
+E8c–E8e (see `docs/EXECUTION_PLAN.md` §5) put spans on the day, home, perennial
+and category pages, add the month hubs, and migrate the remaining multi-day
+rows.
