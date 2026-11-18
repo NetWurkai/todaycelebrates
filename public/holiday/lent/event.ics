@@ -1,0 +1,157 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Today Celebrates//Site Generator//EN
+CALSCALE:GREGORIAN
+NAME:Lent
+X-WR-CALNAME:Lent
+DESCRIPTION:Lent — https://todaycelebrates.com/holiday/lent/
+X-WR-CALDESC:Lent — https://todaycelebrates.com/holiday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/event.ics
+SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/lent/event.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:lent-20270210@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270326
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20280301@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280301
+DTEND;VALUE=DATE:20280414
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20290214@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290214
+DTEND;VALUE=DATE:20290330
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20300306@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300306
+DTEND;VALUE=DATE:20300419
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20310226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310226
+DTEND;VALUE=DATE:20310411
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20320211@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320211
+DTEND;VALUE=DATE:20320326
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20330302@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330302
+DTEND;VALUE=DATE:20330415
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20340222@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340222
+DTEND;VALUE=DATE:20340407
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20350207@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350207
+DTEND;VALUE=DATE:20350323
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

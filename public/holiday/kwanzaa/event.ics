@@ -11,12 +11,182 @@ SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/event.ics
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:kwanzaa@todaycelebrates.com
+UID:kwanzaa-20261226@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261226
-DTEND;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20270102
 SUMMARY:Kwanzaa
-RRULE:FREQ=YEARLY
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20271226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271226
+DTEND;VALUE=DATE:20280102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20281226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281226
+DTEND;VALUE=DATE:20290102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20291226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291226
+DTEND;VALUE=DATE:20300102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20301226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301226
+DTEND;VALUE=DATE:20310102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20311226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311226
+DTEND;VALUE=DATE:20320102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20321226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321226
+DTEND;VALUE=DATE:20330102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20331226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331226
+DTEND;VALUE=DATE:20340102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20341226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341226
+DTEND;VALUE=DATE:20350102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20351226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351226
+DTEND;VALUE=DATE:20360102
+SUMMARY:Kwanzaa
 DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
  1\, and is an African American and Pan-African holiday organized around se
  ven principles rather than a single event. Maulana Karenga created it in 1

@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 NAME:Today Celebrates
 X-WR-CALNAME:Today Celebrates
 DESCRIPTION:Every national\, international and world observance on Today Ce
- lebrates: 2\,450 of them. Rebuilt daily at https://todaycelebrates.com/.
+ lebrates: 2\,457 of them. Rebuilt daily at https://todaycelebrates.com/.
 X-WR-CALDESC:Every national\, international and world observance on Today C
- elebrates: 2\,450 of them. Rebuilt daily at https://todaycelebrates.com/.
+ elebrates: 2\,457 of them. Rebuilt daily at https://todaycelebrates.com/.
 URL;VALUE=URI:https://todaycelebrates.com/calendar.ics
 SOURCE;VALUE=URI:https://todaycelebrates.com/calendar.ics
 REFRESH-INTERVAL;VALUE=DURATION:P1D
@@ -10576,10 +10576,14 @@ DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Geographic Information Systems Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Geographic Information Systems Day\, observed on November 18\, 
- celebrates a piece of technology or digital culture that's become part of 
- everyday life across the United States.\n\nhttps://todaycelebrates.com/hol
- iday/geographic-information-systems-day/
+DESCRIPTION:Geographic Information Systems Day\, usually just GIS Day\, is 
+ the mapping world's open house: one day on which county GIS departments\, 
+ universities and utilities show the public what they do with spatial data.
+  Esri\, the software company that runs the day's website\, dates the first
+  formal GIS Day to 1999 and credits the consumer advocate Ralph Nader with
+  inspiring it. It falls on the third Wednesday of November\, inside Geogra
+ phy Awareness Week\, which puts it on November 18 in 2026.\n\nhttps://toda
+ ycelebrates.com/holiday/geographic-information-systems-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/geographic-information-sy
  stems-day/
 CATEGORIES:Tech
@@ -17162,8 +17166,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-students-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
 SUMMARY:International Students' Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Students' Day\, observed on November 17\, encoura
@@ -18192,26 +18196,6 @@ DESCRIPTION:Korean American Day\, observed on January 13\, encourages peopl
  hind the day.\n\nhttps://todaycelebrates.com/holiday/korean-american-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/korean-american-day/
 CATEGORIES:Community
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:kwanzaa@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261226
-DTEND;VALUE=DATE:20261227
-SUMMARY:Kwanzaa
-RRULE:FREQ=YEARLY
-DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
- 1\, and is an African American and Pan-African holiday organized around se
- ven principles rather than a single event. Maulana Karenga created it in 1
- 966\, which makes it unusual among holidays: its founder is living\, has p
- ublished a book on it\, and maintains an authoritative account of what it 
- is. One thing it is not\, on his own insistence\, is a substitute for Chri
- stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
-CATEGORIES:Celebration
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 SEQUENCE:0
@@ -20104,9 +20088,14 @@ DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Mickey Mouse Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Mickey Mouse Day\, observed on November 18\, is a lighthearted\
- , family-friendly day celebrated across the United States.\n\nhttps://toda
- ycelebrates.com/holiday/mickey-mouse-day/
+DESCRIPTION:Mickey Mouse Day falls on November 18\, the date Disney itself 
+ treats as Mickey's birthday. It marks the 1928 opening of Steamboat Willie
+  at the Colony Theater in New York\, the short that put the character in f
+ ront of a paying audience with synchronized sound after two earlier Mickey
+  cartoons had failed to find a distributor. The date is younger than the m
+ ouse: for four decades the studio moved the birthday around the calendar b
+ efore an archivist settled it.\n\nhttps://todaycelebrates.com/holiday/mick
+ ey-mouse-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/mickey-mouse-day/
 CATEGORIES:Kids & Family
 TRANSP:TRANSPARENT
@@ -21788,8 +21777,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-baklava-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
 SUMMARY:National Baklava Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Baklava Day is a food-focused observance celebrated ac
@@ -28073,8 +28062,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-entrepreneurs-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
 SUMMARY:National Entrepreneurs' Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Entrepreneurs' Day falls on the third Tuesday of Novem
@@ -30565,8 +30554,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-homemade-bread-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
 SUMMARY:National Homemade Bread Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Homemade Bread Day falls on November 17\, and no organ
@@ -38947,8 +38936,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-take-a-hike-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
 SUMMARY:National Take a Hike Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Take a Hike Day is a nature-focused observance on Nove
@@ -41603,10 +41592,13 @@ DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:National Zinfandel Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Zinfandel Day is a food-focused observance celebrated 
- across the United States on November 18\, giving fans of the dish or ingre
- dient an excuse to seek it out and share it with others.\n\nhttps://todayc
- elebrates.com/holiday/national-zinfandel-day/
+DESCRIPTION:National Zinfandel Day celebrates the grape American wine spent
+  a century and a half treating as its own\, until DNA tests placed its ori
+ gin on the Croatian coast. The observance is held on the third Wednesday o
+ f November\, which in 2026 is November 18. Its own history is already mudd
+ led: the organization behind it announced a first Zinfandel Day for Novemb
+ er 19\, 2010\, then later wrote that it created National Zinfandel Day in 
+ 2012.\n\nhttps://todaycelebrates.com/holiday/national-zinfandel-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-zinfandel-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -53565,8 +53557,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-peace-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
 SUMMARY:World Peace Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Peace Day turns up on November 17 in most American day-of
@@ -53818,8 +53810,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-prematurity-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
 SUMMARY:World Prematurity Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Prematurity Day is a health-awareness observance on Novem
@@ -55410,6 +55402,1267 @@ DESCRIPTION:Zoo Lovers Day is a nature-focused observance on April 8\, cele
  ers-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/zoo-lovers-day/
 CATEGORIES:Nature
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20270201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20280201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280201
+DTEND;VALUE=DATE:20280301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20290201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290201
+DTEND;VALUE=DATE:20290301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20300201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300201
+DTEND;VALUE=DATE:20300301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20310201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310201
+DTEND;VALUE=DATE:20310301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20320201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320201
+DTEND;VALUE=DATE:20320301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20330201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330201
+DTEND;VALUE=DATE:20330301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20340201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340201
+DTEND;VALUE=DATE:20340301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20350201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350201
+DTEND;VALUE=DATE:20350301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:black-history-month-20270201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270301
+SUMMARY:Black History Month
+DESCRIPTION:February is Black History Month. It grew out of Negro History W
+ eek\, which Carter G. Woodson and the Association for the Study of Negro L
+ ife and History announced in 1925 and first held in February 1926\, and be
+ came a full month in 1976\, the nation's bicentennial.\n\nhttps://todaycel
+ ebrates.com/holiday/black-history-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-history-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:black-history-month-20280201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280201
+DTEND;VALUE=DATE:20280301
+SUMMARY:Black History Month
+DESCRIPTION:February is Black History Month. It grew out of Negro History W
+ eek\, which Carter G. Woodson and the Association for the Study of Negro L
+ ife and History announced in 1925 and first held in February 1926\, and be
+ came a full month in 1976\, the nation's bicentennial.\n\nhttps://todaycel
+ ebrates.com/holiday/black-history-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-history-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:black-history-month-20290201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290201
+DTEND;VALUE=DATE:20290301
+SUMMARY:Black History Month
+DESCRIPTION:February is Black History Month. It grew out of Negro History W
+ eek\, which Carter G. Woodson and the Association for the Study of Negro L
+ ife and History announced in 1925 and first held in February 1926\, and be
+ came a full month in 1976\, the nation's bicentennial.\n\nhttps://todaycel
+ ebrates.com/holiday/black-history-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-history-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:black-history-month-20300201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300201
+DTEND;VALUE=DATE:20300301
+SUMMARY:Black History Month
+DESCRIPTION:February is Black History Month. It grew out of Negro History W
+ eek\, which Carter G. Woodson and the Association for the Study of Negro L
+ ife and History announced in 1925 and first held in February 1926\, and be
+ came a full month in 1976\, the nation's bicentennial.\n\nhttps://todaycel
+ ebrates.com/holiday/black-history-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-history-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:black-history-month-20310201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310201
+DTEND;VALUE=DATE:20310301
+SUMMARY:Black History Month
+DESCRIPTION:February is Black History Month. It grew out of Negro History W
+ eek\, which Carter G. Woodson and the Association for the Study of Negro L
+ ife and History announced in 1925 and first held in February 1926\, and be
+ came a full month in 1976\, the nation's bicentennial.\n\nhttps://todaycel
+ ebrates.com/holiday/black-history-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-history-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:black-history-month-20320201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320201
+DTEND;VALUE=DATE:20320301
+SUMMARY:Black History Month
+DESCRIPTION:February is Black History Month. It grew out of Negro History W
+ eek\, which Carter G. Woodson and the Association for the Study of Negro L
+ ife and History announced in 1925 and first held in February 1926\, and be
+ came a full month in 1976\, the nation's bicentennial.\n\nhttps://todaycel
+ ebrates.com/holiday/black-history-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-history-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:black-history-month-20330201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330201
+DTEND;VALUE=DATE:20330301
+SUMMARY:Black History Month
+DESCRIPTION:February is Black History Month. It grew out of Negro History W
+ eek\, which Carter G. Woodson and the Association for the Study of Negro L
+ ife and History announced in 1925 and first held in February 1926\, and be
+ came a full month in 1976\, the nation's bicentennial.\n\nhttps://todaycel
+ ebrates.com/holiday/black-history-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-history-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:black-history-month-20340201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340201
+DTEND;VALUE=DATE:20340301
+SUMMARY:Black History Month
+DESCRIPTION:February is Black History Month. It grew out of Negro History W
+ eek\, which Carter G. Woodson and the Association for the Study of Negro L
+ ife and History announced in 1925 and first held in February 1926\, and be
+ came a full month in 1976\, the nation's bicentennial.\n\nhttps://todaycel
+ ebrates.com/holiday/black-history-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-history-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:black-history-month-20350201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350201
+DTEND;VALUE=DATE:20350301
+SUMMARY:Black History Month
+DESCRIPTION:February is Black History Month. It grew out of Negro History W
+ eek\, which Carter G. Woodson and the Association for the Study of Negro L
+ ife and History announced in 1925 and first held in February 1926\, and be
+ came a full month in 1976\, the nation's bicentennial.\n\nhttps://todaycel
+ ebrates.com/holiday/black-history-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/black-history-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20270101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20280101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20290101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290101
+DTEND;VALUE=DATE:20290201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20300101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300101
+DTEND;VALUE=DATE:20300201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20310101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310101
+DTEND;VALUE=DATE:20310201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20320101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320101
+DTEND;VALUE=DATE:20320201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20330101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330101
+DTEND;VALUE=DATE:20330201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20340101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340101
+DTEND;VALUE=DATE:20340201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20350101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350101
+DTEND;VALUE=DATE:20350201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20270101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20280101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20290101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290101
+DTEND;VALUE=DATE:20290201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20300101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300101
+DTEND;VALUE=DATE:20300201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20310101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310101
+DTEND;VALUE=DATE:20310201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20320101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320101
+DTEND;VALUE=DATE:20320201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20330101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330101
+DTEND;VALUE=DATE:20330201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20340101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340101
+DTEND;VALUE=DATE:20340201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20350101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350101
+DTEND;VALUE=DATE:20350201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20261226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20270102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20271226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271226
+DTEND;VALUE=DATE:20280102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20281226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281226
+DTEND;VALUE=DATE:20290102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20291226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291226
+DTEND;VALUE=DATE:20300102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20301226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301226
+DTEND;VALUE=DATE:20310102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20311226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311226
+DTEND;VALUE=DATE:20320102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20321226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321226
+DTEND;VALUE=DATE:20330102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20331226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331226
+DTEND;VALUE=DATE:20340102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20341226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341226
+DTEND;VALUE=DATE:20350102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:kwanzaa-20351226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351226
+DTEND;VALUE=DATE:20360102
+SUMMARY:Kwanzaa
+DESCRIPTION:Kwanzaa runs for seven days\, from December 26 through January 
+ 1\, and is an African American and Pan-African holiday organized around se
+ ven principles rather than a single event. Maulana Karenga created it in 1
+ 966\, which makes it unusual among holidays: its founder is living\, has p
+ ublished a book on it\, and maintains an authoritative account of what it 
+ is. One thing it is not\, on his own insistence\, is a substitute for Chri
+ stmas.\n\nhttps://todaycelebrates.com/holiday/kwanzaa/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/kwanzaa/
+CATEGORIES:Celebration
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20270210@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270326
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20280301@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280301
+DTEND;VALUE=DATE:20280414
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20290214@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290214
+DTEND;VALUE=DATE:20290330
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20300306@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300306
+DTEND;VALUE=DATE:20300419
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20310226@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310226
+DTEND;VALUE=DATE:20310411
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20320211@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320211
+DTEND;VALUE=DATE:20320326
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20330302@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330302
+DTEND;VALUE=DATE:20330415
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20340222@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340222
+DTEND;VALUE=DATE:20340407
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:lent-20350207@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350207
+DTEND;VALUE=DATE:20350323
+SUMMARY:Lent
+DESCRIPTION:Lent is a season of prayer\, fasting and almsgiving that prepar
+ es Christians for Easter. In the Catholic calendar it begins on Ash Wednes
+ day and ends at sundown on Holy Thursday.\n\nhttps://todaycelebrates.com/h
+ oliday/lent/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/lent/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20270101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20280101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20290101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290101
+DTEND;VALUE=DATE:20290201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20300101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300101
+DTEND;VALUE=DATE:20300201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20310101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310101
+DTEND;VALUE=DATE:20310201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20320101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320101
+DTEND;VALUE=DATE:20320201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20330101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330101
+DTEND;VALUE=DATE:20330201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20340101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340101
+DTEND;VALUE=DATE:20340201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20350101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350101
+DTEND;VALUE=DATE:20350201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-impaired-driving-prevention-month-20261201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270101
+SUMMARY:National Impaired Driving Prevention Month
+DESCRIPTION:December is National Impaired Driving Prevention Month\, a nati
+ onal observance against driving under the influence of alcohol and drugs. 
+ The most recent presidential message recognizing it was issued on December
+  5\, 2025.\n\nhttps://todaycelebrates.com/holiday/national-impaired-drivin
+ g-prevention-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-impaired-driving
+ -prevention-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-impaired-driving-prevention-month-20271201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20271201
+DTEND;VALUE=DATE:20280101
+SUMMARY:National Impaired Driving Prevention Month
+DESCRIPTION:December is National Impaired Driving Prevention Month\, a nati
+ onal observance against driving under the influence of alcohol and drugs. 
+ The most recent presidential message recognizing it was issued on December
+  5\, 2025.\n\nhttps://todaycelebrates.com/holiday/national-impaired-drivin
+ g-prevention-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-impaired-driving
+ -prevention-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-impaired-driving-prevention-month-20281201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20281201
+DTEND;VALUE=DATE:20290101
+SUMMARY:National Impaired Driving Prevention Month
+DESCRIPTION:December is National Impaired Driving Prevention Month\, a nati
+ onal observance against driving under the influence of alcohol and drugs. 
+ The most recent presidential message recognizing it was issued on December
+  5\, 2025.\n\nhttps://todaycelebrates.com/holiday/national-impaired-drivin
+ g-prevention-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-impaired-driving
+ -prevention-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-impaired-driving-prevention-month-20291201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20291201
+DTEND;VALUE=DATE:20300101
+SUMMARY:National Impaired Driving Prevention Month
+DESCRIPTION:December is National Impaired Driving Prevention Month\, a nati
+ onal observance against driving under the influence of alcohol and drugs. 
+ The most recent presidential message recognizing it was issued on December
+  5\, 2025.\n\nhttps://todaycelebrates.com/holiday/national-impaired-drivin
+ g-prevention-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-impaired-driving
+ -prevention-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-impaired-driving-prevention-month-20301201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20301201
+DTEND;VALUE=DATE:20310101
+SUMMARY:National Impaired Driving Prevention Month
+DESCRIPTION:December is National Impaired Driving Prevention Month\, a nati
+ onal observance against driving under the influence of alcohol and drugs. 
+ The most recent presidential message recognizing it was issued on December
+  5\, 2025.\n\nhttps://todaycelebrates.com/holiday/national-impaired-drivin
+ g-prevention-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-impaired-driving
+ -prevention-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-impaired-driving-prevention-month-20311201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20311201
+DTEND;VALUE=DATE:20320101
+SUMMARY:National Impaired Driving Prevention Month
+DESCRIPTION:December is National Impaired Driving Prevention Month\, a nati
+ onal observance against driving under the influence of alcohol and drugs. 
+ The most recent presidential message recognizing it was issued on December
+  5\, 2025.\n\nhttps://todaycelebrates.com/holiday/national-impaired-drivin
+ g-prevention-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-impaired-driving
+ -prevention-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-impaired-driving-prevention-month-20321201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20321201
+DTEND;VALUE=DATE:20330101
+SUMMARY:National Impaired Driving Prevention Month
+DESCRIPTION:December is National Impaired Driving Prevention Month\, a nati
+ onal observance against driving under the influence of alcohol and drugs. 
+ The most recent presidential message recognizing it was issued on December
+  5\, 2025.\n\nhttps://todaycelebrates.com/holiday/national-impaired-drivin
+ g-prevention-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-impaired-driving
+ -prevention-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-impaired-driving-prevention-month-20331201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20331201
+DTEND;VALUE=DATE:20340101
+SUMMARY:National Impaired Driving Prevention Month
+DESCRIPTION:December is National Impaired Driving Prevention Month\, a nati
+ onal observance against driving under the influence of alcohol and drugs. 
+ The most recent presidential message recognizing it was issued on December
+  5\, 2025.\n\nhttps://todaycelebrates.com/holiday/national-impaired-drivin
+ g-prevention-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-impaired-driving
+ -prevention-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-impaired-driving-prevention-month-20341201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20341201
+DTEND;VALUE=DATE:20350101
+SUMMARY:National Impaired Driving Prevention Month
+DESCRIPTION:December is National Impaired Driving Prevention Month\, a nati
+ onal observance against driving under the influence of alcohol and drugs. 
+ The most recent presidential message recognizing it was issued on December
+  5\, 2025.\n\nhttps://todaycelebrates.com/holiday/national-impaired-drivin
+ g-prevention-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-impaired-driving
+ -prevention-month/
+CATEGORIES:Community
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-impaired-driving-prevention-month-20351201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20351201
+DTEND;VALUE=DATE:20360101
+SUMMARY:National Impaired Driving Prevention Month
+DESCRIPTION:December is National Impaired Driving Prevention Month\, a nati
+ onal observance against driving under the influence of alcohol and drugs. 
+ The most recent presidential message recognizing it was issued on December
+  5\, 2025.\n\nhttps://todaycelebrates.com/holiday/national-impaired-drivin
+ g-prevention-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-impaired-driving
+ -prevention-month/
+CATEGORIES:Community
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 SEQUENCE:0

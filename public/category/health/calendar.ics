@@ -4,9 +4,9 @@ PRODID:-//Today Celebrates//Site Generator//EN
 CALSCALE:GREGORIAN
 NAME:Today Celebrates: Health
 X-WR-CALNAME:Today Celebrates: Health
-DESCRIPTION:114 health observances from https://todaycelebrates.com/categor
+DESCRIPTION:118 health observances from https://todaycelebrates.com/categor
  y/health/. Rebuilt daily.
-X-WR-CALDESC:114 health observances from https://todaycelebrates.com/catego
+X-WR-CALDESC:118 health observances from https://todaycelebrates.com/catego
  ry/health/. Rebuilt daily.
 URL;VALUE=URI:https://todaycelebrates.com/category/health/calendar.ics
 SOURCE;VALUE=URI:https://todaycelebrates.com/category/health/calendar.ics
@@ -2408,8 +2408,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-prematurity-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
 SUMMARY:World Prematurity Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Prematurity Day is a health-awareness observance on Novem
@@ -2585,6 +2585,600 @@ DESCRIPTION:World Teen Mental Wellness Day\, observed on March 2\, encourag
  tps://todaycelebrates.com/holiday/world-teen-mental-wellness-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-teen-mental-wellnes
  s-day/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20270201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20280201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280201
+DTEND;VALUE=DATE:20280301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20290201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290201
+DTEND;VALUE=DATE:20290301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20300201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300201
+DTEND;VALUE=DATE:20300301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20310201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310201
+DTEND;VALUE=DATE:20310301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20320201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320201
+DTEND;VALUE=DATE:20320301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20330201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330201
+DTEND;VALUE=DATE:20330301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20340201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340201
+DTEND;VALUE=DATE:20340301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:american-heart-month-20350201@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350201
+DTEND;VALUE=DATE:20350301
+SUMMARY:American Heart Month
+DESCRIPTION:February is American Heart Month. A joint resolution of Congres
+ s approved December 30\, 1963\, asks the president to proclaim it every ye
+ ar\, and Lyndon B. Johnson proclaimed the first\, for February 1964\, the 
+ same day.\n\nhttps://todaycelebrates.com/holiday/american-heart-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/american-heart-month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20270101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20280101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20290101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290101
+DTEND;VALUE=DATE:20290201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20300101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300101
+DTEND;VALUE=DATE:20300201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20310101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310101
+DTEND;VALUE=DATE:20310201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20320101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320101
+DTEND;VALUE=DATE:20320201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20330101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330101
+DTEND;VALUE=DATE:20330201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20340101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340101
+DTEND;VALUE=DATE:20340201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cervical-health-awareness-month-20350101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350101
+DTEND;VALUE=DATE:20350201
+SUMMARY:Cervical Health Awareness Month
+DESCRIPTION:January is Cervical Health Awareness Month\, designated by the 
+ United States Congress. The National Cervical Cancer Coalition and its loc
+ al chapters use the month to highlight issues related to cervical cancer.\
+ n\nhttps://todaycelebrates.com/holiday/cervical-health-awareness-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/cervical-health-awareness
+ -month/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20270101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20280101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20290101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290101
+DTEND;VALUE=DATE:20290201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20300101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300101
+DTEND;VALUE=DATE:20300201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20310101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310101
+DTEND;VALUE=DATE:20310201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20320101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320101
+DTEND;VALUE=DATE:20320201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20330101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330101
+DTEND;VALUE=DATE:20330201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20340101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340101
+DTEND;VALUE=DATE:20340201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:dry-january-20350101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350101
+DTEND;VALUE=DATE:20350201
+SUMMARY:Dry January
+DESCRIPTION:Dry January is a challenge to go without alcohol for the whole 
+ of January. It is run by the British charity Alcohol Change UK\, and the f
+ irst challenge\, in 2013\, had 4\,000 participants.\n\nhttps://todaycelebr
+ ates.com/holiday/dry-january/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/dry-january/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20270101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20280101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20290101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20290101
+DTEND;VALUE=DATE:20290201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20300101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20300101
+DTEND;VALUE=DATE:20300201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20310101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20310101
+DTEND;VALUE=DATE:20310201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20320101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20320101
+DTEND;VALUE=DATE:20320201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20330101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20330101
+DTEND;VALUE=DATE:20330201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20340101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20340101
+DTEND;VALUE=DATE:20340201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
+CATEGORIES:Health
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:national-blood-donor-month-20350101@todaycelebrates.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20350101
+DTEND;VALUE=DATE:20350201
+SUMMARY:National Blood Donor Month
+DESCRIPTION:January is National Blood Donor Month. President Richard Nixon 
+ proclaimed the first one\, for January 1970\, on December 31\, 1969\, to p
+ ay tribute to voluntary blood donors and encourage new donors to join.\n\n
+ https://todaycelebrates.com/holiday/national-blood-donor-month/
+URL;VALUE=URI:https://todaycelebrates.com/holiday/national-blood-donor-mont
+ h/
 CATEGORIES:Health
 TRANSP:TRANSPARENT
 CLASS:PUBLIC

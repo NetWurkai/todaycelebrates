@@ -1426,8 +1426,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-baklava-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
 SUMMARY:National Baklava Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Baklava Day is a food-focused observance celebrated ac
@@ -5441,8 +5441,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-homemade-bread-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
 SUMMARY:National Homemade Bread Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Homemade Bread Day falls on November 17\, and no organ
@@ -9186,10 +9186,13 @@ DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:National Zinfandel Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Zinfandel Day is a food-focused observance celebrated 
- across the United States on November 18\, giving fans of the dish or ingre
- dient an excuse to seek it out and share it with others.\n\nhttps://todayc
- elebrates.com/holiday/national-zinfandel-day/
+DESCRIPTION:National Zinfandel Day celebrates the grape American wine spent
+  a century and a half treating as its own\, until DNA tests placed its ori
+ gin on the Croatian coast. The observance is held on the third Wednesday o
+ f November\, which in 2026 is November 18. Its own history is already mudd
+ led: the organization behind it announced a first Zinfandel Day for Novemb
+ er 19\, 2010\, then later wrote that it created National Zinfandel Day in 
+ 2012.\n\nhttps://todaycelebrates.com/holiday/national-zinfandel-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-zinfandel-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT

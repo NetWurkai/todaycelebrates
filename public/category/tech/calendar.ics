@@ -556,10 +556,14 @@ DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Geographic Information Systems Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Geographic Information Systems Day\, observed on November 18\, 
- celebrates a piece of technology or digital culture that's become part of 
- everyday life across the United States.\n\nhttps://todaycelebrates.com/hol
- iday/geographic-information-systems-day/
+DESCRIPTION:Geographic Information Systems Day\, usually just GIS Day\, is 
+ the mapping world's open house: one day on which county GIS departments\, 
+ universities and utilities show the public what they do with spatial data.
+  Esri\, the software company that runs the day's website\, dates the first
+  formal GIS Day to 1999 and credits the consumer advocate Ralph Nader with
+  inspiring it. It falls on the third Wednesday of November\, inside Geogra
+ phy Awareness Week\, which puts it on November 18 in 2026.\n\nhttps://toda
+ ycelebrates.com/holiday/geographic-information-systems-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/geographic-information-sy
  stems-day/
 CATEGORIES:Tech

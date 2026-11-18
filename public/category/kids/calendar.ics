@@ -1039,9 +1039,14 @@ DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Mickey Mouse Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Mickey Mouse Day\, observed on November 18\, is a lighthearted\
- , family-friendly day celebrated across the United States.\n\nhttps://toda
- ycelebrates.com/holiday/mickey-mouse-day/
+DESCRIPTION:Mickey Mouse Day falls on November 18\, the date Disney itself 
+ treats as Mickey's birthday. It marks the 1928 opening of Steamboat Willie
+  at the Colony Theater in New York\, the short that put the character in f
+ ront of a paying audience with synchronized sound after two earlier Mickey
+  cartoons had failed to find a distributor. The date is younger than the m
+ ouse: for four decades the studio moved the birthday around the calendar b
+ efore an archivist settled it.\n\nhttps://todaycelebrates.com/holiday/mick
+ ey-mouse-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/mickey-mouse-day/
 CATEGORIES:Kids & Family
 TRANSP:TRANSPARENT
