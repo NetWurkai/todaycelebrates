@@ -383,25 +383,6 @@ CLASS:PUBLIC
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:great-american-smokeout-20261119@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Great American Smokeout
-DESCRIPTION:The Great American Smokeout is the American Cancer Society's an
- nual invitation to people who smoke to stop for one day\, on the premise t
- hat a single fixed date is a plan someone can actually start on. It falls 
- on the third Thursday of November\, which in 2026 is November 19. The Soci
- ety has run it nationally since 1977\, a year after a California event per
- suaded close to a million people to quit for the day.\n\nhttps://todaycele
- brates.com/holiday/great-american-smokeout/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
-CATEGORIES:Health
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:great-american-smokeout-20271118@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271118
@@ -729,8 +710,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-mens-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
 SUMMARY:International Men's Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Men's Day falls on November 19 and is marked most

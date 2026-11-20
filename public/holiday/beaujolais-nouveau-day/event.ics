@@ -15,26 +15,6 @@ SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:beaujolais-nouveau-day-20261119@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Beaujolais Nouveau Day
-DESCRIPTION:Beaujolais Nouveau Day is the single date on which the year's B
- eaujolais Nouveau may go on sale — a young red wine bottled weeks after 
- the harvest\, released on the third Thursday of November\, which in 2026 i
- s November 19. The date is a rule rather than a marketing choice: Inter Be
- aujolais\, the region's trade body\, traces it to a French decree of 1985.
-  In 2022\, 16.5 million bottles of Beaujolais and Beaujolais Villages Nouv
- eaux were sold\, 6.5 million of them exported to more than 100 countries.\
- n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
-CATEGORIES:Beer
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:beaujolais-nouveau-day-20271118@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271118

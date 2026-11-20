@@ -2639,8 +2639,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-monopoly-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
 SUMMARY:Play Monopoly Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Play Monopoly Day\, observed on November 19\, is a lighthearted
@@ -3225,9 +3225,15 @@ DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:World Children's Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Children's Day\, observed on November 20\, is a lighthear
- ted\, family-friendly day celebrated across the United States.\n\nhttps://
- todaycelebrates.com/holiday/world-childrens-day/
+DESCRIPTION:World Children's Day falls on November 20\, the date the United
+  Nations General Assembly adopted the Declaration of the Rights of the Chi
+ ld in 1959 and\, thirty years later to the day\, the Convention on the Rig
+ hts of the Child. UNICEF runs it as a day of action for children and\, inc
+ reasingly\, by children: the signature event is a "kid takeover\," in whic
+ h young people step into adult roles in media\, politics\, business and sp
+ ort. The observance is older than its current name\, and the UN's own page
+ s for it no longer explain where it began.\n\nhttps://todaycelebrates.com/
+ holiday/world-childrens-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-childrens-day/
 CATEGORIES:Kids & Family
 TRANSP:TRANSPARENT

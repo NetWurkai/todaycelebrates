@@ -673,9 +673,14 @@ DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Africa Industrialization Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Africa Industrialization Day\, observed on November 20\, is a l
- ighthearted holiday celebrated across the United States.\n\nhttps://todayc
- elebrates.com/holiday/africa-industrialization-day/
+DESCRIPTION:Africa Industrialization Day falls on November 20 by proclamati
+ on of the UN General Assembly\, which designated it in December 1989 withi
+ n the framework of the Second Industrial Development Decade for Africa. It
+  is an advocacy day rather than a celebration: its subject is manufacturin
+ g on the continent and what stands in the way of more of it. Since 2018 th
+ e date has anchored a longer African Union event\, Africa Industrialisatio
+ n Week.\n\nhttps://todaycelebrates.com/holiday/africa-industrialization-da
+ y/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/africa-industrialization-
  day/
 CATEGORIES:Celebration
@@ -2715,26 +2720,6 @@ DESCRIPTION:Beach Party Day\, observed on August 7\, is a lighthearted holi
  liday/beach-party-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/beach-party-day/
 CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:beaujolais-nouveau-day-20261119@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Beaujolais Nouveau Day
-DESCRIPTION:Beaujolais Nouveau Day is the single date on which the year's B
- eaujolais Nouveau may go on sale — a young red wine bottled weeks after 
- the harvest\, released on the third Thursday of November\, which in 2026 i
- s November 19. The date is a rule rather than a marketing choice: Inter Be
- aujolais\, the region's trade body\, traces it to a French decree of 1985.
-  In 2022\, 16.5 million bottles of Beaujolais and Beaujolais Villages Nouv
- eaux were sold\, 6.5 million of them exported to more than 100 countries.\
- n\nhttps://todaycelebrates.com/holiday/beaujolais-nouveau-day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/beaujolais-nouveau-day/
-CATEGORIES:Beer
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 SEQUENCE:0
@@ -11875,25 +11860,6 @@ CLASS:PUBLIC
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:great-american-smokeout-20261119@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Great American Smokeout
-DESCRIPTION:The Great American Smokeout is the American Cancer Society's an
- nual invitation to people who smoke to stop for one day\, on the premise t
- hat a single fixed date is a plan someone can actually start on. It falls 
- on the third Thursday of November\, which in 2026 is November 19. The Soci
- ety has run it nationally since 1977\, a year after a California event per
- suaded close to a million people to quit for the day.\n\nhttps://todaycele
- brates.com/holiday/great-american-smokeout/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/great-american-smokeout/
-CATEGORIES:Health
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:great-american-smokeout-20271118@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271118
@@ -16470,8 +16436,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-mens-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
 SUMMARY:International Men's Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Men's Day falls on November 19 and is marked most
@@ -32919,8 +32885,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-macchiato-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
 SUMMARY:National Macchiato Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Macchiato Day\, observed on November 19\, gives coffee
@@ -35242,10 +35208,13 @@ DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:National Peanut Butter Fudge Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Peanut Butter Fudge Day is a food-focused observance c
- elebrated across the United States on November 20\, giving fans of the dis
- h or ingredient an excuse to seek it out and share it with others.\n\nhttp
- s://todaycelebrates.com/holiday/national-peanut-butter-fudge-day/
+DESCRIPTION:National Peanut Butter Fudge Day is marked on November 20\, and
+  no organization appears to claim it. What can be documented is the pair o
+ f things its name joins: a candy whose earliest recorded appearance is at 
+ an American women's college in the 1880s\, and a ground-peanut paste paten
+ ted in 1884 as an ingredient for candy. The observance is undocumented\; t
+ he confection is not.\n\nhttps://todaycelebrates.com/holiday/national-pean
+ ut-butter-fudge-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-peanut-butter-fu
  dge-day/
 CATEGORIES:Food
@@ -44068,8 +44037,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-monopoly-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
 SUMMARY:Play Monopoly Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Play Monopoly Day\, observed on November 19\, is a lighthearted
@@ -52293,9 +52262,15 @@ DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:World Children's Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Children's Day\, observed on November 20\, is a lighthear
- ted\, family-friendly day celebrated across the United States.\n\nhttps://
- todaycelebrates.com/holiday/world-childrens-day/
+DESCRIPTION:World Children's Day falls on November 20\, the date the United
+  Nations General Assembly adopted the Declaration of the Rights of the Chi
+ ld in 1959 and\, thirty years later to the day\, the Convention on the Rig
+ hts of the Child. UNICEF runs it as a day of action for children and\, inc
+ reasingly\, by children: the signature event is a "kid takeover\," in whic
+ h young people step into adult roles in media\, politics\, business and sp
+ ort. The observance is older than its current name\, and the UN's own page
+ s for it no longer explain where it began.\n\nhttps://todaycelebrates.com/
+ holiday/world-childrens-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-childrens-day/
 CATEGORIES:Kids & Family
 TRANSP:TRANSPARENT
@@ -53714,8 +53689,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-philosophy-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
 SUMMARY:World Philosophy Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Philosophy Day\, observed on November 19\, is a lighthear
@@ -54778,8 +54753,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-toilet-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
 SUMMARY:World Toilet Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Toilet Day\, observed on November 19\, encourages people 

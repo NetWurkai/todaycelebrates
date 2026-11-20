@@ -251,9 +251,14 @@ DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Africa Industrialization Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Africa Industrialization Day\, observed on November 20\, is a l
- ighthearted holiday celebrated across the United States.\n\nhttps://todayc
- elebrates.com/holiday/africa-industrialization-day/
+DESCRIPTION:Africa Industrialization Day falls on November 20 by proclamati
+ on of the UN General Assembly\, which designated it in December 1989 withi
+ n the framework of the Second Industrial Development Decade for Africa. It
+  is an advocacy day rather than a celebration: its subject is manufacturin
+ g on the continent and what stands in the way of more of it. Since 2018 th
+ e date has anchored a longer African Union event\, Africa Industrialisatio
+ n Week.\n\nhttps://todaycelebrates.com/holiday/africa-industrialization-da
+ y/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/africa-industrialization-
  day/
 CATEGORIES:Celebration
@@ -16953,8 +16958,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-philosophy-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
 SUMMARY:World Philosophy Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Philosophy Day\, observed on November 19\, is a lighthear
