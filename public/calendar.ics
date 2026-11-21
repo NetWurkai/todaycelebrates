@@ -669,8 +669,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:africa-industrialization-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
 SUMMARY:Africa Industrialization Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Africa Industrialization Day falls on November 20 by proclamati
@@ -2907,8 +2907,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:beautiful-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
 SUMMARY:Beautiful Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Beautiful Day\, observed on November 20\, is a lighthearted hol
@@ -20704,8 +20704,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:name-your-pc-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
 SUMMARY:Name Your PC Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Name Your PC Day\, observed on November 20\, celebrates a piece
@@ -20836,8 +20836,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-absurdity-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
 SUMMARY:National Absurdity Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Absurdity Day\, observed on November 20\, is a lighthe
@@ -29312,10 +29312,12 @@ DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:National Gingerbread Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Gingerbread Day is a food-focused observance celebrate
- d across the United States on November 21\, giving fans of the dish or ing
- redient an excuse to seek it out and share it with others.\n\nhttps://toda
- ycelebrates.com/holiday/national-gingerbread-day/
+DESCRIPTION:National Gingerbread Day falls on November 21\, at the front ed
+ ge of the season when Americans actually bake gingerbread. No body designa
+ tes it\, and the aggregator pages carrying the date do not even agree on i
+ ts name. Gingerbread itself has a better record: older\, hedgier and more 
+ legally protected than it looks.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-gingerbread-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gingerbread-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -35204,8 +35206,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-peanut-butter-fudge-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
 SUMMARY:National Peanut Butter Fudge Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Peanut Butter Fudge Day is marked on November 20\, and
@@ -38763,10 +38765,12 @@ DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:National Stuffing Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Stuffing Day is a food-focused observance celebrated a
- cross the United States on November 21\, giving fans of the dish or ingred
- ient an excuse to seek it out and share it with others.\n\nhttps://todayce
- lebrates.com/holiday/national-stuffing-day/
+DESCRIPTION:National Stuffing Day falls on November 21\, a few days before 
+ the one meal of the year at which most American households make stuffing a
+ t all. No organization claims to have created the observance. What is well
+  documented is the dish itself: its regional names\, its best-known indust
+ rial version\, and the federal food-safety guidance that governs it.\n\nht
+ tps://todaycelebrates.com/holiday/national-stuffing-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-stuffing-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -50445,8 +50449,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:transgender-day-of-remembrance@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
 SUMMARY:Transgender Day of Remembrance
 RRULE:FREQ=YEARLY
 DESCRIPTION:Transgender Day of Remembrance\, observed on November 20\, enco
@@ -52258,8 +52262,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-childrens-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
 SUMMARY:World Children's Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Children's Day falls on November 20\, the date the United
@@ -52882,9 +52886,11 @@ DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:World Hello Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Hello Day\, observed on November 21\, encourages people a
- cross the United States to pause and recognize the people and causes behin
- d the day.\n\nhttps://todaycelebrates.com/holiday/world-hello-day/
+DESCRIPTION:World Hello Day falls on November 21 and asks almost nothing of
+  anyone: greet ten people. It was begun in response to the Arab-Israeli wa
+ r of October 1973\, by two brothers who spent their own money on postage\,
+  and its organizers say people in 180 countries have marked it since.\n\nh
+ ttps://todaycelebrates.com/holiday/world-hello-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-hello-day/
 CATEGORIES:Community
 TRANSP:TRANSPARENT

@@ -9528,8 +9528,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:transgender-day-of-remembrance@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
 SUMMARY:Transgender Day of Remembrance
 RRULE:FREQ=YEARLY
 DESCRIPTION:Transgender Day of Remembrance\, observed on November 20\, enco
@@ -9991,9 +9991,11 @@ DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:World Hello Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:World Hello Day\, observed on November 21\, encourages people a
- cross the United States to pause and recognize the people and causes behin
- d the day.\n\nhttps://todaycelebrates.com/holiday/world-hello-day/
+DESCRIPTION:World Hello Day falls on November 21 and asks almost nothing of
+  anyone: greet ten people. It was begun in response to the Arab-Israeli wa
+ r of October 1973\, by two brothers who spent their own money on postage\,
+  and its organizers say people in 180 countries have marked it since.\n\nh
+ ttps://todaycelebrates.com/holiday/world-hello-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/world-hello-day/
 CATEGORIES:Community
 TRANSP:TRANSPARENT

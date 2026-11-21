@@ -5019,10 +5019,12 @@ DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:National Gingerbread Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Gingerbread Day is a food-focused observance celebrate
- d across the United States on November 21\, giving fans of the dish or ing
- redient an excuse to seek it out and share it with others.\n\nhttps://toda
- ycelebrates.com/holiday/national-gingerbread-day/
+DESCRIPTION:National Gingerbread Day falls on November 21\, at the front ed
+ ge of the season when Americans actually bake gingerbread. No body designa
+ tes it\, and the aggregator pages carrying the date do not even agree on i
+ ts name. Gingerbread itself has a better record: older\, hedgier and more 
+ legally protected than it looks.\n\nhttps://todaycelebrates.com/holiday/na
+ tional-gingerbread-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-gingerbread-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -7149,8 +7151,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-peanut-butter-fudge-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
 SUMMARY:National Peanut Butter Fudge Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Peanut Butter Fudge Day is marked on November 20\, and
@@ -8655,10 +8657,12 @@ DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:National Stuffing Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Stuffing Day is a food-focused observance celebrated a
- cross the United States on November 21\, giving fans of the dish or ingred
- ient an excuse to seek it out and share it with others.\n\nhttps://todayce
- lebrates.com/holiday/national-stuffing-day/
+DESCRIPTION:National Stuffing Day falls on November 21\, a few days before 
+ the one meal of the year at which most American households make stuffing a
+ t all. No organization claims to have created the observance. What is well
+  documented is the dish itself: its regional names\, its best-known indust
+ rial version\, and the federal food-safety guidance that governs it.\n\nht
+ tps://todaycelebrates.com/holiday/national-stuffing-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-stuffing-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
