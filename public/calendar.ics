@@ -13213,10 +13213,15 @@ DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Humane Society Anniversary Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Humane Society Anniversary Day\, observed on November 22\, enco
- urages people across the United States to pause and recognize the people a
- nd causes behind the day.\n\nhttps://todaycelebrates.com/holiday/humane-so
- ciety-anniversary-day/
+DESCRIPTION:Humane Society Anniversary Day\, observed on November 22\, mark
+ s the founding of the organization known for most of its life as the Human
+ e Society of the United States. The date comes from an archive rather than
+  from the organization itself: North Carolina State University Libraries\,
+  which holds the group's records\, dates the founding to November 22\, 195
+ 4\, while the organization's own history gives only "November 1954." No fo
+ unding body\, proclamation or news report designates the observance\; it a
+ ppears only on calendar sites.\n\nhttps://todaycelebrates.com/holiday/huma
+ ne-society-anniversary-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/humane-society-anniversar
  y-day/
 CATEGORIES:Community
@@ -20341,9 +20346,13 @@ DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Mother Goose Parade Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Mother Goose Parade Day\, observed on November 22\, is a lighth
- earted\, family-friendly day celebrated across the United States.\n\nhttps
- ://todaycelebrates.com/holiday/mother-goose-parade-day/
+DESCRIPTION:Mother Goose Parade Day marks one parade in one city: the Mothe
+ r Goose Parade\, first staged in El Cajon\, California in 1947 and traditi
+ onally held on the Sunday before Thanksgiving. It is an unusual entry on a
+ ny holiday calendar\, because the thing it commemorates may no longer exis
+ t. The parade has not marched live since 2019\, and the association that r
+ an it was described by El Cajon's city manager in 2023 as defunct.\n\nhttp
+ s://todaycelebrates.com/holiday/mother-goose-parade-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/mother-goose-parade-day/
 CATEGORIES:Kids & Family
 TRANSP:TRANSPARENT
@@ -20899,22 +20908,6 @@ DESCRIPTION:National Activity Professionals Day\, observed on January 22\,
  nal-activity-professionals-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-activity-profess
  ionals-day/
-CATEGORIES:Community
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:national-adoption-day-20261121@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:National Adoption Day
-DESCRIPTION:National Adoption Day\, observed on November 21\, encourages pe
- ople across the United States to pause and recognize the people and causes
-  behind the day.\n\nhttps://todaycelebrates.com/holiday/national-adoption-
- day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/national-adoption-day/
 CATEGORIES:Community
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
@@ -26259,8 +26252,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-cranberry-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
 SUMMARY:National Cranberry Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Cranberry Day is a food-focused observance celebrated 
@@ -29308,8 +29301,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-gingerbread-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
 SUMMARY:National Gingerbread Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Gingerbread Day falls on November 21\, at the front ed
@@ -31979,10 +31972,13 @@ DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:National Kimchi Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Kimchi Day is a food-focused observance celebrated acr
- oss the United States on November 22\, giving fans of the dish or ingredie
- nt an excuse to seek it out and share it with others.\n\nhttps://todaycele
- brates.com/holiday/national-kimchi-day/
+DESCRIPTION:November 22 is Kimchi Day\, and unusually for a food observance
+ \, it exists because a national legislature wrote it into a statute. South
+  Korea amended its Kimchi Industry Promotion Act in February 2020 to add a
+ n article designating the date\, and since 2021 several U.S. state legisla
+ tures have adopted the same day by resolution. What none of those document
+ s explains is why November 22 in particular.\n\nhttps://todaycelebrates.co
+ m/holiday/national-kimchi-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kimchi-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -36635,8 +36631,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-pumpkin-pie-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
 SUMMARY:National Pumpkin Pie Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Pumpkin Pie Day is a food-focused observance celebrate
@@ -38761,8 +38757,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-stuffing-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
 SUMMARY:National Stuffing Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Stuffing Day falls on November 21\, a few days before 
@@ -52882,8 +52878,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-hello-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
 SUMMARY:World Hello Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Hello Day falls on November 21 and asks almost nothing of
@@ -54709,8 +54705,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:world-television-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
 SUMMARY:World Television Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:World Television Day\, observed on November 21\, celebrates a p

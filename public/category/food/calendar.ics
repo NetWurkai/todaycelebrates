@@ -3666,8 +3666,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-cranberry-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
 SUMMARY:National Cranberry Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Cranberry Day is a food-focused observance celebrated 
@@ -5015,8 +5015,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-gingerbread-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
 SUMMARY:National Gingerbread Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Gingerbread Day falls on November 21\, at the front ed
@@ -6034,10 +6034,13 @@ DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:National Kimchi Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Kimchi Day is a food-focused observance celebrated acr
- oss the United States on November 22\, giving fans of the dish or ingredie
- nt an excuse to seek it out and share it with others.\n\nhttps://todaycele
- brates.com/holiday/national-kimchi-day/
+DESCRIPTION:November 22 is Kimchi Day\, and unusually for a food observance
+ \, it exists because a national legislature wrote it into a statute. South
+  Korea amended its Kimchi Industry Promotion Act in February 2020 to add a
+ n article designating the date\, and since 2021 several U.S. state legisla
+ tures have adopted the same day by resolution. What none of those document
+ s explains is why November 22 in particular.\n\nhttps://todaycelebrates.co
+ m/holiday/national-kimchi-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-kimchi-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -7810,8 +7813,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-pumpkin-pie-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
 SUMMARY:National Pumpkin Pie Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Pumpkin Pie Day is a food-focused observance celebrate
@@ -8653,8 +8656,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-stuffing-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
+DTSTART;VALUE=DATE:20271121
+DTEND;VALUE=DATE:20271122
 SUMMARY:National Stuffing Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Stuffing Day falls on November 21\, a few days before 
