@@ -9404,9 +9404,12 @@ DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Fibonacci Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Fibonacci Day\, observed on November 23\, celebrates a piece of
-  technology or digital culture that's become part of everyday life across 
- the United States.\n\nhttps://todaycelebrates.com/holiday/fibonacci-day/
+DESCRIPTION:Fibonacci Day falls on November 23 because the American way of 
+ writing the date\, 11/23\, spells out 1\, 1\, 2\, 3 — the opening of the
+  Fibonacci sequence. No founding body or proclamation designates the day\,
+  and that arithmetic is the only explanation on offer. It suits a sequence
+  older than the man it is named for\, and a man whose name is disputed.\n\
+ nhttps://todaycelebrates.com/holiday/fibonacci-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/fibonacci-day/
 CATEGORIES:Tech
 TRANSP:TRANSPARENT
@@ -11392,8 +11395,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:go-for-a-ride-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271123
 SUMMARY:Go For a Ride Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Go For a Ride Day\, observed on November 22\, is a lighthearted
@@ -13209,8 +13212,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:humane-society-anniversary-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271123
 SUMMARY:Humane Society Anniversary Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Humane Society Anniversary Day\, observed on November 22\, mark
@@ -20342,8 +20345,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mother-goose-parade-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271123
 SUMMARY:Mother Goose Parade Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Mother Goose Parade Day marks one parade in one city: the Mothe
@@ -24007,10 +24010,12 @@ DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:National Cashew Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Cashew Day is a food-focused observance celebrated acr
- oss the United States on November 23\, giving fans of the dish or ingredie
- nt an excuse to seek it out and share it with others.\n\nhttps://todaycele
- brates.com/holiday/national-cashew-day/
+DESCRIPTION:National Cashew Day falls on November 23. No founding body\, go
+ vernment page or news report designates it\; only calendar sites carry the
+  name. The plant is the more interesting half: a Brazilian tree whose nut 
+ is a seed\, whose apple is a swollen flower stalk\, and whose shell is cau
+ stic enough that nobody sells cashews in it.\n\nhttps://todaycelebrates.co
+ m/holiday/national-cashew-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cashew-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -26269,8 +26274,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-cranberry-relish-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271123
 SUMMARY:National Cranberry Relish Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Cranberry Relish Day is a food-focused observance cele
@@ -28162,9 +28167,12 @@ DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:National Espresso Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Espresso Day\, observed on November 23\, gives coffee 
- lovers across the United States a reason to slow down and enjoy a favorite
-  cup.\n\nhttps://todaycelebrates.com/holiday/national-espresso-day/
+DESCRIPTION:National Espresso Day falls on November 23. No founding organiz
+ ation\, government page or news report designates it\, and nothing on reco
+ rd explains the date — only calendar sites carry it. The drink is better
+  documented than its holiday: the idea that made espresso espresso survive
+ s in a patent anyone can read.\n\nhttps://todaycelebrates.com/holiday/nati
+ onal-espresso-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-espresso-day/
 CATEGORIES:Coffee
 TRANSP:TRANSPARENT
@@ -31968,8 +31976,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-kimchi-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271123
 SUMMARY:National Kimchi Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:November 22 is Kimchi Day\, and unusually for a food observance
@@ -47397,8 +47405,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:start-your-own-country-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271123
 SUMMARY:Start Your Own Country Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Start Your Own Country Day\, observed on November 22\, is a lig
@@ -47690,21 +47698,6 @@ DESCRIPTION:Still Need to Do Day\, observed on December 29\, is a lighthear
  ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
  s.com/holiday/still-need-to-do-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/still-need-to-do-day/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:stir-up-sunday-20261122@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Stir-up Sunday
-DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/stir-up-sunday/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
 CLASS:PUBLIC

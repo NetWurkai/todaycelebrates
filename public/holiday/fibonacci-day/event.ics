@@ -20,9 +20,12 @@ DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Fibonacci Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Fibonacci Day\, observed on November 23\, celebrates a piece of
-  technology or digital culture that's become part of everyday life across 
- the United States.\n\nhttps://todaycelebrates.com/holiday/fibonacci-day/
+DESCRIPTION:Fibonacci Day falls on November 23 because the American way of 
+ writing the date\, 11/23\, spells out 1\, 1\, 2\, 3 — the opening of the
+  Fibonacci sequence. No founding body or proclamation designates the day\,
+  and that arithmetic is the only explanation on offer. It suits a sequence
+  older than the man it is named for\, and a man whose name is disputed.\n\
+ nhttps://todaycelebrates.com/holiday/fibonacci-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/fibonacci-day/
 CATEGORIES:Tech
 TRANSP:TRANSPARENT

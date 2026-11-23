@@ -14,21 +14,6 @@ SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/event.i
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:stir-up-sunday-20261122@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Stir-up Sunday
-DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/stir-up-sunday/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:stir-up-sunday-20271121@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271121

@@ -4536,8 +4536,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:go-for-a-ride-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271123
 SUMMARY:Go For a Ride Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Go For a Ride Day\, observed on November 22\, is a lighthearted
@@ -14217,8 +14217,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:start-your-own-country-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271123
 SUMMARY:Start Your Own Country Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Start Your Own Country Day\, observed on November 22\, is a lig
@@ -14292,21 +14292,6 @@ DESCRIPTION:Still Need to Do Day\, observed on December 29\, is a lighthear
  ted holiday celebrated across the United States.\n\nhttps://todaycelebrate
  s.com/holiday/still-need-to-do-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/still-need-to-do-day/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:stir-up-sunday-20261122@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Stir-up Sunday
-DESCRIPTION:Stir-up Sunday\, observed on November 22\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/stir-up-sunday/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/stir-up-sunday/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
