@@ -1800,9 +1800,13 @@ DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Celebrate Your Unique Talent Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Celebrate Your Unique Talent Day\, observed on November 24\, is
-  a lighthearted holiday celebrated across the United States.\n\nhttps://to
- daycelebrates.com/holiday/celebrate-your-unique-talent-day/
+DESCRIPTION:Celebrate Your Unique Talent Day is observed on November 24\, a
+ nd nothing is known about where it came from: no founder\, no first year\,
+  no reason for the date. What can be said with a source is odder — that 
+ the English word "talent" began as a unit of weight\, took its modern mean
+ ing from a parable about money\, and that the federal government counts ho
+ w many American adults actually make or perform anything.\n\nhttps://today
+ celebrates.com/holiday/celebrate-your-unique-talent-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/celebrate-your-unique-tal
  ent-day/
 CATEGORIES:Celebration
@@ -3133,8 +3137,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:doctor-who-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
+DTSTART;VALUE=DATE:20271123
+DTEND;VALUE=DATE:20271124
 SUMMARY:Doctor Who Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Doctor Who Day\, observed on November 23\, is a lighthearted ho

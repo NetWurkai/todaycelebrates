@@ -344,8 +344,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eat-a-cranberry-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
+DTSTART;VALUE=DATE:20271123
+DTEND;VALUE=DATE:20271124
 SUMMARY:Eat a Cranberry Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Eat a Cranberry Day is a food-focused observance celebrated acr
@@ -2230,10 +2230,13 @@ DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:National Carmenere Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Carmenere Day is a food-focused observance celebrated 
- across the United States on November 24\, giving fans of the dish or ingre
- dient an excuse to seek it out and share it with others.\n\nhttps://todayc
- elebrates.com/holiday/national-carmenere-day/
+DESCRIPTION:November 24 marks Carménère Day\, which commemorates a case o
+ f mistaken identity. For more than a century Chilean growers tended a Bord
+ eaux grape they believed was Merlot\; in 1994 a French ampelographer looke
+ d at the vines and said they were Carménère\, a variety phylloxera and p
+ oor fruit set had all but erased in France. The trade body Wines of Chile 
+ launched the day in 2014\, on the twentieth anniversary of that correction
+ .\n\nhttps://todaycelebrates.com/holiday/national-carmenere-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-carmenere-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -2260,8 +2263,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-cashew-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
+DTSTART;VALUE=DATE:20271123
+DTEND;VALUE=DATE:20271124
 SUMMARY:National Cashew Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Cashew Day falls on November 23. No founding body\, go
@@ -8117,10 +8120,13 @@ DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:National Sardines Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Sardines Day is a food-focused observance celebrated a
- cross the United States on November 24\, giving fans of the dish or ingred
- ient an excuse to seek it out and share it with others.\n\nhttps://todayce
- lebrates.com/holiday/national-sardines-day/
+DESCRIPTION:National Sardines Day falls on November 24\, and no one appears
+  to claim it: no fishery agency\, processor or trade body designates the d
+ ate\, and nothing explains the choice of day. The fish is better documente
+ d than the holiday. A sardine is not one species but a label shared by mor
+ e than twenty\, and both American sardine industries — Maine's canneries
+  and the Pacific fishery — are now gone or closed.\n\nhttps://todayceleb
+ rates.com/holiday/national-sardines-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-sardines-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
