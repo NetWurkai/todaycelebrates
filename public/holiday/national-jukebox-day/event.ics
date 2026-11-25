@@ -21,9 +21,12 @@ DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:National Jukebox Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Jukebox Day is a music-focused observance on November 
- 25\, celebrated by fans across the United States.\n\nhttps://todaycelebrat
- es.com/holiday/national-jukebox-day/
+DESCRIPTION:National Jukebox Day falls on the Wednesday before Thanksgiving
+ \, which puts it on November 25 in 2026. It is a trade promotion rather th
+ an a civic observance: a jukebox company declared it in 2016 and picked th
+ e date because the night before Thanksgiving is the busiest bar night of t
+ he year. The machine it points back to is far better documented than the d
+ ay itself.\n\nhttps://todaycelebrates.com/holiday/national-jukebox-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-jukebox-day/
 CATEGORIES:Music
 TRANSP:TRANSPARENT

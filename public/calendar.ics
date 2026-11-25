@@ -4230,8 +4230,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:brownielocks-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271125
 SUMMARY:Brownielocks Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Brownielocks Day\, observed on November 24\, is a lighthearted 
@@ -5143,8 +5143,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:celebrate-your-unique-talent-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271125
 SUMMARY:Celebrate Your Unique Talent Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Celebrate Your Unique Talent Day is observed on November 24\, a
@@ -23927,8 +23927,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-carmenere-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271125
 SUMMARY:National Carmenere Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:November 24 marks Carménère Day\, which commemorates a case o
@@ -31406,8 +31406,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-illustration-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271125
 SUMMARY:National Illustration Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Illustration Day is a reading- and writing-focused obs
@@ -31737,9 +31737,12 @@ DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:National Jukebox Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Jukebox Day is a music-focused observance on November 
- 25\, celebrated by fans across the United States.\n\nhttps://todaycelebrat
- es.com/holiday/national-jukebox-day/
+DESCRIPTION:National Jukebox Day falls on the Wednesday before Thanksgiving
+ \, which puts it on November 25 in 2026. It is a trade promotion rather th
+ an a civic observance: a jukebox company declared it in 2016 and picked th
+ e date because the night before Thanksgiving is the busiest bar night of t
+ he year. The machine it points back to is far better documented than the d
+ ay itself.\n\nhttps://todaycelebrates.com/holiday/national-jukebox-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-jukebox-day/
 CATEGORIES:Music
 TRANSP:TRANSPARENT
@@ -34908,10 +34911,13 @@ DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:National Parfait Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Parfait Day is a food-focused observance celebrated ac
- ross the United States on November 25\, giving fans of the dish or ingredi
- ent an excuse to seek it out and share it with others.\n\nhttps://todaycel
- ebrates.com/holiday/national-parfait-day/
+DESCRIPTION:National Parfait Day is marked on November 25\, and nobody has 
+ ever claimed it: no dairy group\, ice cream company\, trade body or govern
+ ment page designates it\, and the date appears only on calendar sites that
+  name neither a founder nor a first year. The dessert's own history is doc
+ umented\, and confusing. It began as a custard frozen in a mold without ch
+ urning\, and in American soda fountains it became something else.\n\nhttps
+ ://todaycelebrates.com/holiday/national-parfait-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-parfait-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -37395,8 +37401,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-sardines-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271125
 SUMMARY:National Sardines Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Sardines Day falls on November 24\, and no one appears
@@ -50170,9 +50176,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/tie-one-on-day/
+DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
+ s it on November 25 in 2026\, and despite the name it has nothing to do wi
+ th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
+ nd apron collector\, began the day after she wrapped a baked good in an ap
+ ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
+ ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -50185,9 +50194,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271124
 DTEND;VALUE=DATE:20271125
 SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/tie-one-on-day/
+DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
+ s it on November 25 in 2026\, and despite the name it has nothing to do wi
+ th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
+ nd apron collector\, began the day after she wrapped a baked good in an ap
+ ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
+ ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -50200,9 +50212,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20281122
 DTEND;VALUE=DATE:20281123
 SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/tie-one-on-day/
+DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
+ s it on November 25 in 2026\, and despite the name it has nothing to do wi
+ th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
+ nd apron collector\, began the day after she wrapped a baked good in an ap
+ ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
+ ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -50215,9 +50230,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20291121
 DTEND;VALUE=DATE:20291122
 SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/tie-one-on-day/
+DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
+ s it on November 25 in 2026\, and despite the name it has nothing to do wi
+ th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
+ nd apron collector\, began the day after she wrapped a baked good in an ap
+ ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
+ ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -50230,9 +50248,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20301127
 DTEND;VALUE=DATE:20301128
 SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/tie-one-on-day/
+DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
+ s it on November 25 in 2026\, and despite the name it has nothing to do wi
+ th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
+ nd apron collector\, began the day after she wrapped a baked good in an ap
+ ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
+ ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -50245,9 +50266,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20311126
 DTEND;VALUE=DATE:20311127
 SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/tie-one-on-day/
+DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
+ s it on November 25 in 2026\, and despite the name it has nothing to do wi
+ th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
+ nd apron collector\, began the day after she wrapped a baked good in an ap
+ ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
+ ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -50260,9 +50284,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20321124
 DTEND;VALUE=DATE:20321125
 SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/tie-one-on-day/
+DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
+ s it on November 25 in 2026\, and despite the name it has nothing to do wi
+ th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
+ nd apron collector\, began the day after she wrapped a baked good in an ap
+ ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
+ ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -50275,9 +50302,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20331123
 DTEND;VALUE=DATE:20331124
 SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/tie-one-on-day/
+DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
+ s it on November 25 in 2026\, and despite the name it has nothing to do wi
+ th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
+ nd apron collector\, began the day after she wrapped a baked good in an ap
+ ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
+ ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -50290,9 +50320,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20341122
 DTEND;VALUE=DATE:20341123
 SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/tie-one-on-day/
+DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
+ s it on November 25 in 2026\, and despite the name it has nothing to do wi
+ th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
+ nd apron collector\, began the day after she wrapped a baked good in an ap
+ ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
+ ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -50305,9 +50338,12 @@ DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20351121
 DTEND;VALUE=DATE:20351122
 SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day\, observed on November 25\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/tie-one-on-day/
+DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
+ s it on November 25 in 2026\, and despite the name it has nothing to do wi
+ th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
+ nd apron collector\, began the day after she wrapped a baked good in an ap
+ ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
+ ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
