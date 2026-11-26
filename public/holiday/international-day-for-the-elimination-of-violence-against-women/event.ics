@@ -21,8 +21,8 @@ BEGIN:VEVENT
 UID:international-day-for-the-elimination-of-violence-against-women@todayce
  lebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
 SUMMARY:International Day for the Elimination of Violence against Women
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Day for the Elimination of Violence against Women

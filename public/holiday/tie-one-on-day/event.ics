@@ -14,24 +14,6 @@ SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/event.i
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:tie-one-on-day-20261125@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
- s it on November 25 in 2026\, and despite the name it has nothing to do wi
- th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
- nd apron collector\, began the day after she wrapped a baked good in an ap
- ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
- ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:tie-one-on-day-20271124@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271124

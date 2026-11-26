@@ -9038,10 +9038,15 @@ DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Family Health History Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Family Health History Day is a health-awareness observance on N
- ovember 26\, marked across the United States to spotlight a wellness topic
-  worth a second look.\n\nhttps://todaycelebrates.com/holiday/family-health
- -history-day/
+DESCRIPTION:Family Health History Day is one of the rare observances on thi
+ s calendar with a documented founder\, a documented date and a stated purp
+ ose. In November 2004 the U.S. Surgeon General\, Richard H. Carmona\, decl
+ ared Thanksgiving Day the first annual National Family History Day\, on th
+ e reasoning that the one day a year when an extended family is in the same
+  room is the day to ask relatives what they have been diagnosed with and w
+ hat their parents died of. Because it is pinned to Thanksgiving rather tha
+ n to a fixed date\, it moves: in 2026 it falls on November 26.\n\nhttps://
+ todaycelebrates.com/holiday/family-health-history-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/family-health-history-day
  /
 CATEGORIES:Health
@@ -11673,9 +11678,12 @@ DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Good Grief Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Good Grief Day\, observed on November 26\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/good-grief-day/
+DESCRIPTION:Good Grief Day falls on November 26\, which is the birthday of 
+ Charles M. Schulz\, who drew Peanuts for very nearly fifty years. The name
+  borrows Charlie Brown's standard exclamation — Merriam-Webster lists "g
+ ood grief" as an informal phrase "used to express surprise or annoyance." 
+ Who attached it to this date\, and when\, cannot be established from any r
+ eliable source.\n\nhttps://todaycelebrates.com/holiday/good-grief-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/good-grief-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -14845,8 +14853,8 @@ BEGIN:VEVENT
 UID:international-day-for-the-elimination-of-violence-against-women@todayce
  lebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
 SUMMARY:International Day for the Elimination of Violence against Women
 RRULE:FREQ=YEARLY
 DESCRIPTION:International Day for the Elimination of Violence against Women
@@ -23525,10 +23533,13 @@ DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:National Cake Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Cake Day is a food-focused observance celebrated acros
- s the United States on November 26\, giving fans of the dish or ingredient
-  an excuse to seek it out and share it with others.\n\nhttps://todaycelebr
- ates.com/holiday/national-cake-day/
+DESCRIPTION:National Cake Day falls on November 26\, and nobody appears to 
+ have asked for it: no bakery trade group\, manufacturer\, agency or news o
+ utlet claims the day\, and no source explains the date. The subject is stu
+ rdier than the observance. Cake as Americans now bake it — tall\, soft\,
+  sweet and reliably repeatable — depends on two pieces of industrial che
+ mistry that are younger than the country\, and both are well documented.\n
+ \nhttps://todaycelebrates.com/holiday/national-cake-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-cake-day/
 CATEGORIES:Food
 TRANSP:TRANSPARENT
@@ -27802,8 +27813,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-eat-with-a-friend-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
 SUMMARY:National Eat with a Friend Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Eat with a Friend Day is a food-focused observance cel
@@ -28240,8 +28251,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-family-caregivers-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
 SUMMARY:National Family Caregivers Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Family Caregivers Day\, observed on November 25\, enco
@@ -31733,8 +31744,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-jukebox-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
 SUMMARY:National Jukebox Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Jukebox Day falls on the Wednesday before Thanksgiving
@@ -34907,8 +34918,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-parfait-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
 SUMMARY:National Parfait Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:National Parfait Day is marked on November 25\, and nobody has 
@@ -50171,24 +50182,6 @@ CLASS:PUBLIC
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:tie-one-on-day-20261125@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
- s it on November 25 in 2026\, and despite the name it has nothing to do wi
- th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
- nd apron collector\, began the day after she wrapped a baked good in an ap
- ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
- ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:tie-one-on-day-20271124@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271124
@@ -51572,8 +51565,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:what-do-you-love-about-america-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
 SUMMARY:What Do You Love About America Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:What Do You Love About America Day\, observed on November 25\, 

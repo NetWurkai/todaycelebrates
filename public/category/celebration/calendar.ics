@@ -4577,9 +4577,12 @@ DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Good Grief Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:Good Grief Day\, observed on November 26\, is a lighthearted ho
- liday celebrated across the United States.\n\nhttps://todaycelebrates.com/
- holiday/good-grief-day/
+DESCRIPTION:Good Grief Day falls on November 26\, which is the birthday of 
+ Charles M. Schulz\, who drew Peanuts for very nearly fifty years. The name
+  borrows Charlie Brown's standard exclamation — Merriam-Webster lists "g
+ ood grief" as an informal phrase "used to express surprise or annoyance." 
+ Who attached it to this date\, and when\, cannot be established from any r
+ eliable source.\n\nhttps://todaycelebrates.com/holiday/good-grief-day/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/good-grief-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
@@ -15495,24 +15498,6 @@ CLASS:PUBLIC
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:tie-one-on-day-20261125@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Tie One On Day
-DESCRIPTION:Tie One On Day falls on the day before Thanksgiving\, which put
- s it on November 25 in 2026\, and despite the name it has nothing to do wi
- th drinking. The "one" is an apron. EllynAnne Geisel\, a Colorado writer a
- nd apron collector\, began the day after she wrapped a baked good in an ap
- ron\, tucked in a note\, and gave it to a neighbor who was having a hard t
- ime.\n\nhttps://todaycelebrates.com/holiday/tie-one-on-day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/tie-one-on-day/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:tie-one-on-day-20271124@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271124
@@ -16296,8 +16281,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:what-do-you-love-about-america-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
 SUMMARY:What Do You Love About America Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:What Do You Love About America Day\, observed on November 25\, 
