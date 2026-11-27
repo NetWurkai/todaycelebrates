@@ -15,25 +15,6 @@ SOURCE;VALUE=URI:https://todaycelebrates.com/holiday/thanksgiving-day/event
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:thanksgiving-day-20261126@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Thanksgiving Day
-DESCRIPTION:Thanksgiving falls on the fourth Thursday of November — Novem
- ber 26 in 2026 — and is a federal holiday. The story most people know\, 
- a 1621 feast at Plymouth\, rests on a single eyewitness letter that never 
- uses the word. The national holiday itself came later and more bureaucrati
- cally: presidential proclamations\, a magazine editor's years-long campaig
- n\, a Civil War\, and a 1941 argument over the Christmas shopping calendar
- .\n\nhttps://todaycelebrates.com/holiday/thanksgiving-day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/thanksgiving-day/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:thanksgiving-day-20271125@todaycelebrates.com
 DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20271125

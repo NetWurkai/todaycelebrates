@@ -2601,8 +2601,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:day-of-the-covenant@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
+DTSTART;VALUE=DATE:20271126
+DTEND;VALUE=DATE:20271127
 SUMMARY:Day of the Covenant
 RRULE:FREQ=YEARLY
 DESCRIPTION:Day of the Covenant\, observed on November 26\, is a lightheart
@@ -4573,8 +4573,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:good-grief-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
+DTSTART;VALUE=DATE:20271126
+DTEND;VALUE=DATE:20271127
 SUMMARY:Good Grief Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Good Grief Day falls on November 26\, which is the birthday of 
@@ -14925,25 +14925,6 @@ DESCRIPTION:Thank You Thursday\, observed on April 29\, is a lighthearted h
  oliday celebrated across the United States.\n\nhttps://todaycelebrates.com
  /holiday/thank-you-thursday/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/thank-you-thursday/
-CATEGORIES:Celebration
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:thanksgiving-day-20261126@todaycelebrates.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Thanksgiving Day
-DESCRIPTION:Thanksgiving falls on the fourth Thursday of November — Novem
- ber 26 in 2026 — and is a federal holiday. The story most people know\, 
- a 1621 feast at Plymouth\, rests on a single eyewitness letter that never 
- uses the word. The national holiday itself came later and more bureaucrati
- cally: presidential proclamations\, a magazine editor's years-long campaig
- n\, a Civil War\, and a 1941 argument over the Christmas shopping calendar
- .\n\nhttps://todaycelebrates.com/holiday/thanksgiving-day/
-URL;VALUE=URI:https://todaycelebrates.com/holiday/thanksgiving-day/
 CATEGORIES:Celebration
 TRANSP:TRANSPARENT
 CLASS:PUBLIC

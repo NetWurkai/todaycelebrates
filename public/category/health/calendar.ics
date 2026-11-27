@@ -350,8 +350,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:family-health-history-day@todaycelebrates.com
 DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
+DTSTART;VALUE=DATE:20271126
+DTEND;VALUE=DATE:20271127
 SUMMARY:Family Health History Day
 RRULE:FREQ=YEARLY
 DESCRIPTION:Family Health History Day is one of the rare observances on thi
@@ -1063,10 +1063,14 @@ DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:National Flossing Day
 RRULE:FREQ=YEARLY
-DESCRIPTION:National Flossing Day is a health-awareness observance on Novem
- ber 27\, marked across the United States to spotlight a wellness topic wor
- th a second look.\n\nhttps://todaycelebrates.com/holiday/national-flossing
- -day/
+DESCRIPTION:National Flossing Day falls on November 27\, and nobody appears
+  to be claiming it: no dentist\, dental association\, manufacturer or agen
+ cy is documented as having started it\, and no source explains the date. T
+ he subject underneath is both well documented and genuinely contested. Flo
+ ssing is one of the most repeated pieces of health advice in the country\,
+  and the one the federal government quietly dropped from its dietary guide
+ lines in 2016.\n\nhttps://todaycelebrates.com/holiday/national-flossing-da
+ y/
 URL;VALUE=URI:https://todaycelebrates.com/holiday/national-flossing-day/
 CATEGORIES:Health
 TRANSP:TRANSPARENT
